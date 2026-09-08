@@ -95,8 +95,11 @@ def build_feed():
         ep = json.loads(meta.read_text()) if meta.exists() else {}
         title = ep.get("title", f.stem)
         summary = ep.get("summary", "")
-        pub = email.utils.format_datetime(
-            datetime.datetime.fromisoformat(f.stem + "T05:00:00+00:00"))
+        pub_dt = datetime.datetime.fromisoformat(f.stem + "T05:00:00+00:00")
+        now = datetime.datetime.now(datetime.timezone.utc)
+        if pub_dt > now:
+            pub_dt = now  # never publish into the future; players hide those
+        pub = email.utils.format_datetime(pub_dt)
         items.append(f"""    <item>
       <title>{esc(title)}</title>
       <description>{esc(summary)}</description>
