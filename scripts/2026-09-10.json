@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-10",
+  "title": "Pilot 3: The Filter",
+  "summary": "Third pass. Dense, fluent, nothing wasted.",
+  "instructions": "Two people mid-conversation. Direct, unhurried, no announcer polish.",
+  "turns": [
+    {"v": "ash", "i": "Opening a thread, matter of fact.", "t": "Two hundred and forty books on the want-to-read list."},
+    {"v": "sage", "i": "Dry.", "t": "That's a lot of appetite."},
+    {"v": "ash", "i": "Listing casually, not reciting.", "t": "Hermetics. Neville. Soros. Sun Tzu. A Kundalini compendium. And Profit First."},
+    {"v": "sage", "i": "Flat, amused.", "t": "Those don't belong on the same shelf."},
+    {"v": "ash", "i": "Setting up the obvious answer.", "t": "The obvious read is that he needs more time. Read faster, clear the stack."},
+    {"v": "sage", "i": "Cutting in, certain.", "t": "The obvious read is wrong."},
+    {"v": "ash", "i": "One word, inviting.", "t": "Why."},
+    {"v": "sage", "i": "Building the argument, steady, with a beat before the last sentence.", "t": "Those books contradict each other at the foundation. Neville says reality bends to your imagination. Soros made a fortune on the opposite claim, that your beliefs distort the picture and your only job is catching yourself being wrong before the market catches you first. One says trust the inner image. The other says the inner image is what's killing you."},
+    {"v": "ash", "i": "Following the logic.", "t": "So he reads both and ends up where."},
+    {"v": "sage", "i": "Clipped.", "t": "Holding two hundred and forty confident contradictions with no way to pick one."},
+    {"v": "ash", "i": "Quiet, putting him in the scene.", "t": "On a Tuesday. With a decision sat in front of him."},
+    {"v": "sage", "i": "Landing it.", "t": "And he reaches for whichever book he read last. That's recency dressed up as judgement."},
+    {"v": "ash", "i": "Arriving at it.", "t": "So volume was never the problem."},
+    {"v": "sage", "i": "Simple.", "t": "He's missing a filter."},
+    {"v": "ash", "i": "Direct.", "t": "Define it."},
+    {"v": "sage", "i": "Offhand, then firmer on the last four words.", "t": "One question, asked of everything. What would I see if this were false. That's the whole machine."},
+    {"v": "ash", "i": "Slight disbelief.", "t": "That simple."},
+    {"v": "sage", "i": "Warmer, pressing.", "t": "That simple, and almost nobody runs it. It's uncomfortable. And every book you love was written to make sure you never ask."},
+    {"v": "ash", "i": "Realising.", "t": "So today we're not doing a book."},
+    {"v": "sage", "i": "Settled, closing.", "t": "Today is what goes in before the books. Install it and the other two hundred and thirty nine get sharper. Skip it and you're collecting other men's certainty."},
+    {"v": "ash", "i": "Short, ready.", "t": "Let's go."}
+  ]
+}
