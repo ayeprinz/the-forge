@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-11",
+  "title": "The Filter",
+  "summary": "You own two hundred and forty books and believe almost none of it. That's the correct response, and here's what to do with it.",
+  "instructions": "Two people who have done this work and are handing it over because it matters. Warm, certain, unhurried. Conviction, never irony.",
+  "turns": [
+    {"v": "ash", "i": "Opening quietly, with weight. Speaking directly to one person.", "t": "Two hundred and forty books on the list. And if you're honest, you don't really believe most of it."},
+    {"v": "sage", "i": "Warm, immediate, no judgement.", "t": "Good. That's the right response."},
+    {"v": "ash", "i": "Genuinely asking.", "t": "Say why."},
+    {"v": "sage", "i": "Sure, unhurried, laying something down carefully.", "t": "Because nobody can believe a pile. Two hundred and forty books stacked on top of each other, some of them true, some of them beautiful and empty, and no way to tell which is which. Your mind does the only sane thing available. It holds all of it at arm's length. That isn't weakness. That's your judgement working correctly on bad inputs."},
+    {"v": "ash", "i": "Sitting with it.", "t": "So the doubt is doing its job."},
+    {"v": "sage", "i": "Firm, moving forward.", "t": "It's doing half its job. It's stopping you swallowing nonsense. It isn't yet showing you what's real. That's the half we build today."},
+    {"v": "ash", "i": "Leaning in.", "t": "How."},
+    {"v": "sage", "i": "Precise, giving him the tool.", "t": "One question, and you point it at everything. If this were true, what would I be able to see? Not feel. See. Something that shows up in the world whether you want it to or not."},
+    {"v": "ash", "i": "Testing it out loud.", "t": "So take a book that says your attention shapes what comes to you."},
+    {"v": "sage", "i": "Immediate, working the example.", "t": "Right. If that's true, what would show up? You'd expect the thing you hold attention on to appear more often in a week where you held it than a week where you didn't. That's checkable. That's yours to test. Nobody has to hand you a verdict."},
+    {"v": "ash", "i": "Quiet, understanding it.", "t": "And a book that can't survive that question."},
+    {"v": "sage", "i": "Not dismissive. Clear.", "t": "Stays on the shelf as poetry. Which is a real thing to be. It just stops giving you instructions."},
+    {"v": "ash", "i": "The realisation landing, with genuine feeling.", "t": "So this isn't about throwing the shelf out."},
+    {"v": "sage", "i": "Warm, this is the heart of it, unhurried.", "t": "It's the opposite. Somewhere in those two hundred and forty books there are maybe nine things that are load-bearing. That would hold your weight if you stood on them. Right now they're buried in with everything else, so you can't stand on any of it. The filter is how you dig them out. And once you've got nine things you'd actually bet on, you stop reading about your life and start running it."},
+    {"v": "ash", "i": "Pushing on the real objection, honest.", "t": "And the part of him that's been waiting years to feel certain first."},
+    {"v": "sage", "i": "Direct, kind, this is the load-bearing line of the episode.", "t": "That part will wait forever. Belief isn't the door. It's what's on the other side of it. Nobody has ever thought their way into knowing something is real. You run the thing, you watch what happens, and belief arrives after, uninvited, as a report on what you saw."},
+    {"v": "ash", "i": "Settled, decided.", "t": "So today isn't reading."},
+    {"v": "sage", "i": "Giving the instruction with full conviction. Slow on the last sentence.", "t": "Today you pick one claim. One. Something you half believe from something you half read. Write down what you'd be able to see if it were true. Then run it for seven days and watch. That's the whole assignment. You'll learn more about what's real in those seven days than in the last two hundred and forty books."},
+    {"v": "ash", "i": "Quiet, final.", "t": "One claim. Seven days."},
+    {"v": "sage", "i": "Closing with certainty, warm.", "t": "One claim. Seven days. Go and find out."}
+  ]
+}
