@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-08",
+  "title": "Pilot: The Filter",
+  "summary": "Cold open. Two hundred and forty books and the one thing that has to be installed before any of them count.",
+  "instructions": "Speak casually and conversationally, like two smart friends mid-discussion. Natural pace with real pauses. Not a narrator, not an announcer, no radio polish. Warm, direct, slightly dry.",
+  "turns": [
+    {"v": "ash", "t": "Alright. So there's two hundred and forty books sitting on a want-to-read list. Hermetics, Neville, Soros, Sun Tzu, a Kundalini compendium, and somewhere in there, Profit First."},
+    {"v": "sage", "t": "Which sounds like a man with an appetite."},
+    {"v": "ash", "t": "It does. And the obvious read is that the bottleneck is time. Read faster, get through more, stack the knowledge. That's the read almost everyone makes."},
+    {"v": "sage", "t": "It's the wrong one though."},
+    {"v": "ash", "t": "Say why."},
+    {"v": "sage", "t": "Because those two hundred and forty books do not agree with each other. Not on the small stuff. On the fundamentals. Neville Goddard tells you reality bends to imagination. George Soros built a fortune on the idea that your beliefs distort the market and the whole job is catching yourself being wrong. Those are not two flavours of the same thing. One of them says trust the inner picture. The other says your inner picture is the enemy."},
+    {"v": "ash", "t": "So he reads both and comes out with what."},
+    {"v": "sage", "t": "Comes out with a head full of confident contradictions and no way to tell which one to reach for on a Tuesday when there's an actual decision in front of him. That's the failure mode. Not too few books. No filter."},
+    {"v": "ash", "t": "And a filter is what, exactly."},
+    {"v": "sage", "t": "A way of asking, of any claim, what would it look like if this were false. That's it. That's the whole machine. Most people never install it because it's uncomfortable, and because every book you love is a book that never invites the question."},
+    {"v": "ash", "t": "So today's not about a book."},
+    {"v": "sage", "t": "Today is the thing you install before the books. Get this in and the other two hundred and thirty nine get sharper. Skip it and you're just collecting other men's certainty."},
+    {"v": "ash", "t": "Right. Let's go."}
+  ]
+}
