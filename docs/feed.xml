@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>The Forge</title>
+    <link>https://ayeprinz.github.io/the-forge/</link>
+    <language>en-gb</language>
+    <description>A daily hour. Private curriculum, built for one listener.</description>
+    <itunes:author>Prinz</itunes:author>
+    <itunes:explicit>true</itunes:explicit>
+    <itunes:image href="https://ayeprinz.github.io/the-forge/cover.png"/>
+    <item>
+      <title>Pilot: The Filter</title>
+      <description>Cold open. Two hundred and forty books and the one thing that has to be installed before any of them count.</description>
+      <pubDate>Tue, 08 Sep 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2026-09-08</guid>
+      <enclosure url="https://ayeprinz.github.io/the-forge/audio/2026-09-08.mp3" length="778413" type="audio/mpeg"/>
+      <itunes:duration>00:02:09</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+    </item>
+  </channel>
+</rss>
