@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Validate and render one episode, balance voices, and update the RSS feed."""
-import os, sys, json, glob, subprocess, datetime, pathlib, urllib.request, urllib.error, email.utils, hashlib, re
+import base64, os, sys, json, glob, subprocess, datetime, pathlib, urllib.request, urllib.error, email.utils, hashlib, re
 
 KEY = os.environ.get("OPENAI_API_KEY", "")
 BASE = os.environ.get("FEED_BASE", "").rstrip("/")
@@ -42,31 +42,70 @@ def validate_script(path):
 def speak(text, voice, instructions, dest):
     if not KEY:
         raise RuntimeError("OPENAI_API_KEY is missing")
+    # Leave substantial headroom before each small request. SSE usage is the
+    # billing signal; duration is never used as an exact token-cost meter.
+    usage_path = dest.parent / "usage.json"
+    usage = json.loads(usage_path.read_text()) if usage_path.exists() else {"usd": 0.0, "calls": 0}
+    if usage.get("uncertain"):
+        raise RuntimeError("Uncertain previous speech request; manual reconciliation required")
+    if len(text) > 1200 or len(instructions) > 500:
+        raise ValueError("Speech request exceeds conservative chunk size")
+    if usage["usd"] >= 1.50:
+        raise RuntimeError("Stopped before the $2 allowance; preserving request headroom")
     body = json.dumps({
         "model": MODEL, "voice": voice, "input": text,
-        "instructions": instructions, "response_format": "mp3", "speed": 0.95,
+        "instructions": instructions, "response_format": "mp3", "speed": 1.0,
+        "stream_format": "sse",
     }).encode()
+    usage["uncertain"] = True
+    usage_path.write_text(json.dumps(usage, indent=2))
     req = urllib.request.Request(
         "https://api.openai.com/v1/audio/speech", data=body,
         headers={"Authorization": f"Bearer {KEY}", "Content-Type": "application/json"})
-    for attempt in range(4):
-        try:
-            with urllib.request.urlopen(req, timeout=300) as r:
-                dest.write_bytes(r.read())
-            return
-        except urllib.error.HTTPError as e:
-            if e.code == 429 and attempt < 3:
-                import time; time.sleep(5 * (attempt + 1)); continue
-            sys.exit(f"TTS failed with HTTP {e.code}")
-    sys.exit("TTS failed after retries")
+    completed = False
+    with urllib.request.urlopen(req, timeout=300) as response, dest.open("wb") as audio:
+        for raw in response:
+            line = raw.decode("utf-8").strip()
+            if not line.startswith("data:"):
+                continue
+            payload = line[5:].strip()
+            if payload == "[DONE]":
+                continue
+            event = json.loads(payload)
+            if event.get("type") == "speech.audio.delta":
+                audio.write(base64.b64decode(event["audio"]))
+            elif event.get("type") == "speech.audio.done":
+                u = event.get("usage", {})
+                inputs, outputs = u.get("input_tokens"), u.get("output_tokens")
+                if not isinstance(inputs, int) or not isinstance(outputs, int):
+                    raise RuntimeError("Missing speech usage; stop rather than estimate billing")
+                cost = (inputs * 0.60 + outputs * 12.00) / 1000000
+                usage["usd"] += cost
+                usage["calls"] += 1
+                usage["uncertain"] = False
+                usage_path.write_text(json.dumps(usage, indent=2))
+                completed = True
+            elif event.get("type") == "error" or "error" in event:
+                raise RuntimeError("Speech API returned an error; preserving uncertain reservation")
+    if not completed or not dest.stat().st_size:
+        raise RuntimeError("Incomplete speech response; do not automatically repeat")
+    if usage["usd"] > 2:
+        raise RuntimeError("Usage exceeded reservation; stop and reconcile")
 
 def render(script_path):
     ep = validate_script(script_path)
     slug = ep["date"]
-    out = AUD / f"{slug}.mp3"
+    out = AUD / ep.get("audio_file", f"{slug}.mp3")
+    if out.parent != AUD or not re.fullmatch(r"\d{4}-\d{2}-\d{2}(?:-r\d+)?\.mp3", out.name):
+        raise ValueError("Invalid episode audio filename")
     if out.exists():
         print(f"{slug} already rendered"); return ep, out
 
+    operation = ep.get("revision", slug)
+    ledger = json.loads((ROOT / "audio-ledger.json").read_text())
+    reservation = ledger["reservations"].get(operation)
+    if not reservation or reservation.get("run_id") != os.environ.get("GITHUB_RUN_ID") or reservation.get("attempt") != os.environ.get("GITHUB_RUN_ATTEMPT"):
+        raise RuntimeError("No durable reservation for this exact run attempt")
     fingerprint = hashlib.sha256((MODEL + script_path.read_text()).encode()).hexdigest()[:20]
     tmp = ROOT / "_tmp" / fingerprint; tmp.mkdir(parents=True, exist_ok=True)
     parts = []
@@ -134,11 +173,26 @@ def render(script_path):
     report["duration_seconds"] = round(actual_seconds, 2)
     report["voice_difference_lu"] = round(difference, 2)
     (DOCS / f"{slug}-audio-check.json").write_text(json.dumps(report, indent=2))
-    if not 3300 <= actual_seconds <= 4200:
+    if actual_seconds > 4140:
+        tempo = actual_seconds / 4140
+        if tempo > 1.15:
+            raise RuntimeError("Audio needs editorial review rather than excessive speed-up")
+        adjusted = AUD / f"{slug}.adjusted.mp3"
+        subprocess.run(["ffmpeg", "-y", "-i", str(pending), "-af",
+                        f"atempo={tempo},loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "24000",
+                        "-c:a", "libmp3lame", "-b:a", "48k", "-ac", "1", str(adjusted)],
+                       check=True, capture_output=True)
+        adjusted.replace(pending)
+        actual_seconds = seconds(pending)
+        report["tempo_adjustment"] = tempo
+    if not 3000 <= actual_seconds <= 4200:
         raise RuntimeError(f"Duration {actual_seconds/60:.1f} minutes needs review; preserving rendered audio")
+    report["duration_seconds"] = round(actual_seconds, 2)
+    report["usage"] = json.loads((tmp / "usage.json").read_text())
+    report["revision"] = ep.get("revision", slug)
+    (DOCS / f"{slug}-audio-check.json").write_text(json.dumps(report, indent=2))
     pending.replace(out)
-    for p in tmp.glob("*"):
-        p.unlink()
+    # Retain clips and usage for recovery; workflow archives them.
     print(f"wrote {out} ({out.stat().st_size // 1024} KB)")
     return ep, out
 
@@ -161,13 +215,19 @@ def esc(s):
 def build_feed():
     items = []
     for f in sorted(AUD.glob("*.mp3"), reverse=True):
-        if f.stem.endswith(".pending"):
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", f.stem):
             continue
         meta = ROOT / "scripts" / f"{f.stem}.json"
         ep = json.loads(meta.read_text()) if meta.exists() else {}
-        title = ep.get("title", f.stem)
+        if ep.get("audio_file"):
+            selected = AUD / ep["audio_file"]
+            if not selected.is_file():
+                raise RuntimeError("Revised audio missing; leave existing feed unchanged")
+            f = selected
+        slug = ep.get("date", f.stem)
+        title = ep.get("title", slug)
         summary = ep.get("summary", "")
-        pub_dt = datetime.datetime.fromisoformat(f.stem + "T05:00:00+00:00")
+        pub_dt = datetime.datetime.fromisoformat(slug + "T05:00:00+00:00")
         now = datetime.datetime.now(datetime.timezone.utc)
         if pub_dt > now:
             pub_dt = now  # never publish into the future; players hide those
@@ -176,7 +236,7 @@ def build_feed():
       <title>{esc(title)}</title>
       <description>{esc(summary)}</description>
       <pubDate>{pub}</pubDate>
-      <guid isPermaLink="false">{f.stem}</guid>
+      <guid isPermaLink="false">{slug}</guid>
       <enclosure url="{BASE}/audio/{f.name}" length="{f.stat().st_size}" type="audio/mpeg"/>
       <itunes:duration>{duration(f)}</itunes:duration>
       <itunes:explicit>true</itunes:explicit>
