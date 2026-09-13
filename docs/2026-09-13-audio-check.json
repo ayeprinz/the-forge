@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-13",
+  "spoken_characters": 52943,
+  "voices": {
+    "ash": {
+      "integrated_lufs": -16.36,
+      "true_peak": 0.31
+    },
+    "sage": {
+      "integrated_lufs": -16.7,
+      "true_peak": 0.52
+    }
+  },
+  "speech_minutes": 72.86,
+  "duration_seconds": 4139.976,
+  "voice_difference_lu": 0.34,
+  "original_duration_seconds": 4546.056,
+  "recovery_tempo": 1.0980811594202897,
+  "recovery_speech_api_calls": 0
+}
