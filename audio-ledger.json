@@ -1,0 +1,18 @@
+{
+  "currency": "USD",
+  "month_cap": 60,
+  "reservations": {
+    "2026-09-13": {
+      "reserved_usd": 2,
+      "month": "2026-09",
+      "status": "legacy-unreconciled"
+    },
+    "2026-09-13-r2": {
+      "reserved_usd": 2,
+      "month": "2026-09",
+      "status": "reserved",
+      "run_id": "34768996743",
+      "attempt": "1"
+    }
+  }
+}
