@@ -25,12 +25,20 @@ jobs:
       - name: Install ffmpeg
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
 
+      - name: Reserve episode allowance
+        env:
+          EPISODE_DATE: ${{ github.event.inputs.episode_date }}
+        run: |
+          git config user.name forge-bot
+          git config user.email forge-bot@users.noreply.github.com
+          python3 reserve.py
+
       - name: Render episode and rebuild feed
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           FEED_BASE: https://ayeprinz.github.io/the-forge
           EPISODE_DATE: ${{ github.event.inputs.episode_date }}
-        run: python3 build.py
+        run: python3 -u build.py
 
       - name: Preserve audio for recovery
         if: always()
