@@ -32,6 +32,18 @@ jobs:
           EPISODE_DATE: ${{ github.event.inputs.episode_date }}
         run: python3 build.py
 
+      - name: Preserve audio for recovery
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: forge-render-${{ github.run_id }}
+          path: |
+            _tmp/
+            docs/audio/*.pending.mp3
+            docs/*-audio-check.json
+          retention-days: 7
+          if-no-files-found: ignore
+
       - name: Commit
         run: |
           git config user.name "forge-bot"
