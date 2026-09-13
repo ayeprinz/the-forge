@@ -1,7 +1,7 @@
 {
   "date": "2026-09-13",
   "title": "[Critical Thinking] The First Test: How to Know What Helps",
-  "summary": "A starting point for The Forge: turn a claim into a clear question, recognise weak evidence, and begin an honest observation record.",
+  "summary": "A foundation for The Forge: evaluate claims, distinguish observation from explanation, and practise with a worked example. Revised edition with clearer dialogue, recall questions and a reading companion approach.",
   "instructions": "Two AI voices in a warm, thoughtful conversation. Speak clearly at a measured, natural pace. Conviction without theatricality. No sarcasm. Treat uncertainty as useful information.",
   "turns": [
     {
@@ -12,7 +12,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Find out how."
+      "t": "What should someone be able to do by the end of this lesson?"
     },
     {
       "v": "sage",
@@ -22,12 +22,12 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "That's the whole thing I've been missing."
+      "t": "So no previous reading is needed?"
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "That's the opening of The Forge. We can explore ambitious ideas while keeping track of what supports them. Feeling inspired is valuable. Establishing that an explanation is true takes a different kind of work. Today you'll practise keeping those two achievements distinct."
+      "t": "None. We'll explain the ideas as we go. The goal is to distinguish a claim from an observation, consider another explanation, and say what remains uncertain. Books and later lessons will give those habits more depth. Today is an introduction, with a practical example you can follow without a background in research."
     },
     {
       "v": "ash",
@@ -42,7 +42,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Countable. Could fail. Two weeks."
+      "t": "An observable outcome, a prediction that could be challenged, and a suitable method."
     },
     {
       "v": "sage",
@@ -57,7 +57,7 @@
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "A claim predicts something specific when it tells you in advance what shows up in the world if it's true. Not a mood. A quantity. How many. How long. How often. Out of how many."
+      "t": "A useful prediction describes what you expect to observe under specified conditions. That might be a quantity, such as a delay in minutes, or a clearly described event. The important part is that you can distinguish what happened from what you expected. A prediction becomes less informative when it can be stretched to fit any outcome."
     },
     {
       "v": "ash",
@@ -77,7 +77,7 @@
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "If I sit for twenty minutes before I open my phone, I'll finish more of the day's work. That has a shape. Finish more means you count the things you finished. You can do that with a pen."
+      "t": "For example: keeping my phone out of reach during a planned writing session will reduce how long I take to begin. We would need to define out of reach, beginning, and the comparison. The sentence gives us something to develop into a question. It doesn't yet establish that the claim is true."
     },
     {
       "v": "ash",
@@ -162,12 +162,12 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "What about claims about how I feel. Half my shelf is about internal states."
+      "t": "Can we record internal states, such as how focused a session felt?"
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Feelings count. You just have to count them the same way twice. You set a scale before you start, one to ten, and you write what a three means and what an eight means, in your own words, in advance. Then you score at the same hour every day."
+      "t": "Yes. One option is a personal rating scale with clear anchors. You might describe what low and high focus mean before using it, then ask the same question at a consistent point after each session. That supports consistency. It does not make the rating an objective measure, or guarantee that you interpret the scale the same way every time."
     },
     {
       "v": "ash",
@@ -182,12 +182,12 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Because I can't move the goalposts once the scale is written."
+      "t": "The written definition gives me something to check against if my interpretation changes."
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "That's it. You've locked the ruler before you measure the thing."
+      "t": "Exactly. If you later improve the definition, keep the earlier version and record when it changed. That way you can tell whether two scores were produced using the same rule."
     },
     {
       "v": "ash",
@@ -252,17 +252,17 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "And Einstein was his contrast."
+      "t": "Can a prediction be precise and still leave room for measurement error?"
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "The eclipse observations in nineteen nineteen offered a test of a quantitative prediction associated with general relativity. An apparent disagreement would still need scrutiny of the observations and their uncertainty. Good testing puts a theory at risk without pretending measurement itself can't fail."
+      "t": "Certainly. Suppose your claim predicts a five-minute reduction in delay. A timer error, a different kind of task, or ordinary day-to-day variation can complicate the comparison. A fair test puts a prediction at risk while also checking whether the observations were capable of testing it. A surprising measurement is a reason to investigate, not an automatic verdict."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "So when I read a manifestation book and everything that happens counts as evidence."
+      "t": "And if a claim about manifestation treats every possible outcome as confirmation?"
     },
     {
       "v": "sage",
@@ -272,7 +272,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "That's a hard thing to hear about books I've carried for years."
+      "t": "Does that make the whole book useless?"
     },
     {
       "v": "sage",
@@ -287,12 +287,12 @@
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "A fair chance means a real chance to fail. Anything less is flattery."
+      "t": "A fair test allows observations to challenge a prediction. That is one way of assessing a claim. A poem, an ethical argument or a spiritual interpretation may call for a different kind of assessment."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Why does everybody skip that one. It seems like the obvious step."
+      "t": "Can you show why looking only for confirmation can miss an alternative?"
     },
     {
       "v": "sage",
@@ -342,27 +342,27 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "The move that finds the truth is proposing three, five, nine."
+      "t": "Would three, five, nine distinguish those two rules?"
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Try one, two, three. If it gets a yes, your rule about even numbers is too narrow. The useful move is an example where competing rules predict different answers."
+      "t": "Yes. That triple fits ascending order but not even numbers increasing by two. One, two, three would also distinguish those rules. A yes does not establish the final rule by itself, because other rules may fit. It tells you your original guess was too narrow. Then you keep testing alternatives."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "And in my life the no is expensive."
+      "t": "It could feel uncomfortable to challenge an idea someone values."
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "It is. If you've built a practice around a claim, going looking for the no feels like sabotage. It isn't. It's the only way you'll ever get to keep the practice for a reason."
+      "t": "It can. Start by stating the idea fairly and choosing a proportionate question. You can value a practice without pretending the explanation attached to it has already been established. The point is to improve understanding, not to manufacture a failure."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Third criterion. The fortnight."
+      "t": "How do we choose a realistic observation period?"
     },
     {
       "v": "sage",
@@ -372,7 +372,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Which is?"
+      "t": "Why use a small starting window at all?"
     },
     {
       "v": "sage",
@@ -382,7 +382,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "And the second reason."
+      "t": "And if the result is still uncertain at the end?"
     },
     {
       "v": "sage",
@@ -392,7 +392,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "But the big claims are slow. Nobody's saying sixty six days of a practice changes you in two weeks."
+      "t": "What if the proposed effect takes months?"
     },
     {
       "v": "sage",
@@ -417,7 +417,7 @@
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Then you've learnt that the fortnight effect isn't there. You haven't learnt the year claim is false. You write that down too, on the card, before you start. What would this test not be able to see. That sentence keeps you honest at the end."
+      "t": "Then you have not found a clear effect in those observations. That may reflect a small effect, substantial variation, an unsuitable design, or no effect. You cannot choose between those explanations simply because the fortnight ended. Write down what the test could and could not detect before deciding how much the result should change your confidence."
     },
     {
       "v": "ash",
@@ -427,22 +427,22 @@
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Everyone forgets it. Write it anyway."
+      "t": "Put that limit on the same sheet as the prediction. It is easier to remember when it stays beside the result."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "This is the filter again."
+      "t": "So the question comes before the test."
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "It's the filter with teeth. The filter asks what you'd be able to see if this were true. The test says, fine, go and look, and here's how to look without lying to yourself."
+      "t": "Yes. First decide what you are asking. Then consider what evidence could answer it. Sometimes the next step is a notebook, sometimes it is reading a source, and sometimes it is asking someone with the relevant expertise."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "And the frequency thing you said. Say more."
+      "t": "How does the number of opportunities to observe an outcome matter?"
     },
     {
       "v": "sage",
@@ -462,7 +462,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "So I'm looking for the fast, frequent shadow of the slow claim."
+      "t": "So the smaller question needs its own conclusion."
     },
     {
       "v": "sage",
@@ -477,17 +477,17 @@
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Six lines. The claim in one sentence. The one number you'll score, and when. The scale, with two anchor points written out. The fourteen day plan of which days you do the thing. The result that would make you say no. And the sentence about what this test can't see."
+      "t": "Write the claim, the main outcome and its definition, when and how you will record it, the proposed comparison if one is suitable, what would count against the prediction, and what the design cannot establish. A feeling scale only needs anchors if you actually use one. These fields should fit the question, rather than becoming a ritual copied onto every subject."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Claim. Number. Scale. Plan. The no. The limit."
+      "t": "Question, measure, recording rule, comparison, challenge and limits."
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Six lines and a fortnight. That's the instrument. And the reason it's worth learning once, properly, is that it doesn't care what you point it at."
+      "t": "Those are planning prompts. Their usefulness depends on applying them appropriately. Filling six boxes does not make an unsuitable experiment informative."
     },
     {
       "v": "ash",
@@ -502,7 +502,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Then let's put it under pressure. Take a claim off my shelf and narrow it in front of me. Don't be kind to it."
+      "t": "Could we examine an illustrative visualisation claim without assuming what any particular book says?"
     },
     {
       "v": "sage",
@@ -512,7 +512,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "And the claim attached to it."
+      "t": "How would that differ from a broad promise about circumstances changing?"
     },
     {
       "v": "sage",
@@ -542,7 +542,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Go."
+      "t": "What smaller question could we investigate?"
     },
     {
       "v": "sage",
@@ -552,7 +552,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "So the first narrowing is inward."
+      "t": "But a manageable question is not necessarily the question the author meant."
     },
     {
       "v": "sage",
@@ -562,7 +562,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "But that's not what the claim says. He says circumstances."
+      "t": "So a finding about starting work would not settle a claim about external circumstances."
     },
     {
       "v": "sage",
@@ -582,17 +582,17 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "That's still a feeling."
+      "t": "A timestamp measures an action. Does opening the file really mean doing useful work?"
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "You could record a behaviour as well, but don't quietly switch which outcome counts as the main one after seeing the result. A file timestamp provides a trace. It still needs interpretation: opening the file isn't the same as producing good work."
+      "t": "Not necessarily. A file timestamp leaves a trace, but the trace may be a poor measure of the outcome you care about. You could define beginning as opening the project and writing a first sentence. Keep that definition consistent. Don't switch to a more flattering measure after seeing the result."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "And that's a real prediction. If the assumption is doing anything, I should be acting differently."
+      "t": "So a clear measure still needs to match the claim."
     },
     {
       "v": "sage",
@@ -602,7 +602,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "That's a completely different sentence from what's in the book."
+      "t": "We should label our question as an adaptation, rather than attribute it to the book."
     },
     {
       "v": "sage",
@@ -652,7 +652,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "And I always start these things on my worst week."
+      "t": "What if someone starts a new routine just after an unusually bad week?"
     },
     {
       "v": "sage",
@@ -697,12 +697,12 @@
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Implementation intentions. Peter Gollwitzer at New York University, and Paschal Sheeran. The claim is that a plan in the form if situation X arises then I will do Y produces more follow through than an intention alone."
+      "t": "One researched example is an implementation intention. Peter Gollwitzer and Paschal Sheeran reviewed plans that link a specific situation with a specific response. The form is: if situation X arises, then I will do Y. The question is whether that kind of plan improves follow-through compared with an intention alone."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "I'll write more."
+      "t": "So how would a general intention to write become one of those plans?"
     },
     {
       "v": "sage",
@@ -732,7 +732,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Say it."
+      "t": "How should a listener use that group result?"
     },
     {
       "v": "sage",
@@ -752,12 +752,12 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "So a strong prior is a reason to run the test, not a reason to skip it."
+      "t": "Do we always need a personal trial before using a well-supported idea?"
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "And a weak prior is a reason to run a shorter, cheaper one. The evidence out there decides how much of your fortnight a claim deserves. It doesn't decide the answer."
+      "t": "No. For a low-cost decision, suitable existing evidence may be enough to try a sensible routine. You do not need to personally reproduce every study. If you investigate your own outcome, choose the duration from the question and expected variation. A weakly supported claim does not automatically deserve a shorter experiment, or any experiment at all."
     },
     {
       "v": "ash",
@@ -772,7 +772,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Which brings us to the part I don't understand yet. You said score before you check what you did."
+      "t": "What can a consistent recording procedure help with?"
     },
     {
       "v": "sage",
@@ -802,7 +802,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Give me the study."
+      "t": "Could you illustrate that with a diary example?"
     },
     {
       "v": "sage",
@@ -812,7 +812,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "And they walked out."
+      "t": "But the person still knows what exercise they did."
     },
     {
       "v": "sage",
@@ -832,7 +832,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "You mentioned the experimenter."
+      "t": "Could expectations change the behaviour itself, as well as the rating?"
     },
     {
       "v": "sage",
@@ -842,7 +842,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "What happened."
+      "t": "For example, putting more effort into the condition I favour?"
     },
     {
       "v": "sage",
@@ -862,72 +862,12 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "And medicine has numbers on how much this costs?"
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Schulz and colleagues reported an observational analysis of two hundred and fifty trials in JAMA in nineteen ninety five. Inadequate allocation concealment was associated with more exaggerated treatment estimates. That concerns whether the next treatment assignment could be anticipated during recruitment, which is distinct from knowing the treatment afterwards."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "So that doesn't give me a percentage for my own diary bias."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Correct. We can't convert that finding into a personal error rate, or say that knowledge alone caused the whole association. It illustrates why the details of a study's method deserve attention."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "So the fix."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "For your record, set the questions before you start, enter observations promptly, and keep any interpretation in a separate field. If you use a planned comparison, keep the assignment record too. Don't claim you've concealed a condition you can remember performing."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Keep the observation separate from the explanation."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Keep the original entry. If you need to correct a genuine mistake, append a dated correction and the reason. An audit trail is better than a rule that forces you to preserve a known error as though it were accurate."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "But I know whether I meditated. I can't blind myself to that."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Exactly. Avoiding a glance at the schedule isn't genuine blinding when you already know what you did. It may be a useful recording routine, but we should describe it modestly. Where possible, use a timestamp or another measure that leaves less room for judgement."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "So transparent limitations, not pretend blinding."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Yes. The limitation belongs in the record beside the result."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
       "t": "Pre registration. Why does that exist."
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Because science discovered it was fooling itself at scale, and the fix was to make people say what they'd count before they counted it."
+      "t": "Preregistration makes the intended question and analysis visible before the results are known. It helps readers distinguish an advance prediction from an explanation developed after inspecting the data. That improves transparency, but it does not make a weak design strong or prevent every kind of mistake."
     },
     {
       "v": "ash",
@@ -947,7 +887,7 @@
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "They had people listen to a song. One group heard When I'm Sixty Four by the Beatles. The other heard a control track. Then they asked their age, and controlling for their father's age, the people who heard the Beatles song were about a year and a half younger."
+      "t": "In one demonstration, the researchers used choices in analysis to produce an apparent relationship between listening to a song and participants being younger. That does not mean a song changed anyone's age. The point was to show how a misleading result can emerge from choices that might each sound defensible in isolation."
     },
     {
       "v": "ash",
@@ -967,7 +907,7 @@
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "They called them researcher degrees of freedom. Every small choice made after you see the data is a chance to nudge, and each nudge feels reasonable at the time, and the sum of them will produce whatever you were hoping for."
+      "t": "They called these choices researcher degrees of freedom. Decisions about which observations, outcomes and analyses to report can increase the chance of a misleading finding, especially when the choices are guided by results. Flexible analysis is not inherently dishonest. The problem is hiding the flexibility while presenting the selected result as a clean test of an advance prediction."
     },
     {
       "v": "ash",
@@ -977,7 +917,7 @@
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Which day you call the start. Whether the day you were ill counts. Whether you use the average or the best week. Whether tension or sleep is the real outcome. Whether you drop the two days you forgot to score. Every one of those is a nudge, and you'll make them all after you've seen the numbers."
+      "t": "Possible choices include when the observation period begins, which sessions to exclude, which outcome to emphasise, and whether to report an average or a selected subset. Some changes can be justified. Preserve the original plan and explain the changes so their influence can be assessed."
     },
     {
       "v": "ash",
@@ -987,7 +927,7 @@
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Unless you decide them first. That's the whole of pre registration in one sentence. Say what you'll count, and how you'll count it, before the counting can tell you what you want to hear."
+      "t": "Decide what you can in advance, then document departures. A dated plan helps distinguish intended analysis from later exploration. There is more to formal preregistration than a sentence, but that distinction is useful even in a personal notebook."
     },
     {
       "v": "ash",
@@ -1012,12 +952,12 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "That's exactly what I'd do."
+      "t": "I can see how a surprising result could become the story I remember."
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "It's what everyone does. It's why the rule exists. One primary outcome, named in advance, on the card."
+      "t": "That is the risk we are trying to reduce. Naming a main outcome in advance gives the exercise a clear question. Reporting the other observations honestly keeps a selected success from hiding the rest of the record."
     },
     {
       "v": "ash",
@@ -1027,7 +967,7 @@
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Then you've got a new claim for a new fortnight. That's the answer. Anything you find that you didn't predict is a candidate, and candidates get tested, they don't get concluded. You've generated a hypothesis. Now go and run it."
+      "t": "Treat it as a new possibility to investigate. Check whether it is already explained by good evidence, whether it could reflect chance or a measurement problem, and what comparison would help. You may need a new study, more observations or a different method. There is no rule that every surprise requires another fortnight."
     },
     {
       "v": "ash",
@@ -1047,12 +987,12 @@
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "You'd report it, and you'd remember that one as what the fortnight showed, and the four flat ones would fade. This is why medical trials name a primary outcome in the protocol and treat everything else as a hint. It's the same rule, scaled down to your kitchen."
+      "t": "That selective account can be misleading. Research can include planned secondary outcomes that are informative in their own right, with appropriate analysis. The essential distinction is between what was planned and what was selected after seeing the data. Report the whole relevant picture, including results that did not fit the preferred story."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "So more measuring makes me less certain, not more."
+      "t": "So additional information is useful if we explain how it was selected and analysed."
     },
     {
       "v": "sage",
@@ -1067,107 +1007,7 @@
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "That's the rhythm. And once you've got that rhythm, the accidental discoveries stop being a source of self deception and start being your best material."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Does pre registration actually change what people find."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Robert Kaplan and Veronica Irvin, two thousand and fifteen, in PLoS One. They looked at large clinical trials funded by the American National Heart, Lung and Blood Institute. Drugs and supplements for heart disease. Big, expensive, serious trials."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Go on."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Of the thirty trials published before the year two thousand, seventeen showed a significant benefit on the main outcome. Fifty seven in a hundred. Then registration in advance became the requirement. Of the twenty five trials published after, two showed a benefit. Eight in a hundred."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Fifty seven to eight."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "That association is striking, but many things changed over those decades. The study didn't randomly assign trials to an era. Registration and reporting standards may have contributed, while changes in treatments and research questions are also relevant."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "So most of what those trials were finding was."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "The authors discuss several possible explanations. We should report the observation without claiming it isolates one cause. Otherwise we'd use a paper about careful evidence to teach an overconfident conclusion."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "And these are professionals."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "The practical lesson is to make your intended question visible before the results arrive. The study doesn't tell us how much that will change your own findings."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "That's the argument."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "There is no valid way to turn those trial percentages into the probability that your fortnight will mislead you. Your question, measurements, design and analysis determine that uncertainty. Write the plan first because it clarifies the test, not because it promises a numerical shield."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Structurally, I mean."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Registered reports take the idea further: journals evaluate the question and proposed method before the results are known, and can offer in-principle acceptance. Publication still depends on following the approved process and meeting the journal's conditions."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "So a null result gets published."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "That design reduces the pressure to produce a positive result as the price of publication. It doesn't abolish every incentive or guarantee acceptance whatever researchers do. The method and the conditions of the agreement still matter."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "And my version of that is?"
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Your small version is a dated plan you preserve before collecting observations. Save a copy or email it to yourself if you want a separate timestamp. That's a personal record, not a formally reviewed registered report. It is enough to make later changes visible."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Because I can't quietly rewrite what I predicted."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "You can still amend a plan. Just retain the original and record when and why you amended it. Transparency matters more than pretending a document can never change."
+      "t": "Separate exploration from confirmation. That makes an unexpected observation easier to investigate without overstating it. An independent check can still be inconclusive or introduce its own limitations."
     },
     {
       "v": "ash",
@@ -1192,7 +1032,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Same question."
+      "t": "Which fields would help preserve that distinction?"
     },
     {
       "v": "sage",
@@ -1202,7 +1042,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "That's brutal. I'd want to note the context."
+      "t": "Where would interruptions and other context go?"
     },
     {
       "v": "sage",
@@ -1232,7 +1072,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "By how much."
+      "t": "Can you give an example of a memory and a timestamp disagreeing?"
     },
     {
       "v": "sage",
@@ -1242,7 +1082,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "One word."
+      "t": "So neither source should silently replace the other."
     },
     {
       "v": "sage",
@@ -1292,7 +1132,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "So I need a baseline before I start."
+      "t": "Is an average enough to describe that variation?"
     },
     {
       "v": "sage",
@@ -1362,146 +1202,6 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Where does this method fail. Be honest with me."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Five places, and you should know all of them before you trust a result of your own."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Go."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Carryover is one difficulty. A behaviour performed in one session might still affect the next comparison session. That can complicate the contrast in different ways. It doesn't always simply shrink the effect; the pattern depends on timing and on what persists."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "How do I handle it."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "The length of conditions and any washout period must follow what is known about how long the effect lasts. Two days on and two days off is not a general cure. Don't drop transition days after seeing the results. If carryover is substantial or unknown, a quick crossover may be the wrong design."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Next."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "You may know which behaviour you performed. State that limitation. More objective measures or independent scoring can sometimes help, but none of these is a universal replacement for blinding."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Go on."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Expectation and context can influence some outcomes. To isolate a specific treatment effect, researchers may use an appropriate comparison. For an ordinary habit, you might instead care about the usefulness of the whole routine, while remaining uncertain about its mechanism."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Say more."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Those are different questions: whether a particular explanation is correct, and whether a low-cost routine seems useful for a particular outcome. Your record may contribute to the second without settling the first."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "So if the practice helps, and it costs me ten minutes, I keep it, and I stay agnostic about the metaphysics."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "You can choose to keep a harmless, useful routine while describing the evidence modestly. Say what you observed and what remains uncertain. Don't turn an encouraging fortnight into proof of a metaphysical explanation."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "That's the most useful distinction you've given me."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "It's also the one that lets you keep practices you love without lying about why they work."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Next failure."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Some changes take much longer than this exercise. A short test may be unable to detect them. Record that limit before you start, and don't describe a poorly informed null result as evidence that a long-term claim is false."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Last one."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "The whole method is better at generating ideas than settling them. And there's a man who spent his career finding that out."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Tell me."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Self-experimentation can generate questions that larger studies haven't addressed. The attraction is close observation of a life over time. The risk is that the observer also chooses the intervention and interprets the outcome."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "What did he argue."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "You can notice a pattern worth investigating without treating it as settled evidence. Preserve the observation, list plausible alternatives, and decide what next comparison would distinguish them."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Where did it break."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "The mistake is exporting a personal pattern as a universal prescription. A result from one person under one set of circumstances doesn't establish what everyone else should do. Even for that person, the result may change with the context or disappear on repetition."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "So my fortnight tells me about me."
-    },
-    {
-      "v": "sage",
-      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "It provides observations about you in those conditions. How confidently those observations establish a causal effect depends on the method. That is a narrower claim than either universal truth or guaranteed personal certainty."
-    },
-    {
-      "v": "ash",
-      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
       "t": "Is testing on one person a real method, though, or a hobby."
     },
     {
@@ -1522,12 +1222,12 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Give me the case where the machinery of science produced a result about something spiritual and it was wrong. I need to see that."
+      "t": "Can a published finding fail an independent check?"
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Daryl Bem, two thousand and eleven, in the Journal of Personality and Social Psychology. That's a top journal in the field. Nine experiments, around a thousand participants, reporting evidence for precognition. People appearing to be affected by events that hadn't happened yet."
+      "t": "Yes. A relevant example is the retroactive recall experiment discussed by Stuart Ritchie, Richard Wiseman and Christopher French in their replication paper. The original claim concerned whether practice occurring later could influence earlier recall. We can examine what happened when that specific result was tested again."
     },
     {
       "v": "ash",
@@ -1537,7 +1237,7 @@
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "It passed peer review in a serious journal, and it caused an enormous row. Because the methods looked like the standard methods. If those methods could produce this, the field had a problem with its methods."
+      "t": "Publication is a stage of scrutiny, not the end of it. A result can pass review and still depend on chance, an unrecognised feature of the procedure or choices in analysis. Those are possibilities to investigate, rather than explanations to assume."
     },
     {
       "v": "ash",
@@ -1552,7 +1252,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "So the failure was harder to publish than the impossible thing."
+      "t": "What conclusion can we draw from those attempts?"
     },
     {
       "v": "sage",
@@ -1562,7 +1262,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "You mentioned it."
+      "t": "Has replication been examined across a larger set of psychology studies?"
     },
     {
       "v": "sage",
@@ -1632,7 +1332,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "He had a story about the numbers as well."
+      "t": "Can we apply that principle to checking surprising numbers?"
     },
     {
       "v": "sage",
@@ -1642,7 +1342,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "What was going on."
+      "t": "How should the checking rule change?"
     },
     {
       "v": "sage",
@@ -1652,7 +1352,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "That's the exact thing I'd do on day nine."
+      "t": "The same scrutiny should apply whether the result is convenient or awkward."
     },
     {
       "v": "sage",
@@ -1672,7 +1372,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "And nobody used it."
+      "t": "So collecting more of the wrong measurement would not fix it."
     },
     {
       "v": "sage",
@@ -1712,7 +1412,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "There's something else here, though. Testing costs me a fortnight each time. I've got two hundred and forty books."
+      "t": "With so much to learn, how do we avoid turning every book into a separate experiment?"
     },
     {
       "v": "sage",
@@ -1722,27 +1422,27 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Define that."
+      "t": "How would you decide which question deserves attention first?"
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "A claim is load bearing if a lot of your behaviour rests on it. If you're doing something every day because of a book, that book has a first claim on a slot. Test what you're already paying for."
+      "t": "Prioritise a question when it matters to a decision you actually face, when getting it wrong has a meaningful cost, and when better information could change your choice. You might find that information in an existing source. The goal is an informed decision, not a growing collection of experiments."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "So the practices I've kept without evidence go first."
+      "t": "So relevance and the quality of available evidence guide the next step."
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "First in the queue. Because you're already paying the price. All you're adding is finding out what you're getting."
+      "t": "Yes. A question can be interesting without being urgent. You can also read a book to understand a tradition, argument or story without adopting its practical advice. Learning and committing to a practice are separate decisions."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "You keep saying this instrument points at anything."
+      "t": "And different subjects need different methods."
     },
     {
       "v": "sage",
@@ -1752,7 +1452,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Quickly."
+      "t": "What is the simplest first exercise?"
     },
     {
       "v": "sage",
@@ -1762,7 +1462,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "That one's mine."
+      "t": "How would the difficulty change for a question about social media posting times?"
     },
     {
       "v": "sage",
@@ -1772,7 +1472,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "For me."
+      "t": "Would comparing a few different posts establish the best hour?"
     },
     {
       "v": "sage",
@@ -1782,7 +1482,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "That's a better answer than most people would give me."
+      "t": "So choose a question where the observations can genuinely help."
     },
     {
       "v": "sage",
@@ -1792,7 +1492,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Since it's on my shelf twenty times over."
+      "t": "And if someone is interested in a quiet routine before work?"
     },
     {
       "v": "sage",
@@ -1802,7 +1502,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "What happened there."
+      "t": "That keeps the first step manageable."
     },
     {
       "v": "sage",
@@ -1812,117 +1512,147 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "What does it ask."
+      "t": "Can we put the ideas together in a complete example before the recall questions?"
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Let's gather the parts, then you'll have time to answer a few questions yourself. The pauses are there so you can retrieve the idea before hearing the explanation."
+      "t": "Let's use a fictional learner called Alex. These are invented observations for teaching, not research findings. Alex plans four comparable writing sessions to check whether the recording procedure is usable. The question is whether putting a phone out of reach might help with beginning work. Four sessions cannot establish that it does. They can reveal whether beginning has been defined clearly enough to measure."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "All right. Recap it. I want the whole thing in order."
+      "t": "What does Alex write before the first session?"
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "First, specify the question. What observation would bear on it, and what does that observation actually measure? For an informal first record, keep the task low risk and the definition clear."
+      "t": "The planned start is ten in the morning. Beginning means opening the project and writing the first sentence intended for that task. The outcome is the delay between the planned start and that sentence. Alex records the time promptly, notes where the phone was, and keeps a separate field for interruptions. That is a measurement pilot. It is not yet a carefully designed comparison of phone conditions."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Go on."
+      "t": "What happens in the four sessions?"
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "The difficult move is naming what would count against your expectation. Use a fair comparison, report its limits and leave room for an answer you didn't hope for. That principle travels beyond any one puzzle or author."
+      "t": "In the first, the phone is on the desk and the delay is twelve minutes. In the second, the phone is outside the room and the delay is three minutes. In the third, the phone is outside the room and the delay is fifteen minutes because a required file is unavailable. In the fourth, the phone is on the desk and the delay is four minutes. Keep those four observations visible rather than selecting the two that make the best story."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Narrowing."
+      "t": "The first two sessions make the phone idea look convincing. The other two complicate it."
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "A clear question, an observable outcome, and a result that could count against the prediction. For this exercise choose a manageable window, but remember that the window limits the conclusion."
+      "t": "Exactly. You could say the delay fell from twelve minutes to three when the phone moved. Those two entries really say that. But reporting only those entries hides the rest. Across all four, the two phone-on-desk delays average eight minutes. The two phone-outside delays average nine minutes. That arithmetic describes the observations. It does not establish that moving the phone makes people slower."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Design."
+      "t": "Would we exclude the session when the file was missing?"
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "For a suitable reversible habit, a planned comparison may help. Random assignment can reduce selection bias without guaranteeing balance. Think about carryover and time trends before deciding which sessions to compare."
+      "t": "First ask whether the definition and plan covered that situation. Alex can retain the entry, explain the interruption and show how the description changes with and without it. Excluding an awkward result silently would conceal a decision that matters. Equally, blindly treating an unavailable task as comparable to an available one would ignore relevant context. The record needs both the observation and the explanation."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "The scoring rule."
+      "t": "What if there was no exclusion rule in advance?"
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Record promptly and consistently. Keep the original observation separate from your explanation. If you know which condition you performed, say so. We aren't calling a folded sheet of paper a blinded trial."
+      "t": "Then label the decision as made after seeing the observations. The pilot has revealed a design problem: the work must actually be available for delay to mean the same thing across sessions. That is useful learning. It would be a mistake to repair the rule and then present the earlier observations as though they had been collected under the improved plan."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Writing it down first."
+      "t": "What is the honest conclusion?"
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Decide the main question before seeing the result. Flexible analysis can create misleading findings, while the evidence about changes in published trial results is observational. Those lessons support transparency without giving you a personal percentage of protection."
+      "t": "Alex has not established a phone effect. There are too few sessions, no planned random assignment, and an important difference in whether the task was available. Alex has learned how to define a start, record a delay and notice a comparison problem. A useful next step could be improving the procedure and consulting existing research on distraction. It does not have to be another experiment immediately."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "The log."
+      "t": "Could Alex still choose to put the phone outside the room?"
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Fixed fields, with context kept alongside rather than hidden. Missing observations marked. Corrections dated. A record that another interpretation could still examine."
+      "t": "Yes, if that is a convenient, low-cost preference. A practical choice does not need to be announced as a scientific discovery. Alex could say: I prefer this arrangement and will see whether it remains useful. That is different from saying: these four sessions prove why the arrangement works. Keep confidence in the explanation separate from the freedom to make an ordinary reversible choice."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "How big."
+      "t": "How does that transfer to reading a book about history?"
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "There is no universal visual threshold. Inspect the sequence and variability, and allow the result to remain inconclusive. A small difference doesn't prove no effect, and an impressive difference still needs scrutiny."
+      "t": "The habit of asking for support transfers. The notebook experiment usually does not. If a book claims that a particular event occurred, investigate the documents, their dates, provenance and relationship to other evidence. Several authors repeating one account are not necessarily several independent sources. A personal feeling of recognition while reading cannot establish that the historical event occurred."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Last one."
+      "t": "And a book presenting a spiritual interpretation?"
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Carryover, expectations, time trends and measurement limits can all matter. Clinical or high-stakes questions need appropriate expertise. A small personal record can be useful without settling a universal truth."
+      "t": "First understand what kind of claim it makes. An interpretation may be evaluated for its coherence, context and meaning within a tradition. A claim about a measurable physical effect also needs relevant empirical evidence. A passage can contain both. Reading it carefully means identifying the distinction rather than declaring the whole text either proven science or worthless."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Then let me ask them back. Five."
+      "t": "So Forge can give me a starting framework, and reading the books can extend or challenge it."
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
-      "t": "Go on."
+      "t": "Yes. Before returning to a topic, try explaining one idea from memory, then check it against the book or lesson. Notice what you omitted, misunderstood or need to qualify. In a study of vocabulary learning, Jeffrey Karpicke and Henry Roediger found that repeated retrieval supported delayed recall more than continued study alone after initial learning. That specific finding supports including recall practice; it does not promise mastery of every subject."
     },
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "One. What are the three tests of a testable claim.",
+      "t": "Is that automatically memory reconsolidation?"
+    },
+    {
+      "v": "sage",
+      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
+      "t": "No. Reconsolidation refers to processes through which a reactivated memory can become unstable and then stabilise again. Reviews describe conditions that affect whether this occurs; retrieval does not always destabilise a memory. We cannot identify that process just because a second reading feels clearer. For learning here, the practical instruction is to recall, check, correct and revisit. We can use that routine without claiming to observe a particular brain mechanism."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
+      "t": "What if I cannot remember enough to explain the idea?"
+    },
+    {
+      "v": "sage",
+      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
+      "t": "Use a smaller question, then check the answer. For today's topic, start with: what is the difference between recording a delay and explaining its cause? A partial answer reveals where you need support. Read the relevant part again, correct the answer, and return to it later. You do not need to pass a test before being allowed to read. The questions help direct attention."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
+      "t": "Let us try the five questions now."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
+      "t": "Take a moment to answer each before hearing the explanation. You can pause longer if you need it. The purpose is to practise the distinctions, not to judge how quickly you speak."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
+      "t": "One. What makes an observation useful for testing a prediction?",
       "pause_after": 7
     },
     {
@@ -1933,7 +1663,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Two. Which criterion does everybody skip, and what happens when they do.",
+      "t": "Two. Why ask what would reduce your confidence in a claim?",
       "pause_after": 7
     },
     {
@@ -1944,7 +1674,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Three. Why do you record the outcome before you check which condition you were in.",
+      "t": "Three. Does recording a rating before looking at the schedule genuinely blind you to a behaviour you remember performing?",
       "pause_after": 7
     },
     {
@@ -1997,7 +1727,7 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "Four."
+      "t": "What should I write about the limit of that one entry?"
     },
     {
       "v": "sage",
@@ -2027,12 +1757,14 @@
     {
       "v": "ash",
       "i": "Engaged, thoughtful curiosity. Ask plainly, with natural energy and no exaggerated surprise.",
-      "t": "One claim. One number. Fourteen days."
+      "t": "One clearly defined observation, with its limits written beside it."
     },
     {
       "v": "sage",
       "i": "Warm, grounded teaching. Give each sentence room without dragging. Emphasise the practical distinction.",
       "t": "One honest entry is a beginning. Over time, the value comes from asking better questions, checking the record and changing your mind when the evidence calls for it. That's the work this programme is here to support."
     }
-  ]
+  ],
+  "revision": "2026-09-13-r2",
+  "audio_file": "2026-09-13-r2.mp3"
 }

@@ -1,20 +1,24 @@
 {
   "date": "2026-09-13",
-  "spoken_characters": 52943,
+  "spoken_characters": 53341,
   "voices": {
     "ash": {
-      "integrated_lufs": -16.36,
-      "true_peak": 0.31
+      "integrated_lufs": -16.26,
+      "true_peak": -1.2
     },
     "sage": {
-      "integrated_lufs": -16.7,
-      "true_peak": 0.52
+      "integrated_lufs": -16.44,
+      "true_peak": -0.16
     }
   },
-  "speech_minutes": 72.86,
-  "duration_seconds": 4139.976,
-  "voice_difference_lu": 0.34,
-  "original_duration_seconds": 4546.056,
-  "recovery_tempo": 1.0980811594202897,
-  "recovery_speech_api_calls": 0
+  "speech_minutes": 68.09,
+  "duration_seconds": 4140.0,
+  "voice_difference_lu": 0.18,
+  "tempo_adjustment": 1.0244869565217392,
+  "usage": {
+    "usd": 1.1846784000000001,
+    "calls": 351,
+    "uncertain": false
+  },
+  "revision": "2026-09-13-r2"
 }
