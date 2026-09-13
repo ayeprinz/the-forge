@@ -251,7 +251,7 @@ def build_feed():
     <description>A daily hour. Private curriculum, built for one listener.</description>
     <itunes:author>Prinz</itunes:author>
     <itunes:explicit>true</itunes:explicit>
-    <itunes:image href="{BASE}/cover.png"/>
+    <itunes:image href="{BASE}/forge-cover-v2.jpg"/>
 {chr(10).join(items)}
   </channel>
 </rss>
