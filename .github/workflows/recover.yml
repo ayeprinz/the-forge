@@ -1,0 +1,60 @@
+name: Recover saved Forge episode
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: daily-episode
+  cancel-in-progress: false
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: forge-render-34737350069
+          run-id: 34737350069
+          github-token: ${{ github.token }}
+          path: recovery
+      - name: Install audio tools
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Recover audio without speech API calls
+        env:
+          FEED_BASE: https://ayeprinz.github.io/the-forge
+        run: |
+          python3 - <<'PY'
+          import pathlib, subprocess, json
+          import build
+          root = pathlib.Path('.')
+          output = root / 'docs/audio/2026-09-13.mp3'
+          if output.exists():
+              raise SystemExit('Episode already published; no changes made')
+          files = list((root/'recovery').rglob('2026-09-13.pending.mp3'))
+          assert len(files) == 1, 'Expected one preserved full episode'
+          source = files[0]
+          original = build.seconds(source)
+          tempo = original / 4140
+          assert 1 <= tempo <= 1.15, 'Pacing change requires review'
+          pending = output.with_name('2026-09-13.pending.mp3')
+          subprocess.run(['ffmpeg','-y','-i',str(source),'-af',f'atempo={tempo:.8f},loudnorm=I=-16:TP=-1.5:LRA=11','-ar','24000','-ac','1','-c:a','libmp3lame','-b:a','48k',str(pending)],check=True)
+          duration = build.seconds(pending)
+          assert 3300 <= duration <= 4200, 'Duration check failed'
+          reports = list((root/'recovery').rglob('2026-09-13-audio-check.json'))
+          assert len(reports) == 1
+          report = json.loads(reports[0].read_text())
+          assert report['voice_difference_lu'] <= 3
+          report.update(original_duration_seconds=original,duration_seconds=duration,recovery_tempo=tempo,recovery_speech_api_calls=0)
+          pending.replace(output)
+          (root/'docs/2026-09-13-audio-check.json').write_text(json.dumps(report,indent=2))
+          build.build_feed()
+          print(json.dumps(report,indent=2))
+          PY
+      - name: Publish recovered episode
+        run: |
+          git config user.name "forge-bot"
+          git config user.email "forge-bot@users.noreply.github.com"
+          git add docs/audio/2026-09-13.mp3 docs/2026-09-13-audio-check.json docs/feed.xml
+          git commit -m "Publish recovered Forge launch episode"
+          git push
