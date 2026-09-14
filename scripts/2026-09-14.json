@@ -1,283 +1,595 @@
 {
   "date": "2026-09-14",
-  "title": "[Psychology] Why You Repeat Habits You Want to Break",
-  "summary": "How familiar situations trigger routines, why intention alone can fall short, and how to redesign a practical starting habit. Concrete examples from phone checking, reading, writing and business administration.",
+  "title": "[Psychology] Why You Repeat Habits You Want to Break (Expanded)",
   "instructions": "Two engaged teachers sharing useful explanations. Natural, warm, clear. No theatrical delivery.",
+  "summary": "Expanded edition: a full lesson on automatic habits, reinforcement, triggers, friction, practical plans and recovery. Worked cases cover distraction, reading, creative work and business administration. Replaces the original short edition.",
+  "revision": "2026-09-14-r2",
+  "audio_file": "2026-09-14-r2.mp3",
   "turns": [
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "You sit down to write one paragraph. Before the first sentence, your hand reaches for your phone. You check a message, open another app, and suddenly the paragraph is still empty. Why does a behaviour you want to stop keep getting the first move?"
+      "t": "Imagine you've moved your desk. For three days, every time you need a pen, your hand reaches towards the drawer that used to be on your right. You know the drawer has moved. You helped move it. Yet your hand still starts the old journey. Now replace the pen with your phone. You sit down intending to work, a page takes a moment to load, and your hand reaches for the screen before you've decided what you want from it. That gap between what you know and what you do is where we're beginning."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "One reason is that the situation has become linked to a familiar response. Repeating an action in a similar setting can make that action easier to trigger without deciding on it from scratch. Today we're going to pull that sequence apart and redesign it. Our example is phone checking during work, but the same questions can help you understand other everyday routines."
+      "t": "A habit is a learned tendency for a familiar situation to bring a response to mind automatically. Repetition matters, but frequency alone doesn't tell the whole story. You might frequently negotiate a different problem with a different customer. That doesn't mean the negotiation itself is automatic. On the other hand, you might automatically open your email whenever you sit in one particular chair, including on an afternoon when you meant to do something else."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Let's distinguish two things straight away. I might check my phone because I'm waiting for a delivery, which is a deliberate decision. Or I might unlock it, realise I have nothing to check, and put it down. The action looks similar. The second example is closer to what we mean by automatic behaviour."
+      "t": "So there are at least three things we shouldn't collapse together. An intention is what I mean to do. A routine is a sequence I regularly perform. A habit involves some automatic prompting of a response. My Sunday cooking routine might require conscious decisions throughout. Reaching for the same pan could be habitual inside that routine. The whole evening doesn't have to run on autopilot for one part of it to do so."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Exactly. In their research account, Wendy Wood and David Neal describe habits through learned associations between a context and a response. Goals can get the repetition started. Later, a familiar setting can prompt the response even when your current goal has changed. That helps explain the awkward experience of wanting to work while reaching for a distraction."
+      "t": "Wendy Wood and Dennis Runger's research review describes habits and deliberate goals as interacting systems. Goals can lead us to repeat an action. Repetition in recurring contexts can establish associations that later help prompt it. We can still adjust our behaviour deliberately. But a new intention doesn't instantly remove the old association. That is the basic research account we'll use, alongside James Clear's practical suggestions and original examples that show how to apply them."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "So deciding that the distraction is bad doesn't necessarily remove what triggers it. You can change your opinion about the action faster than you change the routine that keeps producing it."
+      "t": "Picture a pianist sitting down to learn a new piece. Finding a comfortable position, placing the hands, and reading familiar notation may already be well practised. The difficult passage needs attention. Useful automatic actions leave room for that attention. The aim isn't to eliminate automaticity from your life. If you had to consciously reconstruct every ordinary action, very little else would get done."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Which gives us a useful place to intervene. Let's invent a person called Maya. She edits photographs at her desk. When an image takes a moment to load, she picks up the phone beside her keyboard. Sometimes she finds an interesting message. Sometimes nothing. Either way, waiting has become a moment for checking."
+      "t": "The problem appears when a familiar action serves yesterday's circumstances better than today's. Think of a freelancer who once needed to answer every inquiry immediately because there were only two a week. Later there are twenty a day. The old response may still feel like being responsible, but it now interrupts the work those inquiries are supposed to create. The business changed. The response pattern has not caught up."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "I could tell Maya to focus harder, but that leaves the phone in the same position and the loading pause in the same place. What would you actually change?"
+      "t": "That example also shows why a behaviour can have been useful when it began. We don't need to tell a story about someone being weak or secretly wanting failure. They might have learned a response that worked in an earlier setting. Understanding its history can suggest a better replacement than simply demanding more discipline."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "First I'd make the target precise. For the next editing session, she wants to complete the first image before opening social apps. That's more useful than a promise to become a disciplined person. It identifies the behaviour and the point at which it matters."
+      "t": "Let's introduce our main fictional example. Maya edits photographs for clients. She starts an image, waits for the software to load, and checks her phone. Sometimes she returns after a few seconds. Sometimes she follows a message into a conversation and then into another application. She wants to finish an editing session without that sequence taking over. Her problem is specific enough that we can work through the details rather than tell her to change her personality."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Then I'd look at the physical setup. If she needs the phone for client calls, hiding it in another building isn't a sensible solution. She could keep calls available while moving the phone off the desk, beyond an automatic reach. The change has to fit the job."
+      "t": "First, notice the different decisions hiding inside what she calls checking her phone. Picking it up is one action. Unlocking it is another. Opening a social application is another. Continuing to scroll is another. Answering a client call could be useful while opening a feed could be irrelevant. If she treats all phone use as one undifferentiated problem, she'll either make a rule she can't follow or keep defending every interruption as necessary."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "And she needs something to do during that loading pause. She might read the next item in her editing checklist. The replacement is small enough to fit the actual gap. A plan to read a whole chapter whenever an image loads would collapse immediately. A replacement behaviour has to be available when the cue arrives."
+      "t": "We'll locate the points at which the sequence can branch. For Maya, that might be the loading pause, the sight of the phone, the first unlock, or the decision to keep scrolling after a message. These aren't four separate diagnoses. They're four practical places where the same sequence could be changed. We can choose the place where a small alteration is likely to be workable."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "This is where advice about good habits often gets vague. It tells you what an ideal person does, without showing where that action fits into an ordinary afternoon."
+      "t": "Contrast her with Leon, who reaches for his phone while writing a sales proposal. Leon hasn't decided what service he's offering, what the customer needs, or what price he's proposing. His phone is an available escape, but his work also contains an unresolved business decision. Removing the phone won't answer it. Maya may need a different response to waiting. Leon may need to clarify the task before a focusing routine has anything useful to support."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "James Clear offers a practical framework in his public explanation of Atomic Habits: cue, craving, response and reward. His four design suggestions are to make a wanted action obvious, attractive, easy and satisfying. Treat that as a way to ask useful design questions. It isn't a requirement to discover four separate conscious thoughts before every action."
+      "t": "That difference will matter throughout this lesson. We will examine triggers, consequences, friction, replacement actions, and recovery. We will also separate the habit of beginning from the quality of the work that follows. You can become extremely consistent at an ineffective process. Reliability is valuable when it serves something worth doing."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Apply those questions to Maya. The editing checklist is visible beside the screen. Its next step is specific enough to begin. Her phone is less convenient to reach. Finishing the first image gives her a visible unit of progress. Those are changes to the session, not just another promise made before it."
+      "t": "When people look for a trigger, they often search for something dramatic: an argument, a strong emotion, an irresistible craving. Sometimes the relevant event is much smaller. A document finishes loading. A meeting ends. You put a cup down. You walk through the front door. Those are ordinary transitions, and they give us places to examine the sequence without turning the whole day into a psychological mystery."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Notice that the reward question is personal. We shouldn't announce that Maya secretly craves approval or is afraid of success. We invented her example, and real people need to notice what the behaviour does for them. Checking might fill a pause, provide contact, or be something they do without much satisfaction at all."
+      "t": "Start with the most recent specific occurrence. Maya says, I always get distracted. That statement is too large to change directly. We ask her to reconstruct one ordinary instance: she exported an image, saw the progress bar, picked up the phone beside the keyboard, and opened a feed. We now have a scene. It contains physical objects, an event, and a response. We can alter something in that scene."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "And a habit can persist after it stops feeling particularly rewarding. That's why the question isn't always, what wonderful thing am I getting out of this? Sometimes it's simply, in what situation does this familiar action happen?"
+      "t": "A practical mistake would be to decide immediately that the progress bar is the trigger. It may be. But perhaps she also checks after difficult edits, when the phone lights up, and when she finishes a batch. There may be several routes into the same behaviour. Fixing one route can still help, but it won't explain every occurrence. We need enough detail to choose a change, not a grand explanation for her entire personality."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Now compare a different person, Leon. He also reaches for his phone while working, but his task is to write a sales email and he doesn't know what to say. Moving the phone may remove a distraction. It doesn't supply the missing knowledge about the customer or the offer."
+      "t": "Here's how I would distinguish three possibilities in that example. If checking happens as soon as a notification arrives, the incoming alert is a candidate. If it happens whenever her work pauses, including with the screen dark, the transition is a candidate. If she opens the phone while thinking about a specific unanswered message, there may be a deliberate purpose. Each possibility suggests a different action. Silence an unnecessary alert, plan the waiting moment, or answer the actual message and return."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Leon needs to make the work itself more executable. Instead of write a brilliant sales email, his first step could be write one sentence describing the customer's problem. If he cannot do that, his next task may be research, not another attempt at forcing concentration."
+      "t": "A useful boundary is the difference between having a reason and having a good explanation of the pattern. Maya can invent a reasonable explanation for any individual check: perhaps a client needs her. But if nine checks reveal no client messages, that reason isn't enough to explain why checking happens at each loading pause. She can preserve access to client communication without letting that explanation justify every unrelated application."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "That's a distinction worth keeping. An easy distraction and an unclear task can exist together. Change the environment, but also ask whether the intended action is defined and whether you have what you need to perform it. We don't have to turn every difficulty into a personality diagnosis."
+      "t": "Let's make the scene more precise. The phone is face up, six inches from her right hand. The next editing instruction is inside a document behind another window. The easy visible action is checking. The useful action requires remembering that document, opening it, and finding her place. Before anyone talks about willpower, the physical and digital arrangement is already offering two very different paths."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Here's the first recall question. Maya's hand keeps reaching towards the same place during a loading pause. What two parts of that sequence could you redesign?",
+      "t": "If she moves the phone to a shelf but leaves the next editing instruction buried, she has made the unwanted path harder without improving the wanted path. That might be enough for some sessions. But she could also sit through the pause wondering what to do next. Better preparation would make the next relevant action available: perhaps a short checklist beside the screen, with the current image and the next adjustment already identified."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Now consider a different setting. Maya uses her phone to approve client images. Moving it to another room would interrupt a legitimate part of the job. We can be more selective. She might keep the approval application available, disable nonessential alerts during a batch, and place unrelated applications behind an extra step. A useful intervention respects the function of the tool. It doesn't require pretending the tool has no legitimate use."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "The same reasoning applies to reading. A person says they never read at home, yet they read quite happily on a train. At home, the book may be in a cupboard while the television remote is on the cushion. On the train, the book is in their hand and the journey supplies a defined period. Rather than conclude that they lack a reading identity at home, we could examine what the two situations actually make available."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "One possible home arrangement is a book opened to the next chapter on a chair where they already sit. That doesn't guarantee interest or comprehension. It removes the preliminary search. Another is to leave the remote somewhere it has to be deliberately retrieved. The person still has a choice. The arrangement changes which option arrives without preparation."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "There is also timing. A reading cue placed after the very last task of an exhausting day may occur reliably but still be badly chosen. Reliability of the cue and suitability of the moment are separate questions. A cue can be perfectly obvious while the intended action is impractical. An earlier ten minutes may be more usable than a late hour that exists only in the plan."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Let's use a musician as a contrasting example. Their instrument is already visible, but the cable is broken and the practice file is on another device. Visibility is not readiness. If the first action repeatedly runs into a missing tool, the real preparation is repairing or arranging that tool. A motivational note on the wall won't complete the setup."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "First recall question. Maya checks her phone during a loading pause, but she must remain reachable for client calls. Name one change to the trigger arrangement and one change to the useful response that preserve that responsibility.",
       "pause_after": 7
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "The cue arrangement and the response available at that moment. Move the phone out of immediate reach, and put a small relevant next action in view. Those are proposed changes to try, not a guarantee about every person's focus."
+      "t": "She could remove unnecessary visual alerts or move the phone beyond an automatic reach while keeping calls audible. She could put the next editing step in view so the pause has a relevant action available. The particular settings depend on her job. The principle is to redesign a specific moment while preserving the function she genuinely needs."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Let's turn to building something wanted. Say I want to read more, but I keep buying books and leaving them closed. How do I move from owning the material to actually beginning?"
+      "t": "James Clear describes a practical habit cycle using cue, craving, response and reward. His associated design questions are whether a wanted action is obvious, attractive, easy and satisfying. Those questions help inspect an arrangement. They shouldn't force us to invent a conscious craving every time someone's hand reaches for a familiar object. A useful framework must leave room for actions that happen with little conscious thought."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Pick one repeatable starting situation. For this example, after putting your breakfast plate away, sit in a particular chair and read the next page of the book already placed there. You have identified an existing event, a location and a small action. You aren't asking yourself to choose a book, find it, choose a time and negotiate a reading target every morning."
+      "t": "The distinction between a consequence and a motive is helpful here. A consequence is what follows the action. A motive is an explanation of why someone does it. We can observe that Leon stops struggling with his proposal when he opens a feed. We can't automatically conclude that his entire life is driven by fear of success. The smaller explanation is enough: at that moment, the difficult task has been interrupted."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "There's a practical detail in that example: the book must already be there. If it is upstairs under another pile, the instruction is technically clear but the setup still creates several opportunities to drift away."
+      "t": "Let's follow that moment. Leon opens his proposal, sees a heading he doesn't know how to answer, and feels stuck. He checks an application. The stuck feeling is no longer the centre of attention. Twenty minutes later he returns, and the heading is still there. He has obtained a short interruption of the difficulty while leaving the source of the difficulty unresolved."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Right. You can prepare the setting beforehand. But don't confuse making the beginning easy with making your entire ambition tiny. A page is an entry point in this example. Once you're reading, you can continue. If your eventual aim is a demanding book, you will still need longer sessions and sustained thought."
+      "t": "Behavioural psychology distinguishes adding something pleasant from removing something unpleasant. Both can strengthen a response when the consequence increases future responding. The word negative in negative reinforcement refers to removal, not moral badness. It is different from punishment, where a consequence reduces future behaviour. That vocabulary matters because advice to stop rewarding yourself can miss the fact that an escape from discomfort is part of what makes an action attractive."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "So a starting habit and the skill you develop during the session are different. Getting to the keyboard doesn't automatically make you a good writer. Opening an accounting textbook doesn't automatically teach accounting. The routine gets you into contact with the work."
+      "t": "In Leon's case, we should treat that as a possible explanation to examine, not a diagnosis. If the application gives him contact with someone he enjoys, social contact may also matter. If he reaches automatically even when the proposal is easy, the familiar setting may matter. Several influences can operate together. We don't have to select one word and use it to explain everything."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Then the work needs its own structure. For reading, that could mean following an argument carefully and looking up a term you don't understand. For writing, it could mean revising a paragraph against a specific standard. We shouldn't sell a starting routine as the whole achievement."
+      "t": "Suppose we offer him a replacement: whenever you feel stuck, read a page of a difficult textbook. That replacement may be admirable in another context, but it doesn't address the immediate problem. It replaces one difficult task with another. A more relevant response could be to write a plain question about the heading: what information is missing here? Then choose whether to look it up, ask the customer, or use an explicitly marked provisional answer."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "What about people whose mornings change? If breakfast is unpredictable, tying everything to one exact morning schedule may be a poor fit."
+      "t": "For example, the heading is delivery timetable. Leon cannot write the timetable because he hasn't checked the supplier's availability. His next action becomes checking that availability. The blockage is now a task with an answer. If the supplier won't reply until tomorrow, he can mark that dependency and work on another section. That is different from demanding that he sit in front of the same unanswered heading for an hour."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Choose a cue that actually exists in your life. Someone might use the moment after returning from work or after settling into a particular train journey. This is a design choice, not a universal prescription. If the anchor rarely happens, choose another. If the action requires quiet and the setting never offers it, choose another setting."
+      "t": "Maya's loading pause is another kind of problem. It might need no serious replacement activity at all. She could let the few seconds pass with her hands away from the phone. We should not assume every empty moment must be filled with productivity. If the pause is short, a replacement that demands attention may interrupt the work more than simply waiting."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Second recall question. Why can a goal such as read more leave you stuck, even when you care about it?",
+      "t": "That gives us three options rather than one rule. Remove an unnecessary cue. Offer a suitable alternative. Or allow the moment to pass without beginning another sequence. Which makes sense depends on what happens and how long the gap is. If a file takes fifteen minutes, waiting motionlessly is silly. If it takes three seconds, starting a separate project is silly."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "There is a reason to distinguish immediate consequences from distant outcomes. Completing a business qualification may bring benefits months later. Opening the lesson today may be effortful immediately. In our example, we can make progress visible within the session by finishing one coherent exercise and checking its answer. We haven't brought the distant qualification into the present. We have given the current activity a clear unit of completion."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "But a visible unit needs to mean something. A person can generate ten pages of notes and understand almost none of them. If the reward is a page count, they may start optimising the page count. For the qualification, a better unit might be solving a relevant problem and understanding the correction. In a creative project, it could be producing a usable draft. The marker should point towards the achievement rather than replace it."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Consider a rewards scheme for a salesperson. If the only celebrated behaviour is sending a large number of messages, poorly targeted messages may become the easiest way to succeed at the scheme. If the real aim is useful conversations with suitable customers, the marker needs to reflect that. The same issue appears in personal routines: choose a sign of progress that doesn't encourage you to evade the purpose of the task."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "This is where habit advice connects to system design. We are deciding which actions are convenient and which consequences the person notices. Those choices can support good work or encourage shortcuts. A clean streak of completed sessions looks impressive, but if the sessions are empty, the streak has become a different game."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Keep the consequence proportionate and close to the activity. An enjoyable practice setting, an understandable exercise, or a visible finished item may be more compatible with the goal than promising a large unrelated purchase after every session. That is a design suggestion, not a claim that one reward works for everybody. You can adjust it when the activity changes."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Friction means the effort, delay or extra steps between you and an action. A guitar in its case under a bed has more starting friction than a guitar ready on a stand. A shopping application that remembers every detail has less purchasing friction than one that makes you enter the details again. These aren't measures of whether an action is good. They describe how the arrangement makes an action easier or harder to begin."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Let's design Maya's editing session twice. In the first version, she sits down, searches for the client folder, chooses which image to start, opens a checklist, looks for the latest feedback, and then begins. The phone is ready immediately. In the second version, the previous session ends with the next image selected and the feedback beside it. At the next start, the intended action is already defined. We have moved several decisions out of the moment where she is likely to drift."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "That move has a cost. She has to finish the previous session with enough care to prepare the next one. We haven't made the work disappear. We've placed it at a moment where it may be easier to complete deliberately. A good system often redistributes effort rather than abolishing effort. The benefit comes from preventing the same avoidable obstacle from being encountered every day."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "There are several kinds of friction worth separating. Physical friction is the distance to an object or the effort of setting it up. Digital friction is an extra login, an unavailable file, or a confusing interface. Decision friction is having to choose among many options before starting. Social friction is needing somebody else's permission or cooperation. A solution to one kind may leave the others untouched."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "For a reader, physical preparation might be placing a book beside a chair. Decision preparation might be choosing the next section in advance. Understanding an unfamiliar term is a learning task, not simply friction to remove. We should not make the book so effortless that there is nothing left to learn. We are clearing unnecessary obstacles around the intellectual work so that attention can go into the work itself."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Take a small business owner who wants to keep receipts organised. An elaborate system requires opening a laptop, logging into a service, finding the right project, and renaming a file immediately after each purchase. They avoid it. A simpler capture step might put the receipt into one clearly labelled place, followed by a scheduled processing session. Capture and classification are different tasks. They don't necessarily have to happen at the same moment."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "But the simpler system needs a route to completion. A folder that becomes a permanent pile is only a different form of disorder. So the owner chooses when the collected items will be processed, what information must be retained, and how to recognise that processing is complete. Ease at the beginning is useful when it connects to a functioning end."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Now reverse the direction. Suppose someone wants to stop buying things impulsively late at night. Removing saved payment details creates a deliberate step before purchase. A list for possible purchases creates another place to put an item without buying it immediately. The person can review the list later. The aim is to insert a decision point where the current setup rushes from seeing to buying."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "That won't make every purchase wise. Someone can type their details and still buy something unsuitable. Friction offers a chance to reconsider; it doesn't supply a budget or knowledge of the product. If essential purchases become difficult too, the barrier may be poorly targeted. Again, preserve the useful function while changing the route that causes the specific problem."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "A related design choice is a commitment made before the tempting moment. Maya could choose a work mode that blocks a particular feed for the next editing batch. She is deciding while the batch is still a plan, rather than asking herself to decide again during every pause. The block should fit the work period and leave necessary tools available. A barrier that breaks her job will soon be removed."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "We should distinguish self-chosen commitment from somebody else taking control. Choosing your own application limit is different from another person secretly restricting your communication. In this lesson we're designing arrangements the person understands and chooses. Agency matters practically too: if you don't understand or accept the arrangement, you'll spend the session looking for ways around it."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Social arrangements can support a routine without becoming surveillance. Two people could agree to work alongside each other for a defined session. They needn't report every minute or justify every pause. The agreement can simply supply a shared starting time and a place. If one person needs a quiet session and the other wants conversation, the arrangement needs to be changed. Calling something accountability doesn't automatically make it useful."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Let's return to the phone and make the comparison fair. Version one requires Maya to resist the same visible option twenty times. Version two removes unrelated alerts, makes the next edit visible, and defines where the phone goes after a call. Version two still requires choices, but it does not recreate all twenty of the same decision points. That is the practical purpose of redesigning the setting."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "We can also make barriers too large. If she hides the phone so thoroughly that retrieving it for a client call takes several minutes, she'll probably bring it back to the desk and abandon the rule. A modest barrier she keeps may be more useful than an impressive one she immediately defeats. The appropriate design is the one that survives contact with the actual task."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Second recall question. A person puts their guitar in plain sight but still doesn't practise because every session begins with choosing what to work on. Which kind of friction remains, and what preparation would address it?",
       "pause_after": 7
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Because it leaves the starting situation and next action unspecified. A concrete cue and a prepared action reduce those decisions. The goal supplies direction; the setup gives you a place to begin."
+      "t": "Decision friction remains. They could choose one passage or exercise before the next session and leave the relevant music ready. Making the instrument visible dealt with access. It didn't define the practice. The next step should be specific enough to perform when the person sits down."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "How long should I expect this to take before it feels natural? People keep giving a fixed number of days."
+      "t": "I will read more is a direction. After I put my breakfast plate away, I will sit by the window and read the next section is a plan with a recognisable occasion. Research on implementation intentions examines this kind of link between a situation and a chosen response. Gollwitzer and Sheeran's meta-analysis found benefits for goal attainment across the studies they reviewed. That doesn't mean a sentence guarantees success; it helps specify when action should begin."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Phillippa Lally and colleagues studied people repeating chosen everyday behaviours and measured how automatic those behaviours felt. The often repeated figure of sixty-six days came from that work, but there was substantial variation. Some estimates extended beyond the observation period. It isn't a deadline after which your routine must switch on. The behaviour and the person matter."
+      "t": "Notice what a plan can and cannot supply. It can remove the need to choose the occasion repeatedly. It can identify a response before the moment arrives. It cannot create a missing book, make an impossible schedule possible, or teach material that hasn't been studied. A plan is strongest when its occasion occurs and its response is within reach."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "So day twenty-two is not evidence that I'm broken if I still have to remind myself. And reaching day sixty-six doesn't certify that a difficult activity will now take care of itself."
+      "t": "James Clear's habit stacking suggestion uses an existing routine as the cue for a new action. His two-minute rule separately suggests making the beginning very small. We can use those ideas together, but they solve different problems. The existing event answers when. The small beginning answers how to get into the action. Neither determines how much serious work the whole session should eventually contain."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Exactly. Pay attention to the action you can repeat, and whether the arrangement is becoming easier to use. You don't need a magical graduation date. If the routine constantly fails at the same point, examine that point. A book you don't understand may need an easier introduction. A work session with no available files needs preparation. More repetition of an impossible setup won't solve those problems."
+      "t": "Let's build a reading plan badly first. After I have a productive morning, I will study for two hours. Productive is an interpretation, not a clear event. Two hours may not be available. Study leaves the starting action open. On a difficult morning the cue never seems to have happened, so the plan provides no route in. It sounds ambitious but contains several places where action can disappear."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Let's make failure concrete. Maya has a good Monday, then on Tuesday takes a client call, keeps the phone beside her and slides back into checking. How does she recover without writing off the whole week?"
+      "t": "A more usable version for this fictional reader is: after I put the breakfast plate in the sink, I will sit at the table, open the book at the marker, and read the first paragraph. The materials are already there. If there is time, the normal session is twenty minutes. If there is not, the person has still begun at a definite point, and can schedule the longer work honestly rather than pretend the whole session happened."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "She restores the arrangement at the next session: phone in its intended place, editing checklist ready, first image selected. She can also decide where the phone goes after a call. The return from the call was a missing step in her plan. That is a useful repair because it deals with the situation that disrupted the routine."
+      "t": "We need to be careful with that last distinction. Reading one paragraph is not equivalent to studying for twenty minutes. The small beginning protects access to the routine; it does not satisfy every learning objective. If most days contain only the beginning, progress will reflect that. The plan must eventually make room for the amount and quality of work the goal requires."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "That is different from increasing the punishment. She doesn't need to promise three hours of extra work to make up for a distraction. She needs a workable transition back to editing."
+      "t": "Think about training for a musical performance. Taking the instrument out is a useful start. It isn't preparation for performing a difficult piece. Once the starting arrangement works, the session needs deliberate choices: which passage, what tempo is manageable, what error to listen for, and when to attempt the passage in context. The habit brings you to practice. The practice develops the performance."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "And she may discover that her original goal was unrealistic for the session. If she is on call and must respond constantly, uninterrupted editing may belong elsewhere in the day. Good design respects actual constraints. It doesn't require pretending those constraints have disappeared."
+      "t": "Now give the reader an irregular schedule. Breakfast happens at different times, sometimes away from home. The original cue may no longer be dependable. They could use a different recurring event, such as the first quiet period after returning home, but that phrase also needs care. If quiet period is vague, it may never feel like the right moment. A more concrete plan could attach reading to putting their bag in a specific place, provided the following minutes really are available."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Third recall question. Leon removes his phone but still cannot begin the sales email. What should he check next?",
+      "t": "Sometimes no daily anchor makes sense. A person could choose three specific sessions a week instead of forcing a daily rule into unsuitable circumstances. The goal is regular contact with the work, not winning an argument about whether every valuable activity must happen every day. The chosen frequency should support the activity and fit the person's constraints."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Here's a useful distinction between a normal version and a fallback version. In the normal version, the reader has twenty minutes and works through a section. In the fallback version, a disrupted day allows a brief return to the last paragraph and a note of where to continue. The fallback keeps the next start clear. It shouldn't silently become the entire plan while the person continues expecting the results of full sessions."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "We can design an obstacle response just as concretely as a starting response. If the train is too crowded to read, the person could use a later planned session. If a required file is missing, the worker could move to a predefined task that doesn't require it. The alternative should be selected because it preserves useful work, not because it allows every obstacle to become an excuse for doing something unrelated."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "There is a trap in preparing too many alternatives. A plan with twelve branches can recreate the decision burden it was meant to reduce. Start with the ordinary version and the most common disruption. If another disruption repeatedly appears, address it then. We are making the action more executable, not writing an operating manual for every possible day."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Let's show the difference using Leon's proposal. His vague plan is work on the business after lunch. His usable plan is: after clearing lunch, open the client document and write the three facts already known about the customer's request. If a fact is missing, mark the specific question rather than browsing for general inspiration. His normal session continues into a draft. The beginning gives him somewhere concrete to place his attention."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "And his ending can prepare the next start. Before closing the document, he leaves one sentence naming the next task: confirm the delivery date with the supplier, or compare the two pricing options. Tomorrow he won't have to reconstruct what today's uncertainty was. This is an original workflow suggestion. Its value is easy to understand from the example: preserve the next decision instead of repeatedly rediscovering it."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Third recall question. What is the difference between a tiny starting action and the full dose of work needed for the goal? Use the musician or the reader as your example.",
       "pause_after": 7
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Whether the task is clear and he has the information and skill needed to take its first step. Reducing distraction and knowing what to do are different problems."
+      "t": "Opening the book or taking out the instrument makes starting easier. Understanding a chapter or preparing a performance requires substantial work after that start. The small action is an entry point. If it remains the whole session indefinitely, the bigger goal still lacks the work it needs."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "I want to bring this into business for a moment. Suppose an owner wants to send invoices promptly. Saying be better with money doesn't identify a routine. What would an actual routine look like?"
+      "t": "We have talked about starting wanted actions. Changing an unwanted sequence raises another question: where is the earliest point at which you can reliably intervene? You may only notice Maya's phone checking after ten minutes of scrolling. That's still a point of intervention. With a clearer arrangement, she may notice at the unlock, or prevent an unnecessary alert from beginning the sequence at all."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "In a fictional service business, after marking a job complete, the owner opens the invoice template and checks the agreed details. Sending the invoice still requires accuracy and whatever approval the business needs. The habitual starting step is opening the relevant process at the moment the work is marked complete. We aren't teaching tax rules here; we're making an administrative action easier to initiate."
+      "t": "Let's divide her example into before, during and after. Before the session, she can prepare the editing task and place the phone deliberately. During the session, she can recognise that she has opened an unrelated application and return to the selected image. After a client call, she can restore the phone's intended position. Those are different jobs. Expecting one instruction to handle all three leaves gaps."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "And if the details are scattered across messages, the habit won't fix that. The owner also needs a reliable place for the agreed price and customer information. That's another example of matching the routine to a functioning system."
+      "t": "The after-call gap is particularly revealing. Maya follows her setup at the beginning, takes a necessary call, and leaves the phone beside the keyboard. She then checks repeatedly. It would be easy to say the system didn't work. More precisely, the system defined a starting arrangement but not a return from interruption. Add that transition and you have repaired a specific weakness."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Yes. A useful routine should help you perform a sound process. Automating a careless process can make the same mistake happen more consistently. Before making an action easy to repeat, make sure it's the action you actually want repeated."
+      "t": "A replacement action should also be matched to the time and function of the original. If checking is a way to contact people after an isolated workday, a planned conversation may be relevant. If it happens during a three-second software pause, a planned conversation is not relevant to that exact moment. Similar-looking behaviours can require different arrangements because they occupy different places in the day."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Fourth recall question. What is the difference between establishing a starting habit and mastering the activity?",
+      "t": "Suppose someone opens a shopping feed whenever they finish work. They describe the action as unwinding. We could ask what unwinding means in that scene. Is it sitting down after standing all day? Looking at interesting objects? Having a few minutes without demands? A possible alternative needs to preserve something the person actually values. Otherwise we've replaced a convenient break with an instruction to do more work."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "They might choose a short walk, music, a conversation, or simply sitting down without the shopping application. These are possible alternatives, not interchangeable treatments. If the person wants quiet, a social call may be unwelcome. If they want company, a solitary walk may not fit. The point is to understand the ordinary function well enough to select a plausible alternative."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Now consider the moment after the unwanted action has already begun. Maya notices she has been scrolling. Her useful next step is to stop the sequence and reopen the selected image. Spending another ten minutes criticising herself would leave the edit just as unfinished. A return action gives the moment somewhere to go. It can be as concrete as close this application, put the phone on the shelf, and make the next named adjustment."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "That doesn't mean every lapse is irrelevant. If the same thing keeps happening, the arrangement needs attention. But we can separate repairing the current session from redesigning the system. During the session, return. Afterwards, decide whether a notification, missing task, or necessary interruption needs a different setup. Trying to redesign your entire life while a client deadline is approaching may create another diversion."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "There is also a difference between reducing frequency and eliminating an activity. Maya may want to check social applications during a break. A defined period of access can fit that aim. If her rule says never use the phone, it conflicts with what she actually wants and with what her job requires. Define the unwanted behaviour precisely: unrelated checking during an editing batch, rather than owning or using a phone."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "For a person who wants fewer unplanned purchases, the desired pattern might be review purchases at a chosen time with the budget available. That is more specific than never buy anything enjoyable. The alternative process still allows a purchase when it fits. It changes how the decision is made and what information is present."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Boundaries become easier to understand when tied to a unit of work. Finish this image, then take the planned break. Or work through this proposal section, then check messages. The unit should be realistic. If finishing an image takes four hours, using the whole image as the boundary may be impractical. A smaller editing stage could be the appropriate unit."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "And essential communication needs its own route. A worker can tell a collaborator when routine messages will be checked and what channel to use for genuinely urgent matters, if that arrangement suits the job. If the job demands continuous response, a long uninterrupted session may belong elsewhere. A productivity system cannot simply cancel obligations that are part of the work."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Notice how much more specific this is than resist temptation. We have defined the activity, the setting, the useful exception, the return action, and the ordinary stopping point. Those details make the plan usable. They also reveal when the plan is unrealistic before we blame the person for failing to perform it."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "People often ask when a routine will become automatic, as though the calendar contains a switch. Phillippa Lally and colleagues studied people repeating chosen everyday behaviours and reporting how automatic those behaviours felt. The widely repeated sixty-six-day figure came from this work. There was substantial variation, and some estimated times extended beyond the observation period. It was not a universal countdown for every behaviour."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Imagine two people each saying they have worked on a habit for a month. One has repeatedly opened a prepared book after the same daily event. The other has attempted a complex project on four unpredictable evenings, each with missing materials. The calendar is the same. Their actual experiences of the action are different. A date alone cannot tell you how familiar or executable the response has become."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "We also need to ask what is becoming easier. A person may now sit down to write without much negotiation but still find writing difficult. That could be progress in starting alongside an ongoing need to develop skill. If they expected every sentence to become effortless, they may overlook the improvement because they were measuring the wrong part of the activity."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Consider our musician. In the first week, setting up the instrument was an obstacle. Later, setup is straightforward, but the difficult passage still contains mistakes. The next useful adjustment belongs inside practice: isolate the passage, choose an appropriate pace, and listen carefully. Repeating the setup for longer won't by itself correct the passage. Different stages of progress create different problems to solve."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "The same applies when a person begins reading regularly. At first, the achievement is showing up with the book. Later, they may notice they don't follow the argument. Then they need to slow down, clarify a term, or compare a claim with an earlier section. Consistency has brought them to the point where the deeper work becomes visible. It has not failed merely because there is now a harder task."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "What happens after a missed session? Let's avoid two extremes. One missed session doesn't erase every earlier action. But repeated misses may reveal that the plan no longer fits. The useful question is what changed at the point of interruption. Did the cue disappear? Did the available time change? Were the materials missing? Or did the session grow into something the person no longer had room to do?"
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Say Maya travels for three days. At home, the shelf, desk and editing checklist define the work arrangement. In a hotel room, none of that is in its usual place. It makes sense to prepare the temporary environment deliberately rather than expect the home arrangement to transfer perfectly. She might choose a place for the phone and open the next image before starting. The portable part is the sequence she can recreate."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "When she returns home, the old distractions may still be available too. Having worked well somewhere else doesn't establish that every familiar cue at home has changed. She can restore the arrangement she wants to use. This is a practical consequence of taking context seriously: a change of place can remove some helpful cues as well as some unhelpful ones."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "There is a difference between returning to a routine and compensating for a missed routine. If Maya misses a session, her next action is not automatically to double the length of the following one. A longer session might fit, but it might also create a new scheduling problem. Returning at the next workable opportunity restores contact with the task. Any catch-up decision should follow from the actual deadline and workload."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "A streak can be a convenient record of attendance. It becomes misleading if the person treats a broken streak as a loss of all accumulated skill or experience. Suppose a musician practises on six days, misses one, and practises again. The earlier practice did happen. The right question is what the performance now needs, not whether the calendar has remained visually perfect."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Another misleading measure is time spent with the tool open. Leon could leave the proposal on screen for an hour without deciding anything. A completed section, a clarified question, or a sent request for missing information tells us more about the work. Time matters for planning, but it isn't the same thing as progress. A good session can sometimes be shorter because the important uncertainty was resolved quickly."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "We can track lightly. Maya might note whether the first editing batch was completed and whether a particular interruption repeatedly derailed it. She doesn't need to record every hand movement. A musician might note the passage and the correction to revisit. The record is useful if it makes the next decision clearer. When maintaining the record consumes the session, it has outgrown its purpose."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Fourth recall question. A reader starts reliably every morning but still struggles to understand the chapter. Does that necessarily mean the starting routine has failed? What needs attention now?",
       "pause_after": 7
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "The starting habit helps you begin in a familiar situation. Mastery requires learning and practising the activity itself, with feedback. Opening the book and understanding its argument are separate achievements."
+      "t": "The starting routine may be working. Comprehension is a separate problem. The reader may need clearer explanations, more time with the argument, or help with unfamiliar concepts. Keep the useful start and improve the learning activity it leads into."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Let's finish with one change you can make today. Choose an ordinary action you want to begin more reliably, such as opening a book or starting a piece of work. Keep it small enough to set up now."
+      "t": "Let's finish with a different worked case so this doesn't remain a lesson about phones. A fictional service business owner, Sam, regularly delays invoicing. Completed work sits in a project list, but invoices are assembled in irregular batches. Sam wants prompt, accurate invoicing. The outcome has two parts. Faster invoices containing mistakes would not solve the problem."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Complete this sentence: after this specific event, in this place, I will do this first action. Then prepare whatever that action needs. Put the book where you'll read it. Open the relevant file. Place the checklist where the task happens. Choose one arrangement, not a complete reinvention of your day."
+      "t": "Begin at the actual transition: a job is marked complete. What needs to be available at that point? The agreed price, the customer details, the work description, and any required approval. We won't specify legal or tax rules here because those depend on the business and jurisdiction. We can still design the starting process: bring the job information into the invoicing workflow when completion is recorded."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "If you're changing a distraction, identify where the unwanted action becomes easy. Move one trigger or add one practical barrier, and make the intended alternative available. Keep necessary calls or responsibilities in mind. We are designing an ordinary routine, not prescribing isolation from your life."
+      "t": "Sam's first attempt is a reminder that says do invoices. It appears every evening. Some evenings no jobs are ready. Other evenings three are ready, but the relevant information is scattered. The reminder supplies a signal without supplying a usable task. Sam learns to dismiss it. A louder or more frequent reminder would leave the underlying arrangement unchanged."
     },
     {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "At the next opportunity, try the arrangement. If it breaks, locate the break: the cue didn't happen, the materials weren't ready, the action was unclear, or the setting was unsuitable. Repair that part. There is no need for a long diary or an experiment before you are allowed to start."
+      "t": "A more specific process links each completed job to a prepared record. When Sam marks the job complete, the next step is to open that record and check whether the required details are present. If they are, the invoice can move through the normal checking and sending process. If they aren't, the missing item is named and assigned a next action. The workflow has a visible route for exceptions."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Fifth recall question. What is one reason a new intention can fail to change an established routine?",
+      "t": "That exception route is important. If one missing detail stops the entire batch, several otherwise ready invoices may be delayed. Sam can separate ready items from items waiting for information. This is an original process design example: make the state of each item visible so that a local blockage doesn't silently become a blockage for everything."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Now consider quality. The starting action can become routine, but the invoice still needs a check against the agreement. A template can save repeated typing while also carrying an old price into a new job if nobody checks it. We want to automate access to the right process while preserving attention at the points where details differ."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "There is a clear handover here between routine and judgement. Opening the record at completion can be a repeated starting action. Confirming a changed scope may require a deliberate decision. Sending the approved invoice can follow a standard route. We should design those parts differently rather than label the whole process either automatic or thoughtful."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Imagine the system breaks on a Friday. A client requests a change after the job is marked complete. Sam now needs a state that means waiting for the change to be agreed, rather than leaving the invoice half-finished somewhere invisible. The repair is not a demand to be more organised. It is a place in the process for an event that actually happens."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "This case combines several ideas without pretending they are all the same. The completion event supplies a cue. The prepared record reduces searching. A clear next action reduces decision friction. A check protects accuracy. An exception route supports recovery. The finished invoice is a meaningful unit of work. Each part addresses a different possible failure."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "You can use the same structure for a creative project. Finishing one session can trigger saving the work in its proper place and writing the next concrete step. Starting the next session then brings that step into view. Judgement remains inside the creative work. The surrounding routine keeps avoidable searching and reconstruction from consuming it."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Or for reading: choose a workable occasion, keep the material ready, begin at a marked point, and finish with a clear place to resume. If the text is difficult, the session must include the effort of understanding it. The surrounding arrangement can support that effort. It cannot do the understanding for you."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Here's one practical action for today. Choose one recurring activity that matters to you, and prepare its next occurrence. Name the event that will start it, the first useful action, and what must be ready. Then name the most common interruption and the specific action that returns you to the task. Make the physical or digital preparation now, rather than leaving it as a promise."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "For Maya, that means selecting the next image, displaying the next adjustment, putting the phone in its chosen place, and returning it there after a necessary call. For Leon, it means opening the client document with a specific question to answer. For Sam, it means connecting a completed job to a prepared invoice record. Choose the version that matches your activity, not the one that sounds most impressive."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "Fifth recall question. Sam makes invoice creation quicker, but the template repeatedly carries the wrong price into new jobs. Which part of the routine needs changing, and why isn't greater consistency enough?",
       "pause_after": 7
     },
     {
+      "v": "ash",
+      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
+      "t": "The checking step and the handling of job-specific details need attention. Greater consistency would only repeat the error more reliably. A starting routine should bring you into a sound process, with deliberate checks where the information changes."
+    },
+    {
       "v": "sage",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "The familiar situation can still prompt the old response. An intention gives direction, but changing what is available and easy at the relevant moment can help you act on it."
+      "t": "The next time an unwanted action gets ahead of your intention, look for the concrete sequence: the situation, the available response, what follows it, and the next useful action. You now have several places to intervene. You can change the setting, clarify the task, insert a decision point, prepare an alternative, or repair the return after interruption. The right choice follows from the problem in front of you."
     },
     {
       "v": "ash",
       "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "The practical takeaway is specific: choose the first action, choose its cue, and prepare its setting. Then let the actual attempt tell you which part needs adjusting."
-    },
-    {
-      "v": "sage",
-      "i": "Speak naturally, clearly and warmly, with engaged conversational pacing.",
-      "t": "Our sources today include James Clear's public explanation of his habit framework and Wood and Neal's research account of habits and goals, with Lally's work informing the discussion of time. The source notes distinguish those materials from full books. You can begin reading Atomic Habits alongside this lesson; this episode hasn't exhausted the subject or replaced the book. For today, set up one beginning you can actually use."
+      "t": "Today's source notes link the research review on habits, the work on implementation intentions, a psychology textbook explanation of reinforcement, James Clear's public articles, and the habit-formation study discussed by UCL. Maya, Leon and Sam are fictional teaching cases. Their arrangements are worked suggestions, not findings from those studies. Atomic Habits is relevant further reading, and these public sources do not amount to a full reading of that book. Prepare the next occurrence of one activity, then do the work it makes possible."
     }
   ]
 }
