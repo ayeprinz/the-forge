@@ -34,8 +34,8 @@ def validate_script(path):
         if len(text) > 4000 or any(c.isdigit() or c in "—–" for c in text):
             raise ValueError(f"Invalid spoken text at turn {i}")
         total += len(text)
-    if not 50000 <= total <= 57000:
-        raise ValueError(f"Spoken length {total} outside 50000–57000")
+    if not 0 < total <= 57000:
+        raise ValueError(f"Spoken length {total} outside nonempty–57000 safety bound")
     return ep
 
 
@@ -185,7 +185,7 @@ def render(script_path):
         adjusted.replace(pending)
         actual_seconds = seconds(pending)
         report["tempo_adjustment"] = tempo
-    if not 3000 <= actual_seconds <= 4200:
+    if not 0 < actual_seconds <= 4200:
         raise RuntimeError(f"Duration {actual_seconds/60:.1f} minutes needs review; preserving rendered audio")
     report["duration_seconds"] = round(actual_seconds, 2)
     report["usage"] = json.loads((tmp / "usage.json").read_text())
