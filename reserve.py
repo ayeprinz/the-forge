@@ -9,7 +9,7 @@ if (root/'docs/audio'/ep.get('audio_file',f'{slug}.mp3')).exists():
 p=root/'audio-ledger.json'
 ledger=json.loads(p.read_text()) if p.exists() else {'currency':'USD','month_cap':60,'reservations':{'2026-09-13':{'reserved_usd':2,'month':'2026-09','status':'legacy-unreconciled'}}}
 operation=ep.get('revision',slug)
-if operation!=slug and operation!='2026-09-13-r2':raise RuntimeError('Revision needs a separate explicit allowance')
+if operation!=slug and operation not in {'2026-09-13-r2','2026-09-14-r2'}:raise RuntimeError('Revision needs a separate explicit allowance')
 if operation in ledger['reservations']:raise RuntimeError('Already reserved; recover existing clips and reconcile before another paid attempt')
 month=datetime.datetime.now(ZoneInfo('Europe/London')).strftime('%Y-%m')
 used=sum(v['reserved_usd'] for v in ledger['reservations'].values() if v['month']==month)
