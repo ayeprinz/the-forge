@@ -13,6 +13,13 @@
       "status": "reserved",
       "run_id": "34768996743",
       "attempt": "1"
+    },
+    "2026-09-14": {
+      "reserved_usd": 2,
+      "month": "2026-09",
+      "status": "reserved",
+      "run_id": "34812347975",
+      "attempt": "1"
     }
   }
 }
