@@ -1,0 +1,555 @@
+{
+  "date": "2026-09-17",
+  "title": "[Fitness] How Muscles Grow: Training, Recovery and Progress",
+  "summary": "Muscle growth explained through two fictional training logs: effort, rest, weekly volume, exercise selection, progression, food, recovery and plateaus. Includes five recall questions with answers and a low-risk exercise for reviewing a training log. General education for healthy adults, not an individual training prescription.",
+  "instructions": "Two thoughtful teachers, ash and sage, sharing substantive explanations. Natural, varied pacing, clear arithmetic, no theatrical performance. Respect all five recall pauses.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Two people finish the same gym session. One can barely walk down the stairs and calls it a success. The other leaves tired, returns a few days later, and performs another controlled repetition with the same weight. Which result tells us more about building muscle? Soreness is obvious. Progress is quieter. Today we are getting into hypertrophy, the process of increasing muscle size, and the decisions that turn a collection of difficult workouts into training that moves somewhere."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Let us give those people names. Leon and Nadia are fictional, and their training logs are examples rather than programmes to copy. Leon judges each workout by how destroyed he feels. Nadia records the exercise, resistance, repetitions, rest and how close she came to her limit. Neither person can watch muscle tissue grow between sets. But Nadia has a way to tell whether the work is changing. That difference will matter when both eventually have a disappointing week."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "First, muscle size and muscle strength are related, but they are different outcomes. Size describes tissue. Strength describes the force you can produce in a particular task. Someone can improve a lift partly by learning its coordination, controlling the movement and becoming more comfortable with the effort. That improvement is useful, even before a tape measure shows a convincing change. A bigger muscle also offers greater potential to produce force, but technique and the task still affect the result."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Consider carrying a suitcase. The first time, you may hold it awkwardly, let it swing and stop repeatedly. Next time you find a better grip and keep it close. The suitcase has not become lighter, and you have not necessarily grown appreciably larger muscles overnight. You have improved the task. In a gym, a personal record can include this kind of learning. It is a mistake to treat every extra kilogram lifted as a direct measurement of extra muscle tissue."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Inside a skeletal muscle are bundles of long cells called fibres. Those fibres contain smaller structures with repeating contractile units. Two proteins, actin and myosin, interact within those units to generate force. A signal from a nerve changes conditions inside the cell, calcium makes the interaction possible, and a molecule called A T P supplies energy for the cycle. Multiply that activity across many units and fibres, and you can pull against an external resistance."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "The nerve does not address every fibre separately. A motor neuron and the muscle fibres it supplies form a motor unit. Your nervous system adjusts force partly by recruiting more units and changing how they are activated. Picking up a pen and lifting a heavy suitcase call for different levels of force. This is one reason the sensation of trying hard, the weight outside your body, and the work happening inside a particular muscle are connected without being identical."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Hypertrophy generally involves existing fibres becoming larger as their contents adapt. Resistance exercise provides mechanical loading. Cells translate mechanical conditions into biochemical signals, a process called mechanotransduction. Those signals influence processes including protein production. Repeated training and sufficient recovery can shift the tissue over time. There is no little counter inside a muscle that reads the number printed on a dumbbell and awards a fixed amount of growth for it."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "That last point explains several otherwise confusing things. A machine showing forty kilograms is not necessarily equivalent to a different machine showing forty. Pulleys, levers and the movement change what the person experiences. Even the same dumbbell can create a different demand when you change position. We can use external numbers to track a consistent exercise, but they are not universal units of muscle stimulation. The comparison becomes more useful when the setup stays recognisably the same."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Leon has heard that lifting tears muscles and they grow back stronger. It is a memorable story, but it makes damage sound like the target. Repair and growth are not interchangeable. Muscle protein synthesis means making muscle proteins; some of that activity can support repair and remodelling rather than simply adding size. A large immediate response after unfamiliar training does not automatically identify the programme that will produce the most growth over months."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Felipe Damas and colleagues studied ten young men through a training period. Their work found that the relationship between measured protein synthesis and later hypertrophy became clearer after early muscle damage had diminished. That is a small study, not a universal growth equation. Its useful contribution here is that an early repair response can complicate the story. Deliberately making every session unfamiliar and painful is not a reliable shortcut to adding muscle."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Nadia therefore separates three entries in her log. What she did. How it felt. What changed over time. Feeling sore belongs in the second entry. It can help her decide whether she is ready for more work, but it does not replace the first or third. If she cannot repeat a movement because she is excessively sore, she has information about tolerability. She has not received proof that the previous workout was especially productive."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "And pain during a movement is not a challenge to win. Sharp pain, worsening joint pain or a movement that feels unsafe calls for stopping and getting appropriate help, rather than forcing the planned repetitions. This lesson explains training principles for generally healthy adults. An injury, medical condition or a return after a significant illness changes the practical decisions, which belong with a qualified clinician or suitably qualified trainer who can assess the person."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Now let us unpack the language of a workout. A repetition is one complete performance of the movement as defined for that exercise. A set is a group of repetitions before a rest. Load is the external resistance. Frequency tells us how often we train. Volume describes how much work, but people use several different measures of it. Effort tells us something about how demanding the set was relative to what the person could have done."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Here is a simple entry: three sets of ten repetitions on a chest press, using the same machine setting, with two minutes between sets. That gives us thirty repetitions and three sets. It still does not tell us whether the resistance was easy or hard. One person might have been capable of twenty repetitions on each set. Another might have barely completed ten. An identical looking plan can produce a very different experience because capacity differs."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "We also need the movement standard. Suppose Leon writes ten repetitions, but on the final four he shortens the movement and lifts away from the seat. Nadia writes eight, with the same controlled range from beginning to end. Their numbers cannot be ranked simply as ten beats eight. The repetitions describe different tasks. Leon may have completed more movements, but he has made the comparison less clear. A useful log needs a reasonably stable definition of a repetition."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "That definition does not mean everyone must move through an identical joint angle. Anatomy, equipment and comfortable movement differ. It means the person chooses an appropriate movement with guidance where needed, then keeps the important features consistent enough to compare sessions. A stable seat position, comfortable range, controlled lowering and similar technique are ordinary details. They are also what stop progress on paper from becoming a change in the rules halfway through the game."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "First recall question. Nadia increases her repetitions from eight to ten, but changes to a shorter movement and a different machine. Can those numbers alone establish that her muscles became stronger at the original task? Think through what changed.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "No. She changed the test as well as the result. The new performance may be useful, but it does not provide a clean comparison with the old one. To track the original task, she would compare a similar setup, movement and effort. This is why a small honest improvement in a stable exercise can tell her more than a large number attached to a completely different version."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "What about the famous repetition zones? You will hear low repetitions for strength, medium repetitions for size, and high repetitions for endurance. Those categories describe tendencies and practical choices. They are not locked rooms. In particular, muscle growth does not switch off the moment you move beyond twelve repetitions. Both lighter and heavier resistance can support growth when the exercise provides a sufficiently demanding stimulus."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Robert Morton and colleagues compared lower and higher loads in forty-nine trained young men over twelve weeks. Both groups performed sets to voluntary failure. Muscle fibre size increased without a significant difference between groups. The heavier group improved its bench press maximum more. The conditions matter: this was demanding training in a particular population. It does not show that an effortless set with a tiny weight is equivalent to any other set, or that load never matters for strength."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "For Leon, the practical choice is no longer which number contains the magic. It is which resistance lets him perform the chosen movement with control, challenge the relevant muscles, and repeat useful work. Very heavy weights can make technique and setup demanding. Very light weights can require long uncomfortable sets before the muscles approach their limit. A manageable middle range can be convenient, even though convenience is different from a unique biological advantage."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Imagine choosing a resistance that permits around ten controlled repetitions while leaving a little capacity unused. That can be easier to organise than doing an exhausting marathon of repetitions, and less technically demanding than testing the heaviest possible single lift. But we are describing a practical option, not prescribing one perfect range. A person may use different ranges across exercises because the movements, equipment and goals differ."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Effort needs its own language. Repetitions in reserve means an estimate of how many more repetitions you could have completed before reaching your limit under the same movement standard. If you stop and estimate that you could have done two more controlled repetitions, that is two repetitions in reserve. It is an estimate of remaining capacity, not an instruction to prove it by attempting a failed repetition every time."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "There are several reasons a set can stop. The working muscle may no longer produce enough force. Your grip may give out. You may lose balance. You may feel breathless or uncomfortable. You may be uncertain about technique. These are not identical events. If a person ends a leg exercise because holding the equipment is difficult, the legs might still have substantial capacity. Exercise selection can help direct the challenge towards the intended muscles."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Nadia records something more informative than hard. She writes that the final repetition slowed, her movement stayed controlled, and she estimated two more were possible. On another day she writes that she stopped because the handle slipped. Those descriptions suggest different next decisions. The first may be an appropriate challenging set. The second calls for checking the setup. Simply ordering her to push harder would fail to identify what actually limited the exercise."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Estimating reserve takes practice. A beginner may stop at the first uncomfortable repetition and think there is nothing left, while an experienced lifter may recognise a familiar slowing pattern. The estimate also changes with the exercise. Confidence on a supported machine does not automatically transfer to a technically demanding free weight movement. A useful starting habit is to record the estimate honestly and refine it with competent coaching, rather than treating a guessed number as laboratory precision."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Does every set need to reach failure? No. Martin Refalo and colleagues compared training to failure with stopping one or two estimated repetitions short, using leg press and leg extension in eighteen trained adults. Over eight weeks, average measured quadriceps growth was similar. Failure produced greater immediate fatigue. That does not settle every exercise or programme, but it gives a concrete reason not to treat failure as an entrance fee for muscle growth."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "There is still a difference between leaving two repetitions and leaving fifteen. Avoiding failure does not mean avoiding effort. For our fictional trainees, the aim is a demanding set whose form remains appropriate, rather than an easy set followed by an optimistic description. The closer a person moves towards their limit, the more the setup and the ability to finish safely matter. A programme can contain serious effort without turning every set into an emergency."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Leon has another rule: if he rests longer than a minute, he thinks he is losing the effect. He rushes from one set to the next. On his first set he completes ten controlled repetitions. On the second he manages six. On the third he gets four and changes the movement. His pulse is high and he feels busy. But the log says that the planned repeated work has deteriorated sharply."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Rest between sets gives the person a chance to perform the next set effectively. Brad Schoenfeld and colleagues compared one minute with three minutes in a small study of trained men. Longer rests produced better results for some strength and muscle thickness outcomes under that programme. The lesson is not that exactly three minutes is always optimal. It is that shortening rest simply to feel more exhausted can undermine the work you intended to perform."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "We can make a coaching decision without pretending to know the perfect rest interval. Leon could keep the exercise and resistance consistent, allow more recovery between sets, and see whether his later repetitions remain controlled. If he gets ten, nine and eight instead of ten, six and four, he has changed the session in a meaningful way. The fictional numbers illustrate the decision; they do not predict what his muscles will gain."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Compare the totals. Ten plus six plus four is twenty repetitions. Ten plus nine plus eight is twenty-seven. Seven more controlled repetitions have become possible across the same number of sets. That arithmetic alone does not prove greater hypertrophy, because effort and other details matter. But if the goal was repeated challenging work, it shows why rest is part of the programme rather than empty time between the real training."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Rest also needs to fit the exercise. A demanding movement involving several large muscle groups may leave someone breathing hard and struggling to stabilise. A smaller supported movement may be easier to repeat sooner. We should not force both into one stopwatch rule just because the app has a default. Record the rest, notice whether the next set can be performed as intended, and make the schedule realistic enough that the person can follow it."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Now volume. The easiest measure to understand is the number of sets assigned to a muscle over a week. Another is volume load, calculated as sets multiplied by repetitions multiplied by external load. If Nadia performs three sets of ten with twenty kilograms, the arithmetic gives six hundred kilograms of volume load. That is a bookkeeping measure. It does not mean she lifted a six hundred kilogram object, or that all six hundred kilograms acted directly on one muscle."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "The limits become obvious if we compare exercises. Ten repetitions with twenty kilograms in one movement are not biologically interchangeable with ten repetitions with twenty kilograms in another. Leverage, range and the muscles involved differ. Volume load can be useful within a stable exercise, but adding every number in a gym session can create a precise total with a vague meaning. More tonnage on a spreadsheet is not automatically a better muscle building session."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Counting challenging sets avoids some of those problems, but it is still an approximation. A chest press involves the chest, shoulders and triceps. A triceps extension more directly focuses on the elbow extensors. If a person counts every pressing set as a full independent set for every involved muscle, the totals can suggest more certainty than the exercise provides. We need to consider overlap without pretending there is a universally correct fraction for every secondary muscle."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "The American College of Sports Medicine's updated guidance in twenty twenty-six points towards roughly ten weekly sets per muscle group as a useful hypertrophy target, while emphasising individual needs. That is not a minimum below which nothing happens, or a demand that someone new immediately perform ten hard sets for every muscle. The guidance also supports training major muscle groups regularly and notes that machines, free weights and other resistance options can work."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Here is how Nadia could use a weekly set count without turning it into dogma. In a fictional plan, she has four direct sets for a muscle on Monday and four on Thursday. That is eight direct weekly sets. If she is progressing and recovering comfortably, the fact that a general recommendation mentions ten does not require an immediate change. A guideline helps frame the question. Her actual response helps decide the next step."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "If she is not progressing after a reasonable period, and technique, effort, recovery and attendance look consistent, she might discuss a small increase with her trainer. Four plus four could become five plus four, giving nine. That is one additional set, not a sudden doubling. She would then observe whether it remains manageable. The point of a gradual adjustment is to learn the effect of a specific change while keeping the rest of the programme understandable."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Leon instead adds three new exercises, takes every set to failure and trains the same area on two extra days. When he feels worse, he cannot tell which change mattered. His plan now has several moving parts and a much larger recovery demand. We do not need to label him undisciplined. The practical problem is that he changed the dose in several ways at once, without establishing whether the original work was being performed consistently."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Frequency is how that work is distributed. Twelve weekly sets could be organised as six on each of two days, or four on each of three days. The arithmetic is the same. The experience may differ. Spreading the work can shorten sessions and help preserve performance. It can also create more travel and scheduling demands. The best arrangement for a particular person must account for both the work and the likelihood that the sessions will actually happen."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Think of a person who reliably has two available evenings. A four-day split may look sophisticated but leave half the programme unfinished. A simpler two-day arrangement may cover the intended movements more consistently. Someone else may find three short sessions easier than two long ones. Frequency is partly a biological scheduling question and partly an ordinary calendar question. The programme has to exist in the person's real week, not only on an ideal template."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Second recall question. A fictional plan assigns six sets to a muscle on Tuesday and six on Friday. Another assigns four sets on Monday, Wednesday and Friday. How many weekly sets does each contain, and what has changed?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Both contain twelve weekly sets. The distribution has changed from two sessions to three. That could change session length, fatigue and convenience, even though the weekly set count matches. It would be inaccurate to call the three-day version fifty percent more weekly work merely because it appears on fifty percent more days. Count what is done before interpreting how often it appears on the calendar."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Progression is where a plan becomes a sequence. Progressive overload means adjusting the challenge as capacity develops. It does not require adding weight every workout regardless of performance. One option is increasing repetitions with the same resistance. Another is increasing resistance while maintaining an appropriate repetition range. Daniel Plotkin and colleagues compared these approaches in a training study and found that both could support muscular adaptation. There is more than one route to progressing the demand."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Let us build an original example slowly enough to use. Nadia has an exercise with a working range of eight to twelve controlled repetitions. She performs three sets, rests consistently and aims to keep a little capacity in reserve. At the beginning, her sets are ten, nine and eight. She keeps the load unchanged while trying to improve the repetitions over later sessions without shortening the movement or turning the final set into a different exercise."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "On a later day, the log reads eleven, ten and nine. That is progress in the example. She does not need to add weight immediately, because she has not yet reached the top of the planned range across the sets. Eventually the log reads twelve, twelve and twelve with the intended effort. At that point, a small increase in resistance may make sense. The repetitions may then fall back towards the lower end of the range."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "This is often called double progression because repetitions develop within a range before load increases. It is a rule for making decisions, not a promise that the numbers improve every session. The size of the next increase also matters. Moving from a ten kilogram dumbbell to twelve kilograms is a twenty percent increase. Moving from fifty kilograms to fifty-two is four percent. Both add two kilograms, but they are very different relative jumps."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "That difference explains why a small exercise can seem stuck when equipment increments are large. Nadia may have reached twelve repetitions comfortably, yet the next available dumbbell makes eight controlled repetitions unrealistic. She can discuss alternatives: smaller increments where available, a different suitable piece of equipment, or a revised repetition range. The solution is not automatically to swing the heavier dumbbell until the log looks progressive."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "We should also distinguish planned progress from observed progress. The programme might say increase when all sets reach the upper target. The log tells us whether that condition actually happened. Writing a heavier number into next week's plan does not make the body ready for it. A sensible rule includes the option to repeat the same prescription, or reduce it temporarily when circumstances make the usual work inappropriate."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Imagine Nadia sees twelve, eleven and ten for two sessions in a row. That is not necessarily a plateau worth redesigning her training around. Day-to-day performance varies, and progress is rarely a smooth staircase. She first checks whether she used the same setup and rest, and whether there was an obvious difference in the day. If the overall pattern is improving across several weeks, repeating a session can be part of an effective plan."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "There is a useful distinction between a target and a debt. Twelve repetitions is a target under particular conditions. If Nadia gets ten controlled repetitions and estimates she is near her intended limit, the remaining two do not become a debt she must repay by any means necessary. The target helps organise training. It should not pressure her into abandoning the technique or effort standard that made the target meaningful."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Exercise selection changes what those repetitions accomplish. A compound exercise involves movement at more than one joint. A single-joint exercise focuses the movement more narrowly. Pressing, rowing and squatting patterns can involve several muscles, while a curl or extension can add focused work. Neither category makes the other obsolete. The choice depends on what the programme needs to cover, what the person can perform comfortably, and how much time and fatigue the combination requires."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "A useful way to inspect a plan is to name the intended muscle or movement beside each exercise. Leon's sheet says chest press, incline press, push-ups and another press. It looks varied because there are four names. Yet much of the work overlaps. If he thought that list covered his whole body, the labels have hidden a gap. An exercise inventory becomes more informative when it shows what each exercise contributes."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Nadia's trainer might start with broader coverage and then add focused work where appropriate. The exact selection is individual. Our concern is the logic: an exercise should have a job. If two movements perform almost the same job, keeping both may still be reasonable, but there should be a reason beyond having seen both online. If a movement repeatedly creates a problem, substituting a suitable alternative can preserve the goal without preserving the exact exercise name."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Suppose a free weight row keeps being limited by Nadia's ability to hold her torso in position. A supported row might let her practise pulling against resistance with less attention spent maintaining that position. This does not make supported exercises universally superior. It illustrates matching the tool to the intended task. If her goal also includes strengthening the unsupported position, that is a separate programme choice rather than a reason to ignore the limitation."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "The same reasoning applies to machines and free weights. Machines can make some aspects of setup and stability easier, but their fixed paths will not suit every body equally. Free weights permit different paths but ask more of balance and coordination in some movements. An effective plan may use both. Equipment is useful when it helps the person perform an appropriate movement and progress it, not because one category has a more impressive reputation."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Range of motion deserves more care than a slogan. It describes how far the movement travels. A controlled, appropriate range makes comparisons clearer and helps define the task. Forcing a joint into an uncomfortable position simply to achieve a dramatic stretch is a different decision. Specialised partial-range methods exist, but they should not become an excuse for unconsciously shortening every repetition as the weight increases."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "If Nadia deliberately changes the range, she records it as a change. For example, a trainer might modify a movement to suit what she can comfortably perform. The new version then becomes the basis for future comparisons. She does not combine its numbers with the previous version and declare a sudden strength increase. This preserves useful training while keeping the log honest. Adaptation does not depend on pretending that all variations are identical."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Tempo is the speed of the movement. A controlled lowering phase and an intentional lifting phase make sense for learning many exercises. Deliberately taking an extremely long time on every repetition changes the task and the resistance someone can use. The number of seconds under a weight is not a complete measure of hypertrophy stimulus. If Leon slows each repetition dramatically and then compares the total with his previous session, he needs to recognise that he changed the prescription."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "The practical question is whether tempo serves control and the exercise goal. It should not become another number to maximise without context. A slow repetition performed because the person is fatigued is also different from a slow repetition chosen at the start. In both cases the movement may look slow, but the reason differs. This is another place where a short note in the log can preserve information that the repetition count loses."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Now training recovery. The programme is not only what happens during the session. It also depends on being able to return and perform useful work. That includes food, sleep, the spacing of demanding sessions and the rest of the person's physical activity. A plan that fits a quiet week might need adjustment during a week of poor sleep and unusually demanding work. The body does not separate training fatigue from every other demand because the spreadsheet does."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Protein supplies amino acids used to make body proteins. The International Society of Sports Nutrition's position stand gives roughly one point four to two grams per kilogram of body weight per day as sufficient for most healthy exercising people. That is a general range, not a personal prescription. Medical conditions, dietary needs and individual circumstances can change the advice. A dietitian can help when those questions matter."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "For an arithmetic example, take a fictional adult weighing seventy kilograms and use one point six grams per kilogram. Seventy multiplied by one point six gives one hundred and twelve grams across the day. The calculation teaches how a per-kilogram figure works. It does not establish that this particular person must hit exactly one hundred and twelve, or that one hundred and eleven would fail. The biological response is not a switch operated by a single gram."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "That protein can come from ordinary foods. Supplements can be convenient, but a powder is not a requirement for muscle growth. Timing can matter in context, yet there is no need to panic that a workout becomes worthless without an immediate shake. The same position stand describes a longer-lasting response to exercise. For a person struggling with the basics, establishing adequate daily food intake is more useful than obsessing over a narrow minute on the clock."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Nadia's practical food question might be very ordinary: does she have a proper meal available after an evening session, or does she arrive home without anything prepared and skip it? That is a logistics problem she can solve. She could arrange a meal she enjoys and can afford, rather than buying a supplement because its packaging promises a more advanced solution. The choice should fit her diet and needs, not our fictional menu."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Total energy availability matters too. A research synthesis by Chaise Murphy and Karsten Koehler found that energy deficiency reduced gains in lean mass during resistance training, although strength gains were not similarly impaired. It does not give every individual a precise calorie target. It does show why aggressively reducing food while expecting maximal muscle growth can create competing demands. Lean mass is also a broader measurement than muscle alone, so we should keep that distinction."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Nor does that mean everyone pursuing muscle needs to eat as much as possible. Extra food does not all become muscle, and the appropriate intake depends on the person and goal. Nadia can seek a sustainable approach that supports her training. Leon's idea of alternating between extreme restriction and enormous meals makes it harder to establish what he normally eats and how he responds. A consistent starting pattern gives later adjustments something meaningful to work from."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Sleep is another foundation with less exciting packaging. The United States National Heart, Lung, and Blood Institute lists seven to nine hours as the usual recommended range for adults. Individual needs and sleep quality matter. That guidance does not mean one short night cancels muscle growth. It means regularly leaving too little opportunity for sleep is a real constraint, rather than something a more complicated training split automatically fixes."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Suppose Nadia usually trains late and then spends another hour reorganising her programme on her phone. Moving that planning to another time may be more useful than adding another exercise. The point is specific: protect enough opportunity to sleep, notice whether the schedule works, and seek appropriate help for persistent sleep difficulties. There is no need to turn recovery into a second competitive sport with perfect scores required every morning."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Third recall question. In our fictional calculation, a seventy kilogram adult uses one point six grams of protein per kilogram to estimate a daily amount. What is the total, and does that calculation make the number an exact personal requirement?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "It gives one hundred and twelve grams. It is an example of applying a general figure, not an individual assessment. An appropriate intake depends on the person's circumstances, and the purpose of the example is understanding the calculation. Food, training and recovery work together over time. A precise-looking number should not distract from whether the overall routine is suitable and sustainable."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "We now have enough pieces to inspect a real-looking week. Here is Nadia's fictional record. On Monday she completes three sets of a supported row at the same machine setting: ten, ten and nine repetitions, with consistent rest and an estimated two repetitions left on most sets. On Thursday she records eleven, ten and nine under similar conditions. There is no dramatic personal record. There is one additional repetition in a comparable task."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "The total moves from twenty-nine to thirty. That is a modest observation, not proof of a particular amount of growth. It gives her a reason to continue the progression rule rather than redesign everything. If the next session returns to twenty-nine, the whole programme has not collapsed. She can compare the pattern across more than a single pair of days. The smallest differences are also the most vulnerable to ordinary variation in performance and estimation."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Leon's record looks more impressive at first. He writes that he increased the machine by two settings. But the seat changed, his range shortened, he rested longer and his friend helped with the last repetitions. There may have been genuine effort and useful work. What he cannot do is assign the entire numerical increase to his own strength. Assistance is particularly important to record because it changes how much of the task he performed himself."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "We could improve Leon's next session without criticising his motivation. Choose a repeatable setup. Use a resistance he can manage under the agreed movement standard. Record his own repetitions. Allow enough rest to perform the next set. Note his estimated reserve. These are specific training decisions. They reduce the temptation to chase a headline number by changing several hidden conditions at once."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Notice that this does not demand endless logging. A useful entry can be short: exercise and setup, load, repetitions for each set, rest, estimated reserve, and a note if something unusual happened. The point is not to create administrative work after every movement. It is to preserve the few details that would change how you interpret the next session. If an app makes that difficult, a simple note can be enough."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "And the log should include what was actually completed. A planned four-session week with two sessions done is a two-session training week. That is not a moral judgment. It changes the explanation for the result. Before deciding the prescribed programme is ineffective, Nadia checks how much of it happened. Sometimes the best intervention is a more realistic plan whose essential work fits into the sessions she reliably attends."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "What would count as evidence of actual muscle growth outside a laboratory? No single everyday measurement gives a perfect answer. Body weight includes much more than muscle. A photograph depends on lighting, posture and distance. A tape measurement includes surrounding tissue and changes with placement. These tools can still be useful when used consistently, but a single reading should not carry more meaning than the method can support."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Leon takes a photograph immediately after training, under brighter overhead lighting, while deliberately tensing. He compares it with a relaxed photograph from a different room. He may look noticeably different. That does not tell him how much lasting tissue changed. A fairer comparison uses similar conditions and enough time between observations for a trend to be meaningful. It also avoids treating every temporary change in appearance as success or failure."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Early measurements are especially easy to overinterpret. Research by Damas and colleagues found that early increases in measured muscle area could coincide with swelling. The finding helps explain why an early size increase is not necessarily all lasting hypertrophy. The reverse mistake is also common: looking less full on a particular day does not prove that months of muscle have disappeared. Appearance is affected by short-term conditions as well as tissue."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Nadia might choose an occasional measurement under similar conditions, alongside her training record. She does not need to measure herself several times every day. If monitoring appearance becomes distressing or compulsive, that is a reason to step back from that method and seek support if needed. Training can also be evaluated through function, comfort, consistency and performance. The body does not have to become a daily inspection project for the programme to have value."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Suppose her weight stays similar, some measurements change slightly, and she performs more controlled work over several months. That pattern may be encouraging, but we should not invent an exact muscle gain from it. Suppose instead that weight rises rapidly while performance barely changes. That also deserves a careful look at what changed, rather than assuming all added weight is muscle. Measurement should help choose the next action, not produce a flattering story on demand."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "This brings us to plateaus. A plateau is a sustained lack of the progress you are trying to make, not one ordinary off day. Before changing the programme, identify the stalled outcome. Is it a particular lift? A repetition target? Body measurements? The ability to complete the weekly plan? Those problems can have different causes. Saying nothing is working when only one movement is stuck makes the troubleshooting unnecessarily broad."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Take three versions of Nadia. In the first, her row is stalled but other exercises progress and she feels well. In the second, nearly every exercise has declined after several unusually demanding weeks. In the third, the written programme is reasonable but she repeatedly misses the second session. The same instruction to add more sets would be a poor response to all three. We need to locate the constraint before increasing the demand."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "For the first version, check that particular exercise: equipment increments, setup, effort, discomfort and whether the planned progression is realistic. For the second, review recovery and total demand, and consider reducing training stress with appropriate guidance. For the third, reorganise the calendar or shorten the plan. These are different solutions because the observed problems differ. A plateau is a description of an outcome, not a diagnosis of insufficient effort."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "A temporary reduction in training demand is sometimes called a deload. It may involve fewer sets, lighter resistance or less demanding effort. It is a tool, not a mandatory ritual on an identical schedule for everyone. If someone is ill, injured or has unexplained persistent symptoms, a deload is not a substitute for assessment. In ordinary programming, its purpose is to manage fatigue so that useful training can resume."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Here is an example of distinguishing fatigue from a need for more work. Leon has increased his weekly sets from eight to sixteen, shortened his rest and added another sport session. His later sets deteriorate, and he arrives tired each time. We cannot identify the exact cause from those facts alone, but adding yet more hard work is not the obvious first move. Restoring a manageable routine and reviewing the changes is a more coherent response."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Nadia has a different situation. She completes a modest plan consistently, recovers well and has used the same easy resistance for months, always stopping long before the exercise becomes demanding. Here the work may no longer provide much challenge. After checking technique and suitability, progressing resistance or repetitions could make sense. Both people say they are stuck. One may need less accumulated demand; the other may need a meaningful progression in the task."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Fourth recall question. One lifter has a single stalled exercise while the rest progress. Another has worsening performance across nearly the entire programme after adding substantial work. Why should we avoid giving both the automatic advice to add more sets?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Because the pattern points towards different questions. A local problem may involve that exercise's setup, progression or comfort. A widespread decline may involve overall fatigue, recovery or another issue needing attention. More sets are one possible programming variable, not the universal treatment for a disappointing result. First identify what has changed and whether the work is being performed as intended."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "We should make one more distinction about goals. Building muscle, improving a heavy single lift, developing power and improving endurance overlap, but they are not the same target. A programme can support several, yet a specialised goal changes the emphasis. Someone preparing for a strength competition needs practice with the relevant lifts and heavier loads. Someone primarily interested in muscle size has more flexibility in how the muscles are challenged."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "And resistance training does not replace every other part of physical fitness. The NHS treats muscle strengthening and aerobic activity as related but distinct recommendations. A person can build a routine that includes both. There is no need to interpret a lesson about hypertrophy as an instruction to abandon walking, cycling or other activity they enjoy. The total schedule needs to account for how demanding each part is, particularly when several activities stress the same areas."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "A runner adding leg training, for instance, has a different week from someone whose other activity is mostly gentle walking. We would not simply copy the same lower-body workload into both calendars and expect identical recovery. The useful question is what the new training adds to the whole week. Our examples have isolated variables to explain them, but an actual programme has to bring those variables back together around the person."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Let us bring Leon and Nadia to the same starting point. Both want to build muscle. Both have access to suitable equipment. Neither needs a secret exercise. They need a repeatable set of movements, an appropriate level of effort, enough manageable work, a progression rule, and recovery that supports returning. The details will differ, but those decisions give the programme structure. Advanced methods can then answer specific needs rather than decorate an unclear plan."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "That is also why the most impressive-looking session is not necessarily the most useful one. A session belongs to a sequence. If Leon selects work that he cannot recover from or repeat, he has to keep rebuilding the sequence around the aftermath. Nadia's steadier approach creates more comparable opportunities to progress. This is a practical advantage of manageable training, not a claim that training should always feel easy or that every difficult session is a mistake."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Fifth recall question. In our double-progression example, a person has three sets in an eight-to-twelve repetition range. What condition would support considering a small load increase, and what should happen to the movement standard when the weight changes?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Reaching the upper end across the planned sets with the intended effort and control supports considering a small increase. The movement standard should remain appropriate and comparable. Repetitions may drop towards the lower end with the new resistance. If the next increment is too large, change the progression strategy with suitable guidance rather than forcing the heavier load through a shortened or uncontrolled movement."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Your practical task is on paper, so there is no need to attempt a difficult lift today. Take one exercise from an existing log, or use Nadia's example of three sets at a consistent setting. Write the current repetitions, the usual rest, the movement standard and the estimated repetitions in reserve. Then write one clear condition for progressing it. Make the condition observable, such as reaching the upper repetition target across the sets while retaining the intended control and effort."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Under that, write what would make you hold steady rather than progress. Perhaps the setup changed, the repetitions became uncontrolled, or an unusually difficult week made the session unrepresentative. Also write that pain or an unsafe movement means stopping and seeking appropriate guidance, not negotiating with the target. You are building a decision rule that includes both permission to progress and a reason to wait."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "If you use our fictional numbers, begin with ten, nine and eight repetitions in an eight-to-twelve range. A next entry of eleven, ten and nine supports continuing at the same resistance. A later entry of twelve, twelve and twelve with the intended control supports considering the smallest suitable increase. An entry of twelve, twelve and twelve achieved by shortening every repetition does not satisfy the original condition. The difference is visible once the rule is written."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear and engaged. Teach the concrete example naturally. Give arithmetic room to be understood without artificial slowing.",
+      "t": "Finish by checking the weekly context. How many comparable sets does that muscle already receive, including overlapping work? When is the next session? Does the plan fit the available time and recovery? You do not need to optimise every detail. You need a next decision that follows from the actual record. Put that decision beside the exercise, ready to review before the next session rather than improvising it when you are already tired."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-15",
+    "spoken_words": 7262,
+    "sha256": "cef6e67bafc2df6da1ba1daabf17f665b56c0adfc0792361a05bca3fa84ee50b",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "worked-arithmetic",
+      "source-support",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://acsm.org/resistance-training-guidelines-update-2026/",
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-3-muscle-fiber-contraction-and-relaxation",
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-4-nervous-system-control-of-muscle-tension",
+      "https://pubmed.ncbi.nlm.nih.gov/17241104/",
+      "https://pubmed.ncbi.nlm.nih.gov/41276164/",
+      "https://pubmed.ncbi.nlm.nih.gov/27219125/",
+      "https://pubmed.ncbi.nlm.nih.gov/27174923/",
+      "https://pubmed.ncbi.nlm.nih.gov/38393985/",
+      "https://pubmed.ncbi.nlm.nih.gov/26605807/",
+      "https://pubmed.ncbi.nlm.nih.gov/36199287/",
+      "https://link.springer.com/article/10.1186/s12970-017-0177-8",
+      "https://pubmed.ncbi.nlm.nih.gov/34623696/",
+      "https://www.nhlbi.nih.gov/health/heart-healthy-living/sleep",
+      "https://pubmed.ncbi.nlm.nih.gov/26280652/",
+      "https://www.nhs.uk/live-well/exercise/how-to-improve-strength-flexibility/"
+    ]
+  }
+}
