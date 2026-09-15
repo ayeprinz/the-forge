@@ -1,0 +1,600 @@
+{
+  "date": "2026-09-16",
+  "title": "[Communication] How to Negotiate Without Giving Everything Away",
+  "summary": "Prepare alternatives, understand interests, trade across scope and timing, handle pressure, and reach clear agreements. A fictional design project develops into complete worked conversations, with five recall prompts and one practical exercise.",
+  "instructions": "Two thoughtful teachers. Both explain substantive material. Natural pacing and clearly spoken arithmetic.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "A client asks for a discount. You say the project costs three thousand pounds. They say their budget is two thousand. You split the difference, agree on twenty-five hundred, and leave the call relieved. Then the extra requests arrive. The deadline is still tomorrow, revisions are unlimited, and the customer wants to pay after launch. You negotiated one number while leaving the expensive parts of the agreement untouched."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Let's negotiate that project again, properly. We'll use an invented designer called Maya and an invented client called Harbour. No magic phrase will make Harbour accept everything Maya wants. What we can do is work out her alternatives, identify what each side needs, exchange terms intelligently, handle pressure, and make the final agreement clear enough to deliver. Those are skills you can apply to work, purchases and shared decisions."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Harbour wants a website ready for an event. Maya wants a fee that covers the work, a manageable scope and payment she can rely on. At first they appear to disagree about price. But we don't yet know whether the client needs an entire website by the event, whether every page matters equally, or whether its two thousand pound limit is about total cost or this month's available budget. Those differences could change the possible agreement."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "A position is what someone says they want. An interest is a reason or need behind it. The Program on Negotiation at Harvard explains that distinction as part of negotiation preparation. Harbour's position is, we need the full website tomorrow for two thousand. Its underlying interests might include appearing credible at the event, collecting enquiries and avoiding an expense it cannot approve. Those are possibilities to investigate, not facts Maya can infer from a confident tone."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Maya could start with a practical question. Which parts need to be live for the event to work? That is more useful than immediately defending every pound of her quote. Suppose Harbour answers that attendees mainly need a page explaining the offer and a working enquiry form. The full case-study library can wait. We have discovered a difference between the original demand and the immediate business requirement."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Maya can then explore a smaller first phase: a landing page and enquiry form before the event, with the remaining pages later. That might reduce urgent work and allow a different payment schedule. It might also turn out to be unsuitable, perhaps the event contract requires the whole site. The question has value either way because it reveals what actually constrains the decision. We are testing options rather than inventing agreement where none exists."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "There is a familiar mistake here: hearing an interest and assuming it is the only interest. Harbour may care about the event, but also about consistency with an existing brand, accessibility, internal approval and future maintenance. Maya may care about money, but also about sleep, existing clients and the right to show the work in her portfolio. A workable agreement needs enough of the relevant picture, without turning a simple project into an endless interview."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Start with the issues capable of changing the deal. For this project, those are scope, price, timing, payment and approval. Ask about them with a purpose. What must be finished first? Who approves the work? What happens if feedback arrives late? Which payment schedule can Harbour actually process? The answers help Maya design a proposal that addresses the client's needs while protecting the work she is committing to do."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "But understanding the client does not tell Maya what she herself should accept. Before negotiating, she needs an alternative if this agreement does not happen. Negotiation literature calls the best available alternative a BATNA, the best alternative to a negotiated agreement. It is a course of action outside this proposed deal, such as taking another confirmed project, using the time for another purpose or continuing with an existing arrangement."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Harvard's BATNA guidance emphasises evaluating alternatives before deciding a walk-away point. The distinction matters. Maya's wish to find a better client is not the same as having another client ready to book. An enquiry in her inbox is not a signed project. A good alternative must be assessed for availability, cost, timing and risk. Otherwise she may reject an acceptable agreement in favour of something that does not actually exist."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Let's give Maya a real alternative. Another client has offered a confirmed, smaller project paying two thousand pounds. It requires eight hundred pounds of outside costs and the same block of her time as Harbour's project. For this simplified comparison, it leaves twelve hundred pounds after those outside costs. Harbour's original project would cost Maya twelve hundred externally. At three thousand, it leaves eighteen hundred. At two thousand, it leaves only eight hundred."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "If we compare only those stated costs and the same time commitment, Harbour would need to pay twenty-four hundred to match the alternative's twelve hundred contribution. That does not automatically make twenty-four hundred Maya's final minimum in real life. Payment risk, the difficulty of the work, relationship value and additional commitments may differ. The calculation gives her a starting comparison, with its assumptions visible, instead of a boundary chosen in the heat of the call."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Her aspiration is different from that boundary. She might reasonably aim for three thousand because the work and market support it, while knowing that a certain lower package would still be better than her alternative. The aspiration guides her proposal. The reservation point marks where, given her actual alternatives and preferences, accepting becomes worse than declining. Confusing them can make someone either concede too quickly or reject every outcome short of perfection."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "You do not need to announce your private minimum just because somebody asks. Maya can say, for the scope and deadline you've described, my proposal is three thousand. If that does not fit, we can look at what changes in the scope or schedule. That is honest. It states the offer without exposing every private comparison. Protecting information is compatible with truthful communication; inventing a competing offer is a different action."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Suppose Maya has no other confirmed project. Does that mean she should accept anything? No. Her alternative might include using the time to seek work, complete existing commitments, rest or improve a product. Those options may have uncertain financial value, but accepting a loss-making job can still leave her worse off. A weak alternative changes her bargaining position. It does not make the costs and obligations of a bad agreement disappear."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Improving an alternative often happens before the conversation. Maya can maintain several client relationships, avoid allowing one deadline to consume every available slot, and know which parts of a project she can deliver economically. These actions can reduce dependence on a single negotiation. They are more substantial than trying to sound powerful while having no workable option if the other side says no."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "First recall question. What is the difference between Maya's desired price and her best alternative if Harbour declines?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "The desired price is an outcome she hopes to obtain inside this negotiation. Her alternative is what she can actually do without this agreement. Comparing a proposed deal with that alternative helps her decide whether accepting makes sense. The alternative needs to be real enough to act on, not merely a hopeful number."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Now consider Harbour's side. It may have another designer offering similar work for twenty-six hundred, or it may have no one who can deliver before the event. Maya usually will not know the exact alternative. She can investigate the client's constraints and competing options without pretending she has perfect information. Overconfidence about the other side's desperation can produce an unreasonable offer and destroy a deal that had room to work."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Imagine a simple one-issue negotiation where Maya would accept at least twenty-four hundred and Harbour would pay at most twenty-eight hundred. There is an overlap from twenty-four hundred to twenty-eight hundred. Negotiators call that a zone of possible agreement. It identifies prices that could be acceptable to both under the stated assumptions. It does not tell us which point is fair or which price they will actually choose."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Change Harbour's maximum to twenty-two hundred, while Maya's minimum stays twenty-four hundred for the same package. Now there is no overlap on price alone. Splitting the difference between their opening offers may still produce a number, but that number cannot magically satisfy both actual limits. They need to change the package, change a relevant alternative, or accept that this particular agreement may not be available."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "This is where adding issues can help. Perhaps a narrower scope costs Maya less. Perhaps a later deadline avoids an expensive subcontractor. Perhaps earlier payment has enough value to her to support a different package. These are changes in the substance of the deal. They can create a new overlap. Simply insisting that both sides compromise while keeping every term fixed cannot create value that isn't there."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Let's develop the deadline example. Maya's three thousand pound quote includes a rush subcontractor costing four hundred. If Harbour can move the nonessential pages to the following week, that rush cost disappears. There may now be four hundred of value to divide between them, provided the later schedule really works and no other cost replaces it. Both sides can improve relative to the original package by changing something they value differently."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "They might agree a price of twenty-eight hundred for the revised timing. Harbour pays two hundred less. Maya's outside costs fall by four hundred, so she keeps two hundred more contribution than under the original three thousand pound rush package. This is an invented example of a trade-off producing mutual benefit. It does not require Maya to believe the client is a friend or Harbour to stop caring about price."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Notice what the agreement has not done. It has not found extra money by clever wording. It has changed the delivery requirement, removed a real cost and shared the resulting gain. That is why understanding interests can improve a negotiation. A fixed demand such as everything tomorrow may conceal flexibility. When the flexibility is genuine, the parties can redesign the transaction rather than only fight over the original price."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Some negotiations contain little flexibility. If you are buying a standard item from a seller with a fixed price and no authority to vary terms, there may be nothing useful to negotiate. If two people want the same scarce resource at the same time and cannot substitute, the conflict may remain. Looking for trade-offs is a method of discovery, not a promise that every disagreement has a comfortable solution."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "We also need to distinguish creating value from claiming it. Removing the rush cost creates four hundred of possible benefit. Deciding how much each side receives is the distribution question. If Maya gives Harbour all four hundred, she has created value but kept none of the improvement for herself. If she hides every possible adjustment, they might never find the improvement at all. Effective negotiation often involves both discovery and distribution."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "The Program on Negotiation describes this tension in its discussion of the negotiator's dilemma. Sharing useful information can help parties find better packages, while revealing everything can make a person easier to exploit. A practical response is selective, reciprocal disclosure. Maya can reveal that flexibility on nonessential pages reduces rush costs without announcing her lowest acceptable price, her account balance or every detail of her alternative."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "She can also ask the client to contribute information. I can explore a lower-cost schedule if you can tell me which parts are genuinely essential for the event. That moves the conversation towards a specific exchange. If Harbour refuses to clarify anything but keeps demanding a lower price, Maya learns something about how difficult it may be to structure and deliver the project, even though she still cannot read the client's motives."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "The phrase win-win is not enough to demonstrate that both sides benefit. Compare the actual alternatives and obligations. A client can happily describe a deal as collaborative while pushing every risk onto the supplier. A supplier can call three packages flexible while making all of them poor choices. Examine what each package contains, what it costs and what happens if delivery goes wrong. Friendly language does not replace that work."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Let's build two proposals for Harbour. Proposal one is the full website for three thousand pounds on the original rush schedule. Proposal two is the event landing page first and remaining pages the following week for twenty-eight hundred. Both specify the same quality standard and a defined approval process. Maya should offer only packages she can actually deliver and would be willing to accept."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Suppose she considers both packages equally attractive after accounting for costs, time and risk. Offering them together can help reveal Harbour's priorities. If the client immediately prefers the phased option, timing flexibility may be more acceptable than Maya expected. If it prefers the full rush version but asks about payment dates, cash timing may matter more. The preference is information to explore, not proof that she has identified every hidden interest."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "This resembles multiple equivalent simultaneous offers, a technique discussed by the Program on Negotiation. The basic idea is to present a small number of packages that are similarly valuable to the proposer, rather than negotiate one issue in isolation. Research discussed there uses negotiation simulations; it does not guarantee results in every real deal. Our practical use is to make trade-offs visible and invite a concrete response."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "It is important that equivalent means valuable to Maya across the whole package, not identical in price. A higher fee with an expensive deadline can be equivalent to a lower fee with an easier schedule. But if one option is something Maya would hate to deliver, she should not include it simply as a decoy. Harbour might choose it. An offer is a possible commitment, not just a device for steering someone towards another box."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Harbour might try to combine the cheapest price from one option with the fastest deadline and largest scope from another. Maya can explain that the terms were linked. The twenty-eight hundred price works with the phased schedule because it removes the rush cost. For full delivery tomorrow, the three thousand package applies. That explanation protects the economic relationship without accusing the client of wrongdoing."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Second recall question. Maya reduces a rush cost by four hundred and lowers the price by two hundred. How does each side benefit compared with the original package?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Harbour pays two hundred less. Maya's costs fall by four hundred while her fee falls by only two hundred, so her contribution improves by two hundred. The benefit comes from changing the work schedule and removing a real cost. The example assumes the later schedule is acceptable and does not create a different expense."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "We have prepared alternatives and packages. Now let's handle the opening offer. First numbers can influence the bargaining that follows, a tendency known as anchoring. The practical danger is that you begin negotiating around someone else's number without checking whether it is relevant to the actual work. A very low offer may make a merely low counteroffer feel generous by comparison."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Suppose Harbour opens at fifteen hundred for a package Maya has costed at three thousand. Maya does not need to calculate the midpoint immediately. She can return to the scope and her basis for pricing. The complete rush package is three thousand because it includes these deliverables, this turnaround and these revision rounds. If fifteen hundred is a firm limit, I can tell you which smaller service would fit, if any."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "That response does three things. It acknowledges the stated budget, maintains a grounded proposal and offers a route to a different package. It does not claim that the client's number is stupid, nor does it treat the number as an objective valuation. Maya is explaining what she is prepared to provide on particular terms. The client can accept, counter, clarify or decline."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Making the first offer can be useful when you have reliable information about the value and scope. It can be costly when you know very little and accidentally offer much worse terms than the other party would have considered. There is no universal rule that the first person to speak wins or loses. Prepare the relevant evidence, understand what is being negotiated and decide whether you can make a credible opening proposal."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Evidence can include comparable work, actual costs, market rates, delivery requirements and standards both parties recognise. None of those automatically determines one correct price. Two projects described as a website may differ enormously in scope, rights, support and complexity. A comparison becomes useful when you understand the relevant similarities and differences rather than collecting whichever number supports your preferred position."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "If Harbour says another designer offered the work for half the price, Maya can ask what that proposal includes. Perhaps it is genuinely equivalent and a better option for the client. Perhaps it excludes content preparation, testing or revisions. The useful response is to compare like with like, then decide whether Maya wants to change her offer. She does not have to disparage an unseen competitor to justify her own boundaries."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "She might say, if the other proposal includes the same deliverables and deadline and you trust that provider, it may suit you. My proposal includes the following work and is priced accordingly. That leaves room for a real difference in value without insisting that her service must be right for everyone. Being willing to lose an unsuitable deal can be part of protecting the business she intends to run."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Now imagine the client goes silent after Maya states the price. Silence is ambiguous. They may be thinking, distracted, comparing numbers, checking with somebody or deciding what to say. Immediately lowering the price treats silence as rejection without evidence. Maya can give them a moment, then ask a direct question such as, which part of the proposal would you like to discuss?"
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Silence can also be used deliberately to pressure someone into making another concession. You don't need to identify the intent to respond steadily. Keep track of the last actual offer and wait for a substantive response. If the silence becomes unproductive, suggest a time to reconnect. A negotiation should not become a contest over who can endure the most discomfort while pretending to read the other's mind."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Questions are valuable because they replace some of that guessing. The Program on Negotiation's discussion of questioning distinguishes useful follow-ups from merely filling the air. In our example, tell me more about the event deadline invites explanation. Is the event on Thursday? checks a specific fact. Who can approve the final package? identifies the decision process. Different questions serve different purposes."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "A leading accusation disguised as a question usually serves another purpose. Why are you trying to underpay me? assumes a motive and invites a defensive response. A more useful version is, how was the budget set, and which parts of the scope are flexible? That question may still reveal a hard limit. But it gives the other side a chance to explain the constraint without first agreeing that they have behaved badly."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Listening means using the answer. Suppose Harbour explains that its accounts team can approve two thousand this month and a further thousand next month. Maya can reflect the distinction: the total budget may cover the work, but the payment dates need to fit your approval cycle. Have I understood that correctly? The client can confirm or correct it. Maya has not agreed to those payment terms simply by demonstrating that she understands them."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "That separation is powerful. Acknowledging a concern is not accepting a demand. I understand that the deadline matters does not mean I agree to finish everything overnight. I can see why the cost is difficult does not mean I will absorb it. You can recognise the other person's situation and then state what you can realistically offer. Empathy and boundaries can appear in the same sentence."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Listen for contradictions as well. Harbour may say the deadline is absolutely fixed, then mention that the event content will not be ready until next week. Maya can clarify without turning the conversation into a courtroom. Earlier we discussed launching tomorrow, but the content arrives next week. Which parts can be finalised now, and how should we handle the rest? The contradiction needs resolving because it affects the actual delivery."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "If a question goes unanswered, ask it again more specifically. Suppose Maya asks who signs off and receives a long answer about company growth. She can say, that context helps; for this project, who is the person authorised to approve the final design? A fluent answer is not necessarily an answer to the decision she needs to make. Keep the conversation courteous while maintaining the information requirement."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "We now reach concessions. Maya offers to bring the landing page forward by a day. That may cost her an evening or require reshuffling other work. If she simply says yes whenever the client asks for something, the package changes without a corresponding adjustment. Small concessions can accumulate until the original price no longer matches the actual commitment."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "A conditional proposal makes the exchange clear. If the approved copy and images arrive by Tuesday morning, I can deliver the first page on Wednesday. If the materials arrive later, the delivery date moves with them. This ties the promise to a dependency Maya actually needs. It is more useful than agreeing an unconditional deadline and hoping the client supplies the necessary materials in time."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Another conditional exchange might involve revisions. I can include one extra revision round if we agree that all feedback comes through one named approver and is consolidated into a single response. That only works if the trade-off has real value to Maya and the client can follow the process. It should not become a ritual of asking for something meaningless every time the other side makes a reasonable request."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "You can also make the cost of a concession visible without exaggerating. Moving the deadline forward requires rescheduling another production slot, so I can do that only for the narrower first phase. The explanation helps the client understand why the terms are linked. Avoid inventing scarcity or claiming that every small adjustment is a heroic sacrifice. Credibility is easier to maintain when the explanation matches reality."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Repeatedly splitting differences can be misleading. If the first request is a discount, the second is extra work, the third is faster delivery and the fourth is later payment, meeting halfway on each can gradually move every term against Maya. Review the complete package after several changes. The question is whether the final agreement remains acceptable, not whether each individual compromise sounded moderate when it was proposed."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Third recall question. Maya says she can meet an earlier deadline if the client delivers approved content by Tuesday. What makes that a useful conditional agreement?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "It connects her commitment to a specific dependency the client controls. Both sides can see what must happen for the earlier delivery to be feasible. It needs a clear consequence if the content is late, rather than leaving Maya responsible for an unchanged deadline regardless of what happens."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Pressure changes how a negotiation feels, but it does not change the terms you are agreeing to. Imagine Harbour says the offer expires in ten minutes. Maya can ask what creates that deadline. Perhaps a genuine event booking must be confirmed. Perhaps the person wants a fast answer for convenience. Perhaps the urgency is manufactured. She does not need to accuse them. She needs to know whether she can make a sound commitment in the time available."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "A useful response is, I can confirm the narrower package now because the scope is clear. I need until tomorrow to assess the full rush project. If you need a decision sooner, I cannot commit to that larger version. This states a real limit. It does not promise that the client will wait. Sometimes protecting the quality of a decision means losing an opportunity that demands an answer faster than you can responsibly give one."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Be particularly careful when urgency is combined with missing terms. A demand to decide immediately while the price, scope or consequences remain unclear is a reason to slow down, not a substitute for information. You can request the proposal in writing and identify the unanswered points. You are not obliged to adopt somebody else's preferred pace just because they express it forcefully."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Another pressure move is personal framing. A client might say, if you really believed in our business, you would do this at the lower price. That changes the conversation from the work to Maya's identity or loyalty. She can bring it back to the decision. I want the project to succeed, and the package I can deliver at that budget is the first phase. The larger scope requires a different fee and schedule."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "You do not need a psychological diagnosis to recognise what happened. The statement asked Maya to prove something about herself by accepting different terms. Her response can address the actual request without debating whether she is generous, confident or committed. That is one way to recognise manipulation without turning every difficult conversation into an accusation about somebody's personality."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Sometimes the problem is ordinary emotion rather than a deliberate tactic. Harbour may be anxious because the event is approaching. Maya may feel offended because the discount request seems to dismiss her work. Those feelings can affect the exchange even if neither person intends harm. Taking a short break, naming the practical problem and returning to specific options can be more useful than trying to settle the entire relationship in that moment."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "A break should have a purpose and a return point. I need twenty minutes to check whether the revised schedule is feasible; I'll come back at three with the two options. That is clearer than disappearing or threatening to walk away whenever the discussion becomes uncomfortable. If you need more time because you are upset, you can say you want to consider the proposal carefully and suggest a realistic time to resume."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "There is also a difference between firmness and aggression. Firmness means maintaining a boundary or proposal you have reasons for. Aggression may involve insults, threats or attempts to make the other person afraid to disagree. A louder voice does not improve Maya's delivery capacity. A calmer voice does not make an unacceptable offer acceptable. Evaluate the actual terms separately from how forcefully either side presents them."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "In situations involving threats, coercion or personal danger, ordinary bargaining techniques may be inappropriate. Leaving the interaction or seeking support can matter more than improving the offer. Our project examples involve people who can choose whether to make a deal. Don't transfer a commercial negotiation script into a situation where somebody's safety or freedom to refuse is compromised."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Now let's consider a more subtle source of failed agreements: the person in the conversation cannot actually approve them. Harbour's marketing contact may like Maya's proposal but need a director's approval. If Maya treats the contact's enthusiasm as a final commitment, she may start work before the organisation has agreed. Asking about authority early helps both sides avoid an awkward surprise."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "The question can be ordinary. What approvals do you need before we can confirm the project? Or, who else needs to review the scope and payment terms? This is not about dismissing the person you are speaking with. It is about understanding the process they work within. They may be an important advocate, but advocacy and final approval are different roles."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Suppose the contact says a director approves the budget and an operations manager approves the website. Maya can prepare a concise proposal that addresses both. The director needs a clear cost and payment schedule. The operations manager needs deliverables, responsibilities and a review process. A vague promise to make the website amazing gives neither person enough information to approve the actual commitment."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Internal stakeholders can also have conflicting interests. Marketing wants speed, finance wants delayed payment and operations wants extensive testing. The contact may not be able to satisfy all three under the original budget. Maya can help expose those trade-offs, but she should not silently accept responsibility for resolving Harbour's internal disagreement. The final package needs an authorised decision on which priorities govern delivery."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "This is one reason written summaries are useful before a final agreement. Maya can send a short account of the proposed scope, price, schedule, payment stages and outstanding decisions. The purpose is to check understanding. It should distinguish a proposal from an agreement. If some terms still need approval, say so rather than writing as though silence will automatically mean acceptance."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Consider the phrase two revision rounds. Maya might mean two consolidated sets of feedback on the agreed design. Harbour might mean unlimited changes until two different managers are happy. The phrase sounds precise but can conceal different expectations. Explain what a round includes, who provides feedback, how changes outside the agreed scope are handled and what happens to the schedule when requirements change."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Delivery dates need similar clarity. Does delivery mean a draft is available for review, a tested site is ready to launch, or the site is publicly live? Who supplies copy and images? Who has access to publish? A deadline can be missed even when the designer finishes their own work if another essential step remains unassigned. The agreement should identify those dependencies before the event is tomorrow."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "We are not drafting a legal contract on this podcast. Substantial commitments may need appropriate professional advice. But ordinary clarity is still available to everyone. What is being provided? By whom? By when? What must the other side do? What does it cost? What happens when something changes? If those answers remain vague, a friendly agreement may be storing up a dispute rather than resolving one."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Some disagreements concern the future. Harbour believes a large website will bring a flood of enquiries. Maya is uncertain and cannot responsibly guarantee that result. They could define payment around work delivered instead of promising an outcome she does not control. Alternatively, in an appropriate commercial arrangement, part of the payment might depend on an agreed future event. That is a contingent agreement."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "The Program on Negotiation describes contingent contracts as one way to work with differing forecasts. The idea is an if-then term tied to an observable outcome. Its usefulness depends on measurement, incentives and control. If the outcome is vague, easy to manipulate or mainly controlled by somebody else, the term may create conflict. It also needs appropriate legal and commercial review when real money and obligations are involved."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "For an invented small example, suppose Harbour pays a fixed amount for the delivered website and a separate bonus if a clearly defined technical handover is completed by an agreed date. Maya controls much of that work, but still needs Harbour to provide access on time. A workable condition would need to address that dependency. Otherwise a bonus described as rewarding speed could disappear because the client withheld the information required to finish."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "A more problematic proposal would pay Maya only when Harbour's sales double, without defining the baseline, period, data source or the client's marketing responsibilities. Sales depend on far more than the website. If the parties genuinely want performance-based terms, they need to define those elements and consider what behaviour the incentives encourage. An impressive future target is not a substitute for an agreement that can be measured and administered."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Sometimes the simplest answer is to keep an uncertain issue outside the deal. Maya can say, I can commit to the specified website functions and delivery process. I cannot guarantee your sales results. That boundary is useful information for the client. It allows Harbour to choose a provider and contract on a realistic basis rather than purchase a promise neither side can properly evaluate."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Fourth recall question. What would make an if-then payment term difficult to use in practice?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "A vague outcome, missing measurement rules, poor incentives or dependencies the responsible person cannot control. A useful contingent term needs an observable event, clear responsibilities and an agreed way to determine what happened. In a real contract, it also needs an appropriate legal and commercial basis."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Let's move beyond Maya's project and apply the same ideas to a shared decision. Two friends are planning a weekend trip. One wants an expensive city hotel and the other wants a cheaper place outside the centre. If they argue only over the hotel price, they may miss the interests underneath. One wants to avoid long late-night journeys; the other has a firm total spending limit."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "They can compare the whole trip. A cheaper hotel might require extra transport and time. A central room might be smaller but avoid those costs. Travelling on different dates, staying one night instead of two or choosing another city may create different packages. There may also be no trip both can afford and enjoy right now. A good conversation leaves room for that outcome without framing a person's budget as a failure of friendship."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "The alternative matters here too. If the trip does not happen, they might plan a local day together. That is a concrete alternative. It gives them something to compare with a weekend that would leave one person stressed about money. The aim is an agreement both choose freely, not a technique for getting the more reluctant friend to surrender their limit."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "A shared household offers another example. One person wants quiet after nine and another wants to practise music in the evening. The positions conflict. The interests might be sleep, concentration, enjoying a hobby and having enough practice time. They can explore headphones where suitable, earlier practice, specific evenings, a different room or another space. The options depend on the instrument, building and schedules, so no universal rule solves it automatically."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "What helps is being specific about impact. I need to sleep by ten because I start work early is more informative than you never respect me. And I get home at eight, so I need some evening practice time is more useful than you want to control everything. These statements do not remove the disagreement. They make the competing needs clearer and reduce the temptation to argue about motives nobody can prove."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "A trial arrangement can be useful when both people are unsure what will work. They could agree particular practice times for two weeks and then review whether sleep and practice needs were met. The review point should be real, with permission to revise the arrangement. A trial that quietly becomes permanent regardless of its effects is not the same agreement as an experiment both parties can evaluate."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "The person who gives way first is not automatically the loser, and the person who gets their initial demand is not automatically the winner. Suppose one friend accepts a cheaper hotel and then finds the whole trip fits their needs better. That can be a good outcome. Suppose Maya obtains the full three thousand but accepts an impossible deadline and unlimited revisions. The price victory may conceal a poor deal."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Evaluate the complete result against the actual alternatives and objectives. This protects you from judging a negotiation only by whether you beat the opening number. It also protects against accepting a miserable agreement just because you have already spent two hours discussing it. The time spent negotiating cannot be recovered by making a worse commitment. Decide based on the choices that remain available now."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "We can now rehearse Maya's conversation from beginning to end. Harbour says, we need the full website tomorrow and we have two thousand pounds. Maya replies, the full rush package is three thousand. Before we decide whether to change it, which parts must be live for the event, and who will approve the work? She states her proposal and asks for information that could change the package."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Harbour says the landing page and enquiry form are essential, while the case studies can follow. The marketing contact can approve content but needs the director to approve the fee. Maya replies, I can propose a phased version: the event page first, the remaining pages next week, for twenty-eight hundred. That removes the rush cost on the later work. I'll set out the deliverables and payment stages for your director to review."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Harbour asks for twenty-five hundred with the same scope. Maya does not reduce the fee just to keep the conversation pleasant. She checks her costs and alternative. She might respond, I can offer twenty-five hundred if the case-study section is removed from this phase and we use the approved content you already have. For the complete phased package, the fee remains twenty-eight hundred. She links the lower price to a real change."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Harbour says another supplier might do it cheaper. Maya can ask whether the scope and deadline match, then leave the choice with the client. She can say, it makes sense to compare them. These are the deliverables and process included in my proposal. If you decide to work with me, I need the approved materials by Tuesday morning to keep Wednesday's first-page delivery. She does not invent another booking or attack the competitor."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "The director accepts the twenty-eight hundred phased package, subject to the written terms. Maya confirms the named approver, materials deadline, revision process and payment schedule. She waits for the required confirmation before treating the project as booked. The negotiation ends with a deliverable agreement, not merely a positive feeling at the end of a call. Whether it was a good deal will also depend on how it is performed."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "After the project, Maya can review what happened. Did the estimated hours match the work? Did the client provide materials on time? Were the payment dates honoured? Which terms caused confusion? This is not a reason to relitigate an agreed fee after delivery. It is information for improving the next proposal and deciding whether a continuing relationship is worthwhile."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "If a problem emerges during delivery, return to the agreement and the practical change required. Suppose Harbour requests five new pages. Maya can explain that they are outside the current scope, estimate the additional work and offer a revised price and schedule. She need not frame every change as a betrayal. Nor does she need to absorb every change because the client is enthusiastic. A change can be handled as a new decision."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "One skill we have used throughout is separating understanding, exploration and commitment. Maya can understand Harbour's need without accepting its first offer. She can explore a possible package without promising to deliver it. She can make a firm offer when she has checked that it works. Confusing these stages can make a tentative idea sound like a promise or make a simple question feel like surrender."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "You can make the stage explicit in ordinary language. I'm exploring options at this point. I need to check that schedule before confirming. Here is the package I can commit to. Those sentences are useful because they accurately describe the state of the decision. They should not be used to retreat from a commitment you have already made and the other person reasonably relied on."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "There is one more practical choice: how to conduct the conversation. A written proposal gives people time to compare terms and creates a record, but a long exchange of messages can make simple misunderstandings harder to resolve. A call allows quick questions and clarification, but important details can be forgotten. You can use a conversation to explore the issues, then a written summary to check the proposed commitment."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "For example, Harbour replies to Maya's proposal with a short message: too expensive. Maya could send a long defence of her worth, or ask whether a brief call would help identify which scope fits the budget. If they speak, she can explore the event priorities. Afterwards she can send the revised package in writing. The change of format serves the problem; it is not a trick to prevent the client from thinking carefully."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "When several issues are involved, keep a simple record of what is settled and what remains open. Suppose price is agreed but payment dates and content responsibilities are not. Saying we have a deal may be premature. Maya can say, we're aligned on the fee and scope; the two remaining points are payment timing and who supplies the final copy. That helps both sides work on the actual unresolved decisions."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Be careful with conditional agreement across a whole package. Maya might be willing to accept a lower fee only if the deadline moves. If the client accepts the fee but continues arguing for the original deadline, that is not the package she proposed. She can state that her agreement on the price depends on the later delivery date. Linking terms explicitly prevents provisional progress from becoming an accidental one-sided concession."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Preparation also includes knowing what information would change your mind. If Maya learns the project is much smaller than she understood, her price might reasonably change. If she discovers an expensive technical requirement, it might increase. Changing an offer in response to new facts is different from abandoning it simply because the other person pushes hard. Explain the relevant change so the discussion stays connected to the work."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "And if the negotiation ends without agreement, close it clearly. Thank the person for discussing the project, state that the current package does not fit and avoid leaving them believing work has begun. If appropriate, leave open a specific future possibility, such as a later start date or smaller scope. A clear no can preserve more trust than an uncertain yes followed by missed commitments."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "You can review an unsuccessful negotiation without assuming every refusal proves you negotiated badly. Perhaps there was no acceptable overlap. Perhaps an important question was missed. Perhaps the other side had a better alternative. Record what you know and what remains uncertain. The useful lesson may be to improve preparation, change the offer or seek different opportunities, rather than become more forceful in every future conversation."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "These process choices support the substance. The format helps information move, the record keeps linked terms together, and the closing makes the decision unambiguous. None replaces a viable package. If the work costs more than the customer can pay and there is no acceptable adjustment, the honest outcome may remain no agreement. A skilful negotiator can recognise that without treating the conversation as a personal defeat."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Fifth recall question. Harbour asks Maya to combine the cheapest price from one package with the fastest deadline and largest scope from another. What should Maya check before agreeing?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "She should evaluate the new package as a whole. The original terms were linked, so mixing their most favourable parts may create a deal she never offered and cannot deliver economically. She can explain those links, cost the changed package and decide whether to propose it. A set of options does not mean every term is independently interchangeable."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "For today's practical exercise, choose a low-stakes upcoming conversation about a purchase, project or shared plan. On one page, write the outcome you would like, the alternative you actually have, and the interests you need to protect. Then list the issues that could change the agreement. Keep it concrete: dates, scope, responsibilities, price or location, rather than a general ambition to be a better negotiator."
+    },
+    {
+      "v": "sage",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Draft two packages you would genuinely be willing to accept. Write one question that would help distinguish the other person's priorities and one conditional proposal connecting your commitment to a necessary term. You do not have to send anything or confront anyone to complete the exercise. If no suitable conversation is coming up, use Maya's project and change one constraint, such as the deadline or required pages."
+    },
+    {
+      "v": "ash",
+      "i": "Warm and engaged. Explain the example naturally, without theatrical delivery.",
+      "t": "Finally, check what you would need clarified before saying yes. That might be who approves, when payment happens or what delivery includes. Negotiation is often improved by this unglamorous preparation. You arrive with a meaningful alternative, a clear view of the work and room to discover a better package. You can be flexible on the terms that are flexible and firm where accepting would create a commitment you should not make."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-15",
+    "spoken_words": 7374,
+    "sha256": "1b2319ee4adbcac6fdb119dc2bf129a581dbe7b33ef6aedcb4eaca24a97f5bae",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "worked-arithmetic",
+      "source-support",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.pon.harvard.edu/daily/negotiation-skills-daily/what-is-negotiation/",
+      "https://nebraskajudicial.gov/sites/default/files/u3191/13_BATNA_V02.pdf",
+      "https://www.pon.harvard.edu/daily/negotiation-skills-daily/managing-the-negotiators-dilemma-nb/",
+      "https://www.pon.harvard.edu/daily/negotiation-skills-daily/ask-the-negotiation-coach-nb/",
+      "https://www.pon.harvard.edu/daily/business-negotiations/negotiator-toolbox-capitalize-on-differences/"
+    ]
+  }
+}
