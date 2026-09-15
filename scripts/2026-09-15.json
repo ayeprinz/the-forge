@@ -1,0 +1,662 @@
+{
+  "date": "2026-09-15",
+  "title": "[Business & Money] Why Profitable Businesses Run Out of Cash",
+  "summary": "September 15 catch-up lesson: profit versus cash, contribution and break-even, pricing and discounts, financial statements, inventory, growth funding, and practical cash forecasting. Original worked business cases, five recall questions and one forecast exercise.",
+  "instructions": "Two engaged teachers explaining business foundations plainly. Natural pacing, no theatrical delivery.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "A business finishes a job worth ten thousand pounds. The costs are six thousand. The owner celebrates four thousand pounds of profit, then discovers there isn't enough money to pay a supplier on Friday. How can both things be true?"
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "The customer hasn't paid yet. Profit and cash answer different questions. Revenue and expenses can belong to a different period from the cash movement. Today we'll work through that gap, then connect it to pricing, delivery capacity, stock and a cash forecast. Our fictional studio will let us follow the actual numbers without needing accounting software."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "Let's name the business North Studio. These are invented numbers, and we're leaving tax, financing costs and other transactions out of the example so we can see the timing clearly. It has two thousand pounds in the bank when the job starts."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "The agreed fee is ten thousand pounds. The job requires six thousand pounds of payments before the customer pays. North Studio has a timing problem: two thousand available and six thousand due means a four thousand pound shortfall. The eventual surplus on the job doesn't fill the bank account today."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "The British Business Bank makes that central distinction in its cash-flow guidance: a profitable business can have a short-term cash shortage while waiting for customers to pay. So the owner needs to ask both whether the work earns enough and whether the business can fund the wait."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "Let's change one term in our fictional agreement. Suppose the customer agrees to pay five thousand pounds before work starts and the remaining five thousand afterwards. The studio begins with two thousand, receives five thousand, and has seven thousand available. It pays six thousand of costs, leaving one thousand. When the remaining five thousand arrives, it has six thousand."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "That final six thousand includes the two thousand it already had. The increase is four thousand, matching the simplified surplus. We shouldn't describe the entire bank balance as profit from this job."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "And a deposit has obligations attached. The business still has to deliver the work and honour the agreement. Receiving money early doesn't make it spare cash for unrelated spending. The example shows how timing changes the funding requirement, not that every business should demand the same payment terms."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Before we follow the next payment, let's examine what those four thousand pounds actually represent. We have subtracted only the costs attached to delivering this particular job. North Studio also has expenses that continue between projects. It pays for its workspace, software, insurance and administration. A job can leave money after delivery costs and still leave the overall business losing money. We need to specify which costs have been subtracted whenever we use the word profit."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Imagine the studio does only this one job during the month. Its fee is ten thousand, delivery costs are six thousand, and other operating expenses for that month are three thousand. The simplified operating result is now one thousand pounds. We started with four thousand left from the job, then used three thousand to keep the business operating. Taxes and financing costs are still outside this example. The arithmetic describes a particular layer of the result, not the owner's spendable income."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Let's make the distinction tangible. The supplier invoice for a photographer belongs to the delivery cost of the project. The studio's monthly software subscription may support every project. Both cost money, but they behave differently when the studio accepts one more order. If the extra order needs another photographer, that cost increases. If the same subscription covers the extra work at no additional charge, the subscription does not increase for that order."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "That is where contribution becomes useful. Contribution is sales revenue minus variable costs, meaning costs that change with the activity being measured. The remainder contributes towards fixed costs and then profit. OpenStax's managerial accounting text gives that definition. We will use our own studio examples to work with it. Contribution is a tool for understanding a decision; it does not replace a complete set of accounts."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Suppose the studio can deliver a standard editing package for one thousand pounds. Each package requires four hundred pounds of outside editing support and one hundred pounds of other costs that rise with each sale. The variable cost is five hundred, leaving five hundred of contribution. If the studio sells one package, five hundred is available towards its continuing costs. Selling a package does not automatically create five hundred pounds of final profit."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Give the studio monthly fixed operating costs of three thousand pounds. At six packages, the total contribution is six times five hundred, which equals three thousand. Those packages cover the specified fixed costs, leaving zero operating profit in this model. At eight packages, contribution is four thousand, so the operating profit is one thousand. At four packages, contribution is only two thousand, leaving a one thousand pound operating loss."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "We have just calculated break-even. Within these assumptions, fixed costs divided by contribution per package gives the number of packages required to cover those costs. Three thousand divided by five hundred is six. This is the basic relationship described in OpenStax's break-even chapter. It depends on the price and cost assumptions holding, and on the business being able to deliver the volume we put into the calculation."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "There is a practical question hidden in that final condition. Can North Studio actually deliver six packages a month? Suppose each package takes ten hours of the owner's time, and only forty hours a month are available after other commitments. Capacity is four packages. A calculation saying six packages would break even does not create the extra twenty hours. The current price, delivery method, capacity or continuing costs need to change for that plan to work."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "This is why a spreadsheet should connect to the work. If the owner writes down twelve sales because twelve would create a comfortable result, but can deliver only four, the forecast contains an unresolved operating problem. They might reduce the work inside each package, improve their process, contract out a suitable part, change the price, or reduce continuing costs. Each option has consequences that need to appear in the next calculation."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Let's examine outsourcing rather than assuming it fixes everything. Imagine it reduces owner time from ten hours to five hours per package but raises variable costs from five hundred to seven hundred pounds. At the same thousand pound price, contribution becomes three hundred. Ten packages are now required to cover three thousand of fixed costs. Those packages need fifty owner hours, still more than the forty available. The first outsourcing proposal has improved speed without yet producing a workable business model."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Now suppose a different delivery design takes five hours, costs six hundred per package, and customers accept a price of twelve hundred. Contribution is six hundred. Five packages cover three thousand of fixed costs and require twenty-five hours. Eight packages would fit into forty hours and contribute forty-eight hundred, leaving eighteen hundred after those fixed costs. That is a coherent scenario, provided demand and service quality also support it."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Notice how several conditions have to hold together. A price written into a model is a proposal until customers actually accept it. A time estimate is provisional until the work has been delivered. A cheaper supplier is not cheaper in practice if their work consistently requires expensive corrections. These are not reasons to abandon calculations. They tell us which assumptions to test with a small amount of real work before making a larger commitment."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "There is also the owner's labour. A self-employed owner might not record their own unpaid hours as a wage expense in the way an employed worker's wages appear. But for deciding whether the business is worthwhile, those hours still matter. A project leaving two hundred pounds after outside costs could be attractive if it takes two hours and unattractive if it takes twenty. The accounting treatment and the economic value of the owner's time are separate questions."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "One useful planning approach is to state both. Record the actual costs the business incurs, then separately show the hours the owner contributes and the amount they want the work to support. Don't quietly invent a wage payment that never happens. Don't quietly treat unlimited unpaid work as free either. A model can be arithmetically correct while hiding that the person delivering it receives very little for their time."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Costs can also change in steps. Suppose one software plan supports ten clients. The eleventh requires a more expensive plan. The subscription behaves like a fixed cost within one range, then jumps at the threshold. Similarly, a room can hold only so many people. Another session may require another room booking. Calling a cost fixed is always relative to the level of activity and period you are examining."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "That matters when somebody says, every extra sale is pure profit. The next sale might fit into existing capacity. The sale after that might require another worker, another software tier or another delivery slot. For North Studio, the useful question is what actually changes when this particular order is accepted. The answer may differ between a quiet week and a fully booked week, even when the customer buys the same package."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Now let's use those numbers to examine a discount. Keep the original package price at one thousand and variable costs at five hundred. Contribution is five hundred. The customer asks for ten percent off, which brings the price down by one hundred to nine hundred. Variable costs stay five hundred. Contribution falls to four hundred. A ten percent reduction in price has removed twenty percent of the contribution from each sale."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "If the studio previously sold ten packages, total contribution was five thousand. At four hundred each, it would need twelve and a half packages to produce the same contribution. Since complete packages are what it sells, it needs thirteen to exceed the previous total. Twelve produce forty-eight hundred; thirteen produce fifty-two hundred. That is three additional jobs to get past the old result, before considering any extra fixed costs or capacity problems."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "A discount can still make sense in a specific situation. Perhaps there is genuinely unused capacity, the customer pays promptly, the scope is smaller, or the discount produces enough additional profitable orders. But the relevant comparison includes what is surrendered and what is received in return. Simply saying the discount will bring more customers leaves out how many, at what delivery cost, and whether the business can serve them."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "We can negotiate scope instead of treating price as the only adjustable term. Suppose the standard package has two revision rounds. A lower priced version includes one, with a clearly agreed scope that takes less work. If the cost genuinely falls as well as the price, contribution might be protected. The agreement must match what the customer understands they are buying. Quietly giving them worse service than promised creates a different problem."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "A second common confusion is margin versus markup. Take a small product that costs sixty pounds and sells for one hundred. The difference is forty pounds. Compared with the selling price, forty divided by one hundred is forty percent. Compared with the cost, forty divided by sixty is about sixty-seven percent. The same forty pounds produces different percentages because the denominator changes."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "If somebody says add forty percent to a sixty pound cost, the added amount is twenty-four pounds, so the price becomes eighty-four. That gives a twenty-four pound difference, which is about twenty-nine percent of the selling price. It does not produce a forty percent margin. When pricing a real offer, write down the cost, price and cash difference before relying on a percentage label. Those three amounts make misunderstandings easier to spot."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "So far we have examined what each sale contributes. Now we need to see how those sales appear in the records. Imagine three moments in North Studio's job: the customer agrees to buy, the studio completes the agreed work, and the customer pays. They may happen on different dates. A signed order indicates promised business, but it does not automatically mean all the revenue has been earned or all the money has arrived."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Under the simplified accrual treatment we are using, earned revenue can appear before cash is collected. The unpaid amount is a receivable, an amount the customer owes the business. When the customer eventually pays, cash increases and the receivable decreases. We don't record a second sale just because the money arrived. The original sale and its later collection are two stages of the same transaction."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Here is a small example with no other transactions. North Studio earns a two thousand pound fee in September and receives payment in October. September's revenue record includes that earned fee, while September's cash receipts from it are zero. At the end of September, the studio has a two thousand pound receivable. October's collection converts that receivable into cash. Counting it as new October revenue as well would count the same fee twice."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "The reverse can happen with a customer advance. Suppose the customer pays two thousand in September for a service to be delivered in October. September has the cash receipt, but the business still owes the service. Under our simplified accrual example, the advance is initially a liability rather than earned revenue. As the service is provided, revenue is recognised. Particular contracts and reporting rules determine the exact treatment, especially when delivery happens in stages."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "For cash planning, the important fact is immediate. The bank balance may include money received for work that still needs to be done. If the owner spends the entire advance on something unrelated, there may be no cash left to deliver the paid-for service. The problem is visible even before we use an accounting label. Money has arrived along with a future commitment, and both belong in the plan."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Suppliers create the opposite timing relationship. Suppose the studio receives an editing service costing six hundred pounds and must pay the editor next month. The expense may belong to the period when that service was used, while the unpaid bill is a payable. Paying it next month reduces cash and settles that payable. Again, the payment is not a second expense for the same service under this accrual example."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "These distinctions let three financial reports answer different questions. An income statement describes revenue and expenses across a period. A balance sheet shows assets, liabilities and equity at a point in time. A cash flow statement explains movements in cash across a period. OpenStax's financial accounting chapter introduces how these reports connect. We will use a short sequence of invented transactions to make the connections visible."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Begin a completely separate example with a new studio and no previous transactions. The owner puts five thousand pounds into it as capital. The business has five thousand of cash and five thousand of owner equity. There has been no sale and no profit. Equity here records the owner's interest in the business after liabilities, rather than a separate pot of cash waiting somewhere else."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Next the studio borrows three thousand pounds. Cash rises to eight thousand. There is now a three thousand pound loan liability, while owner equity remains five thousand. Assets of eight thousand equal liabilities of three thousand plus equity of five thousand. Borrowing has changed the bank balance and the amount owed. It has not made the studio three thousand pounds more profitable."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "The studio then delivers a two thousand pound service entirely on credit, with no additional cost in this deliberately stripped-down example. Cash remains eight thousand. Receivables become two thousand. Total assets are ten thousand, liabilities remain three thousand, and equity becomes seven thousand because the earned profit increases it. An increase in profit has occurred without an increase in cash."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Finally, the customer pays the two thousand. Cash becomes ten thousand and receivables become zero. Total assets are still ten thousand. The loan remains three thousand and equity remains seven thousand. Collecting the payment has changed the composition of assets, not created another two thousand pounds of profit. Following one transaction through the reports prevents us from treating every bank deposit as a new success."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "A more realistic business adds equipment, inventory, taxes, expenses, owner payments and many other movements. But the principle survives. Ask what changed on the other side of a cash movement. Was revenue earned? Was a customer debt collected? Was money borrowed? Was an asset sold? A bank statement shows that money moved. The business records explain what the movement means."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Take equipment. If a studio pays three thousand pounds for a machine that will support several years of work, all three thousand leaves the bank at purchase. Under an applicable accrual treatment, the machine may be recorded as an asset and its cost allocated over its useful life through depreciation. The cash payment and the expense pattern are different. Buying equipment can therefore reduce cash much more than that month's accounting profit."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Suppose, only to illustrate the arithmetic, the machine has no residual value and its depreciable cost is spread evenly over three years. That is one thousand pounds of depreciation a year. It does not mean the seller accepts one thousand a year. If the agreed purchase was paid immediately, the full three thousand has already left. Tax allowances and the appropriate accounting life are separate matters; these invented assumptions are not a tax calculation."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Selling that machine later also needs care. If cash comes in from selling equipment, it is not ordinary customer sales revenue from the studio's main service. Any accounting gain or loss depends on the proceeds compared with the recorded value and relevant costs. For managing cash, an asset sale might provide a one-off receipt. It cannot be assumed to repeat every month like a continuing source of customer income."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "This gives us a way to question a healthy-looking bank balance. Imagine cash is rising only because the owner keeps putting savings into the studio and selling equipment. The business can pay this week's bills, yet its service might still lose money every month. The cash movement is real. The source of that cash tells us whether the operating model itself is supporting the business or whether something else is sustaining it."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "First question. In the original example, North Studio has two thousand available and six thousand due before the customer pays. What is the shortfall?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "Four thousand pounds. You subtract available cash from the payments that must be made first."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "Now suppose the customer pays late. A monthly forecast says five thousand comes in and five thousand goes out. It looks balanced. Can that still hide a problem?"
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "Yes. If the outgoing payment is due on Monday and the customer pays on Friday, the sequence matters. A monthly total can conceal a shortage within the month. You can use shorter periods or specific dates around tight payments to see when money is needed. The right level of detail depends on the business."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "Let's build a four-week example. We will use cash movements only. Start week one with two thousand pounds. Receive one thousand and pay fifteen hundred. The closing balance is fifteen hundred."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "Week two begins with that fifteen hundred. There are no receipts and two thousand pounds of payments due. The forecast balance becomes negative five hundred. That's an unfunded requirement, not permission to make the payment. Without an agreed source of funds or a legitimate change to timing, the business cannot simply spend money it doesn't have."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "Week three begins at negative five hundred in our planning arithmetic. Receipts are four thousand and payments are one thousand. The forecast ends at twenty-five hundred. Week four receives one thousand and pays fifteen hundred, ending at two thousand."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "Across the four weeks, total receipts are six thousand and total payments are six thousand. The start and end balances match. But week two still contains a five hundred pound gap. That is why the lowest point in the forecast matters alongside the final balance."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "Second question. If the opening and closing balances for a month are equal, does that prove the business could meet every payment during the month?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "No. Receipts may arrive after payments are due. You need the order and timing of the movements, not just the totals."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "What does an owner do when they spot that week-two gap early?"
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "First check the inputs. Is the payment due then? Is an incoming amount missing? If the gap is real, the owner can examine choices such as delaying a discretionary purchase or discussing different payment timing with the relevant party. Financing may be an option, but it has costs and conditions. This lesson isn't recommending a loan or a particular funding product."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "And moving a bill in a spreadsheet doesn't change the agreement. The forecast should reflect a real arrangement, not the date that makes the numbers look comfortable."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "Correct. Keep an expected case and examine a plausible delay separately. If a customer's payment arrives a week later, what changes? That simple comparison can reveal how much the plan depends on one date. Business.gov.uk describes a cash forecast as showing the expected movement of money into and out of the business. The word expected matters: a forecast is a plan based on assumptions, not a confirmed bank statement."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "Let's talk about growth. People often assume more sales will automatically solve cash problems. Use our studio again. What if it wins two jobs with the same upfront costs and delayed customer payments?"
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "In this simplified example, costs due before payment rise from six thousand to twelve thousand pounds. If available starting cash remains two thousand, the shortfall rises from four thousand to ten thousand. More work can increase the need to fund costs before receipts arrive. The sales figure alone doesn't tell you whether the business can carry those jobs."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "That makes accepting an order a financial decision as well as a sales decision. The owner needs to understand delivery costs and payment timing before treating the order as an uncomplicated win."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "Now reverse the problem. Imagine a business has plenty of cash because it received a loan. That cash can help it pay bills, but the receipt isn't sales revenue and it doesn't prove the product earns a profit. The business has also taken on a repayment obligation. A bank balance tells you what money is there; you still need to know where it came from and what is owed."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Before we return to the questions, let's examine cash tied up in products. A service studio may have relatively little stock. A seller of physical goods can pay long before making a sale. Imagine a fictional bag business buys one hundred bags for thirty pounds each, paying three thousand upfront. It plans to sell each bag for fifty. Until customers buy, that three thousand is sitting in inventory rather than in the bank."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Suppose it sells forty bags for cash during the first month. Revenue is two thousand pounds. The original cost of those forty bags is twelve hundred, leaving eight hundred of gross profit before the other costs we have excluded. But cash receipts are only two thousand against the three thousand already paid for the whole batch. Cash from these transactions has fallen by one thousand, even while the sold bags produced a positive gross profit."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "The remaining sixty bags originally cost eighteen hundred pounds. They help explain the difference. The business did not lose all the money spent on them in the sense of having nothing left. It still holds inventory. But a shelf full of bags cannot automatically pay a supplier bill. Those bags need to sell, at a price the market will accept, before their value can become customer cash."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Now add storage, packaging, delivery, payment fees and returns. The eight hundred difference was gross profit under a deliberately limited product-cost example. It was not the final result. If those additional expenses for the period are nine hundred, the business records a one hundred pound loss on this simplified income statement. That loss and the cash invested in unsold stock are separate pressures occurring together."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "A large order can make that pressure worse. Suppose a wholesale customer wants another hundred bags, but will pay thirty days after delivery. If the supplier still requires payment before dispatch, the seller must fund another batch before collecting from the wholesaler. The order might eventually be profitable. Accepting it still creates a need for cash today. Growth changes the amount of money travelling through the process."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "We can follow that journey as a timeline. For a separate batch, suppose materials are paid for on day zero. The finished goods are sold on day twenty. The customer pays thirty days after that sale, on day fifty. Cash has been committed for fifty days before the customer payment returns. If the supplier had agreed payment on day ten instead, the gap between supplier payment and customer collection would be forty days."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "The useful operational question is where the delay sits. If the goods spend most of that time waiting on a shelf, ordering smaller batches or improving demand estimates may help, with possible trade-offs in price and availability. If the goods sell immediately but invoices remain unpaid for weeks, inventory changes do little to solve the collection delay. Identify the stage holding the money before choosing the intervention."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "There is also a trade-off between buying cheaply and buying appropriately. Imagine a supplier offers a lower unit price if the bag business doubles its order. The saving may be real on each bag. But the larger batch commits more cash and may leave more unsold stock. Compare the expected total outcome, including storage, likely sell-through and cash requirements, instead of assuming the lowest unit cost is the best purchasing decision."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "To make that concrete, suppose one hundred bags cost thirty pounds each, while two hundred cost twenty-eight each. The bigger order reduces unit cost by two pounds but requires fifty-six hundred pounds rather than three thousand. The business must find twenty-six hundred more upfront. If demand remains forty bags a month, it now has about five months of stock instead of about two and a half, before allowing for changing demand."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Perhaps that is sensible when demand is stable, the bags keep well and the business has adequate cash. Perhaps it is a poor choice when fashions change, storage is tight or another essential payment is approaching. The price reduction does not settle the decision. It creates a specific exchange: more money committed now in return for a lower cost per unit, with the risks of holding the extra stock."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Service businesses have their own version of unfinished stock. A project can absorb staff time and supplier payments while sitting half completed, waiting for client feedback. The studio may be unable to invoice the next milestone until approval arrives. If several projects stall together, the team can look extremely busy while very little cash is becoming collectible. Work in progress needs attention alongside new sales."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "A practical response starts with the actual blockage. Is the team waiting for a document? Has the client misunderstood who approves the draft? Are revision rounds unlimited? Does the invoice depend on a milestone nobody has defined? A clearer scope, named approver and agreed delivery stages can improve the process. Whether they change payment timing depends on the real contract. Administrative clarity has financial consequences when payment depends on completion."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Let's look at an invoice that has already been issued. North Studio expects two thousand pounds on Friday. The invoice went to a project contact, but the customer's accounts team never received it. A cash forecast that treats Friday as certain misses this operational detail. Confirming the invoice reached the correct person, contains the required information and is accepted for processing may matter more than making the forecast visually impressive."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "An invoice list can therefore carry a little useful context: customer, amount, date issued, due date, expected collection date and any dispute or missing information. The contractual due date and the forecast collection date are not always identical. Keep both when they differ, so a realistic forecast does not erase the fact that payment is overdue. Updating an expectation should not rewrite the underlying agreement."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Concentration matters too. Suppose five customers each owe one thousand pounds. Compare that with a single customer owing five thousand. The total receivable is the same. But a delay from the single customer affects all five thousand at once. In the five-customer case, one isolated delay affects one thousand, although common problems can of course affect several customers together. The total alone hides how dependent collection is on one event."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "We can now sharpen the four-week forecast from earlier. We had two thousand at the start, six thousand in receipts, six thousand in payments, and a five hundred pound shortage in week two. That weekly view was useful, but it could still miss a worse position inside a week. If a large payment leaves on Tuesday and the expected receipt arrives on Friday, a positive Friday balance does not fund Tuesday."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Imagine one week opens with one thousand pounds. On Tuesday, eighteen hundred is due. On Friday, fifteen hundred is expected in. The week closes at seven hundred, because one thousand plus fifteen hundred minus eighteen hundred is seven hundred. Yet Tuesday has an eight hundred pound funding gap. A weekly total that shows seven hundred at the end can conceal that earlier shortage."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "We don't need every forecast to become a minute-by-minute exercise. Use enough detail around the payments that could be tight. Monthly planning may describe the longer view. Weekly planning can reveal approaching pressure. Exact dates matter when a particular receipt is funding a particular obligation. Choose the resolution that makes the decision visible, rather than the one that makes the spreadsheet easiest to finish."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Opening cash also deserves care. Suppose the studio has two bank accounts containing three thousand and two thousand. Moving one thousand from the first account to the second does not create a thousand pounds of business income. The combined cash remains five thousand. If the forecast counts the transfer as a receipt but forgets the matching outgoing transfer, it invents cash. Internal transfers should not inflate the consolidated total."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "A similar mistake occurs with a customer deposit. If the customer already paid half of a ten thousand pound project and that money is included in opening cash, future receipts should include only the unpaid amount. Listing the entire ten thousand as still to arrive counts the deposit twice. Start the forecast from a known date and ask, what has already happened before this starting balance, and what genuinely remains ahead?"
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Card payments can introduce another difference. A customer may complete a purchase today, while the payment provider settles funds later and deducts fees. The sale amount, settlement amount and settlement date can therefore differ. For a cash forecast, use the expected amount and timing of cash actually reaching the account, while maintaining records that explain the sale and the fee separately. A sale notification is not always an immediately available bank balance."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Credit cards can also create double counting in planning. Suppose a business records an expected card purchase as a cash payment today and then records the full card bill as another cash payment next month. Depending on the forecast structure, that may count the same spending twice. Distinguish the purchase obligation from the later bank payment, and use a consistent approach that reconciles with the accounts included in the forecast."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Forecasts become more useful when we compare them with what actually happened. Suppose a customer payment was forecast for week one and actually arrived in week two. The total amount was right, but the timing was wrong. That is different from a customer paying only part of the invoice. It is also different from a sale that never happened. Each difference points to a different assumption that needs attention."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Keep the previous expectation long enough to learn from it. If every old forecast is overwritten with the final result, the document will always look accurate in retrospect. A simple saved weekly version lets you compare expected receipts, actual receipts and the reasons for differences. The purpose is to improve the next decision, not to judge somebody for failing to predict the future perfectly."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Let's test the forecast with a specific scenario. Earlier, moving the four thousand pound receipt from week three to week four increased the lowest weekly balance from negative five hundred to negative fifteen hundred. Now suppose a separate, unexpected five hundred pound repair also falls in week three. Under those changed assumptions, the lowest balance becomes negative two thousand, and the final balance falls from two thousand to fifteen hundred."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "The delay changes timing. The repair changes the total cash leaving the business. Combining them lets us see both effects. A scenario should say which assumptions have changed and why they are plausible. Calling one column optimistic and another pessimistic is less informative than saying the largest customer pays one week late and an essential repair costs five hundred. Specific assumptions can be checked and acted on."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "What if there is a fifty percent chance that a customer pays four thousand this week? Putting two thousand into the forecast as an average may be useful for some aggregate calculations, but it is not one of the two actual outcomes. This particular payment may be four thousand or zero. If payroll depends on it, examine those separate possibilities rather than behaving as though the average two thousand is guaranteed to arrive."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "This is especially important when only a few large transactions drive the balance. An average can smooth away the very shortfall we are trying to see. We can keep an expected case for ordinary planning and also inspect a concrete delay case. The action might be to confirm payment status, adjust an optional purchase or arrange legitimate contingency funding, rather than pretending uncertain money is already available."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "Third question. Does borrowing money make the amount borrowed into profit?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "No. It adds cash and a liability. Profit needs a separate calculation of revenue and expenses under the relevant accounting basis."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "People who sell services can overlook their own time when pricing. If a fee covers the outside supplier but leaves nothing for running the business or paying the owner, a positive difference on one line can be misleading."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "For a real pricing decision, identify what costs the calculation includes. Our four thousand pound surplus was deliberately simplified. It isn't a claim about take-home pay, taxable profit or the profitability of a real studio. Those require the rest of the records and the applicable rules. We can learn the timing mechanism without pretending the example is a finished set of accounts."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "Fourth question. What happens to the upfront funding requirement in our example when the studio doubles its jobs but keeps the same two thousand pounds available?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "It increases. Twelve thousand of payments before customer receipts, less two thousand available, produces a ten thousand pound shortfall."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "There is another distinction worth making before the practical task: a timing gap and a business that loses money on each additional sale. They can both produce an empty bank account, but their solutions differ. A timing gap might close when a reliable customer pays. A negative contribution means that, under the stated costs and price, doing more of the same work makes the operating result worse."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Imagine a service sold for eight hundred pounds with nine hundred pounds of costs that arise each time it is delivered. Each sale loses one hundred before any fixed costs. Ten more sales would add another thousand pounds to that loss. A loan could temporarily provide cash to keep delivering, but it does not change the eight hundred price or nine hundred cost. Something in the offer's economics has to change."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Contrast that with a thousand pound service costing six hundred to deliver, where the customer reliably pays after delivery. Each sale contributes four hundred towards fixed costs, but the business needs to fund the six hundred first. Here, payment timing and funding capacity deserve attention alongside the total volume needed to cover overhead. The two businesses can have similar bank balances today while needing very different operational changes."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "A quick diagnosis therefore separates three questions. Is each additional sale contributing enough after the costs it creates? Is total contribution sufficient for the continuing costs of the business? Can the business meet the dates on which cash is required? A positive answer to only one of these is not enough. North Studio can have good project contribution, excessive fixed costs and late collections at the same time."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Consider a proposal to cut all marketing because cash is tight. If a campaign consistently attracts suitable, profitable customers and payment arrives promptly, stopping it might reduce future receipts. If it attracts expensive-to-serve customers who never cover acquisition and delivery costs, continuing it may worsen the position. The category name marketing cannot tell us which case we have. We need a defined period, attributable results and the costs of fulfilling those sales."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "For a small invented campaign, suppose one thousand pounds of spending produces ten new customers who each pay three hundred. Delivery and other incremental costs are one hundred per customer. Customer revenue totals three thousand and those incremental costs total one thousand. That leaves two thousand before the campaign cost, or one thousand after it. Other fixed costs remain to be covered. The revenue headline of three thousand is only the beginning of the calculation."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Now change the result to four customers with the same price and delivery cost. Revenue is twelve hundred, delivery costs are four hundred, and contribution before marketing is eight hundred. Subtract the thousand pound campaign and the result is negative two hundred before other fixed costs. We have not changed the advertisement's appearance or its number of likes. We changed the number of customers whose purchases contribute towards paying for it."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Repeat purchases may improve the picture, but they need evidence. If the owner assumes every new customer will buy five more times, an unprofitable first sale can be made to look attractive on paper. Separate revenue already received from future purchases being forecast. Track whether those purchases occur and what it costs to serve and retain the customers. Future value is an estimate, not money available to pay today's invoice."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "This also explains why growth claims need a base. A business that doubles monthly sales from one thousand to two thousand has grown quickly in percentage terms, but may still be far below its continuing costs. Another business growing more slowly might produce much more cash. Growth percentage describes change relative to a starting point. It does not directly describe contribution, profit, owner income or the ability to meet an approaching payment."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Let's return to choosing between jobs when time is limited. Suppose the studio has twenty available delivery hours. Job A contributes one thousand pounds and needs twenty hours. Job B contributes six hundred and needs ten. If there are two genuine B orders available, both can fit into the twenty hours and contribute twelve hundred. Choosing the larger contribution per job would miss the better total contribution across the constrained time."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "We must keep the comparison honest. Perhaps the second B order is only a possibility, or the two projects require extra preparation, or their payments arrive much later. Perhaps job A is important to a relationship the business has good reasons to develop. Contribution per constrained hour illuminates one part of the choice. It should not disguise uncertain demand, ignore payment timing or turn a relationship judgement into a falsely exact formula."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "To combine the calculations, make a small decision record for each serious opportunity. State the agreed price, the costs that will change, the hours or other scarce capacity required, the customer payment dates, and the supplier payment dates. Then identify what is still uncertain. That record can be a paragraph. Its value comes from connecting the sale to delivery and cash before the work has been promised."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Suppose North Studio is offered two projects at the same ten thousand pound fee and six thousand pound outside cost. Project A pays five thousand upfront and five thousand on completion. Project B pays the full amount a month after completion. In our simplified model the contribution is identical. But project B demands much more funding before collection. If available cash is limited, the payment schedule can affect which order is feasible."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "If project B offers a higher fee to compensate for the delay, compare the actual extra amount with the costs and risks of carrying it. More revenue does not automatically make it affordable. If the studio cannot fund the suppliers before the customer pays, the project remains unfunded even if its eventual return looks attractive. A profitable opportunity and an executable commitment are different stages of a decision."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Money kept as a buffer is often described as idle, but it can give the business room to absorb a delay without immediately breaking a commitment. There is no single buffer amount that fits every business. A studio with variable project income and concentrated customers faces different timing from a shop collecting cash daily. Start by examining the plausible low points and obligations rather than choosing a reassuring round number."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "Also distinguish cash that is available from cash that is already committed. Some of the balance may be needed for tax, payroll, promised delivery or scheduled repayments. The legal restrictions and accounting treatment depend on the situation. Operationally, identifying those commitments prevents the owner from treating the entire bank balance as free to spend. The forecast needs the corresponding future payments, with amounts verified from appropriate records."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "A useful review can be short and concrete. Start from the actual account balances. Check which expected receipts arrived and which did not. Update the dates and amounts of upcoming commitments. Inspect the lowest projected balance and the assumptions responsible for it. Decide one action, identify who will take it and record when it must happen. That creates a link between noticing a shortage and doing something before the payment falls due."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "The action should change a real input. Confirming an overdue invoice with the customer's accounts team can clarify when payment is likely. Cancelling an optional purchase can reduce an outgoing amount. Agreeing a different delivery schedule can change when work and payments happen. Editing a number without changing the underlying event only improves the appearance of the forecast. The business still faces the original obligation."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "If the records show the business cannot meet obligations, the situation may require prompt help from an appropriately qualified accountant or adviser, especially where legal duties or insolvency may be involved. We are learning to recognise the mechanics, not deciding a real company's legal position from a fictional example. The practical benefit of a forecast is often the time it gives you to seek the right help with specific facts in hand."
+    },
+    {
+      "v": "sage",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "To close the worked case, imagine the studio owner has ten thousand pounds of earned project revenue, six thousand of delivery costs and three thousand of continuing costs. The simplified operating profit is one thousand. The owner must still trace collections, supplier payments, equipment purchases, loan movements and any other cash commitments. That one thousand result cannot answer the whole cash question on its own. It tells one part of the business story."
+    },
+    {
+      "v": "ash",
+      "i": "Speak naturally and warmly. Explain numbers clearly without slowing excessively.",
+      "t": "This is a foundation for reading a business rather than just admiring its sales. You can now inspect what a sale contributes, how fixed costs change the overall result, where unpaid invoices and inventory hold value, and why the timing of receipts can make growth difficult. The next useful step is to put those distinctions into a small forecast and test a delay with actual arithmetic."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "Here is today's practical task. Sketch four columns for four weeks. For each week, enter opening cash, expected receipts and expected payments. Closing cash equals opening cash plus receipts minus payments. Carry that closing figure into the following week."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "Use the fictional numbers from this episode if you aren't running a business. Then move the four thousand pound receipt from week three to week four and calculate again. Don't change any other number. That shows you how a delay changes the lowest balance even when the total receipts are unchanged."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "With that delay, week three starts at negative five hundred, receives nothing and pays one thousand. It reaches negative fifteen hundred. Week four then receives five thousand in total and pays fifteen hundred, ending back at two thousand. The final balance still looks fine, but the gap has grown."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "Fifth question. Which figure in that delayed scenario exposes the largest funding gap?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "The negative fifteen hundred balance at the end of week three. That's the lowest point in this simple weekly forecast, though a real business might also need to inspect dates within the week."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, clear, conversational. Read arithmetic carefully, with natural pauses.",
+      "t": "Once you can see that distinction, profit and cash stop being interchangeable words. Before celebrating a sale, ask what the work earns after its relevant costs and when the money needed to deliver it will actually be available. Those are two separate calculations, and a business needs both."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-15",
+    "spoken_words": 7546,
+    "sha256": "fc362a53a62ff0fb747fb439afcb287905ca4fb0f5f510f955161774bb95f7f7",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "worked-arithmetic",
+      "source-support",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.british-business-bank.co.uk/business-guidance/guidance-articles/finance/what-is-cash-flow-how-do-you-manage-it",
+      "https://openstax.org/books/principles-managerial-accounting/pages/3-1-explain-contribution-margin-and-calculate-contribution-margin-per-unit-contribution-margin-ratio-and-total-contribution-margin",
+      "https://openstax.org/books/principles-managerial-accounting/pages/3-2-calculate-a-break-even-point-in-units-and-dollars",
+      "https://openstax.org/books/principles-financial-accounting/pages/2-1-describe-the-income-statement-statement-of-owners-equity-balance-sheet-and-statement-of-cash-flows-and-how-they-interrelate",
+      "https://www.accaglobal.com/gb/en/student/exam-support-resources/fundamentals-exams-study-resources/f9/technical-articles/wcm.html",
+      "https://www.icaew.com/technical/corporate-finance/business-finance-guide/more-information/managing-your-cashflow/working-together-to-improve-cash-flow",
+      "https://www.business.gov.uk/support/funding-for-business/preparing-for-funding-applications/"
+    ]
+  }
+}
