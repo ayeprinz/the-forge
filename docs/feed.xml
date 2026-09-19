@@ -9,6 +9,15 @@
     <itunes:explicit>true</itunes:explicit>
     <itunes:image href="https://ayeprinz.github.io/the-forge/forge-cover-v2.jpg"/>
     <item>
+      <title>[Persuasion] Why Favours, Crowds and Scarcity Change Decisions</title>
+      <description>Reciprocity, social proof and scarcity explained through research and original workshop examples. Covers useful samples, relevant testimonials, real availability, decision-making and measured outcomes. Five recall questions with answers and a fictional invitation exercise. No prior reading required.</description>
+      <pubDate>Sat, 19 Sep 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2026-09-19</guid>
+      <enclosure url="https://ayeprinz.github.io/the-forge/audio/2026-09-19.mp3" length="19250877" type="audio/mpeg"/>
+      <itunes:duration>00:53:28</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+    </item>
+    <item>
       <title>[AI &amp; Technology] How Language Models Turn Words into Answers</title>
       <description>Inside a language model: tokens, embeddings, attention, training, sampling, context, retrieval and tool use. Original numerical examples and a fictional cafe assistant show how the pieces fit together. Five recall questions with answers and a practical paper exercise. No prior technical knowledge required.</description>
       <pubDate>Fri, 18 Sep 2026 05:00:00 +0000</pubDate>
