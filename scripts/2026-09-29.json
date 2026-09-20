@@ -1,0 +1,477 @@
+{
+  "date": "2026-09-29",
+  "title": "[Electricity] Why a Battery Can Light a Bulb",
+  "summary": "Understand charge, current, voltage, resistance and power through original paper circuits. Calculate series and parallel networks, voltage-divider loading, internal resistance and energy use. Five recall questions with answers and a worked paper exercise. Scientific reference: Paul Peter Urone and Roger Hinrichs, College Physics 2e, OpenStax, sections 20.1-20.4, 21.1, 21.2 and 21.4. Access free at https://openstax.org/books/college-physics-2e/pages/1-introduction-to-science-and-the-realm-of-physics-physical-quantities-and-units . Original examples and dialogue; no copied textbook exercises.",
+  "instructions": "Two engaged teachers, ash and sage. Natural conversational pace. Clearly articulate units, fractions and decimal numbers. Preserve five seven-second recall pauses. The lesson uses paper models only, with no physical electrical work.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Imagine a small lamp connected to a battery by two wires. Close the switch and the lamp shines. Open the switch and it goes dark. The battery has not emptied its supply of electrons into the bulb, and the bulb has not eaten the current. What has changed is the conducting path and the transfer of energy through the circuit. Understanding that distinction lets us explain why adding another lamp can dim the first one in one arrangement and leave it almost unchanged in another."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "We will build that explanation from charge, current, voltage and resistance, then use it to calculate power and follow branches in a circuit. Our examples are paper models with chosen values. You do not need batteries, tools or a wall socket. We will start with ideal components so the relationships are visible, then introduce one important real-world complication, resistance inside the source. By the end, a circuit diagram should look less like mysterious wiring and more like a set of constraints you can work through."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Electric charge is a property of matter. We distinguish positive and negative charge; electrons have negative charge. In a metal, some electrons can move through the material rather than remaining attached to one particular atom. A metal wire already contains enormous numbers of these mobile charges before we connect a battery. Connecting the battery does not need to fill an empty wire first. What changes is the electrical situation that produces a net movement of charge through it."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "The word net matters. Microscopic motion does not mean that every electron was motionless before the switch closed, then suddenly joined a perfectly orderly procession. Current describes a collective rate of charge transport. Draw an imaginary surface cutting across a wire. Ask how much net charge passes through that surface during a period of time. Divide that amount by the time. That is the average current for the interval, measured in amperes, often shortened to amps."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Charge is measured in coulombs. If two coulombs pass a point in four seconds, the average current is half an amp. If four coulombs pass in the same four seconds, it is one amp. We are counting an amount per unit time, much as traffic flow might count vehicles passing a marker each minute. The coulomb is not a little object travelling down the wire. It is a unit for the amount of charge, just as a kilogram is a unit for mass."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "An amp therefore means one coulomb per second. Current is a rate, not the total charge that has ever passed and not the amount of energy stored in a battery. A steady half-amp current sustained for ten seconds corresponds to five coulombs passing the chosen cross-section. The same current for twenty seconds corresponds to ten coulombs. That distinction between a rate and an accumulated amount will return when we separate watts from energy consumption later in the lesson."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Circuit diagrams normally show conventional current moving through the external circuit from the positive terminal toward the negative terminal of a discharging battery. Electrons in metal drift in the opposite direction because their charge is negative. These are two descriptions with different sign conventions, not two currents fighting one another. We will use conventional current for our arrows and calculations. Keeping one convention consistent is much more useful than switching direction every time we remember that electrons are involved."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "The lamp's quick response does not mean one electron races all the way from the battery to the lamp at the speed of light. Charges are already present throughout the wires. An electrical disturbance propagates through the circuit, and the local charges respond to the developing field. Their average drift can be much slower than the propagation of the signal. For our small steady circuits, we analyse the condition after that initial change has settled, rather than calculating its propagation in detail."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Now picture a single loop with no branches: battery, wire, lamp, wire, battery. In steady operation, the current entering the lamp equals the current leaving it. If charge kept entering faster than it left, charge would continually accumulate there. That is not the steady condition we are describing. The lamp transfers electrical energy into other forms, including light and heat, while charge continues through the circuit. Energy conversion and charge disappearance are different propositions, and only the first describes the ordinary working lamp."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "This is also why the return wire is not an optional tidying detail. A sustained current in our simple battery circuit needs a complete conducting route. With an open switch, the path is interrupted. There can still be a voltage between the battery terminals, but no sustained conduction current around that open loop. Voltage without current is therefore possible. We should not use the words voltage, current and electricity as if they were interchangeable names for one substance."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Voltage, or potential difference, describes a difference in electrical potential energy per unit charge between two points. One volt corresponds to one joule per coulomb. A joule is a unit of energy. Saying that a resistor has six volts across it means that, with our chosen direction and ordinary dissipative operation, each coulomb corresponds to six joules of electrical energy transferred across that difference. Voltage is about the energy relationship between locations; current tells us the rate of charge passing through."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "A battery uses chemical processes to maintain a potential difference and supply energy to a connected circuit. In the ideal model, a six-volt source maintains six volts across its terminals regardless of the current our model asks from it. A real battery cannot do that for unlimited current, and we will remove that idealisation later. For now, the fixed voltage lets us isolate the effect of changing the connected resistance. We are defining a model, not assigning unlimited capability to a physical battery."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Think of two separate questions. How much energy corresponds to each coulomb crossing the component? That concerns voltage. How many coulombs pass each second? That concerns current. A high voltage with almost no current is different from the same voltage with a substantial current. And two circuits can have the same current while transferring different amounts of energy each second because their voltages differ. These distinctions are essential when we later multiply voltage by current to obtain power."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "The familiar water analogy can help, if we use it narrowly. A pump produces a pressure difference; a connected path allows a flow; a restrictive section affects the flow. Pressure difference resembles voltage, and flow rate resembles current. But electrons are not water molecules delivered fresh from a tank, and the complete electromagnetic account is richer than plumbing. Keep the analogy for the distinction between a driving difference and a flow rate. Do not make it responsible for every feature of an electrical circuit."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Here is the first recall question. Our lamp circuit has a steady current of half an amp entering the lamp. What current leaves it? What does the lamp convert if it does not consume charge? And when we open the switch, can the battery still have a voltage across its terminals even though the loop current has stopped?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Half an amp leaves the lamp in the steady single-loop model. The lamp converts electrical energy into other forms, including light and heat. Opening the switch interrupts the conducting route, so the steady loop current stops, while the battery can still maintain a terminal voltage. The distinction to keep is that charge flow, energy transfer and potential difference describe different aspects of the same circuit. If we collapse them into one word, the later arithmetic becomes much harder to interpret."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Resistance tells us how a component relates an applied voltage to the resulting current under specified conditions. Its unit is the ohm. For an ideal resistor, voltage equals current multiplied by resistance. This is the familiar relationship called Ohm's law. If voltage is measured in volts and resistance in ohms, dividing the voltage by the resistance gives current in amps. The formula is short, but it only becomes useful when we identify which voltage and which resistance belong to the component being analysed."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Place a twelve-ohm ideal resistor across our six-volt ideal source. Current is six divided by twelve, which is half an amp. The resistor is the load, meaning the component receiving energy from the source. We treat the connecting wires as having negligible resistance in this first model. That makes the full six volts appear across the resistor. We are not hiding additional components elsewhere in the calculation. The simplicity is deliberate so we can follow one relationship without ambiguity."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Replace the resistor with twenty-four ohms while keeping the source at six volts. Current becomes one quarter of an amp. Doubling resistance has halved the current because voltage stayed fixed. Now restore the twelve-ohm resistor and reduce the source to three volts. Again the current is one quarter of an amp, but for a different reason. This time resistance stayed fixed and voltage halved. Saying current fell is incomplete until we know what changed in the circuit."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "We can rearrange the same relationship. If a component carries half an amp and has six volts across it, its resistance at that operating point is twelve ohms. If a ten-ohm ideal resistor carries two tenths of an amp, its voltage drop is two volts. Voltage drop means a potential difference across the component, not a reduction in the amount of current as it passes through. In a single steady path, the current remains the same on both sides of that resistor."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "The word ideal prevents a common overreach. Many real components do not keep the same resistance as voltage, temperature or other conditions change. A filament lamp heats substantially as it operates, and its resistance changes with temperature. A diode has a strongly non-linear current-voltage relationship. We can calculate with fixed resistors to learn the circuit structure, but should not quietly substitute an arbitrary lamp or electronic component and expect every numerical prediction to remain exact."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Ohm's law is especially useful for a component that behaves approximately linearly over the range of interest. Imagine measuring one volt across a resistor and one tenth of an amp through it, then two volts and two tenths of an amp. Both pairs give ten ohms. That consistent ratio describes our simple resistor model. If the ratio changes markedly, the component needs a richer model. The measurement would not show that arithmetic has failed; it would show that our fixed-resistance assumption is unsuitable."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Resistance in a real conductor depends on material and geometry as well as temperature. For the same material at the same temperature, a longer uniform wire has more resistance, while a larger cross-sectional area gives less. The compact relationship is resistivity times length divided by area. Resistivity describes the material under specified conditions. Resistance describes the particular object. A short thick piece and a long thin piece of the same metal can therefore have very different resistances without contradicting anything about the metal itself."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "An original numerical example makes the geometry visible. Suppose a uniform wire in a model has one ohm of resistance. Double its length while keeping material, temperature and cross-sectional area unchanged, and the resistance becomes two ohms. Instead, keep its original length and double the cross-sectional area, and resistance becomes half an ohm. Area is not the same as diameter. For a round wire, doubling diameter multiplies area by four, so the ideal geometric comparison gives one quarter of the original resistance."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "We are not choosing a wire for an actual installation here. The relationship explains why connecting wires are sometimes negligible and sometimes important. If the intended load is thousands of ohms, a small wire resistance might barely alter the result. If the intended load has very low resistance, that same extra resistance may become a substantial fraction of the total. Negligible always means negligible relative to the question and the other quantities. It does not mean physically absent in every setting."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Let us now track energy rather than only current. Power is the rate of energy transfer, measured in watts. One watt means one joule each second. In our steady direct-current example, multiply the voltage across the resistor by the current through it. Six volts times half an amp gives three watts. The units explain why: six joules per coulomb, multiplied by half a coulomb per second, gives three joules per second. Charge units cancel, leaving energy per time."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "The twelve-ohm resistor therefore receives three watts in our six-volt model. If it operates for ten seconds at that constant power, it transfers thirty joules. If it operates for a minute, it transfers one hundred and eighty joules. Current has not told us that amount on its own. We needed voltage to determine energy per charge and time to determine how long the transfer continued. This is why a statement about amps alone cannot specify how much energy an appliance uses."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "A watt-hour is another energy unit. One watt sustained for one hour is one watt-hour. Since an hour contains three thousand six hundred seconds, one watt-hour equals three thousand six hundred joules. Our three-watt load operating for two hours uses six watt-hours, which equals twenty-one thousand six hundred joules. Watts and watt-hours differ in the same way that a speed differs from a distance accumulated over time. The extra time factor changes what is being measured."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "A kilowatt-hour is one thousand watt-hours. It is a unit of energy, even though power appears in its name. In a fictional comparison, a device drawing ten watts for five hours uses fifty watt-hours, or five hundredths of a kilowatt-hour. A device drawing fifty watts for one hour uses the same energy. Their power demands differ, and their operating times differ, but the accumulated energy is equal. No electricity price is needed to understand that physical comparison."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "For an ideal resistor, we can combine the power equation with Ohm's law. Power equals current squared times resistance, and also voltage squared divided by resistance. These are useful alternatives, not separate kinds of energy. In our original example, half an amp squared is one quarter; multiplied by twelve ohms it gives three watts. Six volts squared is thirty-six; divided by twelve ohms it also gives three watts. Agreement is a useful check that we used the same component consistently."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Those forms also reveal why a vague claim about resistance can be misleading. At fixed current, a larger resistance means more dissipated power because current squared is unchanged. At fixed voltage, a larger resistance means less power because it reduces current. Both statements are correct under their different conditions. Whenever someone says increasing resistance creates more heat, ask what else is held constant. A circuit does not promise to preserve both current and voltage when a component changes."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "For our fixed six-volt source, replacing twelve ohms with twenty-four ohms halves the current and halves the power, from three watts to one and a half watts. But imagine a different ideal source that maintains half an amp through whichever resistor we choose. Across twenty-four ohms it would need twelve volts, and the power would be six watts. That is a different source model. It demonstrates why specifying the source is part of the physics, not an administrative detail added after the calculation."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Second recall question. A six-volt ideal source is connected to a twenty-four-ohm ideal resistor. What current flows, and what power is dissipated? If it runs for two hours, what energy is transferred in watt-hours? Finally, is that watt-hour result a rate or an accumulated amount? You can work through voltage divided by resistance, then voltage times current, then power times time.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "The current is one quarter of an amp. Six times one quarter gives one and a half watts. Over two hours, that is three watt-hours of energy. Watt-hours measure the accumulated amount, while watts measure the rate. If we wanted joules, three watt-hours would be ten thousand eight hundred joules. These are two units for the same energy, not two extra quantities the resistor somehow receives separately. A change of unit should never create an additional physical effect."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Now add a second resistor in the same path. The route leaves the battery, passes through the first resistor, then the second, then returns. There is no junction where current can divide. We call that a series connection. Both resistors carry the same steady current. Their voltage drops add to the source voltage in our ideal-wire model. Since each drop equals current times its resistance, the combined resistance is simply the sum of the two resistances."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Choose two twelve-ohm resistors and the same six-volt source. Together they have twenty-four ohms, so the loop current is one quarter of an amp. Each resistor's voltage drop is one quarter times twelve, which is three volts. The two drops total six volts. Each resistor dissipates three volts times one quarter of an amp, or three quarters of a watt. Together they dissipate one and a half watts, matching six volts times the total current."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Compare that with one twelve-ohm resistor alone, which received three watts. After adding an identical resistor in series, the first resistor receives only three quarters of a watt, one quarter of its former power. The extra component did not merely claim half of an unchanged energy flow. It also changed the total current. If our components were actual lamps, their changing temperatures would complicate the exact numbers, but the fixed-resistor example shows why connection arrangement can change each component's operating condition."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Identical series resistors divide the voltage equally, but unequal ones do not. Let the first resistor be ten ohms and the second twenty ohms, connected in series across six volts. Total resistance is thirty ohms and current is two tenths of an amp. The ten-ohm resistor has a two-volt drop. The twenty-ohm resistor has a four-volt drop. The current is equal through both, while voltage divides in proportion to resistance. Equal current does not imply equal power or equal voltage."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Their powers make that concrete. Two volts times two tenths of an amp gives four tenths of a watt in the first resistor. Four volts times two tenths gives eight tenths of a watt in the second. The total is one point two watts, matching six volts times two tenths of an amp from the source. The higher-resistance component dissipates more within this series circuit because the same current passes through both. That is the fixed-current comparison we distinguished earlier."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "We can also describe the potential at the junction. Choose the battery's negative terminal as our zero-volt reference. Suppose the route from its positive terminal goes through the ten-ohm resistor first, then the twenty-ohm resistor. The positive terminal is six volts relative to the chosen reference. After a two-volt drop across the first resistor, the junction is at four volts. The second resistor takes us through the remaining four-volt drop to the reference point. The word voltage always involves a comparison, even when the reference is left implicit."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Choosing zero is like choosing a height reference on a map. Calling sea level zero does not mean there is no ground below it or that sea level has a special absolute height independent of the convention. In the circuit, we can choose another reference and change the listed potentials while preserving all the voltage differences. The current and resistor powers remain the same. A change in descriptive reference does not alter the physical arrangement or create a new source of energy."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Move the ten-ohm resistor to the other side of the twenty-ohm resistor. The total remains thirty ohms and the current remains two tenths of an amp. Each resistor keeps its own voltage drop and power. What changes is the potential at their joining point relative to our battery reference. This distinction between whole-loop behaviour and the potential at a particular node will matter when a circuit uses a junction as an output. The order can matter to an output even when the total resistance is unchanged."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "A node means a set of points connected by ideal wire with no component between them. Those points share a potential in our model. A circuit can be drawn as a neat rectangle or a sprawling shape without changing its nodes. The geometry on the page is not the electrical relationship. Trace which terminals are connected together, where components intervene, and where branches begin. This is how we avoid calling two resistors series merely because the drawing happens to place them beside one another."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Third recall question. Ten ohms and twenty ohms are connected in series across six volts, with negligible wire resistance. What is the current through each? Which resistor has the larger voltage drop? If the first component used up some of the current, what basic feature of our steady single-path model would be violated?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Each carries two tenths of an amp, because six volts divided by thirty ohms gives that current. The twenty-ohm resistor has the larger drop, four volts rather than two. If less charge per second left a component than entered indefinitely, charge would accumulate rather than maintaining the steady condition. The resistors receive energy, but the current is not progressively consumed. This is the same charge-conservation idea from our first lamp, now producing a definite numerical prediction for two components."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "We will now keep the same six-volt source but give current two paths. Connect one twelve-ohm resistor between the positive and negative nodes, and a second twelve-ohm resistor between those same nodes. That is parallel. Each resistor spans the full six-volt difference. Each branch therefore carries half an amp. At the junction the branch currents add, so the source supplies one amp in total. The same components that gave a quarter-amp series current now produce a one-amp total current in parallel."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Each parallel resistor dissipates six volts times half an amp, or three watts. Together that is six watts. The source is supplying six volts times one amp, also six watts. Adding a parallel branch has increased the total demand on the ideal source without changing the voltage across the existing branch. This is the reason parallel connections are useful when separate loads need the same supply voltage. It is also why adding loads can ask more from the supply even when each load seems independent."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "The equivalent resistance is the single resistance that would draw the same total current from the same source. Here, six volts divided by one amp gives six ohms. Two twelve-ohm resistors in parallel therefore behave as six ohms from the source's point of view. That is less than either individual resistance. We have added another conducting path, not another obstacle in the same path. Treating all added resistors as an increase in total resistance confuses those two arrangements."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "For unequal branches, current does not divide equally. Put twelve ohms and six ohms in parallel across six volts. The twelve-ohm branch carries half an amp. The six-ohm branch carries one amp. Total source current is one and a half amps, so the equivalent resistance is four ohms. The lower-resistance branch carries more current because both branches have the same voltage across them. The current has not chosen only one path; both available resistive branches carry their corresponding currents."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "That corrects the slogan that electricity takes the path of least resistance. In this model, current flows through both branches. Their resistances determine the proportions. If one branch has much lower resistance, it may carry much more current, but that is not the same as every other branch receiving none. For positive finite branch resistances across a nonzero voltage, each branch current is nonzero. The slogan can obscure the very calculation needed to understand a parallel circuit."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "We can derive a general rule from the branch currents. Each current is the common voltage divided by that branch's resistance. Add the currents and factor out the common voltage. The reciprocal of equivalent resistance equals the sum of the reciprocals of the branch resistances. For two resistors, another convenient form is their product divided by their sum. Twelve times six is seventy-two; twelve plus six is eighteen; seventy-two divided by eighteen gives our four-ohm equivalent."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "The result should pass a physical check. A parallel combination of positive resistances must have an equivalent resistance smaller than the smallest branch resistance. Adding another available path increases the total current at the same voltage. If our arithmetic had produced eighteen ohms, we would know we had applied the series rule accidentally. This kind of check is not a substitute for calculation. It is a way of noticing when a calculation contradicts the behaviour the circuit connection requires."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Imagine opening a switch placed only in the twelve-ohm branch of that parallel circuit. That branch stops carrying current. The six-ohm branch remains connected across the ideal six-volt source, so it still carries one amp. Total source current falls from one and a half amps to one amp. Now imagine a different switch in the common wire before the branches separate. Opening that switch interrupts both paths. A switch's effect depends on where it sits in the network, not merely on the fact that it is a switch."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "We can combine series and parallel structures without learning a new law. Start with a three-ohm resistor in the common path, followed by two six-ohm resistors in parallel, then the return to a six-volt source. The parallel pair has an equivalent resistance of three ohms. That three-ohm equivalent is in series with the first three-ohm resistor. The whole circuit therefore has six ohms and draws one amp. We have reduced a small network to a simpler one, then can work back into its branches."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "The first three-ohm resistor carries the full one amp, so its voltage drop is three volts. That leaves three volts across the parallel pair. Each six-ohm branch therefore carries half an amp. Their sum is the one amp entering the junction. The common resistor dissipates three watts. Each branch resistor dissipates one and a half watts. Total power is six watts, matching the source. The method is to simplify the connection first, solve the whole, then recover the internal values."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Notice a subtle trap. The two six-ohm branch resistors do not each have the full six-volt source across them, because the common series resistor takes a voltage drop first. Parallel means they share the same two nodes and therefore the same voltage as each other. It does not necessarily mean their voltage equals the source voltage. We must identify the nodes instead of treating the word parallel as an automatic instruction to use the battery's number everywhere."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Fourth recall question. In that mixed circuit, a three-ohm resistor is followed by two six-ohm resistors in parallel, all supplied by six volts. What is the equivalent resistance of the parallel pair? What is the total source current? And how much current goes through each of the two branches? The last step needs the voltage across the pair, not an assumption that each sees the full source.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "The pair is equivalent to three ohms. Added to the first three ohms, total resistance is six ohms, giving one amp from the source. The first resistor drops three volts, leaving three volts across each six-ohm branch. Each branch then carries half an amp. The two half-amp currents recombine to one amp. We can check both conservation statements: branch currents add correctly, and the two successive voltage drops around either complete route add to six volts."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "That network also introduces a useful practical idea, loading an output. Earlier we had ten ohms followed by twenty ohms across six volts, with their junction at four volts relative to the negative terminal. A person might call that junction a four-volt output and assume anything connected there receives four volts. But connecting another component changes the network. The output voltage was calculated with nothing drawing current from that junction except the existing twenty-ohm resistor. A new load changes that condition."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Put a second twenty-ohm resistor from the junction to the negative terminal. It is now parallel with the original twenty-ohm resistor. Together they are ten ohms. That equivalent is in series with the original upper ten-ohm resistor, so total resistance becomes twenty ohms. The source current becomes three tenths of an amp. The drop across the upper ten ohms is three volts, leaving three volts at the junction. The supposed four-volt output has fallen to three because we loaded it."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Each twenty-ohm branch receives those three volts and carries fifteen hundredths of an amp. Together they draw three tenths, matching the upper resistor's current. The arithmetic shows why a simple voltage divider is not automatically a general-purpose power supply. The output depends on what is attached. If the added load has a very high resistance compared with the lower divider resistor, its effect can be small. If it has a comparable resistance, as here, the effect is substantial."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "This is a physical version of a broader engineering question: did the act of using the output change the thing you measured? In the unloaded calculation, current through the upper and lower divider resistors was equal. After adding the branch, the upper current splits between two paths. Applying the original series calculation without redrawing the circuit would hide that split. The correct response is not a correction factor guessed from experience. It is to describe the new connections and solve the network that actually exists."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Now let us remove the ideal-source assumption. A simple model of a real battery consists of an ideal voltage source in series with an internal resistance. This does not mean there is literally one neat manufactured resistor hidden inside every battery. It represents some of the source's behaviour under load. The source's open-circuit voltage is often described using the term electromotive force. Despite the name, its unit is the volt, not the newton used for mechanical force."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Choose a model with six volts of electromotive force and two ohms of internal resistance. Connect an external ten-ohm resistor. Total resistance is twelve ohms, giving half an amp. The internal resistance has a one-volt drop, because half an amp times two ohms is one volt. The external resistor therefore has five volts across it. That is the terminal voltage under this load. The source's six-volt electromotive force and its five-volt loaded terminal voltage describe different parts of the model."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "We can write the relationship in words: terminal voltage equals electromotive force minus current times internal resistance for the discharging case. The larger the current, the larger that internal drop, if the internal resistance stays fixed. With no external current, the internal drop in this simple model is zero, so terminal voltage approaches the electromotive force. A voltage reading with almost no load therefore does not by itself show how the source will behave when a substantial load is connected."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Change the external load from ten ohms to four ohms, keeping the same model battery. Total resistance is now six ohms, so current is one amp. The internal voltage drop becomes two volts, leaving four volts across the load. More current is flowing, but the terminal voltage is lower. This is one reason an ideal calculation can overestimate what a real source delivers. The load and the source are part of one circuit, and neither can be understood by ignoring the other's contribution."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Power accounting reveals where the difference goes. With the ten-ohm load and half an amp, the external load receives two and a half watts. The internal two-ohm resistance dissipates half a watt. The ideal source supplies six volts times half an amp, or three watts. The two destinations add to that total. With the four-ohm load and one amp, the external load receives four watts and the internal resistance dissipates two watts. The ideal source now supplies six watts in total."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Those chosen values illustrate the mechanism, not a specification for a particular battery. Real internal behaviour can vary with temperature, state of charge, current and chemistry. A fixed internal resistance is a limited model. Still, it explains an important pattern: increasing load can reduce terminal voltage and increase internal heating. It also tells us why the earlier promise of unchanged parallel-branch voltage depended on an ideal source. With a real source, adding a branch can affect the voltage available to the original branch."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Consider the limiting idea of a short circuit, an unintended path with very low resistance. In an ideal zero-resistance source model, driving a zero-resistance path produces a mathematical inconsistency rather than a sensible finite current. Real resistance and source limitations matter enormously there. The practical consequence can be excessive current and heating. We will keep that as an explanation, not an experiment. Do not connect battery terminals together to test it. Our exercise stays on paper and does not involve opening equipment or working on mains wiring."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Heating itself is not always unwanted. In a resistive heater, converting electrical energy into thermal energy is the intended function. In a connecting wire or contact, excessive heating is usually an unwanted loss. The same physical relationship can describe both, while the engineering purpose differs. A component's resistance alone therefore does not tell us whether it is suitable. Its power handling, temperature, surrounding conditions and intended role also matter. Our equations calculate electrical quantities; they do not certify a real assembly for safe use."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "There is another trap around maximum power. In a simple source model, changing the load can increase the power delivered to it while also wasting more inside the source. More delivered power does not automatically mean greater efficiency. Using our two examples, the ten-ohm load receives two and a half watts from three watts supplied, while the four-ohm load receives four from six. The second delivers more watts but a smaller fraction reaches the external load. The goal determines which comparison is relevant."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "We can express those fractions without making a design recommendation. Two and a half divided by three is roughly eighty-three percent. Four divided by six is roughly sixty-seven percent. These are efficiencies within this simplified model, counting only the external load's power relative to the ideal source's electrical power. They are not a complete chemical efficiency for a real battery. Defining the boundary of a calculation prevents an accurate ratio from becoming an inaccurate claim about the whole device."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "For a different kind of estimate, suppose an imaginary energy store can deliver twelve watt-hours of usable electrical energy under the specified conditions. A steady three-watt load would ideally run for four hours. A six-watt load would ideally run for two. That calculation uses energy divided by power. It assumes the usable energy remains the stated amount and the power stays constant. Real operating time can depart from that estimate when load changes, conversion losses or a device's cutoff behaviour matter."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "A battery capacity written in amp-hours is a charge measure rather than an energy measure. One amp-hour is the charge corresponding to one amp for one hour, or three thousand six hundred coulombs. To estimate energy from charge capacity, voltage also matters. Two imaginary stores with the same amp-hour figure but different operating voltages need not provide the same watt-hours. This follows directly from our original separation: current concerns charge per time, while voltage concerns energy per charge."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "At a constant six volts, two amp-hours would correspond to twelve watt-hours. At a constant three volts, the same two amp-hours would correspond to six watt-hours. These are deliberately ideal examples, not a promise about the label on a particular product. They show why comparing charge capacity without the associated voltage can mislead. Multiplying compatible quantities with their units often exposes the missing information before we need a more elaborate battery model."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Fifth recall question. Our model battery has six volts of electromotive force and two ohms of internal resistance. It supplies a four-ohm external resistor. Find the current, terminal voltage, power in the external resistor and power inside the battery model. Then explain why a nearly unloaded six-volt reading would not guarantee six volts across this connected load.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Total resistance is six ohms, so current is one amp. The internal drop is two volts, leaving four volts at the terminals and across the external load. The load receives four watts; the internal resistance dissipates two watts. Their total equals six watts from the ideal source. With almost no current, the internal drop would be almost zero, which explains the higher unloaded reading. The difference follows from the load changing current through the internal resistance, not from voltage being a misleading unit."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Measurement follows the same connection rules. A voltmeter compares the potential at two points, so its measuring input is connected across those points. In a circuit diagram that is a parallel connection. An ideal voltmeter draws no current, so it does not load the circuit. A real meter has a finite input resistance. If that resistance is large compared with the circuit it measures, the disturbance may be small. If it is comparable, the meter becomes an additional load and can change the voltage being observed."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "We already have the arithmetic for that effect. In our ten-ohm and twenty-ohm divider, imagine a purely illustrative meter input of twenty ohms across the lower resistor. That creates exactly the extra parallel branch we analysed, changing the junction from four volts to three. An instrument could then report three volts accurately for the altered circuit while failing to show the original unloaded value. This chosen resistance is deliberately extreme for teaching the effect, not a claim about the input resistance of a typical modern voltmeter."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "An ammeter measures current through a path, so a direct current-measuring element belongs in series with that path. The ideal ammeter has zero resistance, avoiding an added voltage drop. A real one adds some resistance and may therefore alter the current. The design aims are opposite: a voltmeter should draw very little current across its input, while an ammeter should introduce very little resistance along the measured path. The distinction comes from what each quantity means, rather than an arbitrary rule about where instruments belong."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "On our paper drawing, placing a low-resistance current meter directly across the battery would create a new low-resistance path rather than measure the existing load current. That is why voltage and current modes cannot be treated as interchangeable. No physical measurement is part of today's task. The conceptual point is that a measuring device joins the circuit it observes. Whenever a calculated value and a reading disagree, the model may need to include the instrument as well as the intended components, instead of assuming observation has no effect."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "We can now tackle a complete paper task with fresh numbers. Draw a nine-volt ideal source. From its positive terminal draw a path through a six-ohm resistor to a junction. From that junction draw two branches, each containing a twelve-ohm resistor, which meet again at the negative terminal. Label the common resistor and the two branches. Before doing arithmetic, state which components carry the same current and which have the same voltage. That connection description is the foundation of the solution."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "The two twelve-ohm resistors are in parallel and have the same voltage across them. Their equivalent resistance is six ohms. In series with the common six-ohm resistor, the total becomes twelve ohms. Nine divided by twelve gives three quarters of an amp from the source. That whole current passes through the common resistor before splitting. Its voltage drop is three quarters times six, or four and a half volts. The parallel pair therefore also has four and a half volts across it."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Each branch current is four and a half divided by twelve, which is three eighths of an amp, or zero point three seven five amps. The two branch currents add to three quarters. Total source power is nine times three quarters, or six point seven five watts. The common resistor dissipates three point three seven five watts. Each branch dissipates one point six eight seven five watts. Adding all three gives the same six point seven five watts, so the energy account is consistent."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "Now change one thing on your drawing. Open only one of the parallel branches. The remaining path contains the common six-ohm resistor and one twelve-ohm resistor in series. Total resistance becomes eighteen ohms and source current becomes half an amp. The common resistor drops three volts, leaving six volts across the surviving twelve-ohm resistor. Its current is half an amp. The surviving branch's current has increased from three eighths to half an amp even though total source current has decreased."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "That may seem surprising if we remember only the earlier parallel circuit connected directly to an ideal source. Here the common series resistor changes the story. Removing one branch reduces the common current and therefore reduces the voltage drop before the junction. More of the source voltage appears across the surviving branch. Connections determine the result. A rule remembered without its conditions can predict the wrong direction of change, even when every component is an ideal resistor and the arithmetic is simple."
+    },
+    {
+      "v": "ash",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "For the final check, imagine someone reports that the original two-branch circuit has three quarters of an amp entering the junction and half an amp in each branch. Those figures cannot all describe its steady state. The branches would require one amp in total. Either the measurements, labels or assumptions are wrong. A second person reports nine volts across each branch while also reporting four and a half volts across the common resistor. That contradicts the nine-volt source around either complete route. Conservation gives us ways to catch incompatible descriptions."
+    },
+    {
+      "v": "sage",
+      "i": "Warm, engaged and conversational. Teach through concrete examples with natural pacing and varied emphasis. Do not artificially slow.",
+      "t": "The lamp we began with now has a clearer explanation. Charge moves through a complete path; voltage describes an energy difference per charge; resistance helps determine current; power describes energy transferred per second. Series connections share current, parallel connections share voltage, and real sources introduce limits that the ideal model leaves out. You can use the paper circuit to practise those relationships without touching equipment. The useful result is being able to follow the route, choose the right quantities and explain why the numbers belong together."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-20",
+    "spoken_words": 7022,
+    "sha256": "815912d8b8101c5be5ab6bd97a197421ba2ed1168e3f8b8d1a04573b2b2f7ccb",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://openstax.org/books/college-physics-2e/pages/20-1-current",
+      "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits",
+      "https://openstax.org/books/college-physics-2e/pages/20-3-resistance-and-resistivity",
+      "https://openstax.org/books/college-physics-2e/pages/20-4-electric-power-and-energy",
+      "https://openstax.org/books/college-physics-2e/pages/21-1-resistors-in-series-and-parallel",
+      "https://openstax.org/books/college-physics-2e/pages/21-2-electromotive-force-terminal-voltage",
+      "https://openstax.org/books/college-physics-2e/pages/21-4-dc-voltmeters-and-ammeters"
+    ]
+  }
+}
