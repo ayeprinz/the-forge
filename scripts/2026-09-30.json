@@ -1,0 +1,448 @@
+{
+  "date": "2026-09-30",
+  "title": "[Business] When More Sales Mean Less Profit",
+  "summary": "Follow an original bag-workshop case through contribution, break-even, discounts, price changes, special orders, scarce capacity and product mix. Includes five recall questions with answers and a fictional portrait-editing pricing exercise. No prior reading required. Reference: selected sections 3.1-3.5, 10.1, 10.2 and 10.6 of Principles of Accounting, Volume 2: Managerial Accounting, by Mitchell Franklin, Patty Graybeal and Dixon Cooper, OpenStax. Access for free at https://openstax.org/books/principles-managerial-accounting/pages/1-why-it-matters . Original dialogue, scenarios and calculations, not copied textbook problems.",
+  "instructions": "Two substantive teachers, ash and sage. Natural pace. Articulate amounts and percentages clearly. Preserve five seven-second recall pauses. All businesses and monetary examples are fictional teaching cases; no personalised financial recommendations.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "A workshop sells a bag for forty pounds. Making and delivering that bag costs twenty four pounds. The owner says, brilliant, sixteen pounds profit. Then the monthly rent arrives, followed by the software bill and the supervisor's salary. Those sixteen pounds were already needed somewhere else. This small mistake can make a busy business look healthier than it is. Let's build the workshop's numbers properly, then use them to decide whether a discount, a bigger order or a new machine actually helps."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "We'll call this fictional business Harbour Bags. Every figure is invented for the lesson, so you can follow the reasoning without needing a real company's accounts. We start with one standard bag and one month. The forty pounds is revenue the business keeps before its own costs. We set sales taxes aside throughout, rather than mixing money collected for a tax authority into revenue. Our profit figures are simplified operating profit, before financing costs and tax. Keeping that boundary consistent makes the comparisons meaningful."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Harbour's twenty four pounds includes the fabric, packaging, payment processing, delivery and production labour that increase with each bag sold. These are the variable costs in our model. Another sale brings another twenty four pounds of these costs. Separately, Harbour pays two thousand four hundred pounds for the month's fixed operating costs. Within the range we're considering, it pays that amount whether it sells one hundred bags or two hundred. Fixed does not mean permanent. It means unchanged across the activity range and period we've specified."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "That last part prevents a surprisingly common error. A room may cost the same this month at several sales volumes, but a second room could become necessary beyond a certain capacity. A salary may be fixed over a month while freelance production work is paid per item. The labels describe how a cost behaves under these arrangements. They are not intrinsic properties of buildings or people. When the arrangement changes, the model changes. Ask what causes the bill to increase, and over what period, before putting it in a column."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Now subtract the variable cost from the selling price. Forty minus twenty four leaves sixteen pounds per bag. That is contribution per bag, also called unit contribution margin. Each sale supplies sixteen pounds towards the fixed costs, then towards operating profit once those costs are covered. Imagine putting those sixteen pounds into a separate pot after every sale. The first job of the pot is to reach two thousand four hundred pounds. Until it does, the month still has a shortfall, even though every individual bag contributes something positive."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "At one hundred bags, customers provide four thousand pounds of revenue. Variable costs take two thousand four hundred. Contribution is one thousand six hundred. Subtract the fixed costs of two thousand four hundred and Harbour has an eight hundred pound operating loss. The owner has sold a hundred objects people wanted, worked hard and taken money. None of those facts changes the loss. The number we need is the surplus after the relevant costs, with the period and scope clearly stated."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "At two hundred bags, revenue becomes eight thousand pounds. Variable costs are four thousand eight hundred. Contribution is three thousand two hundred. After the same fixed costs, operating profit is eight hundred pounds. The difference between our two months is one hundred extra bags, each contributing sixteen pounds. That produces a sixteen hundred pound improvement, moving the business from an eight hundred pound loss to an eight hundred pound profit. We didn't need to recalculate rent per bag to understand that change."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "We can still calculate an average cost, but we must understand what it says. At one hundred bags, fixed cost per bag is twenty four pounds. At two hundred, it is twelve pounds. Add the variable twenty four and average total cost falls from forty eight to thirty six pounds. The rent has not become cheaper. More bags share the same fixed bill. Treating the first average as the cost caused by one extra bag would give the wrong answer. It includes a share of costs that do not change with that extra sale."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "The number of bags needed to cover the fixed bill is two thousand four hundred divided by sixteen. That is one hundred and fifty bags. At that volume, revenue is six thousand, variable cost is three thousand six hundred, and contribution exactly covers the two thousand four hundred fixed cost. This is break-even for our month. It is a threshold under our assumptions, not a sales forecast. The calculation cannot tell us whether one hundred and fifty people want the bags or whether Harbour can deliver them."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "There is another boundary hiding in that word profit. Have we included payment for the owner's work? Suppose the owner works without a salary and needs twelve hundred pounds from the business for that month. Reaching our accounting break-even does not produce that twelve hundred pounds. To leave that amount after the stated costs, Harbour needs three thousand six hundred pounds of contribution. Divide by sixteen and the required volume is two hundred and twenty five bags. We are adding a target surplus, not silently pretending unpaid work costs nothing to the person doing it."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "If the owner's salary were already included in fixed costs, we would not add the same payment again. This is why cost lists need descriptions. A line called staff could include a supervisor, a founder, or outsourced assembly. Double counting makes a viable idea look impossible. Leaving out necessary work makes an impossible idea look viable. A useful model identifies who does each task, how payment is triggered, and whether that payment is already present in the numbers. You cannot fix an unclear cost list with a more elaborate spreadsheet."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "First recall question. Harbour sells each bag for forty pounds, has twenty four pounds of variable cost per bag, and two thousand four hundred pounds of monthly fixed costs. What does each bag contribute, and how many bags cover the fixed costs? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Each bag contributes sixteen pounds. One hundred and fifty bags supply two thousand four hundred pounds, exactly covering fixed costs. Calling that sixteen pounds net profit per bag would skip the fixed bill. If you pictured a pot filling up, the one hundred and fiftieth bag finishes filling it. In this simple model, later bags add sixteen pounds each to operating profit. That remains true only while the selling price, variable cost and fixed cost assumptions continue to hold."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "The same information can be expressed as a percentage. Sixteen pounds of contribution from forty pounds of revenue is forty percent. Harbour's contribution margin ratio is therefore forty percent. If the standard bag remains the only product and its economics stay unchanged, every pound of revenue leaves forty pence towards fixed costs and profit. Dividing two thousand four hundred pounds by forty percent gives six thousand pounds of break-even revenue. That agrees with one hundred and fifty bags at forty pounds. We have described the same threshold in two different units."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Now compare that percentage with markup. Suppose an item costs twenty pounds and sells for thirty. Its ten pound difference is fifty percent of cost, but only a third of selling price. Fifty percent markup and roughly thirty three percent margin can describe the same item. The denominator is doing the work. If someone asks for a forty percent margin and you simply add forty percent to cost, you have not delivered it. Name the cost being used too. A margin over materials alone is not a margin after all variable costs."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Use an original tiny example. An item has twelve pounds of relevant cost, and the desired difference is forty percent of the final selling price. That means cost must be sixty percent of the price. Twelve divided by sixty percent gives a twenty pound price. Adding forty percent to twelve would instead give sixteen pounds eighty. Its four pounds eighty difference is only about twenty nine percent of selling price. Both calculations are easy. The danger is answering one question while believing you answered the other."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "So far we have treated every variable cost as a fixed amount per bag. Some fees instead depend on revenue. Suppose a separate hypothetical seller pays twenty pounds in other variable costs and a processing fee of five percent of the price. At a forty pound price, the fee is two pounds and contribution is eighteen. At thirty pounds, the fee is one pound fifty and contribution is eight pounds fifty. A price change alters the fee as well. Model that relationship directly, rather than carrying a forty pound transaction's fee into every scenario."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Harbour's original twenty four pound figure will remain unchanged in our main examples unless we explicitly revise it. That makes the arithmetic easy to hear. In a real model, you would break it into the actual pieces. The point is not to have dozens of columns for their own sake. It is to know which pieces move when you change the decision. Price, quantity, delivery method, payment method and order size may each move different costs. A total copied from last month can hide those connections."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Another distinction matters before we use profit to make decisions. Profit is measured over a period, while cash has particular arrival and departure dates. Harbour might sell two hundred bags at a profit but pay for materials before customers pay it. Or it might collect deposits for next month's orders and look cash rich without having completed them. The pricing model answers whether the sales cover the stated costs. A separate cash schedule answers whether the business can meet payments when due. The September cash-flow lesson develops that problem; these numbers still work if you have never heard it."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "For today's decisions, assume the bags are made and sold in the same month, the variable costs relate to those bags, and customers pay as promised. We can then investigate pricing without inventory timing obscuring the mechanism. Later, if Harbour holds unsold stock or changes credit terms, those deserve their own lines. Simplifying is useful when you can name what you have simplified. It becomes misleading when the omitted item quietly returns as a confident claim about the business's bank balance or long-term survival."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Harbour's owner wants more orders and proposes a ten percent discount. Forty pounds becomes thirty six. The twenty four pounds of variable cost still has to be paid, so contribution falls from sixteen pounds to twelve. The price has fallen ten percent, but contribution per bag has fallen twenty five percent. That difference is why a discount can be much more expensive than it sounds. Fabric, packaging and delivery do not volunteer to take the same percentage cut when the seller lowers the price."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Begin from the two hundred bag month, which produced eight hundred pounds of operating profit. If Harbour discounts all two hundred bags, contribution becomes two thousand four hundred pounds and profit becomes zero. To keep the former three thousand two hundred pounds of contribution at twelve pounds a bag, it needs two hundred and sixty six and two thirds bags. Since it sells whole bags, it needs at least two hundred and sixty seven. A ten percent price cut therefore requires roughly a third more volume just to preserve the old profit under these assumptions."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Notice what has not been included: extra advertising, overtime, returns, or a second packing table. If the larger volume needs any of those, two hundred and sixty seven is no longer enough. It was the answer for unchanged fixed and unit variable costs. Harbour's production limit might also prevent that volume. A discount justified by saying we'll make it up in volume needs a number beside volume and a credible way to produce and sell that number. Otherwise the phrase has concealed the whole decision."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Suppose the promotion reaches two hundred and fifty sales. That sounds like success because sales quantity rose by a quarter. But two hundred and fifty times twelve pounds produces three thousand pounds contribution, leaving six hundred pounds operating profit. Harbour did more work and earned two hundred pounds less than before. Revenue rose from eight thousand to nine thousand, so even the revenue chart looks encouraging. The contribution calculation reveals what the order count and sales revenue do not. Growth in activity and growth in profit are different measurements."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "There are circumstances where the discount does help. If Harbour can deliver three hundred discounted bags with unchanged costs, contribution reaches three thousand six hundred and profit reaches twelve hundred. That beats the old eight hundred. We are not declaring discounts bad. We are identifying the condition that makes this one financially beneficial. Three hundred customers are not guaranteed merely because thirty six looks attractive on a label. The numerical threshold turns a vague hope into a demand and capacity question that the owner can investigate."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "A price increase has the opposite contribution effect, although demand may move against it. Raise the price to forty four pounds and contribution becomes twenty pounds. Harbour now needs one hundred and sixty bags to generate the same three thousand two hundred pounds of contribution as before. It could sell twenty percent fewer bags and still make the old eight hundred pound profit. If it sold only one hundred and fifty, contribution would be three thousand and profit six hundred. The higher price would not rescue that larger fall in sales."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "That one hundred and sixty threshold is a useful question to take into market research. Will at least that many buyers still choose this offer at forty four pounds? Cost arithmetic cannot answer on their behalf. A customer may compare durability, size, appearance, delivery reliability, alternatives and the option of buying nothing. Harbour's costs tell the owner what different outcomes would mean. The customer's choice helps determine which outcome happens. A sensible pricing process needs both, rather than assuming either costs or confidence sets the market price."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Imagine two customers who both ask why the bag costs forty four pounds. One carries heavy equipment and cares whether the seams last. The other wants an inexpensive bag for one event. An explanation of reinforced construction may be useful to the first and irrelevant to the second. The seller has learned something about fit, not about one customer being superior. It can describe verified features and clear terms, then let people choose. Inventing urgency or pretending the cheaper alternatives are defective would add no useful evidence to the offer."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Harbour could also develop a simpler version rather than repeatedly discounting the same bag. But the cheaper version must actually remove costs or serve a different need. Suppose fewer compartments reduce variable cost from twenty four to twenty pounds, and the simpler bag sells for thirty four. Contribution is fourteen pounds. That is better than the twelve pounds from discounting the standard bag to thirty six, though worse than the standard bag's original sixteen. Whether the new version helps depends on which sales it adds and which existing sales it replaces."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "If fifty buyers who would otherwise buy nothing choose the simpler bag, they bring seven hundred pounds of extra contribution, before any new fixed costs. If fifty existing standard-bag buyers switch instead, contribution falls by one hundred pounds, because each switching buyer now contributes two pounds less. The same fifty simpler bags can represent an improvement or a decline depending on the alternative. This is the meaning of cannibalisation in this example. You compare the business with the new option against the business without it, rather than praising the new option's revenue in isolation."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Second recall question. A forty pound bag has twenty four pounds of variable cost. If its price falls to thirty six pounds, what happens to contribution per bag? And if Harbour previously sold two hundred bags, does selling two hundred and fifty at the discounted price preserve its profit? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Contribution falls from sixteen pounds to twelve. Two hundred and fifty discounted bags contribute three thousand pounds, below the previous three thousand two hundred. With unchanged fixed costs, profit falls by two hundred pounds. The larger sales count does not compensate enough. To preserve the old contribution, Harbour needs at least two hundred and sixty seven whole bags. That threshold is a calculation to test against likely demand and available production, not a prediction that the discount will attract those buyers."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Costs can change the same decision without any change in the selling price. Return to the original forty pound bag. Suppose variable cost rises from twenty four to twenty six. Contribution falls to fourteen. At two hundred bags, total contribution is two thousand eight hundred and profit is four hundred. The two pound cost increase has cut our former eight hundred pound profit in half. That is not because the whole business became twice as expensive. A relatively small change in a large cost stream can consume a large share of a small remaining surplus."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "To find the new break-even volume, divide two thousand four hundred by fourteen. The result is just over one hundred and seventy one bags, so at least one hundred and seventy two whole bags are needed. At one hundred and seventy one, contribution is two thousand three hundred and ninety four, leaving a six pound loss. At one hundred and seventy two, contribution is two thousand four hundred and eight, leaving eight pounds profit. Rounding up matters when the thing being sold cannot be divided into a fraction of a sale."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Now change a different cost. Keep the original sixteen pound contribution, but raise monthly fixed costs from two thousand four hundred to two thousand eight hundred. The new break-even volume is one hundred and seventy five bags. Contribution per sale has not changed. There is simply a larger monthly amount to cover. Distinguishing these two kinds of change helps you locate a response. A higher per-bag delivery fee and a larger monthly lease create different relationships between sales volume and profit, even if they reduce profit by the same amount this month."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Harbour's owner considers a machine rented for an additional eight hundred pounds per month. It would reduce variable cost by four pounds per bag, from twenty four to twenty. Keep the price at forty. The old monthly profit is sixteen pounds times the number of bags, less two thousand four hundred. The new monthly profit is twenty pounds times the number of bags, less three thousand two hundred. The machine improves contribution but raises the fixed commitment. We can compare the alternatives directly without assuming that automation is automatically a saving."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Every bag saves four pounds, so two hundred bags save eight hundred pounds, exactly matching the extra rent. At two hundred bags the alternatives produce the same eight hundred pound operating profit. At one hundred and fifty bags, the old setup breaks even while the machine setup loses two hundred pounds. At three hundred bags, the old setup earns two thousand four hundred, and the machine setup earns two thousand eight hundred. The crossover volume is two hundred bags. Below it, these financial assumptions favour the old setup; above it, they favour the machine."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "That comparison assumes the machine works as expected, the quality stays acceptable and the stated costs capture its consequences. If it needs training, servicing, power, supervision or downtime, include those. If it improves consistency or expands feasible output, investigate those benefits too. A vendor's claim about labour saved is not the same as a reduction in the actual wage bill. Freed time may be valuable because it produces something else or makes work manageable. It only becomes a cash saving if an expense actually changes."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "A fixed commitment also changes exposure to a weak month. Suppose Harbour switches from a flexible production arrangement to the machine and then demand falls. The machine rent remains payable within our monthly model even when fewer units are produced. Each successful sale contributes more, but there may be fewer sales supplying that contribution. This is the practical tension behind operating leverage. A cost structure can improve the reward from higher volume while making lower volume harder to absorb. The sensible choice depends partly on how uncertain that volume is."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "We can see the sensitivity in the original setup without another formula. At two hundred bags, profit is eight hundred. Raise volume by ten percent to two hundred and twenty, holding everything else fixed. Twenty extra bags contribute three hundred and twenty pounds, so profit becomes eleven hundred and twenty. Sales quantity rose ten percent, while profit rose forty percent. If volume fell ten percent to one hundred and eighty, profit would fall to four hundred and eighty. The amplification comes from fixed costs staying put while contribution changes."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "There is a useful buffer calculation here. At two hundred sales and a break-even volume of one hundred and fifty, Harbour has fifty bags between its current volume and break-even. Fifty is a quarter of two hundred, so the margin of safety is twenty five percent of current sales volume. In revenue terms, eight thousand less six thousand leaves two thousand pounds. This is sales headroom under the model, not two thousand pounds sitting in a reserve account. It also says nothing about the probability of sales actually falling that far."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Change the mix, prices or costs and that headroom changes. A twenty five percent fall in revenue caused entirely by discounting is not equivalent to losing a quarter of unit sales at an unchanged price. In the discount case, the business still incurs variable costs on all the items it sells. The simple margin-of-safety comparison assumes the original contribution relationship continues. It is useful precisely because its conditions are visible. You can revise the calculation when the business changes, instead of using a single percentage as a permanent badge of security."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "A different buyer now asks Harbour for fifty standard bags at thirty pounds each. The normal price remains forty for everyone else. Assume the workshop has unused capacity, the order does not replace ordinary sales, and variable cost remains twenty four per bag. The special order contributes six pounds per bag, or three hundred pounds in total. If all existing fixed costs stay unchanged, accepting it improves the month's operating result by three hundred pounds. It can improve a loss-making month too. Existing fixed costs need not already be covered for the comparison to work."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "That does not make thirty pounds a sustainable standard price. At thirty pounds, six pounds contribution per bag would require four hundred bags just to cover Harbour's two thousand four hundred pounds of fixed costs. The special-order decision asks what changes when these extra fifty bags are accepted now. The standard-price decision asks how the continuing business will cover its costs over time. A price can be helpful in one narrow, temporary situation and inadequate as the normal basis of the whole operation."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Suppose the special buyer also wants a unique printed label, and setting it up costs one hundred and eighty pounds. That cost happens once for the order, rather than once per bag. The three hundred pounds contribution before setup becomes a one hundred and twenty pound improvement after setup. If setup cost were three hundred and fifty, accepting would make the result fifty pounds worse. Calling setup fixed does not make it irrelevant. It is relevant because accepting this particular order causes it. We care about what differs between the alternatives."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Now remove the unused capacity. To fulfil those fifty special bags, Harbour must turn away fifty normal-price bags that would otherwise sell. The normal bags would contribute eight hundred pounds. The special bags contribute three hundred before setup. Replacing the normal order with the special one therefore reduces contribution by five hundred pounds, or by six hundred and eighty if the one hundred and eighty pound setup is also required. The special order still has positive contribution considered alone. It loses against the available alternative, which is the comparison that matters."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "This forgone contribution is an opportunity cost. It need not arrive as a separate invoice. The workshop cannot sell both sets of bags with the same limited capacity at the same time, so choosing one sacrifices the other. We subtract the normal order's contribution, not its entire two thousand pounds of revenue, because turning it away also avoids its variable costs. Mixing lost revenue with the new order's contribution would overstate the sacrifice. Compare alternatives on a consistent basis, or write out both complete cases and subtract them."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "There is also a difference between an actual alternative and a wish. If no normal buyer exists for those slots, you cannot count fifty imaginary full-price sales as certain lost contribution. You can consider the chance of future enquiries, but call that an uncertainty. Conversely, an order already promised to someone is not just spare capacity waiting for a higher bidder. Delivery obligations and relationships matter. The model helps identify the financial consequence; it does not erase commitments or turn every customer into an interchangeable unit of volume."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Consider a cost Harbour has already paid: four hundred pounds to photograph an earlier design. The money cannot be recovered whichever order it accepts. Including it again as a cost of the special order would distort today's comparison. This is a sunk cost. It can still teach the owner something about whether the original decision was worthwhile. But the present choice concerns the future consequences of accepting or rejecting now. A past mistake does not become recoverable simply because a new order is asked to carry its whole emotional weight."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Existing materials need more care. The fact that Harbour bought fabric last week does not automatically mean using it is free. If the fabric could be sold, or is needed for another profitable order, consuming it gives up that alternative. If it has no alternative use and no resale value, the relevant comparison may be different. Purchase history alone does not establish the current opportunity cost. Ask what would happen to the material if this order were rejected, then compare that outcome with using it."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Third recall question. Fifty special bags bring thirty pounds each and cost twenty four pounds each in variable costs. There is spare capacity, no displaced sale and a one hundred and eighty pound setup charge caused by the order. By how much does accepting change the operating result? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "It improves the result by one hundred and twenty pounds. Fifty times six pounds gives three hundred pounds, then subtract the setup charge. The unchanged monthly rent is present under both alternatives, so it cancels in this comparison. If capacity were full and normal sales were displaced, we would also subtract their forgone contribution. Those are different circumstances, and a good answer changes with them. A slogan such as never sell below full cost or always take positive contribution would miss part of the decision."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Capacity becomes even more interesting when Harbour sells two products. Return to the normal standard bag at forty pounds, variable cost twenty four, contribution sixteen. Add a premium bag selling for seventy pounds with variable cost forty six, giving contribution twenty four. If you looked only at contribution per item, premium looks better. But suppose finishing is the sole bottleneck. Each standard bag uses half an hour there, while each premium bag uses one full hour. An hour devoted to standards can produce two bags contributing thirty two pounds."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "An hour devoted to one premium bag contributes twenty four pounds. Under these assumptions, the standard bag produces more contribution per scarce finishing hour, even though the premium bag has higher revenue and contribution per item. Suppose Harbour has sixty finishing hours and enough demand for either choice. All standards would mean one hundred and twenty bags and one thousand nine hundred and twenty pounds contribution. All premiums would mean sixty bags and one thousand four hundred and forty pounds contribution. The higher-priced product would leave four hundred and eighty pounds less towards fixed costs."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "This is a deliberately narrow production comparison, not a recommendation to abandon the premium product. We assumed enough demand, one bottleneck, unchanged costs and no other differences. What if only sixty standard bags can be sold? Producing more would create stock, not contribution from sales. Those sixty standards use thirty hours and contribute nine hundred and sixty pounds. With the remaining thirty hours, Harbour could make thirty premium bags, if demand exists, adding seven hundred and twenty pounds. Total contribution would be one thousand six hundred and eighty."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "The calculation suggests filling the strongest feasible demand first in this simple case, then using remaining time for the next opportunity. Real schedules may involve setup time, minimum batches, delivery deadlines or more than one bottleneck. Then a ranking by contribution per hour may not solve the whole problem. It is still revealing. It shows why a product that feels prestigious or expensive may be a poor use of a resource that is currently scarce. The relevant unit is a unit of the constraint, not automatically a unit of product."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Harbour can also examine whether the constraint can be relieved. Suppose an extra finishing hour costs twenty pounds and could genuinely support two additional standard sales. The extra contribution before that hourly charge would be thirty two pounds, leaving twelve pounds improvement. If there are no extra customers, the hour has no such benefit. If another operation becomes the bottleneck, output may not rise by two. Paying to expand capacity helps only when it unlocks completed, saleable work whose incremental return exceeds the added cost."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "We can contrast a service business without making the numbers more complicated. A fictional designer has two requests. One fixed-scope job contributes one hundred and twenty pounds after direct outside costs and takes two hours of scarce design time. Another contributes one hundred and sixty but takes four hours. The first contributes sixty pounds per design hour, the second forty. If both can actually be sold, time is the sole constraint and quality stays equal, the smaller job is financially stronger per scarce hour. Revenue per project alone would point attention elsewhere."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "That designer must include revisions, briefing, administration and realistic completion time. If the first job usually requires another two hours of unpaid revision, its contribution per total design hour falls to thirty pounds. The apparent ranking reverses. This is one reason scope is part of economics, not merely paperwork. The service being sold includes a definition of what is delivered, how many changes are included and what counts as new work. Ambiguity can quietly change the quantity of labour supplied for the same fixed fee."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "There is another source of surprise when several products share monthly costs: sales mix. Use Harbour's standard and premium contributions again, sixteen and twenty four pounds. Suppose the usual pattern is two standard bags for every premium. That group of three contributes fifty six pounds, from thirty two plus twenty four. With two thousand eight hundred pounds of fixed costs in this separate example, fifty such groups cover the bill. That means one hundred standard bags and fifty premium bags. We have held the mix fixed to make the threshold calculable."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Now suppose the pattern flips to one standard for every two premium bags. A group of three contributes sixty four pounds. The same fixed bill requires forty three and three quarters groups, so forty four whole groups would cover it. That is forty four standard bags and eighty eight premium bags, producing two thousand eight hundred and sixteen pounds contribution. But the mix also uses more finishing time. A financially attractive sales mix might be operationally infeasible. The break-even arithmetic and the capacity calculation need to agree about what can actually be delivered."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Do not average the two product contributions as if the business sold equal quantities unless it really does. And do not assume a projected mix remains constant because a spreadsheet cell says so. If the promotion mainly attracts a lower-contribution product, revenue can look close to plan while total contribution falls short. Tracking units and contribution by product helps explain the difference. A single blended percentage is useful when its ingredients are stable; when the ingredients shift, inspect them rather than treating the average as a law."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "The customer acquisition bill adds another layer. Return to the original standard bag with sixteen pounds contribution. Suppose Harbour spends three hundred pounds on a small advertising campaign, and it produces thirty genuinely additional purchases. Those purchases contribute four hundred and eighty pounds before the campaign cost. After the advertising, the improvement is one hundred and eighty pounds. Divide campaign spending by the thirty additional customers and acquisition cost is ten pounds each. This comparison uses extra customers caused by the campaign, not everyone who happened to buy while the advertisement was running."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "If the platform reports thirty purchases but only fifteen are additional, the conclusion changes. Fifteen bags contribute two hundred and forty pounds, less than the three hundred pound campaign cost. The business is sixty pounds worse off on that immediate comparison. The remaining buyers would have purchased anyway. Attribution labels can help organise observations, but the causal question is what happened because of the spending. Harbour may not know that perfectly. It can still distinguish a platform's credited purchases from a defensible estimate of additional demand."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "It is tempting to rescue weak first-order economics with assumed repeat purchases. If a new customer makes a second profitable purchase, that can improve the relationship's economics. But it must not be counted as guaranteed simply because repeat customers would be convenient. Future contribution depends on how many customers return, what they buy, what serving them costs and when the money arrives. Start with observed cohorts when available, separate forecasts from observations, and do not use gross lifetime revenue as though it were money left after all future costs."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "We can show this with a small hypothetical cohort, without pretending it predicts anyone's customers. Ten new customers each place one standard order, producing one hundred and sixty pounds contribution. If exactly four later place one more identical order, the cohort contributes another sixty four pounds before any extra acquisition or retention spending. Total contribution is two hundred and twenty four. Dividing by ten gives twenty two pounds forty per original customer across those observed purchases. It does not mean every customer bought one point four bags, or that the next cohort will behave identically."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Returns and service problems also belong in the economic picture. Imagine another cohort of one hundred orders whose contribution, after ordinary variable costs but before unexpected replacement costs, would be sixteen hundred pounds. Five orders require an additional replacement and delivery costing twenty pounds each, with no extra revenue. The extra hundred pounds reduces cohort contribution to fifteen hundred, or fifteen pounds per original order. That is an average across this case. It can help planning, but the business should also investigate why the five replacements occurred and whether the rate is stable."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "The replacement example is deliberately simpler than a refund. A full refund changes revenue as well as potentially adding return handling, and the item may or may not be saleable again. Write those changes explicitly rather than using a vague returns percentage against the wrong base. Quality improvements can have financial value by reducing replacement work and protecting capacity. That does not mean every quality improvement pays for itself automatically. Compare the cost of the change with the specific failures it can reasonably prevent, and keep its other benefits visible too."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Fourth recall question. The standard bag contributes sixteen pounds and uses half an hour of scarce finishing time. The premium bag contributes twenty four pounds and uses an hour. If demand is available for both and finishing time is the only constraint, which contributes more per finishing hour, and why? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "The standard bag contributes thirty two pounds per finishing hour, because two fit into that hour. The premium contributes twenty four. Standard is stronger on this narrow measure despite its lower price and contribution per item. If standard demand runs out, making unsold standards does not create the same benefit. If setup times or other constraints matter, include them. The comparison is a tool for a stated production problem, not a universal rule that cheaper products are better or premium products are a mistake."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Let's give Harbour a choice that combines several of these mechanisms. Its original two hundred bag month produces eight hundred pounds profit. A proposed promotion would lower every bag to thirty six pounds, add three hundred pounds of campaign cost, and is forecast to sell three hundred bags. At that price and the original twenty four pound variable cost, contribution would be twelve pounds each. Three hundred sales would supply three thousand six hundred pounds contribution. Subtract two thousand four hundred fixed costs and three hundred advertising, leaving nine hundred pounds operating profit."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "That is only one hundred pounds above the original eight hundred, despite an extra hundred bags of work. To preserve the original profit after the campaign spending, Harbour needs three thousand five hundred pounds contribution. Divide by twelve and it needs at least two hundred and ninety two whole bags. At two hundred and ninety one, profit is seven hundred and ninety two. At two hundred and ninety two, it is eight hundred and four. The proposed three hundred sale forecast gives relatively little room for disappointment before the promotion underperforms the existing plan."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Now check capacity. Suppose Harbour can deliver at most two hundred and eighty bags without changing resources. The promised three hundred is outside that limit. At two hundred and eighty discounted sales, contribution is three thousand three hundred and sixty. After fixed costs and advertising, profit is six hundred and sixty. More sales and higher revenue would accompany lower profit. The owner could investigate extra capacity, but would then need its cost and availability. A forecast cannot borrow imaginary hours from the production team and call the resulting profit achievable."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Compare a second proposal: keep the original production method, raise price to forty four and expect one hundred and eighty sales, with no campaign spending. Each bag contributes twenty pounds, total contribution is three thousand six hundred, and profit is twelve hundred. That is better than the promotion's nine hundred at its optimistic three hundred sales, and requires fewer bags. But it remains conditional on those one hundred and eighty customers buying. The spreadsheet has not proved the higher price will work. It has shown what evidence the owner needs before choosing it confidently."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "A small reversible investigation could begin with conversations about the actual offer and recent reasons customers chose or rejected it. Ask what they compared, which features mattered and what nearly stopped them. Those answers are not identical to purchase behaviour, but they can reveal misunderstandings worth fixing. A limited clearly stated offer can supply stronger behavioural information than imagined demand, provided the business can honour it. Keep the scope and audience comparable when assessing results, and record fulfilled orders and contribution rather than celebrating attention alone."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "For our practical application, stay on paper. Invent a simple service called a portrait-editing package. Set the price at sixty pounds, variable cost at twenty pounds per completed package, and monthly fixed costs at twelve hundred pounds. Assume enough capacity and no taxes or financing costs in this fictional model. Write the contribution per package, break-even volume, and profit at forty packages. Then examine a ten percent price cut with fifty packages sold. There is no need to change a real price, buy anything or share private business information to do this exercise."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Contribution at the original price is forty pounds. Twelve hundred divided by forty gives thirty packages to break even. Forty packages contribute sixteen hundred, so profit is four hundred. A ten percent price cut takes sixty down to fifty four, leaving thirty four pounds contribution after the twenty pound variable cost. Fifty packages then contribute seventeen hundred, leaving five hundred pounds profit. In this case the discount and extra volume improve profit by a hundred pounds. The mechanism is the same as Harbour's; the particular volume change produces a different result."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Add a two hundred pound campaign to that discounted case and profit falls to three hundred. It is now one hundred below the original four hundred. To preserve the original profit after that campaign, the service needs eighteen hundred pounds contribution. At thirty four per package it needs at least fifty three whole packages. Fifty three contribute eighteen hundred and two pounds, leaving four hundred and two after fixed costs and advertising. If maximum capacity is fifty, the proposed campaign cannot preserve the original profit under these assumptions, however tidy the calculation looks."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Fifth recall question. In that fictional editing service, the discounted price is fifty four pounds, variable cost is twenty, fixed costs are twelve hundred, and the campaign adds two hundred. Fifty completed packages are sold. What is operating profit, and is it higher or lower than the original four hundred pound result? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Profit is three hundred pounds, one hundred lower than the original result. Fifty packages contribute thirty four pounds each, or seventeen hundred in total. Subtract twelve hundred fixed costs and two hundred campaign spending. If you got five hundred, you stopped before including the campaign. That is a realistic error: a new initiative gets credit for its sales while the expense needed to generate them sits somewhere else in the business. Bringing both sides into the same comparison is what makes the decision review useful."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "When you finish the paper exercise, change just one assumption and explain the consequence in words before calculating it. Raise variable cost, limit capacity, or remove the campaign. Then compare your prediction with the arithmetic. The useful result is an explanation such as each sale now leaves less to cover the unchanged monthly bill, or the extra order displaces better work. These are mechanisms you can carry to other businesses. Memorising one profitable price would tell you almost nothing about a different product, audience or cost structure."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, clear and conversational. Explain the arithmetic naturally with varied emphasis. Do not artificially slow.",
+      "t": "Our accounting reference was selected sections of OpenStax's Principles of Accounting, Volume Two, Managerial Accounting, by Mitchell Franklin, Patty Graybeal and Dixon Cooper. Harbour Bags and the editing exercise are original teaching examples, not textbook cases or claims about a real company. We used contribution and relevant-cost reasoning to follow a sale through its consequences. The next time a business proposal promises more orders, you can ask a specific question: after the extra costs and the work it displaces, what does this choice actually leave the business with?"
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-20",
+    "spoken_words": 7125,
+    "sha256": "6dfd6283f4b6de8ed25420727039ce1ff04cb2bb61a541fd76c590960d959de5",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://openstax.org/books/principles-managerial-accounting/pages/3-1-explain-contribution-margin-and-calculate-contribution-margin-per-unit-contribution-margin-ratio-and-total-contribution-margin",
+      "https://openstax.org/books/principles-managerial-accounting/pages/3-2-calculate-a-break-even-point-in-units-and-dollars",
+      "https://openstax.org/books/principles-managerial-accounting/pages/3-3-perform-break-even-sensitivity-analysis-for-a-single-product-under-changing-business-situations",
+      "https://openstax.org/books/principles-managerial-accounting/pages/3-4-perform-break-even-sensitivity-analysis-for-a-multi-product-environment-under-changing-business-situations",
+      "https://openstax.org/books/principles-managerial-accounting/pages/3-5-calculate-and-interpret-a-companys-margin-of-safety-and-operating-leverage",
+      "https://openstax.org/books/principles-managerial-accounting/pages/10-1-identify-relevant-information-for-decision-making",
+      "https://openstax.org/books/principles-managerial-accounting/pages/10-2-evaluate-and-determine-whether-to-accept-or-reject-a-special-order",
+      "https://openstax.org/books/principles-managerial-accounting/pages/10-6-evaluate-and-determine-how-to-make-decisions-when-resources-are-constrained"
+    ]
+  }
+}
