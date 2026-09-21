@@ -1,0 +1,484 @@
+{
+  "date": "2026-10-02",
+  "title": "[Technology] What Happens When You Open a Website",
+  "summary": "Follow a fictional poster shop from a browser request to the visible page. Learn how Wi-Fi, DNS, packets, routing, TCP, TLS, HTTP, browser rendering, caching, cookies and QUIC cooperate, and why a page can partly work. Includes original transfer calculations, five recall questions with answers and a paper troubleshooting exercise. No prior reading required. Source material consulted: selected sections of the IETF RFC specifications for DNS, IP, TCP, TLS, HTTP and QUIC at https://www.rfc-editor.org/ ; selected MDN web mechanics, HTTP and performance documentation at https://developer.mozilla.org/en-US/docs/Web ; and Google web.dev guidance on layout shifts at https://web.dev/articles/optimize-cls . This is an original introductory lesson, not a complete networking course or a reading of those documents.",
+  "instructions": "Two substantive teachers, ash and sage, at a clear natural pace. Initialisms written as spaced letters should be pronounced as letters; Quick refers to QUIC. Preserve all five seven-second recall pauses. North Street Prints and Mara are fictional; numerical network conditions are invented teaching models. No real transactions or network changes are required.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "You open a shop's website. The logo appears, the photographs stay blank, and the basket spins without finishing. Your phone still shows a strong Wi-Fi signal. That combination is possible because opening a website involves several different systems. A working radio connection is only the first part. Let us follow a fictional shop called North Street Prints, from your tap on its address to the picture arriving on your screen, then use that journey to explain why parts of a page sometimes fail independently."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Picture the shop selling posters. Its owner, Mara, has uploaded a new collection. Her laptop shows the new cover image, while a customer's phone shows yesterday's version. Another customer cannot open the site at all. These are our invented cases, and we will change one condition at a time. We need to distinguish finding the service, reaching it, asking for a resource, receiving the bytes, and turning them into a visible page. Each stage can succeed while a later stage fails."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Start with the address. Suppose the browser opens H T T P S, followed by shop dot example dot com, then slash posters. The opening part selects secure web communication. The hostname identifies the service we want to contact. The path, slash posters, identifies something we want from that service. A path can look like a folder without corresponding to a folder on disk. The server might run a program that builds a catalogue from a database whenever someone requests that path."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "We are using example dot com as a documentation name, not asking you to visit a real poster shop. The separation within the address matters. If Mara changes slash posters to slash prints, that is a change within her web application. If she changes the hostname, finding the service may require different naming information. If she changes the server behind the same hostname, customers can keep the familiar address while the infrastructure changes. One visible address contains several instructions that different components interpret."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "There can also be a query after a question mark, such as colour equals blue. That gives the application more information about the requested view. A fragment after a hash sign can identify a place within a document. For an ordinary web request, the fragment is handled on the client and is not sent as part of the request target. So copying an address can preserve a filter or a page position, but these two pieces do not travel through the system in the same way."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "The browser is a client: software asking for a service. The server is software answering. Those are roles, not rules about the shape of a machine. A laptop can run a server, and a large server computer can itself act as a client when it asks another service for information. Mara's website might ask an inventory service how many posters remain. To the customer it looks like one shop, but the answer may require several computers, each making its own requests."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "The internet joins networks. The web is one system using those connections. A home network, a mobile operator's network and a hosting company's network can communicate through routers and shared protocols. A protocol is an agreed format and set of behaviours, allowing different equipment to cooperate. You do not need the same brand of phone as the shop's computer. You need compatible ways to address traffic, transmit it, interpret messages and respond when something goes wrong. Agreement is what makes the mixture workable."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Inside a typical home, the box called the router often performs several jobs. It provides a Wi-Fi access point, connects local devices, routes traffic beyond the home, and may include the equipment that connects to the provider. Those jobs can also be separate devices. If the provider's connection fails, the local wireless network can remain available. Your laptop might still communicate with a local printer while websites fail. The Wi-Fi symbol therefore does not certify that every step to a remote website is working."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Your device also needs network configuration. In a common home setup using internet protocol version four, a service called D H C P supplies an address and other settings. Think of it as the network lending the device a usable local identity for a period. The configuration can include a default gateway, the router used for destinations beyond the local network. There are other arrangements, particularly with version six, but the essential requirement remains: the device needs enough information to send traffic beyond itself."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Suppose the laptop reaches the printer but cannot reach an external website. That narrows the problem. The radio and at least some local communication work. It does not prove the gateway, provider or website works. Now suppose every home device has the same external failure, but the phone works when using mobile data. The shared home connection becomes a stronger suspect than a fault unique to one browser. We have learned something useful before changing a password, reinstalling software or buying a faster connection."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "To find the shop by name, the device normally uses D N S, the Domain Name System. A resolver obtains records associated with a hostname. Some records contain internet addresses; others serve different purposes. The naming system is distributed. No single ordinary server holds every answer for every website. A resolver can use cached information or follow referrals through the naming hierarchy until it reaches a server with authority for the relevant part. Finding an address does not download the shop's catalogue."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Imagine Mara's hostname as a sign that can point to a changing delivery destination. Customers remember the sign, while the underlying address can change. That analogy helps with separation, but a name is not guaranteed to point to exactly one computer. A service can return several addresses, and different customers can be directed towards different infrastructure. Conversely, one address can support several websites. A hostname and an internet address are related pieces of information, not interchangeable permanent identities."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "A resolver's cache saves repeated work. Instead of asking the hierarchy again for every visit, it can reuse an answer while that answer remains eligible. A time to live, usually shortened to T T L, gives a record's caching lifetime. Let us invent a simple case: the resolver obtains an answer at noon with a lifetime of ten minutes. At four minutes past noon, six minutes remain. A change at the authoritative server does not reach backwards and instantly replace every cached copy already in use."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "If Mara moves the shop to a new address at five minutes past noon, that resolver may still use the earlier answer until ten past. Another resolver that asks after the change may get the new one immediately. People can therefore see different behaviour during a move without either person inventing the problem. Actual deployments have additional cache and failure rules, but this simple clock explains why a name change is not a simultaneous worldwide switch. Lowering tomorrow's lifetime does not erase yesterday's still-valid cached answers."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "There is another distinction inside naming: encryption and authenticity solve different problems. Encrypted D N S can protect a query while it travels to the resolver used for that encrypted connection. The resolver still has to handle the question. D N S security extensions can help validate signed naming data, but signing is not the same as hiding the question. For our journey, keep the practical point: a successful name lookup tells the browser where to try connecting. It does not by itself establish that the resulting website is trustworthy."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Here is the first recall question. Your phone has a strong Wi-Fi signal, but a browser reports that it cannot resolve the shop's hostname. Has it already fetched the catalogue, and would adding more image compression directly repair that naming failure? Think through which part of the journey has stopped.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "No catalogue has been fetched through that failed lookup. The browser has not obtained the naming result it needs for this attempt. Compressing photographs would reduce later transfers, but would not directly repair resolution. The next useful checks concern the spelling of the hostname, whether other names resolve, and whether the failure is shared across devices or networks. A cached connection or resource can complicate appearances, so describe what you observed precisely rather than announcing that the entire internet is broken."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Once we have a destination address, the information travels in packets. A packet carries a portion of data together with control information needed for its journey. Large transfers are not usually sent as one indivisible object occupying the whole route. Breaking traffic into pieces allows links to carry data from many conversations. Your poster image can share infrastructure with someone else's call and someone else's document download. The network equipment does not need to wait for your entire photograph before serving every other user."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "A router examines addressing information and chooses a next hop using its forwarding information. It is not generally planning a bespoke complete route for each photograph. Imagine several junctions, each knowing which next road serves a destination region. The route can change, and return traffic need not follow exactly the outward route. Packets from a connection often follow a consistent path, but the system must cope with loss and reordering. Neither a direct physical wire to the shop nor a reserved private lane is assumed."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "The packet's destination address is different from the local link address used for the next stretch. On a local Ethernet or Wi-Fi network, devices need a way to deliver the next frame to the appropriate nearby interface. When a router forwards the packet across another link, the local wrapping changes. The remote destination can remain the shop while the immediate recipient is the next router. That is why instructions for the whole journey and instructions for the next local delivery can coexist without contradicting each other."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Routing tables group destinations using address prefixes. We can model that without memorising binary arithmetic. Imagine a junction with one instruction for the northern district and a more specific instruction for North Street. A destination on North Street should use the more specific matching instruction. Internet forwarding uses structured address prefixes rather than street names, but the advantage is similar: one entry can cover a group of destinations. Routers do not need a separate handwritten instruction for every customer device in the world."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "A packet also has a limit on how long it can keep being forwarded. In version six this is explicitly called the hop limit. Routers decrease it, and a packet whose allowance is exhausted is discarded. Suppose our invented packet starts with an allowance of four. After three forwarding steps, one remains. It cannot circulate forever through a mistaken loop. This is separate from the naming cache lifetime we discussed earlier. Similar language about lifetime can refer to very different mechanisms at different layers."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Many homes share one public version-four address among several devices using address and port translation. The router keeps mappings between internal conversations and external ones. If Mara's laptop and her phone contact the same website, the router needs enough state to send each returning conversation to the right device. This is why the public address seen by a website may represent several people. It is also why an internet address should not casually be treated as a unique, permanent label for one human being."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Picture a reception desk handling deliveries for several rooms. The outside label gets the parcel to the building; the desk's records help it reach the intended room. The analogy leaves out protocol details, but it captures why the mapping must persist for replies. Translation is not encryption. It also is not the complete definition of a firewall. Filtering rules decide which traffic is permitted, whereas translation changes addressing information. A device can perform both jobs, which is why people often blend them together in conversation."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Now let us distinguish capacity from delay. A connection advertised at one hundred megabits per second describes a rate, not the time required for a particular reply. A byte contains eight bits. Using decimal units, a twenty-megabyte image bundle contains one hundred and sixty megabits. At a sustained rate of twenty megabits per second, transferring those contents alone would take eight seconds. That calculation ignores setup time, protocol overhead, contention and server work. It gives a clean baseline, not a promise about a real download."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Increase the available rate to eighty megabits per second and that same ideal transfer takes two seconds. But a tiny request can still wait a long time before a reply begins. Latency measures delay; throughput measures the rate actually achieved. A broad pipe can be long. Mara's customer might have a fast local connection while the remote application takes a second to look up inventory. Buying more capacity at home does not make that remote database calculate four times faster. We must locate the time being spent."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Round-trip time is the time for a signal to go out and a response to return. Suppose an interaction needs a reply before it can send the next dependent request. With a round-trip time of one hundred milliseconds, five such sequential waits contribute roughly half a second before counting other work. If the waits could happen independently, some could overlap. This is why the order of dependencies matters as well as the size of the files. A small but highly sequential page can feel surprisingly slow."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Consider two invented poster catalogues with identical total size. In the first, the browser receives the document and immediately discovers all the image addresses. In the second, it must first download a program, run it, request a list, and then discover the images from that list. The second design adds dependencies before the photographs can even start arriving. We have not changed the number of image bytes. We have changed when the browser learns what to request. Faster throughput can help later without removing those earlier waits."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "There is also waiting inside queues. If data arrives at a link faster than that link can transmit it, some data waits in a buffer. A short queue can absorb a burst; a persistently full queue adds delay. Imagine an upload occupying most of a home's outgoing capacity while someone is on a call. The call's small outgoing packets may spend time waiting behind other traffic. Strong signal strength does not make that queue disappear. A service can feel sluggish because packets wait, not because they cannot be transmitted at all."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Packet loss is another cost. Equipment may discard packets when resources are exhausted; transmission problems can also result in missing usable data. For a poster file we usually need the complete correct contents, so missing information must be recovered. For a live conversation, an old fragment that arrives too late may be less useful than continuing. Applications make different choices about reliability and timeliness. The internet layer alone does not promise that every packet arrives exactly once, in order, and before a fixed deadline."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "T C P supplies a reliable ordered stream of bytes above that packet service. It tracks sequence positions, acknowledges received data and retransmits when necessary. The receiver can recognise duplicated information and put arriving bytes into the right sequence. A connection can still fail, but the application is not simply handed a silently scrambled file as though everything succeeded. T C P also uses ports to distinguish conversations and services. An address gets traffic to a host; a port helps identify the relevant transport endpoint there."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Use a tiny invented stream containing twelve letters. The sender transmits three pieces covering positions one through four, five through eight, and nine through twelve. Suppose the middle piece is lost while the last arrives. The receiver cannot present the complete ordered twelve-letter result until the gap is filled. It may retain the last piece while recovery occurs. Actual T C P sequence numbers count byte positions and begin from negotiated values, so our numbering is a teaching model rather than a packet trace."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "That recovery happens below the application message. If the missing middle bytes belong to one catalogue response, retransmitting them is part of delivering that existing stream. It does not inherently mean asking the shop to create a second order. Confusing these levels causes trouble when discussing retries. Reliable transport can recover missing data, while an application still faces uncertainty about whether a business action completed. The customer may lose the connection after the shop accepted an order but before its confirmation reached the screen."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Suppose the shop records order Alpha, sends a success response, and the customer's connection breaks. The customer sees a spinner, not the confirmation. Pressing the purchase button again might submit a new application request. A well-designed checkout needs a way to recognise an already accepted operation, often using a unique request identity and stored result. T C P cannot decide whether the second click represents a new purchase. That meaning belongs to the application. Checking the order state can be safer than blindly repeating an uncertain action."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "T C P also controls how much data is outstanding. Flow control concerns the receiver's capacity to accept data. Congestion control concerns the path's capacity to carry it. These are different constraints. A powerful server can send faster than a slow phone can process, or two powerful endpoints can share a congested link. The effective sending behaviour has to respect both. The detailed algorithms vary, but the basic reason is concrete: unlimited sending would not create unlimited receiving or unlimited network capacity."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Picture Mara sending prints through a dispatch station. One limit is how many parcels the customer can store; another is how many vans the road can carry. Enlarging the customer's storeroom does not widen the road. Likewise, increasing a receiver buffer does not automatically cure congestion. Network algorithms respond to feedback and adjust transmission. For small web transfers, the time spent establishing a connection and building up useful sending activity can matter. Reusing a connection can avoid repeating some of that work for every resource."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "The second recall question combines these distinctions. An image bundle contains twenty megabytes, and the useful transfer rate is twenty megabits per second. Ignoring every other delay, how long does the contents transfer take? And if the server spends another second preparing the response, would doubling your connection rate remove that whole extra second?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Twenty megabytes is one hundred and sixty megabits, so the ideal contents transfer takes eight seconds. Doubling the rate makes that part four seconds. The separate second of server preparation remains in our example, giving five seconds rather than four if those stages occur one after the other. Actual loading can overlap work and add other delays. The useful habit here is to attach each duration to a mechanism, so we know which change could plausibly reduce it."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "A traditional secure web connection commonly establishes T C P and then uses T L S, Transport Layer Security, to protect the exchange. In an ordinary certificate-authenticated connection, the browser checks evidence that the server is authorised for the hostname, and the parties establish keys for the session. Those keys protect the traffic from being read or altered in transit by an observer who lacks them. The naming result supplied a destination to try; the secure handshake adds a separate identity and protection process."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "We can separate three properties. Confidentiality concerns who can read the contents. Integrity concerns detecting unauthorised changes. Authentication concerns the identity of the endpoint under the trust system being used. They solve different problems. A secret conversation with the wrong person is still the wrong conversation. A signed public notice can be authentic without being private. Secure web communication combines mechanisms so the browser can protect its exchange with the service identified by the address, rather than merely scramble text for an unknown destination."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "A certificate includes identity information and a public key, with signatures that the browser checks through its trust configuration. The server must also demonstrate possession of the corresponding private key during the handshake. Simply copying a public certificate is not enough. The detailed mathematics is a separate subject, but the division is understandable: some information can be shared openly, while secret material enables proofs or protected communication. Modern handshakes establish session keys; they do not send your future browsing as plain text because a certificate was shown first."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Return to Mara's shop. An attacker creates a different hostname that visually resembles hers and obtains a valid certificate for that different name. Encryption can work perfectly while the customer visits the imitation. The browser has protected the connection to the name the customer actually opened. It has not guaranteed that the business is honest, that the poster exists, or that the name was the intended one. A secure connection is a transport property, not a product review or a guarantee of good intentions."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "The contents also stop being hidden from the intended endpoint. Mara's service needs to read a delivery address to fulfil an order. A hosting service that terminates the secure connection may process that information as part of providing the site. Encryption in transit does not determine how information is stored afterwards, who has account access, or whether the application contains a bug. The endpoints and their handling of data still matter. Protecting the journey is necessary, but the journey is only one part of the system."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Network observers can also learn some metadata even when content is encrypted. They can see traffic going to network addresses, its timing and approximate volume. Name visibility depends on how naming and connection setup are configured. We should not claim that H T T P S makes all activity invisible. For our shop example, it protects the web exchange against reading and undetected alteration along the protected connection. The precise visibility of everything surrounding that exchange requires looking at the actual protocols and configuration in use."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Once the protected connection is ready, the browser can send an H T T P request. The request identifies what it wants and how it wants to interact. A get request normally asks for a representation of a resource. Headers carry additional information, such as which formats the browser accepts or whether it already has a stored version. The response includes a status, headers and often content. That content might be a document, an image, a sound file or structured data for a program."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Imagine the shop's response as a message saying: the request succeeded, the contents are an image, and here are its bytes. The content type helps the browser interpret what follows. The path's spelling alone is not the entire contract. A path ending in something that looks like an image filename could still return an error document if the application is misconfigured. Conversely, a path without a visible filename extension can return a perfectly good image. The message and its metadata matter alongside the address."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "A status code communicates the result of that particular request. Two hundred commonly means success. Four hundred and four means the requested resource was not found, or the server is not disclosing its existence. A five hundred response indicates a server-side error category. These messages are more specific than a browser never obtaining a response. A missing product page can produce a perfectly delivered error response. The network successfully carried the information that the requested thing was unavailable."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "That makes a useful contrast for Mara. If the catalogue appears but one photograph returns four hundred and four, she should inspect that image's address and publication. Replacing the customer's router is unlikely to create the missing resource. If every request stalls before reaching a web response, we need different evidence. Error categories do not identify every cause, but they tell us how far the exchange progressed. Even a disappointing answer can prove that naming, connection setup and some server handling worked for that request."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Redirects tell the client to use another location. They help when a resource moves or a site selects a preferred address. But each necessary trip can add delay, and an incorrect loop can prevent arrival. Suppose the old catalogue sends you to the new catalogue, which mistakenly sends you back. Faster transport just moves you around the loop faster. The fix is the rule connecting the locations. This is an application configuration problem expressed through valid network messages, rather than evidence that the physical connection is weak."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "A browser may receive several different outcomes for one visible page. The document can succeed, a photograph can be missing, a stock request can fail, and an optional analytics request can be blocked. The page is a collection of resource exchanges, not one indivisible event. This explains our opening scene: a logo may be stored locally, photographs may come from another hostname, and the basket may rely on a separate application service. We should identify the failing component before treating everything on the screen as one failure."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "The initial document often contains H T M L, which describes structure and meaning: a heading, a paragraph, a link or a button. C S S supplies presentation rules, such as spacing, colour and layout. JavaScript can implement behaviour, including fetching new data and responding to input. A browser interprets these resources and builds internal structures before drawing pixels. Receiving all the bytes is therefore not identical to having an interactive page. The device still has work to do with what arrived."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Consider a catalogue whose photographs arrive quickly but whose filtering program occupies the device for a long time. Tapping the colour selector might feel unresponsive even though the network transfer finished. A faster internet connection would not directly shorten that computation. Mara could instead reduce unnecessary script work or change how the interaction is implemented. Our layered journey now reaches the customer's processor and screen. What people describe as a slow website can originate in the radio link, a distant service, the transfer or local execution."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "The browser also has to calculate where things fit. If an image appears without space reserved for it, later content may shift when its dimensions become known. A customer could aim at one button and find the layout moving beneath the pointer. That is a different quality problem from a low transfer rate. Specifying appropriate dimensions can help the browser reserve space. Performance includes whether a page responds predictably and becomes usable, not merely the time at which the last byte has crossed the network."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Let us give Mara a concrete design choice. Her original catalogue loads twelve large photographs before customers can see a meaningful preview. An alternative sends small previews first and fetches the larger image when someone opens a product. If the previews adequately support browsing, less data needs to arrive before the customer can choose. That is a change to what is requested and when. It is not a trick that makes the same amount of information cross the same bottleneck instantaneously."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Suppose each original photograph is two megabytes. Twelve photographs total twenty-four megabytes. Suppose each preview is one quarter of a megabyte. Twelve previews total three megabytes. The initial image data falls by twenty-one megabytes, or seven eighths of the original total. We are assuming those sizes for this example; actual formats and visual quality vary. A customer who later opens every large photograph may still download substantial data. The benefit concerns the initial browsing task, not a claim that all future traffic vanishes."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "This choice also shows why compression is not free in every sense. Smaller files may require different encoding, processing or a quality trade-off. A poster shop needs customers to judge detail, so a tiny preview cannot replace the high-resolution inspection entirely. A good design matches the representation to the immediate task: quick overview first, detailed examination when requested. Mara should judge whether customers can make the intended decision, rather than celebrate smaller numbers while making the artwork impossible to assess."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "The third recall question. The catalogue document loads, but its product photographs do not. One image request returns four hundred and four. Does that result mainly suggest that the phone has no working internet connection, or that the requested image resource needs investigation? Explain why the visible page can be partly successful.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Investigate the image resource and the address used to request it. A four hundred and four response means a web response arrived for that request, though it may have come through an intermediary. A page combines multiple resources, so the document can succeed while an image fails. Check whether the image was published at the expected location and whether the document references that location. We should still allow for caches or application routing, but we have a much narrower problem than no internet anywhere."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Caching keeps a copy so a later request can avoid some work. A browser cache may hold an image locally. A shared cache in a content delivery network may hold it closer to customers. A naming cache stores naming information, not the image itself. These are separate stores with different rules. When someone says clear the cache, the natural follow-up is which cache and why. Removing a browser's image copy does not necessarily change the resolver's address record or a shared server's stored response."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Imagine Mara keeps the same image address but replaces the file. The server had previously allowed the old image to be reused for an hour. A customer who obtained it recently may keep seeing that valid stored copy. Mara's laptop might show the new version because it requested the image under different conditions. Neither screen proves what every other customer will see. The caching rule intentionally trades immediate freshness for less repeated transfer. Whether that trade is acceptable depends on how often the resource changes and how it is used."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "A cache can also validate a stored response. The server may attach a version identifier called an entity tag. Later, the client asks whether its stored version still matches. If appropriate, a not-modified response permits reuse without resending the full content. The technical directive called no-cache generally requires validation before reuse; it does not simply mean never store anything. No-store is a different instruction. These distinctions matter when configuring a site, because similar-looking labels can produce different behaviour and different network costs."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Suppose the shop's one-megabyte logo is viewed ten times under conditions allowing reuse. Without reuse, our simplified model transfers ten megabytes of logo contents. With one initial download and nine local reuses, it transfers one megabyte of those contents. Validation might add small exchanges, and actual browser behaviour depends on the headers. We are counting body data in this model, not every network byte. The saved work comes from not transmitting the same representation again, rather than from accelerating its individual bits."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "A content delivery network, or C D N, can serve eligible content from distributed locations. A nearby service point may reduce travel delay and offload requests from the origin, the system responsible for the original content. Nearby in network terms is not always the nearest point on a map. Routing, connectivity and load matter. The customer may securely connect to the delivery service acting for the shop, while that service separately fetches missing content from the origin. There can be more than one connection in the overall journey."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Think of our poster catalogue during a popular launch. Ten thousand customers asking the origin for the same public image would repeat work. If shared caches can serve most requests, the origin handles fewer image transfers. But a cache cannot safely treat every response as interchangeable public content. One customer's private order page must not be served as another customer's page. The application and its cache configuration need to distinguish shareable representations from personalised ones. Performance features work well only when their reuse rules fit the data."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Versioned resource addresses offer one way to manage updates. Mara might publish a new image under a new filename and update the catalogue to reference it. Then the new address identifies a different resource, while the old one can remain cached. The catalogue itself still needs a suitable freshness policy so customers discover the change. This is why changing a filename can solve one cache problem without magically refreshing every layer. The reference to the file must reach the customer as well as the file."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Now the two customers in our opening example make sense. Mara sees a fresh catalogue pointing at the new image. A customer sees an older catalogue pointing at the old image, or a stored copy under the unchanged address. Both can have healthy connections. A useful check compares the exact resource addresses and versions, not just screenshots. If the images have different addresses, that points towards how the document or application selected them. If the address is identical, examine caching and the response actually supplied."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "There is a further question: how does the shop remember a basket across separate requests? H T T P does not require an ongoing memory of earlier application interactions. Websites can add state using mechanisms such as cookies and server-side sessions. A cookie is data the browser stores and sends with later eligible requests under defined rules. It might contain an identifier through which the server finds a basket record. The poster list does not need to travel inside the cookie itself."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Suppose Mara's server associates a random session identifier with a basket containing two prints. A later request presents that identifier, and the server retrieves the corresponding basket. If the relevant cookie is deleted, the server may no longer connect that browser request to the existing session. That explains why clearing site data can log you out or make an anonymous basket disappear. It is not a universally harmless first troubleshooting step. A deliberate fix should account for the state it removes as well as the fault it might resolve."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Encryption does not prevent a website from recognising a cookie it legitimately receives. The cookie travels inside the protected request and becomes readable at the appropriate endpoint. Browser rules limit when cookies are sent, and attributes can constrain their use. We do not need the entire security model today. We do need to separate local storage, transport protection and server-side records. They answer different questions: what the browser remembers, how information crosses the network, and what the service remembers about the interaction."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "That distinction helps explain a familiar puzzle. The public catalogue can work while the account page fails. The account path may require valid session information, an authentication service or access to private records. A public image cached nearby has fewer dependencies. If logging in fails, that does not establish that all website hosting is down. Equally, seeing the logo proves very little about whether checkout works. Test the part of the service needed for the actual task, while avoiding unnecessary repeated transactions."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "We have described a common route using T C P, but modern web traffic can also use H T T P version three over Q U I C, pronounced quick. Quick runs over U D P and supplies its own reliable streams and security integration. U D P by itself does not supply T C P's reliable ordered stream. That does not mean every application using it accepts missing data. A protocol built above it can add the properties it needs, as Quick does."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "One benefit is separate streams within a connection. If information is missing from one stream, another stream can still make progress without waiting for that particular gap in the same way an ordered T C P byte stream would. Shared congestion and application dependencies can still affect progress. We should not turn this into a promise that packet loss no longer matters. The change concerns where ordering is enforced. The catalogue, photographs and other requests still have to obtain the information they individually require."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "For Mara, the important consequence is that there is no single fixed number of messages or round trips for every website visit. Protocol version, connection reuse, cached information and session resumption affect the sequence. A teaching diagram shows one possible path. It should not become a claim that every tap always repeats every stage from scratch. You can understand the roles of naming, transport, encryption and requests without pretending that all implementations schedule those roles identically."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Here is the fourth recall question. Mara replaces an image under the same address, but some customers still see the previous version. Their connections work normally. Name two different stored copies that could explain what they see, and explain why refreshing only one layer might not be enough.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "A browser may reuse its stored image, and a shared delivery cache may supply an older eligible response. An older cached catalogue can also keep pointing at an older image address. Refreshing the browser does not necessarily replace the shared copy, and fetching a new image does not help if the application still selects the old address. Compare the document's reference, the requested image address and the response version. The answer comes from following the actual resource through its layers, not assuming all caches are one place."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Let us work a complete diagnosis. Customer one says the shop does not work. We ask what that means and learn the homepage opens but checkout keeps spinning. Customer two successfully opens the same public homepage, but has not tried checkout. That second observation does not refute the first. We have only tested the shared public part. Mara should inspect the checkout service and its dependencies, and determine whether an attempted order was accepted before encouraging the customer to submit it again."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Customer three says no websites open on their laptop, while another device on the same network works. That pattern directs attention towards the laptop's connection, configuration or browser rather than a universal outage at the shop. Customer four says all home devices fail, while mobile data works. That pattern points more towards shared home infrastructure or its upstream path. These comparisons are not conclusive proofs. They are controlled distinctions that reduce the number of plausible places to investigate without changing everything at once."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "We can turn this into a low-risk paper exercise. Draw six boxes: browser, local network, name resolver, internet path, web service and stored content. The boxes are functional roles, so a real machine may perform more than one. Next to each, write one possible failure and one observation that would help locate it. Use our fictional shop rather than a bank account or a payment test. We are practising an explanation, not deliberately breaking a working network or submitting real orders."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "For the browser box, write that a script can fail after a document arrives. For the local network, write that Wi-Fi can work while the upstream connection fails. For naming, write that a misspelled hostname can prevent a useful answer. For the internet path, write that delay, congestion or loss can affect transfer. For the web service, write that a requested image can be absent. For stored content, write that an older eligible copy can remain visible. Each failure belongs to a different part of the journey."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Now attach observations. A working second browser can help isolate a browser-specific issue. Several failing devices can suggest a shared connection problem. A naming error differs from an actual web status response. A successful document with one missing image points towards that resource. Different image addresses suggest different references; the same address with different versions suggests delivery or caching differences. These observations guide the next check. They are more useful than six random fixes, because each one changes what we should investigate next."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Add a timing budget underneath the boxes. In our invented example, naming takes fifty milliseconds, connection setup takes one hundred and fifty, server work takes three hundred, content transfer takes five hundred, and final local work takes two hundred. Assume those stages are sequential for this exercise. Their total is twelve hundred milliseconds, or one point two seconds. If only the transfer becomes twice as fast, its contribution falls to two hundred and fifty milliseconds. The new total is nine hundred and fifty milliseconds."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "The improvement is two hundred and fifty milliseconds, not half the whole visit. You could make transfer instantaneous in this simplified model and still have seven hundred milliseconds from the other stages. That is a concrete limit on what one kind of optimisation can achieve. Real browsers overlap work, so a proper measurement considers dependencies. But this paper budget prevents a common mistake: applying an improvement factor to the whole experience when it only affects one component. Mara can use the same reasoning when choosing what to fix first."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "The fifth recall question. In that timing budget, only the five-hundred-millisecond transfer is halved. What is the new total? And why would a secure connection to the shop still not prove that an order was successfully recorded? Link the timing calculation to the distinction between transport and application outcomes.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "The new total is nine hundred and fifty milliseconds. We removed two hundred and fifty from twelve hundred. A secure connection protects the exchange with the identified endpoint, but the application still has to process and record the order. It might reject the request, encounter an internal failure, or accept the order before the reply is lost. The meaningful evidence is the resulting order state or confirmation, interpreted with the application's behaviour. A working encrypted channel does not itself announce that every business operation succeeded."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "Finish the paper exercise by choosing one change for Mara's catalogue and stating which problem it addresses. Smaller previews reduce initial image transfer. Correcting an image path fixes a missing resource. A suitable version and cache policy helps distribute updates. Reducing expensive script work can improve responsiveness. None of those claims needs to pretend that one setting controls the entire internet. Each change has a mechanism, a limited target and an observation that could show whether it worked."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, conversational teaching at a natural varied pace. Pronounce spaced initialisms as letters and QUIC as quick. Explain quantities clearly.",
+      "t": "The next time a page partly loads, you can describe the failure with useful precision. Perhaps the name was found, a protected connection opened, the document arrived, and one resource failed. Perhaps everything arrived and the device is still busy drawing or running code. The visible screen is the result of those cooperating systems. For North Street Prints, the job is complete when the customer can inspect the right poster and finish the intended interaction. Follow that actual journey, and the next repair becomes much more specific."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-21",
+    "spoken_words": 7071,
+    "sha256": "ce6b7dd0da05c5cd67c0c128fafbd1d4e38f656f5a0c4e9da24da7b80bc9c8dc",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.rfc-editor.org/rfc/rfc1034.html",
+      "https://www.rfc-editor.org/rfc/rfc1812.html",
+      "https://www.rfc-editor.org/rfc/rfc2131.html",
+      "https://www.rfc-editor.org/rfc/rfc3022.html",
+      "https://www.rfc-editor.org/rfc/rfc5681.html",
+      "https://www.rfc-editor.org/rfc/rfc7858.html",
+      "https://www.rfc-editor.org/rfc/rfc8200.html",
+      "https://www.rfc-editor.org/rfc/rfc8446.html",
+      "https://www.rfc-editor.org/rfc/rfc9000.html",
+      "https://www.rfc-editor.org/rfc/rfc9110.html",
+      "https://www.rfc-editor.org/rfc/rfc9111.html",
+      "https://www.rfc-editor.org/rfc/rfc9114.html",
+      "https://www.rfc-editor.org/rfc/rfc9293.html",
+      "https://www.rfc-editor.org/rfc/rfc9525.html",
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work",
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL",
+      "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview",
+      "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies",
+      "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching",
+      "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status",
+      "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/How_browsers_work",
+      "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Navigation_and_resource_timings",
+      "https://developer.mozilla.org/en-US/docs/Glossary/CDN",
+      "https://web.dev/articles/optimize-cls"
+    ]
+  }
+}
