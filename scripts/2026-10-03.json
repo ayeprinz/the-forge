@@ -1,0 +1,470 @@
+{
+  "date": "2026-10-03",
+  "title": "[Geography] Why Rivers Flood After the Rain Stops",
+  "summary": "Follow water through the fictional town of Bellford. Learn catchments, rainfall volume, infiltration, groundwater, discharge, river stage, hydrographs, tributary timing, finite storage and annual flood probability. Original calculations and contrasting cases explain why the same rain can produce different floods. Includes five recall pauses with answers and a paper catchment exercise. No prior reading required. Sources actually consulted: selected USGS Water Science School explanations at https://www.usgs.gov/water-science-school ; Environment Agency natural flood management summaries at https://www.gov.uk/government/publications/natural-flood-management-evidence/river-and-floodplain-management ; and US National Weather Service flood safety guidance at https://www.weather.gov/safety/flood-turn-around-dont-drown . This is an introductory geography lesson, not a local flood forecast or engineering design.",
+  "instructions": "Two substantive teachers, ash and sage, in a natural conversation. Preserve the five seven-second recall pauses and their subsequent answers. Speak all quantities clearly. Bellford and every numerical case are fictional teaching models. The practical task is on paper; no watercourse visit, drainage work or entry into floodwater.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "The rain has stopped in Bellford, but the river is still rising. The pavement outside a bakery is drying while water creeps higher against the bridge. Upstream, a tributary is brown and fast. The town's weather station recorded an ordinary amount of rain, so the baker thinks the danger must be passing. Bellford is our fictional town, and that apparently reassuring observation is where its problem begins. The river is responding to water arriving from a whole landscape, on a timetable that does not match the puddle outside the shop."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "To understand the rising river, we need to follow that water from the hills to the bridge. Some rain runs across the ground almost immediately. Some enters soil, some stays on leaves, and some eventually reaches underground stores. Streams gather water from different places at different times. A river flood happens when the resulting flow raises water beyond the channel's banks. We will build Bellford's landscape piece by piece, so we can explain why an identical rainfall total can produce very different river behaviour."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Start with a map. Draw a river descending from the top of the page towards Bellford at the bottom. Add a smaller stream joining from the left and another joining from the right. Those smaller streams are tributaries. Now imagine walking uphill away from each stream until you reach the ridges between valleys. Rain on one side of a ridge tends to drain towards our river; rain on the other side tends to drain elsewhere. The boundary separating those surface drainage routes is a drainage divide."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "The area draining towards a chosen outlet is its catchment, also called a drainage basin or watershed. The outlet could be Bellford's bridge rather than the river's mouth. That choice matters. The catchment above the bridge includes both tributaries and the land feeding them. A smaller catchment above a tributary's own bridge sits inside the larger one. Catchments are nested. They follow the movement of water, so their boundaries rarely match the neat lines separating towns, counties or individual properties on an administrative map."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Imagine that heavy rain fell over the right tributary's hills while Bellford received only drizzle. The local rain gauge could be completely accurate and still give a poor description of the water heading towards the bridge. It measured one location. The river gathers the consequences of rainfall across its catchment. A useful investigation therefore asks where the rain fell, how much land it covered, and how quickly the water can reach the place we care about. Looking only out of the bakery window misses most of the system."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "We should also distinguish the surface map from the underground one. Groundwater can move through connected pores and fractures, and its drainage boundaries need not exactly follow the ridges we drew. Pipes, canals and transfers can move water across a surface divide too. For our first Bellford model, we will use a simple catchment without those transfers. That makes it easier to understand the accounting. Later, when a real catchment does not balance as expected, an overlooked underground or engineered connection becomes one possible explanation."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Rainfall is usually reported as a depth. Twenty millimetres of rain means enough water to make a layer twenty millimetres deep over a level surface if none escaped. It does not mean every puddle will be that deep. Puddles collect water from surrounding ground, while infiltration and drainage remove it. A narrow container standing in the open measures depth rather than the total volume falling on the town. To find a volume, we need to multiply the rainfall depth by the area receiving it."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Here is a manageable calculation. Give Bellford's little study catchment an area of one square kilometre. That is one million square metres. Let twenty millimetres of rain fall evenly across it. Twenty millimetres is zero point zero two metres. Multiply one million square metres by zero point zero two metres and we get twenty thousand cubic metres of water. Each cubic metre contains one thousand litres, so that is twenty million litres. A thin layer spread across a large area becomes an enormous volume."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Those are invented, deliberately uniform conditions. Real rain seldom falls evenly across every field, and our imaginary square does not represent a measured town. But the conversion is useful because it exposes a misleading intuition. Twenty millimetres sounds small when compared with a doorstep. Twenty million litres is large compared with a drain. The challenge is not whether the rainfall depth exceeds the height of the riverbank. The challenge is how much of that catchment's water reaches the channel, and over what period."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Before we turn the whole twenty thousand cubic metres into river flow, give the water several destinations. A little may remain on vegetation or in surface depressions. Some may enter the soil. Some may move through the ground towards a stream. Some returns to the atmosphere through evaporation or through plants, a process called transpiration. Some remains stored at the end of our accounting period. Catchment water is continually moving between stores. Rain entering today need not leave at the bridge today, and today's river can contain water that entered much earlier."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "The basic water budget says that the change in storage equals inputs minus outputs over the same boundary and period. In our simplified catchment, suppose twenty thousand cubic metres arrives as rain during a chosen day. Suppose six thousand leaves through the outlet and one thousand returns to the atmosphere. If we ignore all other exchanges in this toy case, storage increases by thirteen thousand cubic metres. That storage could be distributed among soil, groundwater, ponds and the channel. It is not necessarily one visible lake."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Notice what the budget does and does not say. It tells us whether the volumes are consistent. It does not tell us when the six thousand cubic metres passed the bridge, or how high the river became. A steady release throughout a day and a sharp release during one hour can have the same total volume. Flooding depends strongly on that timing. We need both a balance sheet of water and a picture of its rate of arrival. Confusing those two questions causes trouble when people compare storms."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "First recall question. Our study catchment receives twenty thousand cubic metres of rain. Six thousand leaves through the river and one thousand returns to the atmosphere during the accounting period. With no other exchanges, how much has storage increased, and does that number alone tell us the highest river level? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Storage increases by thirteen thousand cubic metres. We subtract seven thousand of outputs from twenty thousand of inputs. That remaining volume does not identify the peak level. We still need to know where it is stored and how the flow changes through time. Two catchments can have the same daily budget but different hourly peaks. Now let us look at the ground, because its capacity to accept, hold and transmit water helps determine which of those time patterns we get."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Infiltration means water entering the ground at its surface. Picture rain reaching a patch of soil. Water moves into spaces between particles and along openings such as root channels. The soil is not a solid block, and it is not an empty bucket either. Some spaces already contain water, others contain air, and different pathways transmit water at different rates. The soil's structure, surface condition, initial wetness and layers below all influence what happens. A label such as clay or sand gives clues, not a complete forecast."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "One route to surface runoff is that rain arrives faster than the surface can admit it. In a deliberately simple example, let rain arrive at twelve millimetres per hour while the patch can infiltrate only five millimetres per hour. If those rates stay constant and we ignore temporary surface storage, seven millimetres per hour remains available for runoff. The surface need not have been completely saturated at the start. The bottleneck can be the rate at which water enters, rather than a lack of empty space deeper underground."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "A different route occurs where the ground is already saturated close to the surface and has little additional storage available. Further rain can then contribute readily to surface runoff. That helps explain why the same storm behaves differently after a wet week than after a period when the catchment has dried and drained. However, do not turn that into a rule that all dry ground absorbs water quickly. Compacted surfaces, crusts and other conditions can restrict infiltration. We need the condition of the particular ground, not just the number of rainless days."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Our fixed five millimetres per hour was a teaching assumption. Actual infiltration capacity can change during a storm as wetting progresses and local conditions change. Rainfall intensity changes too. Suppose twenty millimetres arrives over ten hours. The average is two millimetres per hour. Put that same total into half an hour and the average becomes forty millimetres per hour. Even before we know the exact soil, those are very different demands on its ability to accept water. Total rainfall and rainfall intensity answer different questions."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Duration adds another layer. A short intense burst may overwhelm a street drain immediately. A long, less intense storm may progressively fill catchment stores, saturate more ground and keep tributaries high together. Neither total nor intensity alone ranks every possible flood. Bellford's bridge responds to the entire sequence. If the heaviest rain arrives after hours of wetting, the catchment may respond more strongly than if the same burst came first. The order of events changes the conditions encountered by the later rain."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Vegetation also has more than one role. Leaves can temporarily intercept water. Roots and biological activity can affect soil structure. Plants take up water and return some to the atmosphere, while stems and surface litter can slow shallow flow. Those processes help explain why replacing vegetation with connected roofs and roads can alter a catchment's response. They do not mean a forest can absorb unlimited rainfall. Once available storage and transmission pathways are overwhelmed, a vegetated landscape can still contribute substantial runoff and experience severe flooding."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Water that enters the soil has not necessarily reached an aquifer. Some stays in the root zone, some moves sideways through shallow material, and some continues down to replenish groundwater. The unsaturated zone contains both water and air in its pore spaces. In the saturated zone, the connected spaces are filled with water. An aquifer is geological material that can store and transmit useful quantities of groundwater. Many aquifers hold water in pores and fractures rather than in a giant underground cavern."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "That underground store helps explain why a river can keep flowing through days without rain. Where groundwater levels and the hydraulic gradient favour movement into the stream, groundwater seeps through the bed and banks. This sustained contribution is part of what hydrologists call base flow. It can continue after rapid storm runoff has subsided. The river is not living only on the last shower. It can be drawing on water stored in the catchment, with pathways and travel times much longer than the surface journey."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "The connection can work the other way as well. A stream can lose water into the ground, and one river can gain water along some reaches while losing it along others. Changes in water levels can alter those exchanges. A high river may push water into its banks temporarily. As levels fall, some can return. This matters because the bank is part of the storage system, not simply a rigid wall. Groundwater and surface water are connected components of the landscape, even when we measure them separately."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "For Bellford, imagine a wet month raising groundwater levels before a new storm arrives. The river may begin the storm at a higher flow than usual. There may be less spare storage in some parts of the catchment. A forecast that treats the storm as arriving on an empty landscape would miss both effects. This is why hydrologists care about antecedent conditions, meaning what happened beforehand. That technical phrase has a practical meaning: the catchment remembers earlier weather through the water still stored within it."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Now change one hillside. Replace a field with a roof, a paved yard and drains connected to the stream. The rain has fewer opportunities to enter the soil at those surfaces. More of it can be directed rapidly towards the channel. The connection is important. A roof draining onto a garden with available storage behaves differently from a roof draining straight into a pipe. Two neighbourhoods with the same paved area can therefore have different runoff patterns. Surface type and the route beyond its edge both matter."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "We can represent that change with another invented calculation, without pretending that one percentage fits every town. From the twenty thousand cubic metres of rainfall, suppose one version of the catchment sends a quarter into the rapid storm response. That is five thousand cubic metres. Suppose a changed version sends three fifths into that rapid response. That is twelve thousand cubic metres, seven thousand more. The fractions are assumptions for comparison. They show how a change in partitioning can affect river input even when the rain is unchanged."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "We should not call the remaining water permanently removed. Some will return later through slower routes, some will remain stored beyond the event, and some will return to the atmosphere. Nor should we describe the assumed fractions as an engineering design method. They leave out spatial variation, changing wetness and the details of drainage. Their value is conceptual: land use can change both the amount entering the quick response and its timing. The same rain can produce a larger and faster pulse at Bellford's bridge."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "That faster arrival leads to our next question. A river is always carrying a volume somewhere, but flooding is often about the volume crossing a section each second. This rate is called discharge. A cubic metre is a volume. A cubic metre per second is a flow rate. If someone says the river contains ten cubic metres per second, the wording hides the distinction. The measurement refers to water passing a location, not to all the water stored along the river's entire length."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "To calculate discharge, picture an invisible curtain stretched across the river at right angles to its flow. The wetted area of that curtain is the channel's cross-sectional area. Multiply that area by the average velocity through it. In an ideal rectangular channel four metres wide and one metre deep, the area is four square metres. With an average velocity of half a metre per second, discharge is two cubic metres per second. Every second, a volume equivalent to two one-metre cubes crosses our curtain."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "A real river is not usually a rectangle with identical speed everywhere. It may be deeper in the middle, shallow near the banks, and slower in some parts than others. Hydrologists can divide a cross section into smaller areas, measure their velocities, calculate each contribution and add them. If one subsection contributes one cubic metre per second and another contributes two, their combined discharge is three. Multiplying the whole width by the deepest point and fastest surface speed would give a misleading result."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Keep the rate of two cubic metres per second constant for ten minutes. Ten minutes contains six hundred seconds, so twelve hundred cubic metres passes the section. That conversion links a flow rate back to a total volume. If the rate changes, we must account for each part of the time interval rather than multiplying by a convenient single observation. A reading at the peak cannot stand in for the whole day. It would exaggerate the volume if the peak lasted only briefly."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "River level is a different measurement. Hydrologists call it stage, usually a height relative to a fixed reference at that gauge. A stage of two metres does not necessarily mean the river is two metres deep. The reference point may not be the present riverbed. Nor can we compare two gauges simply by comparing their numbers. A level of two metres at one site might be ordinary, while the same number at another site could mean water is close to leaving the channel."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "At a particular gauge, repeated measurements can establish a relationship between stage and discharge, often called a rating curve. Instruments record water level frequently, and the relationship helps estimate the corresponding flow. It must be checked because channels change. Erosion, deposited sediment, vegetation, debris and other conditions can affect the relationship. If the channel geometry changes substantially, yesterday's conversion may no longer fit today's river. Measuring height precisely does not remove uncertainty from every later calculation based on that height."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Bellford's bridge makes this distinction tangible. A narrowing or obstruction can cause water to back up upstream. A higher local water level need not mean rainfall increased at that moment. It may reflect the downstream constraint on movement. Conversely, a broad section can carry a considerable volume at a comparatively modest depth. The river's shape and conditions affect how discharge translates into level. That is why solving a flood problem requires more than knowing the amount of rain or the width visible from one photograph."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "There is a useful distinction between a height recorded at one instant and an average over a period. Suppose an imaginary gauge reports a daily average discharge of four cubic metres per second. That does not mean flow remained at four throughout the day. Several quiet hours and a short surge can produce the same average as a nearly steady river. If our question concerns whether the banks were overtopped briefly, a daily average alone may conceal the event we need to understand."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "In a deliberately simple twelve-hour record, let the first six hours average two cubic metres per second and the next six average six. The average across all twelve hours is four because the intervals have equal duration. But the higher interval still carried six on average, and could have included a higher instantaneous peak. Now make the intervals unequal and simply averaging their two rate values no longer works. We must weight each rate by how long it lasted to recover the total volume correctly."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Sampling frequency creates another distinction. If a sensor records a value every fifteen minutes, a brief peak between those observations might not be captured at its exact maximum. More frequent readings can reveal faster changes, although every instrument and site has practical limits. A recorded maximum means the largest value in that record. It should not silently become a claim that no larger value occurred between readings, particularly on a stream that rises and falls rapidly."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "These distinctions help when someone compares a photograph, a gauge display and a report. They may describe different locations or times, and a report may use an average while the photograph captures a moment near the peak. Before deciding that they disagree, line up the place, reference level and time interval. At Bellford, we would want a continuous picture of the rising water, rather than relying on a single calm observation made before the upstream pulse reached the bridge."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Put stage or discharge on the vertical axis of a graph and time on the horizontal axis. The resulting line is a hydrograph. For a simple isolated storm, flow may start near its background level, climb along a rising limb, reach a peak, then fall along a recession limb. Real records can have several peaks because rain arrives in bursts or tributaries contribute at different times. The graph is a record of the catchment's response. It is not a photograph of the river's physical shape."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "We can make the graph audible. In our imaginary record, the bridge carries two cubic metres per second before the storm response. Later it carries five, then nine, then six, then three. Nine is the highest of those observations, but without knowing the times between them we cannot calculate the total volume. If we also know that observations are spaced an hour apart, we can estimate volumes between them, using an explicit assumption about how flow changed between readings. The spacing of measurements is part of their meaning."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Consider a cleaner example that needs no interpolation. Imagine a storm adds a constant three cubic metres per second above background for two hours. Two hours is seven thousand two hundred seconds, so the added volume is twenty-one thousand six hundred cubic metres. Now spread that same added volume evenly across six hours. The extra rate becomes one cubic metre per second. The total storm contribution is unchanged, but the added rate at any moment is smaller. Storage that spreads a pulse can reduce its peak without making the water vanish."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Those rectangular pulses are deliberately artificial. A natural hydrograph usually rises and falls rather than switching instantly between flat rates. Still, their geometry captures an important conservation rule. For a graph of discharge against time, the area beneath the line represents volume. A narrower, taller pulse can contain the same volume as a wider, lower one. Flood management often tries to change that shape. Whether a particular intervention does so usefully depends on where the water is delayed and what else is arriving downstream."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Second recall question. A storm contributes the same added volume in two cases. In one it arrives steadily over two hours, and in the other over six hours. Which has the higher added flow rate, and by what factor? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "The two-hour case has three times the added flow rate. The same volume is divided by a time interval that is one third as long. Our example gave three cubic metres per second instead of one. This does not automatically make the shorter event three times as damaging, because level, flood extent and consequences do not all scale directly with discharge. It does explain why talking only about total rainfall or total runoff can conceal the feature that matters at the riverbank."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Bellford also has a delay between rain falling and the river peaking. Water needs time to move across slopes, through drains, along tributaries and into the main channel. Different routes have different delays. Some water is stored temporarily along the way. The bridge can therefore continue receiving an increasing flow after the local rain has stopped. In a larger catchment, rainfall far upstream can affect a downstream town much later. A clear sky above the town is not evidence that the catchment has finished sending water."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Catchment shape can influence how those arrivals combine. In a simplified compact basin, many routes may have similar travel times, encouraging contributions to overlap. In an elongated basin, routes may be more spread out. But shape alone does not determine the result. Slope, drainage network, storm movement, soils and storage also matter. A storm moving along a valley can interact with downstream travel in a different way from a stationary storm over one tributary. Geography changes the timing of the water as well as its destination."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Let us isolate the overlap using two tributaries. At noon, the left tributary contributes eight cubic metres per second and the right contributes two. Ignore other inputs and any storage between their junction and our measuring point, so the total is ten. Later, the left has dropped to two while the right has risen to eight. The total is again ten. If instead both tributaries reach eight together, the total is sixteen. We have changed the timing of their peaks, not their individual peak sizes."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "That example explains a subtle problem with the phrase slow the flow. Slowing one tributary may help if it separates its peak from another. It could be less helpful, or even harmful downstream, if the delay brings the peaks together. This is a reason to evaluate measures across a catchment rather than only at the point where they are installed. A local improvement and a downstream improvement are related questions, but they are not guaranteed to have the same answer. The journey continues beyond the project boundary."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "At Bellford, there is low, relatively flat land beside the river. That is the floodplain. It is part of the river system even when dry enough for a field, path or building. When water leaves the channel, it can spread across that lower land. The extra area provides space to store and convey floodwater. Buildings placed there occupy a place the river can use during high flows. A dry summer view does not reveal all the functions of that landscape across years and seasons."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "A simple storage calculation makes the scale visible. Suppose an empty, level area of ten thousand square metres can hold an average additional water depth of half a metre. That is five thousand cubic metres of potential volume. Real floodplains have slopes, uneven depths, vegetation and connections that change as levels rise. Our calculation is only a geometric illustration. But it helps explain why removing storage by filling low ground can matter, and why a small patch cannot necessarily accommodate a large catchment's flood pulse."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "The word available is crucial. If the area already holds water, we cannot count its full volume as spare capacity. If water cannot reach it until after the downstream peak, its location and entrance may make it less useful for that event. If it empties too slowly, the next storm may find it partly full. Flood storage has an operating history, just as soil has antecedent wetness. A diagram showing a pond does not establish how much extra water that pond can accept at the critical moment."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "We can model a storage area as a tank, while keeping the real landscape's complexity in mind. Suppose water enters at five cubic metres per second and leaves at three. Its stored volume grows at two cubic metres per second. If it has eighteen hundred cubic metres of empty capacity, that spare space lasts nine hundred seconds, or fifteen minutes, at those constant rates. After that, something must change: outflow rises, inflow falls, water spills elsewhere, or the level continues into additional storage we did not include."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "If the inflow later drops below the outflow, the storage can empty. But we cannot release water that is no longer there, and a real outlet's discharge often depends on the water level. The fixed rates are a teaching model, not instructions for designing or operating a reservoir. They teach why a finite storage feature can work well for one event and be overwhelmed by a longer one. A capacity number without an inflow history and release behaviour is not a complete account of protection."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Another approach is to increase the channel's ability to carry water through a location. That might lower water levels locally for some conditions, but the water still goes somewhere. Changing a channel can alter downstream timing, erosion and habitats, and its benefit depends on constraints elsewhere. If the limiting point is a downstream bridge, enlarging a short upstream reach does not simply remove that constraint. Thinking in connected sections prevents us from assuming that a faster exit from one neighbourhood is a complete catchment solution."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "An embankment can keep some high flows within a corridor and reduce the frequency of flooding behind it. It also leaves a residual risk from overtopping, failure or events beyond what the system can accommodate. The land behind a defence does not acquire immunity from water. Keeping water out of one area can affect levels and storage elsewhere. A useful account of a defence therefore includes what conditions it handles, what happens when those conditions are exceeded, and how the protected area responds if water does enter."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "There is also a difference between reducing a flood and reducing its consequences. Keeping important equipment above likely water levels changes vulnerability. Avoiding new occupation of an exposed location changes exposure. Warnings and preparations may reduce harm even when they do not lower the river at all. We should not judge every useful action by whether it reduces discharge. The physical event, the things placed in its path and their ability to withstand it are separate parts of the problem, and they offer different opportunities for action."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Third recall question. A storage area has eighteen hundred cubic metres of spare capacity. Inflow is five cubic metres per second and outflow is three, both held constant for the example. How long until that spare capacity is used, and what information would we need before applying this idea to a real storage scheme? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Net filling is two cubic metres per second. Eighteen hundred divided by two gives nine hundred seconds, which is fifteen minutes. For a real scheme we would need changing inflows, starting water level, actual geometry, outlet behaviour and the route for excess water, among other details. We would also need to assess effects on other places. The calculation explains finite capacity. It cannot certify that a particular structure is safe or effective, and our practical exercise will remain on paper rather than modifying a real watercourse."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Bellford's council now hears that the bridge experienced a hundred-year flood. Someone concludes the town has used up its flood for the century. The phrase actually describes a probability estimate for an event of a specified magnitude at a specified place. A one percent annual exceedance probability means a one percent chance of reaching or exceeding that magnitude in a year, under the conditions represented by the estimate. It is not an appointment scheduled once every hundred years, and the river does not keep a calendar of previous appointments."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Exceedance matters because the estimate includes events at least that large, not only an exact repetition of one water level. Location matters because the same storm can produce different relative extremes along different rivers. Duration matters when we discuss rainfall rather than river discharge. An unusually intense half-hour rainfall at one gauge is not automatically a flood of the same annual probability at Bellford's bridge. The catchment translates rainfall into flow through all the processes we have been examining, including its starting condition and the area actually affected."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Under a simplified model with a constant one percent annual probability and independent years, the chance of avoiding that threshold in one year is ninety-nine percent. For two years, multiply zero point nine nine by itself. That gives zero point nine eight zero one, or ninety-eight point zero one percent. The chance of reaching or exceeding the threshold at least once across those two years is the remainder: one point nine nine percent. We use the chance of no event because it is easier to multiply consistently."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Extend that calculation to thirty years under the same assumptions. The probability of no exceedance is zero point nine nine multiplied by itself thirty times, about seventy-four percent. The chance of at least one exceedance is therefore about twenty-six percent. It is not thirty percent, and it is certainly not one percent for the whole thirty-year period. The annual probability and the chance over a long period are different quantities. Repeated exposure accumulates opportunities for an event, even when each individual year's probability appears small."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "The independence and constant-probability assumptions are part of that calculation. Real catchments can change through development, drainage alterations, reservoirs and changes in weather patterns. Records are finite, and estimates can be revised as more information arrives. A quoted flood probability is an estimate from a model and evidence, not a permanent physical property stamped onto the bridge. That does not make the number useless. It tells us to ask which threshold, location, period and assumptions the number describes, especially when comparing assessments made at different times."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Nor does a hundred-year description mean scientists must have observed the exact event once in a hundred-year record. Statistical analysis uses available observations to estimate a distribution of possible magnitudes. Estimates of rare extremes can carry substantial uncertainty, particularly with limited records or changing conditions. The measured peak itself and the estimated rarity of that peak are different claims. One concerns what instruments recorded, while the other concerns how that observation sits within a broader pattern that must be inferred."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Fourth recall question. In the simple constant-probability model, a river has a one percent annual chance of exceeding a specified flow. It exceeded that flow last year. Must the town now wait ninety-nine years for another, and is the chance across thirty years still only one percent? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "No to both. The event is not on a fixed schedule. Under the independent-year model, last year's exceedance does not remove this year's one percent chance. Across thirty years, the chance of at least one is about twenty-six percent, using one minus zero point nine nine to the thirtieth power. In real assessments the probability itself may change, so we should not treat that illustrative calculation as a forecast for a particular address. It explains the meaning of repeated annual exposure."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "We can now return to the word risk with greater precision. Imagine the river spills across an empty field in one scenario and across occupied buildings in another. The water might have identical depth and speed, but the consequences differ. Flood hazard describes features of the event, such as its likelihood, depth, velocity and duration. Exposure concerns what is in its path. Vulnerability concerns how those exposed people, buildings or systems are affected. This distinction explains why a growing town can suffer greater losses without every flood becoming physically larger."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "It also explains why the bakery cannot judge its whole situation from whether water reaches the front step. Its access road, power supply, suppliers or storage could be affected elsewhere. A building can remain dry while the activity inside is disrupted. Conversely, two buildings exposed to similar water depths can have different damage because their materials, contents and layout differ. This is a systems problem at the scale of the town as well as at the scale of the catchment. The river is one part of a connected set of dependencies."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Flood maps need to be read with that distinction in mind. A boundary on a map represents particular data, assumptions and scenarios. It is not a wall stopping the water at the printed line. Different maps may describe different sources of flooding or different event probabilities. A river map does not necessarily answer questions about intense rainfall overwhelming local drainage. For a real property or current warning, use the relevant official information and its explanation of scope. Our imaginary catchment cannot substitute for a local assessment."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Surface-water flooding can occur before runoff reaches a river. If rain accumulates faster than it can infiltrate or drain away, streets and low points can fill. Bellford could have a dry riverbank and a flooded underpass, or a high river with relatively little rain over the town itself. These are different routes to unwanted water. Drainage networks can connect them, but the distinction matters when choosing evidence. Looking at the nearest river gauge alone may miss a problem caused by a local burst of intense rain."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Water quality changes the consequences too. Runoff can carry sediment and material picked up from roads, fields and other surfaces. A brown tributary is evidence of suspended material, not a precise measurement of every contaminant. Clear water is not proof that it is safe either. The catchment transports substances as well as water. Activities upstream can therefore affect people and ecosystems downstream, even when the amount of water remains within the channel. Drainage is a connection between places, not just a disposal route from the place where rain fell."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "One practical limit follows immediately. Do not enter floodwater or try to test its depth by walking or driving through it. A visible surface does not show the condition of the ground or road underneath, and moving water can be powerful. Follow local official warnings and instructions. For learning, we can use maps, published records and paper calculations from somewhere safe. We do not need a trip to a swollen river to understand a hydrograph, and our exercise asks for no physical intervention in drains, banks or streams."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "What about working with the landscape to reduce flooding? The Environment Agency's evidence summaries describe measures such as restoring floodplain connections and creating offline storage. They can reduce or delay peaks, but results depend on the site and the wider catchment. The summaries also identify remaining evidence gaps. This supports a specific claim: some well-placed measures can help under particular conditions. It does not support a universal promise that any pond, tree planting or restored bend will prevent every downstream flood."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "The same summaries highlight timing and available capacity. Storage that has not drained between storms may have less room for the next event. Delaying a contribution can alter whether peaks coincide downstream. Maintenance and design matter. We can understand those limits using our own tank and tributary examples, without borrowing a percentage from one real project and applying it to Bellford. The useful comparison is between proposed changes under the town's actual conditions, including events larger or longer than the ones a project handles most effectively."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Let us put a proposal on Bellford's desk. One option routes a new paved yard directly to the stream. Another includes temporary storage before release. We cannot choose a real design from this lesson, but we can identify what the decision requires. How much runoff arrives during different storms? How full is the storage at the start? How quickly does it release? Where does water go when capacity is exceeded? What happens downstream when that release meets other tributaries? Those questions describe physical mechanisms, rather than relying on a reassuring label."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "The town should also separate observation from prediction. A before-and-after comparison may show a lower peak after work, but the two storms may differ in rainfall, distribution or initial wetness. That does not mean the work failed or succeeded by itself. We need a comparison that accounts for those differences, using measurements and appropriate modelling. Within our fictional examples we hold conditions constant to isolate a mechanism. In a real landscape, documenting those changing conditions is part of discovering how much of the difference the intervention caused."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Here is the complete paper exercise. Draw two tributaries joining above a bridge, with the bakery beside the downstream channel. Add a ridge around the land draining to the bridge, a paved yard on the left, and an empty storage area on the right. Do not use a real property or try to design its drainage. We will give this invented map a few numbers, then make one change at a time. The purpose is to connect the volume budget, the flow rate and the arrival time in one explanation."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Give the whole study catchment an area of one square kilometre and uniform rainfall of ten millimetres. Ten millimetres is zero point zero one metres, so the rain volume is ten thousand cubic metres. Suppose our model assigns forty percent to the rapid storm response. That produces four thousand cubic metres. We are specifying the fraction for the exercise, not deriving it from a soil survey. Write both numbers down separately, because rainfall volume and the quick contribution to streamflow are not interchangeable."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Now imagine that four thousand cubic metres reaches the bridge evenly over two thousand seconds. The added rate is two cubic metres per second. If a constant background flow of one cubic metre per second is also present, the total is three during that interval. These flat rates are artificial, but they allow us to distinguish background from storm contribution. The background water is real water passing the bridge too. Ignoring it would understate the total flow even if we calculated the storm response correctly."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "In the alternative version, the same four thousand cubic metres is released evenly over four thousand seconds. Its added rate is one cubic metre per second, making the total two when combined with the same background. The storm contribution's rate has halved, while the total rate has fallen from three to two. That is a reduction of one third in this comparison. Those are different percentage changes because they use different starting quantities. This is why a report must say whether a reduction refers to total flow or only one component."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "For a final alteration, keep those volumes but shift the arrival later. Suppose another tributary's peak is already expected during the later interval. We cannot assume the delay improves the combined peak just because it improves the left tributary's own graph. Draw the two contributions on the same time axis and add their values at matching times. This is the same arithmetic as our earlier eight-plus-eight example. The change has a location and a clock attached to it. Without both, its downstream effect remains incompletely described."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Fifth recall question. In our exercise, four thousand cubic metres of quick response arrives evenly over two thousand seconds, alongside a constant background of one cubic metre per second. What is the total flow? If we double the quick response's duration without changing its volume, does the total flow halve? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Initially the quick response contributes two cubic metres per second, giving three in total. Doubling its duration lowers that contribution to one, giving two in total. The quick component halves, but the total does not; it falls by one third. That answer assumes the background stays constant and no other tributary changes. If an additional peak overlaps, we have to include it. The exercise is successful when you can explain those assumptions alongside the arithmetic, rather than treating the final number as a prediction for an actual river."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "Add a short written diagnosis beneath the map. Bellford's river can rise after local rain stops because water is still arriving from upstream routes and stores. Its local rain gauge does not represent every part of the catchment. More rapid runoff or overlapping tributary peaks can increase discharge, while channel geometry helps determine the resulting level. This is a causal explanation of the opening scene. Each sentence points to something we could investigate, rather than treating the rising river as an inexplicable reaction to weather that appears to be over."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "If you want one extension to the exercise, change the initial storage rather than the rainfall. Keep the storm identical but label the storage area partly full and the ground already wet. Then describe which earlier assumptions you would need to revisit before using the same runoff fraction or spare-capacity calculation. You do not need to invent a new precise answer. Identifying the changed physical condition is the point. The catchment has a history, and a model that forgets that history can produce a confident answer to the wrong situation."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged conversational teaching. Explain quantities naturally, with varied pace and emphasis. Bellford is a fictional town.",
+      "t": "The next time a report mentions a river's peak, you can locate what the number means: flow or level, at which place, at what time, with which probability estimate. Beneath those numbers is a landscape gathering, storing and moving water. Bellford's drying pavement never told us what that entire landscape was doing. Following the water from the ridges through the soil and tributaries to the bridge gives us a much more useful view of why a river rises, and of which changes might actually alter the outcome."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-21",
+    "spoken_words": 7200,
+    "sha256": "c98dfbb66db6b9229f733332199056c130aa5fd75b16538ab76a6cdff171ad30",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+      "https://www.usgs.gov/water-science-school/science/100-year-flood",
+      "https://www.usgs.gov/water-science-school/science/runoff-surface-and-overland-water-runoff",
+      "https://www.usgs.gov/water-science-school/science/how-streamflow-measured",
+      "https://www.usgs.gov/water-science-school/science/impervious-surfaces-and-flooding",
+      "https://www.usgs.gov/water-science-school/science/infiltration-and-water-cycle",
+      "https://www.usgs.gov/water-science-school/science/rivers-contain-groundwater",
+      "https://www.gov.uk/flood-and-coastal-erosion-risk-management-research-reports/working-with-natural-processes-to-reduce-flood-risk-2024",
+      "https://www.gov.uk/government/publications/natural-flood-management-evidence/river-and-floodplain-management",
+      "https://www.weather.gov/safety/flood-turn-around-dont-drown"
+    ]
+  }
+}
