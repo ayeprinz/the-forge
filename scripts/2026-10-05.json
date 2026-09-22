@@ -1,0 +1,436 @@
+{
+  "date": "2026-10-05",
+  "title": "[Chemistry] What Actually Burns in a Candle",
+  "summary": "Follow wax from the solid reservoir through capillary flow, gaseous fuel and combustion. Explain where the candle mass goes, why reaction products outweigh the fuel, how bonds and activation barriers relate to energy, and how mixing creates the visible flame. Original methane, model-wax and propane inventories; worked power calculations; five recall pauses with answers and a paper-only application. Sources consulted: selected lectures in Michael Faraday, The Chemical History of a Candle, edited by William Crookes (public domain), https://www.gutenberg.org/cache/epub/14474/pg14474-images.html ; OpenStax Chemistry 2e, Paul Flowers, Klaus Theopold, Richard Langley and William R. Robinson, selected sections 4.1, 5.1, 7.5 and 12.5 (consulted for factual verification), https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations ; https://openstax.org/books/chemistry-2e/pages/5-1-energy-basics ; https://openstax.org/books/chemistry-2e/pages/7-5-strengths-of-ionic-and-covalent-bonds ; https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory ; American Chemical Society, Shining a Light on Candles, https://inchemistry.acs.org/atomic-news/shining-light-on-candles.html. Explanations and numerical cases are original. No prior reading or home combustion experiment required.",
+  "instructions": "Two substantive teachers, ash and sage. Start with the missing candle mass. Speak calculations clearly, preserve five seven-second recall pauses and subsequent answers, and keep natural pace. Distinguish model assumptions from actual candle measurements. Do not add fire demonstrations or motivational filler. This is foundational chemistry with a paper-only practical task.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "A candle loses ten grams while it burns. The table is not covered in ten grams of ash. The flame has no little container collecting the missing wax. Where did it go? Most of that material has become gases mixed into the surrounding air. More surprisingly, the gases produced can weigh much more than the wax that disappeared. Oxygen has joined the reaction from outside. To explain those two facts, we need to follow one small piece of wax through the candle, from solid fuel to moving molecules."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Start beside the wick, where the solid wax becomes a shallow liquid pool. Liquid moves into the spaces between the wick's fibres. Near the hot end, fuel enters the gas phase and undergoes chemical changes. Those gaseous substances react with oxygen arriving from the air. A flame is the visible part of that continuously supplied reaction region. The candle is therefore several processes working together: melting, liquid transport, vaporisation, mixing and reaction. If one important connection fails, the visible flame can disappear while plenty of solid fuel remains."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Michael Faraday used a candle to teach chemistry in his lectures collected as The Chemical History of a Candle. We are drawing on selected parts of that public domain text, with modern explanations of molecules and chemical energy. His central move was to follow material through an everyday object. We will do that with original calculations and paper models. You do not need a burning candle beside you. Imagine a plain paraffin candle, with no fragrance or colour added, so that the central chemistry stays easy to follow."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Paraffin wax is a mixture, rather than one molecule with one universal formula. Many of its molecules are long chains containing carbon and hydrogen. Chemists call substances containing only those two elements hydrocarbons. Other candle materials can contain oxygen as part of their molecular structure, so their accounting differs. Later we will choose one representative hydrocarbon for a calculation. That choice gives us a clear model, not a claim that every candle contains exactly the same chemical. The physical object and its simplified mathematical description need to remain separate."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "A carbon atom is one kind of atom, and a hydrogen atom is another. When they join in a particular arrangement, they form a molecule with properties different from those of the separate elements. A hydrocarbon molecule is not a miniature bag containing black charcoal and hydrogen gas. Its atoms are bonded together. That distinction matters because burning rearranges those connections. Finding carbon in wax does not mean that visible pieces of charcoal were hidden inside the unlit candle, waiting to fall out when the wax melted."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Melting is the first change we can see, and it is usually a physical change. The molecules become able to move past one another more freely while retaining their chemical identities. Imagine people who were standing in an organised formation beginning to walk around a room. Their arrangement changes without each person becoming someone else. The analogy only concerns arrangement and movement. Molecules have interactions and thermal motion rather than intentions. The important distinction is between changing how molecules are arranged and changing which atoms are bonded to which."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "That also explains why melted wax can solidify again. If a drop cools, the material can return to a solid arrangement. Cooling combustion products is a different matter. Carbon dioxide and water will not simply settle back into the original candle. Their atoms now belong to different molecules. Getting the original fuel back would require chemical transformations and an energy supply. A change that feels reversible in the kitchen is not automatically a small change, but here reversibility helps us distinguish melting from the chemical reaction that follows it."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Now consider the wick. Gravity pulls liquid downward, yet molten fuel can travel upward through those narrow spaces. This is capillary action. Interactions between the liquid and the fibres, together with surface tension, make the liquid wet and move through the porous structure. You have seen related behaviour when a paper towel draws up spilled water. The wick is a route for liquid fuel. It need not contain a mechanical pump, and the flame does not reach down with an invisible hand to pull the liquid upwards."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "The towel comparison has a useful limit. A wick feeding a flame is part of a continuing flow. Liquid arriving at its hot end is removed by heating and fuel conversion, allowing more liquid to follow. A towel left partly in water may eventually approach a different balance. Narrower passages can support stronger capillary effects, but they can also resist flow more. It would be wrong to conclude that an infinitely thin wick must feed a better flame. Transport depends on the structure and on the properties of the liquid."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "A candle designer has to match that fuel supply to the rest of the candle. Too little delivery can give a small, unstable flame. Excessive fuel delivery can favour a larger, sootier flame if mixing and oxidation do not keep up. Those outcomes also depend on the wax and surrounding airflow. The American Chemical Society's discussion of candles describes the wick as part of fuel regulation. For our model, the key is a connection between liquid flow and the gas reaction above it. The wick is doing more than marking where to apply a match."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "The wick itself can char and burn, so saying that it never burns would be false. But the wax supplies most of the continuing fuel in an ordinary working candle. A bare piece of suitable string does not keep producing the same flame for hours after its own material is gone. The wax reservoir explains the endurance. We can distinguish a component's role from its eventual consumption. The wick supports delivery while slowly changing itself, and the much larger reservoir supplies the material whose disappearance we are trying to explain."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Heating also has to move fuel from a condensed state into gases. Vaporisation separates molecules enough for them to move through the gas phase. In the very hot region, long molecules can also break into smaller chemical species. Real flame chemistry contains many intermediate steps. The useful starting picture is that solid wax does not leap directly from the candle body into a complete flame. Liquid transport and gaseous fuel production sit between the reservoir and the reaction zone. Those steps require energy and take place at different locations."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "A kettle gives us a helpful distinction between an invisible gas and a visible cloud. Water vapour itself is invisible. The white cloud commonly called steam contains tiny liquid droplets that scatter light. Something similar complicates the trail above a recently extinguished candle: the visible material can include condensed fuel droplets and particles, while invisible gases are also present. You cannot identify every substance simply by calling the whole trail smoke. Seeing a cloud tells you that light is being scattered, not that you have identified every molecule in it."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Faraday described using that trail to show that fuel exists above the wick. We can understand the demonstration without repeating it. The observation supports the idea that combustible material can leave the wick and travel through air. It does not mean that every visible white particle has the same composition or that the entire surrounding air is combustible. The trail changes rapidly as material cools, mixes and disperses. An ordinary steady candle keeps replacing its local fuel supply, which is why the flame can remain in one general place while its matter flows through."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Think of a fountain holding the same shape while different water passes through it. A flame has a related kind of persistence. It is a continuing pattern, not a permanent solid object sitting on the wick. Molecules enter, react and leave. Its outline can remain similar because the conditions remain similar. This distinction explains why a photograph can be misleading: the bright shape looks like a thing, but the thing is being continually rebuilt. To understand it, track rates of arrival, reaction and departure rather than imagining a glowing lump."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Three neighbouring locations now have different jobs. The solid body stores fuel. The pool and wetted wick transport it. The gas region contains the reacting mixture. Heat from the reaction travels back and helps maintain the earlier steps. That creates a feedback loop. Initial heating starts the process; once established, combustion can supply enough heat to prepare more fuel. The loop is not limitless. It requires a usable reservoir, access to oxygen and conditions that allow sufficient heat to remain near the place where fresh fuel becomes available."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Here is the first recall question. Explain why a candle can have plenty of wax left and still go out. Include the wick and the movement of heat in your answer. You have seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "The remaining wax is only a reservoir. Liquid must reach the hot part of the wick, fuel must enter the gas region, and it must react with oxygen fast enough to maintain the heat supply. A disruption to delivery, mixing or heat retention can break that loop. The presence of solid wax alone does not guarantee a continuing flame. This is also why melting and burning are different claims. A puddle of liquid wax shows that melting happened; it does not prove that a self sustaining reaction will follow."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "We can make this concrete with an imaginary production line. A warehouse contains a hundred boxes, but a packing station receives none because its conveyor has stopped. You would not explain the station's inactivity by saying the warehouse is empty. The candle's reservoir and reaction zone have a similar separation, although the transport mechanism is physical rather than mechanical. A large stored quantity cannot substitute for a working flow. The analogy becomes especially useful when we later compare the amount of fuel available with the rate at which energy is released."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "The next question concerns identity. After fuel enters the flame, it does not merely become hotter wax forever. Its atoms are redistributed among products. Carbon mainly ends up in carbon dioxide under complete combustion, while hydrogen ends up in water. Oxygen from the air supplies the oxygen atoms in those products. The words complete combustion describe an idealised endpoint that helps with accounting. An actual flame can also produce carbon monoxide, soot and other incompletely oxidised material. We will first calculate the clean endpoint, then see why a real flame can depart from it."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Take a simpler fuel first: methane. One methane molecule contains one carbon atom and four hydrogen atoms. An oxygen molecule in air usually contains two oxygen atoms joined together. Carbon dioxide contains one carbon and two oxygens. Water contains two hydrogens and one oxygen. Those four descriptions give us enough information to balance methane's complete combustion. Balancing means choosing amounts of reactants and products so that every kind of atom is accounted for. Ordinary chemical reactions change combinations of atoms, not carbon atoms into oxygen atoms."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "One methane molecule can supply the carbon for one carbon dioxide molecule. Its four hydrogen atoms can supply two water molecules. Now count the oxygen needed on the product side. The carbon dioxide needs two oxygen atoms, and the two waters need another two. That is four oxygen atoms altogether, provided by two oxygen molecules. Our complete packet is therefore one methane plus two oxygens producing one carbon dioxide plus two waters. We counted atoms inside molecules rather than assuming that the number of molecules must stay the same."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "If someone writes one methane plus one oxygen making one carbon dioxide and two waters, the carbon and hydrogen counts work, but the oxygen count does not. Two oxygen atoms arrive and four leave. Something has been invented in the equation. You repair it by changing the number of oxygen molecules arriving. You do not repair it by changing water into a different substance with a more convenient formula. A coefficient tells us how many units we have. The formula tells us what each unit is. Those are different kinds of information."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Imagine rearranging coloured counters into groups on a table. Black counters stand for carbon, white for hydrogen and red for oxygen. You may regroup the counters, but cannot create extra red ones because the picture looks untidy. If you alter the formula, you change the group you are trying to represent. This paper model is deliberately less elaborate than real molecular behaviour. It keeps the inventory visible. It does not show the sequence of collisions, the intermediate species or the energy needed to change chemical bonds during combustion."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Now choose a representative wax molecule with twenty five carbon atoms and fifty two hydrogen atoms. This is a model hydrocarbon, not the formula of every paraffin mixture. To account for its carbon under complete combustion, make twenty five carbon dioxide molecules. To account for its hydrogen, make twenty six water molecules. Each water needs two hydrogens, so twenty six uses all fifty two. We have handled two elements independently. The remaining task is to find how much oxygen those two sets of products require in total."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Twenty five carbon dioxides contain fifty oxygen atoms. Twenty six waters contain another twenty six. Together that is seventy six oxygen atoms. Oxygen arrives in pairs, so we need thirty eight oxygen molecules. One model wax molecule plus thirty eight oxygen molecules produces twenty five carbon dioxides and twenty six waters. Read that slowly as a recipe for atom accounting. The large oxygen requirement is already visible. The flame does not just warm the original wax and send it away unchanged. It incorporates a substantial amount of material from the atmosphere."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "That inventory lets us explain why the product mass can exceed the lost candle mass. Use rounded atomic masses for a paper calculation: carbon twelve, hydrogen one and oxygen sixteen. These are relative atomic mass values, not the masses of individual atoms in grams. A molecule's relative mass is found by adding its atoms. The model wax molecule therefore has twenty five times twelve, plus fifty two times one, giving three hundred fifty two. An oxygen molecule has two times sixteen, giving thirty two. We can compare these totals consistently."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Thirty eight oxygen molecules then have a combined relative mass of one thousand two hundred sixteen. Add the fuel's three hundred fifty two and the reactant total is one thousand five hundred sixty eight. On the product side, each carbon dioxide has relative mass forty four. Twenty five gives one thousand one hundred. Each water has relative mass eighteen, so twenty six gives four hundred sixty eight. Add those and we again obtain one thousand five hundred sixty eight. The two sides match because every atom has been included."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "To scale this into laboratory amounts, chemists use the mole, which counts a fixed enormous number of entities. For this rounded calculation, one mole of our fuel has a mass of three hundred fifty two grams. It requires one thousand two hundred sixteen grams of oxygen and yields one thousand one hundred grams of carbon dioxide plus four hundred sixty eight grams of water. You need not memorise the size of a mole to follow those ratios. Multiplying every molecular count by the same common number preserves the balanced relationship."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Choose a smaller amount that keeps the arithmetic tidy: three point five two grams of model fuel. That is one hundredth of the previous fuel amount. Divide all the other masses by one hundred too. It consumes twelve point one six grams of oxygen. It produces eleven grams of carbon dioxide and four point six eight grams of water. Reactants total fifteen point six eight grams, and products also total fifteen point six eight grams. The products outweigh the fuel because the oxygen contribution is included on the product side."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "The opening ten gram candle loss would use the same ratios if our assumptions held exactly. Ten grams of this model fuel would produce approximately thirty one point two five grams of carbon dioxide and thirteen point three grams of water. It would consume approximately thirty four point five five grams of oxygen. Those rounded figures describe complete conversion of that particular model hydrocarbon. Actual wax composition, unburned drips, soot and incomplete reaction change the measured amounts. The calculation explains the principle without claiming to predict every candle from its weight alone."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "A balance under the candle cannot see the whole inventory. It registers the remaining candle and whatever else rests on its pan. Gases leaving the flame do not remain on that pan, and oxygen arrives from elsewhere. This is an open system. A properly defined closed material system would include the oxygen and retain the products. For ordinary chemical measurements, its total mass would stay constant through the reaction. We are not proposing sealing a flame into homemade equipment. We are defining the boundary needed to understand a mass measurement."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Here is the second recall question. In our small model, three point five two grams of fuel produces eleven grams of carbon dioxide and four point six eight grams of water. Where did the extra product mass come from, and how much oxygen was consumed? Seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "The extra mass came from oxygen entering from the air. Eleven plus four point six eight gives fifteen point six eight grams of products. Subtract the original three point five two grams of fuel and the oxygen contribution is twelve point one six grams. Nothing was created simply because the flame glowed. Our boundary initially omitted a reactant. If you include the fuel and oxygen together, the starting mass equals the total product mass within this rounded complete combustion model. The candle alone was never the whole reacting system."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "The water result can seem particularly strange because water is often associated with putting out fire. But a substance's role depends on the starting materials and conditions. Hydrogen bound in the wax joins oxygen to make water. The product water leaves the hot region initially as vapour and can later condense. Water molecules are not tiny pieces of a flame preserved in liquid form. They are one outcome of the reaction. Saying that a reaction produces water does not mean liquid water must have been stored inside the original fuel."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Faraday collected water from combustion and investigated its identity. He also investigated the carbon containing gas that we now call carbon dioxide. His historical term carbonic acid often refers to that gas, which modern terminology distinguishes from carbonic acid formed in water. Reading historical chemistry requires that translation. We can keep his material tracing while using modern molecular names. We should also avoid copying all his broad statements about bright flames into universal rules. Some of his demonstrations were dramatic Victorian laboratory performances, not instructions we need for this paper lesson."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "The same carbon inventory works even when combustion is incomplete, but the products change. Some carbon may leave as carbon monoxide, which has one oxygen per carbon, or as carbon rich soot. Other material can remain as unburned or partly transformed fuel. You cannot use the complete combustion equation and then quietly add soot without changing another part of the accounting. If carbon remains in soot, less of that same carbon is available to become carbon dioxide. Conservation still applies; our product list must represent what actually happened."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "For a simple paper illustration, start with ten carbon atoms and suppose eight become carbon dioxide while two remain as carbon. The carbon count is still ten. The eight carbon dioxides contain sixteen oxygen atoms; the two leftover carbons add none in this deliberately simplified inventory. Compare that with ten carbon dioxides, which require twenty oxygen atoms. This is not a full candle reaction because we have temporarily left hydrogen out of the example. It isolates the carbon bookkeeping so that a different product distribution becomes easy to see."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "There is another distinction hiding inside the phrase enough oxygen. A room can contain abundant oxygen overall, while a small fuel rich part of the flame has too little available locally. Oxygen has to reach the reacting substances on the relevant timescale. Storage in the surrounding room is not instantaneous delivery into every part of the flame. We already saw that distinction with the wax reservoir and wick. The same separation between quantity and transport appears on the other side of the reaction, where fresh air must mix with gaseous fuel."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "The complete equation tells us proportions, but not how quickly the reaction happens, where it happens, or whether its heat remains concentrated enough to sustain a flame. A perfectly balanced equation written on paper does not ignite anything. To explain why a cold candle can sit beside oxygen without burning, we need chemical energy and reaction rates. That takes us from counting atoms to considering the barriers to rearranging them. The atoms tell us what can be conserved; the energy and rate story tells us why the transformation needs particular conditions."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "A common explanation says that breaking the bonds in fuel releases energy. Taken literally, that gets the crucial step backwards. Separating bonded atoms requires energy. Forming bonds releases energy. In a combustion reaction, the overall result depends on both sides: the energy needed to disrupt the reactants and the energy released as the products form. The complete reaction can release energy because the product arrangement is lower in energy overall. Fuel is useful in combination with an oxidising reactant and an available pathway, not because every bond is a tiny spring that pays out when snapped."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Use an imaginary energy budget with deliberately invented values. Suppose disrupting the relevant starting connections costs one hundred energy units, while forming the product connections releases one hundred sixty. The net release is sixty units. If product formation released only eighty, the same bookkeeping would give a net requirement of twenty units. These are arithmetic examples, not measured values for wax. They show why you need the complete transformation. Knowing that something contains strong bonds does not by itself tell you whether a particular reaction will release a large amount of energy."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "The reaction does not have to separate every molecule into isolated atoms in one grand step. Bond energy accounting is a way to compare starting and final states. The actual route usually contains many reactions and intermediate species. This is like calculating the height difference between two places without claiming the traveller flew straight between them. The difference tells us something about the endpoints, while the route determines the obstacles. In chemistry, confusing an accounting route with the physical mechanism can make an otherwise correct calculation tell the wrong story."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "An energy releasing endpoint still does not guarantee a fast reaction at room temperature. Molecules must reach arrangements that allow bonds to change. We describe the associated barrier using activation energy. For a simple collision picture, particles need suitable encounters, including sufficient energy and appropriate orientation. Raising temperature changes the distribution of molecular energies and can greatly increase the proportion of effective encounters. A flame involves a network of reactions, so one small cartoon cannot capture every step, but the barrier idea explains why stored wax does not ignite merely because air touches it."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Picture a ball resting behind a ridge with a lower valley on the other side. Reaching the lower valley could release gravitational energy, yet the ball first needs to cross the ridge. The height of the ridge and the depth of the final valley answer different questions. Activation and net energy release have a similar distinction. The analogy is about an energy landscape, not about molecules literally climbing a hill in space. It helps separate the energy required to get started from the energy available once the transformation proceeds."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "A match provides local heating and helps establish reactive fuel and air near the wick. Once a stable flame forms, some of its released energy returns to the candle and supports continued fuel supply. Much of the energy also leaves with hot gases and radiation. Sustainability depends on that division. It is possible for a reaction to be energy releasing overall but fail to maintain the particular hot region needed for a visible flame. Spreading the energy too quickly can prevent the local feedback, even though the endpoint chemistry remains favourable."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Temperature and energy amount now need separating too. A tiny region can be very hot while containing or releasing relatively little energy compared with a much larger warm system. Temperature describes a thermal state; total energy also depends on how much material there is and on its properties. The flame's high temperature does not tell us how quickly it could warm a large room. For that, we need power, meaning energy transferred per unit time. The same word hot often conceals these different questions in everyday conversation."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "One watt means one joule per second. A kilojoule is one thousand joules. Suppose our fictional candle burns four grams of fuel per hour, and assume each gram releases forty five kilojoules on complete combustion. Those are chosen model inputs, not a specification for the candle on someone's shelf. Four times forty five gives one hundred eighty kilojoules per hour. An hour contains three thousand six hundred seconds. Dividing one hundred eighty thousand joules by three thousand six hundred seconds gives fifty joules per second, or fifty watts."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "That calculation connects a disappearance rate to an energy release rate. Double the burning rate while keeping the energy released per gram unchanged, and the model power doubles to one hundred watts. Double the total fuel stored without changing its burning rate, and the power stays fifty watts while the possible duration increases. Quantity and rate are distinct. A bigger reservoir does not necessarily make a stronger output. You can already see why a large candle body and a small wick may produce a long lasting flame rather than a proportionately intense one."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Run the fifty watt model for two hours. Two hours contain seven thousand two hundred seconds, so the released energy is three hundred sixty thousand joules, or three hundred sixty kilojoules. The same answer comes from the fuel calculation: eight grams burned at forty five kilojoules per gram. Getting the same result through mass and through time is a useful consistency check. It does not validate our assumed burning rate or fuel value. It verifies that we have used those assumptions without mixing up an hourly rate and a per second unit."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Now imagine a theoretical heat receiver capturing one fifth of that released energy. It receives ten watts, since one fifth of fifty is ten. The rest goes elsewhere. Over one hour, the receiver gets thirty six kilojoules. This receiver is an accounting device, not a plan for balancing kitchen equipment over a flame. It shows that energy release and useful energy delivery are separate measurements. A system can release a known amount while sending only a small share to the object we care about. Geometry and heat transfer determine that share."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "If a hypothetical process needs seventy two kilojoules and receives ten watts steadily, it needs seven thousand two hundred seconds, or two hours. At twenty watts it would need one hour. Those answers assume constant useful power and ignore any changing losses or storage behaviour. Real warming processes can slow as temperature differences and losses change. The equation energy divided by power gives time only when the relevant average power is known. Treating peak flame temperature as though it were steady delivered power would not supply the missing information."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Third recall question. Our model consumes four grams per hour and releases forty five kilojoules per gram. What is its average power in watts? And does that figure tell you the temperature of the flame? Seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "It releases one hundred eighty thousand joules per hour. Divide by three thousand six hundred seconds to obtain fifty watts. That is a rate of energy release, not a temperature measurement. To describe a flame's temperature, we would need information about local composition, reaction, mixing and energy losses. There is no rule that fifty watts corresponds to one particular flame temperature. Nor does fifty watts mean that an object nearby receives all fifty. The location of the energy and the rate at which it reaches a chosen receiver remain separate questions."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "The candle transfers heat in several ways. Conduction moves energy through matter through microscopic interactions, without requiring a bulk stream of that material. It helps carry energy through the wick and nearby wax. Convection carries energy with moving fluid, including the rising hot gases. Radiation transfers energy electromagnetically and can cross the space between the flame and nearby surfaces. These pathways operate together. Naming one does not remove the others. A complete energy budget needs to account for the routes that matter for the particular boundary we have chosen."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "The liquid pool illustrates why energy transfer is not the same as chemical reaction. Wax can absorb heat and melt without being consumed. That stored thermal energy and the phase change are part of the local budget. Once the flame goes out, the pool may remain liquid for a while because cooling takes time. There is no contradiction between the absence of a visible flame and the presence of hot material. Reaction, temperature and physical state can change on different timescales, so one visual observation cannot stand in for all three."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "We should also distinguish light from the whole energy output. The candle emits visible light, but a large share of its energy leaves in other forms, including heating the surroundings and invisible radiation. Brightness as judged by the eye is not a direct meter for total power. Our eyes respond differently to different wavelengths, and different sources distribute their radiation differently. Two lights that look similar can therefore consume or release quite different amounts of energy. The candle's chemistry produces a particular mix of heat and radiation rather than a pure package of visible illumination."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Energy efficiency requires naming the intended output. If the intended service is visible lighting, heat that fails to contribute to that service is a loss from that perspective. If the purpose were heating, the classification would differ. The energy has not ceased to exist because we call it wasted. It went somewhere that did not serve the selected purpose. This is a useful distinction when discussing engines, lamps or appliances: conservation tells us to account for energy, while efficiency asks what proportion reaches the output we intended to obtain."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Return to the imaginary fifty watt candle and ten watt receiver. Its capture fraction is twenty percent for that receiver under the assumed conditions. That figure is not a universal efficiency rating for candles. Move the receiver or change the surroundings and the fraction can change. Similarly, the fuel's chemical energy per gram is not a prediction of how much reaches a particular object. A meaningful comparison must specify the process, the boundary and the desired result. Otherwise, two people can quote percentages that answer different questions while appearing to disagree."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "We can now explain why a candle both needs heat and produces heat without moving in a logical circle. Starting requires enough local energy to establish fuel preparation and reaction. Continuing depends on the reaction supplying enough energy back to maintain those processes while losses continue. The overall transformation releases energy because of the difference between reactants and products. The initial barrier, the sustained feedback and the final energy balance are three connected explanations. None makes the flame a machine creating energy from nothing. It is converting energy while consuming reactants."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Look again at the flame's shape in your mental picture. It narrows towards the top because the hot gases rise through the surrounding cooler air, drawing material into an upward flow. Under ordinary gravity, heated gas tends to become less dense than nearby cooler gas at similar pressure, creating buoyant motion. That motion carries reaction products away and brings surrounding air towards the flame. The shape emerges from flow as well as chemistry. A candle flame is not stretched upward by a special property called fire that always points towards the ceiling."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Diffusion also matters. Molecules move randomly, and their collective movement tends to reduce concentration differences. Fuel species spread outward from the wick region while oxygen enters from surrounding air. Bulk flow and diffusion work together to bring reactants into contact. This kind of flame is often described as a diffusion flame because fuel and oxidiser are initially supplied separately and meet as they mix. That differs from a system in which fuel and air have already been mixed before reaching the reaction region. The distinction affects where reactions and soot formation can occur."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Different parts of the candle flame therefore have different compositions. Close to the fuel source, a region can be rich in fuel and relatively poor in oxygen. Farther towards the surrounding air, oxygen becomes more available. Temperature varies too. The flame is not a uniformly filled volume in which every point has the same reaction. If you draw it, show a region of incoming fuel, a surrounding source of oxygen and outgoing hot products. That picture is already more informative than colouring the entire outline yellow and calling every part identical."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Some fuel molecules are transformed in hot, oxygen poor regions through routes that form carbon rich particles. These particles can become incandescent, emitting light because they are hot. Much of the familiar yellow luminosity of a candle comes from glowing soot particles within the flame. Those particles may later oxidise before escaping. Visible black smoke occurs when particles leave without being fully consumed. The presence of a luminous yellow region does not require a black plume above every candle. Particle formation, heating, oxidation and escape are separate stages in the flow."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Incandescence also helps explain why a piece of heated metal can glow without being a candle flame. A hot object can emit visible radiation as part of its thermal emission. Chemical reaction is one way to heat matter, but it is not the definition of glowing. Flames can also produce light from excited chemical species, so we should not turn the soot explanation into a rule for all flame colours. The blue visible near a candle's base involves different emission processes from the bright yellow light of its hot particles."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "This is why judging temperature from colour alone can mislead. Colour depends on what emits light as well as on temperature. A yellow region full of incandescent particles and a blue region dominated by molecular emission are not two settings on a simple universal colour thermometer. In a controlled context, thermal radiation can provide temperature information. An ordinary photograph of chemically different flame regions does not automatically provide that context. We can explain the visible pattern without assigning a single exact temperature to every candle or claiming that the brightest patch must be the hottest."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "A draught changes this system in several ways at once. It alters the path of gases, the supply of oxygen and the rate at which heat leaves the reaction region. Gentle movement and a strong burst need not have the same effect. A strong flow can displace and cool the reacting region enough to interrupt fuel preparation and continued reaction. Saying that blowing out a candle works simply by removing all oxygen would be wrong. Moving air usually contains oxygen. The failure can come from the disrupted balance between reaction, flow and heat retention."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Restricting the air supply creates another route to extinction. As oxygen availability falls and combustion products accumulate, conditions can stop supporting a flame before every oxygen molecule has disappeared. That matters when interpreting a covered candle demonstration: extinction is not a precise measurement that oxygen has reached zero. Neither is a flame's disappearance proof that the surrounding gases are harmless. For this lesson, the point is chemical and physical: sustained burning requires suitable local conditions, not merely a nonzero amount of fuel and oxygen somewhere in a larger container."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Fourth recall question. Why can a candle make glowing soot inside its flame without producing a steady black plume above it? And why is the surrounding room's total oxygen supply not enough to determine that outcome? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Particles can form and glow in a fuel rich region, then oxidise as they move into conditions with more available oxygen. A black plume appears when particles escape without being fully consumed. The room's total oxygen is only a reservoir; mixing and flow control what reaches each small region in time. Temperature and residence time also influence what happens before material leaves. We therefore need a sequence of local processes rather than a single label such as clean or dirty attached to the whole visible flame from its colour alone."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Let us apply that local story to a different paper fuel, propane. A propane molecule contains three carbon atoms and eight hydrogen atoms. Complete combustion therefore makes three carbon dioxide molecules and four water molecules. Those products contain six oxygen atoms in the carbon dioxide and four in the water, making ten altogether. Five oxygen molecules supply those ten atoms. The balanced packet is one propane and five oxygen molecules producing three carbon dioxides and four waters. This is a chemical counting exercise, not a proposal to work with propane equipment."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Suppose your paper inventory contains two propane molecules and eight oxygen molecules. Complete combustion of both propane molecules would require ten oxygen molecules, so the inventory is short by two. Oxygen is the limiting reactant for that proposed complete conversion. With a macroscopic amount, the same ratio says that eight units of oxygen can support complete conversion of one point six matching units of propane. It does not tell us that a real oxygen limited flame will politely burn exactly that portion completely and leave the rest untouched. Actual product pathways can differ."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "That distinction is important. Stoichiometry sets requirements and bounds. It does not fully predict the product mixture under a shortage. A real reacting system may produce incomplete combustion products rather than dividing itself neatly into perfectly burned and untouched fuel. Our ideal calculation asks how much could follow a specified complete reaction given the available reactants. The flame's chemistry asks what routes actually occur under its conditions. A useful model states which question it answers. We can use the complete equation without pretending it is a movie of every molecular collision."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Now supply exactly enough oxygen for a small mass calculation. With our rounded atomic masses, propane has relative mass forty four: three carbons contribute thirty six and eight hydrogens contribute eight. Five oxygen molecules contribute one hundred sixty. Products contain three carbon dioxides with total mass one hundred thirty two, plus four waters with total mass seventy two. Both sides total two hundred four. At a scale of four point four grams of propane, the corresponding masses are sixteen grams of oxygen, thirteen point two grams of carbon dioxide and seven point two grams of water."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Compare the model fuels per gram. The wax model produced eleven grams of carbon dioxide from three point five two grams of fuel, a ratio of three point one two five. Propane produces thirteen point two from four point four, a ratio of three. The ratios differ because the fuel compositions differ. Neither ratio tells us the energy obtained per gram or the full environmental impact of producing and using the fuel. We have calculated a specific mass relationship for complete combustion. That answer is useful precisely because its scope is clear."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "We can use the candle model to diagnose an imaginary observation. Suppose a diagram shows wax being supplied, air entering and hot gases rising, but labels all the lost candle mass as soot. That cannot describe ordinary predominantly complete combustion. Most fuel atoms would be in gaseous products, and oxygen would have added mass. A second diagram labels melting as the reaction that makes water. That confuses physical state change with molecular rearrangement. Correcting these pictures requires the detailed chain we have built, rather than replacing one vague phrase about burning with another vague phrase."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "For a practical task, take a sheet of paper and draw a candle with four labelled regions: solid reservoir, liquid pool, wick and flame. Add an arrow carrying liquid into the wick, an arrow carrying fuel into the gas region, arrows bringing oxygen from the sides, and an arrow taking products upward. Use a different colour or line style for energy returning towards the wax and energy leaving for the surroundings. You are separating material movement from energy transfer. No flame, hot wax or chemical equipment is needed to make the model work."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Beside your diagram, write the small wax inventory in ordinary numbers if you want: three point five two grams of fuel plus twelve point one six grams of oxygen gives eleven grams of carbon dioxide plus four point six eight grams of water. Then write fifty watts under the separate model using four grams per hour and forty five kilojoules per gram. Finally, circle one connection whose failure could stop the flame. Your explanation should name a process, such as fuel delivery or heat retention, rather than saying that the candle simply ran out of fire."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Here is the fifth recall question, using a fresh rate. Imagine the same model fuel releases forty five kilojoules per gram, but now burns at two grams per hour. What average power does that represent? If the candle has twice as much stored wax but the same two gram hourly burning rate, what changes first in the model: power or possible burning duration? Think through the units and the difference between a reservoir and a flow. You have seven seconds before we work the answer through together.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching with clear distinctions. Speak chemical names and numerical calculations slowly enough to follow, without artificially stretching delivery. Both voices teach substantively.",
+      "t": "Two times forty five is ninety kilojoules per hour. Ninety thousand joules divided by three thousand six hundred seconds gives twenty five watts. Doubling the stored fuel while keeping that burning rate unchanged doubles the possible duration, assuming all of it remains usable; it does not double the power. That is the candle understood as a working system. Fuel moves through physical stages, atoms rearrange with oxygen, and energy maintains some processes while escaping through others. The shrinking object on the table is one visible part of a much larger exchange with the air."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-22",
+    "spoken_words": 7048,
+    "sha256": "bcd1754a8a2a4645047609157c62efe07430733093185df71e0d57f02138e04a",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.gutenberg.org/cache/epub/14474/pg14474-images.html",
+      "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+      "https://openstax.org/books/chemistry-2e/pages/5-1-energy-basics",
+      "https://openstax.org/books/chemistry-2e/pages/7-5-strengths-of-ionic-and-covalent-bonds",
+      "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+      "https://inchemistry.acs.org/atomic-news/shining-light-on-candles.html"
+    ]
+  }
+}
