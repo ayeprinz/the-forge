@@ -1,0 +1,433 @@
+{
+  "date": "2026-10-07",
+  "title": "[Business & Systems] Why Queues Grow Before You Run Out of Capacity",
+  "summary": "Run a fictional repair workshop through arrival bursts, variable repair durations, backlog recovery, Little's law, a clearly specified M/M/1 model, serial bottlenecks, shared labour, batching, pooled queues, priority rules and rework. Original event schedules and exact numerical comparisons distinguish waiting, service, turnaround and useful output. Five recall pauses with answers and a paper scheduling exercise. Sources actually consulted: Larson and Odoni, Urban Operations Research, section 4.3, https://web.mit.edu/urban_or_book/www/book/chapter4/4.3.html ; MIT 6.02 Lecture 17 (2009), section 17.4.1 on Little's law, https://web.mit.edu/6.02/www/s2009/handouts/L17.pdf ; MIT 1.041 queueing-model slides (2026), selected definitions, stationarity, Little's law, M/M/1 assumptions and derivation, https://web.mit.edu/1.041/www/lectures/L8-queuing-models-2026sp.pdf. No source case studies or passages are reproduced. Bench Street and all worked cases are original hypothetical illustrations; precise queue-model predictions apply only under their stated assumptions.",
+  "instructions": "Begin directly with the workshop problem. Both ash and sage teach new substance. Explain arrivals, capacity and time boundaries before formulas. Preserve model assumptions, fictional-example framing, five seven-second recall pauses and answers. Natural pace, no introductory curriculum lecture, generic motivation or filler. Do not claim real operational outcomes from hypothetical calculations.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "A repair workshop can finish ten straightforward jobs an hour. Eight arrive each hour on average. The owner sees a queue and concludes that somebody must be working too slowly. But those two averages leave out the order of events. Eight jobs arriving together create a different morning from eight jobs arriving evenly. A difficult repair can delay every job behind it. Today we will run a fictional workshop closely enough to see where the waiting comes from, what actually removes it, and why making everybody look busy can make customers wait longer."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Call the workshop Bench Street Repairs. We will simplify its jobs deliberately so the arithmetic stays visible. Some examples have exact six-minute jobs. Others introduce variable service times, and we will say when the assumptions change. The basic questions remain practical. When does a customer's job enter the system? When does somebody begin work? When is the job finished? Those are three different times. A customer can wait an hour for a repair that needs six minutes of work without any individual repair taking an hour to perform."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Suppose a job arrives at nine, reaches a technician at nine eighteen, and finishes at nine twenty-four. Its waiting time before service is eighteen minutes. Its service time is six minutes. Its total time inside this particular system is twenty-four minutes. If the customer then waits two days to collect it, that belongs in a broader measure running from arrival to collection. Neither boundary is automatically wrong. Trouble starts when the owner measures technician time and promises customers a collection time as though the two clocks covered the same journey."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "We also need to distinguish capacity from actual output. With uninterrupted six-minute jobs, one technician has a nominal capacity of ten per hour. If only four suitable jobs arrive, producing four does not demonstrate that capacity has fallen to four. The technician simply lacked more work. Conversely, completing twelve jobs in an unusually easy hour does not establish twelve as a dependable capacity. A useful capacity estimate specifies the mix of work, available time, equipment and necessary checks. Otherwise the attractive number describes an hour that rarely exists."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Start with the cleanest version. Jobs arrive at nine, nine six, nine twelve and nine eighteen. Each takes exactly six minutes, and the technician is ready at nine. Every job starts when it arrives. There is no waiting before service, although the technician works continuously. This matters because full utilisation does not logically guarantee a queue in every imaginable system. Perfectly matched, perfectly regular arrivals can fit perfectly regular service. Our real question is what happens when that alignment breaks, as it usually can in practical work."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Now hold the total workload constant but change the arrivals. Four jobs arrive together at nine. One starts immediately. The others start at nine six, nine twelve and nine eighteen. Their waiting times are zero, six, twelve and eighteen minutes. Add those waits and divide by four: the average wait is nine minutes. Their completion times after arrival are six, twelve, eighteen and twenty-four minutes, averaging fifteen. The technician did exactly the same amount of repair work as before. The customers experienced a different service because the demand arrived in a burst."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "That burst reveals something you cannot store on a shelf. Yesterday's idle technician time cannot be brought forward to serve two customers simultaneously this morning. Spare capacity is tied to when and where it is available. If the owner says there were plenty of quiet hours last week, that does not clear today's nine o'clock queue. Moving some arrivals into those quiet hours might help. Merely averaging the quiet hours together with the rush hides the scheduling problem. The useful unit is often the hour or interval in which the congestion actually occurs."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "We can make the effect sharper. Eight jobs arrive together at nine and each needs six minutes. The last begins after forty-two minutes and finishes after forty-eight. Across the eight jobs, waiting times run from zero to forty-two in six-minute steps, averaging twenty-one minutes. The technician then has twelve minutes free before ten. An hourly report shows only eighty percent utilisation. Every customer after the first still waited. That is the first answer to our opening puzzle: capacity averaged over an hour does not promise immediate service within that hour."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "The owner proposes adding chairs to the waiting area. Chairs may make the experience more comfortable, but they do not change the six-minute repair time or increase simultaneous service. The queue can hold more people without moving any faster. This distinction also appears in an inbox. Increasing storage prevents messages from being rejected, but it does not supply more time to answer them. We should ask separately whether a change improves comfort, prevents lost work, reduces delay or increases completed output. One improvement does not automatically deliver all four."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "To trace jobs precisely, use a simple rule. A job starts at whichever is later: its arrival time or the previous job's finish time. Then add its service duration to get its finish. This assumes one technician, arrival-order service and no interruptions. It is a small scheduling model, not a claim about every workshop. But it lets us turn a vague complaint into a sequence we can inspect. We can identify which job caused a later start and how long the consequences lasted, without calling every delayed technician lazy."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Try four arrivals at minutes zero, four, ten and eighteen, measured from opening. Every service takes six minutes. The first starts at zero and finishes at six. The second has already arrived at four, so it starts at six and finishes at twelve. The third arrived at ten, starts at twelve and finishes at eighteen. The fourth arrives just as the third finishes, so it starts at eighteen and finishes at twenty-four. Waiting times are zero, two, two and zero. Average waiting is one minute, despite exactly twenty-four minutes of service work."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Now change only the second repair from six minutes to twelve. The first still finishes at six. The second runs from six to eighteen, the third from eighteen to twenty-four, and the fourth from twenty-four to thirty. Waiting times become zero, two, eight and six minutes. The average is four minutes. The extra six minutes on one repair adds twelve minutes to total waiting across the later two customers. A delay can be experienced by several people. Counting only the technician's extra minutes misses the customer time affected downstream."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Notice the queue has a memory in this ordinary, practical sense. The difficult job is finished by minute eighteen, yet the fourth customer still waits because earlier work has not caught up. The difficulty is no longer happening, but its consequences remain. That is why asking what is wrong right now can miss why a line exists. The cause might be a delivery burst, a late opening or a fault already fixed. To understand the current queue, reconstruct arrivals and completions over time instead of photographing only the present moment."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Spare capacity provides a way to recover. Imagine an initial backlog of twelve jobs, with new work arriving at eight an hour. If the workshop can actually finish ten an hour while busy, the backlog shrinks at two jobs an hour on average. In this simplified fluid calculation, clearing twelve takes six hours. Dividing twelve by ten gives the wrong recovery estimate because it forgets the eight new jobs entering each hour. If arrivals can be paused completely, the calculation changes. We must say whether we are draining a closed pile or operating with continuing demand."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "If capacity rises to twelve an hour while arrivals stay at eight, the net recovery rate becomes four an hour and the initial twelve-job backlog takes three hours to remove in that same smooth model. That is a useful comparison when considering temporary help. The added technician hours serve both current arrivals and old promises. But it remains an average planning estimate. A lunchtime burst or unexpectedly hard repair can change the actual clearance time. For an exact appointment promise, we would need the particular work ahead, its durations and the available staff schedule."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "And if arrivals rise to eleven while capacity remains ten, a different problem appears. An unconstrained backlog grows by roughly one job an hour in the smooth version. Rearranging the queue cannot solve that continuing imbalance. Real shops have finite space and customers may leave, so an actual queue need not grow forever. Instead the pressure can appear as rejected jobs, abandoned purchases, missed deadlines or overtime. A short visible line may therefore coexist with inadequate capacity when people have stopped joining it. Count demand turned away as well as customers served."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "This is why we should avoid treating utilisation as a moral score. At Bench Street, eighty percent could coexist with a troublesome burst. One hundred percent could work in our perfectly timed toy schedule but leave no room to absorb a delayed start. And a low observed percentage might reflect missing materials rather than ample spare skill. The percentage becomes useful when connected to the process that produced it. Ask which resource was available, what work it could handle, when demand arrived and what prevented an available person from completing it."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "A further distinction is the difference between being employed for eight hours and having eight hours available for these repairs. If a technician spends an hour on required equipment checks and an hour on intake duties, six hours remain for the service we are modelling. At ten jobs per repair hour, that is sixty jobs of nominal daily repair capacity, not eighty. Removing a necessary safety check to improve a utilisation chart would change the quality of the service. Better estimates represent the work honestly before deciding which tasks can be redesigned."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "First recall question. Bench Street starts with twelve jobs waiting. New jobs keep arriving at eight per hour, and completed output while busy is ten per hour. In the smooth planning model, how long does the initial backlog take to clear, and why should you not divide twelve by ten? Think through what is entering while the technician works. The question concerns the backlog disappearing, not merely the service time of twelve isolated jobs with the front door closed. Take seven seconds to work it through.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "The backlog clears in six hours because output exceeds new arrivals by only two jobs per hour. Twelve divided by two is six. Dividing by ten would ignore the incoming work that consumes most of the available capacity. This calculation has already separated two business decisions. Reducing fresh arrivals temporarily speeds recovery even without faster repairs. Increasing capacity also speeds recovery, but only the portion above continuing arrivals clears old work. We can now look at a different question: what an average pile of unfinished jobs tells us about the time customers spend inside it."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Imagine Bench Street operating in a reasonably stable pattern over many comparable days. It completes eight jobs per hour, and a time-based count finds an average of sixteen jobs inside the repair system, including the one being worked on. Average time inside is then two hours. The relationship is called Little's law: average number inside equals throughput rate multiplied by average time inside. Here, sixteen jobs equals eight jobs per hour times two hours. It connects the pile, the flow and the delay, provided we count the same system consistently."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "John Little established a general mathematical result behind this relationship. The useful point for our workshop is that it does not demand that every repair take the same time. We still need meaningful averages and consistent boundaries; the simplest long-run application concerns a stable system. Eight per hour must be the rate of jobs actually passing through the counted system. Sixteen must be its time-average inventory of jobs. Two hours is the corresponding average duration. Substituting the busiest moment's queue length for the time average creates a different calculation that the relationship does not justify."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "We can see the accounting without an advanced proof. Return to four jobs arriving together at opening, each taking six minutes. During the first six minutes, four jobs are inside. During the next six, three are inside; then two; then one. Across twenty-four minutes, that produces sixty job-minutes of accumulated time inside. Count the same experience from the customers' side: their total durations are six, twelve, eighteen and twenty-four minutes, also sixty. We have counted the same occupied time in two different directions."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Divide those sixty job-minutes by the twenty-four-minute observation window and the average number inside is two and a half. Four completed jobs across twenty-four minutes is a throughput of one job per six minutes. Their average duration is fifteen minutes. Multiply one sixth of a job per minute by fifteen minutes and you get two and a half jobs. This exact small example begins and ends empty, which keeps boundary complications out. It explains the accounting intuition; it is not a substitute for every condition in the full theorem."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "The average of two and a half jobs does not mean we ever repaired half a customer's property. A time average can lie between whole-number states. For part of the period there were four jobs, for part there were three, and so on. A fractional average describes those changing observations. The same distinction matters when a manager says a queue was never exactly its reported average. It need not be. We are summarising accumulated exposure over time, not claiming that the average is a photograph somebody should be able to take."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Boundary errors can produce impressive nonsense. Suppose there are sixteen jobs from arrival through collection, but eight repairs completed per hour is measured only during active bench time. The denominator excludes closed hours while the inventory includes overnight storage. Dividing those quantities carelessly does not reveal a reliable collection delay. Use compatible clocks and stages. If you count calendar time, measure throughput per calendar hour over the matching period. If you measure open service hours, explain how overnight jobs and closed periods enter the definition. The unit must describe the experience you intend to improve."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Another error is counting all requests as throughput. Suppose ten customers ask for service each hour, two are turned away immediately, and eight enter the measured repair system. If sixteen jobs are inside on average, the matching entry and completion rate is eight, not ten. The two rejected requests matter commercially, but they did not spend time in the repair queue we counted. If you expand the system to include the enquiry process, measure its population and durations too. A broad business dashboard may need several related systems rather than one misleading total."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Now imagine the owner wants average turnaround inside the repair process to fall from two hours to one while completed throughput remains eight per hour. The matching average work in progress would be eight jobs rather than sixteen. That arithmetic describes the target state. It does not tell us that hiding eight job cards will create it. Jobs cannot disappear from the customer's journey because we remove them from a board. We need an operational change that reduces the actual time they spend waiting, perhaps smoother admissions, quicker handoffs or fewer repeated visits to the bench."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "A strict limit on admitted work can help control the internal pile, but it can also relocate the queue. Suppose customers now wait a day for an appointment before their jobs enter the workshop. Internal turnaround may improve while total time from first request worsens. Track both clocks. An admission limit can still be a sensible way to avoid lost parts and chaotic switching. The honest claim is that it changes how work is released and managed. Whether customers receive a faster service depends on the complete journey, including any wait outside the boundary."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Little's law also helps inspect a claim about productivity. If a team says throughput stayed constant, average work in progress doubled and average time inside halved, those three statements cannot all describe the same stable flow with the same boundaries. Before celebrating, check the measurements. Perhaps the team changed what counts as finished, excluded a waiting stage or compared different months. This is a concrete accounting check on an operating system. We are not asking for a philosophy of evidence. We are asking whether the claimed number of jobs and hours can coexist."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Second recall question. A stable repair process completes six admitted jobs per hour. A time-based count shows eighteen jobs inside on average, including jobs under repair. What is their average total time inside? And if the owner wants that average time to be two hours with throughput unchanged, what average number inside would match the target? Keep hours and jobs separate as you reason. There is no need to know the exact service time of every repair to answer this particular question. Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Eighteen divided by six gives three hours inside on average. At six completions per hour, a two-hour average would correspond to twelve jobs inside. Those are matching averages, not a promise that every repair finishes in exactly three or two hours. Now we can explain why an average can deteriorate steeply as a busy system gets closer to capacity. For that prediction we need more than Little's relationship. We need assumptions about arrivals and service, because a smooth stream and a stream of bursts can share the same average rate."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Consider a deliberately idealised model with one technician. Customers arrive independently at a constant average rate according to a Poisson process. Service times are independent exponential random variables, also independent of arrivals. Everyone joins, waits in arrival order and stays until served; there is unlimited waiting space. The technician works whenever a job is available. These assumptions describe the model called M M one. The letters refer to the memoryless arrival and service assumptions; the one means one server. We use it to calculate a comparison, not to declare that real repairs obey these distributions."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Memoryless is a technical property here. In the exponential service model, knowing that a repair has already lasted a while does not change the probability distribution of the additional time remaining. Real repairs often have visible stages, so a technician may know a job is nearly finished. That would violate this particular service assumption. Similarly, booked appointments are not independent Poisson arrivals when they are deliberately scheduled. Naming the model tells us which calculation we are making. It also stops a precise answer from looking more universal than the assumptions allow."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "In the stable version, the average arrival rate must be below the average service capacity. Its mean total time inside is one divided by the difference between those rates. With capacity ten per hour and arrivals five per hour, the gap is five per hour, so total time averages one fifth of an hour, or twelve minutes. Average service itself is six minutes. That leaves six minutes of average waiting before service. The formula concerns a long-run mean under the model, not a guaranteed wait for the next person entering the shop."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Increase arrivals to eight per hour while leaving average service capacity at ten. The gap is now two per hour. Mean total time becomes half an hour, or thirty minutes. Subtract the six-minute mean service duration and mean waiting is twenty-four minutes. The technician is busy eighty percent of the time in this stable model. Compare that with our earlier eight-job burst, which had twenty-one minutes of average waiting over its own hour. Both examples have eighty percent utilisation, but different arrival and service patterns produce different waiting results."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Increase arrivals again to nine per hour. Capacity still averages ten, leaving a gap of one per hour. Mean total time is now one hour, with fifty-four minutes waiting and six minutes receiving service. At nine and a half arrivals per hour, the gap is half a job per hour, so mean total time reaches two hours. The service duration has not doubled. What expands is the wait around it. Moving from ninety to ninety-five percent utilisation doubles mean time inside this model, even though incoming demand rose by much less than double."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "There is no single magic utilisation target for every operation. A regular, predictable process can behave very differently from a highly variable one. What this calculation exposes is the price of having little recovery room when random congestion occurs. At eighty percent utilisation, the same model has one fifth of its available capacity unoccupied in the long run. At ninety-five percent, only one twentieth is free. A burst is harder to absorb when incoming work consumes almost all subsequent service opportunities. The apparent efficiency gain comes with a potentially large delay cost."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Suppose our eight-arrivals-per-hour model improves average service from six minutes to five. Capacity rises from ten to twelve jobs per hour. The gap between service capacity and arrivals becomes four, so mean total time falls to a quarter hour, fifteen minutes. Waiting becomes ten minutes after subtracting the five-minute service mean. A one-minute reduction in average service has reduced average total time by fifteen minutes in this comparison. That disproportionate effect is a queueing effect. It depends on the specified model and on the improvement preserving the service quality and assumptions."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "We should not obtain that minute by simply declaring jobs finished earlier. If a rushed repair comes back, some apparent capacity has been borrowed from the future. Nor should we use the thirty-minute model mean as a thirty-minute promise to every customer. A mean permits both shorter and longer experiences, and the shape of the delay distribution matters for reliability. We can report a typical average while separately measuring how often a promised deadline is met. Designing a service means deciding both how much output it produces and what range of experiences customers receive."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Bench Street is more than one technician, so let us restore some of the work we initially removed. Every admitted job needs intake, repair and final inspection, in that order. Suppose separate dedicated resources can handle twenty, ten and fifteen jobs per hour respectively. With the right work always available, the repair stage limits the long-run rate to ten per hour. Adding intake capacity alone cannot make the same three-stage line complete twenty. All completed jobs must still pass through a stage that can only supply ten under our assumptions."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "At an arrival rate of eight per hour, those three resources have different nominal loads. Intake needs forty percent of its capacity, repair needs eighty percent, and inspection needs about fifty-three percent. Calling the intake worker inefficient because they are less occupied than the technician misunderstands the arrangement. The resources do different amounts of work per job. If management forces intake to release twenty jobs per hour merely to demonstrate activity, the repair queue grows. Finished output remains limited downstream while more customer property accumulates between the stations."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Suppose an improvement raises repair capacity from ten to sixteen per hour. Inspection, at fifteen, becomes the limiting stage. The line's nominal ceiling is now fifteen, not sixteen or twenty. This is a moving constraint. Once one limitation is relieved, another can determine the result. We would inspect the entire route before buying another repair bench. A project that made sense while repair was slow may deliver little additional finished output after inspection becomes the restriction. Capacity should be attached to the complete service the customer buys, rather than the most visible machine."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "The nominal ceiling is not guaranteed output. If repaired jobs reach inspection in irregular waves, inspection may alternate between waiting for work and facing a pile. If a tiny storage area fills, repair may be unable to release a finished item and start the next. Those effects are often called starvation and blocking: a stage lacks input, or cannot pass its output onward. Our simple minimum-of-capacities calculation gives a useful upper limit for dedicated serial stages. Coordination, variability and available storage determine how close the actual process can get to it."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Now consider a tempting staffing shortcut. Intake takes three minutes per job and repair takes six. If one person does both, we cannot treat their capacities of twenty and ten per hour as independent and claim ten completed jobs per hour. Each job uses nine minutes of that same person's time before inspection. With no other work or overlap, the combined capacity is sixty divided by nine, about six and two thirds per hour. Sharing a person across stages creates a shared resource constraint. Separate boxes on a process diagram do not create separate hours."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Cross-training can still help when it allows a person with genuine spare time to assist a constrained stage. But the details decide the effect. Can they perform the work to the required standard? Do both stages become busy simultaneously? How much time is lost moving tools or handing over a half-finished repair? Suppose helping inspection for twenty minutes also removes twenty minutes of needed intake at the rush. We may simply move the delay. Count the shared person's allocation through the day, rather than assigning their full hour to several capacity calculations at once."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Equipment changes introduce another tension: batching. Imagine a label printer that takes twelve minutes to set up for a particular label type, then one minute to print each job's labels. If we process one job per setup, the printer uses thirteen minutes per job. For a batch of six, it uses eighteen minutes altogether, averaging three minutes per job. The equipment becomes much more productive because the setup is shared across six jobs. A larger batch can therefore improve processing efficiency even though customers may wait while the batch is assembled."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Trace that assembly wait separately. Six jobs arrive at ten-minute intervals, beginning at minute zero. If printing starts only after the sixth arrival at minute fifty, the first job spends fifty minutes waiting just for the batch to form. The others wait forty, thirty, twenty, ten and zero minutes. Average batch-formation wait is twenty-five minutes, before setup or printing starts. This illustrates why a lower processing time per item can coexist with a longer customer journey. We have improved one component and added another, so we must calculate the whole route."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "There are intermediate policies. The printer could start when six jobs are ready or when the oldest has waited a chosen maximum, whichever happens first. That sacrifices some setup efficiency during quiet periods to limit accumulation. Another possibility is reducing the setup itself, perhaps by preparing label templates before the printer is needed. We would first verify which setup actions really require stopping the equipment. The business choice involves arrival patterns, setup costs, deadlines and available alternatives. Neither always batch nor never batch follows from the arithmetic alone."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Third recall question. A shared worker performs three minutes of intake and six minutes of repair for each job, with no overlap or other duties. What is their combined hourly capacity? Then consider our separate printer: six jobs arrive ten minutes apart and printing waits for the sixth. How long does the first job wait for the batch to form? These are different causes of delay, shared labour and deliberate accumulation. Work through each rather than trying to solve both with the same queue formula. Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "The shared worker spends nine minutes per job, so the combined capacity is six and two thirds jobs per hour. The first printer job waits fifty minutes for the sixth arrival. The first answer counts a person's limited available time. The second follows the release rule imposed on a group of jobs. Both could be obscured by an impressive machine specification. Buying a faster printer would not remove the fifty-minute wait before it starts, and buying another intake desk would not give the shared worker more than one hour in an hour."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Now give Bench Street two equally skilled technicians. One question is whether each should have a separate line. Picture a snapshot where the first technician is idle, while two jobs wait behind a long repair at the second bench. If every job can be handled by either person, that arrangement wastes an immediate opportunity to serve someone. A shared queue lets the next waiting job go to the next available technician. We have not increased total equipment or labour. We have changed the assignment rule so available capacity can reach waiting work more readily."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Let us calculate a tiny version rather than claiming a universal improvement. Four jobs arrive together. Their service durations, in arrival order, are twelve, six, six and six minutes. With a shared queue and two available technicians, the first two start immediately. At minute six, the shorter repair finishes and the third begins. At minute twelve, both benches become free and the fourth begins. Waiting times are zero, zero, six and twelve minutes. Total waiting is eighteen minutes, averaging four and a half. The final job finishes at minute eighteen."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Compare a fixed assignment that places the first three jobs at one bench and the fourth at the other. At the crowded bench, starts occur at zero, twelve and eighteen. At the other bench, the fourth starts at zero and finishes at six. Waiting times in the original arrival order are zero, twelve, eighteen and zero. Average waiting is seven and a half minutes, and the last completion occurs at minute twenty-four. The second bench is idle while work remains elsewhere. This particular assignment loses the benefit of moving compatible work across the two benches."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Compatibility is the condition that matters. If the long repair requires a specialist and the other worker cannot do the queued jobs, drawing one shared line on the floor will not create the missing expertise. Some tasks also need different equipment, languages or permissions. Pooling can introduce handoff costs or make customers lose a preferred specialist. We should distinguish a preventable assignment mismatch from a genuine skill constraint. The little example proves what happens under its stated capabilities, not that centralising every queue is always the best organisational design."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Next, keep one technician and ask who should go first. Three jobs are ready together, taking twelve, three and three minutes. In arrival order, with the long job first, waiting times are zero, twelve and fifteen minutes. Average waiting is nine minutes. If we deliberately put both short jobs first, the waits become zero, three and six, averaging three minutes. Total service work is still eighteen minutes, and the final completion is still at minute eighteen. Changing order improved the average without improving the time at which all three jobs were finished."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "That average hides a tradeoff. The long job starts immediately under the first rule but waits six minutes under the second. If short jobs keep arriving and always jump ahead, a long job may wait much longer than the original three-job example suggests. Service order distributes delay among customers. The shortest-job rule in this simple known-duration batch minimises average waiting, but fairness, deadlines and uncertainty can justify another rule. We cannot infer the right policy from an average alone, especially when the people paying the cost differ from those receiving the improvement."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "A deadline can change the objective again. Suppose a six-minute job must finish within eight minutes, while two three-minute jobs can finish much later. Doing the short jobs first would finish the urgent job at minute twelve and miss its deadline. Doing it first meets the deadline at minute six. Average waiting is one possible target; meeting a specific commitment is another. A workshop should say which target drives its queue and when an exception is allowed. Otherwise staff improvise priorities under pressure and customers receive inconsistent explanations for why someone else went ahead."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Pre-emption adds a further choice: whether an urgent arrival can interrupt a repair already underway. With computer tasks, work may sometimes pause and resume cheaply. With a dismantled device on a bench, switching can require safe storage, documentation and later reassembly of context. If the switch takes time, it consumes capacity rather than merely redistributing it. Our earlier schedules assumed each job continued until finished. Before adopting a jump-the-queue rule, establish whether it changes only the next start or actually interrupts current work, and include the cost of that interruption."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "One practical policy is a clearly defined urgent category alongside arrival-order service for ordinary jobs, with an explicit limit on how much urgent work is accepted. Another is increasing priority as a job gets older so it cannot be overtaken forever. These are design options, not formulas guaranteeing fairness. At Bench Street, the chosen policy should match promised deadlines and real capabilities, and staff need authority to explain it. If every job is labelled urgent, the label stops allocating anything. It becomes a noisy second queue with the same capacity problem underneath."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "We have treated completion as final, but repairs sometimes return. Suppose eight new jobs enter during an hour and each needs six minutes of original bench work. That is forty-eight minutes. Two previously completed jobs also return and each requires three minutes of correction. Total bench demand is fifty-four minutes, or ninety percent of the hour. A dashboard counting only new jobs would show forty-eight minutes and eighty percent. The technician experiences the extra work regardless of which reporting category contains it. Rework competes for the same available minutes as new promises."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "The correct response is not automatically to work faster. If a missing diagnostic check caused the two returns, a better first pass might reduce future demand on the bench. But a new check also takes time, so calculate both sides. In a deliberately simplified comparison, adding half a minute to each of eight new jobs costs four minutes. If that change reliably prevents both three-minute corrections associated with such a group, it saves six minutes later, a net saving of two. That is a hypothesis about this process, not evidence that any arbitrary extra check pays for itself."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Timing still matters in that comparison. Today's check consumes time now, while avoided corrections may have occurred tomorrow. A useful evaluation follows comparable groups through completion and the period in which returns usually appear. If we inspect only today's new completions, the careful method might look slower before its benefit arrives. If we count every repeat visit as another successful job, the careless method might even appear more productive. Define useful output in a way that matches what was promised, while separately recording the visits and minutes needed to achieve it."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Different job sizes can also distort the picture. Ten simple repairs are not necessarily more productive than six difficult repairs if the difficult ones require twice as much legitimate work. For planning, classify jobs into a few meaningful types and measure their service requirements. Avoid pretending that a single average remains fixed while the mix changes. A promotion that attracts unusually complex work can overload the specialist bench even when the number of customers stays constant. In that case, the arrival count is unchanged but the arrival rate of required labour has increased."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Think of demand in minutes as well as jobs. Four jobs needing three minutes each plus four needing nine minutes each require forty-eight minutes altogether. The average is six minutes per job. If next week all eight jobs need nine minutes, they require seventy-two minutes. The count remains eight, but one technician cannot perform seventy-two minutes of non-overlapping work inside sixty minutes. This is a workload imbalance even before random variation enters. It can be addressed through timing, scope, capacity or acceptance decisions, but an unchanged customer count does not make the old schedule feasible."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Reliability needs its own measurement. Suppose ten fictional customers spend these total times inside: eight spend six minutes each, one spends thirty minutes and one spends sixty. Total customer time is one hundred and thirty-eight minutes, so the mean is thirteen point eight. The median is six because the middle observations lie among the eight short experiences. A manager reporting only the median could miss the sixty-minute experience. A manager reporting only the mean could make most visits sound longer than they were. Both summaries describe the same observations, but answer different questions."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Fourth recall question. In that ten-customer sample, eight visits take six minutes, one takes thirty and one takes sixty. If the promise is completion within fifteen minutes, what fraction met it? And does a mean below fifteen minutes prove that the promise was met for everyone? Focus on individual outcomes against the promise, not just the average of all durations. This is how a service target differs from an average-time target. Take seven seconds to work out the proportion and what the mean can actually establish.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Eight of ten customers met the fifteen-minute promise, so the observed success rate is eighty percent. The mean of thirteen point eight minutes does not mean everybody finished within fifteen. Two did not. With only ten fictional observations, we also would not claim a dependable long-run service level. The example shows which measurement answers the question. In real use, collect enough representative observations across quiet and busy conditions, report how many were measured, and keep unusually slow cases visible rather than removing them merely because they spoil the average."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "A queue snapshot can miss customers who never enter the data. Imagine twenty people request service, five hear the quoted delay and leave, and fifteen enter. A report of waiting times for those fifteen describes admitted customers. It says nothing by itself about the five who declined. If a new admission policy cuts measured waits by rejecting more people, that may be an intentional tradeoff, but the improvement should not be presented as costless. Record enquiries, admissions, completions and departures separately enough to explain what changed. The complete business outcome includes work lost as well as work finished."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Appointments reshape arrivals, but they do not eliminate uncertainty. If six jobs are booked for nine, calling the system appointment-based has not removed the burst. Spacing starts can help match expected work to capacity, while longer slots for known complex jobs may reduce predictable overruns. Late arrivals and unexpected faults still create disruption. A workable schedule needs a policy for those events: perhaps a limited recovery slot, an updated completion estimate or an alternative appointment. The right provision depends on the observed pattern, rather than a universal instruction to leave every fourth slot empty."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Temporary staffing should also follow the timing of the shortage. Suppose the shop receives sixteen jobs per hour for the first hour and only four per hour for the second, while one technician can complete ten. In a smooth model, the first hour adds six jobs to the backlog. During the second, spare capacity is six per hour, so that backlog clears by the end. The two-hour average arrival rate is ten, exactly equal to capacity. Yet the first-hour customers still experience congestion. Staff available only after closing would not change their morning experience."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "If suitable temporary help adds six jobs per hour of capacity during the busy first hour, that fluid-model backlog need not form. The same help during the quiet second hour would clear accumulated work faster but would not undo time already spent waiting. This is why a staffing plan needs an arrival profile, not just a daily total. Real jobs are discrete and variable, so actual waiting would still need checking. The comparison isolates the timing effect: capacity placed before or during the shortage can prevent delay that later capacity can only stop from continuing."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "We can now give Bench Street a coherent improvement proposal. First, define turnaround from accepted job to verified completion and also track time from first request. Second, log arrival, start, finish, job type and any return. Third, inspect where time accumulates: before repair, while awaiting a batch, or at inspection. Then choose a change tied to that location. A shared queue addresses assignment mismatch. A smaller release batch addresses batch formation. Temporary help addresses a timed capacity gap. Each intervention has a mechanism we can describe and an outcome we can measure."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "The owner should compare completed service, turnaround and quality together. Suppose the repair queue shrinks but returns increase; the apparent speedup may have moved work into next week. Suppose internal turnaround improves while appointment delay rises; the wait may have moved outside the measured boundary. Suppose intake staff become busier but finished output stays flat; more work may simply be accumulating before repair. These are concrete alternative explanations for a changed dashboard. They tell us which additional timestamps or counts to inspect, rather than demanding a large abstract audit before every small improvement."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "For a low-risk application, use paper cards rather than real customers. Make five imaginary jobs. Their arrival times, in minutes from opening, are zero, two, seven, twelve and twenty. Their service durations are five, five, eight, four and three minutes. Use one worker, arrival-order service, no interruptions and no setup time. On each card write arrival, start and finish. Remember the scheduling rule: start at the later of arrival and the previous completion. This is enough to build a complete queue history without buying software or changing anyone's actual commitments."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Here is the first pass. Job one runs from zero to five. Job two arrived at two, so it runs from five to ten. Job three arrived at seven and runs from ten to eighteen. Job four arrived at twelve and runs from eighteen to twenty-two. Job five arrived at twenty and runs from twenty-two to twenty-five. The waits are zero, three, three, six and two minutes. Add them to get fourteen minutes of waiting across the five jobs. Dividing by five gives two point eight minutes of average waiting before service."
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Now alter one thing on the cards. Give the third job a four-minute service instead of eight while keeping arrivals and all other durations fixed. The first two jobs still finish at five and ten. The third now finishes at fourteen, the fourth at eighteen, and the fifth still cannot start before its arrival at twenty. It finishes at twenty-three. The worker is idle from eighteen to twenty. We reduced one service by four minutes, but the final completion moved earlier by only two because the last job was not yet available."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Fifth recall question. Compare those two paper schedules. Originally the waits were zero, three, three, six and two minutes. After shortening the third service, what are the new waits for the fourth and fifth jobs? What happens to total waiting across all five? And why does the final completion improve by only two minutes rather than four? You can reason from the finish times we just traced. The fourth can start at fourteen; the fifth arrives at twenty. Take seven seconds before we check the answer.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "The fourth arrived at twelve and now starts at fourteen, so it waits two minutes. The fifth starts at its arrival time of twenty and waits zero. The first three waits remain zero, three and three. Total waiting falls from fourteen minutes to eight, a six-minute reduction spread across the later jobs. The final completion moves from twenty-five to twenty-three because two minutes of the faster service become idle time before the fifth job arrives. Faster work has different effects on total waiting, final completion and worker occupancy. Those measures need not move by the same amount."
+    },
+    {
+      "v": "sage",
+      "i": "Engaged, natural teaching. Both voices explain substantive ideas. Speak numerical steps clearly with conversational phrasing, without artificial slowing. Treat Bench Street as an explicitly fictional worked example. Preserve the recall pauses.",
+      "t": "Keep the cards and test a second change separately: add another worker, shift an arrival or change the service order. Write down which assumption you changed and count who benefits, who waits longer and when the final job finishes. Then choose one harmless personal queue, such as a set of practice tasks, and draw its actual stages before changing it. The useful question is specific: where does work wait, and what prevents it from moving? Bench Street becomes easier to manage when those minutes are visible, because each proposed fix can be tied to the delay it can actually remove."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-23",
+    "spoken_words": 7336,
+    "sha256": "77b248330fd95c124afd214a716d6286669ba3e157138a22c89ee0bc92785ddc",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://web.mit.edu/urban_or_book/www/book/chapter4/4.3.html",
+      "https://web.mit.edu/6.02/www/s2009/handouts/L17.pdf",
+      "https://web.mit.edu/1.041/www/lectures/L8-queuing-models-2026sp.pdf"
+    ]
+  }
+}
