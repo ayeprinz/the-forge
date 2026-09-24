@@ -1,0 +1,433 @@
+{
+  "date": "2026-10-09",
+  "title": "[Practical Geography] How to Read a Map Beyond the Blue Dot",
+  "summary": "Original fictional park and paper exercises develop scale arithmetic, distance versus route length, local coordinates, contour geometry, ascent, gradients, bearings and route networks. Five recall pauses with answers and a desk-based map exercise. Selected source material consulted: Ordnance Survey Map Reading, sections on scale, grids, contours and compass references, https://www.ordnancesurvey.co.uk/documents/resources/map-reading.pdf ; USGS Topographic Mapping, topographic-map and scale discussion, https://www.usgs.gov/educational-resources/topographic-mapping ; Ordnance Survey explanation of true, grid and magnetic north, https://www.ordnancesurvey.co.uk/news/three-norths-align-great-britain. Historical production details and old magnetic correction values are not presented as current. All park locations, route lengths, access conditions, travel rates and event timings are invented teaching examples, not actual navigation or accessibility advice. No full-book coverage claimed.",
+  "instructions": "Begin directly with the café and river example. Teach original worked geometry and practical map interpretation. Both voices contribute explanations. Distinguish the separate miniature café example, local metre grid and invented kilometre grid. All route and rate assumptions are hypothetical. Preserve five seven-second recall pauses and answers. Do not imply phone accuracy, real access conditions, current magnetic variation or mastery. No artificial slowing or filler.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "A café sits two hundred metres from a railway station, but the walk between them is nearly a kilometre. Nothing strange has happened to the metres. A river separates the buildings, and the nearest bridge is farther along the bank. A map can tell you both facts, provided you ask it two different questions. How far apart are the places, and what route actually connects them? Today we are going to build those questions into a working picture of a place, using distance, height, direction and connections."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Our place is fictional: Larch Park, with a station at its southern entrance, a café beside a lake, a bridge and a hilltop pavilion. We can change its paths without misleading anyone about a real journey. Start by imagining a view from directly overhead. The page records positions across the ground. It does not automatically tell you how long a trip takes, what every surface feels like, or whether a gate is open. Those are additional pieces of information that we will connect to the drawing as the park takes shape."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "First put the station at the bottom of your imaginary page and a north arrow pointing towards the top. The café is above and to the right. That makes it northeast of the station in this drawing. Now rotate the page clockwise. The café might appear lower on your desk, but it has not moved south in the world. The north arrow moved with the paper. This is the first useful distinction: page direction and geographical direction are separate. A map can be printed with any edge uppermost if its reference directions are clear."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "A phone can make that separation harder to notice because the whole map may turn as you change direction. With north fixed at the top, your movement arrow rotates. With your heading fixed at the top, the surrounding streets rotate. Both presentations can work, but switching between them without noticing creates imaginary turns. Suppose your route continues east and the screen rotates to put east above you. Continuing towards the top now means east. Read the north indicator before translating an upward screen movement into a northward journey."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "The shapes need a shared language too. On our drawing a blue line represents a stream, a solid black line represents a paved path, and a dotted black line represents a gravel path. We have invented those conventions and must state them in a legend. A dotted line on some other map might mean a boundary or something else entirely. Colour and appearance alone do not establish meaning. Once our legend is explicit, however, we can distinguish crossing a stream from simply crossing another path without writing a sentence beside every line."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Symbols also have physical width on paper. Imagine that we draw a path with a line half a millimetre thick. At some scales that ink would cover several metres of ground. It would be a mistake to measure the ink's width and declare that the actual path is equally wide. The line communicates the path's position and category. A detailed engineering drawing could record its measured edges, but our general park map does not. Knowing whether a feature is a symbol or a scaled outline prevents a surprisingly large number of bad measurements."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Now give the map a scale of one to ten thousand. One unit on paper represents ten thousand of the same units across the ground. A centimetre therefore represents ten thousand centimetres. Divide by one hundred to convert centimetres into metres, and we have one hundred metres. If the station and pavilion are six centimetres apart on this correctly printed map, their horizontal separation is six hundred metres. The ratio itself is unitless. The conversion works because we begin with matching units, then change units explicitly afterwards."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Try that same six centimetres on a map at one to twenty-five thousand. Each centimetre represents two hundred and fifty metres, so six represents fifteen hundred metres. Nothing about the number six makes it a particular real distance. Its meaning depends on the scale. An easy checking habit is to work out the distance represented by one centimetre before multiplying. That keeps the zeros from getting loose. At one to fifty thousand, one centimetre represents five hundred metres, and our six-centimetre measurement would represent three kilometres."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Mapmakers call one to ten thousand a larger scale than one to fifty thousand. That sounds backwards if you focus on the denominator. Think of the fractions instead: one ten-thousandth is larger than one fifty-thousandth. A building occupies more space on the larger-scale sheet, so there is more room to show its shape and surroundings. On a page of fixed size, the trade-off is coverage. You can fit a smaller piece of the world in greater detail, or a larger piece with less room for individual features."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Let's calculate that trade-off for a square panel twenty centimetres wide. At one to ten thousand it covers two kilometres across. At one to fifty thousand it covers ten kilometres across. If the panel is square, the first area is four square kilometres and the second is one hundred. The width changed by a factor of five, while the area changed by a factor of twenty-five. This matters when you compare maps for a district survey. Five times as much distance along each edge gives much more than five times as much territory."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "A screenshot complicates the printed ratio. Suppose the original one-to-ten-thousand map is enlarged until every length is twice as large. A feature that occupied one centimetre now occupies two, although its real distance remains one hundred metres. The effective printed scale has become one to five thousand. The old ratio label is still visible, but it no longer describes the new physical size. A scale bar that enlarges together with the actual map can still work: its labelled distance and drawn length changed together as a matched pair."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "That is why measuring a screenshot with a ruler against an old ratio can produce a precise-looking wrong answer. Use its scale bar if it remains attached to the same uniformly resized map. If the image has been stretched differently in width and height, even a single bar cannot describe both directions. For our park exercise we will keep a correctly scaled drawing. On an interactive map, zooming usually changes the distance represented by a screen centimetre, so check the current scale display when you change zoom rather than carrying yesterday's measurement forward."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Here is our first recall question. On a correctly scaled map at one to twenty-five thousand, two places are four centimetres apart in a straight line. What horizontal distance does that represent? And does that calculation establish the length of the available walking route? Work through the units, then separate the two questions.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Four centimetres represents one hundred thousand centimetres, which is one thousand metres, or one kilometre. That gives the mapped straight separation. The available route may curve, cross at a bridge, or go around a barrier. It needs its own measurement. In a separate miniature drawing of the opening café example: at one to ten thousand, two hundred metres occupies two centimetres. A route nine hundred metres long occupies nine centimetres when its pieces are measured along the path. Both measurements can be correct on the same map."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Measuring a curved route means adding lengths along it. For a gentle bend you can lay a strip of paper against several short sections, mark successive distances, then compare their total with the scale. Another approach is to approximate the curve with short straight segments. Longer segments cut across bends and usually underestimate the path they replace. Shorter segments follow the shape better. There is a sensible limit, though: measuring tiny wiggles in a thick printed line does not recover detail that was never represented accurately in the first place."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Imagine the route has three measured sections of two and a half, three, and three and a half centimetres. At our one-to-ten-thousand scale they represent two hundred and fifty, three hundred, and three hundred and fifty metres. Together that is nine hundred metres. Keeping the sections separate helps more than just arithmetic. If the bridge on the middle section closes, we know which connection failed. We can replace that section and preserve the others, instead of treating the whole route as one mysterious number produced by an app."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Position needs its own address. For Larch Park we will use a simple local grid, not a real national coordinate. Set an origin at the southwest corner and measure east and north from it in metres. The station is at two hundred east and one hundred north. The café is at five hundred east and five hundred north. Subtracting station coordinates from café coordinates gives three hundred metres east and four hundred north. The order matters: the first value describes eastward position and the second northward position throughout this local system."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Those changes form the sides of a right triangle. Three hundred squared plus four hundred squared equals two hundred and fifty thousand square metres. Taking the square root gives a straight distance of five hundred metres. This is the familiar three-four-five triangle scaled up. Walking three hundred metres east and then four hundred north would instead cover seven hundred metres. Again, coordinates let us calculate displacement between endpoints, while the route determines distance travelled. A path could follow the diagonal, the two sides, or a much longer sequence of bends."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "The same coordinates only identify a place after we identify the grid. Five hundred east and five hundred north in Larch Park is not the same address in another park with a different origin. You need the reference system, units and order. National mapping systems make those conventions much more extensive, but the communication problem is similar. A bare string of numbers can look authoritative while missing the information that makes it interpretable. If two people use different origins, carefully repeating the numbers does not repair the mismatch between their maps."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "On British Ordnance Survey maps, eastings precede northings, and letter prefixes distinguish large grid squares. Four-figure references identify kilometre squares; six-figure references narrow that to hundred-metre squares. That convention is described in the map-reading guide listed in our notes. We will practise that convention on a separate invented kilometre grid rather than give a real-world location. If we call a square thirty-two east and forty-seven north, a feature four tenths across and six tenths up would be described with the easting group three-two-four and northing group four-seven-six."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Notice what that six-figure description did. It divided a kilometre square into ten columns and ten rows, leaving a hundred possible smaller squares. It did not identify a mathematical point with zero size. If a café occupies only part of one smaller square, you may still need its name or entrance position to make a meeting unambiguous. More digits can communicate finer resolution, but only when they come from a measurement or map detailed enough to support them. Extra digits invented by guessing merely decorate the uncertainty you already had."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Suppose a location is measured to roughly the nearest twenty metres, and a computer displays its coordinates with centimetre digits. The display has finer numerical resolution than the original measurement. It has not created centimetre accuracy. We can make the distinction tangible with a target: accuracy concerns closeness to the actual location; repeated readings clustered tightly together concern consistency. A device can repeatedly place you on the wrong side of a fence. A tidy cluster is useful information, but it does not prove that the fence crossing is real."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Boundaries of grid squares can also trip people. If a feature lies just short of the next hundred-metre line, rounding its position upward may assign it to the neighbouring square. A square reference identifies the containing cell, so its lower boundaries matter. On our local grid, a point at three hundred and ninety metres east lies in the three-hundred-to-four-hundred strip. Calling its containing strip four hundred because it is closer to that line changes the cell. A rounded coordinate and a cell identifier answer different questions and should be labelled accordingly."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "We can use that distinction for an event map. A volunteer may be assigned to search an entire square, while a delivery driver needs a particular gate. The broad cell is enough for dividing work. It is inadequate for selecting one entrance among several. Matching resolution to the job is practical, not just mathematical. For Larch Park, the café building covers a small area, but its delivery entrance faces west and its public entrance faces south. A building pin alone does not specify which entrance a van should approach."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Here is the second recall question. In our local grid, the station is two hundred metres east and one hundred north. The café is five hundred east and five hundred north. How far east and north does the position change? What is the straight distance between them? And what essential piece of information would be missing if we sent those coordinates without naming the grid?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "The changes are three hundred metres east and four hundred north. Pythagoras gives a straight distance of five hundred metres. Without naming the grid, its origin and conventions are unknown, so the coordinate pair does not uniquely communicate this location. Our imaginary map has now acquired reliable horizontal relationships. We still cannot tell whether the café stands above the station or below it. To describe that third dimension on a flat page, we need height information that remains distinct from the east and north distances we have just calculated."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "A contour joins locations at the same elevation. Think of a smooth model hill sliced horizontally at regular height intervals, then viewed from above. The outlines of the slices can represent the hill without a side drawing. The United States Geological Survey describes contours as a defining feature of topographic maps. Our imaginary hill will have a ten-metre interval. One line marks one hundred metres, the next one hundred and ten, then one hundred and twenty. The interval describes vertical change between levels, not distance across the page."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Put the one-hundred-metre and one-hundred-and-ten-metre lines far apart on the western side of the hill and close together on the eastern side. Each pair still represents the same ten-metre rise. The eastern side achieves that rise in less horizontal distance, so its slope is steeper. This comparison depends on keeping both the contour interval and horizontal scale consistent. A dense patch of lines on one map cannot automatically be compared with a sparse patch on a different map if the height intervals or scales differ."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Let's turn the pattern into arithmetic. On our correctly scaled one-to-ten-thousand map, adjacent contours are two centimetres apart along a line up the western slope. That represents two hundred horizontal metres for ten vertical metres. Rise divided by horizontal run is ten over two hundred, or five percent. On the eastern slope the same vertical interval spans half a centimetre, representing fifty horizontal metres. Ten divided by fifty is twenty percent. We now have a reason, expressed in measurements, for preferring one approach if steepness matters to the route."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Five percent does not mean five degrees. Percentage gradient is rise divided by horizontal distance, multiplied by one hundred. An angle uses a different relationship. A forty-five-degree slope rises as much as it runs horizontally, giving one hundred percent. We do not need a trigonometric table for today's map, but we do need to keep the labels honest. A sign stating a percentage and a drawing labelled in degrees cannot be compared by reading the numbers as though they used one common unit. The names attached to numbers carry real information."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Also ask which direction your slope measurement follows. The shortest spacing between nearby contours approximates the steepest direction on smooth ground. A path crossing them at a slant covers more horizontal distance for the same rise. A switchback uses that geometry: it lengthens the path to spread elevation gain over more distance. It does not erase the gain. In our park, a straight approach might climb forty metres over two hundred horizontal metres, while a winding approach climbs the same forty over eight hundred. Their average gradients are twenty and five percent respectively."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Average deserves attention there. A path can average five percent while including a short steeper section and a long flat section. If the job is to choose a route for a wheeled trolley, the steepest short section, steps, surface and width may matter more than the average. Our map can identify a likely concern, but its ordinary contours cannot certify accessibility. We would need detailed route information. We should carry that distinction into the fictional event plan: a promising candidate route is not yet a confirmed usable route for every participant."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Another trap is confusing elevation with climbing. Suppose the station is one hundred metres above the map's height reference and the pavilion is one hundred and forty. Their net difference is forty metres. But the route first climbs to one hundred and sixty, descends to one hundred and twenty, then climbs to one hundred and forty. The upward portions are sixty and twenty metres, for eighty metres of ascent. The descent is forty. Eighty up minus forty down produces the forty-metre net change between endpoints, with twice that amount of actual uphill gain."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "A return journey makes this even clearer. Start and finish at the same station and the net elevation change is zero, however many hills you climbed. Adding only final elevation minus starting elevation would declare every closed walk flat. Instead, break the elevation profile into rising and falling pieces, then add the rises separately. Digital estimates can be noisy, so tiny artificial ups and downs should not be mistaken for real climbing. Our fictional profile uses deliberate, clearly specified points. Its ascent is a calculation from that model, not a survey of an actual path."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "We can draw the profile without making a three-dimensional model. Put distance along the route on a horizontal axis and elevation on a vertical axis. Mark the height at each contour crossing, plus known spot heights, and connect the estimates sensibly. The resulting side view shows the order of climbs and dips. It answers a different question from the overhead map. The overhead view explains where the route goes; the profile explains how its elevation changes along the journey. Both views describe the same route, but each makes different relationships easier to see."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Be careful with the appearance of that side view. If one centimetre vertically represents ten metres, but one centimetre horizontally represents one hundred metres, vertical changes are exaggerated by a factor of ten. The hill will look much steeper than its real geometry. That can be useful for making gentle changes visible, as long as the axes are labelled. You cannot measure the angle of the drawn line and call it the real slope. To calculate gradient, return to the represented rise and run rather than judging the picture's dramatic appearance."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Closed contours need numbers before interpretation. Rings with elevations increasing inward suggest a hill. But a closed outline alone does not establish that the middle is higher. Depressions can also produce closed contours, and maps may add special marks to distinguish them. Our pavilion hill has rings at one hundred and twenty, one hundred and thirty, and one hundred and forty metres, with a marked summit at one hundred and forty-six. The summit is above the last ring without requiring another full ten-metre contour. Do not round it up to one hundred and fifty."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "A contour interval also limits what small features it can reveal. Between the one-hundred-and-thirty and one-hundred-and-forty levels, the surface may be irregular. A short step or shallow ditch can exist without creating another complete contour. If our sketch assumes smooth ground, say so. With a real map, lack of a contour crossing is not proof of perfectly level, obstacle-free terrain. This is especially important when reading a route through a built environment. A staircase may occupy too little space to be explained by ordinary elevation lines at that scale."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Here is the third recall question. A route starts at one hundred metres, climbs to one hundred and sixty, falls to one hundred and twenty, and ends at one hundred and forty. What are its total ascent and net elevation change? Separately, what is the average percentage gradient for a ten-metre rise over two hundred horizontal metres?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Total ascent is eighty metres: sixty on the first climb and twenty on the second. Net elevation change is forty metres. The separate slope example has a five-percent average gradient, because ten divided by two hundred is five hundredths. Those calculations tell us three different things: accumulated climbing, final height relative to the start, and rise per horizontal distance. Keeping them separate lets us compare routes without accidentally substituting an easy endpoint subtraction for all the ups and downs that happen between the endpoints."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Direction adds another numerical language. For the rest of our paper exercise, bearings are measured clockwise from the north direction of our local grid. North is zero degrees, east ninety, south one hundred and eighty, and west two hundred and seventy. A full turn is three hundred and sixty degrees, which returns to north. A bearing of forty-five degrees lies halfway between north and east. Stating the reference direction is essential, because an angle without its starting line does not tell someone where to point."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Imagine standing at a junction with a path due east and another due south. Their bearings are ninety and one hundred and eighty degrees. If you arrive facing west, your body-relative left and right are different from those of a person facing east at the same junction. Bearings avoid that ambiguity by using a shared external reference. But they do not identify a destination by themselves. Several places may lie along the same direction at different distances. To specify a position from a known starting point, you need both direction and distance."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Here is a small construction. Put a point at the centre of a sheet and draw a north arrow vertically upward. A point two centimetres directly to its right lies on an eastward bearing. At one to ten thousand, that is two hundred metres away. A second point four centimetres to the right lies on exactly the same bearing but twice as far away. Direction alone cannot choose between them. Conversely, all points two hundred metres from the centre form a circle in our flat model, so distance alone cannot choose one direction."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Reverse bearings help check the relationship between two points. If the direction from the station to a marker is sixty degrees, the direction back on our flat grid is two hundred and forty. Add one hundred and eighty degrees, then bring the answer back within one full turn if necessary. For an outward bearing of two hundred and fifty, adding one hundred and eighty gives four hundred and thirty. Subtract three hundred and sixty and the reverse is seventy. This is a local plane calculation, not a claim about following one constant bearing around the Earth."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "The calculation gives a useful error check when you draw a line in the wrong direction. If you intend to measure station to pavilion but align your arrow pavilion to station, the result differs by half a turn. A value that looks numerically tidy is still wrong for your intended journey. Label the starting point and endpoint before reading the angle. For a complicated route, write separate directions for each leg. A single overall bearing from start to finish cannot represent a path that turns several times around a lake."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Real maps introduce more than one north. True north refers towards the geographical North Pole. Grid north follows the map's coordinate grid. Magnetic north is the reference indicated by a magnetic compass under appropriate conditions. They can differ. Ordnance Survey's discussion of the three norths explains why their relationship depends on place and time. We are keeping our arithmetic in a local grid so we can learn the geometry without pretending that a made-up correction applies to a real compass in a real location today."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "The reason a correction changes a bearing is quite simple. Imagine two reference arrows drawn from the same point, with one a few degrees clockwise from the other. An unchanged destination ray makes different angles with those two arrows. You have changed the zero direction, not moved the destination. Whether you add or subtract depends on which reference you start from, which you want, and how the arrows are arranged. Memorising a universal instruction to always add would hide that geometry. A labelled sketch lets you see which angle is actually being requested."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "For a deliberately hypothetical diagram, put the second reference arrow ten degrees clockwise from the first. A destination sixty degrees clockwise from the first is fifty degrees clockwise from the second. Its direction in the room has not changed. We have subtracted ten because we started measuring from a line already ten degrees closer to the destination. This is only an invented angular example. For actual navigation, use the current information appropriate to the location, map and instrument, rather than treating our ten degrees as a regional magnetic value."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "You can also orient a map conceptually using known features. Suppose the station is to your south and the pavilion to your north. Rotate the page until those mapped relationships correspond to the scene. That is different from rotating your body until the paper looks upright. Our paper exercise uses two clear landmarks because a single similar-looking feature can be ambiguous. Two matching relationships constrain the interpretation more than one. If your apparent position would put the lake on the opposite side of the path, investigate the mismatch before treating the first guess as established."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "This is where a location dot becomes one input among several. Imagine a broad uncertain position around a path junction. The dot appears slightly east of the fork, but you can see the station behind you and the lake on your left. Those observations may help distinguish candidate paths. We are not assigning a universal accuracy to phones: different conditions and devices produce different errors. The practical idea is that a displayed position has uncertainty. A map reader can compare it with the visible arrangement rather than mistake a tiny graphic for an exact physical marker."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Now we can make a route into a network. Draw circles for the station, bridge, café and pavilion. Connect circles only where a usable path exists in our fictional plan. The circles are nodes and the connections are edges. We could label an edge with distance, expected time, or a feature such as stairs. This strips away much of the geography, but preserves a different kind of information: which places connect directly. A route through the network is a sequence of available edges, and its total distance is the sum of their lengths."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Let station to bridge be four hundred metres, bridge to café three hundred, and café to pavilion two hundred. That route totals nine hundred metres. Add another connection directly from station to pavilion, six hundred metres long. It is shorter, but label it as containing stairs. A person carrying a large wheeled case may prefer the longer route if it has a confirmed suitable surface and no steps. The objective changed from shortest distance to a usable journey. We should first remove unacceptable connections, then compare the remaining routes against the traveller's actual needs."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "This separates constraints from preferences. A closed bridge is a constraint: that edge is unavailable. A dislike of hills is a preference that may be traded against extra distance. Some requirements can be treated as either, depending on the person and situation. For our event trolley, stairs are simply excluded because the fictional team has decided it cannot use them. We do not assign a small inconvenience score and then let a short distance override that decision. The route search must respect the conditions that make a route possible in the first place."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "A drawn crossing is not always a network junction. An elevated road can pass over another road without any connection between them. On a simplified map, two lines intersect on the page, but a vehicle cannot necessarily turn from one to the other. Our park has a pedestrian bridge over the stream. The crossing connects paths on opposite banks, not the watercourse to the walking route. When making the network, ask what movement the crossing actually permits. Drawing a node at every visual intersection can invent routes that do not exist."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "The direction of an edge matters too. Imagine an event entrance through which visitors may enter but not leave, with the exit farther along the fence. A route that works from station to café may fail in reverse. We draw an arrow on that connection and treat it as directed. Distances might be symmetric while permitted travel is not. This helps explain why a return journey can differ even on flat ground. Route availability is a property of the network and its rules, not just the positions of the buildings at either end."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Here is the fourth recall question. In our local grid, a marker lies at a bearing of sixty degrees from the station. What is the reverse bearing? Then consider a six-hundred-metre route with stairs and a nine-hundred-metre route without stairs. If our trolley cannot use stairs, which route remains eligible, assuming the longer route meets the other requirements? Explain why distance alone cannot decide this case.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "The reverse bearing is two hundred and forty degrees. For the trolley, the six-hundred-metre route is excluded, so the nine-hundred-metre route is the eligible option under the stated assumptions. We did not discover that nine hundred is shorter than six hundred. We first applied a constraint, then compared usable choices. Route planning becomes much clearer when you keep those stages separate. A suggested line that violates a necessary condition is not rescued by being quick or elegantly drawn, and the same reasoning applies to delivery entrances, opening hours and closed connections."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "We can now attach time to the network, but we must supply a rate. Assume, only for calculation, that a particular visitor moves steadily at three kilometres per hour on the specified path. That is fifty metres per minute, because three thousand divided by sixty is fifty. Nine hundred metres then takes eighteen minutes of moving time. At four kilometres per hour it takes thirteen and a half minutes. These are model outputs from assumed rates. They are not promises about a person's pace, and they do not yet include stops or waiting."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Suppose that the nine-hundred-metre route includes a crossing where our fictional event steward releases people every six minutes. A visitor arriving just after one release may wait almost six minutes, while someone arriving just before it may wait almost none. Adding exactly three minutes as if every visitor experiences the same wait conceals that range. You could use an average under an explicitly specified arrival model, but a particular appointment needs a different question. What allowance is appropriate for this trip, given the possible wait and the cost of arriving late?"
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "We do not have to invent a statistical distribution to make a useful plan. Keep moving time and waiting time separate, then state a range under our simplified assumptions. Eighteen minutes of movement plus between zero and six minutes of waiting gives roughly eighteen to twenty-four minutes, before any other stops. If the bridge is actually closed, that interval becomes irrelevant because the route is unavailable. Availability comes before timing. A beautifully calculated estimate for a path you cannot take is less useful than a rough estimate for a confirmed alternative."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Let's give the event team a concrete task. A musician needs a keyboard trolley brought from the station to the pavilion by half past ten. The team has confirmed that the longer route is usable for that trolley. They estimate eighteen minutes of moving time and allow up to six minutes for the controlled crossing. They also need five minutes to unload. Working backwards, they need twenty-nine minutes before half past ten, so their latest departure under these assumptions is one minute past ten. Any additional contingency would mean leaving earlier."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "That deadline calculation is simple, but it exposes what the map itself did not provide. We supplied a pace, a waiting allowance and an unloading duration. If the trolley moves more slowly than our assumed rate, the departure time changes. If unloading takes longer, it changes again. We can revise one component without discarding the entire route. Suppose moving time rises from eighteen to twenty-four minutes while everything else stays the same. The total becomes thirty-five minutes and departure moves to five minutes before ten. The map supports the estimate; it is not the whole estimate."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "We should also distinguish a route's average slope from the extra distance caused purely by elevation. For a straight inclined section with one hundred horizontal metres and ten vertical metres, Pythagoras gives a surface length of roughly one hundred point five metres. That is only about half a metre longer than the horizontal distance. The effort may still feel noticeably different because you are gaining height. It would be wrong to explain every difference in travel time by saying the slope makes the path vastly longer. Distance, gradient and the traveller's response are separate quantities."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "At a much steeper forty-five-degree incline, one hundred horizontal metres and one hundred vertical metres produce roughly one hundred and forty-one metres along the ideal straight slope. The geometry matters more there. Real paths can curve and undulate, so this triangle is a simplified section rather than a complete route model. The useful move is to ask which distance a source reports. Is it projected horizontal distance, length along the surface, or length along a particular network? Without that distinction, two measurements of the same endpoints can appear contradictory when they describe different things."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Let's compare three entirely fictional alternatives to reach the pavilion. Route Amber is one kilometre with eighty metres of ascent. Route Birch is one point two kilometres with twenty metres of ascent. Route Cedar is one point four kilometres with ninety metres of ascent. Assume equal surfaces, access and other conditions for this comparison. Cedar is both longer and involves more climbing than Amber, so it offers no advantage on those two measures. Amber and Birch each win one measure. Choosing between them requires knowing how the traveller values extra distance against extra climbing."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "We can say that Amber dominates Cedar in that narrow comparison, while Amber and Birch involve a trade-off. But restoring omitted information may change the choice. Cedar might pass a needed drinking-water point or provide a view that is the purpose of the outing. We would then add that feature to the decision. The lesson is not to force every journey into one score. It is to make the criteria visible. A shortest-route recommendation assumes that distance is the objective unless some other condition or preference has been included in the calculation."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Maps designed for different jobs make different choices about those criteria. A schematic transport diagram can preserve station order and transfer connections while changing shapes and distances to stay readable. That can be excellent for choosing a transfer and poor for estimating a walk between two nearby stations. In our park, we might create one diagram for event volunteers showing only entrances and controlled paths, and another map showing terrain. Neither replaces the other. The distortion becomes a problem when we use a diagram for a measurement it was never designed to support."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "To demonstrate that, draw station, bridge and café in one straight row with equal gaps, then label the first connection four hundred metres and the second three hundred. The diagram clearly communicates their order but its spacing does not represent distance. A ruler would say the gaps are equal; the labels say otherwise. We have not produced a faulty network diagram if we explicitly call it schematic. We would produce a misleading scale map if we labelled it one to ten thousand. Its purpose and its claimed geometry need to agree."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Selection also changes with scale. On a detailed park plan we can separate the café's two entrances, a nearby toilet and a small path junction. On a regional map those details may overlap if drawn at their true relative positions. The maker may omit some, simplify their shapes or use a symbol representing the whole site. Zooming into an image of that regional map does not recreate the missing entrances. It enlarges the existing representation. More screen space only provides more information if a more detailed data layer becomes available with it."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "That distinction applies to time as well as space. The café may have been surveyed before a new entrance was built. A beautifully detailed image can still describe an earlier arrangement. For our event, a dated site plan and the organiser's current access information need to agree. We are not inventing a universal expiry date for maps: terrain, paths and temporary controls change at different rates. The relevant question is whether the features your decision depends on are current enough. A new temporary closure can matter more than an old but unchanged hill contour."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "We can test a proposed position by predicting a sequence of features. From the station on our longer route, we expect the stream crossing first, then the café, then the pavilion. If we encounter the pavilion before the café, our interpretation has broken down somewhere. Perhaps we took the direct path, perhaps we started at a different entrance, or perhaps the drawing is wrong. The sequence gives us a check that does not depend on perfect distance measurement. It uses the topology, the order and connections of places, alongside the metric information about how far apart they are."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Add a decision point to that sequence. The path forks before the bridge, and only the right branch reaches it. Instead of giving the vague instruction to keep going towards the café, describe the fork and expected crossing. A route description becomes easier to follow when it names the places where a choice is required. Between choices, reassurance landmarks can help confirm progress. Our example might say that after the fork, the stream should remain ahead until the bridge. We should use identifiable features, not an arbitrary-looking tree that may have several near-identical neighbours."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "This is useful indoors too. A floor plan has a coordinate-like arrangement of rooms, but an entrance on another level may be inaccessible from the corridor you are viewing. Stairs and lifts connect floors in a network much as bridges connect riverbanks. A shop can be horizontally close yet require a long route through permitted connections. For a fictional exhibition hall, a door drawn next to the stage might be staff-only. The shortest drawn line from the public entrance is not a valid visitor route unless the relevant doors and level changes actually connect."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "A delivery address benefits from both a position and an approach description. The building name identifies the destination, the gate location selects the entrance, and the route notes explain the final connection. Our keyboard team could send a pavilion pin plus a note to approach by the café path and use the west service gate. That instruction is meaningful only because we confirmed those details in the fictional plan. A pin near the building's centre would not communicate the side with access. The final few metres are often where a broad location stops being specific enough."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Now for a paper exercise you can do at a desk. Draw a rectangle ten centimetres wide and eight high, with north at the top. Use one to ten thousand, so the rectangle represents one kilometre by eight hundred metres. Put the station two centimetres east and one centimetre north of the southwest corner. Put the café five centimetres east and five north. Join them with an eastward section and then a northward section. This is our earlier coordinate triangle made visible, and you can check that its two-leg route totals seven hundred metres."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Add a second route as a straight diagonal, then give it a barrier halfway along that has no crossing. Mark it unavailable. The diagonal still measures five hundred metres in the ideal geometry, but it no longer represents a usable route. Add a third route of your own with labelled segments whose lengths you can measure. Give that route one distinctive condition, perhaps a gravel surface. Write a small legend so someone else can understand your symbols. You now have enough information to make different choices for different fictional travellers without leaving the desk."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Put a hill near the top right, using three closed rings labelled one hundred and twenty, one hundred and thirty, and one hundred and forty metres. Leave wider gaps on one side and narrower gaps on the other. Choose a path that crosses the contours and mark its successive heights. You do not need to make a realistic survey. The purpose is to connect overhead spacing with vertical change. Next to it, sketch a simple profile with labelled distance and elevation axes, and state whether you have exaggerated the vertical scale."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Finally write a short route card for one imaginary traveller. Include the starting point, endpoint, chosen path, measured distance, expected landmarks and any condition that rules out an alternative. If you add a time, write the assumed pace and any waiting allowance beside it. That makes the arithmetic inspectable. Then change exactly one fact, such as closing a connection, and revise the route. The task is complete when another person, or your later self, can see why your choice changed. It is a drawing-and-reasoning exercise, not a request to test unfamiliar terrain."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "Our final recall question brings the park together. A route is nine hundred metres long, your assumed rate is three kilometres per hour, the crossing may add up to six minutes, and unloading takes five. How much time should the model allow using the full stated waiting allowance? Then name one piece of route information that a straight-line distance and a destination pin fail to establish. Use the map we built rather than inventing any new conditions.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Both voices explain. Clearly distinguish fictional examples and assumed quantities. Read units and coordinate groups carefully. Preserve recall pauses.",
+      "t": "The moving time is eighteen minutes, because three kilometres per hour is fifty metres per minute. Add six for waiting and five for unloading to get twenty-nine minutes. The pin and straight-line distance do not establish whether there is a usable connecting path, which entrance to use, whether the route has stairs, or whether a bridge is open. Any one of those is a valid answer. On your sketch, choose one of those missing details and draw it explicitly. You will have turned a location on a page into information someone can actually use."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-24",
+    "spoken_words": 7168,
+    "sha256": "86d99ca58083b9548dc01d4c98f179ab32e0823cc4229335ae49baa6ff7a0645",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.ordnancesurvey.co.uk/documents/resources/map-reading.pdf",
+      "https://www.usgs.gov/educational-resources/topographic-mapping",
+      "https://www.ordnancesurvey.co.uk/news/three-norths-align-great-britain"
+    ]
+  }
+}
