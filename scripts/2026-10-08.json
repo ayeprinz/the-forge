@@ -1,0 +1,412 @@
+{
+  "date": "2026-10-08",
+  "title": "[Communication] How to Give Feedback That Improves the Work",
+  "summary": "Original fictional studio, presentation, invitation and handover cases teach specific observations, shared standards, diagnosis, priorities, feasible deadlines, review authority, disagreement, version control and followup. Includes five recall pauses with answers and a short revision exercise. Selected source passages consulted: Hattie and Timperley, The Power of Feedback (2007), opening definition and discussion of task/process information, https://assess.ucr.edu/sites/g/files/rcwecm2336/files/2019-02/hattietimperley_2007.pdf ; Shute, Focus on Formative Feedback, ETS Research Report RR-07-11 (March 2007), abstract and sections 3.3 to 3.5 on specificity, verification, elaboration and complexity, https://files.eric.ed.gov/fulltext/EJ1111586.pdf. These educational reviews provide limited background, not experimental validation of the original workplace examples. No full-book coverage claimed. Informal audience counts are illustrative and do not establish causal improvements in bookings.",
+  "instructions": "Begin directly with the poster problem. Both ash and sage teach substantive ideas through developed original cases. Keep requirements, preferences, observations and interpretations distinct. Treat communication suggestions as context-sensitive practical proposals, not universal guarantees. Preserve all five seven-second recall pauses and answers. No generic curriculum orientation, motivational filler or artificial slowing.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "A designer sends a poster to a client. The reply says, make it more professional. The designer changes the font, removes a bright colour, and adds more space. The client says it still feels wrong. Neither person is necessarily incompetent. They are operating with different pictures of the desired result, and the conversation has not exposed that difference. Let us build a better conversation from the actual work. Our fictional studio is called Lantern. Maya designs, Leon manages the event, and their poster must help someone decide whether to attend a Saturday workshop."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "The current poster has a large illustration, the words Find Your Spark, a date in small type, and a booking address along the bottom. Leon wanted a clear announcement for beginners. Maya understood the brief as an invitation to an imaginative experience. That difference matters before anyone discusses colour. If Leon says professional when he means immediately understandable, Maya can spend hours polishing the wrong property. The first useful move is to identify the job the poster needs to perform and locate the feature that currently prevents it from doing that job."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Leon could say, when I look at this version, I cannot tell what the workshop teaches until I read the small paragraph. We need people to recognise that it is a beginner pottery session. Could the activity appear in the main heading? This gives Maya a place to work, a reason for changing it, and some freedom about the solution. It also leaves room for correction. Maybe the intended audience already knows the event. Maybe another announcement supplies the missing information. Specific feedback makes those assumptions discussable instead of hiding them inside an adjective."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Notice the difference between a reaction and an explanation. I find this confusing is a legitimate report of Leon's experience. Everyone will find this confusing is a much broader claim that he has not established. The reaction becomes more useful when he points to the moment of confusion. I thought this was a drawing class until I reached the third line. Maya now knows what Leon inferred and which element changed his interpretation. They can examine the sequence of information without first deciding whether Leon has good taste or whether Maya is a good designer."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "We can use a practical distinction between the observed feature, the interpretation, and the requested change. The heading does not name pottery is a feature they can inspect together. It may attract the wrong expectations is an interpretation of its effect. Put beginner pottery in the heading is a proposed change. These are connected, but they are not interchangeable. If Maya disputes the proposed wording, she need not reject the underlying concern. She might offer a stronger heading that solves the same problem. Separating the parts creates room for a better solution than either person's first suggestion."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Let us hear an unhelpful version in full. Leon says, you have overcomplicated this again. Maya replies, you said you wanted something different. Leon says, different does not mean confusing. Maya replies, it is only confusing because you do not understand design. Within four sentences they have moved from a poster to claims about each other's competence. The useful information is still missing. Which element is confusing, for whom, and under what conditions? A person can win that argument about design and still send an ineffective poster to print. The conversation needs an inspectable object."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "A repaired opening might be, I asked for something distinctive, and I should have specified that the activity still needs to be obvious. In this version the illustration is clear, but the heading could describe several kinds of event. Let us compare headings that name pottery while keeping the playful tone. Leon has acknowledged his contribution without pretending the poster needs no revision. Maya can respond, I can do that. Do we want beginners to know they will make something to take home? Now the exchange is producing decisions about the work rather than defending reputations."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "There is research behind taking the content of feedback seriously, though our studio examples are original practical illustrations. In their educational review The Power of Feedback, John Hattie and Helen Timperley explain that feedback can help or hinder, depending on its form and context. They distinguish information about the task and its process from comments directed at the person. That does not establish a universal recipe for workplaces. It does support being precise about what information a comment gives someone, rather than assuming that any praise or criticism automatically improves their next attempt."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "For Lantern, the standard can be stated in ordinary language. Someone unfamiliar with the workshop should be able to identify the activity, the intended participant, the date, and the booking route. That is already more useful than professional. It is not a complete scientific measure of poster quality. It is a shared decision standard for this job. Leon and Maya can still discuss mood, identity, and originality. Those qualities now sit beside the practical requirements rather than replacing them. A beautiful poster that omits the venue has failed a different requirement from a plain poster that communicates everything."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Standards can conflict. Increasing the heading size might make the activity clearer while reducing room for the illustration. Adding every detail might make the poster harder to scan. Leon needs to say which constraint takes priority when they collide. For this street notice, name the activity first, then the date, then provide a booking route with the remaining details. For a programme cover handed to people already attending, the priority could be different. Good feedback is attached to the purpose and setting of the object. It is not a list of preferences applied identically to every object."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Before reviewing, ask what stage the work is in. A rough layout is meant to test arrangement. A print proof is meant to catch final errors. If Leon comments on tiny spacing while Maya is still deciding between two concepts, he creates work that may be thrown away. If he waits until the print proof to reject the entire concept, the cost is much larger. They can label the next meeting clearly: choose the information order today; check wording tomorrow; approve production after that. This is a coordination choice, not a rule that creative work always follows a clean sequence."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "The person giving feedback also needs to distinguish a requirement from a preference. The event begins at ten is a factual requirement. The sponsor needs its approved logo is a contractual or organisational constraint that should be checked against the actual agreement. I prefer blue is a preference unless there is another reason. I think blue will read better against this background is a hypothesis about the design. When all four arrive in the same tone, Maya cannot tell what can be negotiated. Leon can make the status explicit: the time must change; the colour is an option to explore."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Suppose Leon is certain that blue feels more trustworthy. He should avoid dressing that taste in invented psychology. He can instead say, our other event materials use blue, so I want this to look connected to them. That is a concrete consistency argument they can evaluate. If consistency is less important than standing out at this venue, Maya can offer a reason to depart from it. The discussion stays about identifiable effects and priorities. A vague appeal to what people subconsciously want would make the preference sound authoritative without making it easier to examine."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "There is another distinction between describing the result and prescribing the method. Make the activity identifiable leaves room for Maya's design expertise. Use these exact words removes that freedom. Sometimes exact wording is appropriate, such as correcting the date or reproducing an approved event name. In other cases, the reviewer should describe the problem and let the maker propose the method. Too little direction creates guessing. Too much direction can waste the person's relevant expertise. Ask whether the reviewer knows the required outcome, the best way to achieve it, or only that the current attempt is not working."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Maya can help the reviewer by presenting a decision instead of an open invitation to comment on everything. Here are two layouts. The first makes the event name dominant; the second makes the activity dominant. Which fits the audience we agreed on? This does not prevent Leon from noticing a missing date. It focuses the main discussion. Asking do you like it invites a reaction to the whole object. Asking which layout better explains the workshop invites comparison against a purpose. The difference is especially useful when several people have authority and their preferences are likely to diverge."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "The same skill applies to a shared kitchen. You are inconsiderate names a character judgment. The pans have been left in the sink after dinner on Monday and Tuesday names a pattern that can be checked. I cannot use the sink when I start cooking explains the practical impact. Can we agree that pans are washed or moved before the next person cooks proposes an arrangement. That arrangement might need changing if the sink is tiny or one person gets home late. Specificity does not prove the speaker is right. It gives both people something more workable than a fight about consideration."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "In a personal relationship, the other person is not an employee who must meet a performance standard you invented. A request remains a request, and their needs belong in the discussion. If your flatmate says they cannot clean immediately because they need to leave for work, the next step might be a soaking tub or a different cooking schedule. In the studio, Leon may have final approval under the job agreement. At home, authority is usually different. Using clear observations does not give someone unlimited authority over another person's time, behaviour, or preferences."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "We should also avoid turning every annoyance into an elaborate review meeting. If the date is a typo, point it out and correct it. If the issue involves repeated misunderstandings, costly rework, or competing priorities, a fuller conversation is useful. Proportion matters. Maya does not need a speech about organisational trust because she accidentally wrote Sunday. She needs the right date. But if three reviewers keep supplying different dates, the problem is a source of truth and an approval process. The size of the conversation should match the size and kind of problem."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "First recall. Leon says the poster is not professional enough. You can see that it does not name the activity in its heading, and Leon wants unfamiliar beginners to understand the event. Before proposing a new font, what would you clarify, and how could you turn his reaction into useful feedback? Think of the purpose, the visible feature, and the change you want the next version to achieve. You do not need a memorised formula. Picture the two people looking at the same poster and trying to leave with the same revision in mind.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Clarify what professional means for this job and which requirement is not being met. A useful version is, the heading does not tell an unfamiliar reader that this is pottery; let us make the activity clear while keeping the playful tone. That identifies a feature and connects it to an audience and purpose. It leaves the exact design open unless there is a reason to prescribe it. The next step is a revision they can inspect, not a demand that Maya become a more professional person. Their disagreement has become a concrete design problem."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Maya now returns a clearer poster, but the booking address is wrong. Leon says, you need to pay more attention. That might feel like a direct response, yet it does not identify why the error happened. Maya copied the address from an old event sheet because nobody had marked it obsolete. More attention to the same sheet would have produced the same wrong address. Before deciding the problem is carelessness, inspect the route by which the information entered the work. The correction might belong in the shared information system as well as in the poster."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "There are several possible causes that call for different responses. Maya might not know the correct address. She might know it but copy the wrong one. She might have been told two different addresses. She might have no permission to update the file. Or she might understand the requirement and still choose to ignore it. These possibilities are not excuses that automatically remove responsibility. They are different explanations that make different repairs sensible. Asking which address did you work from can reveal more than asking why are you always careless, because the first question can be answered with evidence."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "A good diagnostic question should not merely conceal an accusation. Why did you think this was acceptable is technically a question, but it often asks the person to defend their competence. What information did you use for this section is narrower. What was the instruction you were working to is narrower still. Leon can then compare that account with the actual brief. If Maya had the correct information and skipped a required check, they can discuss that. If Leon supplied contradictory instructions, he needs to repair his part. Diagnosis is useful only if the answer can change the proposed action."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Imagine a new assistant has never prepared artwork for print. Telling them the export is wrong may identify failure without giving them the missing skill. A short demonstration can be appropriate: open this export panel, choose the agreed size, inspect the preview, then compare the output with the printer's specifications. The assistant should try it on a second file rather than merely watch. By contrast, an experienced designer who overlooked one setting may need only the setting named. The amount of explanation should respond to what the person actually knows, not to the reviewer's wish to sound thorough."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Valerie Shute's report Focus on Formative Feedback reviews distinctions between confirming whether a response is correct and supplying information that helps someone improve it. It also reports mixed findings about feedback length and complexity. Those educational findings do not mean every workplace message needs a long explanation. For our example, they help expose the limitation of saying wrong when the person cannot work out what to do instead. We will use demonstration, questions, and precise corrections where each suits the problem, without pretending that a longer message is automatically a better one."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Leon needs to choose priorities before giving Maya twenty comments. The wrong booking address can prevent a booking. A missing date can prevent attendance. A slightly uneven margin may matter less for this deadline. If everything is described as urgent, Maya has to guess the order. Leon can say, first correct the date and booking route; second make the activity clear; then use the remaining time to refine spacing. He should also identify what is already approved. Otherwise Maya may redesign the illustration and introduce new issues while trying to respond enthusiastically to the review."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Consider a simple time budget. Maya has ninety minutes before the printer's cutoff. Correcting and checking the details takes fifteen minutes. Revising the heading takes twenty. Exporting and checking the final file takes ten. Those tasks use forty five minutes, leaving forty five for layout refinement or unexpected problems. If Leon adds an hour of illustration changes, the total becomes one hundred and five minutes before any contingency. The feedback is now incompatible with the deadline. A review that ignores available time can sound demanding while being impossible to execute as specified."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "The useful reply is not simply work faster. Leon can drop the illustration change, move the deadline if the printer allows it, or change the scope of the deliverable. Maya can make the tradeoff visible: I can complete the essential corrections and final check by the cutoff. Redrawing the illustration would put that at risk. Which should take priority? That question is not resistance to feedback. It asks the person responsible for the outcome to choose between incompatible demands. If Maya silently accepts every comment, the impossibility may remain hidden until the file is late."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Timing also depends on whether an interruption prevents damage or merely disrupts useful work. If Maya is about to print the wrong date, intervene immediately. If she is sketching and Leon wants to discuss a minor stylistic preference, it may be better to collect comments for the agreed review. This is a practical judgment about cost and reversibility. An error that becomes expensive in the next minute is different from an idea still being explored. There is no need to make a universal claim that immediate feedback or delayed feedback always wins. Ask what happens if the conversation waits."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Choose the channel to fit the ambiguity. A comment directly beside a typo may be enough. A disagreement about audience, tone, and priorities might need a conversation, followed by a written record of the decisions. Voice can reveal emphasis, but it is easy to forget exact instructions. Written comments can be precise, but several short blunt messages can be interpreted more harshly than intended. Leon and Maya can use both: discuss the difficult tradeoff together, then record the agreed changes where the file lives. The record should capture the decision, not every emotional moment of the discussion."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Public correction has another cost to consider. If Leon criticises Maya in a meeting with people who are not involved, the conversation may become about standing in front of the group. A private conversation is often a reasonable choice for individual mistakes. Yet a shared process error should sometimes be discussed with the whole team so everyone uses the corrected information. Leon can say the old event sheet contains the wrong address and replace it without making Maya the public example of failure. The audience for feedback should follow who needs the information to act."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Appreciation has a role when it identifies something worth keeping. The illustration makes the clay texture recognisable is useful if Leon wants Maya to preserve it. You are a genius may feel pleasant, but it does not identify what worked. The same applies to a successful presentation. The example before the calculation helped me understand what the numbers represented is information the speaker can use again. Appreciation need not be elaborate or disguised as a technique. It can be honest and specific. The important point is to avoid removing successful features during a revision because nobody said they mattered."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "There is no requirement to hide every correction between compliments. If Leon praises the illustration, delivers a serious error, and immediately praises Maya's enthusiasm, she may not know how urgent the error is. He can be warm and clear at the same time. The illustration is approved. The booking address must be corrected before printing. After that, we can approve the file. These statements serve different purposes and do not cancel each other. Genuine appreciation is not a wrapping material for a criticism. If there is nothing relevant to praise at that moment, plain respectful correction is sufficient."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Let us hear a focused review. Leon says, we have three changes before print. The booking address needs to match the new event sheet. The heading needs to identify beginner pottery. The date needs to be readable at the size of the final poster. Keep the illustration and the current colour palette. Can you show me the revised heading before you spend time adjusting the whole layout? Maya replies, yes. I will send the heading options in twenty minutes, then complete the approved version. This exchange gives both people a next action and a point at which to check alignment."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Maya can repeat the agreement without sounding like she is taking an exam. So the illustration stays, and the main change is making the activity and date easier to identify. I will use the new address and send a final proof before printing. Leon might respond, exactly, and please include the beginner level in the heading. That small addition now happens before production. A shared understanding is more reliable when it can be expressed in concrete actions. Simply asking does that make sense often receives yes, even when the two people are imagining different revisions."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "The written record could be only a few lines. Use the approved address from the current event sheet. Heading must name beginner pottery. Keep illustration and palette. Maya sends heading options at eleven; Leon chooses one by eleven fifteen; final proof is due at noon. This record assigns responsibility to the reviewer as well as the maker. If Leon does not reply until twelve thirty, he cannot fairly describe the entire delay as Maya's failure. Feedback is part of a shared workflow. The person who asks for changes may also create dependencies that need to be completed on time."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Second recall. The wrong address appeared because Maya copied an outdated sheet, and Leon has also requested more changes than the remaining time permits. What two kinds of repair are needed? Think beyond telling Maya to concentrate. One repair concerns where information comes from. The other concerns the work that can actually fit before the deadline. If you were Maya, what would you make visible before agreeing to deliver everything? If you were Leon, what would you change in the process so the next designer does not repeat the same error?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Replace or clearly retire the outdated source, then check the poster against the current agreed information. Also prioritise the requested changes against the available time and make an explicit scope or deadline choice. Maya should state which tasks fit and which additional request creates the conflict. Leon should choose rather than leave her to guess. The individual correction fixes this poster. The source repair reduces the chance of copying the same error into another one. Neither repair requires pretending that attention is irrelevant; it requires understanding what attention was directed toward."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Now let us complicate the review. A second organiser, Priya, says the poster needs more energy, while Leon says it needs to be calmer. Maya could attempt a compromise that satisfies neither. Before changing the file, she can ask what each person wants the audience to notice or do. Priya wants the event to feel welcoming rather than formal. Leon wants the information to be easy to read. Those goals may be compatible even though the adjectives sound opposed. A lively illustration and a clear information area might serve both, but that is a proposal to inspect, not a guaranteed solution."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Sometimes the conflict is real. Priya wants the illustration to occupy most of the poster, and Leon wants a large timetable in the same space. The problem is then decision authority and priority, not Maya's ability to understand feedback. She can show the two versions and state the tradeoff: this one foregrounds atmosphere; this one foregrounds the schedule. Who makes the final choice for this placement? A maker should not have to resolve an unacknowledged authority dispute by endlessly revising. Clarifying who decides is a practical part of giving and receiving feedback, especially when several stakeholders can request changes."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Maya may receive criticism that feels unfair even when it contains useful information. Leon says, you never check anything, and points to a wrong date. She can separate the correction from the exaggeration. The date is wrong, and I will correct it. I do check the files, so I do not agree with never. Let us identify which check failed here. This response accepts the inspectable issue without accepting a sweeping account of her character. She does not need to prove her entire history before fixing the date. Nor does fixing it mean she has agreed with every accusation."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "The first response can be a request for an example. When you say my updates are unclear, which update are you thinking of, and what information did you need from it? If the reviewer can name one, examine it. If they cannot, ask them to flag the next instance so you can work with something concrete. That does not prove the criticism is false. People can notice a pattern before they can retrieve a good example. But a serious claim becomes more useful when it can be connected to observable work and a specific improvement."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "It is possible to ask for examples defensively, as though no concern counts unless the other person has prepared a legal case. Tone and purpose matter. Maya can say, I want to understand the pattern well enough to change it. Could we look at one recent example together? That states a constructive reason for the question. Leon also needs to avoid a vague collection of unnamed witnesses. Everyone thinks this is not enough information to guide a revision. If confidentiality matters, he can describe the behaviour and its effect without revealing identities or pretending that an anonymous majority settles every interpretation."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "A useful disagreement names the evidence that would change your view. Maya thinks the current heading is clear because it appears beside a photograph of hands shaping clay. Leon thinks it is unclear because the poster may be cropped on a phone. They can inspect the actual crop. That is better than arguing indefinitely about whose eye is trained. Sometimes the evidence is unavailable, and someone still has to choose. Then record the decision as a judgment under uncertainty. We are choosing the explicit heading because this placement gives little space for context is an honest reason, even without an audience study."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Testing a revision can help, but the test must match the question. If the question is whether someone can find the date, ask them to find the date on the version they would actually see. Do not first explain where it is. If the question is whether the event sounds welcoming, a timing test alone will not answer it. Nor will asking a friend whether they like you as a designer. The feedback method should produce information about the disputed feature. Otherwise it creates a reassuring ritual without resolving the practical uncertainty that motivated the test."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Imagine Leon shows the original poster to five volunteers and three correctly identify the activity. Later he shows a revised version to five different volunteers and four identify it. The counts are three out of five and four out of five, or sixty percent and eighty percent. That is one additional correct response in a tiny demonstration. It is not proof that the new version will improve bookings by twenty percent. The groups may differ, the setting may differ, and identifying an activity is not booking a place. The observation can inform a design choice without carrying claims it cannot support."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "If the same five people see both versions, another issue appears. They may identify pottery in the second version because the first attempt and the questions taught them what to look for. That does not make informal testing worthless. It changes what you can infer. For a quick design decision, Maya and Leon might simply note that the revised wording is more explicit and that several readers found it easier. For a consequential business claim, they would need a more careful comparison. The standard of evidence should rise with the strength and cost of the decision being justified."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "A reviewer can also be wrong because they are looking at the wrong version. Maya sends a revised file, but Leon comments on yesterday's attachment. They discuss a heading that no longer exists. A simple version label and a shared link can save the conversation. Before debating a disputed observation, confirm that you are discussing the same object, the same audience, and the same stage. This is not administrative fuss. A comment can be perfectly sensible about an old draft and completely misleading about the current one. Clear feedback depends on shared reference points as much as polished wording."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Let us move from design to a spoken presentation. A colleague says, you need more confidence. The speaker may interpret that as louder speech, fewer pauses, or pretending certainty. Ask what the colleague observed. Perhaps the speaker ended every sentence too quietly to hear. Perhaps they apologised before explaining a sound proposal. Perhaps they could not answer a basic question. These are different problems. The first may call for a delivery adjustment, the second a change in wording, and the third more subject preparation. Confidence is too broad to identify which repair the listener actually needs."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "The colleague might say, when you stated the recommendation, I could not hear the last few words. Try that sentence again at the volume you used for the opening. They can then listen to the new attempt. Or, you introduced the recommendation by saying it was probably stupid; remove that apology and explain the reason for it. Those are actions the speaker can practise. If the underlying argument is weak, however, better delivery will not make it sound. Feedback should avoid teaching someone to perform certainty as a substitute for doing the work that supports their claim."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "The receiver can propose a trial instead of committing to a permanent identity change. I will open the next update with the recommendation and its main reason, then give the detail. Tell me whether that makes the decision easier to follow. This is much more manageable than I will become a confident communicator. The trial has a setting, a behaviour, and an observable response. It also leaves room for adjustment. If the audience needs background first, the structure can change. Good feedback can produce a small experiment in the work without making every conversation a formal research project."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "What if the criticism is delivered with contempt? Clear wording cannot guarantee a respectful response from everyone. A person can say, I am willing to discuss the missed deadline, but I am not willing to continue while being insulted. We can return to the specific issue when we can speak about it directly. In a workplace with a power imbalance, the safest available response may depend on the organisation and the person's circumstances. Our communication examples are not a promise that the right sentence removes retaliation or unfairness. Sometimes support, documentation, or an appropriate formal channel matters more than a clever reply."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "There is a difference between discomfort and mistreatment. Being told your work needs substantial revision can be uncomfortable even when the conversation is fair. Being mocked or threatened is a different issue. The distinction helps the receiver avoid two extremes: treating every correction as an attack, or treating every attack as something they must gratefully absorb. Focus on the specific behaviour of the reviewer as well as the substance of the work. A valid criticism does not make every delivery method acceptable. An unpleasant delivery does not automatically make every factual point false."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Third recall. Someone tells you to be more confident during presentations. Give two possible concrete problems that this phrase could conceal, and explain why they would need different responses. Then imagine that the reviewer says you always fail at this. What could you accept, and what could you reasonably challenge? Keep the task separate from the broad judgment. The aim is to leave with a change you can attempt and inspect, while retaining the ability to disagree with exaggerations, unsupported claims, or disrespectful treatment.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "The speaker might be inaudible at the ends of sentences, or might lack the information needed to defend the proposal. The first calls for a delivery adjustment and another attempt; the second calls for stronger preparation or a revised argument. If there is a specific failure, accept and repair that part. You can challenge always and ask to examine the relevant examples. A practical reply is, I missed that point today and will address it; I do not agree that I always fail, so let us focus on the pattern you have observed."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "We have mostly discussed corrections, but requests for feedback can be designed badly too. Maya sends a file at midnight and asks for thoughts before breakfast. Leon replies hastily, and important issues are missed. Asking for useful review includes giving enough time, naming the decision, and making the relevant material accessible. Please review the event details and heading by tomorrow afternoon is different from thoughts? A request should make clear whether the maker wants error checking, a choice between alternatives, or a broad creative response. Those forms of review demand different kinds of attention from the other person."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "The maker can also state which parts are provisional. The image is a placeholder; today I need a decision about the information order. That prevents the reviewer from spending their whole effort on an image that will disappear. But provisional should not become a shield against every difficult comment. If the placeholder makes the layout impossible to assess, the reviewer can say so. The point is to coordinate attention, not to forbid inconvenient observations. A useful review request gives the other person enough context to contribute and enough freedom to flag a problem that threatens the intended outcome."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Some feedback is unsolicited. Before reviewing a friend's poem, ask whether they want an attentive reader, encouragement, or detailed revision suggestions. They may have shared it to express something rather than to improve it for publication. In a contracted job, review is part of the agreed work. In a friendship, that purpose may not be shared. Asking first can prevent a technically intelligent response from missing the social situation entirely. It also protects your own effort. A detailed critique is unlikely to help if the person neither requested it nor has any wish to revise the piece."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "When someone does request a creative critique, avoid pretending your response is the only legitimate reading. I lost track of who was speaking in this paragraph identifies your experience and a location. This paragraph is objectively bad reaches further. You can explain why the speaker change confused you and suggest a clearer cue. The writer may preserve the ambiguity for a reason, or may realise it was accidental. Creative work can have multiple successful solutions. Feedback becomes more useful when it explains the effect on a reader and allows the maker to judge that effect against their intention."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "The same applies to emotional tone. A line that sounds cold to one reader may sound restrained to another. Instead of demanding universal agreement, compare the wording with the intended relationship and scene. If the character is meant to be affectionate, what in the line signals affection? If the writer wants emotional distance, your cold response may be evidence that the line is doing its job. The reader provides an experience; the writer makes an artistic decision. Treating those roles as different can keep critique from becoming a contest over who owns the correct feeling."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Return to Lantern after the poster has been printed. Leon says the revised heading worked well, but bookings were lower than hoped. Maya should not automatically infer that the design failed. Bookings also depend on price, timing, distribution, interest in pottery, available places, and other factors. The poster can meet its communication requirements without guaranteeing demand. A review should distinguish the part of the outcome the person could influence from the wider result. Otherwise people learn to defend themselves against outcomes they did not control rather than examine the decisions they actually made."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "They can inspect narrower evidence. Was the correct version distributed? Was the booking link usable? Did the organiser publish it in the intended places? Did people who enquired understand the activity and beginner level? These questions do not excuse weak design. They locate possible failures along the actual path to attendance. If the wrong link was published in the accompanying message, redesigning the poster's colours will not fix that. Feedback about results should connect the result to a plausible mechanism and relevant observations before assigning responsibility. A disappointing number alone does not identify the cause."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "A followup should also acknowledge what changed. Leon can say, the revised heading now names the activity, the date is readable, and the address matches the approved sheet. Those items are complete. We still need to resolve the venue line before reuse. This closes finished work and identifies what remains. Without that distinction, Maya may feel that the target moves forever. It also helps Leon see whether his original request was met. If he now wants a different audience or a new format, that should be named as a new requirement, not quietly treated as evidence that Maya ignored the old one."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Suppose Maya made every requested change and Leon still dislikes the poster. He can admit that his first diagnosis was incomplete. The information is clearer now, but I realise I was also looking for a more informal visual style. That is more honest than pretending he asked for it all along. They can decide whether the new direction fits the remaining budget and time. Reviewers sometimes discover their preferences by seeing an attempt. That discovery can be part of creative work, but its cost should be acknowledged. The maker should not bear endless rework under the fiction that the instructions never changed."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Repeated feedback deserves a process check. If every event produces the same address error, add a final comparison with the current event sheet. If every review produces conflicting comments, appoint a final approver. If every deadline fails because feedback arrives late, agree on review windows and what happens when they are missed. These changes address recurring conditions rather than repeating the same reprimand. The test is practical: does the revised process make the desired action easier to perform and the important error easier to catch? A new checklist that nobody can access may add paperwork without improving anything."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Fourth recall. The revised poster meets the agreed requirements, but the workshop receives fewer bookings than expected. What can you conclude about the design, and what should you inspect before blaming it? Then imagine Leon requests a new visual style after approving the existing one. How should that request be described? Separate completion of the original requirements, the broader business outcome, and the introduction of a new preference. These distinctions let a review remain demanding without rewriting history or assigning causes that the available evidence cannot establish.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "You can conclude that the agreed design requirements were met if the final file actually satisfies them. Lower bookings alone do not establish that the design caused the result. Inspect distribution, the booking route, the offer and other relevant steps. A later visual direction is a new requirement or a newly recognised preference, with implications for time and scope. It may be worth doing, but it should not be described as something Maya failed to follow earlier. Fair feedback uses the actual agreement and the available evidence rather than the disappointment of the final result as its only standard."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Let us finish with a complete short conversation about a different object: a handover note. Two colleagues share responsibility for a small community event. The note says everything is ready, but the room booking is still awaiting confirmation. Amira, who receives the note, says, I read everything is ready as meaning the room was confirmed. When I checked, the venue was still waiting for our reply. For future handovers, can we separate confirmed items from items waiting on someone? This describes the wording, the interpretation, and a proposed repair without claiming that the writer intended to mislead her."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Ben replies, I meant that our equipment was ready. I can see the phrase was too broad. I will list the room as awaiting confirmation and put my name beside the next action. Amira says, that would help. Could the note also give the date by which we need a reply? Ben says, yes, but I do not know the venue's deadline yet. I will ask them this afternoon. The uncertainty is now visible instead of being covered by a reassuring phrase. They have not solved the room booking through language alone, but they have identified the action required to solve it."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "There is a useful constraint in Ben's response. He does not invent a deadline to make the handover look complete. A clear unknown is often more useful than a confident guess. Amira also does not demand that Ben know everything immediately. She asks for an owner and a next step. The revised note could read, equipment checked; room awaiting venue confirmation; Ben will contact the venue this afternoon and update the team. This is a small piece of writing, yet the feedback changes how responsibility and uncertainty travel between people. That is a real operational effect of clearer communication."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Your practical task is to revise a short piece of your own work before involving anyone else. Choose a paragraph, an event invitation, a handover note, or a slide. State its intended reader and what that reader should understand or do. Identify one visible feature that helps and one that interferes. Write a feedback message that names the feature, explains its effect, and proposes an achievable revision. Then make the revision. Keep the task small enough to complete in about fifteen minutes. The purpose is to practise moving from a broad reaction to a change you can actually inspect."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Here is a sample using a fictional invitation. The original says, come along next week for something exciting, details soon. The intended reader is a beginner deciding whether they can attend a pottery session. The problem is not simply that the writing is bad. It omits the activity and a usable date. A feedback note could say, the invitation does not yet let someone identify the activity or check availability; add those details before asking them to book. If the date is genuinely unconfirmed, label it as an early expression of interest rather than presenting it as a ready booking invitation."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "After revising, inspect whether the specific issue was resolved. Do not reward yourself only for changing many words. If the activity is now named but the date is still absent, one requirement remains open. If the date is unknown, the next step is to obtain it or change the invitation's purpose. This small exercise exposes the limits of editing: some gaps require information or decisions rather than better phrasing. The same lesson applies when giving feedback to others. A person cannot write a confirmed venue into existence just because a reviewer prefers a complete looking document."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "If you later ask someone to review your revision, give them a narrow question. Can you identify what the event is and when it happens without me explaining it? Let them answer before you defend the wording. Their response is information about that reading, not a verdict on your worth. You can use it, ask a followup, or disagree with reasons. There is no requirement to collect criticism from everyone or obey every suggestion. The useful skill is turning an appropriate review into a better decision about a particular piece of work."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "Final recall. Think of the handover that said everything was ready while the room remained unconfirmed. What made the repaired conversation useful, and what still had to happen outside the conversation? Then choose the object you will use for the practical task. Name its reader, one requirement, and one feature you can inspect. Try to formulate a specific revision rather than a demand to be clearer, better, or more professional. The answer should point toward an action that someone could perform and a result that both people could recognise.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Treat all named cases as fictional illustrations. Both voices explain ideas and concrete examples. Read dialogue naturally without exaggerated impersonation. Preserve recall pauses.",
+      "t": "The conversation identified the ambiguous wording, the mistaken interpretation, the outstanding item, and the person responsible for the next action. The venue still had to confirm the booking. For your task, a useful answer might be, this invitation is for beginners; it must identify the activity; the heading currently does not, so I will name beginner pottery there. That is a concrete revision. You can check whether it happened without deciding whether you have become a better person. Feedback has done its job when it supplies usable information and supports a sensible next action in the actual work."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-24",
+    "spoken_words": 7336,
+    "sha256": "41c8ee0e91a1cfb3d12ec8897dfefd293a3ccf9ecdb8cc42ab40dfe0104e6f12",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://assess.ucr.edu/sites/g/files/rcwecm2336/files/2019-02/hattietimperley_2007.pdf",
+      "https://files.eric.ed.gov/fulltext/EJ1111586.pdf"
+    ]
+  }
+}
