@@ -1,0 +1,393 @@
+{
+  "date": "2026-10-13",
+  "title": "[Visual Art] How to Draw What You See: Shape, Proportion and Light",
+  "summary": "An original mug, box and cloth drawing session develops viewpoint, apparent versus physical dimensions, relative proportion, landmarks, negative space, curves, overlap, elementary perspective, line and mass drawing, tonal groups, illumination, edges, correction and composition. Draws selectively on Harold Speed’s public-domain The Practice and Science of Drawing, especially practical chapters VIII and IX, with narrow supplementary museum explanations of mark-making and perspective. Five recall questions with seven-second pauses and answers, plus an optional pencil study or paper geometry exercise. All example dimensions are invented. Artistic choices are not universal laws or claims of scientific validation. Consulted sources: https://www.gutenberg.org/files/14264/14264-h/14264-h.htm; https://www.nga.gov/educational-resources/explore-basics-drawing; https://www.nationalgallery.org.uk/paintings/glossary/perspective",
+  "instructions": "Start immediately with the mug and its visible opening. Both ash and sage explain practical mechanisms and contrasting cases. Clearly distinguish physical dimensions from apparent measurements, construction from expressive marks, surface pattern from light and shadow, and artistic choices from universal rules. No assumed prior reading or learner biography. Use ordinary pencil and paper examples; no historical solvent, pigment or cutting procedures. Preserve five seven-second recall pauses and subsequent answers. Natural delivery with no filler or artificial slowing.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Put a plain mug on a table and look down at its rim. You know the opening is round, yet from this angle it looks like a flattened oval. Draw the circle you know is there and the mug appears tipped toward you. Draw the particular oval you can see and it begins to sit correctly. That small disagreement between the object and its appearance is one of drawing's central problems. You are making marks on flat paper that must suggest something with depth, from a particular place, under particular light. The first useful decision is which of those visible relationships your marks need to preserve."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "We will follow an invented drawing session with a mug, a small cardboard box, and a folded cloth. These are deliberately ordinary objects. The box gives us corners and straight edges. The mug gives us curves and an opening. The cloth gives us shapes that resist a familiar geometric label. Together they let us work through placement, proportion, light, shadow, edges, and composition without starting with complicated anatomy. You can understand the examples while listening, then try a small version later with a pencil. Every measurement we introduce belongs to our fictional arrangement, not a claim about whatever happens to be on your table."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Our main historical source is Harold Speed's The Practice and Science of Drawing, published in nineteen thirteen, especially his practical chapters on line and mass drawing. Line drawing approaches form through boundaries and marks. Mass drawing approaches it through areas of light and dark. Speed argues that studying them separately makes their different demands easier to understand, before they are combined. We are using those practical distinctions and adapting them to a pencil exercise. His title does not make every aesthetic opinion in the book a scientific law. Where we choose an arrangement or recommend a method, that is a drawing decision with a particular purpose."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Begin by fixing the view. If you lean far to the left, the handle moves against the mug's body. If you stand up, more of the opening becomes visible. Those changes do not mean the object has changed shape. Your line of sight has changed. For a simple observational drawing, choose a comfortable seated position and return to it when checking the arrangement. The aim is consistency, not physical rigidity. A drawing assembled from several accidental viewpoints can contain individually plausible parts that cannot quite belong together. Keeping the view reasonably stable gives your comparisons a common reference."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "There are two kinds of size to keep separate. The mug has a physical width that you could measure with a ruler on the table. It also occupies a particular width in your view. A smaller object close to you can appear wider than a larger one farther away. When we draw the arrangement, the immediate problem is the apparent relationship from the chosen view. We are not making an engineering plan of the objects' actual dimensions. That is why simply knowing the mug is ten centimetres tall would not tell you how tall to draw it relative to a box at another distance."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "The same distinction explains foreshortening. Imagine a pencil lying sideways across your view, then pointing almost directly toward you. Its physical length has not shrunk, but its visible end-to-end extent has. If you insist on drawing its full familiar length in both positions, the second view will be wrong. You can instead compare the shape it actually occupies, including the short apparent length and the relationship of the near end to the far end. Speed recommends studying the surrounding background shapes when familiar objects become misleading in this way. We will use that method with the mug's handle and the spaces beside the box."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Before any handle or fold, decide how much of the page the whole arrangement will occupy. Mark the highest point, lowest point, farthest left point, and farthest right point very lightly. These four limits are a promise about scale and placement. Suppose the group will be twelve centimetres high and sixteen wide on your paper. A page that is eighteen centimetres wide leaves two centimetres across the two side margins combined. If centred, that is one centimetre on each side. There is nothing artistically sacred about those numbers. They simply tell you whether the plan you have chosen fits the available surface."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Now imagine starting with the mug's beautifully finished rim at twice the intended size. By the time you reach the box, it runs off the page. The problem began before the box. You committed to a local scale without checking the whole arrangement. Working within broad limits makes that conflict visible early, while moving a few faint marks is easy. Cropping can be a deliberate artistic choice, but an accidental collision with the page edge is a different event. The preliminary limits give you a chance to choose the crop rather than discover it when the drawing has already become difficult to move."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "A useful next step is an enclosing shape, sometimes called an envelope. Imagine straight segments loosely wrapping around the outermost points of the group. One segment slopes from the mug's top toward the box. Another follows the cloth's broad spread across the table. You are not claiming that the cloth is made of straight sticks. The straight segments simplify the relationships that are hardest to judge all at once: overall width, overall height, the angles between major points, and the space the group occupies. Speed describes this initial construction as scaffolding. It supports the drawing but is not meant to imprison every later curve."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "That distinction matters because a construction can become a habit that survives past its usefulness. If every rounded edge remains a sequence of stiff little corners, the mug may look carved from stone. Once the placement is convincing, you can replace parts of the envelope with more particular curves. Conversely, rushing to free curves before the arrangement has a workable structure can produce lively marks around the wrong-sized object. The useful sequence is provisional geometry followed by closer description. Neither phase is a complete drawing by itself. Each answers a different question at a different stage of the work."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Choose one visible distance as a unit for comparison. In our example, the mug's apparent body width, excluding its handle, is the unit. Suppose its height appears one and a half times that width. If we draw the width as four centimetres, the body height should be six. If we choose a width of six centimetres, the corresponding height becomes nine. The ratio stays the same while the drawing grows. This is the practical value of relative measurement: it separates the proportions of the appearance from the overall scale you choose for the page. You can make a larger drawing without inventing a taller mug."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Keep the definition of the unit stable. If one comparison includes the handle and the next excludes it, the numbers will disagree even when you measured carefully. Similarly, the body's height might mean the distance from the top of the rim to the lowest visible base, rather than to the end of the cast shadow. Name the endpoints mentally. In drawing, many apparent measurement failures are really changes in what is being compared. A simple unit with clear endpoints gives you something repeatable. It also helps another person understand your correction: the body is too narrow means more when the body has been distinguished from the full silhouette."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Speed describes comparing apparent distances with a straight object held at a consistent distance from the eye. For an ordinary pencil version, you can hold a pencil at arm's length, mark a span with your thumb, and compare that span with another visible distance. Use a comfortable position and avoid pointing anything toward your eye. Keep the arm extension and viewpoint consistent, and compare horizontal spans with horizontal spans or vertical spans with vertical spans. Moving the pencil closer enlarges its apparent size, which changes the measuring reference. The method is a rough aid to observation, not a precision instrument that makes every result exact."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "You can also work without holding anything up. Compare where the halfway point of the whole group falls. Does it pass through the mug's handle, below the rim, or above the box? In our imagined twelve-centimetre-high arrangement, the halfway level is six centimetres above the bottom. If a conspicuous corner belongs slightly above that level, putting it near the bottom third creates a visible contradiction. Halfway checks are useful because they divide a large judgment into smaller ones. They do not require a grid over every square millimetre. A few well-chosen landmarks can organise the drawing while leaving room for flexible marks."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "First recall question. You know a mug's opening is circular, but from your seated view it appears as a flattened oval. Which shape matters for this observational drawing? And if its body appears one and a half times as tall as it is wide, what height belongs with a four-centimetre drawn width? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Draw the opening's visible shape from the chosen viewpoint, rather than substituting a full circle because you know the object is round. The body height would be six centimetres: four multiplied by one and a half. That preserves the apparent proportion while letting you choose the drawing's overall size. Both parts of the answer concern relationships in the view. They do not establish the mug's actual dimensions, and they do not require every artist to pursue literal observation. They describe the particular task we chose: making a coherent picture of this arrangement from this position."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "With the overall limits in place, use vertical and horizontal alignments to locate parts. Imagine a vertical line dropping from the mug's rightmost rim point. Does the base sit inside that line, meet it, or extend beyond it? Imagine a horizontal line through the box's highest corner. Where does it cross the mug? Speed treats these reference directions as a way to position salient points. They replace a vague feeling that something is near something else with a comparison you can check. The reference lines can remain faint on paper or simply guide where you look. Their job is to reveal relationships, not decorate the finished image."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Here is a complete small construction. In our fictional drawing, the group's bottom is the zero level. The box's top corner is five centimetres above it, while the mug's rim reaches twelve. The vertical difference is seven centimetres. If you accidentally place the box corner at eight, you have reduced that separation to four. The drawing may still contain a plausible mug and a plausible box, but their relationship has changed substantially. Correcting the corner's level before adding texture fixes the arrangement more directly than adding extra shading to either object. Placement errors are not repaired by making the misplaced part more elaborate."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Angles provide another check. Suppose the top edge of the box slopes gently down toward the right in your view. A perfectly horizontal line on the paper changes the apparent orientation of that surface. Instead of naming an exact angle immediately, compare its rise with its horizontal run. In an invented construction, a line that descends one centimetre over a four-centimetre run is shallower than one descending two over the same run. The second line falls twice as far. You do not need trigonometry to see the difference. The ratio gives the slope a concrete meaning that the word diagonal alone cannot supply."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Avoid copying the angle of the pencil in your hand directly onto a tilted sketchbook without considering the page. The drawing's horizontal and vertical directions belong to its picture surface. If you rotate the book halfway through checking a line, your physical hand position may no longer correspond to the same direction on that surface. This is one reason a simple upright comparison can be more reliable than an elaborate gesture. You can rotate a page to make a comfortable stroke, then return it to the viewing position to judge the result. Making a mark and evaluating its direction do not have to happen in the same hand posture."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "The space between objects is a shape too. Look at the gap between the mug's handle and its body. You can describe it as an opening with a certain height, width, tilt, and curvature. If you concentrate only on drawing a familiar handle symbol, you may make that opening much too wide. Looking at the enclosed background gives you a second route to the same boundary. The handle's inside edge is also the opening's outside edge. They cannot both be correct if they contradict each other. Speed's attention to background shapes is useful because it lets an unfamiliar patch expose an error hidden by a familiar object name."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "The larger gap between the mug and the box works similarly. Imagine it resembles a narrow wedge, broad at the bottom and nearly closed at the top. Your drawing shows a broad rectangular gap instead. Even before measuring either object, you know some relationship is wrong. Perhaps the mug is too far left, the box too far right, or one side has the wrong slope. The gap identifies the region needing investigation without immediately telling you which object caused the error. That is a useful distinction. A check can locate a contradiction while leaving several possible causes that you then compare against the rest of the arrangement."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "This is often called observing negative space, but nothing negative is happening to the object. The term identifies the spaces around or within the subject rather than the named subject itself. In a chair drawing, the spaces between the legs can be easier to compare than four remembered ideas of what chair legs look like. In our still life, the cloth's irregular edge and the box create a small triangle of visible tabletop. If the triangle disappears in the drawing, the objects have shifted relative to one another. The apparently empty part carries information about their placement just as clearly as a drawn corner does."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Curves can be checked against straight chords. A chord here means a straight line joining two points on the curve. Choose the top and bottom attachments of the mug's outer handle and imagine the straight segment between them. Then notice where the handle bows farthest away from that segment, and by how much. A tall narrow handle and a broad round handle might share the same attachment points but have different maximum departures. Speed recommends noticing the endpoints and the curve's greatest distance from their connecting line. That gives you more control than trying to imitate an entire bend in one undifferentiated sweep."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "A curve can also change its direction of bending. The cloth's outer edge might bow outward, straighten briefly, and then curl inward near a fold. If you replace that whole sequence with one smooth arc, you lose a characteristic part of the shape. Mark where the change happens, then connect the sections. The aim is not to produce as many bumps as possible. It is to identify the few changes that account for the contour's character. A selective accurate bend can tell us more about this particular cloth than a long string of decorative wiggles that were never observed in the first place."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Overlap tells us which boundary continues in front. Suppose the mug hides part of the box. The visible box edge stops where it meets the mug's silhouette. If you draw that hidden edge straight through the mug at full strength, the picture can look transparent or structurally confused. A faint construction line may help you understand the box while building the drawing, but it has a different role from a visible edge in the final observation. Speed describes complex contours as a sequence of overlappings. One form takes over from another. Following those changes helps you show depth without needing heavy shading everywhere."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Perspective enters most clearly with the box. In a perspective view, parallel edges that recede in the same spatial direction can appear to approach a common vanishing point. You may not see that point within the page. A shallow view can put it far beyond the drawing. The practical check is consistency: edges belonging to the same family should not diverge arbitrarily if they are meant to represent the same parallel direction. We are not constructing a complete perspective system today. We are noticing why drawing every box edge as a horizontal or vertical symbol can fail to match the particular view in front of us."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Keep three distinct ideas apart: an edge's actual length, its apparent length, and its direction in the image. A square top surface does not generally appear as a square when viewed obliquely. Its nearer and farther edges can occupy different apparent widths, and its side edges can slope. Measuring the visible shape helps you avoid forcing the real square into a view where it cannot appear that way. Knowledge of the object still helps you check plausibility. But it should guide interpretation of what you see rather than override every difference between the object in space and its projection onto the page."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "The mug's opening deserves the same patience. In our simple classroom model, a level circular rim viewed obliquely appears approximately elliptical. The amount of visible opening changes with your eye position relative to it. Seen from higher above, the opening looks more open; seen nearer its level, it becomes much flatter. Do not turn that into a universal formula for every photograph, lens, tilted vessel, and perspective arrangement. For this drawing, the useful task is to compare the observed oval's width and depth, locate its centre, and notice how its front and back curves relate to the mug's sides."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "One common construction mistake is to make the oval pointed at its left and right ends, like a leaf. An ellipse has a continuous rounded turn there. Another is to place the body's sides at awkward points so they seem to cut through the rim. You can sketch a complete light oval first, then decide which portions are visible and how the vessel joins it. If the rim has thickness, the inner and outer boundaries are separate observations, not necessarily one oval copied mechanically at a smaller size. A small shift at the rim can change the apparent tilt of the whole object."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "We now have several checks that can disagree usefully. The mug's height-to-width ratio might look right, but its gap from the box might be too broad. Its outer handle might look convincing, but the opening inside might be too small. Its rim might have the correct width, but the wrong depth. These are different claims about the drawing. Checking them separately helps you make a targeted correction rather than randomly redrawing the whole mug. Observational work becomes more manageable when an unspecific feeling that it looks wrong is translated into a relationship you can actually compare and change."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Second recall question. Why can the empty gap between a mug and a box help you place them? And how would a straight line between two endpoints help you judge a curved handle? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "The gap has its own visible shape, formed by the boundaries of both objects. If your drawn gap has the wrong width or taper, at least one surrounding relationship needs correction. For the handle, the straight chord gives a reference for how far the curve bows away and where that maximum occurs. These methods do not replace looking at the objects. They give you additional comparisons. One checks the space between forms; the other checks a bend against a simpler line. Together they make a complicated shape less dependent on a single confident but untested stroke."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Once placement is working, consider the difference between a contour and a dark band. A contour line can stand for the boundary where an object disappears from view. It does not mean that a black wire runs around the actual mug. In line drawing, we accept that convention because it can communicate shape economically. If you draw an equally thick black outline around every object and every shadow, you are making a particular stylistic choice. It may be effective for a graphic illustration, but it will not automatically reproduce the way the objects merge and separate under the light in our observed arrangement."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Line weight can give emphasis. A firmer mark at an overlap may make one form read clearly in front of another. A lighter mark along a brightly lit boundary can keep it from appearing cut out. Speed discusses varying the strength and definition of a line where an observed boundary becomes more or less pronounced. That is a practical expressive method, not a requirement to make every lower edge dark and every upper edge light. The actual light, background, and drawing style matter. Ask what information the stronger line supplies at that location, rather than applying a decorative recipe to every contour."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Now imagine removing all outlines and representing the scene with three patches: a light tone, a middle tone, and a dark tone. Would the mug and box still be recognisable? That is the mass-drawing problem. Tone here means relative lightness or darkness in the picture. It is separate from hue, such as blue or orange. Speed recommends beginning with broad light, half-tone, and shadow groups before developing smaller variations. We can adapt that idea with pencil shading. The restriction forces us to decide which larger areas belong together instead of spending all our attention on small surface details."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Three tones are an exercise constraint, not a discovery that reality contains only three brightnesses. The mug may show a continuous range, the cloth may contain many small changes, and the box may reflect light differently across its surfaces. We temporarily compress those differences into a manageable structure. Imagine translating a long paragraph into three main points before restoring detail. The compressed version must preserve the important relationships, or expansion will only elaborate a faulty foundation. In drawing, that means the largest light and dark areas need sensible shapes and relative positions before tiny highlights or subtle textures become useful."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Make a small test strip on spare paper. Leave one patch close to the paper's lightness, shade a second moderately, and make a third visibly darker. You do not need to force the pencil into its deepest possible black. What matters first is that the three values can be distinguished. Use them consistently in the little study. If your middle tone gradually becomes as dark as the shadow, the original grouping disappears. A test strip provides a reference you can return to. It also reveals what your current pencil and paper can do without buying a different set of materials."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "There are several causes of a dark patch, and drawing improves when you distinguish them. The box may have dark printing on a surface facing the light. The mug's unlit side may be dark because it receives less direct illumination. A cast shadow on the table is dark because an object blocks part of the light that would otherwise reach it. All three can look similar in tone while describing different things. If you shade every dark patch as though it were a hollow or a turned-away surface, the printed label may begin to look like a dent. The cause helps you decide how the patch relates to the object's form."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "For a first study, a plain object makes that problem simpler. A mug covered in bright patterns forces you to separate surface decoration from illumination while also solving the drawing. A plain mug removes one source of variation. That does not make plain objects artistically better. It isolates a particular skill. Speed often uses casts of a single local colour for this reason. Our pencil exercise uses whatever ordinary unpatterned object is available. The teaching choice is about reducing simultaneous variables so that the shape of the light can be examined clearly, not about making the finished picture impressive through an expensive subject."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Place the imagined light to the left of the arrangement. The box's faces meet it at different orientations, so they need not receive equal direct illumination. On a curved mug, the orientation changes gradually around the body. That gives us a reason for gradual tonal change rather than an arbitrary grey stripe. The actual appearance also depends on the surface and surrounding light, so inspect rather than impose a standard shading diagram. Our simple model explains what to look for: how the form turns relative to the light, where direct illumination is blocked, and which neighbouring surfaces may return light into the darker areas."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "A form shadow belongs to a surface turned away from the relevant direct light. A cast shadow appears where an object obstructs that light from reaching another surface. The mug's darker side and its shadow on the table therefore describe different parts of the situation. The cast shadow has its own shape, which changes with the light's position and the receiving surface. It should not simply be a dark oval added underneath every object as a symbol for groundedness. In our arrangement it extends mainly away from the light, and its relation to the mug helps show where the mug actually meets the table."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "The contact region often deserves close observation. If you leave an unexplained bright gap between the mug's base and a shadow that should meet it, the mug can appear to hover. But covering the whole base with a thick black stripe can make it look artificially cut out. Compare the exact width and shape of the darkest contact area, then the broader shadow beyond it. Small changes in this region can carry strong information about contact. The task is not to make everything under an object maximally dark. It is to place the particular transitions that connect the object with the surface supporting it."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Reflected light explains why a shadow need not be featureless black. Light from a window can strike the tabletop and then reach the mug's darker side. That secondary contribution may reveal form within the shadow. Speed draws attention to reflected light, but our practical rule is to compare what is present rather than force a bright band into every shadow. A pale table and a dark table can produce different appearances. If you exaggerate the reflected light until it competes with the main lit surface, the mug may seem illuminated from an extra direction that the rest of the drawing does not support."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "A highlight on a glossy mug is different again. It can be a reflection of the light source, perhaps even a small window-shaped patch. Its location is not simply the geometric centre of the object. It depends on the surface and the viewing arrangement. If you move your head, a glossy highlight can shift relative to the object's visible features. For our drawing, keep returning to the chosen view and observe its shape. Reserving a small light patch where it actually belongs can suggest gloss. Scattering bright dots everywhere may produce sparkle, but it does not describe the same material or lighting with equal clarity."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Do not make the highlight the foundation of the drawing. A beautifully preserved white speck cannot repair a mug with an incorrect silhouette or shadow pattern. Block in the main light and dark relationships first, then decide whether the highlight adds useful information about the surface. This is also why the darkest and lightest available marks should be used deliberately. If every small crease gets your darkest pencil and every surface gets a bright accent, there may be no remaining distinction for the areas you want to emphasise. The range is finite, even when the scene contains more brightness variation than the paper can reproduce literally."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "The paper also gives you a brightness limit. In a pencil drawing, an untouched patch cannot become brighter than the paper under the light where you view it. You can make neighbouring areas darker so that the patch stands out more strongly, but you have not produced the actual brightness of a sunlit reflection. That makes tonal relationships more useful than literal brightness matching. Suppose the mug is the lightest large shape, the cloth is intermediate, and the box is darker. Preserving that ordering may communicate the arrangement even though the drawing compresses its range. If the box becomes lighter than the mug accidentally, the relationship has changed, not merely the overall brightness."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "The background belongs in that comparison. A pale mug against equally pale paper may lose part of its silhouette even if you shaded the mug carefully. Adding the observed darker background can make that boundary visible without drawing a heavy outline around it. Conversely, darkening the background everywhere just to make the mug stand out changes the scene if that darkness was never present. You can make that choice in a designed picture, but name it as a choice. In the observational study, compare background and object together. The apparent boundary is produced by their relationship, so treating the background as irrelevant blank space can make you misdiagnose a problem in the mug itself."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Third recall question. A dark printed label, the mug's shadowed side, and the shadow it casts on the table can all appear dark. Why should you distinguish their causes? And what can make part of the mug's shadowed side lighter without direct window light reaching it? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "The label is a surface marking, the form shadow relates to the surface's illumination, and the cast shadow comes from obstruction of light to another surface. Confusing them can make decoration look like a dent or put a shadow in a structurally implausible place. Reflected light from surrounding surfaces can illuminate part of the shadowed side. Its strength must be observed in context. These distinctions help you interpret the dark shapes while still comparing their visible tones. Knowing the cause does not excuse drawing a tone that contradicts the appearance you set out to represent."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Edges now become as important as the values on either side. A hard edge changes abruptly from one tone to another. A soft edge changes across a wider transition. A lost edge is a place where adjacent tones are close enough that the boundary becomes difficult to distinguish in the picture. None of those terms means the physical object has necessarily become sharp, soft, or missing. A solid rounded mug can have a clear silhouette against a contrasting background, then nearly disappear where its shadowed side meets a similarly dark patch. The edge describes the visual relationship at that location."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Imagine shading the mug's curved side from light to middle tone with a sharp vertical border. It may begin to look faceted, as though two flat planes meet there. If you gradually vary the tone across that region, it can suggest a turning surface instead. Now compare the box. A clearer change at a corner may be exactly what is needed to show two faces meeting. The same blending treatment applied everywhere would erase that distinction. Speed's advice to build forms through larger planes and then refine their transitions is helpful here. The handling should respond to the kind of change you are trying to describe."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "A lost edge can feel wrong to a beginner because the object seems unfinished without a continuous outline. But the viewer does not always need every millimetre explicitly enclosed. If most of the mug is established, a small boundary can merge into the background while the whole remains intelligible. You can test that in a study by comparing one version with an uninterrupted outline and another with a short quiet section. This is a choice about depiction, not permission to omit an important edge without understanding it. The remaining relationships must carry the form when one portion becomes less explicit."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Hatching builds tone through repeated lines. Place lines closer together, make them darker, or add another layer, and the area generally becomes darker on the paper. Crosshatching adds lines in another direction. Speed discusses parallel shading, and the National Gallery of Art also presents hatching, crosshatching, pressure, and contour as basic drawing techniques. You can practise a small patch before using them on the mug. Keep the patch's intended value in mind. A lively set of marks that accidentally turns the light side as dark as the shadow solves a texture problem while breaking the larger tonal structure."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Stroke direction can suggest form, but it need not trace every surface literally. Curved strokes wrapping around the mug can emphasise its roundness. Straighter strokes across a box face can support its planar character. An artist can also use a consistent diagonal hatch across the entire drawing and rely on contour and value to establish form. These are different methods with different visual effects. Speed has strong preferences about the expressive character of marks; we can try those preferences without declaring them universal laws. The useful question is whether the marks help the particular drawing read as you intend."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Texture belongs after the larger form has a place. The cloth may be rough and the mug smooth, but filling the cloth with tiny irregular marks does not by itself describe its folds. First locate the large fold, its light-facing area, its darker turn, and any overlap. Then add selected texture that follows or sits convincingly on that structure. If texture has equal strength everywhere, it can flatten the cloth into a patterned sheet regardless of the shading beneath it. In our exercise, only a few marks may be needed to distinguish materials once their shapes and light relationships already work."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Correction is easier when you identify the kind of error before choosing the tool. Suppose the mug looks too tall. Check its body width and height against the unit before rubbing out the rim. Suppose it looks tilted. Check the rim and the sides together. Suppose it looks flat. Compare the light-to-shadow transition and the relationship of the rim to the body. Different symptoms can have several causes, and one cause can affect several symptoms. A specific comparison helps you avoid repeated destructive erasing. You are changing a relationship, not merely trying to make the page look busier or cleaner."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Consider a worked correction. We intended a four-centimetre body width and a six-centimetre height, but the width became three. The apparent ratio is now two to one instead of one and a half to one. The mug looks narrower. If the height and placement are already correct, expanding the width by one centimetre restores the intended relationship. If its centre stays fixed, that means half a centimetre on each side. But if the left boundary has been accurately aligned with the box, moving both sides would damage that check. You would instead preserve that boundary and investigate the right. Corrections must respect what is already established."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Fourth recall question. What is the difference between a soft edge and a lost edge? And in our correction example, why might widening the mug equally on both sides be the wrong choice even though it restores the width? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "A soft edge remains a transition between areas but spreads over some distance. A lost edge becomes difficult to distinguish because adjacent tones are similar. Equal widening can be wrong if one boundary is already correctly positioned relative to another landmark. Fixing the total width while shifting an accurate boundary trades one error for another. Check which relationships are reliable before changing them. That is why we set up several comparisons instead of depending on one measurement. The drawing is a network of positions, shapes, and values, and a correction should improve that network rather than satisfy an isolated number."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Composition asks a different question from likeness. You may draw each object convincingly and still dislike how the arrangement occupies the page. The objects' sizes, spacing, overlaps, and relation to the frame create the overall organisation. Make two small thumbnail sketches before committing to a larger version. In one, place the mug near the middle with space around it. In another, shift it left and let the cloth lead toward the box on the right. These are original design experiments. Neither arrangement is automatically superior. Compare what each makes prominent and whether it supports the kind of picture you want to make."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "A thumbnail is small enough that fine detail cannot rescue it. That is precisely its value. You can see whether the dark shadow becomes a useful connected shape or an isolated blob, whether the box competes with the mug, and whether the empty spaces feel cramped or generous. Try using only two or three tones so the large organisation stays visible. Speed's broader discussion of design emphasises relationships among lines and masses. We can apply that concern without adopting his claims that particular proportions guarantee particular emotional effects. The drawing itself is where you compare what the arrangement does."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Watch for accidental tangencies, where two boundaries just touch in a way that makes their relationship ambiguous. The handle may barely meet the box edge, leaving uncertainty about whether one overlaps the other or both sit side by side. In an observed study you can record what is there, but while arranging the objects you can move them slightly to make the relationship clearer. In a designed illustration you can also choose a clearer separation or overlap. The point is not to ban touching edges. It is to notice when a tiny contact attracts attention for a reason you did not intend."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "The frame changes relationships too. A cloth edge that ends comfortably inside the picture reads differently from one cut by the border. A cropped object can suggest continuation beyond the image. A narrow unexplained sliver at the edge can instead become distracting. Test the crop in the thumbnail rather than assuming that showing every object completely is always best. Our original four boundary marks were a practical starting point, not a permanent law. Once you understand the arrangement, you can choose a tighter frame deliberately. The distinction is between an intentional change in composition and a drawing that simply ran out of room."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Detail can guide attention when used selectively. Suppose the mug's rim and handle receive the clearest description, while the cloth's distant folds remain simpler. That may make the mug more prominent in this drawing. But selective detail alone cannot guarantee where every viewer looks; contrast, placement, subject matter, and other features also contribute. A tiny high-contrast mark on the box could still compete strongly. Judge the whole image after adding an accent. If the goal is to study the mug, a dark label copied with unnecessary emphasis may pull attention toward the least relevant part of the arrangement."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "There is room for expressive departure once you know what you are departing from. You might simplify the cloth, exaggerate the handle's curve, or flatten the shadows into a bold graphic pattern. Those choices can make a different kind of picture. They should not be judged by exactly the same aim as a careful observational study. Speed's distinction between accurate construction and expressive handling gives us one way to discuss the difference. For today's exercise, keep the large observed relationships so the practice has a clear target. Later you can compare an altered version and describe what the alteration contributes or takes away."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Here is a practical study that fits on a single sheet. Use one plain object and, if useful, a small box beside it. Choose a stable comfortable viewpoint and ordinary existing light. Make a little drawing with only the outer limits, two or three landmarks, and the major contours. Beside it, make another little study using three tonal groups with minimal outlining. The first asks whether the shapes and positions work. The second asks whether the light and dark areas organise the form. Keep both modest enough that you can compare them without needing to finish a polished picture."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Afterward, choose one specific revision. Perhaps the gap between the objects is too wide, the rim too open, or the shadow detached from the base. Make a third small study concentrating on that relationship while preserving the others. Do not judge progress by the number of details added. State the change concretely: the gap now narrows toward the top as it does in the arrangement. If drawing is not convenient, use the fictional mug dimensions on paper and sketch only its bounding rectangle and centre line. Four by six and three by six rectangles are enough to see how proportion changes the apparent shape."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Fifth recall question. What different problems do line drawing and mass drawing emphasise? Why make a small three-tone study before adding surface texture? And what should you check before treating a polished detail as evidence that the whole drawing works? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Line drawing emphasises boundaries, contour relationships, and the character of marks. Mass drawing emphasises the shapes and relative values of larger areas. A three-tone study makes you organise those areas before texture fragments your attention. Before relying on a polished detail, check the whole arrangement's scale, placement, proportions, gaps, overlaps, and main light relationships. A beautiful handle can still belong to a mug drawn at the wrong width. The detail earns its place when it supports a coherent structure. It cannot substitute for that structure simply because it took patience to make."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Our imaginary drawing ends with a mug that sits on the table, a box that recedes consistently, and a cloth described by a few meaningful folds. Its success does not depend on recording every visible speck. It depends on enough well-chosen relationships agreeing: the rim with the body, the body with its gap, the gap with the box, and the shadows with the light. That is what makes observation useful as a practical craft. You can locate an error, explain it, and revise it. The next drawing begins with a more precise question than whether you happen to be talented at drawing."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain drawing relationships clearly. Both voices teach. All dimensions and observed outcomes belong to invented examples. Preserve recall pauses.",
+      "t": "Speed gives us tools for that precision: a stable view, relative measurements, construction that can later be released, attention to background shapes, and a distinction between line and mass. Our exercise keeps those tools simple and leaves his historical materials and grand claims about beauty aside. A pencil and an ordinary object are enough to investigate the central problem. The object occupies space; the picture occupies a surface. Every contour, gap, tonal group, and edge is a choice about how to connect the two. Learning to make those choices deliberately is the work the small drawing has begun."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-25",
+    "spoken_words": 7102,
+    "sha256": "6ac17ec7c5fd816e7b451f3eac6a31554d17bc001d3643d285f12f1165b38827",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.gutenberg.org/files/14264/14264-h/14264-h.htm",
+      "https://www.nga.gov/educational-resources/explore-basics-drawing",
+      "https://www.nationalgallery.org.uk/paintings/glossary/perspective"
+    ]
+  }
+}
