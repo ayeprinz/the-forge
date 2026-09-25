@@ -1,0 +1,430 @@
+{
+  "date": "2026-10-14",
+  "title": "[Mathematics] Why Diagonals Work: The Pythagorean Theorem in Practice",
+  "summary": "Original panel, coordinate-grid, box and screen examples explain the Pythagorean theorem, an area proof, its converse, unit conversion, exact roots, distance versus route constraints, three-dimensional diagonals, similarity, integer triples and aspect ratios. Selected Euclid propositions in John Casey’s public-domain edition provide the central geometric foundations, cross-checked against David Joyce’s online presentation. Modern arithmetic and design examples are original derivations, not quotations from Euclid. Five recall questions, each with seven seconds of thinking time and an answer, plus an optional paper rectangle exercise. Approximate measurements and ideal geometric assumptions are distinguished. Consulted sources: https://www.gutenberg.org/files/21076/21076-h/21076-h.htm; https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.html; https://mathcs.clarku.edu/~djoyce/elements/bookI/propI48.html; https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI8.html; https://mathcs.clarku.edu/~djoyce/elements/bookI/propI32.html",
+  "instructions": "Begin with the sixty-by-eighty panel. Both voices teach substantive mathematics, with clear descriptions suitable for audio. Explain letters when introduced and keep side correspondence explicit. All measurements and design cases are invented. No assumed prior reading. Distinguish exact flat geometry from rounded real measurements, straight separation from permitted routes, and a line-segment fit from physical access. Preserve all five seven-second recall pauses and answers. Do not artificially slow speech.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "A rectangular display panel is sixty centimetres wide and eighty centimetres high. A designer wants a narrow strip running straight from one corner to the opposite corner. Adding sixty and eighty gives a hundred and forty centimetres, but that follows two edges of the panel. The diagonal cuts across the middle. Its length is one hundred centimetres. That difference, between travelling around a corner and crossing directly, leads into one of geometry's most useful relationships: the Pythagorean theorem. We can calculate the strip, explain why the calculation works, and work out which changes to the panel would make that calculation invalid."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "The corner matters before any arithmetic begins. A rectangle has right angles, each measuring ninety degrees. Draw its diagonal and you divide the rectangle into two right triangles. In either triangle, two sides meet at a right angle. Those sides are called the legs. The remaining side sits opposite the right angle and is called the hypotenuse. Here the legs are sixty and eighty centimetres, and the diagonal is the hypotenuse. If we tilt the drawing on the page, those roles stay the same. The hypotenuse does not mean whichever line happens to look horizontal or whichever line we drew last."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Squaring a number means multiplying it by itself. Sixty squared is three thousand six hundred. Eighty squared is six thousand four hundred. Add those results and you get ten thousand. The theorem tells us that the diagonal's square equals that sum. We therefore need the positive number that multiplies by itself to make ten thousand. That number is one hundred. The final step is taking a square root, which reverses squaring for a nonnegative length. We have not added the side lengths. We have added their squares and then recovered a length from the resulting square."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "There is a physical picture behind that language. Imagine attaching a square to each side of the triangle. A square built on the sixty centimetre side covers three thousand six hundred square centimetres. A square on the eighty centimetre side covers six thousand four hundred square centimetres. The square built on the diagonal covers ten thousand square centimetres. The two smaller areas together equal the larger area. They need not fit together as two uncut pieces. Equality of area says how much surface they cover, not that their outlines are identical or that one simply slides intact beside the other."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "This is the relationship stated in Book One, proposition forty-seven, of Euclid's Elements. We are using selected propositions, including their presentation in John Casey's historical edition, rather than trying to compress the whole book. Euclid's proof compares areas through constructed triangles and parallelograms. We will use an accessible rearrangement argument and then a second explanation through similar triangles. The examples involving panels, boxes and floor plans are our own. You do not need to have read Euclid, and you do not need to memorise a page of letters before seeing what the theorem actually does."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "For a smaller version, use legs three and four units long. The squares have areas nine and sixteen, whose sum is twenty-five. The diagonal is five units because five times five is twenty-five. This famous three, four, five triangle is convenient because all three lengths are whole numbers. It is not the only possible right triangle. A triangle with legs one and one also has a perfectly definite diagonal, although its length is not a whole number. The theorem describes a relationship among lengths whether or not a calculator gives a tidy-looking answer."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "The difference between length and area prevents a common error. If someone squares three and four, adds nine and sixteen, and writes that the diagonal is twenty-five metres, they have stopped one operation early. Twenty-five describes the square of the numerical length, or the area of the attached square in square metres. The diagonal itself is five metres. A useful size check is that the hypotenuse must be longer than either leg but shorter than the sum of both legs. Five is longer than four and shorter than seven. Twenty-five would fail that check immediately."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "We can see why the diagonal is shorter than seven without a formula. Walking three units in one direction and then four at a right angle takes a detour compared with the straight segment joining the same endpoints. The triangle inequality formalises that comparison: the sum of two side lengths exceeds the third in a nondegenerate triangle. It does not tell us the exact diagonal, but it gives an upper bound. The lower bound comes from the right angle: crossing the full width while also gaining height takes a longer straight segment than crossing the width alone."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Now imagine a square frame whose outer side is seven units. Place four identical three, four, five triangles inside it, one at each corner. Their right angles sit in the corners of the outer square. Along each outer edge, one triangle contributes a leg of three and its neighbour contributes a leg of four, filling the seven-unit edge. The four hypotenuses face inward and surround an empty central shape. Each side of that central shape is five units, since each is a hypotenuse of one of the identical triangles."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Equal sides alone would not establish that the empty shape is a square. A tilted diamond can have equal sides without right angles. Here the angles supply the missing reason. The two acute angles of any right triangle add to ninety degrees, because a flat triangle's angles total one hundred and eighty degrees. At each corner of the central space, those two acute angles and the central angle together form a straight angle. Subtracting their combined ninety degrees from one hundred and eighty leaves ninety. The central shape therefore has four equal sides and four right angles: it really is a square."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "The outer square covers forty-nine square units. Each triangle covers half of three times four, which is six square units. Four triangles cover twenty-four square units. Remove those twenty-four from the outer forty-nine, and the central square covers twenty-five. Its side is five. This calculation is more than a picture that looks persuasive. We have accounted for the whole outer area, justified the central shape, and used the fact that the triangles do not overlap. Every part of the large square belongs either to one of the four triangles or to the central square."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "The same construction works when the legs have lengths we call a and b. These letters stand for any positive lengths, not special numbers. The outer side is a plus b. Its area is a squared, plus two times a times b, plus b squared. Each right triangle has area half of a times b, so the four together cover two times a times b. Removing their area cancels that middle term. What remains is a squared plus b squared, and it is the square on the hypotenuse. That is why the rule continues to work beyond three, four and five."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "If the algebra expansion feels abrupt, partition a square of side a plus b with one horizontal and one vertical line. It divides into a square of side a, a square of side b, and two rectangles each with sides a and b. Their areas are a squared, b squared, a times b, and another a times b. The expansion is simply an inventory of those four regions. In the triangle construction, the four half-rectangles remove precisely the combined area of the two rectangles. The proof links multiplication to visible pieces rather than asking you to accept a symbolic trick."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "There are two different kinds of certainty here. For ideal right triangles on a flat plane, the relation is exact. For a cardboard panel measured with a ruler, the numbers are approximate. A slightly bent edge or a width rounded to the nearest centimetre can change the measured diagonal. That does not alter the theorem; it changes how closely our measurements describe the ideal figure. If a panel is only roughly rectangular, its diagonal need not be exactly one hundred centimetres even when somebody labels the edges sixty and eighty. The condition and the measurements both matter."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "First recall question. A right triangle has legs six and eight centimetres. What is the hypotenuse, and why is the answer not one hundred centimetres? Take seven seconds to work through the operations.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Six squared is thirty-six and eight squared is sixty-four. Their sum is one hundred, so the hypotenuse is the square root of one hundred, or ten centimetres. One hundred square centimetres is the area of the square on that side. Ten centimetres is the side's length. Notice also that this is the three, four, five triangle enlarged by a factor of two. Every length doubles, while each square's area becomes four times as large. That distinction between multiplying lengths and multiplying areas will help us use the theorem without repeatedly starting the arithmetic from scratch."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Suppose the original display panel is reduced to half size. Its width becomes thirty centimetres, its height forty, and its diagonal fifty. Squaring a half-size length produces one quarter of the original square's area. Nine hundred plus sixteen hundred equals twenty-five hundred, and the square root is fifty. The relation survives because every term changes by the same factor. A uniform enlargement preserves angles and side ratios. A stretched image, however, may enlarge the width by one factor and the height by another. Then the old diagonal cannot simply be multiplied by either factor alone."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "For example, double the width of a three-by-four rectangle while leaving its height at four. Its new dimensions are six by four, and the diagonal squared is thirty-six plus sixteen, or fifty-two. The diagonal is about seven point two one, not ten. Ten would correspond to doubling both dimensions to six by eight. This is a concrete difference between scaling and distortion. In a graphics program, locking an image's aspect ratio performs uniform scaling. Changing only its width alters the proportions, and the diagonal responds to the new pair of perpendicular distances."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "The theorem can also recover a missing leg. Imagine a right triangle with hypotenuse thirteen units and one leg five units. The square on the unknown leg must fill the difference between one hundred and sixty-nine and twenty-five. That difference is one hundred and forty-four, whose positive square root is twelve. So the missing leg is twelve units. Adding the two known squares would be wrong here, because the thirteen-unit side already carries the total area. Identify the hypotenuse first, then decide which part of the area equation is missing."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "A diagonal brace on a drawing of a rectangular frame gives the same kind of problem. If the drawn diagonal represents one hundred and thirty centimetres and the width represents fifty, the height represents one hundred and twenty. This is geometry of an ideal drawing, not a complete specification for making a structural brace. Real attachments, material thickness and joint positions add other dimensions. Even as a drawing problem, we must know whether the measurements run between the same endpoints. Mixing an outside width with a diagonal measured between interior corners would describe two different triangles."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "An impossible result can identify a wrongly labelled diagram. Suppose someone says a right triangle has a hypotenuse of five and a leg of seven. Squaring and subtracting would leave twenty-five minus forty-nine, which is negative. There is no nonnegative real length whose square equals that number. The geometry already warned us: a hypotenuse cannot be shorter than a leg. We should check the labels or the assumption of a right angle. Changing the order of subtraction merely to obtain a positive answer would conceal the problem instead of solving it."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "A second example catches a subtler mistake. If a hypotenuse is ten and one leg is six, the other leg is eight. It is not four, although ten minus six is four. Squares, rather than lengths themselves, balance in the theorem. This distinction reflects the angle between the legs. When two segments lie along the same straight route, their lengths can add directly. When they are perpendicular components of one diagonal, the square relationship describes the resulting length. The arrangement of the segments decides which operation has a geometric meaning."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Units must agree before squaring. A small rectangle might be sixty centimetres wide and zero point eight metres high. You can change the height to eighty centimetres and get a one hundred centimetre diagonal. Or change the width to zero point six metres and get a one-metre diagonal. Squaring sixty and zero point eight as if they used the same unit would combine incompatible measurements. Unit conversion is not decoration placed after calculation. It determines what the numbers mean before the equation is formed."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Area units change differently from length units. One metre contains one hundred centimetres, but a square metre contains ten thousand square centimetres. It has one hundred centimetres along each of its two dimensions. That is why our ten thousand square centimetres becomes one square metre, whose side is one metre. If we divided an area by only one hundred, we would convert just one dimension and leave the other unchanged. Thinking of a grid of small squares makes the conversion less mysterious and provides another way of checking the diagonal calculation."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "So far we started with a known right angle. Now reverse the question: if a triangle has sides three, four and five, must it have a right angle? The answer is yes, and the reversed statement is called the converse. Euclid gives it separately in proposition forty-eight. The original theorem says a right angle guarantees the square relationship. The converse says that relationship guarantees a right angle, when the numbers are the side lengths of a triangle. Reversing a statement is not automatically valid in general, so this direction needs its own justification."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Construct a right triangle with legs three and four. The theorem we have already proved makes its third side five. Compare it with the triangle whose sides were given as three, four and five but whose angles were unknown. Two triangles with the same three corresponding side lengths have the same shape, possibly turned over or rotated. Therefore the angle between the three and four sides in the unknown triangle equals the right angle in the constructed triangle. The argument works for any positive side lengths satisfying the square relationship, not only this familiar triple."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "This converse explains a practical layout check. On a flat drawing, mark a point three units along one intended edge from a corner and another point four units along the other intended edge. If the distance between the marks is five units, the corner is right in the exact model. You could use thirty, forty and fifty centimetres instead, since the ratios are unchanged. Longer baselines can make a small angular error easier to notice with ordinary measurement, but the ruler's precision and the placement of the marks still limit how exact your real check can be."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "It also explains why checking only adjacent side lengths cannot prove a frame is rectangular. Four equal-length strips can make a square, but they can also make a slanted rhombus. The side lengths alone have not fixed the corner angle. A diagonal introduces a constraint across the shape. However, equal diagonals alone do not make every possible quadrilateral a rectangle either. An isosceles trapezium can have equal diagonals. If you already know the figure is a parallelogram, equal diagonals do establish a rectangle. Each test works within conditions that must be stated."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "We can justify that last distinction in the parallelogram case. Let one edge run horizontally a distance w. Let an adjacent edge have a horizontal displacement x and a perpendicular displacement h. One diagonal then has squared length equal to the square of w plus x, plus h squared. The other has squared length equal to the square of w minus x, plus h squared. If those are equal, their difference is four times w times x, which must be zero. Since w is a positive edge length, x must be zero: the adjacent edge is perpendicular."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Second recall question. A triangle has side lengths five, twelve and thirteen. Without measuring its angles, how can you decide whether it is right-angled, and which side would be opposite the right angle? You have seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Square the longest side, thirteen, to get one hundred and sixty-nine. The squares of the other sides are twenty-five and one hundred and forty-four, also totalling one hundred and sixty-nine. The converse establishes a right angle between the five and twelve sides. The thirteen side is opposite it. This is stronger than saying the drawing looks square at one corner. It uses exact lengths in the ideal problem. In an actual measured object, a close numerical match supports an approximately right angle to the precision of those measurements, not infinite precision."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Not every diagonal produces a whole number. In a square with side one, the diagonal squared is two. We call its positive length the square root of two, approximately one point four one four. The exact expression names a particular number; it is not an unfinished problem. No finite decimal equals it exactly. For everyday sizing, an appropriate rounded value may be enough. For a later calculation, keeping the square root until the end avoids introducing rounding error at every intermediate stage. Exact expressions and usable measurements serve related but different purposes."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "There is a short reason the square root of two cannot be expressed as a ratio of whole numbers. Suppose it could, and choose a fraction already reduced to lowest terms. Call its numerator p and denominator q. Squaring the fraction gives p squared divided by q squared equal to two. Therefore p squared equals twice q squared, so p squared is even. An odd number squared is odd, which means p itself must be even. We can therefore write p as twice another whole number, which we will call r."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Substituting twice r for p makes p squared four times r squared. Our equation becomes four times r squared equals twice q squared. Divide both sides by two: q squared equals twice r squared. So q squared is even, and q must also be even. But then both numerator and denominator of the supposedly reduced fraction share a factor of two. That contradicts the choice of a fraction in lowest terms. The assumed fraction cannot exist. This is what irrational means here: the length is a real number that is not a ratio of integers."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "The word irrational has nothing to do with a diagonal behaving unpredictably. The diagonal of the unit square is completely fixed. Irrationality concerns how the number can be represented. A measurement of one point four one four centimetres is a rational approximation to that length, because a terminating decimal can be written as a fraction. The drawing may be precise enough for its purpose even though the exact ideal length has no terminating decimal. Geometry does not require every meaningful length to fit neatly into the counting numbers we first learn to use."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "You can bracket an awkward square root without a special method. For a rectangle with sides two and three, the diagonal squared is thirteen. Three squared is nine and four squared is sixteen, so the diagonal lies between three and four. Three point six squared is twelve point nine six, just below thirteen. Three point seven squared is thirteen point six nine, above it. The diagonal therefore lies between three point six and three point seven, and a calculator gives approximately three point six zero six. Each improved bracket narrows a definite interval."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "This matters in a sizing decision. Suppose a mathematical line segment must fit diagonally inside an ideal rectangle two metres by three metres. A segment of length three point five metres fits along that diagonal; a segment of length three point seven does not. The rough whole-number bracket between three and four would be insufficient to decide either case reliably. A more precise bracket solves the decision. For a real physical object, width, thickness, clearance and the route through an opening introduce extra questions, so the line-segment calculation should not be mistaken for proof that a bulky object can be manoeuvred into place."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Next place the same geometry on a coordinate grid. A point's first coordinate tells you its horizontal position and its second tells you its vertical position. Suppose one point is at two across and one up, and another is at eight across and nine up. The horizontal difference is six and the vertical difference is eight. Those differences form the perpendicular legs of a right triangle. Its hypotenuse is the direct distance between the points, which is ten. Coordinates let us find the triangle even when no right triangle has been explicitly drawn on the map."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "The calculation uses differences, not the coordinates themselves. If we shift both points five units to the right, they become seven across and one up, and thirteen across and nine up. Their differences are still six and eight, so their separation is unchanged. The grid's origin is a reference choice, not a physical feature that determines the distance between the points. This invariance is a useful check when setting up a computer drawing or a plan: moving the entire object across the page must not change its internal dimensions."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Negative differences work as well. Travel from the point eight across and nine up back to two across and one up. The horizontal change is negative six and the vertical change is negative eight. Their squares are still thirty-six and sixty-four, giving the same ten-unit distance. Direction changes the signs of the components, while squaring removes those signs when calculating magnitude. That does not mean direction is unimportant. It means a distance is a nonnegative size, and the separate coordinate changes carry the additional information about which way the displacement points."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "A street grid shows why those components can answer more than one question. If a destination is six blocks east and eight blocks north, its straight-line displacement is ten block-lengths, assuming equal square blocks. But a route restricted to those streets needs at least fourteen block-lengths: six east and eight north. Many different routes can have that same length, alternating their eastward and northward sections in different orders. The diagonal is a geometric separation through the grid, not necessarily a road you can walk. The shortest permitted route depends on the connections and obstacles available."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Even the count of blocks needs care if they are rectangular. Six blocks east of one hundred metres each gives six hundred metres horizontally. Eight blocks north of fifty metres each gives four hundred metres vertically. The direct distance is then the square root of five hundred and twenty thousand square metres, approximately seven hundred and twenty-one metres. Treating those unlike block lengths as equal would give the wrong physical distance. A grid with unequal axis scales can still be used, but the coordinate differences must first be converted into compatible lengths."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "A tilted pair of axes introduces a different issue. If the directions are not perpendicular, the plain sum of squared components no longer gives the distance. Imagine two one-unit movements in exactly the same direction. Their combined displacement is two units, not the square root of two. Two one-unit movements at right angles give the square root of two. The lengths of the components are identical in both examples; the angle changes the result. More general formulas include the angle. Today our distance calculations use perpendicular axes so that the right-triangle theorem applies directly."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "The same rule gives a useful description of a circle. Put the circle's centre at the origin of a perpendicular coordinate grid. Every point on a circle of radius five is five units from that centre. Therefore its horizontal coordinate squared plus its vertical coordinate squared equals twenty-five. A point three across and four up lies on the circle. So does three across and four down. A point zero across and five up also lies on it. They have different directions from the centre but the same distance, which is precisely the defining feature of the circle."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "It also becomes easy to test whether a point lies inside or outside. For a point two across and three up, the squared distance is thirteen, which is less than twenty-five, so the point is inside the circle of radius five. For four across and four up, the squared distance is thirty-two, which exceeds twenty-five, so it is outside. We did not need to compute either square root. Comparing nonnegative distances is equivalent to comparing their squares, because squaring preserves their order. That shortcut can reduce work when only a comparison is needed."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Picture a simple computer game checking whether a point-sized marker lies within a circular target. Subtract the target centre's coordinates from the marker's coordinates, square both differences, and add them. Compare that sum with the target radius squared. This is the same geometry in computational form. If the marker itself has size, or the target has an irregular outline, the model needs additional detail. Still, a concrete geometric relationship has become an efficient test. The computer does not need a different theorem merely because its coordinates describe pixels instead of centimetres."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Third recall question. Two points differ by nine units horizontally and twelve vertically on a perpendicular, equally scaled grid. What is their direct distance, and what is the length of a route that follows just those two coordinate directions without backtracking? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "The direct distance is fifteen units: eighty-one plus one hundred and forty-four equals two hundred and twenty-five, and its square root is fifteen. The route along the two grid directions totals twenty-one units. One measures a straight displacement and the other a constrained path. The six-unit difference is not an arithmetic discrepancy. The questions specify different allowed routes. If an obstacle blocks the direct segment, the fifteen-unit separation remains correct while being unavailable as an actual path. A distance calculation and a route plan can therefore both be accurate while giving different lengths."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "We can extend the geometry into a rectangular box by using the theorem twice. Let the box have internal dimensions three, four and twelve units, with mutually perpendicular edges. First cross the three-by-four base diagonally. That base diagonal is five. Now imagine a vertical triangle containing this five-unit base diagonal and a twelve-unit upright edge. Those two segments meet at a right angle, and the line between opposite corners of the box is their hypotenuse. Five squared plus twelve squared gives one hundred and sixty-nine, so the space diagonal is thirteen units."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Substitute the first calculation into the second and the structure becomes clear. The square of the space diagonal equals three squared plus four squared plus twelve squared. In general, for three mutually perpendicular components, add all three squares and take the positive square root. We have not guessed a new rule from a pattern. We have built one right triangle in a horizontal plane, then another containing its diagonal and the vertical direction. Each step uses the same proven two-dimensional relationship. More dimensions can be treated similarly in mathematics, although this physical box needs only three."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "A line segment thirteen units long can lie between those opposite corners in the ideal box. That does not imply a thirteen-unit rigid rod of substantial thickness will fit without clearance. Nor does it establish that the rod can enter through whatever opening the box happens to have. We separated the interior space question from the access question earlier, and the distinction persists in three dimensions. The diagonal measures the greatest separation of points in the rectangular box. It does not calculate collisions during a rotation or allow for rounded corners, packaging or the dimensions of a lid."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "There is also a difference between crossing through the box and travelling on its surface. Imagine a marker that must move from one corner to the opposite corner while staying on the faces of a rectangular box. The thirteen-unit interior diagonal cuts through the solid, so it is not an allowed route. To consider a route across two adjacent faces, unfold those faces into a flat rectangle. A straight line across the unfolded rectangle becomes a bent route over the two faces when folded back. Unfolding preserves lengths within the surfaces, letting plane geometry solve that particular surface-route problem."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "For the three, four and twelve box, three natural two-face unfoldings give different rectangles. One has sides seven and twelve, combining three with four. Another has sides fifteen and four, combining three with twelve. The third has sides sixteen and three, combining four with twelve. Their diagonal squares are one hundred and ninety-three, two hundred and forty-one, and two hundred and sixty-five. The first of these candidate routes is shortest, approximately thirteen point eight nine units. We can compare the squared lengths directly before taking the root of the winning candidate."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "That calculation compares these three specified two-face candidates. A complete general treatment of shortest paths on surfaces would require explaining which unfoldings cover all relevant paths and what obstacles or forbidden faces change the possibilities. We do not need that larger claim for this example. The useful mechanism is that a surface route becomes straight when an appropriate pair of flat faces is opened out. An interior route, an edge-following route and a surface route each obey different constraints. The geometry becomes powerful when we describe the permitted movement before selecting the formula."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Now return to a single triangle for a deeper explanation of why the squares add. Similar triangles have the same angles and corresponding side lengths in the same ratios. A photograph enlarged uniformly provides an intuitive model of similarity, although here we are discussing ideal figures. A three, four, five triangle and a six, eight, ten triangle have the same shape because every side has doubled. A three, four, six triangle does not share that shape, because one side has changed by a different factor. Matching corresponding sides is essential when forming the ratios."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Take a right triangle and draw a perpendicular from its right-angle corner down to its hypotenuse. This divides the original into two smaller right triangles. Each smaller triangle shares one of the original acute angles. Each also has a right angle where the new line meets the hypotenuse. Since a triangle's angles total one hundred and eighty degrees, its remaining angle must match the remaining acute angle of the original. Each small triangle therefore has the same three angles as the large one. This is the similarity relationship in Euclid's Book Six, proposition eight."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Let the original hypotenuse be c, and let one original leg be a. The perpendicular splits the hypotenuse into two pieces. Call the piece beside that leg p, and the other piece q. When we compare the appropriate small triangle with the whole triangle, their hypotenuses are a and c. The side p in the small triangle corresponds to side a in the large one. Similarity therefore says a divided by c equals p divided by a. Multiplying across gives a squared equal to c times p. One leg's square has become a rectangle's area."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "The other small triangle gives the matching relationship for the other original leg, b. Its square equals c times q. Add the two results: a squared plus b squared equals c times p plus c times q. Factor out the common c and you have c times the sum of p and q. But those pieces together make the entire hypotenuse, c. Their product with c is therefore c squared. We have recovered the Pythagorean theorem by comparing shapes, rather than by removing triangles from a large square. The two explanations reveal different structures within the same relationship."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "The numbers in a three, four, five triangle make that construction concrete. The projection piece beside the three-unit leg has length nine divided by five, or one point eight. The piece beside the four-unit leg is sixteen divided by five, or three point two. Together they total five, as they must. The smaller projection belongs beside the smaller leg. Notice that the altitude does not generally split the hypotenuse in half. It does so in the symmetric case where the two legs are equal, but a three, four, five triangle has unequal legs and unequal projections."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "We can find the altitude without estimating it from a sketch. The triangle's area is half of three times four, which is six. Using the hypotenuse as its base, the area is also half of five times the altitude. Therefore the altitude is twelve divided by five, or two point four. This gives a second consistency check. One small right triangle has legs one point eight and two point four, with hypotenuse three. Their squares are three point two four and five point seven six, which sum to nine. The smaller triangle is itself a scaled three, four, five triangle."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Fourth recall question. Drop a perpendicular from the right angle of a three, four, five triangle to its hypotenuse. Why are the resulting triangles similar to the original, and does the perpendicular split the hypotenuse into equal halves? Think for seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Each small triangle has a right angle and shares an acute angle with the original. The third angle must therefore match as well, giving the same shape. The hypotenuse pieces are not equal here. They are one point eight and three point two, obtained by dividing the squares of the adjacent legs by five. Equal halves would require the equal-leg symmetric case. Similarity compares the proportions within each triangle; it does not say the two smaller triangles are equal in size. Confusing similar with identical would erase the very scaling relationship that makes the proof work."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Whole-number examples such as three, four, five are called Pythagorean triples. They are useful for constructing exact examples without rounded roots. Multiplying every member of a triple by the same positive whole number produces another triple. Doubling gives six, eight, ten; tripling gives nine, twelve, fifteen. Squaring multiplies every term by the square of that common factor, so the equality survives. Those enlarged triples have a common factor in all three lengths. A triple with no common factor greater than one is called primitive. Three, four, five and five, twelve, thirteen are primitive examples."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "There is a systematic way to generate more. Choose positive whole numbers m and n, with m larger than n. Make one leg m squared minus n squared, the other leg twice m times n, and the hypotenuse m squared plus n squared. To see a result, choose m equal to two and n equal to one. The first leg is four minus one, or three. The second is twice two times one, or four. The hypotenuse is four plus one, or five. Choosing three and two instead gives five, twelve and thirteen."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "We can verify why this recipe works without trusting the examples. Squaring m squared minus n squared gives m to the fourth power, minus twice m squared times n squared, plus n to the fourth power. Squaring twice m times n gives four times m squared times n squared. Adding leaves m to the fourth power, plus twice m squared times n squared, plus n to the fourth power. That is precisely the square of m squared plus n squared. The algebra proves that every pair of positive whole numbers in the stated order generates a valid square relationship."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "The recipe does not always produce a primitive triple. Choose m equal to three and n equal to one. The lengths become eight, six and ten, which all share a factor of two. Dividing them by two returns four, three and five. Choose four and one, and the lengths become fifteen, eight and seventeen, with no common factor. We are not proving a complete classification of primitive triples here. We are showing a reliable way to manufacture exact test cases and explaining the identity behind it, while keeping the stronger classification question separate."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "These exact cases are useful for checking a spreadsheet or a drawing program. If your distance calculation returns something other than thirteen for perpendicular changes of five and twelve, the implementation has a problem. Perhaps it forgot the square root, used different units on the axes, or added coordinates instead of subtracting them. A known case does not prove the program works for every input, but it can expose a specific mistake quickly. A second check with equal legs one and one tests a non-integer result, so an accidental whole-number rounding step is more likely to show up."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Aspect ratios provide another design application. Suppose a rectangular screen has a width-to-height ratio of sixteen to nine. Those numbers describe proportions, not centimetres. We can call the width sixteen times a scale factor and the height nine times the same factor. The diagonal is then the scale factor times the square root of three hundred and thirty-seven, because sixteen squared plus nine squared equals two hundred and fifty-six plus eighty-one. If we know the diagonal, dividing it by the square root of three hundred and thirty-seven determines that scale factor."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "For an ideal screen whose diagonal is fifty-five inches and whose ratio is exactly sixteen to nine, the scale factor is about two point nine nine six inches. The width is about forty-seven point nine four inches and the height about twenty-six point nine six inches. We are calculating the active rectangle, not claiming dimensions for a particular commercial product. A frame or stand can make the overall object larger. The diagonal alone cannot identify width and height unless an aspect ratio or another independent relationship is supplied. Many different rectangles can share the same diagonal."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "A fixed diagonal can accompany very different areas. Consider a right triangle with hypotenuse ten, used as half of a rectangle. Legs six and eight give a rectangle of area forty-eight square units. Equal legs each of length the square root of fifty give a square of area fifty. A very narrow rectangle can keep the same ten-unit diagonal while having a much smaller area. A label announcing a diagonal therefore does not by itself tell you how much surface is available. The aspect ratio matters for the amount and shape of space you get."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "We can prove that the square gives the greatest area for a fixed diagonal without calculus. The square of the difference between the width and height cannot be negative. Expanding it gives width squared plus height squared minus twice width times height. With diagonal ten, the first two terms sum to one hundred. Therefore twice the rectangle's area cannot exceed one hundred, so the area cannot exceed fifty. Equality occurs only when the difference between width and height is zero. The optimal rectangle is a square because that is exactly when the nonnegative difference-square disappears."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "This is an example of extracting a new result from an old relationship. We did not test every possible rectangle. We combined the diagonal condition with the simple fact that a real number squared is nonnegative. The result also scales: if a fixed diagonal doubles, the maximum area grows fourfold. It is still a mathematical statement about ideal rectangles. A useful design might deliberately use a lower-area shape because a long narrow format suits its contents or location. Maximising area answers one question; it does not automatically settle which shape serves a particular purpose best."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Measurement uncertainty changes what precision is sensible. Suppose the panel labelled sixty by eighty centimetres was measured only to the nearest centimetre. Its true dimensions could plausibly lie from fifty-nine point five to sixty point five, and from seventy-nine point five to eighty point five, under that simple rounding assumption. For a right rectangle, the smallest diagonal within these bounds uses both smaller values, and the largest uses both larger values. Squaring and adding gives a diagonal range of approximately ninety-nine point three zero to one hundred point seven zero centimetres. Reporting many decimal places would not improve those inputs."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Those bounds assume the corners are right and the sides are straight. They account for rounding of the two lengths, not for every possible measurement problem. If the corner angle is also uncertain, a different geometric error enters. It helps to distinguish a calculation's precision from the model's accuracy. A calculator may produce ten decimal places from rough dimensions, but the extra digits describe its arithmetic rather than extra knowledge about the panel. In practice, carry enough digits during calculation to avoid unnecessary rounding, then report a result consistent with the measurements and the decision being made."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "The right-angle condition also has a geographic limit. A small floor plan can reasonably use flat geometry. Very large routes over a curved surface need a model of that surface rather than simply treating latitude and longitude as perpendicular distances in metres. One degree of longitude does not correspond to the same surface distance at every latitude. We are not doing navigation calculations here. The point is concrete: coordinates are labels whose scale and geometry must be understood before their differences become the legs of a Euclidean right triangle. A familiar-looking pair of numbers does not guarantee the required structure."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "For a low-risk practical exercise, draw a rectangle on ordinary paper, with sides six and eight centimetres if a ruler is available. Predict its diagonal before measuring it. Then measure from one corner to the opposite corner and compare with the predicted ten centimetres. Keep the corner as square as you reasonably can, perhaps using the corner of another sheet as a guide. A small discrepancy can come from the drawing, the ruler placement or rounding. There is no need to cut material, buy tools or test a real structure. This is a paper exercise in connecting a mathematical model with a measurement."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Then make a second drawing with the same six-unit width but a twelve-unit height. Predict the new diagonal squared: thirty-six plus one hundred and forty-four, or one hundred and eighty. The diagonal is about thirteen point four two units. It has not grown in proportion to the height, because the width stayed fixed. Beside the drawing, write which sides are legs, which side is the hypotenuse, and where the right angle is. Those labels make the reasoning visible. If you have no ruler, work with the two imagined rectangles and explain the calculations aloud or on paper instead."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "Fifth recall question. An ideal rectangular box has perpendicular edges three, four and twelve units. Explain how to get its corner-to-corner distance, and name one reason that number alone cannot prove a physical object can be put inside it. Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged mathematical teaching. Explain each operation and geometric condition clearly. All panels, boxes and measurements are invented examples. Preserve recall pauses; no artificial slowing.",
+      "t": "The three-by-four base has a diagonal of five. That base diagonal and the twelve-unit height make another right triangle, whose hypotenuse is thirteen. The calculation establishes the distance between opposite ideal corners. A real object may have thickness, need clearance, or be unable to pass through the available opening. Those are additional geometric conditions. For the paper exercise, the equivalent habit is to identify precisely which segment you are finding. When the endpoints, units and right angles are clear, the squares and square root follow from a relationship whose reason you can now explain."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-25",
+    "spoken_words": 7229,
+    "sha256": "8df052319c3524e6a4e43fd0ffd7bf30e554488c7395cd19a3562b1be98de7bc",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.gutenberg.org/files/21076/21076-h/21076-h.htm",
+      "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.html",
+      "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI48.html",
+      "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI8.html",
+      "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI32.html"
+    ]
+  }
+}
