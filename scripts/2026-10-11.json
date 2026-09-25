@@ -1,0 +1,413 @@
+{
+  "date": "2026-10-11",
+  "title": "[Applied Physics] Make a Clearer Voice Recording in Your Room",
+  "summary": "Sunday application of the actually published September 23 sound lesson. An original fictional community studio investigation develops direct and reflected paths, relative delay, interference, room modes, damping, reverberation, independent background sources and capture versus playback. Includes original worked calculations, five recall questions with seven-second pauses and answers, and an optional ordinary-speech comparison or paper geometry exercise. Sources consulted: selected physical sections and summaries of John Tyndall, Sound, https://www.gutenberg.org/cache/epub/54969/pg54969-images.html ; OpenStax University Physics Volume 1 section 17.4, https://openstax.org/books/university-physics-volume-1/pages/17-4-normal-modes-of-a-standing-sound-wave ; Acoustical Society of America room-acoustics discussion by Ralph Muehleisen, https://acoustics.org/pressroom/httpdocs/162nd/muehleisen_1eID1.html. Room dimensions, delays, attenuation fractions and reported comparisons are invented teaching examples. No measured diagnosis of the listener room, equipment purchase recommendation, or full-book coverage claimed.",
+  "instructions": "Start with the actual voice-recording problem. Both ash and sage develop substantive physical explanations and contrasting cases. Use a constant assumed sound speed of three hundred and forty metres per second for original calculations. Distinguish ideal models from real room observations, pressure nodes from particle displacement, and absorption from isolation. Preserve five seven-second pauses followed by answers. Speak naturally; no artificial slowing, generic orientation or filler.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "A voice can sound clear in one part of a room and strangely hollow two steps away. The person has not changed, and the words have not changed. What changed is the mixture arriving at the listener: sound travelling straight from the mouth, sound returning from nearby surfaces, and sound still circulating from an earlier syllable. We can use that mixture to diagnose a room. Imagine a small community studio where two people want to record a spoken introduction. Their first recording sounds distant, despite being loud enough. That is the problem we are going to solve."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Our studio is fictional, so its dimensions and results are teaching examples rather than measurements of your home. It is a rectangular room, five metres long, four metres wide, and two and a half metres high. There is a desk, a hard floor, one window, and an upholstered chair. The two people, Mara and Ellis, have an ordinary recorder. They do not begin by buying equipment. They begin by separating three complaints: the voice sounds distant, some notes sound boomy, and a steady outside sound is audible between sentences. Those complaints can have different physical causes."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "We will use a sound speed of three hundred and forty metres per second for the arithmetic. Actual speed depends on conditions, especially temperature, so that value is an approximation held constant throughout our examples. Picture pressure disturbances spreading through the air. The air near the mouth pushes on neighbouring air, and the disturbance travels onward. Individual air parcels mostly oscillate around their positions; they do not fly from the speaker into the recorder. The recording location matters because it samples the pressure variation where it sits, after several travelling disturbances have combined there."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Start with the direct route. Mara is a metre from the recorder, with nothing between them. Sound takes one divided by three hundred and forty seconds to cross that gap, just under three milliseconds. A millisecond is one thousandth of a second. Now imagine a reflected route that totals three metres. That arrival takes just under nine milliseconds. Its delay relative to the direct sound is about six milliseconds. The important comparison is the difference between the routes, because the recorder receives both versions of the same event separated by that difference in arrival time."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "A reflected version need not sound like a separate repeat. If you say a word across a distant valley, you may hear an unmistakable echo. Inside a small room, many returns arrive much closer together. They can change the colour of the voice or create a trailing wash without becoming a clearly separate word. Calling everything an echo hides useful distinctions. Mara describes distance, Ellis describes hollowness, and somebody else might describe ringing. We want to connect each description to a possible pattern of arrivals, rather than treat all three words as the same diagnosis."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Draw the room as a rectangle on paper. Put a dot for the speaker and another for the recorder. A straight line joins them. A second line goes from the speaker to a wall and then to the recorder. Other lines visit the opposite wall, ceiling, desk, and floor. Some make several visits before arriving. Every line has a length, and every surface interaction changes what continues. This is a simplified ray picture, useful when thinking about paths. Later we will need a wave picture to explain why the same geometry affects different pitches differently."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "One wall is especially easy to model. Suppose Mara stands one metre from it and the recorder stands two metres from it, directly farther out along the same perpendicular line. Their direct separation is one metre. A route from Mara back to the wall and then outward to the recorder totals three metres. The reflection therefore travels two extra metres. Divide two by three hundred and forty, and the extra delay is about five point nine milliseconds. This ideal construction ignores the other surfaces so that we can see exactly where one delayed arrival comes from."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "There is a useful geometric shortcut called an image source. Reflect Mara's position across the wall in your drawing, as if the wall were a mirror. Her imaginary position is one metre behind it. The straight distance from that imaginary speaker to the recorder is three metres, matching the reflected path. Nobody is actually speaking behind the wall. The construction just unfolds the bounce into a straight line. For an ideal flat reflecting surface, it helps locate the path that obeys the reflection geometry. It does not tell us how strongly the real wall reflects every frequency."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Now move both speaker and recorder another metre away from that wall while keeping their one metre separation. Mara is two metres from the wall and the recorder is three metres from it. The direct route remains one metre, but the reflected route becomes five metres. Its extra length is now four metres, and its extra delay is about eleven point eight milliseconds. Keeping the mouth to recorder distance constant has not kept the reflected sound constant. The surrounding geometry changed. That is why moving a complete recording arrangement can alter its sound even when the people keep the same positions relative to each other."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Notice what our calculation can and cannot predict. It predicts arrival times for the assumed routes. It does not establish that the later reflection will be audible, stronger, or worse. A surface may absorb some energy, the voice radiates differently in different directions, and the recorder may respond differently by direction. A longer route also changes spreading losses. Geometry gives us one part of the explanation. In the fictional studio, we would compare the resulting sound before naming a winner. A precisely calculated delay is not a precisely calculated judgement about clarity."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "We can still make a useful first distinction between changing level and changing the mixture. Suppose a recorded sentence contains the direct voice, reflections, and an outside hum. If we multiply the whole recording by the same factor, we multiply all three components. The louder playback may be easier to hear, but it has not selectively removed the hum or shortened the reflections. This is just arithmetic applied to a mixture. A level control is useful for level. It is not evidence that the acoustic relationship between the wanted and unwanted components has improved."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "By contrast, moving the recorder closer to Mara can change that relationship before the sound is captured. In an ideal open space, pressure amplitude from a compact source falls approximately in proportion to distance, while intensity falls with distance squared. Moving from one metre to half a metre would double the direct pressure amplitude and quadruple its intensity under that model. In a room, the reflected field does not necessarily follow the same change. The direct voice can become more prominent relative to the room sound. This is a starting prediction, not a universal promise for every microphone and room."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Ellis initially suggests speaking twice as forcefully from the original position. That increases what reaches the recorder directly, but it also increases what reaches the walls and returns. Moving closer and speaking more forcefully are therefore different interventions. One changes the geometry of capture; the other changes the source. They can have different effects even when the final recorded voice is equally loud. Mara tries a modest reduction in distance at an ordinary speaking level. She listens for whether the words seem more immediate, rather than assuming the version with the largest waveform is automatically the best."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Very close placement introduces its own variables, including breath reaching the recorder and small head movements causing large relative distance changes. We do not need a particular microphone design to understand that second issue. A movement of ten centimetres is a small fraction of a two metre distance, but a large fraction of twenty centimetres. So there is a tradeoff between a stronger direct contribution and keeping a stable, comfortable position. Mara chooses a position she can maintain naturally, with the recorder supported rather than waved around. Consistent geometry makes a comparison easier to interpret."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "First recall question. Mara stands one metre from a wall, and the recorder stands two metres from it on the same perpendicular line. The direct route is one metre and the reflected route is three metres. Using three hundred and forty metres per second, roughly how much later does the reflection arrive, and why do we use the difference between the route lengths? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "The reflection arrives about five point nine milliseconds later. We divide the two metre extra distance by three hundred and forty metres per second. Both sounds spend some time travelling, but the difference determines how far apart their arrivals are at the recorder. Using the full three metre reflected route would calculate its total travel time, not its delay relative to the direct arrival. This distinction becomes essential when we ask whether the two versions reinforce or partly cancel at a particular frequency. It is their relative timing that sets their relative position in a repeating cycle."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Now we can explain the hollow quality. A pure tone repeats its pressure pattern at a definite rate. A tone at five hundred hertz repeats five hundred times each second, so one complete cycle lasts two milliseconds. If a second version arrives one millisecond later, it is half a cycle behind. When one version pushes pressure above the average, the other can be pushing it below. The combined variation becomes smaller if the two contributions have suitable relative strength. A reflection can therefore reduce part of the sound arriving at a position instead of merely adding more loudness."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Take an original simplified example with an extra reflected path of sixty eight centimetres. At our chosen sound speed, that creates a two millisecond delay. For a five hundred hertz tone, two milliseconds is a whole cycle, so the versions line up again. For a two hundred and fifty hertz tone, the cycle lasts four milliseconds. The same delay is half a cycle, so the versions oppose. One unchanged reflection can reinforce one frequency and weaken another. That is why a voice can change in tone colour even when the reflection is too close to hear as a separate echo."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "In that example we have assumed a reflection without an additional phase reversal and ignored other arrivals. We have also not assumed perfect cancellation. If the direct pressure contribution has amplitude one in arbitrary units and the opposing reflection has amplitude one half, their remaining amplitude is one half. If they line up instead, the combined amplitude is one and a half. The weaker reflection changes the result without having enough amplitude to eliminate it. Real rooms contain many unequal contributions, so deep cancellation at one narrow frequency does not mean the whole voice disappears."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "The series of alternating reinforcements and reductions is often called comb filtering because a frequency plot can resemble teeth. In our two millisecond model, frequencies separated by five hundred hertz repeat the same phase relationship. Under the stated assumptions, reductions occur at two hundred and fifty, seven hundred and fifty, and twelve hundred and fifty hertz, while reinforcement occurs at five hundred, one thousand, and fifteen hundred hertz. These numbers belong to this invented delay, not to every desk or room. Change the delay and the pattern moves. Change the reflection strength and the depth of the pattern changes."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Here is how the calculation helps Mara. She moves the recorder a little and hears the hollowness change. That result is compatible with interference because movement changes the route differences. It is not enough to identify a particular reflecting surface on its own. The desk, wall, and ceiling could all contribute, and the speaker may have shifted her head. But it gives her a practical reason to test placement before trying to correct the entire recording with a tone control. A local cancellation caused by two arrivals is a different problem from the voice naturally having too much of one frequency."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Imagine boosting a frequency that is reduced by equal, opposite arrivals at one location. If you increase that frequency at the source, you increase both the direct version and its reflected version. Their opposition may remain. You have spent more energy without fixing the geometry that produces the reduction. Elsewhere in the room, where the arrivals do not oppose, that same increase may become excessive. This ideal example explains why a correction chosen for one listening point can disappoint at another. Changing the path relationship addresses a different part of the problem from changing the source's frequency balance."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "A desk reflection offers a particularly concrete case. The recorder receives sound straight from Mara and sound that travelled downward to the hard desktop before turning upward. If those routes are close in length, their delay can be short enough to shape the voice rather than produce a distinct repeat. Raising or relocating the recorder changes the geometry, but the outcome depends on the actual positions. We do not need to claim that one fixed height works for everybody. We need to know why altering height can change the sound while the same person continues speaking the same sentence."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "The wavelength tells us how sensitive a frequency is to a path change. Divide sound speed by frequency. At one thousand hertz, the wavelength in our model is thirty four centimetres. A path change of seventeen centimetres is half a wavelength. At one hundred hertz, the wavelength is three point four metres, so seventeen centimetres is only one twentieth of a wavelength. A small geometric change can therefore have a large phase effect at one frequency and a much smaller effect at another. Moving something a little does not mean its acoustic effect must be little across the whole spectrum."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Be careful about translating a recorder movement directly into a path change. Moving the recorder seventeen centimetres does not necessarily alter the difference between the direct and reflected routes by seventeen centimetres. Both routes can change, and their changes depend on direction. Movement parallel to a wall and movement straight away from it produce different geometry. The quantity used in the phase calculation is the change in route difference. This is where a sketch earns its place. It prevents a correct wavelength calculation from being attached to the wrong physical distance."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "We can see that in the earlier wall example. Move both speaker and recorder one metre farther from the wall, keeping their separation fixed. The direct route stays one metre; the reflected route grows by two metres because the sound travels an extra metre toward the wall and an extra metre away from it. Moving the whole arrangement one metre has changed the path difference by two metres. No sophisticated equipment is needed to follow that construction. It is simply the geometry of a round trip, and it explains why apparently small rearrangements can produce surprising changes in the mixture."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "John Tyndall's nineteenth century book Sound describes superposition and experiments in which sounds reinforce or oppose. Those older demonstrations help establish the physical idea, but our community studio and its numbers are our own examples. We are not copying an old recording recipe, and we are not treating all of that book's historical claims as modern knowledge. The useful core here is that several small sound disturbances combine at a location. Their combined effect depends on relative timing and amplitude. Our practical task is to recognise what that implies for a voice and its reflected copies."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Second recall question. An ideal reflection travels sixty eight centimetres farther than the direct sound. We are using three hundred and forty metres per second, so the delay is two milliseconds. Why can that delay reinforce a five hundred hertz tone while weakening a two hundred and fifty hertz tone? Assume no extra phase reversal at reflection. Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Five hundred hertz has a two millisecond period, so the delayed version is one full cycle behind and lines up with the direct version. Two hundred and fifty hertz has a four millisecond period, so the same delay puts the delayed version half a cycle behind and makes it oppose. The result still depends on their relative amplitudes. Equal amplitudes could cancel in the ideal opposing case; unequal amplitudes leave a remainder. A voice contains many frequencies, which is why the combined sound can become coloured rather than simply louder, quieter, or absent as a whole."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "The boomy notes in the studio require a related but broader picture. Some patterns can build up between boundaries because the returning waves repeatedly fit the space. These are room modes. A simple model considers sound moving along the five metre length between two rigid ends. For its lowest axial mode, half a wavelength fits that length. The full wavelength is therefore ten metres, and dividing three hundred and forty by ten gives thirty four hertz. That calculation identifies one possible resonant pattern of the ideal room, not the single frequency at which everything in it must vibrate."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Along the four metre width, the equivalent calculation gives forty two point five hertz. Along the two and a half metre height, it gives sixty eight hertz. Already we have three different fundamental axial frequencies because there are three different dimensions. Each direction also allows higher patterns. Along the length, twice the first frequency is sixty eight hertz and three times is one hundred and two hertz. A room is not a single empty bottle with one note. It supports a family of patterns, and real surfaces make those patterns less ideal and less sharply defined."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Our invented dimensions create an instructive coincidence. The second length mode is sixty eight hertz, and the first height mode is also sixty eight hertz. Two different spatial patterns share a frequency in this simplified room. That can make the response around that frequency more complicated than the first length calculation suggests. Whether a particular source excites either pattern strongly depends on its position and behaviour. Whether a recorder detects it strongly depends on where the recorder sits. A shared frequency does not guarantee a particular measured boost, but it tells us that one dimension alone is not a complete account."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "The word standing can make these waves sound motionless. What remains fixed in the ideal standing pattern is the location of large and small oscillations. The air pressure still varies over time. At a pressure antinode, pressure variation is large; at a pressure node, it is small. Air particle motion has a different spatial relationship, so we must say which quantity we mean. An ordinary acoustic recording concerns pressure at the microphone. If we casually swap pressure nodes with displacement nodes, we reverse parts of the explanation and make incorrect predictions about locations near rigid walls."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "In the simple lowest length mode with rigid ends, pressure variation is strongest near the two end walls and has a node at the midpoint along that direction. But the midpoint is not guaranteed to be quiet overall. Other modes and direct sound remain. The second length mode has a different pattern and can have a pressure maximum at the middle. So the instruction to sit in the centre because the bass will disappear is too crude. A location that weakens one modal contribution can strengthen another. We need to think about the frequencies and patterns separately before combining them."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Mara walks across the room while Ellis speaks from one position. She notices that the low part of the voice seems more prominent in one area. That observation could be consistent with room response, though a human voice is not a constant laboratory source. Now suppose they swap positions, moving both at once. They have changed where the sound is generated and where it is received. It becomes harder to know which change mattered. The physics gives a practical comparison: keep the speaking location roughly fixed while sampling a few receiving locations, then investigate the source location separately if needed."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "No test tones are required for our application. Ordinary speech is enough to compare whether a spoken recording is usable. A precise room measurement would need more controlled signals and methods, but that is a different task. Mara is trying to improve a short introduction, not produce a certified frequency response. She can learn that one arrangement has less obvious boom without claiming she has measured a sixty eight hertz mode. Matching the strength of the conclusion to the method keeps the exercise useful. An everyday listening comparison can support a choice without proving a full acoustic diagnosis."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Damping explains another part of the result. A resonant pattern can store energy for a while after the source stops supplying it. If little energy is lost on each cycle or interaction, the sound can linger. If more is lost, it dies away faster. Resonance and damping therefore belong together. Saying a room has a possible mode does not tell us how long it rings or how strongly it is excited. A geometrically possible pattern can be weak in a real measurement. The construction, furnishings, openings, and other losses help determine what persists."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Think of two imaginary rooms with the same dimensions. In one, a particular band of sound loses a substantial fraction of its remaining energy during repeated interactions. In the other, it loses less. The frequencies suggested by the dimensions can be similar, yet the decay can differ. We can model that difference without pretending to know the exact absorption of a real chair or curtain. Suppose a hypothetical reflection retains half the incoming energy. After one interaction, one half remains; after two, one quarter; after three, one eighth. Repeated loss can turn a modest individual effect into a large cumulative reduction."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "If another hypothetical surface retains four fifths of that energy each time, after three interactions the fraction is sixty four hundredths times four fifths, which is just over one half. More precisely it is five hundred and twelve thousandths. Compare that with one eighth in the first model. These are invented coefficients, not ratings for materials. They show why repeated reflections matter. We are tracking remaining energy, not adding the same fixed loss each time. Each interaction acts on what is left, so the sequence is multiplicative rather than a simple subtraction of equal amounts."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Actual rooms are more complicated because different routes hit different materials at different angles, and losses vary with frequency. Still, the model explains why a room can stop sounding lively in one part of the spectrum while retaining low frequency problems. An intervention that strongly affects shorter wavelengths may have much less effect on longer ones. We should not infer that a room with softer sounding consonants has solved its bass response. The voice can lose some brightness while a low resonance remains. That is a change in balance, which can be mistaken for a complete acoustic improvement."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "This also explains why covering every visible surface with thin soft material is not a universal design principle. Thickness, arrangement, and frequency matter. A specific material's performance requires actual data or measurement; appearance alone cannot tell you how it behaves. In our studio, Mara can use existing furnishings to explore whether the high, fluttering quality changes, but she should not label the result soundproofing or bass treatment. Those names describe different physical tasks. Being exact about the task saves her from expecting one cheap change to solve problems that operate through different mechanisms."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Room dimensions also deserve realistic precision. Suppose our five metre length was only a rough estimate, and the true distance between the relevant boundaries could be four point nine or five point one metres. The simple first axial frequency would then be about thirty four point seven or thirty three point three hertz. Writing thirty four with many decimal places would hide the uncertainty rather than remove it. A dimension estimate within ten centimetres still gives a useful neighbourhood for the model, but it does not justify naming an exact frequency from the shape of the room alone."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Notice the direction of the change. A longer room fits a longer half wavelength, and the corresponding frequency is lower when sound speed stays fixed. A shorter room gives a higher frequency. That inverse relationship lets us check the arithmetic before trusting a calculator. If somebody increases the length and also increases the predicted first axial frequency under the same assumptions, something has gone wrong. In a furnished room, boundary behaviour introduces further differences from the ideal. The model gives us a structured prediction with limits, rather than a substitute for measuring what actually happens at the recording position."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Third recall question. In our ideal room, the length is five metres and the height is two and a half metres. With sound travelling at three hundred and forty metres per second, which frequency is shared by the second length mode and the first height mode? And does that shared frequency tell us exactly how much boom a recorder will capture? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "The shared frequency is sixty eight hertz. The first length mode is thirty four hertz, so its second is sixty eight. The first height mode is three hundred and forty divided by twice two and a half, which is also sixty eight. The coincidence does not specify a recorded level. Excitation, source position, recording position, and damping all matter. It tells us that two distinct spatial patterns can occur at the same frequency in this model. That is a reason to examine more than one dimension, not a promise that every voice will sound boomy at exactly that frequency."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Let us return to the distant quality rather than the bass. Early reflections and a long tail are connected, but they are not identical. Early returns can blend closely with the direct sound and change its character. After many reflections, arrivals overlap densely and create a more extended decay. If a speaker begins the next syllable while energy from the previous syllable is still arriving, parts of the speech can overlap in the room. This is one reason two recordings at the same overall level can differ in how clearly their words come across."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Tyndall discussed how furnishing a room changes the repeated returns of a voice. The principle remains useful, even though a modern recording setup has details his examples did not address. We can hear the distinction in an invented sequence. Mara says a short sentence and then stops. During speech, the recorder captures the current voice mixed with earlier arrivals. After she stops, the direct contribution ends after its short travel time, but the returning sound can continue. That trailing sound gives information about the room's decay. It is not proof of a problem in the recorder's volume control."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "A steady outside hum behaves differently. It may continue at a similar level before Mara begins, while she speaks, and after the room's voice tail has faded. If the background remains after the speech decay ends, we have reason to distinguish it from reverberation. It could come from outside, a building service, or the recording chain. We should not decide the source merely from the word hum. What matters first is that it has a different time pattern. Removing a voice's reflections and removing an independent ongoing sound are separate operations, even if both would make a recording cleaner."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "In the fictional studio, Ellis initially calls everything background noise. That label groups together returning speech, a distant motor, and an occasional chair movement. But they require different comparisons. A voice tail follows a spoken event. A motor may run independently. A chair sound occurs when somebody moves. If Ellis tries to fix all three with furniture, he may improve one and leave the others. Naming their timing gives him a way to select a sensible action: compare locations for reflections, notice whether the ongoing source changes, and stop unnecessary movement during the actual recording."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "There is a further distinction between absorption and isolation. Absorption reduces the sound energy returned into a space at a surface. Isolation concerns sound passing between spaces. A room can have little internal reverberation and still admit sound through a poorly sealed opening. It can also keep outside sound out while being highly reflective inside. The Acoustical Society of America's discussion of room acoustics separates these concerns. For our purposes, the practical consequence is simple: a furnishing change that makes Mara's voice less reverberant does not demonstrate that the wall now blocks more sound from the next room."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Suppose the fictional hum becomes much weaker when the window is closed, while the voice remains similarly hollow. That supports investigating the window path for the hum and placement for the hollowness. It does not prove that all outside sound enters through that window, or that closing it has no other effects. The observation gives a useful local distinction. If the room becomes uncomfortable or loses needed ventilation, the alternative may be recording at a quieter time or in another suitable space. We are solving a short recording problem, not redesigning a building around a single test."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Now imagine a different outcome. Closing the window changes very little, but putting the recorder on a stable surface and avoiding contact removes intermittent thumps. Those thumps were linked to handling or transmitted movement, not the room's airborne echo. Sound can travel through solids as well as through air. A desk can carry vibration from a touch into something resting on it. That pathway explains why silence in the air does not guarantee silence in a recording. The support arrangement belongs in our physical picture alongside the mouth, walls, and receiver."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "The source itself can also change. Mara turns her head toward Ellis halfway through a sentence, then turns back. The recorder may receive a different balance even though its own position is fixed. The mouth is not an ideal source radiating identically in every direction at every frequency. Our simple distance calculations were deliberate simplifications. For a practical comparison, the speaker's posture and direction should remain reasonably similar. That does not require becoming rigid or unnatural. It means that if you are investigating room placement, you avoid making head direction the largest simultaneous change."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "The same applies to the words. A sentence with long vowels and one with many short consonants do not present the same sound to the room. If Mara compares completely different material, she may attribute a change in the voice to a change in placement. She therefore uses one short original phrase for both takes: The blue folder is beside the small wooden chair. The phrase is not a standardised acoustic test, and we should not pretend it measures intelligibility scientifically. It simply gives the casual comparison a common piece of spoken material."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Let us assemble a small result sheet for the fictional studio. Arrangement A places the recorder a metre away near the hard desktop. Arrangement B places it closer on a stable support, with the desktop reflection geometry changed. Arrangement C keeps the closer distance but moves the whole setup to another part of the room. These are not three isolated laboratory interventions, because B changed more than one detail. They are three practical candidates. We can choose which sounds clearer, but if we want to explain the reason, we need narrower comparisons afterward."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "That distinction between selecting and explaining is useful in acoustic work. If B works well for today's recording, Mara may reasonably use it. She does not need to claim that she has discovered the one responsible factor. If she wants a repeatable setup, she can note its distance, location, and orientation. If she wants to understand the improvement, she can vary one of those while holding the others close to constant. The practical result and the causal explanation are related, but they need not arrive at the same time or with the same certainty."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "A listening comparison can also be skewed by playback level. Suppose one take is much louder than another because it was made closer to the speaker. It may sound more impressive for that reason alone. For a casual judgement about room character, listen at roughly comparable comfortable voice levels, without claiming a calibrated measurement. Then attend to specific differences: the tail after words, the balance of lower sounds, and whether the voice seems hollow. We are not asking a general question about which file is better in every respect. We are comparing acoustic features that the proposed changes could plausibly affect."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Fourth recall question. A soft furnishing makes the voice tail shorter, but an outside motor remains audible between sentences. What distinction explains why the first improvement has not necessarily solved the second problem? And why would multiplying the whole recording's level fail to separate the two sounds? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "The furnishing may have changed absorption and therefore the room's returning sound, while the motor is an independent source reaching the recorder through some path. Reducing internal reflections does not necessarily improve isolation from outside. Multiplying the whole recorded mixture raises or lowers both the voice and the motor together, so their ratio stays the same under that simple operation. The useful next step is to investigate the continuing sound separately. We should not keep adding the same remedy merely because it helped a different part of the recording."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "We have treated one delayed arrival and then whole room patterns. Now put them together in a short fictional investigation. Mara's first take is loud enough, but the words seem distant. She reduces the speaking distance while keeping her voice comfortable. The direct sound becomes more prominent, and the take seems clearer. A hollow quality remains. She then compares two nearby recorder positions at similar mouth distance. The hollow character changes noticeably. That is compatible with different reflected path relationships. She has already learned that the two complaints need not improve by the same amount from the same change."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "The lower part of the voice still swells on some sounds. Mara tries another area of the room, again keeping the speaking distance and direction reasonably similar. In the invented result, the low emphasis becomes less obvious. This is compatible with a different relationship to the room's spatial response, but her voice and listening method do not identify a precise modal frequency. She records the new location as a usable arrangement. The outside motor is still present, so she waits for a quieter period. Each action follows the particular symptom instead of assuming that a single master setting controls all of them."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Now consider a contrasting case. Ellis records in a heavily furnished room with little obvious tail, but the voice is muffled everywhere. Moving around makes little difference. That pattern gives less support to a strong location dependent room explanation. The recorder's orientation, an obstruction, the source, or processing could matter instead. We cannot diagnose the exact cause from the word muffled. What we can say is that applying the community studio's final furniture arrangement by habit would be poorly targeted. The successful remedy belongs to the mechanism it changed, not to the name of the problem alone."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Another contrasting case is a large reflective room used for a choir. A long decay is not automatically a defect. Musical phrases can benefit aesthetically from a sense of space, though the desirable balance depends on the performance and purpose. A spoken instruction and a sustained musical passage do not ask the room for the same result. Our target today is a clear short voice recording. That target explains why we favour a stronger direct contribution and less distracting overlap. We should not turn a task specific preference into a claim that every room should sound acoustically lifeless."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "There is also a distinction between a recording that captures a room and a recording played through a room. If Mara listens on a loudspeaker across the studio, she hears the recorded room contribution plus the playback room's contribution. The second acoustic journey can make the first harder to judge. A comparison heard through the same playback arrangement at the same location is at least more consistent. If suitable headphones are already available, they can offer another perspective, but they have their own sound. No listening device makes subjective comparison automatically objective or removes every limitation of the recording."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Suppose a bass emphasis appears only when the recording is played through a speaker in one corner, but not when it is played elsewhere at a similar level. That points toward the playback arrangement as part of the explanation. It does not necessarily mean the recording contains too much bass. The file has remained the same while the reproduction geometry changed. This is the reverse of our earlier capture experiment. In one case, we moved where sound entered the recording. In the other, we moved where recorded sound entered and crossed the listening room."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "The source to room to receiver chain helps keep those stages separate. During capture, Mara is the source and the recorder is the receiver. During playback, the loudspeaker is the source and the listener is the receiver. Both journeys can involve direct routes, reflections, interference, and room modes. A recording can therefore sound different in two rooms without either file changing. If you alter the file to compensate for a very particular playback location, you may create a new problem elsewhere. This is another reason to identify which stage changed before interpreting the result."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "We can deepen the timing picture with a simple imagined pulse. It reaches the recorder directly, then a small copy arrives after two milliseconds, another after six, and many weaker arrivals follow. In a simplified linear model, a spoken signal is combined with delayed, scaled versions of itself. The room does not understand syllables or intentions. It responds to physical variation. A phrase with rapid changes may become less distinct because previous variation continues into later variation. This model connects the geometry of our first sketch to the audible impression of distance and blur without invoking anything mysterious in the equipment."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "The model also distinguishes changing delay from changing strength. Move a reflecting surface in the imagined setup, and the return time changes. Make that surface less reflective at a frequency, and the strength changes. In reality an intervention can change both, but the separate variables help explain possible outcomes. A weaker early reflection may produce less pronounced interference even if its delay stays similar. A differently timed reflection can shift which frequencies are affected even if its strength stays similar. Those are two different ways a room change can alter the voice's tone colour."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "We should also distinguish a repeated reflection between parallel surfaces from a single remote echo. In a simplified pair of hard facing walls, sound can bounce back and forth with a recurring travel interval. If the geometry and losses allow it to remain noticeable, that can create a fluttering impression. For walls four metres apart, one complete round trip is eight metres, taking about twenty three point five milliseconds in our model. That is a geometric interval, not a guarantee that a person will hear discrete repeats. Surface properties, positions, and the rest of the room determine the actual result."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Changing that particular pathway is different from reducing every reflection equally. An irregular surface can redirect sound into several directions; an absorbing surface removes part of the returning energy. Redirection and absorption are not the same process. A bookcase may look irregular, but its effect depends on the sizes and arrangement relative to wavelength. We should not give every uneven household object the status of an engineered acoustic diffuser. The physical question is where the energy goes and at which frequencies. A visual impression of softness or complexity is only a rough clue, not a performance specification."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Our small practical application now has a clear form. Choose a short spoken phrase and two comfortable positions in a room you can use normally. If you prefer to keep this entirely on paper, use Mara's one metre and three metre paths instead. For the spoken version, use ordinary conversation volume and an existing recorder if you have one. Keep the phrase, direction, and approximate speaking distance similar. Make a brief take at each position, leaving a little quiet after the phrase. No purchases, loud test sounds, or improvised construction are needed for this comparison."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Listen for one chosen feature rather than scoring the entire voice. You might compare the trailing sound after the sentence or a hollow quality during it. Write a concrete observation, such as the second position has a shorter audible tail, instead of declaring the second room professional. Then connect the observation to one possible mechanism. A different mixture of reflections is a plausible explanation for a changed tail. It is not a measurement of every surface's absorption. If you hear no meaningful difference, that is a perfectly usable result. There is no requirement to invent an improvement to complete the exercise."
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "For the paper version, draw the wall, speaker, and recorder from our first example. Calculate the two metre route difference and its roughly five point nine millisecond delay. Then move both points a metre away from the wall while keeping them a metre apart. Calculate the new four metre difference and roughly eleven point eight millisecond delay. This small construction teaches a real physical relationship: the direct spacing can remain unchanged while the reflected timing changes substantially. You have applied the model without needing an acoustically revealing room or a recording app with any special controls."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Fifth recall question. A voice recording sounds boomy through a loudspeaker in one corner, but the same file sounds less boomy when the playback arrangement changes. Which part of the source to room to receiver chain has changed, and why would that make immediate editing of the file premature? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "The playback journey has changed. The loudspeaker's position or the listener's position now produces a different mixture of direct sound, reflections, and modal contributions. The recorded file has not changed, so the difference cannot by itself show that the file needs a permanent bass reduction. Editing for one location could make the recording too thin in another. The useful distinction is between sound captured into the file and sound added or emphasised by its reproduction environment. Both are real, but they belong to different stages of the physical chain."
+    },
+    {
+      "v": "sage",
+      "i": "Natural, engaged teaching. Explain the physical mechanisms clearly. Both voices teach. Quantities describe fictional examples, not measurements of the listener room. Preserve recall pauses.",
+      "t": "Mara ends with a repeatable arrangement rather than a claim that her room is perfect. She knows where she stood, where the recorder sat, which direction she faced, and why she chose a quieter period. More importantly, she can explain the choices. A shorter direct distance changed the balance of immediate voice and room sound. A different position altered reflected paths. Another location reduced an unwanted low emphasis in her comparison. Waiting addressed an independent background source. The finished introduction is the practical result. The transferable knowledge is being able to connect each audible feature to the physical relationship that can change it."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-25",
+    "spoken_words": 7170,
+    "sha256": "9d1dabf902ec3a1daabb392c4ba0d13c7f75a6b82c43ee222637b516f51b7801",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.gutenberg.org/cache/epub/54969/pg54969-images.html",
+      "https://openstax.org/books/university-physics-volume-1/pages/17-4-normal-modes-of-a-standing-sound-wave",
+      "https://acoustics.org/pressroom/httpdocs/162nd/muehleisen_1eID1.html"
+    ]
+  }
+}
