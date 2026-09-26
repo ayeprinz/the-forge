@@ -1,0 +1,447 @@
+{
+  "date": "2026-10-16",
+  "title": "[Probability] Why a Warning Does Not Always Mean a Fault",
+  "summary": "Build probability from counts, replacement, complements, overlap and conditional branches. A fictional factory develops Bayes’ rule, base rates, test performance, likelihood ratios and conditional independence. Delivery examples distinguish expectation from joint risk, followed by an aggregation reversal and a paper table exercise. All numerical scenarios are invented and assumptions explicit. Five recall questions with seven-second pauses and subsequent answers. Selected elementary probability and expectation rules consulted in Laplace’s public-domain Philosophical Essay on Probabilities, Chapters III and the opening of IV: https://www.gutenberg.org/files/58881/58881-h/58881-h.htm; https://www.gutenberg.org/cache/epub/58881/pg58881.txt",
+  "instructions": "Start immediately with the factory warning calculation. Assume no prior reading. Both ash and sage teach developed examples. Distinguish stipulated models from empirical rates, expected counts from guaranteed outcomes, conditional from unconditional independence and association from causality. Laplace supports selected elementary rules only; modern examples and derivations are original. Do not imply real detector performance or safety-critical engineering advice. Preserve five seven-second recall pauses and subsequent answers. No generic curriculum orientation, filler, repeated assent or artificial slowing.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "A factory checks ten thousand small components. One hundred really have a fault. Its warning test catches ninety of those faulty components, which sounds impressive. But the test also flags four hundred and ninety five sound components. There are therefore five hundred and eighty five warnings, and only ninety point to a real fault. Fewer than one in six warnings is correct. Nothing in that calculation contradicts the claim that the test catches ninety percent of faults. Those two statements divide by different groups. Today we are going to build the mathematics that makes the difference visible."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "The numbers describe an invented factory, not a performance claim about an actual product. That lets us hold the assumptions still while we examine them. We will calculate chances from counts, follow branches through a sequence, reverse a conditional probability, and distinguish an expected result from a guaranteed result. The central object will be a table you could draw on paper. Probability becomes much less mysterious when every fraction has a named numerator and a named denominator. The question is always: which cases count as the outcome, and which cases are we counting them within?"
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "An early systematic treatment appears in Pierre Simon Laplace's Philosophical Essay on Probabilities. We are using the elementary rules in its third chapter and the opening discussion of mathematical expectation in its fourth. The examples here are our own. We are not taking on every philosophical or historical claim in that book. Laplace explains that counting favourable cases works only when the cases being counted are equally possible. He also distinguishes independent events from events whose chances change when another event has occurred. Both qualifications will matter before we reach the factory again."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Start with a bag containing ten tokens, six blue and four orange. Suppose they feel identical, the bag is mixed, and our model treats each token as equally likely to be drawn. The chance of orange is four divided by ten. We can write that as two fifths, zero point four, or forty percent. These are three descriptions of the same number. The fraction names a part of a whole, the decimal expresses it relative to one, and the percentage expresses it relative to one hundred. None says that the next token must be orange."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "The reference to equal chances does real work. If one orange token is twice the size of the others and easier to grab, merely counting colours may not give the drawing probability. We would need a model of the drawing process or measurements of it. Likewise, ten possible outcomes do not automatically have ten percent chance each. Possibility tells us what can happen. Probability assigns weight to those possibilities. Counting is a shortcut when those weights are equal, rather than a general licence to divide one by the number of things we can name."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "In the token model, blue and orange exhaust the possibilities and cannot occur together on one draw. Their chances add to one: six tenths plus four tenths. That gives the complement rule. The chance of not orange is one minus the chance of orange, which is six tenths. A complement includes every outcome outside the event in question. If the bag also contained green tokens, not orange would include blue and green. It would no longer mean blue alone. Everyday language can hide a third category, while the mathematical complement cannot omit it."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "A probability of forty percent is also not a schedule. It does not promise exactly four orange tokens in every ten draws when the token is replaced each time. Some batches contain more, some fewer. Under repeated independent draws with the same probabilities, the fraction tends to stabilise around forty percent over sufficiently many trials. That statement concerns the behaviour of the process over repetitions. It does not require the process to repair a short run immediately. Three blues in a row do not create a debt that the next draw owes to orange."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Here is where replacement changes the problem. Draw an orange token and put it back before mixing again. The bag returns to six blue and four orange. The second chance of orange remains four tenths. Draw an orange token and keep it outside instead. There are now nine tokens, of which three are orange. The second chance of orange becomes three ninths. The first outcome has changed the contents of the bag, and therefore changed the next probability. We have not changed the rules of arithmetic. We have changed the information and the physical situation to which the arithmetic applies."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "For two orange draws with replacement, multiply four tenths by four tenths. The result is sixteen hundredths, or sixteen percent. Picture one hundred equally weighted pairs of token identities: ten choices for the first draw and ten for the second. Four choices are orange at the first step, and four at the second, giving sixteen orange pairs. Multiplication counts those combinations. In this model the draws are independent because learning the first colour does not alter the chance assigned to the second colour."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Without replacement, the chance of two oranges is four tenths times three ninths. That is twelve ninetieths, or two fifteenths, about thirteen point three percent. The second fraction belongs specifically to the branch where the first token was orange. If the first token had been blue, four oranges would remain among nine tokens instead. A probability tree gives each branch its own denominator and its own contents. Writing the same second fraction on every branch would silently replace the actual process with a different one."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "The general multiplication rule therefore uses a conditional probability. To get the chance of a first event and a second event, multiply the chance of the first by the chance of the second given that the first occurred. Independence is the special case in which that conditional chance equals the second event's original chance. The useful question is not whether two events happen at different times. It is whether knowing one changes the probability of the other under the model. Time order alone does not settle independence."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "First recall question. The bag starts with six blue tokens and four orange tokens. You draw an orange and do not replace it. What is the probability that the next token is orange, and what changed in the denominator?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "The answer is three ninths, or one third. One orange token has left, so the orange count falls from four to three and the total count falls from ten to nine. The denominator is the set of tokens still available for the second draw. If we had replaced the token, the answer would instead remain four tenths. Naming the available set is what prevents us from carrying yesterday's denominator into today's different situation."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Now calculate the chance of at least one orange in two draws without replacement. We could add the chances of orange then orange, orange then blue, and blue then orange. There is a shorter route: the only way to get no orange is blue then blue. That probability is six tenths times five ninths, or one third. Everything else contains at least one orange. Subtract one third from one and we get two thirds. The complement turns a problem with three successful branches into a problem with one unsuccessful branch."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "We can check the longer route. Orange then orange has probability twelve ninetieths. Orange then blue has four tenths times six ninths, or twenty four ninetieths. Blue then orange has six tenths times four ninths, also twenty four ninetieths. Add them and we get sixty ninetieths, or two thirds. These branches can be added because a particular sequence cannot belong to more than one of them. They divide the event into nonoverlapping pieces. This is a useful way to check both a calculation and the description of the event."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Order matters when we name sequences. Orange then blue and blue then orange give the same final colour collection, but they are different routes through the drawing process. If we merge them into the category one of each colour, that category carries the weight of both routes. It does not become equally likely to two oranges just because each category now has a short name. Changing the way outcomes are labelled does not redistribute their probability. We have to carry the weights with us when we combine outcomes."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Two fair independent coin tosses offer a compact example. The four ordered outcomes are heads then heads, heads then tails, tails then heads, and tails then tails. Each has probability one quarter. If we relabel these as two heads, one head, and no heads, the middle category contains two outcomes. Its probability is one half, while the other two categories each have probability one quarter. Treating the three category names as three equal chances would be a counting error. Laplace uses this kind of distinction to explain why equally possible cases must be identified carefully."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "The chance of at least one head is three quarters, because only tails then tails fails. The chance of exactly one head is one half. At least one and exactly one are different events. The first includes two heads and the second excludes it. This small difference in wording becomes important in reliability questions. At least one working backup, exactly one failed component, and all components working require different sets of outcomes. Before calculating, describe the event precisely enough that any completed trial could be classified as inside or outside it."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Suppose instead that we toss a fair coin three times. There are eight equally weighted ordered sequences. Exactly two heads can occur as heads heads tails, heads tails heads, or tails heads heads. Its chance is three eighths. All three heads has chance one eighth. At least two heads includes both groups and has chance four eighths, or one half. We are separating a probability for one particular arrangement from the number of arrangements that satisfy the same condition. That separation will reappear when we calculate several successful deliveries later."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Adding events needs care for a different reason. Imagine one hundred fictional orders. Thirty arrive late, twenty are damaged, and ten are both late and damaged. How many have at least one of those problems? Thirty plus twenty gives fifty, but that counts the ten problem orders in the overlap twice. Subtract the overlap once to get forty. The probability for a uniformly selected order to be late or damaged is forty percent. Sixty percent have neither problem. Here the word or includes cases with both problems."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "The rule is: add the probability of each event, then subtract the probability of their overlap. If the events are mutually exclusive, the overlap is zero and plain addition works. Mutually exclusive does not mean independent. In this example, if we changed the rules so that late and damaged could never occur together, discovering that an order was late would make damage impossible. That is a strong dependence. Independence means the probability stays unchanged when the other event is known, not that the events are kept apart."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Use the original order counts to see the distinction numerically. Of thirty late orders, ten are damaged, so damage given lateness is ten thirtieths, or one third. Across all orders, damage is twenty percent. Those probabilities differ, so late and damaged are not independent in this table. The table alone does not tell us why they are associated. A rough route might cause both, or the orders could differ in packaging. Dependence is a statement about the distribution. A causal explanation requires more than noticing that two proportions differ."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Second recall question. Out of one hundred orders, thirty are late, twenty are damaged, and ten are both. How many have at least one problem, and why is adding thirty and twenty insufficient?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Forty orders have at least one problem. The ten orders in both groups appear once in the late count and once in the damaged count, so fifty includes a duplicate count of ten. Subtracting those ten leaves forty distinct orders. Notice that we did not throw away the overlap. Those ten orders still count once as problem orders. Subtraction removes their extra appearance, not their membership in the event."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Return to the factory. Our fictional batch has ten thousand components. One percent are faulty, giving one hundred faulty components and nine thousand nine hundred sound ones. The test flags ninety percent of faulty components. Within the faulty group, that means ninety warnings and ten misses. It also flags five percent of sound components. Within the sound group, five percent of nine thousand nine hundred is four hundred and ninety five. These are false warnings. The four cells of our table are now fully specified."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Read the table by condition first. Among faulty components, ninety are flagged and ten are not. Among sound components, four hundred and ninety five are flagged and nine thousand four hundred and five are not. Each condition group adds back to its starting size. One hundred plus nine thousand nine hundred adds to ten thousand. These totals are a useful error check. If the four cells do not recover the whole batch, we have either lost a group or counted something twice."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Now read it by test result. Flagged components number ninety plus four hundred and ninety five, giving five hundred and eighty five. Unflagged components number ten plus nine thousand four hundred and five, giving nine thousand four hundred and fifteen. A component selected from the flagged pile is faulty with probability ninety divided by five hundred and eighty five. Cancel a factor of forty five to get two thirteenths, about fifteen point four percent. The test's ninety percent detection rate used one hundred as its denominator. The question about a warning uses five hundred and eighty five."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "This reversal is the source of many mistakes. Probability of a warning given a fault is not probability of a fault given a warning. In the first question we start inside the faulty group and ask what the test does. In the second we start inside the warning group and ask what caused its membership. The words given a warning act like a filter on the population. Once we filter, every probability has to be calculated within the remaining group. A conditional probability is not just the original fraction with its labels exchanged."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "The conventional name for the proportion of actual faults detected is sensitivity. In our model it is ninety percent. The false positive rate is the proportion of sound components incorrectly flagged, here five percent. Specificity is the proportion of sound components correctly left unflagged, here ninety five percent. Those two rates refer to different starting groups from the proportion of warnings that are correct. A headline saying a test is ninety percent accurate can be ambiguous unless it says exactly which fraction is being reported."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "We can also calculate overall classification accuracy in this invented batch. Correct classifications consist of ninety detected faults and nine thousand four hundred and five correctly unflagged sound components. That is nine thousand four hundred and ninety five correct classifications out of ten thousand, or ninety four point nine five percent. Yet only about fifteen point four percent of warnings are correct. A high overall accuracy can coexist with a low proportion of correct warnings when the underlying condition is rare. The two numbers answer different operational questions."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "For comparison, a useless rule that never flags anything would label nine thousand nine hundred components correctly in this batch. Its overall accuracy would be ninety nine percent, because most components are sound. But it would detect none of the faults. We should not conclude that it is a better fault detector just because its overall accuracy is higher. The consequences of misses and false warnings, and the purpose of the system, determine which performance measures matter. One number cannot silently substitute for all of them."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Look at the negative result as well. The unflagged pile contains ten faulty components among nine thousand four hundred and fifteen. Ten divided by nine thousand four hundred and fifteen is about zero point one zero six percent. That is much smaller than the original one percent fault rate, but it is not zero. An unflagged result changes the probability under the model. It does not logically prove the absence of a fault. In a real application, whether that remaining chance is acceptable would depend on consequences and on whether the model describes the actual process."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "The rare starting condition explains why false warnings dominate. There are ninety nine sound components for every faulty component before testing. A five percent false warning rate operates on that large sound population. Even though ninety percent is much larger than five percent, the two percentages multiply very different quantities. Comparing the percentages alone discards the group sizes. The count table restores them. This is why a natural frequency explanation can be more transparent than beginning with an abstract formula and hoping the denominator is understood."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Consider a second hypothetical batch where twenty percent of components are faulty. Keep the detection and false warning rates exactly the same as stipulated assumptions. Among ten thousand components there are now two thousand faulty and eight thousand sound. The test flags one thousand eight hundred faulty components and four hundred sound components. Of two thousand two hundred warnings, one thousand eight hundred are correct. That is nine elevenths, about eighty one point eight percent. The test rates did not improve. The composition of the population changed."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "The original fault rate is often called the base rate or prior probability for this calculation. Prior means before the particular test result is taken into account. It need not mean a personal hunch. In a practical setting it might come from a relevant production history, although that history could be outdated or poorly matched. Our two batches show that the same test result can support different conclusions in different populations. Transferring a result between groups requires attention to their starting composition as well as the test itself."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Third recall question. Why did a warning imply about fifteen percent fault probability in the first batch but about eighty two percent in the second, even though sensitivity and false warning rates stayed fixed?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Because the first batch started with one percent faulty components and the second with twenty percent. The second batch supplied many more actual faults and fewer sound components to the same test. Consequently, true warnings made up a much larger fraction of all warnings. The denominator after a warning includes both true warnings and false warnings. Keeping test rates fixed does not keep that mixture fixed when the base rate changes."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "We can express the whole calculation as a tree. The first fork divides the population into faulty and sound. The faulty branch has probability one hundredth, and the sound branch ninety nine hundredths. The next fork divides each group into warning and no warning. Multiply along the faulty warning route: one hundredth times nine tenths equals nine thousandths. Multiply along the sound warning route: ninety nine hundredths times five hundredths equals four hundred and ninety five ten thousandths. These are probabilities relative to the original whole population."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Add the two warning routes to obtain the total warning probability, five hundred and eighty five ten thousandths. Then divide the faulty warning probability by that total. This last division restricts attention to the warning group. The operation is the same as ninety divided by five hundred and eighty five, with the batch size cancelled from numerator and denominator. This is Bayes' rule in a concrete form: weight each possible cause by its starting probability and by how likely that cause makes the observed result, then normalise across the possible causes."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Normalise here means divide by the total weight so that the updated probabilities sum to one. In the warning pile, fault has probability two thirteenths and soundness eleven thirteenths. Together they account for all warnings in this two condition model. There is no extra mysterious probability being introduced at the final step. We are taking the same weighted branches and expressing their shares of a smaller group. Bayes' rule is a disciplined change of reference group."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "A tree can be read forward before it is read backward. In the factory model, start with the faulty branch and ask what share of the entire batch reaches a warning through that branch. That share is nine tenths of one percent, or zero point nine percent of all components. It is not ninety percent of all components. The smaller percentage carries two conditions at once: faulty and flagged. The larger percentage describes only the flagged share inside the faulty group. Saying both quantities aloud with their group names helps expose an omitted condition."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Read the sound warning branch in the same way. Five percent of ninety nine percent is four point nine five percent of the entire batch. Combine zero point nine percent and four point nine five percent to get five point eight five percent flagged overall. Now zero point nine is the faulty part of that five point eight five, not a percentage to subtract from it to get confidence. We divide the part by the combined group. Subtraction and division answer different questions: how many warnings are false, and what proportion of warnings are true."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "A useful sensitivity check changes one assumption at a time. Keep one hundred faulty components in ten thousand and keep ninety detected faults, but reduce the false warning rate from five percent to one percent. The sound group now produces ninety nine false warnings rather than four hundred and ninety five. Total warnings fall to one hundred and eighty nine. Ninety out of one hundred and eighty nine simplifies to ten twenty firsts, about forty seven point six percent. That is a substantial improvement in warning precision, but still below half because the sound group remains so much larger."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Alternatively, keep the original five percent false warning rate and imagine perfect detection of every fault. We then get one hundred true warnings alongside the same four hundred and ninety five false warnings. One hundred out of five hundred and ninety five is twenty one hundred and nineteenths, about sixteen point eight percent. Raising detection from ninety percent to one hundred percent helps catch the ten missed faults, but it does little to remove false warnings from the flagged pile. The two improvements solve different problems in the workflow."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "These hypothetical changes are not claims that a real detector can vary either rate freely. Often a setting affects both, and sometimes a different measurement process is needed. Their purpose is to show which part of the table drives which outcome. Better detection increases the true warning cell and reduces misses. Fewer false warnings reduce the sound warning cell and increase correctly unflagged sound items. A proposal to improve a system becomes more specific when it names the cell it is trying to change and acknowledges the other cells it might change too."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "The same table also separates measurement from prediction. If we inspect a completed batch and learn every item's true condition, the table records observed counts. If we are planning tomorrow's batch using estimated rates, it records model expectations. Those are different evidential situations even if the printed numbers happen to match. Observed counts can inform future estimates, but carrying them forward assumes enough stability for the intended purpose. A newly changed production process may break that assumption, so more decimal places do not by themselves make yesterday's rate appropriate for tomorrow."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Odds provide another way to make the update. Before testing, the odds of faulty to sound are one to ninety nine. A warning is eighteen times as likely under a fault as under soundness, because ninety percent divided by five percent is eighteen. That ratio is called a likelihood ratio for this result. Multiply the prior odds by eighteen to obtain eighteen to ninety nine, which simplifies to two to eleven. Two parts faulty and eleven parts sound means two faulty parts out of thirteen total parts, matching the table."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Probability and odds should not be confused. A probability of two thirteenths compares faulty cases with all cases in the warning pile. Odds of two to eleven compare faulty cases with sound cases in that pile. The numbers in odds add to the total used by the probability. Likewise, odds of one to one correspond to fifty percent probability, not one hundred percent. Odds are convenient for repeated evidence, but only when we keep track of what the ratio compares and whether the evidence can legitimately be multiplied."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Suppose we repeat a test after the first warning. A tempting claim is that two warnings must make the fault virtually certain. That depends on how the second test behaves given both the condition and the first result. If it merely displays the stored first result again, the second warning adds no new information. If the same harmless scratch triggers both tests, their false warnings may be strongly related. Counting the same underlying cause twice as independent evidence would exaggerate what has been learned."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "To calculate a clean example, make a stronger explicit assumption. Within the faulty group, the two tests act independently and each flags ninety percent. Within the sound group, they also act independently and each flags five percent. These are assumptions for a mathematical model, not promises about real repeat testing. Use forty thousand components so the expected counts are whole numbers. One percent faulty means four hundred faults, and thirty nine thousand six hundred components are sound."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Among four hundred faulty components, ninety percent receive the first warning, giving three hundred and sixty. Ninety percent of those receive the second warning, giving three hundred and twenty four. Among thirty nine thousand six hundred sound components, five percent receive the first warning, giving one thousand nine hundred and eighty. Five percent of those receive the second warning, giving ninety nine. The group with two warnings therefore contains three hundred and twenty four faulty components and ninety nine sound ones, four hundred and twenty three altogether."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Divide three hundred and twenty four by four hundred and twenty three. This simplifies to thirty six forty sevenths, about seventy six point six percent. Two warnings provide much stronger evidence than one in this stipulated model, but they still do not produce certainty. In odds form, the starting one to ninety nine is multiplied by eighteen twice, giving three hundred and twenty four to ninety nine. The same result emerges because the likelihood of the combined evidence has been calculated under each condition."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "The phrase within each condition is essential. The tests are not necessarily independent across the mixed population. A first warning makes a fault more likely, and faults make a second warning more likely. So the first result changes the overall chance of the second even when tests are independent conditional on fault status. Conditional independence and unconditional independence are different claims. Here we used the former to multiply inside each branch. We did not multiply two overall warning probabilities and pretend the population mixture remained unchanged."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "There is another distinction in those neat counts. Probabilities such as ninety percent usually produce expected counts, not an exact guarantee for each physical batch. A real set of four hundred faulty components need not yield exactly three hundred and sixty first warnings. Our table uses model frequencies to display the proportions implied by the assumptions. Scaling the population to make whole numbers improves readability, but it does not remove random variation. The conclusion remains a probability calculation conditional on the stated model."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Fourth recall question. Why can we not automatically multiply two test likelihood ratios merely because the test was performed twice?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Because the second result may depend on the first, even after the true condition is specified. Shared noise, the same harmless feature, or a cached result can make the two warnings repeat the same information. Multiplying the same likelihood ratio twice requires the appropriate conditional independence assumption, or an equivalent justification about the second test's conditional behaviour. Without that, we need the joint likelihood of both results under each condition, not a convenient product chosen because there are two results."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "A warning system is also a workflow, so let us connect the probabilities to an inspection queue. Suppose every flagged component gets a six minute manual inspection. In the original ten thousand component model, five hundred and eighty five warnings require three thousand five hundred and ten inspection minutes. Inspecting all ten thousand would require sixty thousand minutes. The warning system greatly reduces inspection work under these assumptions. But ten faulty components are in the unflagged group. Saving inspection time has not made those misses disappear."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Of the three thousand five hundred and ten minutes spent on flagged items, two thousand nine hundred and seventy minutes are spent inspecting the four hundred and ninety five sound components. The remaining five hundred and forty minutes concern the ninety actual faults caught. These figures do not by themselves tell us whether the system is worthwhile. We would also need the cost of a miss, the effectiveness of manual inspection, the cost of running the test, and the possibility of different thresholds. We have calculated a workload, not a complete business decision."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Suppose a stricter warning threshold reduces false warnings but also misses more faults. That can be a useful tradeoff or a harmful one depending on consequences. We cannot derive the new rates merely by wishing for a stricter threshold; they would have to be measured or otherwise supported. Probability arithmetic takes rates as inputs and shows their implications. It does not manufacture reliable rates. A beautifully precise output can still be inappropriate if the input percentages describe a different machine, a different population, or a different operating environment."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "For a noncritical example, imagine flagging imperfect labels on inexpensive storage boxes. A false warning leads to a quick visual check, while a missed cosmetic imperfection may be tolerable. Compare that with an unspecified component whose failure would have serious consequences. The same numerical miss rate would not automatically justify the same process. The mathematics can describe both, but the acceptability of the outcome is a separate judgement. Our invented factory is a calculation exercise and not a specification for a safety critical inspection system."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "This brings us to expected value. Suppose a small delivery service has four packages, and our model gives each an eighty percent chance of arriving on time. For each package, assign a value of one if it arrives on time and zero if it does not. Its expected value is one times eight tenths plus zero times two tenths, or eight tenths. Add the four expectations and the expected number of on time packages is three point two. No actual day contains point two of an on time package. Expectation is an average implied by the probability model."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Laplace's discussion of mathematical expectation begins by weighting quantities by their chances. When several outcomes have different values, multiply each value by its probability and add. For a fictional sealed prize box with an equal chance of containing two counters or eight counters, the expected number is five. Opening one box yields two or eight, never five. That does not make the expectation wrong. It tells us that an average is answering a different question from which individual outcome will occur."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "We can make this more practical without turning it into investment advice. A craft stall has a hypothetical fifty percent chance of selling ten items, a thirty percent chance of selling twenty, and a twenty percent chance of selling thirty. The expected sales count is five plus six plus six, giving seventeen items. The three probabilities sum to one, and the weighted quantities refer to the same period. If we accidentally used a daily probability with a weekly sales count, the arithmetic could look tidy while the units described no coherent quantity."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Expected value also does not identify the most likely outcome. At that stall, selling ten items is the single most likely outcome, with fifty percent probability, while the expected value is seventeen. Nor does expectation tell us the size of the worst possible shortfall. Two processes can have the same expected count while having very different variation. Deciding how much stock to carry may require the full distribution, storage cost, and the cost of running out. Expectation compresses useful information into one number, but compression necessarily leaves information out."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Return to four packages. If their on time results are independent and each has probability eight tenths, the probability that all four arrive on time is eight tenths multiplied by itself four times. That equals zero point four zero nine six, or forty point nine six percent. Expected on time deliveries remain three point two, but the chance of a perfect set is less than half. An expected count near four should not be translated into a near certainty of getting all four. The count and the all successful event measure different things."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Now imagine a different delivery model. All four packages travel together and always share the same outcome: all on time with eighty percent probability, all late with twenty percent probability. Each individual package still has an eighty percent on time chance. The expected count is still three point two, because four times eight tenths plus zero times two tenths equals three point two. But now the probability of all four arriving on time is eighty percent. Dependence has changed the distribution dramatically without changing the expectation."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "That illustrates linearity of expectation. The expectation of a sum equals the sum of expectations even when the quantities are dependent. Independence was needed for our simple product calculation of all four arriving on time, not for adding their individual expected indicators. These are distinct rules with distinct requirements. Mixing their assumptions is easy because both calculations use the same four packages. Ask whether the desired output is an average total or the probability of a particular joint event before choosing the operation."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "For the independent package model, calculate the chance that exactly three arrive on time. Choose which one is late. There are four positions for that late package. Each particular arrangement has probability eight tenths cubed times two tenths, or zero point one zero two four. Since the four arrangements do not overlap, multiply that probability by four to get zero point four zero nine six. Exactly three on time and all four on time happen to have the same probability in this example, though there is no general rule requiring that equality."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "At least three on time includes exactly three and exactly four. Add their probabilities to get zero point eight one nine two, or eighty one point nine two percent. This is an example of a binomial calculation: a fixed number of independent trials, two outcomes per trial, and the same success probability on each trial. The counting factor represents how many arrangements produce the required success count. If packages have different probabilities or share a delay, the simple binomial model no longer follows automatically."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "We can inspect the remaining possibilities as an arithmetic check. Exactly zero on time has probability two tenths to the fourth power, or zero point zero zero one six. Exactly one on time has four arrangements, each eight tenths times two tenths cubed, giving zero point zero two five six altogether. Exactly two has six arrangements, each eight tenths squared times two tenths squared, giving zero point one five three six. Add these to the probabilities for three and four, and the total is one. Every possible success count has been included once."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Why are there six arrangements with two on time packages? Label the packages first, second, third, and fourth. The successful pairs can be first and second, first and third, first and fourth, second and third, second and fourth, or third and fourth. Choosing first and second is the same successful pair as choosing second and first, so we do not count it twice. This is a combination count. The original outcomes still have order and identity, but the event asks only how many successes occurred, so we collect all arrangements satisfying that count."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Fifth recall question. Four packages each have an eighty percent on time chance. Why can the expected on time count be three point two without the probability of all four on time being eighty percent in every model?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "The expected count adds four individual expectations of eight tenths. That addition works regardless of dependence. The all four event concerns the joint distribution. With independent results its probability is eight tenths to the fourth power, forty point nine six percent. With perfectly shared outcomes in our alternative model it is eighty percent. The same individual probabilities and same expected count can therefore belong to different joint distributions. Knowing the average does not tell us how outcomes cluster."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "There is one more way group composition can surprise us. Imagine two fictional sorting methods tested on easy and difficult parcels. Method A correctly sorts eighty of one hundred easy parcels and one of ten difficult parcels. Method B correctly sorts eighteen of twenty easy parcels and twenty of one hundred difficult parcels. In the easy group, B achieves ninety percent compared with A's eighty percent. In the difficult group, B achieves twenty percent compared with A's ten percent. B is better within both categories in these invented observations."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Yet the combined success rate for A is eighty one out of one hundred and ten, about seventy three point six percent. For B it is thirty eight out of one hundred and twenty, about thirty one point seven percent. The aggregate comparison favours A because A faced mostly easy parcels and B faced mostly difficult ones. This is an example of an aggregation reversal often called Simpson's paradox. It is not a contradiction in arithmetic. The combined rates are averages with different weights attached to the easy and difficult groups."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "To compare the methods on the same imagined fifty fifty mix, give easy and difficult parcels equal weight. A's standardised rate becomes half of eighty percent plus half of ten percent, or forty five percent. B's becomes half of ninety percent plus half of twenty percent, or fifty five percent. That calculation asks a new, clearly specified question: what rate would each set of category rates imply on an equal mixture? It does not establish that equal mixtures are the correct real world target. The appropriate weights depend on the population we want to describe."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "Nor does the table prove that choosing method B causes better sorting. The methods might have been used by different operators or on parcels that differ within the broad categories. Our arithmetic isolates the effect of the stated grouping on the reported rate. It does not eliminate every possible difference between groups. This is the same discipline we used with test results: identify the population, identify the conditioning information, and avoid making a causal claim from a fraction that only describes an association."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "For a low risk practical application, draw one hundred small squares on paper to represent a fictional batch. Label twenty faulty and eighty sound. Among the twenty faulty squares, mark sixteen with a warning and four without. Among the eighty sound squares, mark four with a warning and seventy six without. Now make a four cell table from that drawing. This is a deliberately constructed model, not a test you need to run on people, purchases, or anything important. Every number is visible and checkable."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "From the table, calculate three different fractions. Detection is sixteen out of twenty faulty items, or eighty percent. The false warning rate is four out of eighty sound items, or five percent. The proportion of warnings that are correct is sixteen out of twenty warnings, also eighty percent. In this particular constructed table, the first and third percentages coincide. Their equality is accidental, not a reason to treat them as the same quantity. Change the starting numbers of faulty and sound items while keeping the test rates fixed, and the equality can vanish."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "You can also calculate overall accuracy for the drawing. Sixteen correctly warned faults plus seventy six correctly unflagged sound items gives ninety two correct classifications out of one hundred. The four missed faults and four false warnings are the remaining eight. Then ask about the no warning pile: four faults among eighty unflagged squares means five percent are faulty. Each answer uses the same four cells, but selects a different denominator. The exercise is complete when you can point to the exact squares included by each question."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "If you want to check a probability statement encountered elsewhere, the useful output is a reconstructed table or tree with explicit assumptions. Sometimes the necessary base rate or conditional rate is missing. In that case the correct calculation remains unfinished rather than becoming permission to invent a convenient input. In our factory, the base rate and both test rates were provided. Without all of them, the fault probability after a warning would not have been determined. The formula cannot supply information that the problem has not supplied."
+    },
+    {
+      "v": "sage",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "We have moved from ten coloured tokens to an inspection queue, but the same operations kept returning. Restrict the reference group when information is given. Multiply along a sequence using the correct conditional chance. Add distinct routes, subtract overlap when routes are not distinct, and use a complement when the opposite event is simpler. For expectation, weight values by their probabilities. For a joint outcome, account for dependence. Those are concrete tools for different questions, rather than interchangeable slogans about risk."
+    },
+    {
+      "v": "ash",
+      "i": "Clear, engaged mathematical teaching. Give each fraction and its reference group room to be understood at a natural pace. Both voices explain substantively. Preserve recall pauses. Do not artificially slow or add assent.",
+      "t": "The opening factory warning now has a complete explanation. Ninety percent detection acts on one hundred faults; five percent false warnings acts on nine thousand nine hundred sound components. The warning pile combines ninety real faults with four hundred and ninety five sound components, so its fault probability is two thirteenths. A warning is evidence that changes a probability, and its meaning depends on the population and the mechanism that generated it. Once the counts, branches, and denominators are visible, the apparently surprising result follows from ordinary arithmetic."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-26",
+    "spoken_words": 7039,
+    "sha256": "22f8fff9292fd6a283f9b2b056912c9581ab29a813c37d91a9ed97deda973029",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.gutenberg.org/files/58881/58881-h/58881-h.htm",
+      "https://www.gutenberg.org/cache/epub/58881/pg58881.txt"
+    ]
+  }
+}
