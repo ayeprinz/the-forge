@@ -1,0 +1,446 @@
+{
+  "date": "2026-10-18",
+  "title": "[Applied Economics] Divide the Work Without Wasting Everyone’s Time",
+  "summary": "An original print-collective case applies comparative advantage to concrete task allocation. Worked examples distinguish total labour, elapsed time and monetary cost, then introduce indivisible batches, dependencies, shared equipment, preparation costs, quality, training and gains from exchange. Builds on the published economics subject without assuming prior reading or mastery. Five recall questions with seven-second pauses and answers, plus a private scheduling exercise. Ricardo’s relative-cost argument is consulted in its primary historical text: https://www.marxists.info/reference/subject/economics/ricardo/tax/ch07.htm",
+  "instructions": "Start immediately with Elena and Ravi and their real subject, task allocation. All cases and figures are invented teaching examples. Both ash and sage teach mechanisms and contrasting feasible plans. Keep output units, person hours and elapsed time distinct. Continuous output and constant productivity are explicit simplifications. Do not present a model finish as a real guarantee. Attribute only the comparative-cost mechanism to Ricardo, not the original operational examples or modern empirical claims. Do not infer fairness from efficiency or personal value from task speed. Practical application is private, with no spend, promise or change to another person’s work. Preserve five seven-second pauses and immediate answers.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "A print collective has one afternoon to prepare an exhibition. There are two jobs: printing a batch of posters and checking a batch of caption cards. Elena is faster than Ravi at both. Elena can print one batch in two hours or check one batch in one hour. Ravi needs three hours to print a batch or two hours to check one. Giving everything to Elena sounds efficient. But Elena has only six working hours, Ravi also has six, and the exhibition needs both kinds of work. Who should do what?"
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Before assigning anything, specify what a batch means. A poster batch contains the same number of finished posters whichever person prints it. A caption batch contains the same number of checked cards whichever person checks it. Both people meet the same quality standard. The printing times include routine setup, and the checking times include the ordinary corrections. We are inventing these numbers to study a decision, not reporting a real business. Later we will loosen the assumptions. For now, equal outputs let us compare the allocation of time without quietly changing the product."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Elena's absolute advantage is straightforward. She takes fewer hours for either task. But the decision about dividing work depends on what each person gives up. During the two hours Elena uses for one poster batch, she could check two caption batches. Her opportunity cost of a poster batch is therefore two caption batches. Ravi spends three hours on a poster batch. In those three hours, he could check one and a half caption batches. His opportunity cost of a poster batch is one and a half caption batches."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "That makes Ravi the person with the lower opportunity cost of printing, even though he is the slower printer. Elena has the lower opportunity cost of checking. She sacrifices half a poster batch for one caption batch. Ravi sacrifices two thirds of a poster batch for one caption batch. This is comparative advantage. We are comparing the alternative output each person gives up, not awarding a prize to the quickest person. Elena's especially strong checking ability makes her checking time relatively valuable within this particular pair of tasks."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Here is the mistake that can hide inside an apparently sensible instruction. The organiser says, Elena is better at printing, so Elena should print. That statement compares printing speeds in isolation. It leaves out what Elena would otherwise do and who would then handle the captions. If she prints while Ravi checks, the team uses its strongest checker for another job and assigns checking to someone much slower. Whether that matters depends on the quantities required. The relative comparison tells us where to look, while the actual order determines the final allocation."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "The comparative cost argument has a long history. In his discussion of foreign trade, David Ricardo used England and Portugal producing cloth and wine to show how exchange could benefit a country even when another country used less labour for both goods. We are borrowing that relative cost logic. Our print collective is an original teaching example, not Ricardo's example, and two colleagues are not two countries. We are also leaving aside his wider claims about profits, money and national economies. The mechanism we need is the comparison between alternatives."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Suppose the exhibition needs two poster batches and six caption batches. If Elena does all the printing, her two poster batches take four hours. Ravi's six caption batches take twelve hours. Elena has time left, but Ravi cannot finish within his six hour working window. So let Elena take two caption batches in her remaining two hours. Ravi still has four caption batches, needing eight hours. That familiar allocation, the faster printer printing first, cannot meet the order inside the afternoon as described."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Now reverse the specialisation. Ravi prints the two poster batches in six hours. Elena checks the six caption batches in six hours. Both finish inside the working window. The team has not improved either person's speed. It has changed which skill gets used where. Twelve person hours deliver the order. Notice that Elena is still contributing the larger number of batches, but batch counts across different products are not a useful score of personal worth. The purpose is to complete the required combination of outputs."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "We can show why twelve person hours is efficient for this order under our assumptions. Start with Elena doing everything. Two poster batches cost her four hours, and six caption batches cost her six hours. That is ten hours of her time, exceeding her available six. We need to move some work to Ravi. Moving a poster batch to him adds one person hour compared with Elena doing it. Moving a caption batch to him also adds one person hour. But the first move frees two of Elena's hours, while the second frees only one."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "To free four of Elena's hours at the smallest extra total time, transfer the two poster batches. That adds two person hours to her ten hour solo workload, giving twelve person hours across the team. Transferring four caption batches would also free four Elena hours, but it adds four person hours and requires Ravi to work eight hours. This is another route to the same result. Sometimes the most useful explanation is not a formula. It is asking how much scarce time each reassignment actually releases."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Be careful with the word efficient. We have shown an allocation that meets a specific order within two six hour limits. We have not shown that the collective should produce these particular items, that people are paid fairly, or that the exhibition will succeed. Those are different questions. A production plan can be efficient relative to a target while the target itself is misguided. Keep the result attached to the question we actually answered: how can these people deliver these quantities with these working times and capacities?"
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Also, the six hours are working time, not a claim that somebody should work continuously without a break. If the afternoon is six clock hours and includes a half hour break, each person has only five and a half working hours. The full order then does not fit this plan. A schedule must use the time actually available for tasks. Hiding breaks outside the arithmetic makes a spreadsheet look more capable than the people it describes. Change the capacity and solve the revised problem rather than demanding reality imitate the first calculation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Let us give the collective a smaller order: two poster batches and four caption batches. Ravi can print for six hours, while Elena checks for four. That uses ten person hours. It finishes in six clock hours if they start together. But if the only objective is total person hours, and there is no six hour limit on Elena, she could do everything in eight hours. Four hours for printing and four for checking. Specialisation between people does not automatically minimise total labour when the faster person has enough available time."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "This is why the constraint matters. Elena alone uses eight person hours but finishes after eight clock hours. The divided plan uses ten person hours but finishes after six clock hours. If the exhibition opens in six hours, the solo plan is unavailable. If it opens tomorrow and Ravi has another valuable job, the solo plan may deserve consideration. We have two different measures: total labour used and elapsed time until completion. Neither can stand in for the other without knowing what matters in the decision."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Imagine a third plan for the smaller order. Elena prints one batch in two hours and checks four caption batches in four hours. Ravi prints one batch in three hours. That takes nine person hours in total and finishes in six clock hours. It meets the deadline with less total labour than the complete specialisation plan. Comparative advantage pointed us towards Ravi doing printing, but it did not require Ravi to do all of it. Once demand changes, a mixed allocation can use the available capacities more economically."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Under these simplified numbers, that mixed plan is the minimum person hour solution for the smaller order with Elena limited to six hours. Her solo workload is eight hours. Moving one poster batch to Ravi frees the two hours she lacks and adds one person hour. So the total becomes nine. Moving two caption batches instead would free two hours but add two person hours, giving ten. This is a precise reason for the mixed assignment. The instruction is not always specialise completely. It is compare the cost of the work that must move."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Question one. Elena needs two hours for a poster batch and one hour for a caption batch. Ravi needs three hours for a poster batch and two hours for a caption batch. Who has comparative advantage in printing, and what calculation establishes it?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Ravi has comparative advantage in printing. One poster batch costs him one and a half caption batches, because three hours divided by two hours per caption batch is one and a half. It costs Elena two caption batches, because two hours divided by one hour per caption batch is two. Ravi gives up less caption output. Elena remains absolutely faster at printing. The two statements are compatible because absolute speed and relative opportunity cost answer different questions."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Now change the organiser's priority. The smaller order still needs two poster batches and four caption batches, but everything must be finished as early as possible. We will temporarily allow a batch to be divided into identical smaller units with no extra setup. This is a mathematical simplification, and we will remove it shortly. Ravi prints, while Elena checks the four caption batches and helps print with her remaining time. Their working windows can end together before the six hour mark."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Elena needs four hours for the captions, so the team cannot finish before those four hours have passed if she does all the checking. At hour four, Ravi has printed one and one third poster batches, leaving two thirds of a batch. From that point both can print. Elena adds half a batch per hour, while Ravi adds a third. Together their printing rate is five sixths of a batch per hour. The remaining two thirds of a batch takes four fifths of an hour at that combined rate."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Four fifths of an hour is forty eight minutes. The finish is therefore four hours and forty eight minutes after the start. Check the outputs independently. Ravi has worked four and four fifths hours, producing one and three fifths poster batches. Elena checks for four hours and prints for forty eight minutes. At two hours per batch, she prints two fifths of a batch. Together they print exactly two, and the four caption batches are complete. Every portion of the required output has an assigned producer and time."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "The calculation can be said compactly. During the shared finishing time, Ravi prints one third of a batch per hour. Elena uses four hours for captions, then prints half a batch per remaining hour. Four hours and forty eight minutes gives the required two poster batches and four caption batches. Both people work that full interval, using nine hours and thirty six minutes of labour altogether. It finishes earlier than the nine person hour mixed plan, but it uses thirty six minutes more labour."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Why can we treat that as the earliest finish in this divisible version? For a finish sooner than six hours, giving Ravi caption work instead of printing cannot improve the best output combination. Moving an hour of Ravi from printing to captions adds half a caption batch but loses a third of a poster batch. Elena can replace that half caption batch by spending half an hour checking, which costs her only a quarter of a poster batch. So allocating the caption work to Elena preserves more printing capacity."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "With Elena doing all four caption batches, the remaining time has to produce two poster batches. At four hours and forty eight minutes, it just does. Any earlier shared finish leaves less printing from both people, so the target cannot be reached. This reasoning depends on continuous, interchangeable output, constant speed, simultaneous access to equipment and no extra handoff cost. The result is a lower bound for the more complicated real operation. It is not permission to tell a print team that its afternoon will finish at a mathematically exact minute."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Notice that adding the hourly rates was legitimate only once both people were doing the same kind of printing with independent resources. We did not add Elena's caption rate to Ravi's printing rate and call the result a general productivity figure. Those outputs have different units. A rate calculation must preserve what is being counted. Two poster batches divided by a combined poster rate gives time. Adding unlike batch counts without a stated purpose does not tell us whether the exhibition's particular order is complete."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Remove divisibility now. Suppose each poster batch must be printed entirely by one person because its colours must be consistent. Elena cannot print two fifths of a batch and pass it to Ravi. Our four hour and forty eight minute schedule disappears. For the smaller order, one person can print both batches or each can print one. Elena checking all captions and printing one batch takes six hours. Ravi prints the other in three. That is the mixed plan we already found, with a six hour finish."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Could Elena print both batches and Ravi check everything? Elena finishes printing in four hours, Ravi finishes checking in eight, so that fails the six hour deadline. Could Elena print both and check two caption batches while Ravi checks the other two? Elena takes six hours and Ravi takes four. That also finishes in six hours but uses ten person hours. It is feasible, yet it uses an extra person hour compared with Elena checking all four and printing one. Indivisibility creates a small set of plans we can compare explicitly."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "We have now separated three objectives. One is minimising person hours. Another is minimising elapsed time. A third is meeting a deadline at the least labour cost. In some problems they pick the same plan. Here they can pick different ones. If you only hear the phrase improve productivity, ask which output, whose time, and which constraint the speaker means. That is not an abstract detour. It prevents an organiser from celebrating an early finish that consumed much more labour than necessary, or a cheap plan that misses opening time."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "There is a fourth objective we have not priced: keeping promises to other people. Ravi might have an evening commitment, while Elena might prefer an earlier finish on a different day. We should ask rather than invent their preferences. Once a real availability limit is known, it belongs in the problem. If Ravi has only three working hours, the mixed smaller order plan still fits. If he has only two, it does not. A team member's boundary is a scheduling fact, not an inefficiency to be argued away."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Question two. For the smaller order, Elena alone takes eight hours. The mixed plan uses nine person hours and finishes in six clock hours. Which plan is better, and what information do you need before answering?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "There is no unconditional winner. If the order must be completed within six hours, the solo plan is infeasible and the mixed plan fits. If the deadline allows eight hours and the objective is total labour, Elena alone uses less. We also need to know what else each person could do, whether batches can be split, and whether the quoted times include the necessary work. An allocation can be better for elapsed time and worse for total labour at the same time."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "So far we have allowed printing and checking to happen independently. But the exhibition's captions might include a colour code taken from the finished posters. If no caption can be checked until printing is complete, there is a dependency. Ravi printing both batches for six hours and Elena checking for four no longer finishes in six hours. It finishes in ten. The sum is appropriate because the jobs are now sequential. Capacity figures alone do not reveal a dependency. We need the order in which usable information or materials become available."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Often the dependency is narrower than all printing before all checking. Suppose each poster batch corresponds to two caption batches, and Elena can check those captions as soon as that poster batch is finished. Ravi's first poster batch is ready after three hours. Elena checks its two caption batches from hour three to hour five. Ravi's second poster batch is ready at hour six. Elena checks its captions from hour six to hour eight. The order finishes at hour eight, with waiting time in Elena's schedule."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "We can represent that without any special software. Draw one line for Ravi and one for Elena. Mark the printing blocks from zero to three and three to six. Place caption checking blocks only after their corresponding printing block ends. The gaps become visible. Elena is not slow. She is waiting for input. Telling her to improve her checking speed would address only part of the schedule, and perhaps the wrong part. First identify which predecessor task is holding up the next useful action."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "A different assignment may help. Elena prints the first poster batch in two hours. Ravi prints the second in three hours. From hour two to hour four, Elena checks the first pair of caption batches. The second poster batch has been ready since hour three. From hour four to hour six, Elena checks its captions. This finishes at hour six and uses nine person hours, the same totals as our mixed plan. In this example the dependency does not damage that allocation, because the required inputs arrive before she needs them."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "But now introduce one shared printing press. Elena and Ravi cannot print simultaneously. The last schedule cannot be executed as drawn. Elena prints first from zero to two, then Ravi prints from two to five. Elena checks the first pair from two to four. She waits from four to five, then checks the second pair from five to seven. The finish moves to hour seven. We have not changed either person's task speed. We have changed access to a resource, which changes the feasible schedule."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "What if Ravi prints first? He uses the press from zero to three. Elena could check the first pair from three to five, but then she still needs two hours on the press and two hours checking the second pair. If she does those herself in sequence, the finish is hour nine. We are not claiming that this exhausts every possible schedule with every possible split. We are showing that sequence matters and that the original six hour plan assumed two usable printing stations. Write that assumption down before promising the finish."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "A small change in process might eliminate the dependency. If the caption colour code is already fixed in an approved design file, perhaps checking does not need to wait for physical posters. But that is a factual question about the work. It cannot be solved by declaring the tasks independent. Ask the person responsible for quality what information the check actually requires. If checking against the file is sufficient, the independent model may fit. If the check must catch differences in the printed result, the dependency remains for a reason."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "This is where a practical economics exercise becomes process design. Comparative advantage helps allocate alternative uses of time. A process map shows what can happen together, what must wait, and which resources are shared. They are complementary tools. Neither one replaces the other. A clever allocation based on relative speeds can fail because its tasks are arranged impossibly. A beautiful timeline can waste time because it assigns work without considering the alternatives. Use the allocation to propose a schedule, then test the schedule against the actual process."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Handoffs introduce another missing cost. Suppose Ravi can print a batch in three hours only if Elena prepares a detailed production sheet. Creating and explaining that sheet takes her forty five minutes for the job, regardless of whether he prints one batch or two. Her own two hour printing time requires no such handoff. Now transferring one poster batch to Ravi releases two hours of printing time but consumes forty five minutes of Elena's preparation time. It frees only one hour and fifteen minutes of her capacity."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "For the smaller order, Elena's solo workload is eight hours. Transferring one poster batch with that handoff leaves her six hours and forty five minutes of work. She still exceeds her six hour limit. Transferring both poster batches leaves her four hours of caption checking plus forty five minutes preparing the production sheet. That fits her capacity, while Ravi prints for six hours after receiving the sheet. If he cannot start until the sheet is ready, the elapsed finish is six hours and forty five minutes, not six."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "One response is to prepare the sheet before the afternoon, but that is only legitimate if earlier time really exists and is counted somewhere. Moving work outside the visible schedule does not erase it. Another response is to simplify the sheet without losing essential information. A third is to negotiate a later deadline or a smaller order. We should not choose a response until we know which constraints can change. The immediate result is that this new handoff cost invalidates our earlier six hour promise under the stated start conditions."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "There is a useful threshold hiding in that example. Without capacity limits, Elena printing one batch takes two person hours. Ravi printing it takes three, plus forty five minutes of Elena's handoff time. That is three hours and forty five minutes in total. Delegation in this case increases labour. It may still release scarce Elena capacity, but it does not save total person hours. The phrase it takes less of my time is different from it takes less time overall. Both measures can matter, and confusing them hides the tradeoff."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Question three. Ravi's printing takes three hours per batch, but Elena must first spend forty five minutes preparing his production sheet. What two changes should the team make to its original calculation?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "First, include Elena's preparation time when calculating how much of her capacity delegation releases and how much total labour the job uses. Second, include the dependency if Ravi cannot start before the sheet is ready. For two poster batches and four caption batches, full delegation leaves Elena four hours and forty five minutes of work, but Ravi finishes six hours and forty five minutes after the shared start. A task can fit both people's individual capacities and still miss a clock deadline because one person starts later."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "The handoff is a fixed cost for this job. That means its cost per batch changes with volume. If Ravi prints one batch, the forty five minutes belongs to that one batch. If he prints three identical batches from the same sheet, the preparation averages fifteen minutes per batch. If he prints five, it averages nine minutes per batch. This does not prove large batches are always better. It shows one reason repeating compatible work can spread a setup cost across more output, provided the same preparation really remains valid."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Suppose a different artist asks for one batch with a completely different paper and colour treatment. The first sheet may not apply. Counting six batches as though they share one setup would understate the work. What matters is the number of distinct setups, not merely the number of items bearing the same broad label. A batch of similar tasks can be efficient because some preparation is reusable. A batch of superficially similar but technically different tasks may not share that benefit at all."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Large batches can also delay feedback. Imagine Ravi prints five batches before Elena examines the first finished result. If the production sheet contains an error affecting every batch, all five may need correction. If they inspect an early sample, they may catch the problem sooner. We are not assigning a probability to that error, because we have no data. We are identifying a possible failure path. The decision is between preparation efficiency and the value of learning whether the process is working before committing the whole quantity."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "A sample check has a cost too. Suppose it adds fifteen minutes of Elena's time and pauses the press for fifteen minutes while she checks. Those are two descriptions of the same interval from different perspectives, not automatically thirty minutes of elapsed delay. Elena uses fifteen minutes of labour. The press is unavailable for that interval. If Ravi can do another necessary task while waiting, his labour is not wholly lost. Be specific about which resource is occupied and whether other work can proceed, instead of adding every inconvenience into one inflated number."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Quality can change the effective speed comparison. Our original printing times assumed usable output. If Ravi's three hour batch often requires extra correction, the relevant completion time includes that correction. But do not replace an unmeasured concern with a made up average. Observe a small, appropriate sample of comparable work and record the correction separately. You might learn that the slow step is an unclear instruction, an equipment problem or a missing check, rather than a stable feature of the person doing the work."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "For a clean hypothetical calculation, suppose this particular batch is known to require an extra half hour of correction by Ravi after his three hour print. Its total is three and a half hours. One such batch still fits his six hour capacity. Two require seven hours and do not. That does not justify saying he is always a three and a half hour printer. We have changed the facts of this order. Keep the estimate tied to the job and the evidence from which it came."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "The same discipline applies to Elena's times. A two hour estimate from familiar work may not hold for a new material. If both times are uncertain, a precise division such as four hours and forty eight minutes should be treated as a model result, not a promise. Use a range of plausible task times and see whether the proposed plan remains feasible. If a small change breaks it, the plan has little slack. A little slack can have practical value even when it looks like unused capacity in the simplest arithmetic."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Take the smaller mixed plan again without dependencies or handoff costs. Elena prints one batch and checks four, taking exactly six hours. Ravi prints one in three. If Elena's printing takes an extra fifteen minutes, the plan misses the deadline by fifteen minutes. Ravi's spare three hours cannot automatically fix that delay, because the task may not be transferable after it has started. Spare capacity in one place is useful only if it can perform the work that is actually delaying completion. This is a reason to inspect the whole sequence before calling a plan resilient."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Now give the team another option. Elena can teach Ravi a checking method that reduces his caption time from two hours to one and a half hours per batch on future comparable work. The training takes two hours from each person. Those are invented, certain numbers for an illustration, not a prediction about training. The total training investment is four person hours. Each future caption batch assigned to Ravi saves half a person hour compared with his old method. Eight such batches save four hours, matching the training time."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "That is a simple break even comparison in person hours. It ignores any printing output sacrificed during training, differences in the value of the two people's time, and the possibility that the improvement does not persist. If the training occurs during otherwise unused time, the opportunity cost differs from training that displaces a promised job. Also, saving four future hours is not the same as receiving them back today. The arithmetic can clarify the scale of a decision without pretending to settle every consideration surrounding it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Training changes comparative advantage too. Ravi's three hour printing batch now costs him two caption batches, because he can check two in those three hours. Elena's printing batch also costs her two caption batches. Their relative opportunity costs are equal in this simplified two task model. Elena remains absolutely faster at both, but there is no comparative cost gain from assigning one task to each on the basis of those ratios alone. Deadlines, total labour, availability and other costs still matter. Equal ratios do not mean there is no reason to work together."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "If Ravi becomes faster at checking still, the relative ranking could reverse. That is why a comparative advantage is a relationship between current alternatives, not a permanent identity. Describing somebody as the printing person may be a convenient operational label. Treating it as a reason never to revisit their work can freeze an old allocation after its assumptions have changed. Reassess when skills, tools, quality requirements, demand or availability change. You do not need constant reshuffling, but you do need to recognise when yesterday's ratios no longer describe today's choice."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "There is also a resilience reason to share knowledge even if it costs time initially. If only Elena can check the captions to the required standard and she becomes unavailable, the process stops. Training Ravi creates an alternative. How much that is worth depends on the consequences and likelihood of disruption, which we have not measured. The claim is modest: a second capable person changes the available options. We should count the training cost openly rather than dismissing it as waste because it reduces this afternoon's output."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Question four. A training session costs two hours from each person and then saves Ravi half an hour on every comparable caption batch he checks. How many future batches recover the training time in a simple person hour comparison, and what does that comparison leave out?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Eight future batches recover four person hours, since each saves half an hour and the training consumes four hours across the two people. That comparison leaves out when the savings arrive, which other work the training displaces, whether the improvement lasts, and any difference in the value of the two people's time. It also leaves out the possible value of having a second capable checker. The break even count is one part of the decision, not a complete verdict on whether training is worthwhile."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "We have talked about team output, but people also need a reason to accept an arrangement. Suppose two independent creators are each producing posters and captions for their own projects. Elena can make a poster batch at the cost of two caption batches. Ravi can make one at the cost of one and a half caption batches. An exchange rate between those costs can make both better off relative to producing the traded items themselves, provided they want the outputs and there are no extra exchange costs."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "For example, let Ravi provide one poster batch in exchange for one and three quarters caption batches from Elena. Elena receives a poster for one and three quarters caption batches rather than sacrificing two by printing it herself. She saves a quarter of a caption batch worth of her productive capacity. Ravi receives one and three quarters caption batches for printing a poster whose opportunity cost to him is one and a half caption batches. He gains a quarter of a caption batch relative to his alternative use of those three hours."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "That is the gains from exchange argument expressed in outputs. It requires divisible or suitably scaled quantities. If nobody can deliver three quarters of a caption batch, multiply the arrangement by four. Ravi provides four poster batches, and Elena provides seven caption batches. Elena would have sacrificed eight caption batches to print four posters herself, so she saves one. Ravi gives up six caption batches to print four posters and receives seven, so he gains one. We are comparing alternatives for the traded production, not claiming every other part of their projects is complete."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "The interval matters. If the price is exactly one and a half caption batches per poster, Ravi is indifferent in the cost comparison before other costs, while Elena gains. If it is exactly two, Elena is indifferent and Ravi gains. A price strictly between the two leaves a positive production gain for both in this model. The calculation identifies a range of potentially mutually beneficial terms. It does not say where the final terms will land or that bargaining power is equal."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Now give the exchange a delivery cost. Suppose moving one poster batch to Elena consumes the same amount of Ravi's time as checking a quarter of a caption batch. His total opportunity cost of supplying it becomes one and three quarters caption batches. At the old price of one and three quarters, he no longer has a strict gain in this simplified comparison. There could still be a range above one and three quarters and below two, but it is narrower. Coordination and delivery costs can consume some or all of the apparent gains."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Preferences matter as well. If Elena needs no posters, a favourable production ratio does not create a reason for her to acquire one. If Ravi needs captions but cannot use Elena's format, the units are not equivalent. If one person must deliver now and the other can only deliver next month, timing may matter. Relative costs reveal a potential opportunity. Demand, suitability and feasible terms determine whether it becomes a useful exchange. This is why the arithmetic begins with a concrete need rather than an instruction to specialise for its own sake."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Inside a team, gains and burdens may be distributed differently from that exchange example. The collective might finish earlier overall while one person does six hours of repetitive work and the other does three hours of varied work. Whether that arrangement is acceptable depends on agreement, compensation, preferences and other commitments. Efficiency alone cannot establish fairness. Nor does an unequal number of hours automatically establish unfairness if the people have freely agreed other terms. We need the actual arrangement rather than a moral conclusion smuggled in through a productivity calculation."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "A practical conversation could be specific. Here is the required output. Here are the estimated times. This assignment meets the deadline with nine person hours. It gives Elena six hours and Ravi three. Does that fit your availability, and how should we handle the difference in workload? That makes the tradeoff visible without pretending the numbers dictate the entire relationship. If the answer is no, look for another feasible plan or change the scope. Agreement is an input to a workable plan, not a decorative step after the assignment is final."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "There is one more measurement choice worth making explicit before the organiser commits. Equal person hours need not have equal monetary costs. Suppose, purely for an internal costing exercise, Elena's hour is assigned a cost of thirty pounds and Ravi's an hour a cost of twenty pounds. These are invented rates, not advice about pay or market rates. The smaller mixed plan uses six Elena hours and three Ravi hours. That is one hundred and eighty pounds plus sixty pounds, giving two hundred and forty pounds of assigned labour cost."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "The fully specialised smaller order uses four Elena hours and six Ravi hours. Its assigned cost is one hundred and twenty pounds plus one hundred and twenty pounds, again two hundred and forty pounds. The mixed plan uses nine person hours and the fully specialised one uses ten, yet their assigned monetary cost is equal. Both finish in six hours under the original independent task assumptions. A minimum labour plan is not automatically a uniquely cheapest money plan when the hours carry different rates."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Change only Elena's assigned rate to forty pounds. The mixed plan now costs two hundred and forty pounds for Elena and sixty for Ravi, or three hundred pounds. Full specialisation costs one hundred and sixty pounds for Elena and one hundred and twenty for Ravi, or two hundred and eighty pounds. The ten hour plan is now cheaper by twenty pounds. This result does not contradict our earlier minimum person hour calculation. It uses a different objective, with different weights on whose hours are consumed."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Those assigned costs also need interpretation. If both people receive a fixed payment for the afternoon regardless of their assignment, the calculation may describe internal resource use without changing the cash paid today. If unused time can serve another worthwhile job, it may have an opportunity cost even without an additional wage payment. If neither payment nor alternative use changes, claiming a cash saving would be misleading. Identify whether you are counting an actual additional payment, an internal accounting allocation, or the value of a displaced alternative."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "We will not combine all those numbers into a single definitive answer because the organiser has not specified which cost is relevant. That is a useful stopping point for calculation, not an excuse to avoid a decision. Ask which expense changes when the plan changes, whether the deadline is firm, and what the freed time would actually be used for. Then compare feasible plans using that objective. A number labelled cost becomes more informative when its contents are stated than when it is merely reported to another decimal place."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Let us consolidate the case by following one organiser from an unclear request to a usable decision. The first request is get everything ready quickly. That is too vague to schedule. The organiser specifies two poster batches and four caption batches, with equal quality standards and a six working hour window. She records Elena's and Ravi's task times. She separates total labour from finishing time. Under independent, indivisible tasks and no handoff cost, she chooses Elena checking all four and printing one, while Ravi prints the other."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Then she tests that plan against the physical process. Are there two presses? Can captions be checked before posters exist? Is there a production sheet to prepare? Must a sample be approved? Each answer can change the schedule. She does not keep the attractive six hour figure after adding incompatible facts. If there is one press and captions depend on completed printing, the simple sequence we examined finishes in seven hours. The response is to revise scope, timing or process with the people involved, not to hide the missing hour."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Next she asks which estimates are dependable. If the work is familiar and the times include routine corrections, they may be a reasonable starting point. If the paper is new, she marks the estimate as uncertain and checks a small sample before committing the whole job. She does not describe a hypothetical half hour saving as an observed improvement. Finally, she checks whether the assignment is acceptable to both people. A schedule that nobody can or will follow is not a completed operational solution, however neatly its columns add up."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "The low risk application is a private paper exercise with two recurring tasks you understand, or with our fictional print collective. Do not change another person's work or make a delivery promise for the sake of the exercise. Write the required quantities and a quality standard. Choose two people or two methods. Record comparable completion times, clearly marking invented estimates. Then calculate what each gives up by doing one task instead of the other. Identify the lower opportunity cost for each task before deciding how much work to assign."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Build two candidate plans rather than stopping at the ratio. One can follow the comparative advantage direction; the other can use a mixed assignment. For each, count total person hours and mark the elapsed finishing time. Add one real constraint or one clearly hypothetical constraint, such as a shared tool, an approval before the next step, or a fixed handoff cost. Recalculate. The useful output is the difference between the first plan and the revised one, because that exposes which assumption was carrying the original result."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Keep the exercise small enough to inspect. Two tasks, two producers, one order and one added constraint are enough. If you use real timings, observe ordinary authorised work and avoid recording private information about colleagues. If the numbers are uncertain, try a slightly slower time and see whether the deadline still holds. End with one sentence stating the decision and its conditions. For example: this assignment meets the order within six working hours if the tasks are independent, each poster batch stays with one printer, and both printers can work simultaneously."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Question five. A team finds an allocation that reduces total person hours. Why is that result not enough to promise an earlier finish or to call the arrangement fair?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Total person hours do not show whether work can happen simultaneously, whether one task must wait for another, or whether a shared resource delays the sequence. A lower labour total can still finish later. Fairness also requires information about agreement, compensation, preferences and how the gains and burdens are distributed. The efficiency calculation answers a limited production question. A reliable promise needs a feasible schedule, and an acceptable arrangement needs terms the people involved can actually agree to."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "Return to Elena, the faster person at both jobs. The productive question was never simply whether she was good at printing. It was what the team would lose by using her hours there, what Ravi could do instead, and what quantities had to be ready when. That led us from comparative advantage to mixed allocation, from person hours to elapsed time, and from a clean model to dependencies, shared equipment and handoffs. Each extra detail changed a specific part of the decision rather than adding a general warning to be careful."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the fictional print collective clearly at a natural conversational pace. Explain time, quantities and alternatives with emphasis on their units. Both voices contribute substantive reasoning. Preserve recall pauses. No repeated assent or artificial slowing.",
+      "t": "When the collective gets its next order, the previous answer is a starting point, not a command. A different quantity, deadline, skill or process can justify a different assignment. Keep the small calculation and the actual schedule together. One shows the cost of the alternatives. The other shows whether the work can happen as proposed. Then check that the required output is useful and the terms are acceptable. That is how a relative cost idea becomes a practical way to divide work, without turning people into permanent labels or mistaking an elegant model for a finished plan."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-26",
+    "spoken_words": 7081,
+    "sha256": "1b0b6011c5ea61a3212642bcc5929700469825f01da462c1dc04e1a48aca3fd6",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.marxists.info/reference/subject/economics/ricardo/tax/ch07.htm"
+    ]
+  }
+}
