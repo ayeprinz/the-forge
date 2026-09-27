@@ -1,0 +1,486 @@
+{
+  "date": "2026-10-20",
+  "title": "[Strategy] Sun Tzu: Choose the Contest Before You Commit",
+  "summary": "A substantive reading of selected passages from The Art of War in Lionel Giles’s 1910 translation. An original small-publisher case develops objectives, preparation, the cost of prolonged contests, relevant information, adaptation, authority and irreversible decisions. Worked comparisons cover delay, price contribution, inventory, information value and future commitments. Historical claims and civilian analogies are distinguished. Five recall questions with seven-second pauses and answers, plus a private planning exercise. Consulted source: https://www.gutenberg.org/files/132/132-h/132-h.htm",
+  "instructions": "Begin with the publisher facing a larger rival. Both ash and sage teach substantive material. All contemporary cases, prices and probabilities are invented assumptions, not market evidence or personalised advice. Attribute selected historical arguments accurately to the Giles translation, distinguishing commentary from source text. Do not present ancient maxims as guaranteed results or modern empirical science. Civilian analogies concern transparent planning, not treating customers or partners as enemies. Keep cost, reserve, revenue and contribution distinct. Preserve five seven-second recall pauses and subsequent answers. Application is private with no spending or external action.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "A small publisher has enough money to produce one book this season. A larger publisher announces a similar title with a bigger advertising budget. The small team can rush its book, cut its price, argue publicly, or choose a different release window and a more specific audience. The obvious contest is who makes the loudest launch. The useful question is whether that contest serves the small publisher's purpose at all. Sun Tzu's Art of War begins to become interesting when we separate winning a confrontation from achieving something worth the cost."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Our publisher is an invented teaching case. We will use it to explore a historical text about military command without pretending that customers are enemies or publishing is warfare. The book's arguments concern preparation, resources, information, changing circumstances and the dangers of a leader's pride. Some can illuminate ordinary decisions through carefully stated analogies. Others belong to coercive conflict and should stay in their historical setting. We will distinguish what the text says from the modern examples we construct around it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The version consulted here is Lionel Giles's translation published in nineteen ten, with its notes and commentary. That matters because a translated phrase is an interpretive choice, and the commentary is not all the voice of Sun Tzu. Giles includes explanations from earlier commentators as well as his own judgments. When we discuss the work, we are discussing selected passages in that edition. We are not treating its promotional description, its translator's opinions, or every historical anecdote as established modern scholarship."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The opening places war among matters that can preserve or ruin a state. This is a severe starting point. The subject is not how to appear intimidating, collect clever quotations or win every argument. It is how a leader makes decisions whose consequences extend beyond personal reputation. The importance of preparation follows from the scale of the possible loss. If other people's resources and lives depend on a decision, enthusiasm and bravery cannot substitute for understanding the conditions."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "In the publisher's case, the stakes are much smaller, but there is still a real structure to examine. The team wants to publish a useful book, pay the people who made it and remain able to publish another. Beating the larger publisher's launch-day sales might support that purpose, or it might consume the resources needed to fulfil it. We must state the desired result before deciding which visible comparison deserves attention. Otherwise the rival's behaviour can quietly become the definition of our own success."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Suppose the team defines success as selling enough copies over a year to cover production costs while delivering a book its intended readers find useful. A rushed launch that creates early attention but expensive corrections could undermine that result. A quieter launch with accurate material and reliable fulfilment could serve it. These are possibilities in our fictional case, not a general claim that small launches outperform large ones. The point is that the measure of success changes which tradeoffs are sensible."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Chapter one organises deliberation around five factors. Giles calls them the Moral Law, Heaven, Earth, the Commander, and Method and discipline. The language can sound mysterious until we inspect the explanations. Heaven includes times and seasons, heat and cold, night and day. Earth includes distance, danger, security and the character of the ground. Method includes organisation, supply routes and expenditure. Much of the framework concerns the practical conditions under which action becomes possible."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The Moral Law is particularly easy to misunderstand in English. In this translation, its explanation concerns accord between a ruler and the people. It does not simply mean that whoever believes their cause is morally correct will win. The text is asking about cohesion and willingness to follow. That is a claim within its account of command. In our civilian analogy, we can ask whether the publishing team actually agrees on the purpose, without importing the text's expectation of obedience regardless of personal danger."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Imagine one editor thinks the book is a careful reference work, another thinks it is a fast commercial response to a trend, and the designer thinks it is mainly a portfolio piece. Everyone can work hard while pulling the project in different directions. Agreement on a deadline will not resolve disagreement on what the book is for. The practical issue is not whether everybody repeats an inspiring mission statement. It is whether their choices about accuracy, scope, cost and audience fit a shared objective."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The seasonal factor is equally concrete. A book tied to a particular event might lose relevance after that event. A reference book may have a longer useful life. A printer may have limited capacity during a busy period. These conditions do not tell the publisher what to do by themselves, but they alter the consequences of delay. The same month of extra editing can be valuable in one project and costly in another. Timing is a relationship between an action and its surroundings, not a universal command to hurry."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "For the factor of ground, translate cautiously. An ancient commander's terrain is actual terrain. In our analogy, distribution arrangements and reader access are different things that play a comparable limiting role. A publisher with a beautiful book but no reliable route to readers faces a different problem from one with an established audience and a weak manuscript. Calling both problems competition would conceal the difference. The analogy is useful only when it helps us name a particular constraint rather than replace it with dramatic vocabulary."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The commander's qualities in Giles include wisdom, sincerity, benevolence, courage and strictness. The list complicates the caricature of strategy as pure aggression. Courage appears beside judgment and trustworthiness. A civilian project leader might need the courage to reject an attractive but impossible deadline, the honesty to report a production problem, and the consistency to uphold an agreed standard. Those examples are our interpretation of useful qualities, not experimental proof that this ancient list is a complete theory of leadership."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Method and discipline bring the discussion down to the machinery of execution. Who approves the final text? Who checks the printer's proof? How does the finished file reach production? Who notices that a payment is due before sales arrive? The publisher's purpose may be admirable, its team committed and its audience identifiable, yet a missing handoff can still prevent delivery. Organisation connects intention to repeated action. In the source, supply and expenditure sit inside the strategic assessment rather than being left as administrative details after the plan is chosen."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "A useful comparison therefore asks about both sides and the actual task. A large advertising budget may matter less if the small book serves a specialised audience through an existing association. Conversely, the small team's enthusiasm may matter little if it cannot produce the necessary illustrations. We should not turn the five factors into a decorative scorecard that mechanically announces a winner. Their value lies in directing attention to conditions that need explanation, evidence and sometimes a change of plan."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Question one. Our publisher wants a sustainable, useful book but feels pressure to beat a rival's launch-day sales. What distinction should guide its choice, and what does the opening assessment in The Art of War contribute?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The distinction is between the underlying objective and the particular contest being offered. Launch-day sales are one possible measure, not the purpose itself. The opening assessment asks about alignment, timing, conditions, leadership and organisation before commitment. In the publisher's case, that means checking whether a launch strategy supports useful delivery and continued operation. It does not mean that assigning five scores can predict a certain victory. The framework helps expose the conditions on which the decision depends."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Chapter two shifts attention to the cost of keeping a campaign going. In Giles's translation, it describes expenditure, exhausted resources, dulled equipment and declining enthusiasm. The military quantities in the ancient argument are not a price list we can apply today. Its reasoning is that a prolonged undertaking consumes the very capacity needed to finish it and leaves the state exposed to other pressures. The passage makes duration part of the cost, rather than judging a campaign only by whether the final confrontation is won."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Return to the publisher and give the example explicit numbers. Suppose it has twelve thousand pounds available for this project. Production before launch will require six thousand. Each month of delay adds one thousand in project costs that would otherwise be avoided. These are invented assumptions, and we are ignoring taxes, borrowing and unrelated company costs. If the delay lasts three months, the additional cost is three thousand. The original six thousand plus that three thousand uses nine thousand, leaving three thousand of the project allowance."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "A delay of five months would add five thousand, leaving only one thousand after the production cost. That does not prove a five-month delay is wrong. Perhaps the extra time makes a book possible that could not otherwise be delivered. It does show why a delay needs a reason connected to the objective. Time is not free simply because the launch has not happened. A plan that describes only the production invoice misses the continuing use of resources while the team waits."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Now compare two actions. A rush would avoid two months of delay costs, saving two thousand under our assumptions. But suppose it requires a special production charge of fifteen hundred and an extra five hundred of checking. Those added costs also total two thousand. The apparent saving disappears before we even consider the quality difference. Faster is not automatically cheaper. We have to compare the complete alternatives, including what must change to make the faster option feasible."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Change the rush charge to nine hundred while keeping the extra checking at five hundred. The added cost becomes fourteen hundred, against two thousand of avoided delay. The direct difference is six hundred in favour of the rush, assuming nothing else changes. That is a conditional calculation, not a recommendation. If rushing also creates a credible risk of missing essential corrections, the monetary comparison is incomplete. Good arithmetic tells us what follows from assumptions; it does not certify that the assumptions include everything important."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The historical text speaks strongly against prolonged warfare. We should preserve that emphasis without turning it into a rule that all slow projects are foolish. A long apprenticeship, a careful restoration or a research programme can be valuable because time is part of the work. In the publishing example, waiting for a necessary correction is different from drifting because nobody has authority to approve the manuscript. The transferable question is what each additional period costs and what it is expected to accomplish."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "There is also a distinction between preparation time and time spent committed to an expensive course. An hour checking whether the printer can handle a binding may prevent weeks of disruption after the order is placed. A team that proudly avoids planning can start visible activity early while reaching the useful result later. This helps explain why the text's concern with rapid completion can coexist with its insistence on assessment. Preparation can shorten wasteful execution rather than merely postpone action."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Consider a dependency chain in our fictional project. The cover cannot be finalised until the page count is stable, because the spine width depends on it. Printing cannot begin until the cover and interior are approved. Advertising a firm delivery date before those dependencies are resolved creates a commitment the team may not be able to keep. Adding more effort to advertising does not shorten the unresolved editorial step. The relevant constraint sits elsewhere in the chain, and strategy must recognise that location."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Suppose final editing requires four days, cover adjustment requires one day after editing, and the printer requires five days after approval. With those activities strictly sequential, the earliest completion is ten days. Hiring someone to complete the cover adjustment in half a day saves half a day, not five days. Hiring another advertiser changes none of those durations. This is an original project example, but it gives concrete form to the source's insistence that organisation and supply conditions matter alongside ambition."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "If a draft cover can be prepared during editing, some work may overlap, but we should distinguish preliminary preparation from final approval. Perhaps four hours of design can occur early while two hours must wait for the final page count. The improvement depends on the actual task division. Simply announcing that everything will happen in parallel is not a plan. Dependencies are relationships between outputs and inputs. They cannot be removed by putting more people on a calendar or demanding greater enthusiasm."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "A prolonged contest can also narrow future choices. If the publisher spends its remaining allowance trying to match each rival announcement, it may lose the ability to correct its own book, fulfil existing orders or begin a different project. The cost includes what the remaining resources can no longer support. We do not need to assign a precise monetary value to every lost possibility to recognise the mechanism. Resources committed here are unavailable elsewhere unless they can be recovered or replaced."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "This is where restraint becomes an active strategic decision. The team can decide in advance how much of its allowance is available for the launch and what must remain for fulfilment and corrections. That boundary is meaningful only if it changes choices. If every new announcement from the rival becomes an exception, the boundary exists on paper but not in the decision process. The source's concern is preservation of capacity; our example translates that into maintaining the ability to complete the purpose after the excitement of the contest passes."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The next chapter makes a distinction that is central to the whole work. It ranks overcoming resistance without fighting above repeatedly winning battles, and it prefers preserving what is taken to destroying it. This is still a text about power and conquest. It is not a modern statement that all parties should leave a negotiation equally satisfied. Yet it does separate the desired political result from the spectacle and damage of combat. A costly confrontation can be an inferior means even when it ends in victory."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "For the publisher, the corresponding question is whether the obstacle can be removed without entering a destructive price contest. Perhaps the books serve different readers once their scope is made clear. Perhaps the smaller book can be distributed through a specialist organisation while the larger one serves a general market. Perhaps the small publisher should abandon this title because the need is already well met. These alternatives differ, but each asks about the objective before assuming that direct confrontation is required."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Suppose the small book normally sells for twenty pounds and has a variable fulfilment cost of eight pounds per copy in our simplified example. That leaves twelve pounds per copy to contribute towards fixed costs and any remaining surplus. Matching a rival's fourteen-pound price leaves six pounds per copy. The price falls by six pounds, but the contribution per copy falls by half. To produce the same twelve hundred pounds of contribution, the publisher needs one hundred copies at the original price or two hundred at the lower price."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The extra sales may or may not occur. Even if they do, fulfilling twice as many copies may use additional capacity or introduce other costs that our simple model omits. A decision framed as refusing to be beaten on price can conceal the real question: what quantity, cost and customer response would make the price change useful? There is no insult in a competitor choosing a different price. Their costs, audience and objective may differ from ours. Treating their choice as a personal challenge adds nothing to the calculation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Question two. In our example, reducing a twenty-pound price to fourteen pounds while variable cost remains eight pounds changes contribution from twelve pounds to six. Why is the required increase in sales larger than the percentage reduction in price might suggest?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Because the reduction comes out of the contribution after variable cost, not out of an untouched revenue total. Contribution is cut in half, so twice as many copies are needed for the same contribution, assuming the variable cost remains constant and capacity is sufficient. One hundred copies at twelve pounds and two hundred at six pounds both produce twelve hundred. The example does not forecast demand. It reveals what would have to happen before matching the price could preserve that particular result."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The work also argues that judgment includes knowing when not to fight. Chapter eight says some roads, positions and opponents should not be pursued under particular conditions. The existence of an apparent opportunity does not settle its value. A road may be short but unsuitable for the wider undertaking. A position may be obtainable but costly to retain. The reasoning is conditional: an action that offers one advantage can still undermine the purpose through another consequence."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "In our project, a prestigious distributor offers access to many shops but requires a large minimum print quantity. A smaller channel reaches fewer readers but can accept a modest batch. The impressive option may be the right one if demand and resources support it. It may be the wrong one if the team cannot finance the stock or handle returns. The name of the distributor is not enough information. What matters is the agreement's effect on the complete project, including obligations that remain after the initial announcement."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Imagine that one option requires printing a thousand copies at five pounds each, while another allows two hundred at seven pounds each. The larger order has a lower unit printing cost but requires five thousand pounds immediately. The smaller order requires fourteen hundred. These are invented prices, not current printing quotations. The cheaper unit cost is real within the example, yet it is obtained by committing thirty-six hundred pounds more and holding eight hundred additional copies. Those consequences belong in the same comparison."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "If only two hundred copies are needed during the relevant period, the larger order does not make the other eight hundred disappear. They are inventory that may sell later, remain stored, or become obsolete. We cannot call them a realised saving simply because the unit price was lower. Equally, we should not assume they are worthless. The decision depends on future demand, storage and the value of retaining cash. A strategic comparison follows the consequences of the quantity commitment rather than celebrating a single favourable rate."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "One useful distinction is between an action being possible and an action being worth doing. The publisher might be technically capable of matching the rival's advertising spend by using every remaining pound. That establishes capability in a narrow sense, not suitability. Another possibility might be attractive in principle but unavailable because the necessary distribution agreement cannot be reached in time. The Art of War repeatedly connects choice to conditions. Desire does not create an opportunity, and an opportunity does not automatically justify commitment."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Chapter four sharpens the distinction between preparation within one's control and opportunities that depend on others. Giles translates the passage as securing oneself against defeat while waiting for an opportunity to prevail. Its language of complete security is stronger than we should promise in ordinary projects. No checklist can make a publisher immune to failure. The useful relationship is that preparation can reduce avoidable exposure without forcing the outside world to provide a favourable opening."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The publisher can check its files, maintain a realistic production allowance and agree who handles corrections. It cannot make readers need the book, compel a distributor to accept it or prevent a rival from publishing. Confusing these two categories creates opposite errors. The team may neglect preparation because success is uncertain, or it may believe its preparation entitles it to success. A well prepared attempt can still encounter unfavourable conditions. Its quality must be assessed partly by what was reasonably knowable before the outcome."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "This also explains why a quiet success may involve more skill than a dramatic rescue. If the team checks the binding specification early, nobody has to perform a heroic overnight correction when the printer rejects the file. The absence of a crisis is less visible than the effort of overcoming one. Chapter four praises victories that do not require spectacular displays of courage. In our analogy, a reliable process can make good work look ordinary because the preventable emergency never occurs."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "But avoiding spectacle does not mean avoiding difficulty. The careful publisher still needs to make hard choices about scope, pay for necessary work and reject misleading claims. Preparation is not passive waiting for certainty. It is activity directed towards making a worthwhile attempt feasible. When the important conditions are satisfied, further delay may add little. The distinction is between useful preparation and preparation that has become a way of refusing any decision, even when additional work no longer changes the available options."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Information is another form of preparation, and the final chapter makes its value unusually explicit. It contrasts the enormous continuing expense of a campaign with reluctance to spend on knowing the opposing side's condition. The historical subject is intelligence gathered through people, including spies. We are not turning that into a lesson in covert intrusion. For the publisher, the legitimate parallel is acquiring relevant information through permitted enquiries, public material and direct conversations rather than making expensive decisions from guesses."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Suppose the team assumes that its intended readers want a comprehensive reference book. A conversation with an organisation serving those readers might reveal a narrower problem: they need a portable guide for a particular recurring task. That observation could change the book's scope, format and distribution. It is more useful than collecting hundreds of unrelated facts about the rival publisher. Information has decision value when it can affect what we choose or how we carry out the choice."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The text says knowledge of another party's dispositions cannot simply be extracted from spirits or deduced from general calculations. We should keep that claim in its context rather than presenting it as a complete philosophy of science. Its practical distinction is between knowing a general principle and knowing what particular people are currently doing. A publisher can understand printing economics and still not know whether the intended readers already have a satisfactory alternative. That question requires contact with the actual situation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "General knowledge and local information are complementary. The contribution calculation tells us what a lower price would require, but it cannot supply the number of readers willing to buy. A production schedule tells us how long a process takes once its inputs are available, but it cannot establish that a particular printer has reserved capacity. We can calculate the implications of a condition without having evidence that the condition holds. Keeping those tasks separate prevents a precise spreadsheet from making an unsupported assumption look verified."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Consider a fictional information choice. The team can pay one hundred pounds for a legitimate sample print that will reveal whether the paper and binding are suitable. If unsuitable production would require a two-thousand-pound correction, the sample may be valuable. But the comparison is not simply one hundred against two thousand. We also need to ask whether the sample actually detects the relevant problem, how likely the problem is, and whether discovering it in time would allow the team to change the order."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "To isolate the arithmetic, suppose there is a one-in-ten chance of that correction being necessary, and the sample perfectly reveals it before commitment. Suppose further that discovering the problem allows a costless switch to a suitable alternative. Under these deliberately strong assumptions, the expected avoided correction cost is two hundred pounds: one tenth of two thousand. Subtract the one-hundred-pound sample cost and the expected net saving is one hundred. These probabilities are invented for the example, not estimates about real printing."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Now change the chance of the problem to one in fifty while keeping the other assumptions. The expected avoided correction cost is forty pounds. A one-hundred-pound sample is not justified by that monetary benefit alone. It may still have other benefits, such as allowing a quality judgment that matters independently, but those should be named. The example shows why information is neither always worth buying nor always an unnecessary expense. Its value depends on the decision, the uncertainty and what can change after learning the answer."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Timing can reduce that value to almost nothing. A perfect report delivered after the print run cannot prevent a mistake in that run. It might help the next edition, but that is a different benefit. A rough but relevant answer before a reversible decision can sometimes be more useful than a precise answer after commitment. This is an original extension of the source's concern with foreknowledge. The mechanism is straightforward: information can guide only choices that are still available when it arrives."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Reliability matters as well. If a supplier's sample uses different materials from the actual order, it may not resolve the question we care about. If a reader says a book sounds interesting but has never faced the problem it addresses, that response may have limited relevance. We should ask what the information directly supports. This is not an invitation to suspect everyone. It is a way of avoiding the substitution of a convenient answer for the particular fact required by the decision."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The source of information can have its own incentives. A printer hoping to win the order may emphasise favourable features. A colleague who proposed the book may interpret uncertain reactions generously. Those incentives do not prove dishonesty, but they help explain why independent confirmation or a clearly defined sample can matter. In our civilian application, the response is transparent checking, not manipulation. Ask the relevant question, record the conditions, and distinguish an assurance from evidence that the required work can be delivered."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Question three. A sample costs one hundred pounds. Under our invented assumptions it perfectly prevents a two-thousand-pound correction that has a one-in-ten chance of being needed. What is its expected net monetary value, and why might that calculation fail in a real decision?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The expected avoided cost is two hundred pounds, so the expected net value after the sample cost is one hundred. The result depends on the assumed chance, perfect detection and the ability to switch without extra cost before committing. If the sample is unrepresentative, arrives too late or does not permit a different action, its value changes. The calculation describes a specified model. It cannot manufacture reliable probabilities or make irrelevant information useful merely by assigning it a price."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "A plan must also distinguish fixed commitments from choices that can adapt. Chapter eight explicitly combines considerations of advantage and disadvantage. It warns that knowing the ground is insufficient if a commander cannot vary the response to it. This is more demanding than saying be flexible. Flexibility requires recognising which condition changed, why it affects the plan, and which alternative now better serves the purpose. Otherwise every new detail becomes an excuse for indecision or a complete restart."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Imagine that the publisher's preferred printer becomes unavailable for two weeks. One response is to insist on the original date and accept any substitute. Another is to delay automatically. A better assessment compares the alternatives against the actual requirements. Does the substitute use the required binding? Can the launch move without breaking a commitment? Is a small initial batch possible while the main order waits? The answer depends on the project. Adaptation means revising the relationship between means and objective as the conditions change."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The team can prepare contingent decisions before the disruption. For example, if the approved printer confirms capacity by Friday, proceed with the original sequence. If not, request a revised date and compare the already checked alternative. That is not a prediction that the printer will fail. It is an agreement about how to respond if a relevant condition changes. The benefit is that people do not have to invent authority, priorities and communication rules in the middle of a problem."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "A trigger should be observable. Continue while things look promising is difficult to apply consistently. Continue if the final proof is approved and the production slot is confirmed names two conditions people can check. The trigger should also connect to the reason for the decision. A rival's enthusiastic social post may feel important but say little about the printer's capacity or the manuscript's accuracy. A contingent plan can become unstable if it reacts to vivid but irrelevant events."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "We can represent a simple contingency with two production options. Option one costs three thousand pounds and takes four weeks. Option two costs thirty-six hundred and takes two weeks. If each week of delay beyond an agreed target adds four hundred pounds of avoidable cost, saving two weeks avoids eight hundred. Paying six hundred more for option two then improves the direct cost comparison by two hundred, provided both options meet the same requirements. The comparison follows from the specified schedule and costs, not from a general preference for expensive speed."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "If the weekly avoidable cost is only one hundred pounds, saving two weeks avoids two hundred. The faster option still costs six hundred more, so it is four hundred worse on that narrow monetary comparison. There may be a nonmonetary reason to choose it, but we should not describe it as a cost saving. This pair of cases shows why the same action can be sensible under one set of conditions and unattractive under another. Adaptation requires updating the actual comparison, not merely changing our mood about the plan."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "A further complication is that other people also adapt. The larger publisher might change its price, release date or scope after our team announces its book. A plan based on the rival remaining permanently still is fragile. Yet attempting to predict every response can consume unlimited time. Our small publisher can concentrate on choices that remain useful across several plausible responses: a clear audience, accurate content, feasible production and promises it can fulfil. Those features do not guarantee success, but they are not dependent on one exact rival reaction."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "This leads to a distinction between a robust decision and a maximising decision under one forecast. Suppose one plan produces a slightly higher surplus if every optimistic assumption holds, but creates an unaffordable commitment if demand is modest. Another leaves a smaller surplus in the optimistic case but remains feasible in the modest case. Choosing between them requires considering the consequences of being wrong, not only the best projected total. We are extending the source's attention to preservation into an original decision example, not attributing modern risk terminology to Sun Tzu."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Use a simple hypothetical comparison. A large print run might leave six thousand pounds after costs if demand is high, but lose four thousand if demand is low. A small run might leave three thousand if demand is high and lose five hundred if demand is low. Without probabilities, we cannot compute a meaningful expected result. Even with probabilities, the team's ability to absorb a loss matters. A project that cannot survive the larger loss faces a different choice from one with ample resources reserved elsewhere."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The figures alone therefore do not announce a correct option. They make the tradeoff visible. The large run offers an additional three thousand in the high-demand case but an additional thirty-five hundred of loss in the low-demand case. A decision maker should not show only the attractive difference. Equally, showing only the loss would conceal the possible benefit. Chapter eight's call to consider both advantage and disadvantage is useful here precisely because it resists a one-sided presentation of the choice."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Authority is another part of adaptation. In chapter three, the text criticises a ruler who gives operational commands without understanding the army's situation. We should not read that as permission for every employee to disregard a manager whenever they disagree. The historical relationship is between sovereign and military commander, and its stakes are particular. The general problem it identifies is that a distant instruction can become impossible or harmful when it ignores the conditions of execution."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "In the publisher's case, the person announcing a deadline should know what the production team can actually deliver. The production lead should know which commitments cannot be changed without informing others. A workable arrangement might give that lead authority to adjust an internal sequence while requiring agreement before changing the public date. This separates a decision's purpose from its implementation. Delegation is effective only when the person has the information, competence and authority needed for the decision they are expected to make."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Too much central control and too little coordination can fail in different ways. If every minor proof correction requires the owner to respond, a busy owner becomes a delay point. If everyone can change the final file independently, incompatible versions may reach the printer. The solution in our example is not a universal command to centralise or decentralise. It is a clear approval path, an identified final version and defined areas of discretion. Organisation should fit the work rather than express the leader's preferred image of authority."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Question four. The printer becomes unavailable, and a faster alternative costs six hundred more but saves two weeks. Why can the right response change when the avoidable weekly cost changes, and what should a useful contingency specify?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "At four hundred pounds per week, the two weeks saved avoid eight hundred, exceeding the extra charge by two hundred. At one hundred per week, the saving is only two hundred, leaving the faster option four hundred more expensive. That comparison assumes equal suitability. A useful contingency names the condition to observe, the alternatives to compare and who can decide. It preserves the purpose while allowing the method to change, rather than treating the original schedule or every new interruption as an unquestionable command."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The final part of our reading concerns emotion and irreversible consequences. Near the end of chapter twelve, the text warns against mobilising out of anger or fighting from irritation. It contrasts emotions that can change with destruction that cannot simply be undone. This is a concrete argument about the relationship between a temporary state and a lasting result. It is not a claim that a good decision maker never feels anger. The problem is allowing the desire to discharge anger to determine the action's scale and purpose."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Imagine our publisher reads a dismissive comment from a rival. The owner wants to announce a lower price immediately to prove the team cannot be pushed around. Notice how the objective has changed. The original purpose concerned readers, delivery and continued operation. The new impulse concerns answering a slight. Before debating whether the price cut is clever, the team should identify what it is now trying to accomplish. A tactic can be internally consistent with a newly adopted objective that nobody would endorse after the anger passes."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "A delay in sending the announcement can preserve choice. The team can calculate the contribution effect, check existing promises and decide whether any response is needed. This is not a guaranteed emotional technique or a substitute for handling an actual dispute. It is a structural fact about commitment: a draft can be revised more easily than a public offer already relied upon. When consequences are difficult to reverse, keeping the decision private until its purpose and feasibility are clear has practical value."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The text's criticism of pride also appears in its warnings about a general's dangerous qualities. We have directly examined the beginning of that discussion, including recklessness and unwillingness to take necessary risks. The important tension is that courage without judgment can create needless danger, while avoiding every risk can prevent useful action. We should not turn those categories into amateur diagnoses of people. They describe failure patterns in decision making, and a person can show different patterns in different circumstances."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "In the publisher's case, recklessness might mean ordering a large print run before checking the final proof. Excessive avoidance might mean postponing a modest, reversible test indefinitely because it cannot guarantee a perfect result. The solution is not to split the difference mechanically. The two decisions have different consequences. A sample print and a large production order do not expose the team to the same loss. The amount of confidence required should be connected to what the commitment can cost and how readily it can be changed."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "There is another emotional trap: continuing because stopping would make previous effort look wasted. Suppose the team has spent two thousand pounds on a book and now discovers that an essential permission is unavailable. That earlier expenditure cannot make the permission appear. The current choice concerns the consequences of continuing, changing scope or stopping from this point. This is our own decision example. It fits the text's refusal to treat every available contest as worth pursuing, but we should not pretend it is a quotation or a named ancient accounting principle."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Assume the spent two thousand cannot be recovered under any option. Continuing would require four thousand more and is expected, in this invented case, to bring only three thousand back after other future costs. Stopping adds no further cost or return. Continuing would worsen the financial position by one thousand relative to stopping, even though stopping leaves the original two thousand unrecovered. A wish to justify the earlier spending does not change the difference between the future options."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Now suppose changing the scope requires one thousand more and can bring eighteen hundred back after other future costs. That option adds eight hundred relative to stopping under the assumptions. It still does not erase the original expenditure, and its forecast may be wrong. But it is a different decision from spending four thousand to recover three thousand. Comparing only the total amount already invested can hide a useful modification or encourage a poor continuation. The relevant alternatives need to be described from the current position."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "This does not mean relationships, promises or responsibilities disappear because past spending is unrecoverable. If the publisher has obligations to contributors or customers, those consequences belong in the current alternatives. Some responsibilities cannot be reduced to the simple figures we used. The calculation removes one mistaken justification, the idea that irrecoverable spending itself makes further spending worthwhile. It does not establish that stopping is always permissible or that every valuable outcome must be expressed in money."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "We can now assemble a fuller decision for the fictional publisher. Its intended readers need a concise guide to a specific task. The rival's title is broader. The manuscript is close to finished, but the original large print order would use most of the remaining project allowance. The team has not yet promised a public delivery date. Those conditions suggest several options worth comparing. They do not compel one answer, and none requires pretending that another publisher's existence is an attack that must be answered."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "One option is to finish the guide, obtain a representative sample and arrange a modest initial run for the specialist audience. Another is to wait for better demand information before printing. A third is to stop if enquiries show that the problem is already adequately served. The team should compare the costs of each, the information still missing and the commitments created. A coherent choice connects audience need, feasible production, available resources and a clear criterion for proceeding."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Suppose the modest run requires fourteen hundred pounds, the sample one hundred and remaining editorial work five hundred. The total new commitment is two thousand. If the team reserves another thousand for fulfilment problems and corrections, it needs three thousand available to support that plan as described. The reserve is not necessarily an expense; it is money kept available. Mixing a reserve with a cost can distort profit calculations, but ignoring it can exaggerate the money available for other commitments."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The distinction becomes clear after completion. If the reserve is unused, it remains available rather than becoming a realised cost. If six hundred is needed for corrections, that six hundred becomes an expense under our simplified description, leaving four hundred of the reserve. Planning capacity to absorb a problem and predicting that the problem will occur are different activities. This original example gives a practical meaning to preserving resources without claiming the ancient text taught modern budgeting categories."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Before proceeding, the team can write down what would change its decision. An unsuitable sample, unavailable permissions or confirmed inability to fulfil the intended orders could require revision. A rival's boast, by itself, need not. The plan can also identify a review point after the initial run, when actual demand and costs are available. That allows a later decision to use new information rather than mechanically repeating the assumptions that justified the first commitment."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "For your practical application, use a small project already on paper, or invent one. Do not spend, announce an offer or involve another person. Write the concrete result you want, then write the visible contest that might distract from it. Perhaps the result is a finished illustration and the distracting contest is matching somebody else's posting frequency. Perhaps it is a useful study guide and the contest is producing more pages than a classmate. Keep the distinction specific enough that a choice could change."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Next, describe two feasible ways to reach that result and one option to defer or stop. For each, name the resources committed, the time required and the consequence that would be difficult to reverse. Identify one missing fact that could actually change your choice. Then ask when that information would need to arrive. This is not a test of whether you can recite an ancient list. It is a small decision record that makes the relationship between purpose, conditions and commitment visible."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Finally, choose one observable condition under which you would revise the plan. Make it relevant to the work, not to another person's approval of you. For an illustration, that might be discovering that the requested dimensions differ from the brief. For a study guide, it might be learning that the examination excludes a planned section. The application remains private and low risk. Its purpose is to practise a concrete comparison without manufacturing an enemy or creating a conflict in order to feel strategic."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "Question five. A team has already spent two thousand pounds that it cannot recover. Continuing requires four thousand more and brings three thousand back, while a revised scope costs one thousand and brings eighteen hundred back. How should the earlier spending enter this simplified comparison?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The unrecoverable two thousand is common to all options and does not make either new commitment more attractive. Continuing adds a net loss of one thousand relative to stopping. Revising adds a net gain of eight hundred under the assumed forecasts. Obligations and other consequences still need inclusion, and the forecasts are not guarantees. The important distinction is between explaining how the team reached its position and comparing what each available action changes from that position onward."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "The Art of War can therefore be read as more than a collection of lines about defeating opponents. In the passages we examined, it asks leaders to assess conditions, preserve resources, acquire relevant information and avoid committing merely from irritation. Its original setting remains coercive military conflict, and its confident claims are not statistical guarantees. Our civilian cases are adaptations, not proof that every ancient prescription belongs in a business or relationship. The value comes from understanding the argument and the limits of the comparison."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the historical argument and fictional publishing examples at a natural pace. Both voices develop substantive explanations. Make cost units and conditional assumptions clear. Preserve recall pauses; no repeated assent or artificial slowing.",
+      "t": "For the small publisher, the final decision is not how to act like a commander. It is how to produce a useful book without allowing a rival's announcements to dictate every choice. The team can name its objective, inspect its means, check the facts that matter and retain the ability to change course. It can also decide that a particular contest is not worth entering. That is the substantive connection across the source and our examples: action is judged by the result it serves, the conditions it faces and the resources it leaves behind."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-27",
+    "spoken_words": 7322,
+    "sha256": "dd79c20c24a8b35511c41da6c118203e0b9dacef346d02c195b74c3c7de22eec",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.gutenberg.org/files/132/132-h/132-h.htm"
+    ]
+  }
+}
