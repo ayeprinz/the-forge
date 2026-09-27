@@ -1,0 +1,468 @@
+{
+  "date": "2026-10-19",
+  "title": "[Biology] How Natural Selection Changes a Population",
+  "summary": "Follow an invented insect population across generations to understand variation, inheritance, reproductive success, adaptation and evolutionary change. Worked examples cover tradeoffs, changing environments, genetic transmission, drift, migration and relative success during population decline. Selected passages from Darwin’s first edition of On the Origin of Species are distinguished from modern genetics. Five recall questions and answers, plus a private paper exercise. Sources: https://www.gutenberg.org/files/1228/1228-h/1228-h.htm ; https://www.genome.gov/genetics-glossary/Mutation ; https://www.genome.gov/genetics-glossary/Evolution ; https://www.genome.gov/genetics-glossary/Genetic-Drift ; https://www.genome.gov/genetics-glossary/Allele ; https://www.genome.gov/genetics-glossary/Dominant ; https://www.genome.gov/genetics-glossary/Crossing-Over ; https://www.genome.gov/genetics-glossary/Linkage",
+  "instructions": "Start with the insect population. All numerical cases are explicitly invented teaching models, not field results. Both ash and sage teach. Distinguish reproductive contribution from survival, relative frequency from population growth, phenotype from allele frequency, and selection from drift, mutation and gene flow. Darwin is a historical primary source, not an authority for every modern genetic claim. No invented quotations, mastery or biography. No inference from fictional animal displays to human attraction. Preserve five seven-second pauses and immediate answers. Application uses paper only.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "A population of small insects lives on pale bark. Some insects are pale and some are dark. Birds searching the bark find dark insects more easily. Over several generations, pale insects become a larger share of the population. No insect has decided to change colour. No bird is trying to improve the species. Yet the population has changed in a way that fits its surroundings. The explanation is natural selection, and understanding it means following what happens between variation, survival, reproduction and inheritance."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "We will use that insect population as an invented example, with simple numbers that let us inspect the mechanism. It is not a report of a particular field experiment. Imagine the insects reproduce without mating and usually produce offspring of their own colour. That assumption deliberately removes the complication of combining genetic material from two parents. We can first understand why one inherited variant becomes more common, then consider what changes when inheritance, the environment and chance make the story less tidy."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Start with one hundred insects, fifty pale and fifty dark. Suppose forty of the pale insects survive to reproduce, while twenty of the dark insects do. Each survivor produces two offspring, and then the parents die. The next generation contains eighty pale insects and forty dark insects. Pale insects were half of the original population. They are now two thirds of the new population. Dark insects are still present. Selection has changed a proportion rather than instantly replacing one kind with another."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "The crucial connection is that colour affects survival in this environment and is passed to offspring. If we remove either connection, we change the explanation. Suppose birds find both colours equally easily. Then colour has no survival advantage through this particular route. Or suppose offspring colour is unrelated to parental colour. More pale parents could survive without producing a progressively paler lineage. Variation alone is not enough, and differential survival alone is not enough for this inherited evolutionary response. The effects have to connect across generations."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Natural selection concerns differences in reproductive contribution associated with traits. Survival often matters because living long enough to reproduce is necessary, but survival is not the final measure. An insect that lives twice as long and produces no offspring contributes nothing directly to the next generation in our model. Another that lives briefly and produces several surviving offspring contributes more. In biology, fitness in this context refers to reproductive success, often expressed relative to alternatives. It does not mean physical strength, athletic ability or moral deservingness."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "That definition makes a surprising case easy to understand. Suppose pale insects survive well but lay very few viable eggs, while dark insects survive less well but reproduce much more. The dark variant could increase despite its survival disadvantage. We must follow the entire relevant life cycle. Counting adults after bird predation reveals one stage. Counting offspring that enter the next breeding population reveals another. The point at which we count determines which components of reproductive success our number includes."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Here is a different numerical version. Begin again with fifty of each colour. Forty pale and twenty dark insects survive. But each pale survivor now produces one offspring, while each dark survivor produces three. The next generation has forty pale and sixty dark insects. Dark insects rise from half to three fifths of the population, even though fewer dark parents survived. Their larger reproductive output outweighs the survival difference under these assumptions. A claim about which variant is favoured must specify more than which one avoids being eaten."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Charles Darwin developed the natural selection argument in On the Origin of Species, published in eighteen fifty nine. We are using selected passages from the first edition, particularly his discussion of the struggle for existence and natural selection. Darwin's introduction also acknowledges Alfred Russel Wallace's independently developed account. This is not a lesson claiming every sentence in an old book is current biology. Darwin supplied a powerful explanatory framework before the modern genetic account of inheritance was available. We can understand that framework while distinguishing it from later knowledge."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "One of Darwin's important clarifications is that the struggle for existence includes more than literal fighting. A plant can fail because the ground is too dry. A seedling can be shaded by another plant. A flower can leave fewer descendants because it receives fewer effective visits from pollinators. The relevant consequences involve survival and reproduction under particular conditions. Imagining nature as nothing but animals wrestling for dominance misses much of the mechanism, especially for organisms whose lives depend on moisture, light, timing or interactions with other species."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Consider a patch of annual plants. A mature plant can produce many seeds, but only some seeds germinate, only some seedlings survive, and only some surviving plants reproduce. The number of seeds produced is not the number of adults added to the next generation. Space, resources, herbivores and physical conditions can all affect the transitions. Darwin used the potential for populations to increase as a way of explaining why the production of offspring does not translate into unlimited growth in the number of mature organisms."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "We can see the arithmetic without adopting any historical estimate about a real species. Imagine each plant leaves two reproducing descendants and every generation repeats that result. One plant becomes two, then four, then eight, then sixteen. After ten such generations there are one thousand and twenty four. That is multiplication, not an addition of two plants each year. Real populations cannot keep multiplying without regard to their conditions. The calculation makes the gap between reproductive potential and realised population growth visible."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "But population pressure by itself does not explain adaptation. A storm could remove half the insects without regard to their colour. Their numbers fall, yet the storm has not necessarily favoured either colour. For adaptive change through selection, a variant must be associated with a difference in reproductive contribution, and the relevant difference must be inherited. The ecological setting explains why outcomes differ. The inheritance connects those outcomes to a change in the next generation. Keep both parts in view rather than treating hardship as an automatic engine of improvement."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "In our first insect example, the pale survival fraction is forty out of fifty, or four fifths. The dark survival fraction is twenty out of fifty, or two fifths. Equal reproduction after survival means the pale type has twice the expected contribution of the dark type under the model. Starting at equal numbers, it ends with twice as many offspring. The effect is systematic in the assumed rates, but individual outcomes need not be certain. A pale insect can still be eaten and a dark insect can still survive."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "That distinction between a probability and a guarantee is essential. A camouflage advantage does not make an organism invisible. It changes the chance of being detected in a particular setting. Wind, location, movement and chance encounters still affect individuals. Selection can operate through a modest difference repeated across many individuals and generations. We should not judge the mechanism by pointing to one unfortunate well camouflaged insect, just as we should not infer a general advantage from one unusually lucky poorly camouflaged insect."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Question one. In the first model, forty pale parents and twenty dark parents each produce two offspring. What proportion of the next generation is pale, and which two links make this an example of an inherited response to selection?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "There are eighty pale offspring and forty dark offspring, so pale insects make up two thirds of the next generation. Colour is associated with different survival to reproduction in the assumed environment, and offspring tend to inherit their parent's colour. Those are the links from trait to reproductive contribution and from parent to descendant. The counts illustrate the mechanism under stated assumptions. They are not measurements of a real insect population, and the outcome does not mean every pale individual is more successful than every dark one."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Let us follow a second generation in a way that keeps the calculation manageable. Instead of carrying all one hundred and twenty offspring forward, imagine a large population with the same two thirds pale and one third dark proportions. Pale individuals again contribute offspring at twice the rate of dark individuals. Give the pale fraction a weight of two and the dark fraction a weight of one. Two thirds times two is four thirds. One third times one is one third. The total weighted contribution is five thirds."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Divide the pale contribution, four thirds, by the total, five thirds. The next pale proportion is four fifths. A third repetition produces eight ninths, because four fifths times two is eight fifths and one fifth times one is one fifth. The total is nine fifths. We have moved from one half to two thirds to four fifths to eight ninths. The pale fraction keeps increasing, but the increments in percentage points get smaller as pale insects become common. Constant relative advantage does not imply a constant percentage point increase."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "An easier way to hear the same pattern is to track the ratio of pale to dark. It starts at one to one, becomes two to one, then four to one, then eight to one. The ratio doubles because the pale type contributes twice as many descendants per individual in every generation of this simplified model. The proportions are each pale count divided by the whole: two out of three, four out of five, eight out of nine. Ratios and proportions describe the same population differently, and switching between them can make the mechanism clearer."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "This deterministic calculation assumes a sufficiently large population to ignore random fluctuations, unchanged relative reproductive rates, no movement into or out of the population, and no new colour variants. It is useful because it isolates one process. It also tells us what to inspect when reality differs. The selection advantage may change, inheritance may be more complicated, migration may add variants, or random sampling may matter. Those are biological mechanisms, not merely errors around an otherwise perfect prediction."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "The model also does not require the total population to grow. Suppose a habitat supports a roughly fixed number of breeding adults. Many offspring can be produced, but only some enter that adult population. If the filtering into adulthood preserves the same relative advantage, the colour proportions can change while the adult total stays similar. Evolution concerns changes in inherited population characteristics across generations. It is not synonymous with population growth. A population can grow without changing a tracked variant's frequency, and its frequencies can change without growth."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Return to the insects on pale bark and darken the background. In this new environment, dark insects might become harder for birds to find. If that changes their relative reproductive contribution, the direction of selection can reverse. Pale colour was not a universally superior design. It was advantageous in a particular relationship among insects, background and predators. Change one part of that relationship and the comparison may change. This is why an adaptation has to be understood in context rather than ranked on a single ladder from worse to better."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Even the word environment includes more than weather or scenery. Predators, prey, competitors, parasites and potential mates are parts of an organism's surroundings. Darwin's discussion repeatedly emphasises these relations. A plant moved to a place with similar rainfall can face a different set of competitors or pollinators. Its success can therefore differ despite the familiar climate. An evolutionary explanation that describes only temperature and ignores the other organisms may leave out the very interaction producing the difference in reproductive success."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Darwin offers an explicitly imaginary wolf example. If faster prey becomes more important at a time when food is scarce, quicker, more slender wolves might have an advantage. But he adds a condition: they must retain enough strength to master their prey. That qualification matters. Increasing one performance measure can compromise another. The favourable combination depends on the whole task of obtaining food and leaving descendants, not on maximising speed in isolation. We can use his example as an illustration without treating it as a measured account of a particular wolf population."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Think of a fictional seed that can be either large or small. A plant with a fixed amount of material might make fewer large seeds or more small seeds. Larger seeds might provide a seedling with more resources, while smaller seeds might allow more attempts at establishment. Which strategy yields more reproducing descendants depends on what happens after dispersal. There is no answer in the word large alone. We need both the number of seeds and the chance that each reaches the stage we are counting."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Suppose a hypothetical plant can produce ten large seeds, each with a one fifth chance of becoming a reproducing plant, or forty small seeds, each with a one twentieth chance. Both strategies produce an expected two reproducing descendants. Ten times one fifth is two. Forty times one twentieth is also two. The greater number of small seeds does not automatically mean greater fitness. The greater success probability of a large seed does not automatically mean greater fitness either. Their combination determines the expectation in this model."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Now make the conditions harsher for small seedlings, reducing the small seed success probability to one fortieth while leaving the large seed probability unchanged. The small seed strategy produces an expected one reproducing descendant, while the large seed strategy still produces two. The comparison changes. We are not claiming that a real plant has exactly this fixed budget or these probabilities. The example shows how a tradeoff can be evaluated and why a change in conditions can alter which inherited strategy is favoured."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "There can also be advantages to an intermediate value. Imagine a trait where too little protection leaves an organism vulnerable but too much protection uses resources that could support reproduction. Under some conditions, intermediate forms can leave more descendants than either extreme. Selection need not always push a trait towards larger, faster, brighter or more elaborate. It can preserve a range near a useful balance. A stable average does not prove selection has stopped; different variants may be continually produced and filtered around that balance."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Question two. Two hypothetical seed strategies each produce an expected two reproducing descendants, despite one making ten seeds and the other making forty. Why does the larger seed count fail to establish which strategy has greater reproductive success?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Because the chance of each seed becoming a reproducing plant differs. We must combine seed number with the relevant success probability. Ten multiplied by one fifth and forty multiplied by one twentieth both equal two. These are expectations, not promises about one plant. Change the probabilities or another part of the life cycle and the comparison can change. Counting one visible stage, such as seed production, is insufficient when later stages differ between the strategies."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "The inheritance part of the story deserves its own explanation. Darwin recognised that offspring often resemble parents, but he did not have our present account of DNA and genes. Modern genetics describes inherited information through DNA sequences and their transmission. Different versions at a genetic location are called alleles. A trait such as body colour can be influenced by one or several genetic differences, by development and by environmental conditions. Our simple colour copying model is a teaching device, not a claim that all visible traits follow one uncomplicated inheritance rule."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "A mutation is a change in DNA sequence. The National Human Genome Research Institute describes several ways mutations can arise, including errors during DNA replication. In animals like us, a change in a body cell usually remains in that cell's descendant lineage rather than being passed to children. A change in a reproductive cell can be inherited by an offspring. This distinction helps explain why an alteration that happens during one individual's life is not automatically a change in the inherited characteristics of the population."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "For our insect model, imagine that an occasional copying change gives rise to a new inherited colour variant. The change does not need to occur because the insect needs better camouflage. Its effect on reproductive success depends on what the variant does in the environment where it appears. Mutation supplies new variation; selection changes the representation of variants through their different contributions to future generations. They are different steps. Calling an advantageous variant selected does not explain the molecular event that first produced it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Selection also does not have to wait for a new mutation every time the environment changes. Variation can already be present. Our first population contained both pale and dark insects before we changed the bark. If dark colour becomes advantageous, selection can act on the dark variants that were already there. This is called standing variation. The speed of a response depends partly on what variation is available, how it is inherited, and how strongly its bearers differ in reproductive contribution under the new conditions."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Suppose every insect in a simplified population is pale and no dark variant can arrive or arise. Darkening the bark does not allow selection to choose a dark type that does not exist. The insects may suffer, change their behaviour or move, but the specific inherited colour response is unavailable in that model. Selection works on available differences. It cannot reach into a catalogue of all imaginable designs and order the one that would be useful. History constrains the variations from which later populations are built."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Individual change is another source of confusion. A plant may grow differently in shade than in sunlight. That change within its lifetime is not by itself proof that the population has evolved. If the offspring grow the same way when placed under the same conditions, the immediate response may reflect development in that environment. To establish inherited evolutionary change, we need evidence that the difference persists through inheritance rather than being recreated solely by exposing each generation to the same surroundings."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "A useful thought experiment is to grow descendants from two plant populations in a shared environment. If a difference remains, that can support an inherited component, although a careful real investigation must consider other parental and developmental effects. If the difference disappears, the original contrast may have depended strongly on the growth conditions. We are not conducting that experiment here. The point is to distinguish a change in organisms caused during their lives from a change in the inherited composition of a population."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Reproduction with two parents adds another layer. An offspring receives genetic material from both, so it need not be a copy of either parent. Genetic variants can be recombined into new combinations. A beneficial variant may be carried alongside other variants, and its visible effect may depend on that combination. This is why our clonal insect arithmetic is not a general calculator for any animal population. It captures the weighting of reproductive contributions while leaving the transmission rules deliberately simple."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "We can still learn from a deliberately simple inheritance example. Suppose a particular genetic location has two versions, which we will call light and dark. An organism has two copies at that location, one inherited from each parent. A parent carrying one copy of each passes either version with equal probability under this simplified inheritance rule. Two such parents can produce offspring with two light copies, one of each, or two dark copies. The proportions expected are one quarter, one half and one quarter."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Those are combinations of genetic copies, not yet a prediction about visible colour. We must specify how the combinations affect the trait. If one dark copy is sufficient for a dark appearance in this hypothetical case, then three quarters of the offspring are expected to look dark, even though half the transmitted copies are light. A visible trait frequency and an allele frequency are different quantities. We cannot simply count dark bodies and conclude that the same fraction of all genetic copies is dark."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "The arithmetic comes from four equally likely pairings: light from both parents, light from one and dark from the other in either order, and dark from both. One pairing gives two light copies, two give mixed copies, and one gives two dark copies. Nothing in this example says real insect colour follows that rule. It is a minimal demonstration of why transmission and expression matter. Once inheritance is more complicated than copying, the relation between selection on visible traits and genetic change requires more information."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "A version can therefore remain present even when its effect is not visible in every carrier. In our hypothetical rule, mixed individuals look dark while still carrying a light copy. Selection on appearance acts on the organism as it develops, not on a label that declares a genetic variant good or bad in every combination. We need to know what the variant does, in which combinations, at which life stage and under which conditions. Those details connect genetics back to the ecological mechanism rather than replacing it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Now let chance enter the population story explicitly. The National Human Genome Research Institute defines genetic drift as random fluctuations in the frequency of gene variants. Suppose ten founders start a new population, drawn from a source population in which two variants are equally common. The founders need not contain exactly five of each. They might contain seven of one and three of the other simply through sampling. Their descendants then begin from that uneven sample, even if neither variant provides a reproductive advantage."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "That is not natural selection on the tracked variant. The variants differ in frequency because of which individuals happened to found the population. If we repeated the founding event independently, we could get a different result. Chance can remove a rare variant entirely from a small founding group. Once it is absent, ordinary reproduction cannot copy it back into that population. It would need to arrive through movement or arise through a relevant new change. The population's history has altered what variation is available."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Small populations are particularly sensitive to sampling fluctuations. Losing one carrier out of ten can change a frequency much more than losing one out of ten thousand. This does not mean chance vanishes in large populations, or that selection never works in small ones. Both processes can operate at once. A variant with an advantage can disappear by chance when represented by very few individuals. A variant without an advantage can become common. A frequency change alone does not identify which process caused it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Question three. A small group starts a new population with more dark variants simply because of which founders happened to arrive. No colour has a reproductive advantage. Is this natural selection on colour, and what mechanism better describes the frequency change?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "It is not selection on colour under the stated conditions. Random sampling has changed the representation of variants, which is genetic drift. Selection requires a systematic association between the variant or trait and reproductive contribution in the relevant environment. Drift concerns chance changes in representation. Both can occur in real populations, so we should not infer an adaptive advantage merely because a variant becomes more common, especially when a small number of founders or survivors strongly influences the next generation."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Movement between populations creates another route to change. Imagine a local insect population has ninety pale and ten dark individuals. Ten dark insects arrive from elsewhere and join the breeding population. Before any new reproduction, the population contains ninety pale and twenty dark insects, or one hundred and ten in total. The dark fraction rises from one tenth to two elevenths. No local survival advantage was needed for that immediate change. The composition changed because individuals carrying variants moved into the population."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "When that movement contributes inherited variants to subsequent generations, we call it gene flow. It can introduce variation into a population and can reduce differences between populations. In our example, repeated arrivals could keep dark variants present even if local conditions favour pale ones. To understand the observed pattern, we would need to consider both the arrival of variants and their reproductive consequences after arrival. A local population is not always a sealed container, even when a simple classroom model treats it as one."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "We now have several processes that can be distinguished by their causal role. Mutation creates new sequence variation. Inheritance transmits it, with rules that can rearrange combinations. Selection changes representation through differences in reproductive contribution. Drift changes representation through chance sampling. Gene flow moves variants between populations. Evolutionary change is broader than natural selection alone. Keeping these processes distinct makes an explanation more precise without denying that they usually interact in living populations."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Let us apply that distinction to a fictional observation. Over five years, dark insects become common in a woodland. One hypothesis is that darker bark makes them harder for birds to see. Another is that many dark insects have arrived from a nearby population. A third is that a sharp reduction in population size left an unrepresentative set of survivors. These alternatives lead us to different observations: predation and reproduction by colour, movement between sites, and the timing and composition of the population reduction."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "A fourth possibility is that colour itself is not the feature producing the advantage. Perhaps dark colour tends to occur in individuals with a separate inherited feature that affects survival. If those features are associated, the colour frequency can change along with the feature under selection. The colour is then an unreliable guide to the causal explanation. We need to distinguish a trait that affects success from a trait that happens to travel with the cause. A compelling visual story about camouflage is not enough to establish the mechanism."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "This does not turn the lesson into a demand to doubt every adaptation. It tells us what a developed biological explanation contains. We identify the inherited variation, measure or otherwise establish its effects under relevant conditions, and follow its contribution to descendants. Where several mechanisms can produce the pattern, we compare their predictions. The original colour model is strong as a demonstration because its assumptions explicitly connect colour to detection and inheritance. An observed woodland needs evidence for those connections rather than an assumption disguised as a finding."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Selection can also depend on how common a variant is. Imagine a predator that concentrates its search on the colour it encounters most often. A rare colour could then be overlooked more frequently. If that difference affects reproductive success and colour is inherited, rarity itself can contribute to an advantage. As the rare type becomes common, the advantage can weaken or reverse. This hypothetical mechanism is called negative frequency dependence. It can help maintain variation rather than driving one type to complete replacement."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "For a simple invented comparison, suppose a colour has a relative reproductive contribution of two when rare but only one when common. Its alternative has the reverse pattern. We cannot repeatedly double the first colour's ratio as we did in the fixed advantage model, because its advantage changes with frequency. The population's composition affects the selection conditions. An environment includes the other members of the population, so changing their proportions can change the reproductive comparison even without any change in weather or bark."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Spatial differences can maintain variation too. Pale insects might be less visible in one part of a landscape and dark insects in another. Movement connects the patches, while different local conditions favour different variants. The result depends on how much movement occurs and how strongly each patch filters reproductive contributions. We do not need to force this into a single global ranking of colours. A trait can be well suited to one place and poorly suited to another within the same connected population system."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Time can produce a similar complication. If conditions alternate between favouring pale and dark variants, the outcome depends on the strength and duration of each period and on the inheritance and population dynamics. One favourable season need not erase a variant maintained through other seasons. Nor does fluctuating selection guarantee that both types survive indefinitely. The useful point is that the constant environment trajectory was one special case. A changing sequence of conditions requires us to follow the sequence rather than average away its biological consequences."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "There is an important distinction between relative success and absolute persistence. Suppose two variants each leave fewer than one reproducing descendant per parent on average in a simplified nonoverlapping generation model. One leaves four fifths and the other leaves two fifths. The first has twice the relative contribution, so its proportion can increase. Yet both lineages decline in absolute number under those unchanged conditions. Being favoured relative to an alternative does not guarantee that a population avoids extinction."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Start with fifty of each variant in that declining model. The expected next generation contains forty of the first and twenty of the second. Its total has fallen from one hundred to sixty, while the first variant's share has risen from one half to two thirds. This is a useful correction to the idea that evolution necessarily rescues a population. Selection can improve the relative representation of some variants while the population as a whole continues to shrink. Available variation, reproductive rates and changing conditions limit what can happen."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Question four. A variant rises from half to two thirds of a population, while the total falls from one hundred to sixty. Does its increasing share show that the population is growing or guaranteed to survive?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "No. Its share increased because its reproductive contribution was greater relative to the alternative. The absolute population still declined. In the example, fifty individuals of each type yielded expected counts of forty and twenty. Relative success and absolute population growth are different measurements. Natural selection has no guarantee of rescue and no plan to prevent extinction. We must inspect the total number of descendants as well as the proportions when asking whether a population can persist."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Darwin also discusses sexual selection, drawing attention to differences in mating success rather than only survival. The broad mechanism is that inherited features affecting access to mates or fertilisation can influence representation in later generations. A feature can impose a survival cost and still spread if its reproductive benefit is sufficient. Darwin's particular descriptions belong to their historical context, and not every claim or sex role in that account is a universal rule. The conceptual point is that getting to reproduction and succeeding in reproduction are distinct parts of the life cycle."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Consider an invented bird population with a display feature that makes some birds more visible. Suppose those birds survive to breeding less often, but the survivors obtain more matings and leave more surviving offspring. The overall reproductive balance determines whether the feature is favoured. We are not inferring a rule for human attraction from this model, and we are not treating any real ornament as explained merely by naming sexual selection. The example shows why a costly feature can be compatible with an evolutionary advantage."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "A numerical version makes the tradeoff explicit. Suppose a display type has a one half chance of reaching breeding and, conditional on reaching it, leaves an average of four offspring that enter the next counted generation. A plain type has a three quarters chance of reaching breeding and then leaves an average of two. The expected contributions per starting individual are two and one and a half. The display type has the larger expectation despite lower survival. These are invented values chosen to reveal how the components combine."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "This calculation also clarifies why a trait's cost does not automatically disprove adaptation. Adaptation is not the absence of cost. It concerns the net reproductive consequences in the relevant context, compared with available alternatives. Conversely, noticing a benefit does not establish that it outweighs costs or caused the trait to evolve. A convincing explanation has to consider the balance across the relevant life cycle and the historical pathway, rather than pointing to one useful effect and declaring the case solved."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Interactions can make the pathway more complex still. Darwin gives an imaginary account involving nectar, insects and the movement of pollen. Insects seeking food can carry pollen between flowers. Floral features that improve effective pollen transfer can affect the plant's reproductive contribution, while insect features that improve access to food can affect the insect's success. Neither organism needs to understand the other's reproduction. Their activities can create a relationship through which selection operates on both sides."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "The details matter. More nectar could attract more visitors, but producing nectar uses resources. A visitor could remove nectar without transferring useful pollen. The placement of floral structures and the visitor's behaviour can therefore matter as much as the raw number of visits. Darwin's hypothetical account invites us to think about an interaction, not to conclude that every flower is designed to maximise sweetness. A trait's effects depend on how it participates in a working relationship with other organisms."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "This is a route to understanding adaptation without an intentional designer inside the process. Each generation contains variation. Some variations influence the number of descendants in that setting. Inheritance allows those consequences to accumulate. A complex fit can emerge over many steps, provided the intermediate steps have suitable consequences and are developmentally available. Natural selection does not examine the final form in advance. We should be able to describe what happens at each stage without saying the organism changed because it knew what its descendants would need."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "That requirement becomes especially important when explaining an organ with several interacting parts. Saying the final organ is useful is only the beginning of an evolutionary explanation. We need a plausible sequence of inherited changes, each compatible with functioning organisms, and evidence bearing on that history. A present feature might have served a different function earlier, or might have been modified from an existing structure. Selection works with inherited material and available development. It does not assemble every organism afresh from unrestricted parts."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "The history leaves constraints. A change that improves one function may disrupt another. A development pathway may make some variations readily available and others difficult to produce. A variant may be useful only in combination with another feature. This means evolution does not guarantee the best imaginable design. The relevant comparison is among variants that arise and persist in particular lineages under particular conditions. A feature can work well enough to be retained without being an engineer's ideal solution to a task considered in isolation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Nor should we picture all living things climbing towards one final form. Descendants can diverge as they encounter different conditions, and branches can persist, split or disappear. A tree is a more useful picture than a ladder. Two present species can share an ancestor without one being the ancestor of the other. A branch that retains some older features is not automatically unfinished or waiting to become the organism on another branch. Each lineage has its own history of change and persistence."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Our two colour variants do not become separate species simply because their proportions change. Speciation concerns the development of distinct evolutionary lineages and can involve barriers to successful interbreeding in sexually reproducing organisms. Geographic separation can reduce exchange, but separation alone does not prove that speciation has occurred. Populations may reconnect, remain similar or diverge in various ways. The exact criteria and mechanisms require more detail than our colour frequency model supplies. A change within a population and the origin of a distinct species are connected topics, not identical events."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Darwin's book links small inherited differences, divergence and the branching relationships among organisms. Modern evolutionary biology has developed those connections with genetics and other evidence. For this lesson, the important foundation is that repeated population changes can accumulate through inheritance, while isolation, movement and ecological differences affect how lineages relate. We should not leap from a single generation's colour shift to a complete account of all biodiversity. The small model explains a mechanism that can contribute to larger histories."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "There is also a difference between selection by humans and natural selection. A breeder may choose which plants reproduce because they have a desired visible feature. The breeder's goal helps determine reproductive contribution. In the wild, no person has to choose. Interactions with conditions produce differences in reproductive success. Darwin used domestication as a way to make the accumulation of inherited differences familiar, while arguing that a comparable sorting of variation could occur without deliberate human breeding decisions."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Suppose a grower repeatedly saves seeds from the tallest plants, and height has an inherited component. The descendants may become taller on average under the selection regime. If the grower instead saves seeds from the earliest flowering plants, a different feature is being selected. But if tall plants were tall only because they happened to receive more water, selecting their seeds may not reproduce the same difference in equal conditions. Again, the outcome depends on inheritance, not merely on choosing individuals with a desirable appearance."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Artificial selection also illustrates the importance of correlated traits. Choosing one visible feature can change other characteristics if the underlying inheritance or development connects them. The selected feature cannot always be adjusted independently like a setting on a machine. Darwin discussed correlations in his historical account, although some of his specific examples and explanations should not be adopted without modern checking. The general lesson for our model is to avoid assuming that every trait can change while all other aspects of the organism remain fixed."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "We can use a paper exercise to see selection, drift and environment change without manipulating living organisms. Draw two columns labelled pale and dark. Start with twenty tokens in each column, or write the counts if you have no tokens. In the first round, give each pale token two descendant marks and each dark token one. Count forty pale and twenty dark descendants. Record both the total and the pale fraction. The result is two thirds pale, the same proportion as our larger opening model."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "For a second round, apply the same rule to the forty and twenty counts. You obtain eighty pale and twenty dark, making the pale fraction four fifths. For a third round, reverse the reproductive rule: pale tokens produce one mark and dark tokens produce two. You obtain eighty pale and forty dark, returning the pale fraction to two thirds. The reversal does not instantly restore the original half and half mixture. It acts on the population produced by the previous rounds, which already has a different composition."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "This is a deterministic model of relative reproduction, not a claim about how many offspring a real insect has. If you want to keep the counts small, work with fractions rather than literally drawing every descendant. Write the current pale fraction, multiply it by its assumed contribution, and do the same for dark. Divide each weighted contribution by the total. The normalisation step turns quantities of expected contribution back into proportions. Without it, you might mistake a value greater than one for an impossible probability rather than an unnormalised weight."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Now make a separate drift exercise with no colour advantage. Put equal numbers of two colours of paper in a container and draw a small sample without looking. Record its composition, replace all the pieces, and repeat. Different samples can contain different proportions despite identical starting conditions. This is a model of sampling, not a complete population experiment. Compare it with the deterministic selection rule: in one, unequal expected contribution drives the change; in the other, chance determines which variants are represented in the sample."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Keep the two exercises separate before combining them. If you apply unequal reproductive weights and then randomly sample a small next generation, you have a simple model containing both selection and drift. An advantageous type can still be missed in a small sample. Repeating the exercise can produce different trajectories. That is a concrete way to understand why a theoretical advantage gives a tendency, not a guaranteed fate for every lineage. No living organisms, pesticides or breeding interventions are needed for this application."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Question five. How could you distinguish selection from drift in the paper exercise, and what changes when you combine them?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "In the selection version, the colours receive different expected reproductive contributions according to an explicit rule. In the drift version, they begin with equal treatment and their proportions change through random sampling. Combining them means applying the unequal contributions and then sampling the next generation. The advantageous colour has a systematic tendency to increase, but a particular small sample can move differently or lose it. Repeated runs can reveal that distinction between an expected direction and the outcome of one finite population."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "One final worked comparison brings the components together. Imagine a population in which dark insects already exist at low frequency. The bark darkens, and dark insects become less visible to predators. Their inherited colour now contributes to higher reproductive success. That is selection acting on standing variation. If additional dark insects arrive from elsewhere, gene flow also contributes. If a small founding group happens to contain unusually many dark variants, drift contributes. If a new sequence change produces another colour, mutation adds variation for later processes to act on."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Each mechanism answers a different part of the story. Where did a new variant originate? How did it enter this population? Why did its bearers leave different numbers of descendants? Which changes arose through sampling? How were variants transmitted and expressed? These questions fit together into a biological account. They are more informative than saying a species adapted because it needed to survive. Need does not specify a source of variation, a transmission rule or a difference in reproductive contribution."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the biological mechanism clearly and conversationally. Both voices explain substantive examples. Emphasise the distinction between counts, proportions and expectations. Preserve recall pauses. No artificial slowing.",
+      "t": "Return to the pale insects on pale bark. The population changed because inherited differences affected which individuals contributed to the next generation. That compact mechanism can produce a systematic response without foresight. Its outcome depends on the available variation, inheritance, ecology and chance. It can favour an intermediate trait, reverse when conditions change, coexist with migration, or operate while a population declines. Understanding those possibilities turns natural selection from a slogan about the strongest surviving into an explanation you can follow through actual stages and quantities."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-27",
+    "spoken_words": 7014,
+    "sha256": "cedf1df769755abe34ccd1c1a55e5fd9efc69dc8e71fa7b437c38d4165e68e04",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.gutenberg.org/files/1228/1228-h/1228-h.htm",
+      "https://www.genome.gov/genetics-glossary/Mutation",
+      "https://www.genome.gov/genetics-glossary/Evolution",
+      "https://www.genome.gov/genetics-glossary/Genetic-Drift",
+      "https://www.genome.gov/genetics-glossary/Allele",
+      "https://www.genome.gov/genetics-glossary/Dominant",
+      "https://www.genome.gov/genetics-glossary/Crossing-Over",
+      "https://www.genome.gov/genetics-glossary/Linkage"
+    ]
+  }
+}
