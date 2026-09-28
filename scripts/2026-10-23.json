@@ -1,0 +1,488 @@
+{
+  "date": "2026-10-23",
+  "title": "[Digital Technology] How Images Store Colour, Detail and Compression",
+  "summary": "Pixels, aspect ratio, RGB and bit depth, colour spaces, alpha compositing, lossless prediction, palettes, lossy quantisation, interpolation, print density, vector graphics and editable sources. Original worked examples distinguish file size from detail, with five recall questions and one private resizing experiment. Consulted sources: https://www.w3.org/TR/png-3/ https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Image_types https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Introduction https://developer.mozilla.org/en-US/docs/Glossary/Color_space https://developer.mozilla.org/en-US/docs/Glossary/Alpha https://developer.mozilla.org/en-US/docs/Glossary/Lossless_compression https://developer.mozilla.org/en-US/docs/Glossary/Lossy_compression https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/set-image-size-and-resolution.html https://developer.mozilla.org/en-US/docs/Web/API/Window/devicePixelRatio https://jpeg.org/jpeg/ https://developers.google.com/speed/webp/docs/compression https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/resample-option-in-image-size-dialog-box.html https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/printed-image-resolution.html",
+  "instructions": "Start with a small logo enlarged onto a poster. Assume no prior technical knowledge. Both voices teach developed mechanisms and contrasting cases. Distinguish toy models from format implementations, numerical capacity from perception, linear light from encoded values, reversible transformations from quantisation, interpolation from recovered observations, and pixel preservation from editable source structure. Speak numbers in full. Preserve five seven-second recall pauses and answers. One private practical exercise preserves the original, with a paper alternative.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "A small logo looks sharp on your phone. You drag it onto a large poster, enlarge it and discover that the edges have become soft or blocky. Saving it with a larger file size does not necessarily help. Neither does typing a more impressive resolution number into a box. The problem is that several different quantities are being called image quality. Today we will separate them: the number of picture samples, the values stored in those samples, the size at which they are shown, and the information an encoder preserves or discards."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Start with an imaginary picture that is four squares wide and three squares high. Each square receives one colour. There are twelve positions because four times three is twelve. If I tell you the colour at each position and the order in which to read them, you can reconstruct our little picture. That is a useful first model of a raster image. Real images can contain millions of samples, but adding zeros to the count does not change the basic question. What information have we stored for each position, and how will we interpret it?"
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "The word pixel refers to a picture element. For our purposes, imagine a location in a rectangular grid with colour information attached. The little square you see when you zoom deeply into an editor is one way software displays that information. It is not evidence that the original scene was made of tiny square tiles. A photograph samples a scene through an imaging system. A drawing program can create the grid directly. The grid is a representation that can be stored, processed and shown, rather than the physical scene itself."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "We need an ordering convention because twelve colours alone do not specify a picture. Imagine four red entries, four blue entries and four white entries. Read across each row, and you get three horizontal bands. Rearrange the same twelve entries and you can create vertical features or a scattered pattern. The values have not changed as a collection, but their positions have. Image data therefore involves both samples and structure. Width, height and the rules of the format tell a decoder how to place what it reads."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "A decoder is the software that turns an encoded file into an image representation an application can use. An encoder performs the corresponding storage operation. Neither word implies that the picture has been encrypted. Encoding can simply mean following an agreed arrangement of numbers and instructions. Without that agreement, a sequence of bytes is ambiguous. You would not know where the image starts, how wide it is or whether a value describes colour, transparency or something else. A file format supplies the shared rules that make interpretation possible."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Now give our picture eight columns and six rows. Eight times six gives forty eight positions, four times the original twelve. We doubled the width and doubled the height, so the total multiplied by two twice. This is why doubling an image's dimensions can be much more expensive than the word double suggests. The grid has grown in two directions. Conversely, cutting both dimensions in half leaves one quarter of the positions. This relationship concerns the count of samples, before compression and before any judgement about how detailed those samples really are."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Consider a larger invented image, two thousand pixels wide and one thousand five hundred high. Multiplying gives three million pixels. If both dimensions are doubled, we have four thousand by three thousand, which is twelve million pixels. The enlarged grid has nine million additional positions. That tells us how many values a program may need to generate or store. It does not tell us that the new positions contain nine million pieces of newly observed detail. Where those values came from is a separate question we will return to."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "The ratio between width and height is also important. Two thousand divided by one thousand five hundred simplifies to four divided by three. We call that a four to three aspect ratio. If you change the width to four thousand but leave the height at one thousand five hundred, you have stretched the picture horizontally. Circles become wider shapes and faces change proportions. More pixels have not made the representation more faithful. The relationship between the dimensions has changed, so the geometry of what you see changes too."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Cropping solves a different problem from stretching. Suppose a four by three picture needs to fit a square opening. You can remove material from the sides to make a square, preserve the whole picture with empty margins, or distort it to fill the opening. These choices have different consequences. Cropping changes the composition and discards part of the view. Margins preserve the view but leave unused space. Distortion changes shapes. Knowing the target's shape lets you make the choice deliberately instead of discovering afterward that an important part of the picture disappeared."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Let us calculate a crop. Our two thousand by one thousand five hundred image can become a one thousand five hundred square without inventing new samples. A centred crop removes two hundred fifty columns from each side. The square contains two million two hundred fifty thousand pixels. The removed area contains seven hundred fifty thousand pixels, one quarter of the original count. You do not need to memorise those numbers. Follow the operations: choose the retained width, multiply by height, and compare the retained area with the original area."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "The crop may improve the picture even though it has fewer pixels. Perhaps the subject occupies the middle and the sides contain distractions. Or it may ruin it because the sides contain essential context. The arithmetic does not choose the composition for us. This is our first useful separation: quantity of stored information and usefulness of an image are related but different. A larger image can be badly framed, out of focus or distorted. A smaller image can be exactly right for a particular use because the information that matters is clear."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Recall question one. An image is two thousand pixels wide and one thousand five hundred high. If you halve both dimensions, what fraction of the original pixel count remains, and have you merely changed the shape? Take seven seconds to answer.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "One quarter remains. The new grid is one thousand by seven hundred fifty, or seven hundred fifty thousand pixels, compared with three million originally. Halving both dimensions preserves the four to three aspect ratio, so it does not stretch the shapes. It does reduce the number of positions available to represent them. How the program calculates those fewer values matters for the result. Resizing, cropping and distortion are distinct operations, even though all three may appear together in a single application's image tools."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "We have counted positions, but what goes into a position? In a common colour representation, each pixel has separate red, green and blue components. We often call them channels. You can imagine three aligned grids describing the components at the same locations. This is a representation of colour using light components, not a recipe for mixing three pots of paint. Paint and emitted light do not behave identically. The important computing idea is that a colour can be represented by several coordinated numbers rather than by a word such as orange."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "For an eight bit channel, there are two hundred fifty six possible integer codes, from zero through two hundred fifty five. Why two hundred fifty six? Each bit has two possible states. Eight independent choices give two multiplied by itself eight times. Starting from two, the counts go four, eight, sixteen, thirty two, sixty four, one hundred twenty eight and two hundred fifty six. The largest code is one less than the number of codes because zero occupies a position too. That off by one distinction appears throughout digital representations."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "With three eight bit channels, the possible combinations number two hundred fifty six multiplied by two hundred fifty six multiplied by two hundred fifty six. The result is sixteen million seven hundred seventy seven thousand two hundred sixteen code combinations. That is a count of possible triplets, not a claim that every person can distinguish that many colours on every screen. It also does not mean a particular photograph uses every combination. A plain icon might use very few. The representation's capacity and the content actually present are different quantities."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "In a familiar RGB arrangement, zero in all three channels represents black, while the maximum in all three represents white within that colour space. Equal intermediate channel codes represent shades along its neutral axis. Changing one channel while leaving the others fixed changes the represented colour. But the numbers need a context. The same triplet interpreted in different colour spaces need not mean exactly the same colour. Think of coordinates: a pair of map numbers is useful only when you know which coordinate system those numbers belong to."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "A colour space defines how coordinates correspond to colours, including a range it can represent. That range is often called its gamut. A colour profile can help software interpret and convert values appropriately. It cannot force a device to display colours beyond the device's physical capabilities. This explains why attaching the correct meaning to numbers and having capable hardware are separate requirements. A beautifully labelled map cannot move a mountain, and a capable screen cannot reliably infer the intended meaning of every unlabelled set of colour coordinates."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Imagine two painters each giving you a jar marked red number one. One jar contains a deeper red than the other. The label alone did not specify the material consistently. That is only an analogy, but it explains why colour management involves more than agreeing that a channel is called red. We need to know which red, which white reference and how codes relate to light. In everyday work, preserving a suitable profile helps avoid guessing. Randomly assigning a new profile is not the same operation as converting colours to preserve their appearance."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Bit depth is another quantity people confuse with gamut. Adding more bits can provide more code values within a representation. It does not automatically change which range of colours the colour space describes. Imagine a ruler whose markings become finer while its endpoints remain fixed. You can specify positions more precisely without making the ruler longer. The analogy is imperfect because colour spaces have several dimensions, but the distinction holds: finer numerical steps and a wider representable range are not interchangeable claims about quality."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "A two bit grayscale example makes numerical steps easy to hear. Two bits allow four codes. Suppose our invented display maps them to four evenly spaced levels: zero, one third, two thirds and one. If an original level lies halfway between two available levels, we have to choose an approximation or represent it indirectly through a pattern. With more available levels, the gaps can become smaller. This is the basic issue behind quantisation. A continuous or finely represented quantity is being assigned to a smaller set of choices."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Do not infer from that example that real image codes are always evenly spaced in physical light. Common image encodings use nonlinear relationships between stored values and light. A code halfway between zero and the maximum is therefore not automatically half the physical light of the maximum. This distinction becomes important when blending, averaging or interpreting colour. We will keep our numerical examples explicit about their assumptions. Sometimes we are averaging abstract codes to illustrate an algorithm. Sometimes we are combining linear light values to illustrate a physical contribution."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Now we can estimate uncompressed storage. Eight bits make one byte. Three eight bit colour channels therefore use three bytes per pixel in a simple packed representation. Our three million pixel image requires nine million bytes for those channel values. That is nine megabytes if we use the decimal meaning of a megabyte, one million bytes. This calculation excludes headers, profiles, alignment, additional layers and other application data. It is a deliberately simple estimate of the pixel values, not a promise about the file size you will see in a folder."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Add an eight bit transparency channel and the simple total becomes four bytes per pixel. Three million times four gives twelve million bytes. Double the width and height while retaining those four channels, and twelve million pixels require forty eight million bytes. Notice the two independent changes: more positions and more data per position. A file can grow because either quantity grows. When an editor uses extra precision or additional working buffers, its memory use can exceed this simple estimate, so disk size and editing memory need not agree."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Transparency is commonly represented with an alpha channel. It tells a compositor how opaque an element is. A fully opaque foreground covers what is behind it; a fully transparent one contributes none of its foreground colour in the simple compositing case. Partial opacity mixes contributions. The coloured checkerboard you see in an editor is usually a display convention for revealing transparency. It is not necessarily part of the image. If somebody takes a screenshot of that checkerboard, however, the screenshot can contain ordinary checkerboard pixels rather than transparency."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "That distinction explains a familiar mistake. A logo looks as though it has a transparent background because it appears over a grey checkerboard. You place it on a blue slide and the checkerboard remains. The file contained the visual imitation of transparency, not an alpha channel that allowed the slide to show through. Another logo might be white on transparent pixels and appear invisible against a white page. The absence of a visible mark is not enough to tell you which situation you have. Testing against a contrasting background reveals more."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "For a simple blend over an opaque background, take the foreground contribution according to its alpha, then add the remaining background contribution. In a linear light grayscale example, let the foreground value be one and the background value be zero. At one quarter opacity, the result is one quarter times one plus three quarters times zero, which is one quarter. Over a background of one half, the same foreground gives one quarter plus three eighths, or five eighths. The foreground file is unchanged, but the result depends on the background."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Those calculations assume linear values and an opaque background. Real software also has to manage colour encoding, multiple layers and the way colour and alpha are stored internally. We do not need all that machinery to retain the practical point. A partly transparent edge is not a fixed final colour. Its visible appearance is completed by what sits behind it. Testing a logo only on white can miss an edge problem that becomes obvious on dark blue. Transparency is a relationship in compositing, not simply another name for white."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Recall question two. Our image contains three million pixels. In a simple packed representation with eight bits each for red, green, blue and alpha, how many bytes hold those values? Does that tell us the final compressed file size? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "There are four bytes per pixel, so the total is twelve million bytes. It does not tell us the final compressed file size. A file can encode those values more compactly and also include information such as dimensions and profiles. An editor may use additional memory beyond the simple pixel array. The calculation describes one representation at one stage. It is still useful because it helps you see why multiplying dimensions, channels or precision can have a large effect even when the visible picture seems almost unchanged."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "How can a file become smaller without losing the values? Consider an invented row containing twenty identical red pixels. Instead of listing red twenty times, we could store an instruction meaning repeat red twenty times. If the decoder knows the instruction scheme, it reconstructs exactly the same row. This is a simple illustration of lossless compression, not a claim that every image format uses this exact method. The essential property is reversibility. The compact representation and the decoding rules together preserve enough information to recover the chosen original data."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "The word chosen matters. Suppose an editor first shrinks a photograph, then saves the smaller grid using lossless compression. The compression preserves that smaller grid exactly. It does not preserve the discarded detail from the larger photograph. Losslessness applies to the relationship between the input to an encoding step and what that step reconstructs. It is not a guarantee that every earlier operation was reversible. A screenshot saved losslessly can faithfully preserve a low quality preview, including the blur already present in that preview."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Our repeat instruction works well for the uniform row. It works less well for a row in which every pixel differs unpredictably from the next. Describing a new run for each single pixel could add overhead. This illustrates why two pictures with the same dimensions and channels may compress to different sizes. Regularities in the data provide opportunities. A flat graphic and a highly varied texture do not offer the same regularities. The size difference is therefore not automatically proof that the smaller file is lower quality or has fewer pixels."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "We can make the limitation mathematical with a tiny toy example. There are sixteen different patterns of four bits because two to the fourth power is sixteen. How many bit strings shorter than four bits exist if we include the empty string? One empty string, two one bit strings, four two bit strings and eight three bit strings give fifteen. Fifteen distinct shorter descriptions cannot uniquely identify all sixteen inputs. At least one input must fail to become shorter if the system must distinguish every possible four bit input exactly."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Real compression formats are more sophisticated, but they cannot escape the need for distinguishable descriptions. A method can make common patterns shorter while leaving other inputs unchanged or longer. It cannot promise a smaller reversible encoding for every possible input without accounting for some extra information elsewhere. If a product claims to compress any file repeatedly forever with no loss, this small counting argument tells you why to question it. The important mechanism is not an opinion about the company. There are more possible originals than available shorter unique descriptions."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Another technique begins with prediction. Imagine a grayscale row whose codes are one hundred, one hundred one, one hundred two and one hundred three. We could keep the first value and record differences of one, one and one. Reconstruction adds each difference to the previous result. A sequence of repeated small differences may be easier for another compression stage to encode. Prediction does not have to be correct to be reversible if the exact correction is retained. It only needs to make the corrections more convenient to represent."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Change the row to one hundred, one hundred one, fifty and one hundred three. With our previous value predictor, the differences after the first are one, minus fifty one and fifty three. We can still reconstruct every value by adding the correction. The representation is less regular, but it has not become inaccurate. This distinction is crucial: prediction plus an exact residual is different from prediction alone. A decoder that receives the residual is not merely guessing the image. It is using the prediction as a reference from which the stored difference restores the data."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "PNG provides a real example of reversible preparation before compression. Its specification describes filters that transform rows before the compression stage, and the decoder reverses that transformation. The term filter here does not mean an artistic effect that changes the appearance. It is a data transformation intended to improve compressibility. That is why technical words need context. The filter used for a nostalgic photo look and a reversible predictor filter can both be called filters while having very different relationships to the original pixel values."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Palettes offer another representation. Imagine an icon using only four colours. We can define the four colours once in a table and store a small index at each position. Two bits can identify four entries. The pixel no longer needs a full colour triplet repeated at every location. The palette and indices together specify the result. This can be exact when all the original colours are present in the table. It becomes an approximation if we first force a picture containing many colours into a smaller palette that omits some of them."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "For our twelve pixel picture, full eight bit RGB values would require thirty six bytes before overhead. A four colour palette also requires twelve bytes if each palette entry has three eight bit channels. The twelve two bit indices require twenty four bits, or three bytes, if packed. Together that is fifteen bytes before format overhead. The arithmetic illustrates a saving in this toy case, not an actual PNG file size. A real file also needs structural information, and the overhead matters proportionally more when the image is tiny."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "For a picture that uses a different colour at nearly every position, a palette may be less helpful or require reducing colours. The choice depends on the content. This gives us a second distinction within the word optimisation: changing a representation while preserving values, and changing the values to make them easier to store. Those are different operations even when one export dialogue performs both. Asking whether the final file is called PNG does not tell you everything that happened before encoding. You also need to know what the exporter did to the image."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Lossy compression permits an approximation rather than exact reconstruction. A simple invented example is rounding every value to the nearest multiple of ten. Values one hundred two, one hundred three and one hundred four all become one hundred. Knowing only the rounded value does not tell us which of those originals occurred. We have merged distinct possibilities. The representation may become easier to compress, but some distinctions have been deliberately removed. That is the fundamental issue behind lossy coding, even though practical image codecs operate with more specialised representations."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "The loss does not automatically mean the picture looks bad. If the removed distinctions are small relative to the use, a person may find the result visually acceptable. But acceptable and identical are different standards. A product photograph for a small web preview has different requirements from a pixel measurement or an editable archival source. The question is what differences matter for the task. Compression is a tradeoff among size, fidelity and often processing effort. Treating every small file as damaged or every invisible difference as irrelevant misses that dependence on purpose."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Common photographic JPEG use involves lossy coding. The broader JPEG standard contains other modes, so we should be precise rather than claiming every technology with JPEG in its name is identical. In the familiar lossy approach, a transform expresses image information in another mathematical form and quantisation reduces precision. The transform is not automatically the destructive step. Rounding and discarding distinctions during quantisation create the irreversible part. Thinking in stages helps explain why compression can include both reversible rearrangement and deliberate approximation in the same pipeline."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "A numerical analogy separates those stages. Suppose we represent two values, ten and fourteen, by their average, twelve, and their difference, four. From those two new numbers we can recover ten as twelve minus half of four, and fourteen as twelve plus half of four. That change of representation is reversible. Now round the difference from four to zero and keep only twelve and zero. Reconstruction gives twelve and twelve. The approximation erased a contrast. Changing coordinates did not cause that loss; reducing the precision of the represented difference did."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Recall question three. A compressor predicts a value of one hundred and stores an exact correction of three. Another stores only the prediction and discards the correction. Which can recover the original value one hundred three, and what distinction does this illustrate? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "The first can recover it by adding three to one hundred. The second reconstructs one hundred and has lost the distinction. Prediction itself is not necessarily lossy. What matters is whether enough correction information survives to reverse the representation. Our example also explains why a sophisticated mathematical transform need not be the source of damage. A pipeline can transform information exactly and then introduce loss at a later precision reduction. To understand a format, ask where distinctions are retained and where several originals become the same stored description."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "When compression is too aggressive, the errors may become visible around edges, in fine texture or in smooth transitions. A diagram with small lettering can expose defects that are less noticeable in a natural photograph. That helps explain why format choice depends on content. A photo and a chart can have identical dimensions while requiring different treatment. The photo contains gradual variations and texture; the chart may depend on a very thin line or tiny gap remaining distinct. The information that carries meaning is distributed differently across the two pictures."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Imagine a chart where a narrow white gap separates two dark bars. If an approximation closes that gap, the numerical values stored in the file may differ only locally, yet the chart can become harder to interpret. Compare a tiny change in an unimportant patch of background texture. A simple average error score might not capture the difference in meaning. This is why evaluating an export at the intended display size matters. The task is not to worship a format. It is to preserve the features through which the image communicates."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Repeatedly exporting an already compressed image can compound losses when the process decodes, modifies and reencodes it. Merely copying a file does not do this, because copying can preserve its bytes exactly. Opening a file to look at it is also not the same as saving a newly encoded version. The distinction prevents a common superstition that images wear out from being viewed. They do not fade through attention. The risk comes from operations that change representations and discard information, sometimes automatically when an application creates a derivative."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "An orderly workflow keeps a suitable source and produces delivery copies from it. If you want a smaller version, return to the source rather than repeatedly shrinking the last export. This preserves options. The source might include layers, editable text or a high quality raster that the final delivery file does not need. Keeping that source does not require sending it everywhere. A lightweight preview and an editable master serve different purposes. The mistake is losing the master and later expecting a delivery copy to contain structure that was intentionally left out."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Now return to enlargement. Our four by three image can become eight by six by repeating each original value into a two by two block. Every original position produces four output positions. This method makes the grid larger and preserves a blocky appearance. It is useful when that appearance is intended, as in some pixel art. It cannot reveal what happened between original samples because it has added no new observation. The output contains more values, but they were copied from the existing values according to a rule."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Another method estimates values between neighbours. In a one dimensional teaching example, put a code of twenty at one end and a code of sixty at the other. A straight interpolation places forty halfway between them. At one quarter of the distance it gives thirty; at three quarters it gives fifty. This produces a smoother transition than repeating the endpoints. Our numbers are abstract codes, so we are illustrating interpolation rather than claiming a physically correct light blend. The smoother result is still an estimate based on the supplied endpoints."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Several different original patterns could share those endpoints. The real scene might rise smoothly from twenty to sixty. It might jump suddenly near the middle. It might contain a narrow bright feature between them. The endpoints alone do not decide which. Interpolation chooses a plausible rule; it does not reverse the absence of observations. This is the precise reason that a larger pixel count after enlargement is not proof of recovered detail. You need to distinguish newly computed values from independently supported information about the scene."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "A system can also generate plausible detail using learned patterns or other assumptions. The result may be visually persuasive, but plausibility does not establish that a particular tiny feature existed in the original scene. Our mathematical example already explains the uncertainty: many possible hidden patterns are consistent with limited observations. Additional assumptions can choose among them, yet the observations themselves did not uniquely determine the choice. For creative work that may be useful. For identifying a factual detail, such as an unreadable mark, it demands a different standard of confidence."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Reduction has its own problem. Suppose a row alternates black, white, black, white. If you keep only every other position, one alignment gives all black and another gives all white. Both results miss the alternating structure. A method that combines neighbouring contributions can represent something closer to their average at the smaller scale. We are using an intentionally simple example of sampling. It shows why shrinking should not be imagined as harmless deletion. The way information is combined before or during reduction changes what the small image appears to contain."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "If the pattern is too fine for the output grid to represent, some detail must change or disappear. Trying to preserve every sharp transition at an inadequate scale can create misleading patterns rather than faithful detail. This is one reason a detailed design may need adaptation for a small icon. A thin line that works at poster size may not survive as a meaningful feature in a tiny thumbnail. The design problem and the sampling problem meet: sometimes the right response is to simplify the artwork, not keep applying stronger sharpening to an unsuitable reduction."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Sharpening is also not a universal recovery operation. Increasing local contrast around edges can make an image appear crisper, but it cannot guarantee recovery of information that was never captured or was discarded. Imagine the same uncertain endpoints, twenty and sixty. Making their difference more pronounced does not tell you whether a hidden line existed between them. It may exaggerate an edge without resolving its original structure. A useful adjustment can still have limits. Looking sharper and being a more faithful record of the original are separate claims."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Now separate an image's grid from its display size. A file might contain one thousand two hundred pixels across. Show it across a small area and its samples occupy little physical space. Show it across a large area and the same samples must cover more space or be resampled. The stored dimensions alone do not specify the size of every display. Software, layout and the output device participate. That is why an image can look excellent as a small preview and disappointing when viewed much larger without any change to the file itself."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Printing makes the relationship easy to calculate. Suppose those one thousand two hundred pixels are placed across four inches. Divide one thousand two hundred by four and you get three hundred pixels per inch. Spread the same samples across eight inches and you get one hundred fifty pixels per inch. No pixels were added or removed in that calculation. Their intended spacing changed. A resolution field can describe this relationship. Changing that field without resampling does not manufacture extra detail; it changes the relationship between the existing grid and a proposed physical size."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Conversely, suppose you want an eight inch wide print at three hundred pixels per inch. Multiply eight by three hundred and you obtain two thousand four hundred pixels across. That is a target sampling count, not a promise that every source enlarged to that count will look equally good. The source might already have sufficient detail, or it might be a blurry thumbnail. The printer, paper, viewing distance and subject also affect the result. The calculation answers a dimensional question. It cannot substitute for inspecting the actual image and intended output."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Pixels per inch and printer dots per inch describe different stages. The image samples supply colour information; a printer may use patterns of physical marks to reproduce those colours. A printer's advertised dot density is not simply the number of independent image pixels your file contains. For today's purposes, keep the arithmetic attached to the right object. When planning the image grid, use image pixels and intended size. Do not assume that a large printer specification means a small source can reveal unlimited detail when enlarged."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Screens introduce another distinction: layout pixels and physical device pixels. A browser may use a logical unit for arranging content while mapping it to multiple physical pixels on a dense display. For a simple example, an image displayed at three hundred layout pixels wide on a device using two physical pixels per layout unit may occupy six hundred device pixels across. That is a relationship between the layout and the display, not a universal rule for every screen or zoom setting. The file's own sample width is a third quantity."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "If the source has six hundred meaningful samples across, that can support the denser display more directly than a three hundred sample source enlarged to the same area. But supplying an enormous file far beyond the actual use may add transfer and processing cost without an obvious benefit. The sensible choice depends on the display context and available source. This is why websites may provide different image sizes. They are matching a representation to conditions, not discovering one magic size that is optimal for every screen, layout and connection."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Recall question four. A picture has one thousand two hundred pixels across. Without resampling, it is first placed across four inches and then across eight inches. What happens to pixels per inch, and what has not changed? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "The density changes from three hundred to one hundred fifty pixels per inch. The stored horizontal sample count remains one thousand two hundred. Doubling the intended width spreads those samples over twice the distance. No new scene detail has appeared. If you instead require three hundred pixels per inch across eight inches, the target becomes two thousand four hundred samples across. Meeting that count by interpolation is different from starting with a source that genuinely contains the corresponding detail. The number and the origin of the information both matter."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Vector graphics offer another way to describe some pictures. Instead of storing only a fixed grid, a vector representation can specify shapes, paths, colours and drawing operations. A circle can be described by a centre and radius rather than a list of every sample along its edge. To display it, software still has to render it onto an output device. But it can calculate that rendering for the chosen size. That is why a simple vector logo can scale more gracefully than a small raster export of the same logo."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Imagine a circle centred at fifty, fifty with a radius of twenty in our invented coordinate system. Scaling every distance by three gives a centre at one hundred fifty, one hundred fifty and a radius of sixty. The relationship remains exact in the geometric description. A renderer then determines how the edge contributes to the output pixels. Compare that with enlarging a small raster circle whose edge is already represented by a few discrete samples. The vector retains the underlying geometric instruction; the raster retains the earlier sampled result."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "This does not mean every vector file is tiny or every raster is crude. A complex illustration can require many paths, effects and embedded assets. A photograph contains variations that are not usually described economically by a handful of circles and lines. Vector formats can also contain embedded raster images. Putting a photograph inside a vector container does not transform its pixels into unlimited geometric detail. You need to inspect what the file actually contains. The extension names a format, not a guarantee that every element inside has the same properties."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Editable text creates a similar distinction. A design file may retain letters as text associated with a font, while an exported raster contains only the resulting picture. Both can look identical at one size. But changing the wording in the raster is no longer a simple text edit because the character structure is gone. A screenshot of a page captures appearance, not necessarily the editable document structure. This is another example of two representations preserving different things. Visual similarity at one moment does not mean they support the same later operations."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Flattening layers can remove useful structure even when the visible pixel result is preserved exactly. Imagine a coloured title on a photograph. In the source document, the title can be moved independently. In a flattened image, the combined result may look the same, but the separate title layer is no longer available. Lossless compression of that flattened image preserves its pixel result, not the missing editing history. This is why the word lossless should always prompt a quiet question: lossless with respect to which information at which stage?"
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Let us work through a fictional delivery brief. A community exhibition needs a small square icon, a photograph for a webpage and a printed information sheet. The available material is an editable vector symbol and a three thousand by two thousand photograph. Nobody needs to buy new software for our example. We are reasoning about the files. The first step is to keep the sources intact. The second is to identify what each output must preserve: shape for the icon, photographic appearance for the webpage, and legible information at the intended print size."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "For the icon, the symbol's geometric source is valuable. You can render it at the required size and inspect whether thin details remain clear. If the destination accepts an appropriate vector format, that may preserve scaling flexibility. If it requires a raster, produce a suitable raster from the vector source. Do not take a screenshot of a tiny preview and enlarge that screenshot simply because it is convenient. The screenshot adds an unnecessary intermediate sampling stage. You have access to a representation that can render the shape directly at the needed dimensions."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "For the photograph, suppose the webpage needs a three to two image twelve hundred pixels wide. Preserving the aspect ratio gives eight hundred pixels high. The output contains nine hundred sixty thousand pixels. The original three thousand by two thousand contains six million. The smaller grid has sixteen percent of the original pixel count. That does not mean its compressed file will be exactly sixteen percent as large, because compression and overhead also matter. It does tell us that the output represents the view with substantially fewer positions."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Now suppose the page's square card requires a crop instead. A centred square from the original can retain two thousand by two thousand pixels, removing five hundred columns at each side. That crop keeps four million pixels before resizing. But the central subject might not be centred, so a mechanically centred crop could be poor. A person should inspect whether the important object and useful context remain. The technical calculation tells you what can fit; the composition decision tells you what should remain. Both are necessary for a good derivative."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "For the printed sheet, imagine the photograph occupies six inches across. Three thousand source pixels divided by six gives five hundred pixels per inch before any crop. If a square crop retains two thousand pixels across and still occupies six inches, the density is roughly three hundred thirty three pixels per inch. We have changed the available width by cropping, so the density calculation must use the retained width. Reusing the original width in that calculation would overstate the information available to the printed region. A small bookkeeping mistake can lead to a misleading quality claim."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Format selection follows the use. A photograph often tolerates a carefully chosen lossy delivery encoding, while a diagram with fine text may benefit from exact pixel preservation or a suitable vector representation. A logo needing partial transparency requires an output that supports that property. Common photographic JPEG delivery does not provide a general alpha channel. PNG supports transparency and lossless pixel storage. Other formats can support multiple modes, so their names alone do not establish whether a particular export is lossless. The settings and destination support matter too."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "No single quality slider is a universal measurement across programs and formats. A value labelled eighty can correspond to different choices in different encoders. It is not necessarily eighty percent of the original information or eighty percent of some objectively defined beauty. Treat it as a control within that particular tool. Export a copy, inspect the features that matter at the intended size, and compare the resulting file size. This turns an opaque label into an observable decision instead of encouraging faith in a number whose scale you have not defined."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Suppose two fictional exports are two hundred kilobytes and six hundred kilobytes. Across one hundred downloads, their payload totals would be twenty million and sixty million bytes if we use decimal kilobytes and ignore transfer overhead. The larger version moves forty million additional bytes. That calculation does not tell us which to choose. If the smaller one damages essential lettering, it fails the purpose. If both are equally suitable for the intended use, the larger one may add cost without useful improvement. Quality decisions should connect a visible requirement with a measurable consequence."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "File metadata adds another layer. Dimensions and decoding information are essential to interpreting the image. Other metadata may describe creation, orientation or colour. Some formats can also carry descriptive or camera related information. Removing every piece blindly can change how an image is interpreted, while retaining everything may preserve information unnecessary for delivery. For this lesson, the practical distinction is between image content and associated information. A file is not always only the visible pixels. An export process should be understood in terms of what it retains, changes and omits."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "An orientation instruction provides an intuitive example. Imagine the stored grid arranged one way while metadata tells a viewer how to rotate it for display. A program that honours the instruction can show the intended orientation. A program that ignores it can appear to show a different result from the same underlying samples. We do not need to memorise every format's metadata rules to see the lesson. Decoded appearance depends on interpreting relevant instructions as well as reading colour numbers. Counting bytes or pixels alone cannot diagnose every display difference."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "There is also a difference between a file being intact and a picture being truthful. A checksum can help detect whether bytes changed during transfer. It does not establish that the depicted event occurred, that an image was never edited, or that a caption is accurate. An unchanged fictional picture remains fictional. Conversely, changing metadata can alter file bytes without changing the visible scene. Integrity, appearance and provenance are separate questions. They may overlap in a real investigation, but answering one does not automatically answer the others."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Recall question five. A designer flattens editable text onto a photograph, then stores the result using lossless compression. Can the decoder necessarily restore the original text layer and font choices? Explain what was preserved and what was lost. Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "No. The compression can preserve the flattened pixel result exactly, but it cannot reconstruct editing structure that was removed before encoding. The original text layer and font information may no longer be present. Lossless describes a particular reversible storage relationship, not a promise to recover every previous stage of the work. Keeping an editable source preserves different options from keeping only an exported picture. The same reasoning applies to a small preview saved losslessly: it can preserve the preview perfectly while containing less scene detail than the larger source."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "For one private practical exercise, choose an ordinary image you already have permission to use and keep the original untouched. Make two copies for comparison. In the first copy, reduce both pixel dimensions by half. In the second, enlarge that reduced copy back to the original dimensions. Use an existing editor if it offers these controls; there is no need to install or buy anything. If you do not have one available, follow the same process on paper with a tiny grid. The purpose is to compare stored dimensions with retained detail."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Before looking, predict the result. The reduced copy should have one quarter of the original pixel count. The enlarged derivative can return to the original count, but its extra values have been computed from the reduced version. Inspect a small feature such as lettering, a thin edge or texture at the same viewing scale. You may see blur, changed edges or little obvious difference, depending on the source, method and viewing conditions. An inconspicuous difference does not make the process reversible. It tells you the loss may be unimportant at that particular scale."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "For the paper version, draw a four by four black and white grid containing a thin diagonal. Combine each two by two group into one smaller cell using an agreed rule. You now have a two by two grid. Enlarge it by repeating each smaller cell into a two by two block. The count returns to sixteen cells, but the original arrangement generally cannot be recovered from the four reduced values. Several original grids could have produced the same reduced result. That is the entire issue made small enough to hold in your head."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "Record the dimensions and your observation, then stop. Do not overwrite the source or keep exporting copies until the result becomes confusing. This exercise connects sampling, resampling and information loss without relying on a particular brand of software. If you later encounter a giant image file that looks poor, you will have a better question than why is it so many megabytes? You can ask whether the grid contains useful original detail, what operations preceded the export, and how the representation is being displayed at the size that matters."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at natural conversational pace. Explain the worked quantities without rushing. Both voices contribute substantive explanation. Preserve recall pauses and subsequent answers.",
+      "t": "A digital image is not a single quality number. It is an organised representation moving through stages. Positions hold values; colour spaces give those values meaning; alpha governs how layers combine; compression changes how information is stored; resizing changes the sampling grid; rendering gives the result a visible form. These stages explain concrete choices. Keep an appropriate source, choose dimensions for the use, preserve the properties you need, and judge the exported result where it will actually be seen. A larger number can be useful, but knowing which number changed is what makes the choice informed."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-28",
+    "spoken_words": 7762,
+    "sha256": "99078c3ca6fce62905d394a5a89c3a9be6b4c4de1089b282ee19b105febd5c98",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.w3.org/TR/png-3/",
+      "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Image_types",
+      "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Introduction",
+      "https://developer.mozilla.org/en-US/docs/Glossary/Color_space",
+      "https://developer.mozilla.org/en-US/docs/Glossary/Alpha",
+      "https://developer.mozilla.org/en-US/docs/Glossary/Lossless_compression",
+      "https://developer.mozilla.org/en-US/docs/Glossary/Lossy_compression",
+      "https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/set-image-size-and-resolution.html",
+      "https://developer.mozilla.org/en-US/docs/Web/API/Window/devicePixelRatio",
+      "https://jpeg.org/jpeg/",
+      "https://developers.google.com/speed/webp/docs/compression",
+      "https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/resample-option-in-image-size-dialog-box.html",
+      "https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/printed-image-resolution.html"
+    ]
+  }
+}
