@@ -1,0 +1,464 @@
+{
+  "date": "2026-10-28",
+  "title": "[Mechanics] How Levers, Pulleys and Gears Trade Force for Distance",
+  "summary": "Torque and support forces, mechanical work and power, lever arrangements, pulley geometry, wheels and axles, gear ratios, ramps and screws. Original calculations show how force, travel, speed and efficiency interact. Five recall questions and a paper-only lever exercise. Sources consulted: https://www.gutenberg.org/files/40175/40175-h/40175-h.htm https://www.gutenberg.org/files/49445/49445-h/49445-h.htm https://openstax.org/books/physics/pages/9-3-simple-machines https://openstax.org/books/college-physics/pages/9-5-simple-machines",
+  "instructions": "Start at the door hinge and teach the actual mechanics immediately. Assume no previous reading. Distinguish force, torque, energy and power, ideal geometry and real losses, input and output roles. Use modern SI units. Numerical examples are original simplified models, not safe working loads. Both voices explain mechanisms and contrasting cases. Five recall questions with seven-second pauses followed by answers. Application is drawing and calculating a lever on paper, no construction or lifting.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A door is much easier to open when you push near its handle than when you push near its hinges. The door has not become lighter. Your arm has not become stronger. What changed is where your force acts relative to the axis around which the door turns. That difference is the beginning of mechanics: why a long handle helps, why a pulley can make a load feel lighter, and why a bicycle gear that helps you climb also changes how far you travel with each turn of the pedals."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Push directly toward the hinge along the length of the door and you can exert a considerable force without producing much turning. Push across the door near its outer edge and the same force produces a much stronger turning effect. This effect is called torque, or the moment of a force. To understand it, we need both the size of the force and the perpendicular distance between the hinge axis and the line along which the force acts. Neither the force alone nor the length of the object alone tells the whole story."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Imagine looking down on a door from above. Draw an arrow showing the direction of your push, then extend that arrow into a straight line. The shortest distance from the hinge to that line is the moment arm. If you push at a right angle to the door, the moment arm is the distance from the hinge to your hand. If you push at a slant, it is shorter. A long door therefore does not guarantee a large torque. The direction of the push matters as much as where your hand touches."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "For a perpendicular push, torque equals force multiplied by moment arm. A force of twenty newtons applied half a metre from a hinge produces ten newton metres of torque. Move the same force to one tenth of a metre from the hinge and the torque becomes two newton metres. You have reduced the turning effect to one fifth without changing the force. A newton is a unit of force. A metre measures distance. We will keep those separate from kilograms, which measure mass, rather than casually calling all three weight."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The distinction matters when a machine is described. A mass has a gravitational force acting on it, but the relationship depends on the gravitational field. Near Earth's surface a kilogram has a weight of about nine point eight newtons. For our worked machines, we will specify forces directly in newtons, so that we can concentrate on what the machine changes. We will also usually begin with ideal machines, meaning that friction, stretching and the machine's own weight are either neglected or explicitly accounted for later."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Ideal does not mean imaginary in the sense of useless. It means isolating a relationship before adding complications. If a pulley could reduce the required pulling force by half even with no friction, that tells us what its geometry contributes. If a real pulley needs a larger pull, we then have something precise against which to explain the difference. Mixing friction, weight, acceleration and geometry into the first calculation makes it hard to see which feature is doing what. We will add those features back after establishing the mechanism."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Now put a rigid bar across a pivot. On one side, a load pushes down with a force of one hundred and twenty newtons, one tenth of a metre from the pivot. On the other side, you push down four tenths of a metre from the pivot. The load produces twelve newton metres of torque in one direction. To balance it, you need twelve newton metres in the other direction. Dividing twelve by four tenths gives an effort of thirty newtons. A smaller force balances a larger force because it has a longer moment arm."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Notice what balances and what does not. The two downward forces are not equal. One is one hundred and twenty newtons and the other is thirty. Their turning effects balance, while the pivot supplies an upward support force of one hundred and fifty newtons, ignoring the bar's weight. That upward force prevents the whole bar from falling. It produces no torque about the pivot because it acts there. Zero torque about a chosen point does not mean zero force. A machine can need a very strong support even when its operating force is small."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "We also need to be careful about which object we are describing. The load pushes down on the bar, while the bar pushes up on the load. Those are forces on different objects. When calculating the balance of the bar, we include forces acting on the bar. When asking whether the load will rise, we examine forces acting on the load. Otherwise it is easy to place two equal and opposite interaction forces on the same drawing and mistakenly cancel the very lifting effect we are trying to understand."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "At exact balance, the bar need not move. To begin lifting from rest, there must be an appropriate net turning effect, however briefly. The balance calculation describes the limiting case of supporting the load or moving slowly enough that acceleration is negligible. During a quick lift, acceleration adds another demand. This is why a number calculated for a slowly moving load should not automatically become a specification for a rapidly operating machine. We are explaining the force relationship, not giving a construction rating for equipment or supports."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "There is another half to the lever's bargain. The point four tenths of a metre from the pivot moves through four times as much arc length as the point one tenth of a metre away, when both turn through the same angle. Your hand supplies less force but travels farther. Near the horizontal position, a small downward movement of the long end corresponds to a smaller upward movement of the short end. The machine has changed the combination of force and movement. It has not supplied an extra source of energy."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "That is where work enters. In the simple case of a constant force acting along a displacement, mechanical work equals force multiplied by distance moved in that direction. Thirty newtons acting through four tenths of a metre transfers twelve joules of energy. One hundred and twenty newtons acting through one tenth of a metre also transfers twelve joules. These are useful illustrative input and output distances for an ideal machine with a four to one distance ratio. A joule measures energy transferred, not the force at a particular instant."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A force without displacement does no mechanical work on the stationary object in this sense. Hold a bag motionless and its height does not change, even though your muscles can tire and use metabolic energy. That is not a contradiction. The body's internal processes are consuming energy while the external bag remains still. Similarly, a locked support can hold a large load without continuously supplying lifting work. Force, energy use inside a body, and mechanical work on a specified object answer different questions."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "There is a boundary to the simple force-times-distance calculation: the force must remain constant, or the value used must be an appropriate average over the movement. Stretch a spring and its resisting force generally changes with extension. Multiplying the final force by the entire distance can then overstate the work. One way to picture the correct account is to divide the motion into many short sections, calculate the work over each with the force appropriate to that section, and add the contributions. The same energy principle survives even when one multiplication is insufficient."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "For a lever moving through a substantial angle, the direction of a vertical force relative to the bar changes as the bar rotates. Its perpendicular moment arm changes too. In a straight lever with vertical input and output forces, both moment arms can shrink by the same geometric factor, preserving their ratio while changing their individual torques. But an angled handle, a changing force direction or a load that shifts position can change the ratio itself. The starting sketch should therefore describe an actual configuration rather than become a permanent assumption about every later position."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A force can also act while an object moves in a direction that contributes no work from that force. Imagine an ideal level surface carrying a load horizontally at a constant height. Its upward support force is perpendicular to the horizontal displacement. That support force does no work on the load over that displacement. Other forces, such as friction or a horizontal push, may do work. The useful habit is to name the force and the displacement together. Saying that an object moved does not identify which force transferred energy to it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "There is a subtle units trap here. Torque is measured in newton metres, and work can also be expressed as newtons multiplied by metres. But the distances play different roles. For torque, the distance is a perpendicular moment arm from an axis. For work, it is displacement in the force's direction. A stationary lever can have substantial opposing torques while doing no work. Equal-looking combinations of units do not make torque and energy interchangeable. One describes a turning tendency; the other describes a transfer or store of energy."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Our first recall question is about that balanced bar. A load pushes down with one hundred and twenty newtons at one tenth of a metre from the pivot. Your hand pushes down on the opposite side, four tenths of a metre away. Ignoring the bar's weight, what hand force balances it, and what upward force must the pivot supply?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The hand force is thirty newtons because each side then produces twelve newton metres of torque. The pivot supplies one hundred and fifty newtons upward because both the load and the hand push downward on the bar. Torque balance explains why a small effort can balance a larger load. Force balance explains why the support must carry their combined downward forces. Forgetting either condition leaves an incomplete picture of the same machine."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A lever need not place its pivot between the load and your hand. In a wheelbarrow, the wheel axle acts as the turning support, the load is between that axle and the handles, and your hands lift the handles. Suppose the load produces a downward force of one hundred and twenty newtons at a horizontal distance of three tenths of a metre from the axle. The handles are nine tenths of a metre away. A total upward force of forty newtons at the handles balances the load's thirty-six newton metres of torque."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "In that simplified wheelbarrow, the axle supports the remaining eighty newtons. Unlike the earlier example, your hand force points upward, not downward. The supporting forces from the axle and hands together balance the load. This is a reason to draw a new force diagram rather than memorise that a pivot always carries the load plus the effort. Its reaction depends on the directions and positions of all the forces. We have also neglected the wheelbarrow's own weight; a real calculation would include it where its weight effectively acts."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Move the load toward the wheel and less handle force is needed. Move it toward the handles and more is needed. The total load can stay exactly the same while its turning effect changes. This explains why placement matters in carrying and transport systems, not just how much something weighs. It also shows why a long handle is only part of the story. The load's moment arm must be known too. Comparing handle lengths without comparing load positions can produce a very misleading claim about mechanical advantage."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Mechanical advantage means output force divided by input force. The ideal wheelbarrow example has a mechanical advantage of three because forty newtons of hand force supports a load of one hundred and twenty newtons through the lever action. That does not mean the hand supports every part of the system by itself. The axle supplies the other support. Mechanical advantage describes a chosen input and output pair. It does not eliminate the surrounding supports, nor does it tell us how durable or stable the equipment will be."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "There is also a lever arrangement in which the effort acts between the pivot and the load. Imagine a light rigid arm with an effort applied one tenth of a metre from its pivot and a load acting three tenths of a metre away. To balance a ten-newton load, the effort must be thirty newtons. The mechanical advantage is one third. That sounds like a bad machine only if force reduction is the sole purpose. Its outer end moves farther and faster than the nearer point where the effort is applied."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Machines often deliberately trade force for movement. A small motion near a pivot can create a larger motion at a distant tip, which may be useful for reach, speed or control. The question is therefore not whether every good machine multiplies force. It is whether the relationship between the available effort and the desired output fits the task. A force advantage and a speed advantage cannot both be obtained freely from the same ideal passive mechanism at the same operating condition."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Scissors make this visible without needing a large machine. Each half turns around the joint. Applying effort at the handles produces torque about that joint. Cutting nearer the joint generally gives a larger cutting force for a given handle torque than cutting near the tips, because the resisting force then has a shorter moment arm. The actual cut also depends on blade sharpness, material properties, contact geometry and friction. Lever geometry explains an important part of the difference without pretending to explain every feature of cutting."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Now replace the rigid bar with a rope passing over a wheel attached overhead. Pull down on one end to lift a load at the other. This fixed pulley changes the direction of the effort. In an ideal rope over an ideal pulley, the tension is the same on both sides. Supporting a load of eighty newtons therefore requires a pulling force of eighty newtons. The load rises one metre when you pull one metre of rope. One wheel has been added, but no force multiplication has appeared."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "That directional change can still be useful. A person or motor may be better placed to pull in one direction than another. The pulley guides the path of the force and movement, much as a route changes where something can go without creating the thing being transported. But the mounting is not relieved of the load. With two vertical rope segments each pulling downward on the fixed pulley at eighty newtons, its mounting must provide one hundred and sixty newtons upward, ignoring the pulley's weight."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Let the pulley move with the load instead. Fix one end of the rope overhead, run the rope down around the moving pulley, and pull upward on the free end. Two rope segments now pull upward on the moving pulley. If the total moving load is eighty newtons, and both segments are vertical with equal tension, each can supply forty newtons. Your ideal pull is forty newtons. The force reduction comes from two supporting tensions acting on the moving assembly, not simply from the presence of a round wheel."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The distance payment follows directly from that arrangement. Lift the moving pulley by one tenth of a metre and each of its two supporting rope segments becomes one tenth of a metre shorter. Together they release two tenths of a metre of rope. You must draw that much rope through the free end. The input moves twice as far as the load. Forty newtons through two tenths of a metre transfers eight joules, matching eighty newtons through one tenth of a metre at the output."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "This rope-length argument is especially useful because it exposes a mistaken intuition. It can feel as if two supporting strands should give twice the force with no other change. But the rope has a fixed length, apart from any stretching we have neglected. Both supporting sections shorten when the load rises. Their combined shortening has to appear somewhere else. Conservation of rope length provides the motion relationship; force balance provides the tension relationship. The two explanations agree because they describe the same physical arrangement."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A separate fixed pulley can redirect the free end so that you pull downward instead of upward. If it merely redirects that free segment, it does not add another supporting strand to the moving load. The ideal force advantage remains two. Counting every pulley wheel and declaring that the advantage equals the number of wheels is therefore unreliable. Count the rope tensions that actually support the moving assembly, and identify where the free end and fixed ends are attached."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "For a suitable arrangement with four vertical supporting rope segments, an ideal load of one hundred and sixty newtons can be supported by a tension of forty newtons in each segment. The free end must move four metres for a one-metre rise of the load. The input work is one hundred and sixty joules, and the output work is also one hundred and sixty joules. That calculation assumes all four segments change length appropriately as the load rises. The diagram, rather than the label on the pulley block, determines the ratio."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The word vertical is doing real work in that example. If the supporting rope segments slope, only the upward component of each tension supports the load vertically. The sideways components may cancel each other or need other restraints. Two sloping strands do not necessarily support twice their tension as an upward force. Likewise, friction in real pulley bearings and rope bending can make the tensions differ. The simple strand count is a model with specific geometry and negligible losses, not an all-purpose replacement for looking at the actual forces."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The moving pulley itself also has weight. If the carried object weighs eighty newtons and the moving pulley assembly weighs another twenty, the rope supports one hundred newtons, not eighty. Two ideal vertical segments would then require fifty newtons of tension each. Some of the effort is lifting the machine along with its payload. This distinction becomes more important as the machine becomes heavier. Useful payload and total moving load are related but different quantities, and efficiency comparisons need to say which output they count."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Our second recall question concerns a moving pulley with two vertical supporting rope segments. The total moving load is one hundred newtons. Ignoring friction, what pull is required, and how much rope must you pull to raise the load by half a metre?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The required pull is fifty newtons, and the free end must move one metre. Two tensions of fifty newtons support the one hundred-newton load. When the load rises half a metre, both supporting segments shorten by half a metre, so their combined shortening is one metre. The input work is fifty joules, equal to the output work. A fixed pulley used only to redirect the free end would change the convenient pulling direction without changing that ideal ratio."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "We have been comparing energy transfers without asking how quickly they happen. Power is the rate of energy transfer. If a machine transfers forty joules in two seconds, its average power is twenty watts. Transfer the same forty joules in four seconds and the average power is ten watts. A watt is a joule per second. The task may involve the same total work, but the faster performance demands a greater rate of supplying that work."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "For steady linear motion with force along the movement, power equals force multiplied by speed. A pull of fifty newtons moving at two tenths of a metre per second supplies ten watts. If an ideal pulley doubles the output force to one hundred newtons, the output speed becomes one tenth of a metre per second, also ten watts. The force has increased while the speed has decreased. Calling this an increase in power would confuse one factor with their product."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "That difference helps explain why taking more time can make a task feasible without making its energy requirement vanish. A source may be limited in how much force it can exert, how quickly it can transfer energy, or both. Mechanical advantage can bring the required force within its range, while slower movement keeps the power demand within its range. The ideal total work to raise the same load through the same height remains unchanged. In a real machine, losses can increase the energy required."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A wheel and axle provides a continuous version of a turning lever. Imagine a large wheel rigidly attached to a smaller drum on the same axis. Turn the large wheel and the small drum turns through exactly the same angle. Their surfaces, however, travel different distances. A point on a wheel with a radius of twenty centimetres travels four times as far in one turn as a point on a drum with a radius of five centimetres. The shared angle does not imply equal surface travel."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Apply a tangential force of twenty-five newtons at the twenty-centimetre radius. It supplies five newton metres of torque. An ideal resisting rope wound on the five-centimetre drum can have a tension of one hundred newtons while providing the same opposing torque. The radius ratio gives a force advantage of four. The effort point travels four times as far as the rope advances at the drum. Again, a greater output force comes with a smaller output movement for the same rotation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Tangential means acting along the direction the rim moves at that point, rather than pointing directly toward the centre. A radial force toward the centre has no moment arm about the axis and produces no turning torque about it. This is the rotating equivalent of pushing along the length of a door toward its hinge. When a handle makes turning easier, it is not merely offering a larger place to touch. It lets an appropriately directed effort act at a greater distance from the axis."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The effective drum radius can change as rope winds into layers. A thicker wound layer places the rope farther from the axis. At a fixed torque, the available rope tension then decreases, while more rope is taken up per turn. A neat calculation based on the bare drum radius can therefore stop describing the machine accurately after several layers accumulate. The underlying rule has not changed. The relevant geometry has changed, and the calculation must follow that geometry."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Gears create another relationship between rotation, force and movement. Consider two ordinary external gears with matching teeth. The teeth engage so that, ideally, the contact motion transfers rotation without slipping. If the small driving gear has twenty teeth and the larger driven gear has sixty, twenty passing teeth on the driver advance twenty teeth on the driven gear. The driver completes one revolution while the larger gear completes one third of a revolution. Three input revolutions produce one output revolution."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The larger gear turns more slowly, but can deliver greater torque in the ideal steady case. A three to one reduction in rotational speed gives a three to one increase in torque, ignoring losses. If the input torque is two newton metres, the ideal output torque is six newton metres. The driving source still provides the energy. The gears distribute that transfer across a slower rotation with a stronger turning effect. They do not manufacture additional power just because the output shaft feels harder to stop."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Why does the tooth count tell us the speed ratio? Compatible gears have a consistent spacing of teeth along their effective working circumferences. A gear with three times as many teeth has three times the corresponding circumference. At the meshing region, a given amount of tangential travel moves both sets of teeth through matching distances. The larger circumference therefore needs three times as much tooth travel to finish one revolution. We do not need to imagine the larger gear swallowing or storing extra revolutions."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Two external meshing gears rotate in opposite directions when viewed from the same side of their parallel axes. Add a simple intermediate gear and there are now two reversals, so the final gear turns in the same direction as the first. That intermediate gear is often called an idler. In an ordinary simple train, its tooth count cancels from the overall speed ratio between the first and last gears. It can change direction or spacing without changing that overall ratio, although it still has physical size, friction and strength requirements."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "For example, a twenty-tooth driver turning a forty-tooth idler reduces speed by two. If that idler drives a sixty-tooth output gear, the second speed ratio is forty to sixty. Multiply the two stages and the final speed is one third of the original, just as it was with the twenty-tooth gear directly driving the sixty-tooth gear. The forty appears once in a denominator and once in a numerator. This cancellation applies because the intermediate wheel is one gear, not a pair of different gears fixed together."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A compound train is different. Suppose one stage reduces speed by three, then a second gear rigidly attached to the first stage's output shaft drives another stage with a reduction of four. The two reductions multiply to twelve. The final shaft turns once for twelve input turns, and its ideal torque is twelve times the input torque. The gears sharing a shaft rotate together, but their different sizes let the second stage introduce an additional ratio. That is how a compact series can create a large overall reduction."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Our third recall question concerns a twenty-tooth gear driving a sixty-tooth gear. The input makes three complete turns and supplies two newton metres of torque in an ideal steady transfer. How many turns does the output make, and what output torque corresponds to the ratio?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The output makes one turn and has six newton metres of torque. The speed and rotation ratio is three to one, while the ideal torque ratio is one to three in the other direction. The output turns opposite to the input for these two external gears. The greater torque comes with less rotation, so there is no increase in transferred energy or ideal power. Friction and other losses would reduce the torque available at the output for the same input under those conditions."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A gear ratio also says nothing by itself about which tooth or shaft will survive a load. At a given torque, a smaller working radius corresponds to a larger tangential force at that radius. The contacting teeth must transmit that force, and the shafts and bearings must carry their own loads. A slow output with high torque can therefore impose demanding structural requirements. Saying that a gearbox multiplies torque identifies a motion and force relationship, not permission to attach an arbitrarily heavy load to its output."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The location of the driving source matters as well. Reverse which gear drives and which gear is driven, and the former reduction becomes a speed increase. A large gear turning a smaller gear can make the output rotate faster while reducing the available ideal output torque. We have not changed the teeth; we have changed the input and output roles. This is another reason to state a ratio in words, such as three input turns for one output turn, rather than announce a bare ratio without saying which quantity comes first."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A bicycle gives these relationships a familiar purpose, though its chain drive is not the same as two external gears touching directly. A smaller front chainring relative to the rear sprocket makes fewer rear-wheel turns for each pedal revolution. That permits a larger driving torque at the rear wheel for a given crank torque, ignoring losses. You travel less distance per pedal turn, which can help on a climb. The chain transfers motion between separated toothed wheels, and they usually rotate in the same direction rather than reversing as a direct external gear pair does."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "That easier gear cannot guarantee a climb at any speed. Your available power still limits how rapidly you can gain height, and traction, balance and the condition of the bicycle matter too. A lower gear can let you produce the necessary wheel torque while turning the pedals at a more suitable rate. It does not remove the gravitational energy cost of ascending. Nor does the gear ratio alone tell us road distance per pedal revolution without the wheel's rolling circumference and the assumption that it rolls without slipping."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Now leave rotation and look at a ramp. A load with a weight of two hundred newtons must rise vertically by half a metre. The gain in gravitational potential energy is one hundred joules. If a straight, frictionless ramp is two metres long, the required steady force along it is fifty newtons. Fifty newtons through two metres supplies the same one hundred joules. The ramp replaces a short movement against a larger force with a longer movement against a smaller force."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Extend the ramp to four metres while keeping the rise at half a metre. The ideal steady force becomes twenty-five newtons. The work remains one hundred joules because the distance has doubled as the force halves. The load is not becoming lighter and gravity is not becoming weaker. The direction of travel changes how much of gravity opposes motion along the surface. The surface supplies a perpendicular support force, which does no work in the ideal sliding model because it is perpendicular to the motion."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The useful ideal ratio is ramp length divided by vertical rise. A two-metre ramp rising half a metre has an ideal mechanical advantage of four. A four-metre ramp with the same rise has an advantage of eight. Here the input is a force directed along the ramp and the output comparison is the load's weight lifted through the vertical rise. Change the direction of the applied force and the calculation changes. Geometry still helps, but it must match the actual input we have chosen."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Add a constant friction force of ten newtons opposing motion along the two-metre ramp. The steady effort rises from fifty to sixty newtons. Input work becomes one hundred and twenty joules: sixty multiplied by two. Only one hundred joules appears as the load's gravitational potential energy increase. The remaining twenty joules is associated with frictional dissipation, principally into thermal energy in the interacting materials. It has not disappeared, but it is not the useful lifting output we were trying to obtain."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Efficiency compares useful output energy with input energy. In this example, one hundred divided by one hundred and twenty is five sixths, or about eighty-three point three per cent. That definition requires a specified useful output. We are counting the increase in the load's gravitational potential energy. If the purpose were heating, thermal energy could be useful instead. Efficiency is not a moral judgment about a machine. It is an accounting ratio tied to the task and to where we draw the system boundary."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The real mechanical advantage in that ramp example is two hundred divided by sixty, about three point three three. The ideal advantage was four. Multiplying four by the efficiency of five sixths gives the actual advantage, provided we use these same input and output definitions and movement ratio. This connects the geometry to the energy losses. It also shows why a machine can offer a useful force advantage even though it is not perfectly efficient."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A longer ramp does not automatically reduce total losses. Its gentler slope can reduce the ideal lifting force, but a load also travels farther while friction acts. The friction force itself depends on the contact conditions and can change with the slope and the way the load is supported. You cannot decide the total input energy by considering length alone. The ideal model identifies the unavoidable gain in gravitational potential energy; the real contact model adds the dissipated energy along the actual path."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A screw turns this kind of long-path trade into compact rotation. Picture a thread winding around a cylinder. Turning a simple single-start screw through one full revolution advances it by the distance between successive thread crests, called its pitch. More generally, the distance advanced per revolution is called the lead. A screw with multiple intertwined starts can have a lead larger than its pitch. For our calculation we will specify the lead directly, so that the distance per turn is unambiguous."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Suppose a handle point travels twenty centimetres in one revolution while the screw advances two millimetres. Twenty centimetres is two hundred millimetres, so the input distance is one hundred times the output distance. In an ideal lossless arrangement, a tangential effort of ten newtons at that handle path could correspond to an axial force of one thousand newtons. Both sides transfer two joules per revolution. This is a geometry calculation, not a safe working load or a claim about what a particular screw can withstand."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Real screw threads can have substantial friction, and the force relationship also depends on thread geometry, contact and lubrication. Some screw arrangements resist being driven backward by their load because friction prevents that motion under the relevant conditions. Others can be back-driven. It would be wrong to infer that every screw automatically locks safely, or that a large calculated mechanical advantage ensures strong parts. The energy calculation and the material strength calculation are different pieces of engineering."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A wedge is another way of using sloping surfaces. Moving it along its length can produce separation across a shorter distance, creating a force trade through the contact geometry. Cutting tools add material fracture, deformation and sharpness to that picture, so an ideal wedge model is not a complete theory of cutting. Still, the family resemblance is useful: a longer input path can be arranged to produce a shorter output movement with greater force. Levers, pulleys, ramps and screws achieve that relationship through different constraints."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Our fourth recall question returns to the ramp. A two hundred-newton load rises half a metre along a two-metre ramp. The constant effort along the ramp is sixty newtons. What are the input work, the useful lifting work and the efficiency for this stated task?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The input work is one hundred and twenty joules. The useful lifting work is one hundred joules because the two hundred-newton weight rises half a metre. The efficiency is one hundred divided by one hundred and twenty, about eighty-three point three per cent. The remaining twenty joules is not an unexplained shortfall in conservation of energy. It goes into forms outside the useful lifting output, represented here by frictional dissipation. We must compare energy quantities, not divide the lifting force by the input distance."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Machines can also store energy temporarily, which changes what a short observation seems to show. A spring that was previously compressed can release energy and help drive an output. A rotating flywheel can slow down while supplying energy to a load. A falling counterweight can help raise something else. During those intervals, output power can exceed the power arriving from the current operator because another store is contributing. To account for the full process, include the earlier charging of the store or the later need to restore it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "For a counterweighted lift, the relevant difference is between the energy changes of the rising and falling masses, plus losses. If the counterweight descends, it loses gravitational potential energy while the other load gains it. A smaller driving effort can then be possible without violating conservation. But the counterweight does not fall forever. It has a finite travel and must be raised again as the system cycles. Describing only the easy half of that cycle hides the energy supplied elsewhere."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Combining machines also combines losses. Suppose one transmission stage passes on ninety per cent of its input energy, and a second passes on eighty per cent of what reaches it. Starting with one hundred joules, the first delivers ninety and the second delivers seventy-two. The overall efficiency is seventy-two per cent, not eighty-five per cent and not the sum of the two percentages. Each percentage acts on a different amount at its own stage. That is why efficiencies multiply when stages are arranged in series under these definitions."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The force or torque ratios still need to be combined with those efficiencies. Imagine the compound gear train with an ideal reduction of twelve and a total efficiency of seventy-two per cent. At the specified steady operating condition, its actual output torque would be eight point six four times the input torque, rather than twelve times. Its output rotation ratio is still determined by the teeth. Losses reduce the energy and torque transmitted; they do not usually alter the tooth-count speed ratio of an engaged, non-slipping gear train."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "There is a limit to using efficiency numbers outside their measured conditions. A motor or transmission may have different losses at different speeds and loads. A stated efficiency is not necessarily a constant across every possible use. At rest, there may be forces and torques but no useful output motion, so the usual moving-work comparison can become unhelpful or undefined if both energy transfers are zero. A stalled powered motor may still consume energy and heat up. Torque capability alone does not establish efficient useful operation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Let's design a machine on paper with all of these quantities kept separate. An imaginary slow lifting task requires a force of one hundred and sixty newtons through half a metre. Its useful work is eighty joules. Your hypothetical driving source can pull with forty newtons. A four-strand ideal pulley arrangement matches that force requirement, but needs two metres of input rope travel. If the source can move the rope at two tenths of a metre per second, the lift takes ten seconds and the useful output power is eight watts."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Now give that machine an overall efficiency of eighty per cent at the chosen operating condition, while keeping the same four to one distance ratio. The source must supply one hundred joules to obtain eighty joules of useful output. Over two metres of input travel, that requires fifty newtons, exceeding our forty-newton source limit. The original arrangement no longer meets the requirement. Knowing the ideal ratio was a necessary first step, but treating it as the finished design would have concealed the shortfall."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Could we use a larger distance ratio instead? In this paper model, an ideal ratio of five combined with eighty per cent efficiency produces an actual force ratio of four. Forty newtons of effort can then correspond to one hundred and sixty newtons at the output. The input must travel two and a half metres for the half-metre lift. At the same input speed of two tenths of a metre per second, the lift takes twelve and a half seconds. The source supplies eight watts, while useful output power is six point four watts."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The revised machine meets the force limit by allowing more input travel and time. It still requires one hundred joules of input for eighty joules of useful output under our assumed efficiency. We have not specified how to build a five to one mechanism, and a real design would have to establish that efficiency rather than borrow it as a promise. The paper comparison nevertheless identifies the decision clearly: the original geometry fails the force constraint; another ratio can satisfy it if the extra travel and time are acceptable."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Suppose instead that the task has to finish in five seconds. Useful output power must be sixteen watts because eighty joules divided by five seconds is sixteen. At eighty per cent efficiency, the input must supply twenty watts. Rearranging passive levers or gears cannot make an eight-watt source continuously deliver that requirement without another energy store contributing. This is a different constraint from maximum pulling force. A design can solve the force problem and still fail the time requirement."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "This is the practical value of keeping force, distance, work and power separate. Force asks how strong the push or pull must be. Distance asks how far its point of application moves. Work combines the relevant force and displacement to measure energy transfer. Power adds time. Torque describes turning about an axis, while rotational speed tells us how quickly that turning occurs. Different limitations require different changes. A longer handle may solve an effort problem but not an energy shortage, a fragile support or an insufficient operating space."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Our final recall question uses that time limit. A lift needs eighty joules of useful output in five seconds, and the machine is eighty per cent efficient. What useful output power and input power are required? Could a passive gear reduction alone make an eight-watt source meet that continuous requirement?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The useful output power is sixteen watts, and the required input power is twenty watts. Eighty joules in five seconds gives sixteen joules per second. Dividing by an efficiency of eight tenths gives twenty watts at the input. A passive gear reduction alone cannot make an eight-watt source supply that continuously. It can exchange torque for speed. A charged spring, flywheel or other energy store could temporarily contribute, but its changing stored energy would have to be included in the account."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "For a practical application, keep everything on paper. Sketch a pivoted bar with a forty-newton load two tenths of a metre to one side of the pivot. Place the effort four tenths of a metre on the other side, acting downward. Write the load torque first, then find the effort needed to balance it. Add the upward pivot reaction. Finally, move the effort point to eight tenths of a metre and repeat. This is a small design exercise with no lifting, building, purchases or tests on other people."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The original load torque is eight newton metres, so the effort at four tenths of a metre is twenty newtons and the pivot reaction is sixty newtons. With the effort eight tenths of a metre away, ten newtons balances the same torque and the pivot reaction is fifty newtons. For the same small angular movement, the farther effort point travels twice as far as the earlier effort point. You have reduced effort while increasing movement. Label the directions so that the force balance remains visible alongside the torque balance."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Extend the sketch with one sentence about a real limitation that the ideal calculation leaves out. It could be the bar's own weight, bending, friction at the pivot, the strength of the support, or the available room for movement. Choose one and explain which part of the model it would change. Weight adds forces and torques. Friction adds a resisting effect and energy dissipation during movement. Flexing means the rigid-bar geometry may no longer hold exactly. Limited space can prevent the required input travel even when the force calculation works."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "When you next notice a handle, pulley, gear or ramp, look for the paired movements. Where is the input acting, where does the output move, and what constrains their relationship? A long handle travels farther around an axis. Supporting rope segments shorten together. Gear teeth impose a rotation ratio. A ramp spreads a height gain over a longer path. The useful force change follows that geometry, while the energy must still come from somewhere and the supports must still carry the forces. Those are the mechanisms behind the apparent bargain."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-29",
+    "spoken_words": 7217,
+    "sha256": "c952a8294ebbe34181e7b7a679d028e220232e2acbebfd53ced8aef704e82521",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.gutenberg.org/files/40175/40175-h/40175-h.htm",
+      "https://www.gutenberg.org/files/49445/49445-h/49445-h.htm",
+      "https://openstax.org/books/physics/pages/9-3-simple-machines",
+      "https://openstax.org/books/college-physics/pages/9-5-simple-machines"
+    ]
+  }
+}
