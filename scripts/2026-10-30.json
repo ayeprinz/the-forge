@@ -1,0 +1,487 @@
+{
+  "date": "2026-10-30",
+  "title": "[Optics] How Mirrors and Lenses Form an Image",
+  "summary": "Trace light through mirrors, water boundaries and thin lenses. Reflection, refractive index, total internal reflection, real and virtual images, magnification, camera focus, projection and compound instruments. Original numerical examples, five recall questions and a paper ray-tracing exercise. Sources consulted: https://www.gutenberg.org/files/40175/40175-h/40175-h.htm https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction https://openstax.org/books/college-physics-2e/pages/25-4-total-internal-reflection https://openstax.org/books/college-physics-2e/pages/25-6-image-formation-by-lenses https://openstax.org/books/college-physics-2e/pages/27-6-limits-of-resolution-the-rayleigh-criterion https://openstax.org/books/college-physics-2e/pages/26-5-telescopes https://openstax.org/books/college-physics-2e/pages/26-4-microscopes",
+  "instructions": "Begin with the apparent bend of a spoon in water. Teach accessible geometric optics with no assumed reading. Both voices explain mechanisms, worked examples and contrasts. Define normals and the thin-lens sign convention before arithmetic. State glass-in-air and paraxial idealisations. Distinguish brightness, magnification, resolution and focus. Preserve five seven-second recall pauses and subsequent answers. Application uses paper only. No sunlight focusing, lasers, equipment construction or medical advice.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A spoon in a glass of water can look bent at the surface even though you have done nothing to the metal. The part above the water sends light to your eyes through air. Light from the submerged part crosses a water boundary before reaching you, and that crossing changes its direction. The apparent bend belongs to the route of the light. Once you can follow that route, mirrors, magnifying glasses and camera focus become variations on a small set of understandable rules."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Start with the difference between an object and the light that lets you see it. A lamp produces visible light. A book on a desk mostly redirects light that arrived from somewhere else. Some of that redirected light enters your eyes. When we draw a ray from the book to an observer, the line represents a direction of propagation. It is not a string attached to the object, and your eyes are not sending a searching beam out to touch the page. The information arrives with the light."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "For this lesson we will use geometric optics, which represents light by rays and follows their paths through an optical arrangement. This model works very well for many ordinary mirrors and lenses. It has limits when wave effects become important, which we will meet later. The historical foundation is the light and optical-instrument material in the public-domain textbook Physics by Tower and his collaborators. We will use modern definitions where its older wording needs updating, and original examples rather than its historical equipment instructions."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Imagine one small red mark at the top of a page. Light from that mark spreads in many directions. Some reaches the left side of a lens, some the centre, and some the right side. A sharp image requires these different contributions from the same mark to arrive together at the corresponding image point. Meanwhile, light from a different mark must arrive at a different image point. A lens does not simply make everything brighter in one place. It organises where the light from different places goes."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "That point-by-point idea will prevent a common misunderstanding later. A diagram might show only two or three rays from the top of an arrow. Those rays are selected because their paths are easy to construct. They are samples from a much larger bundle, not the only light available. Every visible part of the arrow supplies its own bundle. If you mistake the diagram for a complete inventory of the light, you can reach strange conclusions, such as expecting half an image to vanish when half a lens is covered."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Before lenses, consider a flat mirror. Draw a straight line representing its surface and another line meeting it at a right angle. The perpendicular line is called the normal. An incoming ray makes an angle with the normal; the reflected ray makes an equal angle on the other side of it. Both rays and the normal lie in the same plane. Measuring from the normal is important. A ray thirty degrees from the surface is sixty degrees from the normal, and those numbers must not be exchanged halfway through a calculation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Suppose a ray meets a mirror at twenty-five degrees to the normal. The reflected ray also makes twenty-five degrees to the normal. If instead someone tells you that the ray meets the surface at twenty-five degrees, its angle to the normal is sixty-five degrees. The reflection rule has not changed. Only the reference line has changed. This is why a small sketch can settle an argument that words such as steep, shallow or sideways leave ambiguous. State the reference before comparing angles."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The rule works locally at a smooth patch of a surface. On an ordinary sheet of paper, microscopic features face many directions, and light is scattered over a broad range of directions. On a polished mirror, the local orientations are much more orderly. That difference explains why a page can be seen from many positions while a mirror gives a distinct reflected view. Scattering does not mean light ignores physical rules. It means the surface does not redirect the incoming bundle as one neatly organised flat reflector."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Imagine placing a small lamp in front of a mirror. Light reaches two separated points on the mirror and reflects toward an observer. If the observer extends those arriving directions backwards, the lines meet behind the mirror. That meeting point is the image location. No light has travelled through the opaque backing to originate there. The rays arriving in front of the mirror have directions consistent with a source behind it. We call this a virtual image because the reflected rays do not physically converge at that apparent source."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "For a plane mirror, the image sits as far behind the mirror as the object sits in front. Put a small object forty centimetres in front of it, and the image is forty centimetres behind. The object and its image are therefore eighty centimetres apart. Move the object ten centimetres closer to the stationary mirror and the image also moves ten centimetres toward the mirror from the other side. The separation falls by twenty centimetres, from eighty to sixty. That is a geometric result, not motion of a second hidden object."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "If your face is sixty centimetres from a flat mirror, its image is sixty centimetres behind the mirror. The apparent face-to-image distance is one hundred and twenty centimetres. This helps explain why looking into a mirror is not equivalent to looking at a picture painted on its surface. The surface redirects light, while the image has an apparent depth. You can focus on the reflected scene even though the mirror itself is much closer than the objects the scene seems to contain."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Does moving your head move the image? For a fixed object and a fixed plane mirror, the image location stays fixed. Your new viewpoint selects different reflected rays. This distinction between an image's location and the rays a particular observer receives is useful when arranging mirrors. A small mirror can show different parts of a room as you move, because different paths now fit between object, mirror and eye. The mirror has not recreated the entire room on its surface as a flat photograph."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A virtual image is not imaginary in the sense of being a hallucination or a false report. Its position follows a reproducible optical arrangement. You can photograph a mirror image because a camera lens can take the arriving diverging bundle and form a real image on a sensor. What you cannot do is place a screen at the apparent source behind an ordinary opaque mirror and intercept the reflected rays there. The terms real and virtual describe the geometry of the rays, not whether the observer's experience counts as real."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Our first recall question: a small object is thirty centimetres in front of a plane mirror. Where is its image, how far apart are object and image, and why is that image called virtual?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The image is thirty centimetres behind the mirror, so object and image are sixty centimetres apart. It is virtual because the reflected rays reaching the observer only appear to originate at that location. They do not physically meet behind the mirror. Notice that all three answers follow from one construction: reflect the rays using equal angles, then extend their outgoing directions backwards. The apparent source falls symmetrically behind the reflecting plane."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Now return to the spoon and replace reflection with transmission across a boundary. A portion of the light can reflect from a water surface while another portion enters or leaves the water. These processes can happen at the same time. Seeing a reflection in a window does not mean the window has stopped transmitting the scene beyond it. Likewise, seeing through a sheet of glass does not mean that every bit of incoming light passes through. The balance depends on the materials, angle and other optical details."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The useful property for refraction is refractive index. For the ordinary transparent materials and visible light considered here, it describes how the speed of light in the material compares with its speed in vacuum. The index is the vacuum speed divided by the material's wave speed. An index of one point five means the wave speed is the vacuum value divided by one point five. It does not mean the material is one point five times as heavy, nor does a greater mass density alone determine how strongly light is refracted."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Using a rounded vacuum speed of three hundred million metres per second, an index of one point five corresponds to two hundred million metres per second. We are using rounded numbers for an illustrative material. Real glass comes in different compositions, and index also depends on wavelength. For fresh water, about one point three three is a useful visible-light value. The index of air is close enough to one for the simple calculations in this lesson. Precision work keeps the smaller differences that we are deliberately setting aside."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Think of a broad advancing wavefront reaching a boundary at an angle. One side enters the second material before the other side. If propagation is slower there, that side advances a shorter distance while the other is still moving in the first material. The wavefront changes orientation as it crosses. In the ordinary isotropic materials of our examples, the ray direction is perpendicular to the wavefront. This construction explains why a change of propagation speed can change direction without treating the light as a solid stick that gets bent."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The familiar marching-line analogy can help. A line of walkers approaches a muddy strip diagonally. One end reaches the slow ground first, so the line turns as its two ends advance at different rates. This captures the geometry of unequal advance, but light is not a group of people deciding to keep formation. The analogy should explain the direction change and then stop. We do not need to claim that photons trudge through mud, lose effort or make choices about their route."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Going from a lower index to a higher index, a transmitted ray bends toward the normal. From higher index to lower index, it bends away, provided a transmitted ray exists. At perpendicular incidence there is no directional change because the whole wavefront meets the boundary together. The speed can still change. So saying that a straight-on ray is not bent does not mean the materials have become optically identical. Direction and speed are separate properties, and a boundary can alter one without altering the other."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Here is the quantitative rule, called Snell's law. Multiply the first index by the sine of the angle to the normal. That equals the second index multiplied by the sine of the second angle. Sine is a geometric ratio associated with an angle in a right triangle. You do not need to memorise a table to understand the rule's consequence: when the index increases, the sine of the angle must decrease to preserve the same product. For the angles here, that means the transmitted ray lies closer to the normal."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Take light from air into our example glass with index one point five. Let the incoming angle be thirty degrees to the normal. The sine of thirty degrees is one half. Divide that by one point five and the transmitted angle must have a sine of one third. That corresponds to about nineteen and a half degrees. We have not divided thirty degrees by one point five. That tempting shortcut would produce twenty degrees, which is close in this example but is not the rule. The sine, rather than the angle itself, enters the equation."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Reverse the direction along the same path. Light in that glass at about nineteen and a half degrees can emerge into air at thirty degrees. This reversibility is useful for tracing optical paths. If a ray can travel from a point on a page through a simple stationary lens to an image point, the corresponding reverse route is also possible under the same conditions. We can use that idea to check diagrams and to understand why exchanging an object and a screen can produce another valid imaging arrangement."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The submerged spoon appears displaced because the light reaching your eye has changed direction at the surface. Your visual system receives the outgoing directions rather than a label identifying each bend along the route. Backwards extensions of nearby emerging rays can indicate an apparent point nearer the surface. The submerged part therefore appears in a different location from the part seen only through air. A real glass adds curved sides and additional boundaries, so an everyday view may be more complicated than the single flat-water-surface drawing."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A plane-parallel glass sheet produces another instructive result. A ray bends toward the normal when entering from air, then away when leaving into air. Because the two faces are parallel, the outgoing ray is parallel to the original ray. It can still be shifted sideways. A thick window viewed obliquely therefore need not send light along the exact line it would have followed without the glass. Equal final direction is not the same as an unchanged path. The sideways displacement grows out of the distance travelled inside the sheet."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A prism has faces at different angles, so the second boundary does not generally undo the first directional change. A ray passing through the usual glass prism in air is redirected overall. A lens uses this same opportunity with a smoothly changing surface orientation. Different parts of the lens can give different portions of the bundle different directional changes. Before we ask how the lens forms an image, it helps to see that there is no new law hidden in its centre. There are refracting boundaries arranged in a useful shape."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Our second recall question: why does a ray entering glass from air at an angle usually bend toward the normal, and why can a ray entering straight on remain unbent while still changing speed?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "For ordinary glass in air, the greater refractive index corresponds to a lower propagation speed, and Snell's law gives a smaller angle to the normal for the transmitted ray. At straight-on incidence the angle is zero on both sides. The wavefront reaches the interface without one side entering ahead of the other, so there is no turn, although the speed differs. The boundary's effect on direction depends on the approach angle as well as the two refractive indices."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "There is an important limit when light travels from higher index to lower index. As the incoming angle increases, the outgoing angle moves farther from the normal. Eventually the transmitted direction reaches ninety degrees to the normal, which is along the boundary. The corresponding incoming angle is called the critical angle. Increase the incoming angle beyond that value, and there is no ordinary travelling refracted ray into the second material. In the ideal transparent arrangement, the light is totally internally reflected back into the first material."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "You can see the limit in Snell's law without imagining that the surface suddenly turns into metal. If glass has index one point five and air has index one, the sine of the critical angle is one divided by one point five, or two thirds. The angle is about forty-one point eight degrees. Beyond it, the proposed transmitted angle would require a sine greater than one, which no real angle can supply. That tells us the assumed transmitted-ray construction has ceased to be possible."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Both conditions matter: the light must approach from the higher-index material, and its angle to the normal must exceed the critical angle for that pair of materials. A large angle by itself is insufficient. Light coming from air into ordinary glass cannot undergo this kind of total internal reflection at that entrance boundary. Some reflection can occur there, but it is a different statement to say that there is no transmitted ray. Mixing those two claims loses the special condition that makes prisms and guided light paths useful."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "For water to air, using an index of about one point three three, the critical angle is about forty-nine degrees. The exact rounded value depends on the index used. This means some underwater rays escape through the surface while others return into the water. Change the outside material and you change the condition. A surface is not intrinsically a total reflector for every ray regardless of its surroundings. The pair of refractive indices and the ray's direction together determine whether the condition is met."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A right-angle glass prism can redirect a suitable ray by total internal reflection. For our example glass, an internal incidence of forty-five degrees exceeds the roughly forty-two-degree critical angle. The ray reflects at that face, obeying the same equal-angle rule as before. The other faces let it enter and leave. This is one reason prisms can replace mirrors inside optical instruments. The useful effect comes from the path through the prism, not merely from owning a triangular piece of glass."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "An optical fibre extends the idea into a guide. In a simple ray description, light travels inside a core whose index exceeds that of the surrounding cladding, and suitable rays meet the boundary above the critical angle. Repeated internal reflection keeps them guided along the fibre. Real fibres also require a wave description, and tight bends and material losses matter. This is not a promise that every ray entering at any angle will travel indefinitely. The construction admits and guides a restricted set of paths."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "We now have reflection, refraction and a limiting case connecting them. To form an image with a lens, we need to organise many paths from one object point at once. Consider a thin glass lens in air, thicker in the middle than at the edges. In the familiar converging design, a bundle parallel to the principal axis is brought toward a focus beyond the lens. The principal axis is the central reference line through the symmetric lens. The focal length is the distance from the ideal thin lens to that focus."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Focal length is a property of the lens arrangement in its surrounding material, not automatically the distance between lens and every image it makes. A distant object sends nearly parallel rays from each of its points, so its image lies near the focal plane. A nearby object sends more strongly diverging bundles, and those can require a different image distance. Treating focal length as a universal image distance would make it impossible to explain focusing a camera from a mountain onto a close object."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A diverging lens in the ordinary glass-in-air arrangement is thinner at the middle. Parallel incoming rays emerge spreading apart. Extend those outgoing rays backwards and they meet at a virtual focus on the incoming side. No light has converged there after passing through the lens. The construction resembles the apparent source behind a mirror, although the surface and direction of travel are different. In our sign convention, a converging lens has positive focal length and a diverging lens has negative focal length."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The surrounding medium matters to both descriptions. Shape alone cannot tell the whole story if the material around the lens changes. The refracting effect depends on the contrast between lens and surroundings. We will keep to simple glass lenses in air, where the common thicker-centre and thinner-centre descriptions work as expected. More complicated combinations can behave differently. Stating that setting avoids turning a useful familiar case into a rule about every transparent object with a curved surface."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "For an image construction, place an upright arrow to the left of a converging lens and send light left to right. Choose the arrow's top as one object point. Draw one ray from that point parallel to the principal axis. After the ideal lens, it passes through the far focal point. Draw a second ray through the lens's optical centre, treated as continuing straight in the thin-lens approximation. Where those two outgoing rays cross is the image of the arrow's top."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "There is a third convenient ray: one directed through the near focal point before reaching the lens emerges parallel to the axis. For a good idealised drawing, this third ray meets the others at the same image point. That provides a check, not an additional source of light. The entire bundle from the arrow tip should converge there within the approximation. Rays from its middle and bottom form corresponding points, so the collection produces an image of the complete object rather than a single bright dot."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Suppose the arrow is farther from the lens than the focal length. The outgoing rays can meet on the opposite side, giving a real image. Light from the arrow's top may cross the axis and arrive below it, so the image is inverted. A screen at the meeting plane can receive the image because the rays actually arrive there. Move the screen in front of or behind that plane and each bundle spreads over a small patch instead of landing at its intended point. The overlapping patches appear as blur."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "We can calculate the image location with the thin-lens equation. One divided by focal length equals one divided by object distance plus one divided by image distance. All distances must use the same units. We will count a real object on the incoming side as a positive object distance, a real image on the outgoing side as a positive image distance, and a virtual image on the incoming side as a negative image distance. Other conventions exist, so the signs only make sense once the convention has been stated."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Use a lens with focal length twelve centimetres and put an object thirty-six centimetres in front. One twelfth equals one thirty-sixth plus one divided by the unknown image distance. Subtract one thirty-sixth from one twelfth. Three thirty-sixths minus one thirty-sixth leaves two thirty-sixths, or one eighteenth. The image distance is therefore eighteen centimetres. It is positive, so the image is real and lies on the outgoing side. The calculation places it beyond the focal length but closer to the lens than the object is."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The size follows from similar triangles in the ray construction. Signed lateral magnification equals negative image distance divided by object distance. Here that is negative eighteen divided by thirty-six, or negative one half. The minus sign tells us the orientation is inverted; the magnitude tells us the image is half the object's height. A six-centimetre arrow would produce a three-centimetre inverted image in this ideal arrangement. Magnification describes a ratio, so it carries no centimetre unit even though the heights and distances do."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Now move the object to twenty-four centimetres, which is twice the focal length. One twelfth minus one twenty-fourth is one twenty-fourth, placing the image twenty-four centimetres away on the other side. The magnification is negative one, so image and object have equal heights, with opposite orientation. The symmetry gives us a useful reference case: at twice the focal length, a thin converging lens forms an equally sized inverted real image at twice the focal length on the opposite side."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Move the object nearer again, to eighteen centimetres. One twelfth minus one eighteenth equals one thirty-sixth, so the image moves out to thirty-six centimetres. Magnification is negative thirty-six divided by eighteen, or negative two. A six-centimetre object would produce a twelve-centimetre inverted image. Compare this with the earlier thirty-six-centimetre object position and eighteen-centimetre image position. We have exchanged the distances, and the size ratio has reversed. This is the path reversibility we met at a single boundary applied to an imaging system."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "These three cases explain the change without a table to memorise. As a real object approaches the focal point from beyond it, its rays arrive more strongly diverging. The lens has a fixed converging effect, so the emerging rays converge less steeply and take longer to meet. The image moves farther away and becomes larger. The phrase converging lens does not mean every object produces an image immediately behind the glass. The incoming bundle and the lens's effect together determine the outgoing bundle."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "At exactly the focal distance in the ideal model, the outgoing rays from a single object point are parallel. They do not meet at a finite image distance. The equation shows this because one over image distance becomes zero. We describe the image as being at infinity, meaning that the rays do not converge within any finite distance in the ideal construction. This is not a claim that a physical photograph is hiding at the edge of the universe. It is a compact statement about parallel directions."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Place the object inside the focal length, at eight centimetres from the same twelve-centimetre lens. One twelfth minus one eighth equals negative one twenty-fourth. The image distance is negative twenty-four centimetres, which places the virtual image on the object side. Magnification is negative negative twenty-four divided by eight, giving positive three. The image is upright and three times the object's height. These signs describe precisely the familiar magnifying-glass situation, even though the image cannot be caught directly on a screen at its apparent location."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "In that close-object case, the lens reduces the bundle's divergence without reversing it into convergence. The emerging rays still spread, but as though they had come from a farther, larger upright object. Your eye receives those rays and can focus them into its own image. A magnifying glass therefore need not form a real image in empty space to be useful. It changes the directions reaching the next optical system. The eye and the magnifier have different roles, and confusing them makes virtual images unnecessarily mysterious."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Our third recall question uses the twelve-centimetre converging lens. With an object thirty-six centimetres away, where is the image and what is its size ratio? What changes when the object is brought inside the focal length?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "At thirty-six centimetres, the image is eighteen centimetres beyond the lens, real, inverted and half the object's height. Bringing the object inside the focal length makes the outgoing bundle diverge rather than meet beyond the lens. Its backwards extension gives an upright enlarged virtual image on the object side. For the eight-centimetre position we calculated, that image is twenty-four centimetres from the lens and three times the object's height. The equation and the ray drawing tell the same story in different forms."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A diverging lens gives us a contrasting case. Let its focal length be negative twelve centimetres and put a real object twenty-four centimetres in front. One over image distance equals negative one twelfth minus one twenty-fourth, which is negative one eighth. The image distance is negative eight centimetres. Magnification becomes positive one third. In this arrangement the image is virtual, upright and reduced. Unlike the converging-lens cases, moving an ordinary real object around in front of this single diverging lens does not produce a real image on the far side."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "That last statement has a specific setting: one diverging lens with a real object supplying diverging rays. In a compound system, light reaching a lens may already be converging because of an earlier element. A diverging element can then weaken the convergence without necessarily eliminating it. Optical designers combine elements precisely because the effect of one depends on the bundle arriving from the others. We should not take the single-lens classroom case and conclude that a diverging element has no place in a system that ultimately forms a real image."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The thin-lens model itself simplifies a finite object into one plane. A real piece of glass has two separated surfaces, and a camera lens may contain many elements. For rays close to the axis and modest angles, the simple construction is often useful. Farther from those conditions, a real lens may not bring every sampled ray from one point to exactly the same place. An ideal equation can give the central layout while a practical designer still needs to control departures from that ideal across the whole image."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "We can already answer the half-covered-lens question. Each object point normally sends light through many parts of the lens. Covering half of it removes some rays from each bundle, rather than automatically removing the left or right half of the picture. In a simple central-field arrangement, the whole image remains but becomes dimmer. At the edges of a real field, obstruction can reduce coverage unevenly, so the clean classroom answer has geometric limits. The important correction is that one half of the glass is not assigned exclusively to one half of the subject."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "An aperture is an opening that limits the admitted bundle. A smaller opening allows fewer rays through. For a point slightly away from the distance on which the system is focused, a narrower bundle can form a smaller blur patch at the recording plane. That helps explain why reducing an aperture can make a greater range of object distances look acceptably sharp. It does not force all those different object distances to share exactly the same ideal image plane. Acceptable sharpness and perfect point convergence are different standards."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A pinhole camera provides the limiting geometric intuition. A small opening admits a narrow bundle from each object point, making the projected pattern less overlapping than it would be through a large empty hole. The tradeoff is reduced light. Shrinking the hole without limit is not a route to unlimited sharpness either, because diffraction, a wave effect, eventually matters. The ray model has helped us organise the paths, but it cannot by itself describe every limit on the fineness of the image."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Diffraction means that a finite aperture produces a spread rather than a perfect point even with otherwise ideal optics. A circular opening gives a characteristic central bright region with surrounding structure. As the opening becomes smaller, that spread becomes wider for the same wavelength. This introduces a real compromise: narrowing an aperture can reduce defocus blur and some aberrations, but sufficiently strong narrowing makes diffraction more important. There is no single setting that improves every property of an image simultaneously."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Keep brightness, sharpness and magnification separate. Brightness concerns how much light reaches the recording or viewing surface. Sharpness concerns how distinctly nearby details are represented. Magnification concerns their apparent or recorded size. A larger blurry image is still blurry, and a brighter image does not necessarily distinguish finer detail. These quantities can interact, but treating them as synonyms makes it hard to decide what an optical adjustment actually accomplished. The next instrument examples will give each quantity a different job."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Consider a simple camera represented by a converging lens and a fixed recording plane. To photograph a distant object, that plane lies near the focal distance. A closer object requires a greater lens-to-image distance in our single-lens model. Focusing can therefore be achieved by moving the lens relative to the recording plane. Real camera designs can move internal groups, and some alter effective focal length while focusing, but those engineering choices serve the same underlying requirement: the relevant bundles must form their smallest intended patches at the recording surface."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Use an ideal lens with focal length five centimetres. An object two hundred centimetres away gives an image distance of two hundred divided by thirty-nine centimetres, about five point one three. If the object moves to fifty centimetres, the image distance becomes fifty divided by nine centimetres, about five point five six. The shift is less than half a centimetre, yet leaving the recording plane in the old position introduces defocus. Small mechanical changes can matter because the geometry is about where bundles meet, not whether the scene is recognisable at all."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "For the two-hundred-centimetre object, lateral magnification is about one thirty-ninth in magnitude. A twenty-centimetre feature gives an image just over half a centimetre high. At fifty centimetres, magnification has magnitude one ninth, so the same feature gives an image about two point two two centimetres high. Moving closer has increased the recorded image size as well as changing the required focus. If the recording surface is too small to contain the whole result, some of the subject lies outside the frame."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Image orientation also follows from the lens. The real image at the recording plane is inverted relative to the object in the simple construction. A camera's display or viewfinder arrangement can present it in a convenient orientation. That presentation does not undo the paths that formed it. Similarly, a projector must arrange the source image so that the final projected result has the desired orientation. We can distinguish what the optical stage does from what a later display, mirror or processing stage does with its output."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A projector works with the same relation in a different distance range. Put a small illuminated picture just beyond the focal length of a converging lens, and a large real image can form much farther away on a screen. With focal length ten centimetres and a source twelve centimetres away, the image distance is sixty centimetres. Its magnification is negative five. A two-centimetre feature becomes ten centimetres high on the screen, with inversion. This is the same calculation structure as the close-but-outside-focus arrow, now serving a practical instrument."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The screen does not pull the rays into focus. It intercepts the bundle at whatever stage of convergence or divergence exists there. Place it at the calculated plane and the pattern is sharp within the model. Move it away and the image blurs unless the optical arrangement is adjusted. This explains why moving a projector farther from a wall changes more than the apparent size of a fixed picture. A new object-to-lens or lens arrangement may be needed to restore focus at the new screen distance."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Nor does enlarging the projected image create extra light. Imagine spreading the same available image light over a rectangle twice as wide and twice as high. The area is four times as large, so the average light per unit area is one quarter if the total light is unchanged. Real projection involves additional losses and geometric details, but this simple area comparison captures an important constraint. A very large image can look dim even when it is well focused. Focus and illumination solve different problems."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A magnifying glass serves a different purpose from a projector. You normally hold the object inside the focal length and look through the lens, rather than trying to place a screen beyond it. The lens lets the object subtend a useful angle at the eye while presenting a bundle the eye can accommodate. The ordinary experience of magnification is angular: the feature occupies more of your view. That is not always the same quantity as the ratio between the height of a virtual image and the physical object's height."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "To understand angular size without equipment, imagine two identical small signs, one twice as far away as the other. For small angles, the farther one occupies roughly half the angle. Doubling its physical size while doubling its distance restores approximately the same angle. A large virtual image very far away can therefore have the same angular size as a smaller nearby object. This is why quoting only a virtual image's height does not fully describe what a person will see through a magnifier."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Our fourth recall question: what distinguishes a projector's final image from a magnifying glass's usual image, and why does doubling both the width and height of a projected rectangle reduce average illumination if the same amount of light reaches it?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A projector forms a real image where rays physically meet on the screen. A magnifying glass used with its object inside the focal length supplies an upright virtual image, seen by looking through the lens. Doubling width and height multiplies area by four. With unchanged total light, each unit of area receives one quarter as much on average. A larger image therefore need not be brighter, and the type of image depends on the ray arrangement rather than on how impressive its size appears."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A compound microscope links two imaging stages. Its objective, close to the specimen, forms an enlarged real intermediate image. An eyepiece then lets the observer examine that intermediate image as a magnifier would. The intermediate image acts as the object for the second stage. This is a useful general principle: once one optical system has reorganised a bundle, a later system responds to that bundle. It does not need to know whether the apparent object was a physical specimen or an image formed by earlier lenses."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "In a simplified microscope calculation, suppose the objective forms an intermediate image twenty times the specimen's size, and the eyepiece gives a further tenfold angular magnification under the specified viewing convention. The combined nominal magnification is two hundred times. That multiplication tells you how large a feature is presented relative to the reference view. It does not establish that two details separated by an arbitrarily tiny distance can be distinguished. If the first stage does not resolve them, the second stage can magnify the unresolved patch without recovering the missing separation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A simple astronomical refracting telescope begins with a distant object. Its objective forms a real image near its focal plane, and an eyepiece presents that image to the observer. For the common arrangement with two converging lenses adjusted for a relaxed view, their separation is approximately the sum of their focal lengths. The angular magnification has magnitude equal to the objective focal length divided by the eyepiece focal length. The resulting orientation is inverted in this simple arrangement, which may be acceptable for astronomical use."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Take an objective with focal length sixty centimetres and an eyepiece with focal length three centimetres. Their ideal separation is sixty-three centimetres, and the angular magnification has magnitude twenty. Replace that eyepiece with one of focal length two centimetres and the nominal magnification rises to thirty, with a sixty-two-centimetre separation in the ideal model. The change does not enlarge the objective's light-collecting opening. We have altered how the intermediate image is viewed, not how much detail and light the first stage can supply."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The objective's diameter matters for both light collection and resolution. With otherwise comparable transmission, a circular opening twice the diameter has four times the area available to collect light. Wave optics also sets a diffraction scale that improves with a larger opening at a fixed wavelength. A telescope therefore cannot be described usefully by a magnification number alone. The quality and diameter of the objective, the observing conditions and the rest of the optical system help determine whether greater magnification reveals detail or merely spreads an existing blur over more of the view."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "This is also why focusing and resolving are distinct operations. Focus puts the recording or intermediate-image plane in the appropriate place. Resolution concerns distinguishing nearby details even at the best focus. A perfectly focused image can still contain two close points blended by the aperture's wave response. Conversely, a system capable of fine resolution can perform badly when defocused. The distinction gives a practical way to interpret disappointment: making an image bigger, changing focus and admitting a wider bundle address different possible limitations."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Real lenses also have wavelength-dependent behaviour. Ordinary white light contains a range of visible wavelengths, and a material's refractive index is not identical for all of them. A prism can therefore separate colours, and a simple lens can bring different colours to somewhat different focal positions. That contributes to coloured fringes and loss of sharpness. The historical textbook discusses combining different glasses to reduce this effect. We should say reduce rather than promise perfect elimination of every colour-related error in every optical system."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "There are geometric departures too. Rays through the outer regions of a spherical lens need not share exactly the same focus as rays close to the axis. This is one source of aberration. Designers use combinations of surfaces and materials to control such errors over a chosen field and range of conditions. The ideal thin lens remains useful because it gives us the basic placement and scale. Practical design then asks how closely the full bundle can approach the desired behaviour across the image."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Notice how this differs from declaring the simple model wrong because a real photograph contains imperfections. A model has a specified range and purpose. The thin-lens equation can correctly predict the approximate image distance while leaving colour correction and off-axis sharpness unresolved. The mistake would be to claim that solving one equation has solved every part of optical design. Its usefulness lies in answering a particular question clearly: given these idealised distances and focal length, where should the corresponding image form?"
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Our fifth recall question: a simple telescope has a sixty-centimetre objective focal length and a three-centimetre eyepiece focal length. What is its nominal angular magnification, and why does increasing magnification alone not guarantee finer visible detail?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The magnitude of angular magnification is sixty divided by three, or twenty. Greater magnification changes the angular size at which the image is viewed. It cannot automatically recover separation that the objective and the rest of the system have failed to resolve. Aperture, aberrations, focus and observing conditions can all limit useful detail. The distinction is the same one seen in a microscope: a larger presentation of an unresolved patch remains an unresolved patch."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "For the practical application, use only paper and a pencil. Draw a horizontal principal axis and a vertical line for an ideal converging lens. Mark focal points twelve units to either side. Put an upright arrow thirty-six units to the left. From its tip draw a horizontal ray to the lens, then continue through the far focal point. Draw another ray from the tip through the lens centre. Where the outgoing rays meet, sketch the image arrow down to the axis. This is a geometry exercise, so no lamp, sunlight or optical equipment is needed."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "You should find the image eighteen units to the right, inverted and half as tall as the object. If your intersection is on the wrong side or the image is upright, check the ray through the far focus after the lens. If the scale is inconvenient, let each unit represent a smaller length on the page, as long as every distance uses the same scale. A simple drawing does not need to be beautiful. It needs consistent geometry so that the two independently traced paths agree."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "Then move the object arrow to eight units from the lens and draw the same two convenient rays again. The outgoing rays spread apart. Extend them backwards with dotted lines until they meet twenty-four units to the left of the lens. The dotted lines represent extensions, not light travelling backwards after refraction. Your second image should be upright and three times the object's height. This pair of drawings shows how one converging lens can make two different kinds of image without changing the glass itself."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "A useful written caption under the first drawing would say: real image because the outgoing rays meet; screen possible at the meeting plane. Under the second: virtual image because only backwards extensions meet; look through the lens to receive the diverging rays. Those captions tie the vocabulary to the construction. They also make it harder to confuse positive with good, negative with bad, or virtual with unreal. The signs and terms tell you where light goes and where it appears to originate."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "If the drawings disagree with the arithmetic, use the disagreement to locate a specific error. Check whether the focal point was measured from the lens rather than from the object. Check whether the central ray passed through the optical centre. Check whether the parallel ray bends only after reaching the lens in the thin-lens construction. Finally check that the virtual-image lines are extensions of the outgoing rays, not arbitrary lines aimed at a desired answer. Each correction restores a defined relationship rather than asking you to trust the diagram's appearance."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "These paths also explain the familiar experience of adjusting a magnifier. Farther from a page is not always more useful, because moving through the focal-distance boundary changes the kind of outgoing bundle. A camera that hunts for focus is trying to match bundles to its recording plane. A mirror showing depth is redirecting rays as though they came from behind it. A spoon that looks broken is sending light through different boundaries along different routes. The visible result changes when the route changes, even while the physical object remains intact."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Both voices develop explanations and worked examples. Make units and comparisons audible. Do not rush arithmetic or artificially slow the rest. Preserve recall pauses and subsequent answers.",
+      "t": "The unifying achievement is being able to work from a source point through the system to the receiving position. At a mirror, use equal angles about the normal. At a transparent interface, use the refractive indices and the approach angle. At an ideal lens, follow how bundles converge or diverge, then use the distance relation to locate the image. The resulting picture is no longer simply something that appears in glass. It is an arrangement of light paths whose position, orientation, size and limitations you can explain."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-29",
+    "spoken_words": 7466,
+    "sha256": "606b5ed514621eb8ad7aea9191bae5dd5dc7f50aef37b3bdcda6c02925b08ca0",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.gutenberg.org/files/40175/40175-h/40175-h.htm",
+      "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+      "https://openstax.org/books/college-physics-2e/pages/25-4-total-internal-reflection",
+      "https://openstax.org/books/college-physics-2e/pages/25-6-image-formation-by-lenses",
+      "https://openstax.org/books/college-physics-2e/pages/27-6-limits-of-resolution-the-rayleigh-criterion",
+      "https://openstax.org/books/college-physics-2e/pages/26-5-telescopes",
+      "https://openstax.org/books/college-physics-2e/pages/26-4-microscopes"
+    ]
+  }
+}
