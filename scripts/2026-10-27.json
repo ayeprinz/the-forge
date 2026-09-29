@@ -1,0 +1,427 @@
+{
+  "date": "2026-10-27",
+  "title": "[Literature] Pride and Prejudice: Courtship, Money and Character",
+  "summary": "A scene-led introduction to Jane Austen's novel, including its ending. Inheritance and marriage, Collins and Charlotte, Wickham's account, Darcy's proposals, letters, Pemberley, Lydia and Lady Catherine. Explains irony, viewpoint and narrative disclosure through concrete scenes. Five recall questions and a private six-sentence scene analysis. Sources consulted: https://www.gutenberg.org/ebooks/1342 https://www.gutenberg.org/cache/epub/1342/pg1342.txt",
+  "instructions": "Begin immediately with the failed first proposal. Assume no prior reading. Identify spoilers and introduce characters as needed. Teach the novel as literature, not empirical psychology or a universal dating formula. Distinguish textual events from interpretation and invented comparisons. Preserve unequal material constraints without endorsing coercion or treating gratitude as consent. Both voices teach substantive mechanisms and contrasting cases. Five recall questions with seven-second pauses and subsequent answers. Practical task is private analysis of a fictional scene, no contact or spending.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "A wealthy man proposes marriage and manages to make the woman angrier with every sentence. He says he loves her, then explains how much he has struggled against her inferior connections. In his mind, overcoming those objections proves the strength of his attachment. In hers, he is demanding gratitude for an insult. That collision drives the first proposal in Jane Austen's Pride and Prejudice. Darcy has declared a feeling without understanding the person receiving it. Elizabeth understands his contempt, but her account of his other actions contains a serious mistake."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "That is the novel's unusual strength. A scene can contain a justified refusal and a false accusation at the same time. Elizabeth does not have to marry Darcy because one accusation is wrong. Darcy does not become innocent of arrogance because he can answer it. Austen makes several kinds of judgment operate together: attraction, manners, money, family responsibility and evidence of character. We will follow the story through its ending, so there are spoilers. You need no prior reading. The important people and the events connecting them will be introduced as they matter."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Elizabeth Bennet is one of five sisters living with their parents at Longbourn. Jane, her elder sister, is gentle and inclined to think well of people. Elizabeth is observant, lively and willing to laugh at pretension. Their father shares her taste for wit. Their mother is preoccupied with getting her daughters married. Into their neighbourhood comes Charles Bingley, a wealthy young man who rents Netherfield. His friend Fitzwilliam Darcy is wealthier still. Those arrivals set the local marriage speculation running before either man has explained what he wants."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Austen begins by presenting a supposed universal truth: a rich single man must need a wife. Then the next paragraph shows families treating him as a prospective possession for one of their daughters. The joke reverses the claimed source of desire. The neighbourhood says it knows what the man needs, while revealing what the neighbourhood wants. That reversal is an example of irony. The surface statement announces certainty. The surrounding situation gives us reason to hear another meaning beneath it. The sentence tells us about the people making the claim as much as its supposed subject."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Mrs Bennet's excitement sounds absurd because she moves quickly from a stranger's income to a daughter's possible marriage. But the household faces a material problem. Longbourn is entailed away from the daughters. In this particular family's arrangement, the estate will pass to a male relation rather than becoming the sisters' shared property. That future heir is Mr Collins. We do not need to turn the novel into a complete account of English inheritance law. The essential fact is local and concrete: the sisters' present home and their father's income do not guarantee their future independence."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "This changes the weight of a proposal. A modern reader might first hear, do you enjoy this person's company? For Charlotte Lucas, Elizabeth's friend, the question also concerns having a household and protection against want. Austen gives us characters making different choices under that pressure. She does not distribute identical resources, identical hopes and identical consequences among them. Reading Charlotte as merely foolish misses her calculation. Reading Elizabeth as merely impractical misses the intimate cost she refuses. The novel makes us sit with both the economic constraint and the personal life lived inside the resulting marriage."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Money enters the dialogue as annual income, inherited capital, family connections and control of a home. These are different things. An annual income is a flow over time. A sum inherited is a stock of wealth at a particular moment. Mr Collins refers to Elizabeth's prospective thousand pounds invested at four per cent. On the simple assumption of that annual return, a thousand pounds multiplied by four hundredths gives forty pounds a year. That is arithmetic within the terms mentioned in the novel, not a recommendation or a promise about any modern investment."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Set that forty beside the reported four or five thousand pounds a year attached to Bingley. Using four thousand for a comparison, four thousand divided by forty is one hundred. The incomes differ by a factor of one hundred on those stated figures. That does not tell us the modern purchasing power of either sum, or every expense either person faces. It shows why capital and annual income cannot be read interchangeably. Austen can place a seemingly respectable thousand pounds next to an apparently smaller annual figure, while the actual difference in available yearly resources is enormous."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Mr Bennet sees the silliness around him and entertains himself with it. His remarks are often sharper than his wife's. Yet his ability to expose absurdity is not the same as taking responsibility for the family's future. This distinction matters because Elizabeth enjoys his company, and we may enjoy it too. A character who delivers the best joke can still fail at a serious obligation. Austen does not ask us to stop enjoying the joke. She gradually changes what else we notice while we are laughing, especially when the younger daughters' conduct has consequences beyond the drawing room."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "At the first assembly, Bingley makes friends easily and dances enthusiastically. Darcy stands apart and refuses introductions. When Bingley suggests Elizabeth as a partner, Darcy dismisses her attractiveness within her hearing. This is an actual discourtesy. We should not erase it because the eventual romance needs a sympathetic hero. Elizabeth's dislike starts from something he really does. What develops afterwards is the more complicated step from observing a rude action to feeling that she understands the whole person. One accurate observation becomes the foundation for judgments about matters she has not witnessed."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Her response also shows her attractiveness as a central character. She turns an injury into a good story for her friends. She is not presented as someone who merely waits to be chosen. She can judge, speak and make social pleasure herself. But storytelling fixes an interpretation. Once the rude wealthy man has become a comic figure in her account, another story about his wrongdoing arrives in receptive surroundings. Austen builds that receptiveness through actual encounters. The plot does not need a mysterious psychological switch. It needs remembered insult, an engaging new speaker and an allegation that fits."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "The new speaker is George Wickham, an officer with an easy manner. He tells Elizabeth that Darcy's late father intended a church position for him, but Darcy has deprived him of it. A church living here means a position with an associated income, not merely a place to sleep. Wickham's story offers a clean moral arrangement: a grateful young man, a generous dead benefactor and an arrogant son who frustrates the benefactor's wishes. Elizabeth already has the arrogant son in mind. The new narrative supplies a private wrong to accompany the public rudeness."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Notice how Wickham presents himself. He expresses affection for Darcy's father and apparent reluctance to condemn the son. His account contains details of a real connection with the family. It is therefore more persuasive than an allegation floating without context. The problem is not that every detail is invented. The problem is that the connection and intended provision are arranged into an account that leaves out a decisive transaction. In fiction, as in an ordinary argument, a story can contain genuine pieces while misrepresenting how those pieces relate to one another."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Elizabeth is also pleased by Wickham's attention. Austen later makes that personal element explicit in Elizabeth's own reassessment. She has been offended by one man and gratified by the other. Neither feeling automatically makes her conclusion false. But it helps explain why she accepts one account so readily. The novel connects judgment to a specific social pleasure: being singled out by someone charming who appears to trust you. That is different from saying charm proves dishonesty. Bingley is agreeable too, and the book does not turn his friendliness into evidence of a concealed villain."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "There are already differences between Wickham's claims and his conduct. He suggests he has no reason to avoid Darcy, yet he does not attend the Netherfield ball. He presents himself as restrained about damaging Darcy's reputation, yet his account becomes widely circulated. Elizabeth does not initially give those discrepancies their later weight. Austen lets the reader encounter material that will mean something different on a second pass. The later explanation is not just a new fact pasted into the story. It reorganises earlier scenes whose significance had seemed settled."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Before we move to the proposals, here is the first recall question. Why does the opening joke about a rich single man's need for a wife connect to a serious problem for the Bennet sisters? Think about who is doing the wanting, and what the sisters cannot assume they will inherit.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "The neighbourhood projects its own marriage hopes onto the arriving man. For the Bennets, those hopes sit beside the fact that Longbourn is entailed away from the daughters. Marriage is therefore entangled with future material security. That explains the pressure without making every marriage plan sensible. Mrs Bennet's urgency has a real object, even when her behaviour embarrasses the daughters she hopes to help. Austen's comedy works because the ridiculous performance and the serious dependence occupy the same household. Neither cancels the other."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Mr Collins brings that household's future heir directly into its present conversations. He is a clergyman whose patron is Lady Catherine de Bourgh, Darcy's aunt. He treats her preferences as if they should settle everyone else's judgment. His proposal to Elizabeth lists reasons for marriage, including the example expected of a clergyman and his patroness's recommendation. He then explains why choosing a Bennet daughter would soften the consequences of his inheritance. The proposal has an organisational logic. What it lacks is serious attention to whether Elizabeth wants a life with him."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Elizabeth refuses him clearly. Collins interprets that refusal as the conventional modesty of a woman who secretly means to accept. When she repeats herself, he absorbs the repetition into the same interpretation. His reasoning cannot receive her answer because he has decided in advance what any answer must mean. He also points to the advantages he offers and the uncertainty of her receiving another proposal. That mixture of social convention and material pressure makes the scene uncomfortable beneath its comedy. The more explicitly she speaks, the more elaborately he explains away her speech."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "The satire is precise. Collins thinks he is being perceptive about women while refusing to recognise the particular woman in front of him. A general script replaces her stated intention. Elizabeth insists on being understood as a rational person speaking sincerely. We can hear a principle of the scene without inventing a dating technique from it: an attractive offer on paper does not create another person's agreement. Nor does a theory about how people supposedly behave override a direct refusal. Austen gives Collins enough speech to demonstrate how thoroughly he has confused his own expectation with mutual consent."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "His near immediate redirection towards Charlotte sharpens the joke. What sounded like overwhelming personal devotion proves remarkably transferable. Charlotte, however, knows what she is accepting. She does not secretly discover Collins to be brilliant. She values the establishment he can provide despite finding his company unappealing. Her position differs from Elizabeth's because she places a different weight on the available alternatives. Austen gives Charlotte a choice with costs rather than turning her into a simple punishment for lacking romantic ideals. The discomfort is that her practical success involves organising a life around limited companionship."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "When Elizabeth visits the married Charlotte, the arrangement becomes spatial. Charlotte makes use of rooms, gardening and her husband's habits to secure time away from him. A marriage is not only a declaration made on one day. It becomes a pattern of meals, visits, work and hours spent in the same rooms. That is why Austen's domestic details matter. A room can show how a character manages a compromise more effectively than an abstract speech about marriage. Charlotte has obtained security and household authority, but the way she uses that household reveals what she has had to accommodate."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Elizabeth is disappointed in her friend. Yet the reader can distinguish understanding Charlotte's choice from wanting it for Elizabeth. If we say Charlotte ought simply to wait for a perfect partner, we have assumed an alternative the story has not guaranteed her. If we say security makes affection irrelevant, we have dismissed the kind of life Elizabeth values. Austen places competing goods in conflict rather than making one word solve them. The same proposal can be intolerable to one person and acceptable to another without either person having misheard the proposer's income or personality."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Consider an invented parallel outside romance. Two people are offered the same live-in caretaker position. It includes reliable housing but little privacy and a manager they find tiresome. One already has secure accommodation and declines. The other needs a stable home and accepts while carefully arranging private time. The second choice does not establish that the manager is pleasant. The first does not establish that housing has no value. This comparison only clarifies the role of alternatives. A job can usually be left under conditions quite different from the marriage world Austen depicts, so the situations are not interchangeable."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Collins also shows how borrowed authority enters conversation. He repeatedly brings Lady Catherine into matters where her wishes are not Elizabeth's wishes. His patroness's approval becomes part of his sense that his offer ought to be accepted. Elizabeth challenges both the offer and the assumption that someone else's rank settles her happiness. Later, Lady Catherine will arrive in person and attempt a more direct form of control. Austen prepares that encounter long before it happens. The patron first appears through a subordinate who has made obedience central to his own identity."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Meanwhile, Jane and Bingley appear well matched. They enjoy each other's company, and Jane's affection is sincere. But her manner is restrained enough for observers to disagree about its strength. Darcy believes she does not return Bingley's attachment sufficiently. He helps separate the couple. That intervention is presented as protective friendship from his side and devastating interference from Elizabeth's. The same action therefore enters the novel through competing relationships. Darcy sees a vulnerable friend. Elizabeth sees an injured sister. Each has access to something the other does not know as well."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Jane's reserve creates a problem of interpretation, not proof that reserve is wrong. Elizabeth knows her sister's feelings through intimacy. Darcy infers them from public behaviour. He also has objections to the Bennet family's conduct and connections. These influences are not cleanly isolated. His reading of Jane fits a match he already has reasons to oppose. Later acknowledgment of error matters because good intentions towards Bingley cannot make the assessment accurate. Austen allows sincere concern to become overconfident intervention. Affection for one person does not supply complete knowledge of another."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "This is part of the force of Darcy's first proposal. By then Elizabeth has learned of his role in separating Jane and Bingley. She is angry before he enters. He sees his declaration as a great concession to powerful feelings; she hears the man who injured her sister praising himself for overcoming her family's disadvantages. The scene gives the speakers different histories even though they occupy the same room. Each sentence lands inside those histories. The reader can follow why his intended compliment fails without needing to suppose that Elizabeth is being perversely difficult."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Darcy's assumption of acceptance also matters. He offers rank and fortune along with feeling, and initially seems unable to imagine those advantages being rejected. Elizabeth's answer interrupts that confidence. She tells him about Jane, about Wickham and about his manner. The accusations differ in quality. He has indeed intervened between Jane and Bingley. His presentation of the proposal is insulting. The Wickham story, however, is incomplete and misleading. Austen assembles the objections together so that later correction must be specific. Discovering one error will not turn the whole refusal into a mistake."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Darcy tries to defend his frankness. Would she rather he concealed his objections and pretended there had been no struggle? But that frames the alternatives too narrowly. He could examine the contempt itself rather than choosing between expressing it proudly and concealing it strategically. Elizabeth's criticism of his ungentlemanly behaviour reaches the identity he values. He possesses the social position associated with a gentleman, yet his conduct has failed the standard she attaches to that word. The disagreement is therefore partly over whether status certifies behaviour or behaviour must justify respect."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Here is the second recall question. What connects Collins's proposal to Darcy's first proposal, and what important difference should we preserve between the two scenes? Think about expectation, the woman's answer and the reasons for refusal.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Both men assume the advantages they offer should make acceptance likely, and neither begins with a good understanding of Elizabeth's feelings. Collins repeatedly treats her refusal as hidden encouragement. Darcy is shocked and angry, but he eventually leaves after hearing her rejection. His later explanation addresses specific accusations. The scenes are not identical, and his later conduct can change. The shared failure is centring the value of the offer from the giver's perspective while giving insufficient weight to the recipient's judgment. Austen makes that failure visible through different personalities and different responses."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "The next morning Darcy gives Elizabeth a letter. A letter changes the dramatic situation. It lets one person set out a sequence without interruption, and it allows the recipient to reread the exact same words. It does not automatically make the contents true. At first Elizabeth is furious and barely able to process the account. Austen describes reading as an activity affected by emotion: she hurries ahead to the next sentence before absorbing the one before it. The form supplies stable words, but understanding still takes time, attention and comparison with remembered events."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Darcy explains that Wickham accepted money in exchange for relinquishing his claim to a church living. According to the letter, Wickham received a separate legacy of a thousand pounds, then three thousand in place of the proposed church provision. Later he sought the living again. The dispute changes shape. It is no longer simply a son refusing a father's intention. It concerns an earlier agreement and a later request that omits it. This is the missing relationship between genuine facts in Wickham's account. The father had wanted to assist him, but that was not the whole transaction."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "The letter also describes Wickham's attempt to elope with Darcy's young sister Georgiana, whose fortune was a major inducement. We are examining the narrative disclosure, not treating it as an occasion for sensational detail. Darcy exposes a painful family vulnerability to answer the impression of Wickham that Elizabeth has formed. He points her towards Colonel Fitzwilliam as someone who can corroborate his account. That creates a possible check beyond the two antagonists' assertions. Elizabeth does not actually carry out a courtroom investigation. The novel shows a mixture of offered corroboration, remembered conduct and increasingly persuasive explanation."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Her first response is resistance. Then she rereads. She realises that she can recall Wickham's pleasing manner much more readily than any substantial act of goodness she has witnessed. She remembers his absence from the ball and the changing circulation of his story. The details have not all appeared for the first time. Their relation has changed. Elizabeth also recognises the vanity involved in enjoying his preference and resenting Darcy's neglect. Austen makes this admission painful because being perceptive is part of Elizabeth's own identity. The correction reaches beyond a mistaken opinion about two men."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "We should be careful about what her change means. It is not a command to distrust every appealing person, and it is not proof that the least friendly person is secretly the best. Those would merely reverse the original shortcut. Within this novel, new information identifies particular omissions in Wickham's story and particular limits in Elizabeth's acquaintance. A reader can trace that correction scene by scene. The pleasure comes from discovering how a credible false picture was assembled, not from being handed a universal rule that ugliness of manner guarantees depth of character."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Darcy's explanation of Jane is harder to settle so neatly. Elizabeth can understand how her sister's reserve was misread while still knowing that Jane loved Bingley. Her family's embarrassing conduct can be real without making Darcy entitled to decide the relationship. These mixed assessments prevent the letter from functioning as a complete acquittal. His account answers Wickham's allegation much more successfully than it justifies his treatment of the couple. A single document moves several judgments by different amounts. Austen preserves the difference between correcting a fact and endorsing a decision made on incomplete knowledge."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "The novel's narrative viewpoint makes that process especially effective. We spend much of the story close to Elizabeth's perceptions, although the narrator is not restricted to her knowledge at every moment. Her energy and wit invite our sympathy. When she finds someone ridiculous, the prose often makes it easy to share her amusement. That closeness creates a risk for the reader inside the literary design: we can confuse agreement with her tone for independent access to the whole situation. Austen can make us feel well informed while keeping decisive events outside the scenes we have witnessed."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "One technique associated with this effect is free indirect discourse. In plain language, narration can carry a character's judgments or emotional colouring without placing every thought inside quotation marks or adding she thought. A sentence may be grammatically the narrator's while sounding like the person whose perspective shapes it. We need not label every line to hear the effect. A description can announce a conclusion with suspicious confidence, then later events expose its limits. The reader must attend to whose standards make a description seem obvious, especially in a book full of social judgments."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Imagine a short invented example: the visitor had arrived early, naturally, because some people could never resist making themselves a nuisance. The arrival time might be an observable fact. The claim about irresistible nuisance belongs to a judging mind. If that sentence appears near a character who dislikes visitors, we hear the character's irritation inside the narration. A neutral version would simply say the visitor arrived before the agreed time. The added attitude changes our experience without supplying extra evidence. Austen's more intricate prose frequently draws its humour from such proximity between an event and an interested interpretation."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "The letter is also a change in pacing. A proposal unfolds through interruptions, expressions and immediate replies. The letter suspends that exchange and brings earlier years into the present story. Elizabeth then supplies a second movement by rereading and remembering. The reader experiences disclosure followed by revision rather than receiving a narrator's verdict in a single sentence. This arrangement preserves the difficulty of the change. Austen could simply announce that Elizabeth had been wrong, but the repeated reading makes us encounter what it costs her to discover the error and which remembered details force her to acknowledge it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Compare that with Mrs Gardiner's later letter about Darcy's assistance. It explains activity that occurred away from Elizabeth and away from our direct view. The two letters perform related but different jobs. Darcy's answers an accusation against himself. Mrs Gardiner's reveals helpful conduct he had not advertised to Elizabeth. The second therefore supplies another voice and another occasion for reassessment. Neither document is just a convenient envelope full of plot. Who writes, what that person knows, why the information arrives now and what the recipient already believes all affect the disclosure's force."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "There is a useful distinction here between suspense and surprise. We may feel suspense while waiting to learn whether Lydia and Wickham will marry, because the unresolved outcome is openly before us. Learning the extent of Darcy's hidden involvement adds surprise about how that outcome was produced. Austen can resolve one uncertainty and then open a different question about motive and character. The mechanics of finding the pair need not occupy every page for the consequences to matter. By withholding some activity and revealing it later, the novel controls when Elizabeth can connect action with the person responsible."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "That control does not make Elizabeth a foolish spectator of her own life. She often sees more clearly than the people around her, especially when a social performance is absurd. Her limited access gives the story room to move without removing her intelligence. A perceptive protagonist who lacks information can be mistaken for understandable reasons. This is a practical distinction for describing fiction: intelligence belongs to a character, while access to events is organised by the narrative. Confusing those two makes every surprise look like stupidity, and misses the craft by which Austen keeps an intelligent heroine both compelling and fallible."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "The opening assembly also gives collective judgment a voice. Darcy's reputation changes within the evening as the room shifts from admiring his wealth and appearance to resenting his manner. The crowd does not conduct a long inquiry into his character. It reaches a socially shared verdict. This is funny partly because of the speed and completeness of the reversal. Austen makes an entire room act as an audience with preferences. Reputation becomes something made between people, circulating through reports and reactions, rather than a label stored permanently inside the person being described."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "After the letter, Elizabeth visits Derbyshire with her aunt and uncle, the Gardiners. They visit Pemberley, Darcy's estate, believing him away. The setting changes what can be seen. At assemblies and visits, Darcy has appeared as a socially awkward or disdainful guest. At Pemberley, Elizabeth encounters the place for which he has responsibilities and people who know him through everyday service. The new setting does not magically make her previous experience unreal. It broadens the range of his conduct available to her. Austen uses a change of place to produce a change of access."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "The house and grounds impress Elizabeth. Their beauty is described in terms of proportion and a relation to nature that does not feel excessively forced. That description can be read as part of the novel's presentation of Darcy, but we should not turn architecture into a reliable character test. A beautiful estate is not proof of virtue. Within Austen's constructed scene, the setting contributes to an impression that is joined by testimony and behaviour. Elizabeth even imagines what it would mean to be mistress of the place. The novel does not pretend material attraction has vanished from the romance."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "She then remembers her aunt and uncle and wonders whether they would have been welcome if she had married him. This thought prevents the house from becoming a sufficient answer. What would possession of beautiful rooms cost if the people she loves were excluded? The setting invites desire and then makes her consider the terms of belonging. Pemberley is not just an impressive object to acquire. It is a possible social life. The question is who could enter it, how they would be treated and whether Elizabeth could inhabit it without surrendering important loyalties."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "The housekeeper, Mrs Reynolds, praises Darcy as a brother, landlord and master. Her testimony has a different basis from Wickham's conversation. She describes long familiarity and conduct towards people within his responsibilities. But Austen also allows the Gardiners to notice the possibility of family partiality. We need not treat the housekeeper as a scientific instrument with no interests of her own. Her account matters because it introduces another field of observation. Elizabeth's earlier certainty now has to coexist with a report from someone whose experience of Darcy is sustained and very different."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Darcy then appears unexpectedly. The encounter is embarrassing because Elizabeth had counted on his absence. What follows is significant for its ordinary civility. He treats the Gardiners with attention and respect, rather than acting out the disdain for Elizabeth's connections she had feared. That behaviour addresses an actual point of conflict from the proposal. It is not a general declaration that he has become better. The people whose presence might once have embarrassed him are here, and he responds to them differently. Austen gives change a concrete social test inside the plot."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "His wish for Elizabeth to know Georgiana also alters their relation. His sister had been a guarded part of the painful history disclosed in the letter. Introducing them draws Elizabeth into a family relationship rather than merely asking her to accept an account from outside it. The novel lets affection grow through a series of encounters whose meanings accumulate. No single compliment undoes the first proposal. No single display of wealth establishes trust. The narrative asks us to notice a pattern of revised understanding and revised behaviour, while leaving attraction present as a feeling rather than reducing it to an audit."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Here is the third recall question. Why does the visit to Pemberley matter beyond showing Elizabeth an expensive house? Name two kinds of information she receives there that differ from her earlier encounters with Darcy.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "She hears the housekeeper's account of Darcy's longstanding conduct as a master, landlord and brother, and she observes his respectful treatment of the Gardiners. Those experiences widen the situations in which she knows him. The estate's beauty attracts her, but it cannot by itself answer her concern about whether her relatives would be welcome. His behaviour towards them bears directly on that concern. The scene joins setting, testimony and action. It moves the romance forward by changing what Elizabeth can reasonably see in a life with him, not simply by displaying his fortune."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "A letter from Jane then brings a crisis: their younger sister Lydia has gone away with Wickham. Lydia imagines a romantic outcome, but marriage is not initially secured. The family fears serious reputational consequences. In the social world the novel depicts, one daughter's conduct threatens the standing and prospects of the others as well. We can explain that pressure without approving the unequal judgment directed at the young woman. Austen's plot depends on the difference between Lydia's excitement and the vulnerability her situation creates. Wickham's earlier conduct makes the family's uncertainty especially alarming."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "This crisis also changes how we see Mr Bennet. His detached amusement has limits as a form of parenting. Elizabeth had worried about Lydia's behaviour, but he allowed her greater freedom than she could use responsibly. The narrative now makes the cost of that decision visible. He can recognise his failure, yet recognition does not instantly give him the ability to repair it. The family needs practical work: finding the pair, negotiating and arranging a marriage. Wit is almost useless for those tasks. The plot brings the earlier difference between clever observation and responsibility to a painful point."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Darcy undertakes much of the repair without initially making Elizabeth aware of it. Mrs Gardiner's later letter explains his involvement in locating Lydia and Wickham and arranging financial terms. The help is costly in money, effort and personal discomfort, given his history with Wickham. Yet it would be too simple to call the resulting marriage a complete happy ending for Lydia. A marriage can avert one immediate social disaster without transforming either partner's character. Austen's resolution remains uneven. The central couple's improved understanding does not spread automatically to every household connected with them."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Elizabeth learns of Darcy's help indirectly, after Lydia carelessly mentions his presence at the wedding. That route of discovery is part of the action's meaning. Darcy has not presented a bill of emotional obligations or used the rescue as an immediate argument for marriage. The narrative gives Elizabeth a reason to admire him that does not arrive as his own advertisement. His feelings for her remain involved, as he later admits. But desire and generosity are not forced into an either-or choice. He can hope for her happiness while performing work whose reward he cannot ensure."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "We should not infer that a grand rescue obliges someone to return romantic affection. Elizabeth's eventual acceptance depends on her changed feelings as well as her gratitude. That distinction is already built into her earlier refusals. Austen's second proposal scene will explicitly give her the power to decline again. The emotional development would mean less if expenditure could settle the matter by itself. Darcy's wealth makes certain assistance possible; it does not purchase the right answer. The novel allows money to repair a practical crisis while leaving the central romantic decision with the people who must live it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Lady Catherine tries to settle that decision from outside. Hearing a report that Elizabeth might marry Darcy, she arrives to demand assurances. Her manner assumes that social rank entitles her to answers and obedience. She invokes an intended marriage between Darcy and her own daughter, family wishes, connections and the shame Elizabeth would supposedly bring. Elizabeth distinguishes an intention made by relatives from an actual binding choice by the people concerned. A family plan is not the same thing as Darcy's consent, and Lady Catherine's preference is not Elizabeth's obligation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "The exchange is also a contest over conversational ground. Lady Catherine asks questions as though refusing to answer would concede guilt. Elizabeth declines that frame. She points out contradictions, including the effort required to suppress a match supposedly impossible in the first place. She eventually says she is not engaged to Darcy, but refuses to promise never to be. Those are different statements. Present circumstances do not force a pledge about the future. Austen gives the scene its force by keeping those distinctions clear while Lady Catherine tries to collapse them into submission."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Elizabeth's argument is not that all distinctions of class have disappeared. She calls herself a gentleman's daughter and asserts a kind of equality on that basis. The world of the novel remains socially stratified. It would overstate the scene to make her a spokesperson for every modern egalitarian position. Her resistance is specific: Lady Catherine cannot determine this marriage by rank, family ambition or insult. That precision makes her refusal more interesting than a slogan. She uses the terms available within her world while rejecting the authority being claimed over her particular choice."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "There is a delicious reversal in the result. Lady Catherine reports the conversation to Darcy in an effort to discourage him. He hears something else: Elizabeth has not ruled out a future marriage. Information travels through a hostile messenger and produces the opposite of the intended effect. This is another form of Austen's irony. The powerful relative believes she is closing a possibility, but her insistence on extracting a promise has revealed that the possibility remains open. Her intervention is not merely unsuccessful. It helps create the conditions for the outcome she opposes."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Darcy's later conversation with Elizabeth is noticeably different from his first proposal. He says that if her feelings remain unchanged, she should tell him and he will stop speaking of it. The sentence gives her response real consequence. Collins had converted refusal into encouragement. Darcy now makes room for refusal to mean refusal. Elizabeth can say her feelings have changed because they have, rather than because the offered advantages must have overwhelmed her. Their mutual affection is no longer hidden behind his assumption of superiority and her fixed account of his wrongdoing."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "He also acknowledges the justice of her criticism of his behaviour. He separates the principles he was taught from the pride and selfishness he allowed himself in practice. This is character development expressed through retrospective explanation and changed conduct. Elizabeth, in turn, can admit the errors in her view of Wickham and Darcy without losing her wit or independence. Their improvement does not require one personality to absorb the other. The ending is satisfying because both have something to revise, and the revisions answer particular failures established earlier in the story."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Here is the fourth recall question. What is different about Darcy's later approach to Elizabeth, and why is his financial help to her family insufficient by itself to establish that she should marry him?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "He explicitly accepts that her answer may still be no and offers to stop if it is. His conduct and understanding have changed, and Elizabeth's feelings have changed too. Financial help addresses the family's crisis, but gratitude cannot supply mutual romantic consent. The later proposal matters because it allows her judgment to operate rather than assuming that wealth, rank or obligation has already settled it. That difference connects the ending back to the earlier proposals. Austen has altered the relationship between the speakers, not simply increased the value of the offer."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "The final chapter keeps several imperfect lives in view. Mrs Bennet's daughters marry well without her becoming transformed into a model of wisdom. Lydia and Wickham do not undergo the same change as the central couple. Jane and Bingley gain some distance from intrusive relations. Kitty benefits from different company. These differences prevent the ending from becoming a universal cure. A marriage changes resources and relationships, but people do not all acquire new character merely because the plot has reached its final pages. Austen distributes consequences according to the people and arrangements she has built."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "That ending helps us distinguish a marriage plot from a simple formula for finding a spouse. The novel arranges several marriages so that each illuminates the others. Charlotte and Collins show security with limited companionship. Lydia and Wickham show excitement without dependable judgment or lasting reform. Jane and Bingley show affection vulnerable to outside interference. Elizabeth and Darcy show attraction joined to a difficult revision of self and other. None of these is a statistical category. They are constructed contrasts through which the book explores what different unions contain and what they leave unresolved."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Even the Bennet parents contribute to that design. A household can contain familiarity, humour and years together while lacking shared respect and effective cooperation. Their marriage is not simply background scenery for younger romances. It supplies consequences the daughters have lived with long before Bingley arrives. Mr Bennet's withdrawal and Mrs Bennet's anxious pursuit of marriage interact rather than existing as unrelated personality sketches. Austen shows family life as a set of responses that can reinforce one another. The younger generation's choices occur inside those inherited habits as well as within the inheritance settlement."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "There is another contrast worth keeping: the difference between being socially smooth and being attentive. Wickham can make a dull topic enjoyable. Collins can deliver formal civility while ignoring the answer he receives. Darcy initially fails at ease, then learns to attend more fully to people he had undervalued. Bingley combines friendliness with real affection, though he is too easily influenced. Austen therefore gives us more than one axis of character. Pleasantness, sincerity, independence and consideration can vary separately. The novel becomes thinner if we divide everyone into charming frauds and awkward saints."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "The same care applies to its title. It is tempting to assign all pride to Darcy and all prejudice to Elizabeth. But the story gives both a strong investment in their own judgment. Darcy's social confidence distorts his understanding of Elizabeth. Elizabeth's confidence in her discernment makes her humiliation harder. Lady Catherine's rank becomes entitlement. Collins's deference to rank becomes self-importance by association. The title names pressures distributed through the social world, not two badges worn exclusively by the leads. Their romance stands out because they become capable of responding to correction within that world."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Austen's humour makes this complexity enjoyable rather than abstract. She lets a character speak long enough to reveal the gap between an announced motive and an actual preoccupation. Collins claims disinterest in money while precisely identifying Elizabeth's small provision. Lady Catherine claims an impossible match requires an urgent journey to prevent it. Mrs Bennet imagines a stranger's arrival in terms of her own daughters. Each scene lets a person expose more than they intend. The comedy grows from structure: a claim, the context around it and the implication the speaker fails to notice."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "For a small practical application, choose one fictional scene from today's lesson and write a private account of it in six sentences. Use the first proposal if you want a scene with competing truths. Give Darcy one sentence explaining what he believes he is offering. Give Elizabeth one sentence explaining what she hears. Use the next two sentences for one justified complaint and one mistaken accusation. Use the fifth for the information that later changes the accusation. In the sixth, explain why correcting that accusation does not require Elizabeth to accept the proposal."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "A possible answer would say that Darcy believes overcoming his objections demonstrates powerful love. Elizabeth hears contempt for her family embedded in an expectation of gratitude. His manner and his interference with Jane are real grounds for anger. Wickham's account of the church provision has misled her. The later letter supplies the omitted agreement to take money instead. Even with that correction, she remains free to refuse because marriage requires her own willingness. The exercise produces a short reading of one scene. It does not require testing anyone, spending money or turning private acquaintances into suspects."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "You could instead choose Charlotte's acceptance and describe the desired security, the available alternatives and the cost in companionship. Or choose Lady Catherine's visit and distinguish a family wish from the authority to demand a promise. Keep the account attached to the chosen scene. If a sentence says everyone always behaves this way, replace it with the particular action Austen actually gives the character. That makes the exercise a piece of literary analysis with a defensible object. It also leaves room for another reader to offer a different interpretation of the same passage."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Here is the fifth recall question. How does Austen prevent the story from becoming a simple contrast between bad charming people and good awkward people? Use at least two characters, and distinguish a manner from an action or responsibility.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Wickham's charm conceals important omissions and harmful conduct, but Bingley's friendliness accompanies sincere affection. Darcy's early discourtesy is genuinely objectionable even though other parts of his character are better than Elizabeth knows. Collins performs formal politeness while refusing to hear a refusal. Those contrasts separate social manner from consideration, integrity and judgment. Austen asks what people do in particular relationships, not only how pleasant they feel during one conversation. The resulting characters can be attractive in one respect, faulty in another and capable of different degrees of change."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally through the scenes and their consequences. Both voices contribute developed literary explanations. Keep character names clear. Do not act out characters or imitate accents. Preserve recall pauses and subsequent answers.",
+      "t": "Return to the room where the first proposal failed. The trouble was not a shortage of intense feeling or valuable property. Darcy had mistaken the strength of his own desire for knowledge of Elizabeth's response. Elizabeth had joined sound objections to an account she had accepted too readily. Austen carries both facts forward. A letter revises one history; a visit reveals another setting; practical help and respectful conduct give changed understanding something to rest on. When they speak again, the answer is different because the people and their knowledge of each other have changed."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-29",
+    "spoken_words": 7140,
+    "sha256": "2f28cdf82fce1709d478f2d1c42759857c552816eee4cff3bace09fb19962aa8",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.gutenberg.org/ebooks/1342",
+      "https://www.gutenberg.org/cache/epub/1342/pg1342.txt"
+    ]
+  }
+}
