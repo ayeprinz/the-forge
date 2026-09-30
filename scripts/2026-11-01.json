@@ -1,0 +1,495 @@
+{
+  "date": "2026-11-01",
+  "title": "[Applied Business] Choose the Orders That Make the Week Work",
+  "summary": "A Sunday worked print-studio case: choose a production mix, evaluate a rush order, price displaced work, assess outsourcing, schedule cash, negotiate scope and test a second bottleneck. Original fictional examples, five recall questions and one paper-only decision exercise. Builds on published business margin, cash-flow and negotiation subjects; no prior reading required. Accounting foundations consulted in OpenStax Principles of Accounting, Volume 2: Managerial Accounting: https://openstax.org/books/principles-managerial-accounting/pages/10-2-evaluate-and-determine-whether-to-accept-or-reject-a-special-order https://openstax.org/books/principles-managerial-accounting/pages/10-6-evaluate-and-determine-how-to-make-decisions-when-resources-are-constrained https://openstax.org/books/principles-managerial-accounting/pages/10-1-identify-relevant-information-for-decision-making https://openstax.org/books/principles-managerial-accounting/pages/3-1-explain-contribution-margin-and-calculate-contribution-margin-per-unit-contribution-margin-ratio-and-total-contribution-margin https://openstax.org/books/principles-managerial-accounting/pages/7-3-prepare-financial-budgets",
+  "instructions": "Start with the print-studio decision. Both ash and sage teach substantive mechanisms and worked comparisons. All business amounts are fictional, simplified and exclude sales taxes and financing. Distinguish revenue, contribution, surplus, opportunity cost and cash timing. Keep the separate finishing-constraint scenario separate from the outsourcing cash forecast. Assume no prior reading. Spell out numbers. Preserve five seven-second pauses followed by answers. End with one low-risk paper exercise, no real transaction.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "A small print studio has twenty-four press hours left this week. A customer offers a large order that would make the sales total look excellent. The owner is tempted to say yes immediately. But those hours already have other possible uses, and paper must be paid for before all customers settle their invoices. We are going to make the week's decision properly: choose the work, examine a rush offer, price an alternative and check whether the studio can pay its bills while it waits."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Our studio is fictional. Every amount and customer response in this case is invented for the exercise. We will use pounds, exclude sales taxes and financing, and treat the result as a simplified operating surplus rather than a complete set of accounts. Paid production labour is included in the costs we specify. We are not treating a founder's unpaid time as free. The aim is to solve one connected business problem with visible assumptions, so you can see exactly what changes the answer."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "The twenty-four hours are production hours available after routine maintenance and other commitments. They are not the total hours someone remains awake or present in the building. This matters because a usable capacity figure must describe the resource the orders actually consume. If we counted lunch, maintenance and existing commitments again as available production time, our apparently profitable plan would begin with work that could not fit. We will hold the twenty-four-hour limit fixed until we explicitly purchase or free more capacity."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "The studio has two products: a poster order and a booklet order. To keep the arithmetic manageable, each order means one standard batch of that product. A poster batch sells for thirty pounds, has twelve pounds of variable cost and uses half a press hour. A booklet batch sells for forty-eight pounds, has twenty-four pounds of variable cost and uses one press hour. These are deliberately small teaching figures, not suggested market prices for printing."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Variable cost here includes the paper, ink, paid production labour and other costs that change with each batch under our assumed arrangements. The poster therefore contributes eighteen pounds after those costs. Thirty minus twelve is eighteen. The booklet contributes twenty-four pounds: forty-eight minus twenty-four. Contribution is what remains to help cover shared fixed costs and then the operating surplus. It is not the same as the customer's payment and it is not yet the whole business's profit."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "The studio's fixed operating costs for this week are three hundred pounds. They remain the same across the first choices we compare. We will subtract them when calculating the week's overall result. We will not pretend they disappear because we are choosing one product instead of another. Equally, we should not make their allocation to a particular batch decide which use of the press is better when the total fixed bill is unchanged."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Available demand is limited too. Suppose the studio can sell at most thirty poster batches and twenty booklet batches this week at those prices. These are new, uncommitted requests, so choosing a mix does not mean breaking promises already made. The customer limits are assumed known for this first calculation. Later we will relax that certainty. A production plan needs customers as well as machinery: unused press hours cannot be turned into sales by writing a larger number in a spreadsheet."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Which product initially looks more attractive? A booklet brings forty-eight pounds of revenue against thirty for a poster, and twenty-four pounds of contribution against eighteen. But one booklet uses the same press time as two posters. Two posters together contribute thirty-six pounds. That comparison puts the alternatives on the same resource basis. When press time is the binding limit, the amount generated per press hour matters more than the amount generated by one differently sized batch."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "For posters, divide eighteen pounds by half an hour. The result is thirty-six pounds of contribution per press hour. For booklets, twenty-four pounds divided by one hour gives twenty-four pounds per press hour. Under our simple assumptions, posters make better use of the scarce press time. This ranking does not declare posters universally superior products. It describes a particular week, with one relevant production limit, stated demand and unchanged prices and costs."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "We therefore fill the poster demand first. Thirty poster batches use fifteen hours, because thirty times half an hour is fifteen. They contribute five hundred and forty pounds. Of the twenty-four hours, nine remain. Those nine hours can make nine booklet batches, contributing two hundred and sixteen pounds. Together, five hundred and forty plus two hundred and sixteen gives seven hundred and fifty-six pounds of contribution."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Subtract the three hundred pounds of fixed cost, and the simplified operating surplus is four hundred and fifty-six pounds. Let us check it another way. Posters bring nine hundred pounds of revenue. Nine booklets bring four hundred and thirty-two pounds. Total revenue is one thousand three hundred and thirty-two pounds. Variable costs are three hundred and sixty for posters plus two hundred and sixteen for booklets, or five hundred and seventy-six. Revenue minus variable costs minus fixed costs again gives four hundred and fifty-six."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "That second route is useful because it reconciles the product calculation with the whole week. A plausible-looking contribution figure can hide a missing cost or a duplicated item. Here both routes describe the same plan. We are not adding contribution on top of revenue. Contribution is a remainder within revenue after variable costs. Treating both as separate inflows would count part of the customer's payment twice."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Now reverse the priority and fill all twenty booklet requests first. That uses twenty hours and generates four hundred and eighty pounds of contribution. Four hours remain, enough for eight poster batches. Those contribute one hundred and forty-four pounds. Total contribution becomes six hundred and twenty-four pounds, leaving a surplus of three hundred and twenty-four after fixed costs. The poster-first plan is better by one hundred and thirty-two pounds."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "We can explain that difference without repeating the entire calculation. The booklet-first plan makes eleven more booklets but twenty-two fewer posters. Eleven booklet hours contribute two hundred and sixty-four pounds. Twenty-two posters use the same eleven hours and contribute three hundred and ninety-six pounds. The difference is one hundred and thirty-two. We are comparing equal press time and identifying exactly which exchange made the weaker plan weaker."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "The first recall question is about the ranking. Why does the product with the larger contribution per batch lose priority in this case? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Because its batch uses more of the limiting resource. One booklet contributes twenty-four pounds in one hour, while two posters contribute thirty-six pounds in the same hour. The press, not the number of batches, is the relevant comparison. That answer depends on the stated demand and the absence of another binding limit. If a second process or a customer commitment changes the feasible choices, we must examine that new situation rather than repeat the ranking automatically."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Imagine that booklet buyers will only purchase if they can also obtain matching posters. Our earlier assumption of independent demand would fail. Or suppose each new poster design required an hour of setup that we had omitted. The thirty-six-pound hourly figure would overstate the value of accepting many different poster designs. A ratio is only as useful as the work included in its denominator. Time spent changing jobs can be production time even when the machine is not creating saleable output."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "For our first plan, however, the batches are standardised and setup is already included in their stated times. We can now use that clean baseline to assess a new request. The baseline is not an emotional attachment to what we first calculated. It is a clear comparison point: thirty posters and nine booklets, with four hundred and fifty-six pounds of surplus. Every proposed change must explain how it improves or weakens that position."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "A new customer asks for eight booklet batches at thirty-five pounds each, below the normal forty-eight. The batches still cost twenty-four pounds each to produce and use one hour each. There is also a one-off thirty-pound setup cost caused by this special order. Its revenue would be two hundred and eighty pounds. Its variable production cost would be one hundred and ninety-two pounds. After the extra setup, it adds only fifty-eight pounds before considering displaced work."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "The tempting calculation stops there and says fifty-eight pounds is positive, so accept. But the press is already full in our baseline. Eight special booklet batches require eight hours. The normal booklets currently occupying those hours contribute one hundred and ninety-two pounds. Giving up that work sacrifices more than the special order produces. Fifty-eight minus one hundred and ninety-two is a reduction of one hundred and thirty-four pounds."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "After accepting the special order, the studio would still make thirty posters, but only one normal booklet and eight special booklets. Poster contribution is five hundred and forty pounds. The one normal booklet contributes twenty-four. The eight special booklets contribute eighty-eight before their thirty-pound setup cost. Subtract that setup and the original three hundred fixed cost. The surplus is three hundred and twenty-two pounds, one hundred and thirty-four below the baseline."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Notice that the customer has not offered a loss-making unit in the narrow sense: thirty-five exceeds twenty-four. The problem is what must be given up, plus the extra setup. Opportunity cost names the value of the best alternative forgone. Here we can put a specific amount on it because there are normal booklet customers available at the stated price. We are not inventing a vague penalty for being busy. We are identifying an actual competing use of eight hours in this fictional week."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "If those eight hours were genuinely idle, the comparison would change. Suppose a separate later week had unused capacity, no displaced orders and the same special-order economics. Then the fifty-eight pounds would improve that later week's result, provided no other costs or consequences were omitted. Fixed costs would not need to be already covered for an additional positive amount to help. The order could reduce a loss or increase a surplus. Spare capacity changes the relevant alternative."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "That does not make thirty-five pounds a sensible permanent price. A recurring product line must support the continuing business, not merely cover the extra cost of using otherwise idle hours once. Also, repeated discounted orders may change what customers expect, which work can be sold at normal prices and how capacity is used later. We have evaluated a defined short-term choice. We have not discovered a price that will sustain the studio under every future condition."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "We can calculate the special price that would leave this full week no worse off. Eight batches must cover one hundred and ninety-two pounds of their own variable costs, thirty pounds of added setup and one hundred and ninety-two pounds of displaced contribution. That totals four hundred and fourteen pounds. Divide by eight and the minimum matching price is fifty-one pounds and seventy-five pence per batch. At exactly that price, the financial comparison ties before other differences are considered."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "This threshold may surprise the customer because it exceeds the normal forty-eight-pound booklet price. The explanation is the special setup. Normal replacement work already contributes twenty-four pounds per batch, and the special job must cover its thirty-pound setup across eight batches. Thirty divided by eight is three pounds and seventy-five pence. Add that to the normal price and the threshold is fifty-one pounds and seventy-five pence. It is an indifference price for this case, not a promise that a buyer will pay it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "At fifty-four pounds per batch, the special order would bring four hundred and thirty-two pounds. Subtract one hundred and ninety-two in production costs and thirty in setup, leaving two hundred and ten. Compared with the one hundred and ninety-two displaced contribution, that is an eighteen-pound improvement. A positive difference exists, but it is small. An uncounted extra hour, delivery charge or revision could erase it, so the quote needs an equally precise description of the work."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "The second recall question: a special order contributes fifty-eight pounds after its extra setup, but replaces normal work contributing one hundred and ninety-two. How does accepting it change the week's result? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "It reduces the result by one hundred and thirty-four pounds. The relevant comparison is fifty-eight gained against one hundred and ninety-two forgone. We should not compare the special order with an empty schedule when the schedule is full and the alternative orders are available. A positive contribution can still be the weaker choice. If the hours were actually idle, the forgone amount would differ and the answer could change."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Now change the available choices, rather than arguing harder over the same quote. The studio has a partner who can make some poster batches to the required standard. We return to the original schedule, with thirty posters and nine normal booklets, and set the special order aside. The partner offers to handle twelve poster batches at an additional five pounds per batch above the twelve pounds of variable cost already in our calculation. That means seventeen pounds each in total for those outsourced posters."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "This wording matters. If the partner's invoice were five pounds in total, the calculation would be different. If seventeen pounds excluded materials we still had to buy, it would also be different. Here seventeen replaces the original twelve, with no duplicated material purchase. The extra cost is five per poster batch. We will assume the partner's work needs no internal press time and that the original finishing and delivery arrangements remain feasible. We will test those assumptions before agreeing to anything."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Twelve outsourced posters release six press hours because each would otherwise use half an hour. There is still demand for another eleven normal booklet batches beyond the nine already selected. We can therefore use all six released hours for six additional booklets. Those six contribute twenty-four pounds each, or one hundred and forty-four pounds together. Outsourcing costs an extra sixty pounds, twelve times five. The net improvement is eighty-four pounds, before any additional coordination or risk cost."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "The resulting schedule has eighteen poster batches made inside the studio, twelve made by the partner and fifteen booklet batches made inside. Eighteen posters use nine press hours. Fifteen booklets use fifteen. Together they use the available twenty-four. All thirty poster customers are served, and fifteen of the twenty potential booklet orders are served. The partner has not created extra customer demand. It has changed which existing demand the studio can fulfil within its own press limit."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Let's reconcile the whole result so the incremental answer has something to stand against. Poster revenue remains nine hundred pounds. Fifteen booklets at forty-eight bring seven hundred and twenty. Total revenue becomes one thousand six hundred and twenty. The original variable costs would be three hundred and sixty for posters and three hundred and sixty for booklets. Add the sixty-pound outsourcing premium and variable costs total seven hundred and eighty. Contribution is eight hundred and forty, and after three hundred fixed costs the surplus is five hundred and forty."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "That five hundred and forty is eighty-four above the original four hundred and fifty-six. We obtained the same answer by comparing just the changes and by rebuilding the whole week. This reconciliation can expose missing costs. If one calculation says eighty-four and the other says one hundred and forty-four, someone may have forgotten the outsourcing premium. If the difference is much larger, someone may have counted the partner's seventeen-pound price on top of the twelve-pound cost instead of replacing it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "What is the most we could pay as an extra outsourcing premium here? One poster batch releases half an hour, which we can fill with booklet work contributing twenty-four pounds per hour. Half of twenty-four is twelve. That twelve-pound premium is the matching point while each released half hour can be used in this way. At the offered five-pound premium, seven pounds of improvement remains per outsourced poster batch. Across twelve, seven times twelve produces the eighty-four-pound improvement."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "But the twelve-pound ceiling is not an everlasting value attached to a poster. It belongs to a particular alternative use of the time. If the partner asks for an extra fourteen per batch, twelve outsourced batches cost an extra one hundred and sixty-eight. The additional booklets still contribute one hundred and forty-four, so the change loses twenty-four pounds. Paying someone else to do work is not automatically efficient. The freed capacity must earn more than the additional cost of releasing it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Demand puts another limit on that value. Suppose only three extra booklets could actually be sold, while the partner requires a minimum of twelve poster batches. The three booklets contribute seventy-two pounds. The outsourcing premium still costs sixty, leaving twelve pounds of improvement, and three released hours remain unused. We cannot pretend those empty hours earned twenty-four pounds each merely because another booklet would have earned that amount if somebody had wanted it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "If only one additional booklet could be sold under the same twelve-batch minimum, the extra contribution would be twenty-four and the premium sixty. The change would reduce the week's result by thirty-six pounds. A smaller outsourcing quantity might work, but it is not currently on offer. Minimum quantities make the decision lumpy. A calculation about one attractive unit cannot be multiplied indefinitely when the contract makes us buy a block and demand only fills part of that block."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "The third recall question: outsourcing releases six usable hours, and the extra work earns twenty-four pounds of contribution per hour. The outsourcing premium totals sixty pounds. What is the improvement in the week's result? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "The improvement is eighty-four pounds. Six times twenty-four is one hundred and forty-four, and subtracting sixty leaves eighty-four. The answer assumes those six hours really support saleable extra work and no further costs have been missed. It measures the change in the week's result, not total revenue, not the partner's invoice and not the studio's total profit. Those are different quantities even though each might appear somewhere on the same worksheet."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Before using the partner, the owner needs a specification that makes the comparison real. What paper, colour tolerance, trimming, packing and delivery time does seventeen pounds include? Who checks the first batch? What happens if the output cannot be accepted? These are not details to add after committing the schedule. They determine whether the outside work is the same service assumed in our figures. We are not prescribing contract language here. We are identifying the facts that the commercial agreement must settle."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Consider a possible additional coordination cost of forty pounds for this particular job. If it is an actual extra payment caused by outsourcing, it reduces the eighty-four-pound improvement to forty-four. If it is an hour of the owner's already paid time with no other valuable task displaced, it may not create the same cash cost, though it still uses attention. If it displaces another paid job, the relevant consequence could be that job's lost contribution. We need to describe what the time replaces, not assign it a number merely because time feels expensive."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Quality problems also deserve a specific comparison. Suppose one failed poster batch would require fifteen pounds of extra materials and delivery to remake, without displacing any other work. A failure would reduce the improvement by fifteen. If remaking it instead consumed press time needed for an available booklet, the lost contribution would also matter. We should not count both an arbitrary penalty for delay and the same lost order again under a different name. Each consequence needs one clear place in the calculation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "When the probability of a failure is unknown, inventing a precise percentage gives a spreadsheet false confidence. The studio could instead inspect a sample, ask for evidence of comparable work or start with a smaller batch if available. It could also calculate how much extra cost the decision can absorb. An eighty-four-pound improvement provides eighty-four pounds of room before it becomes a financial tie, under the original assumptions. That is a boundary to investigate, not evidence that a problem costing eighty-three pounds is acceptable in every other respect."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "We have now chosen a potentially better production plan, but we have not shown that the studio can fund it. The five-hundred-and-forty-pound surplus describes revenue less the stated costs. It does not say when customers pay or when the studio must pay suppliers. To check that, we will use the same outsourced plan and put its receipts and payments in order. No loan, tax payment, depreciation or other cash movement is included in this fictional window. If one existed, we would add it explicitly."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "The studio begins with five hundred pounds in its bank account. Its total sales for this plan are one thousand six hundred and twenty. Suppose every customer pays a forty percent deposit before production and the remaining sixty percent after delivery. The deposits total six hundred and forty-eight pounds. Add that to the opening five hundred and the studio has one thousand one hundred and forty-eight before it starts paying the costs of these orders."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Now arrange the outgoing cash. Three hundred pounds of paper must be paid first. The partner's sixty-pound premium and the week's three hundred fixed costs must also be paid in this early stage. Together those payments are six hundred and sixty, leaving four hundred and eighty-eight. The remaining four hundred and twenty of production costs must be paid before the final customer balances arrive. After those payments, only sixty-eight pounds remains. The timing matters even though the total costs have not changed."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Check that we have included each cost once. Paper is three hundred, the outsourcing premium sixty and other production payments four hundred and twenty. Those sum to the seven hundred and eighty variable cost already calculated. Add three hundred fixed costs and total payments are one thousand and eighty. We have not added the partner's full invoice again. The original production-cost allowance contains the underlying cost, and the separate sixty represents the increase caused by using the partner."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "After delivery, customers pay the remaining nine hundred and seventy-two pounds. Sixty-eight plus nine hundred and seventy-two gives one thousand and forty at the end of the window. Starting cash was five hundred, so cash increased by five hundred and forty, matching the surplus under our simplified assumptions. The ending balance looks comfortable. The earlier sixty-eight-pound balance is the problem if the studio needs more cash available before customers settle their bills."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Suppose the owner has chosen a two-hundred-pound minimum reserve for this case. It is a planning choice, not a universal recommendation. The forty percent deposit leaves the studio one hundred and thirty-two below that reserve at the lowest point. It has enough money to make the listed payments, because sixty-eight is still positive, but it fails the owner's chosen cushion. Calling the entire plan impossible would overstate the result. Calling it comfortable because the final balance exceeds a thousand would ignore the timing."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "We can solve for the deposit needed to keep two hundred after all one thousand and eighty of costs are paid. Start with the required reserve of two hundred, add the payments of one thousand and eighty, then subtract the opening five hundred. The needed receipts before the remaining customer balances arrive are seven hundred and eighty pounds. Compared with sales of one thousand six hundred and twenty, that is a little over forty-eight percent. A fifty percent deposit would meet the base-case requirement."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "At fifty percent, deposits total eight hundred and ten. Opening cash of five hundred plus eight hundred and ten, less one thousand and eighty in payments, leaves two hundred and thirty. The remaining eight hundred and ten received after delivery brings the ending balance back to one thousand and forty. Changing the deposit timing has increased the lowest cash balance, but it has not increased the sale price or reduced a cost. The final surplus remains five hundred and forty."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "The fourth recall question: why can a profitable plan with an ending balance of one thousand and forty still fall below the owner's two-hundred-pound reserve? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Because payments can come before the final customer receipts. With forty percent deposits, the studio falls to sixty-eight before collecting the remaining balances. Profit for the whole job and cash available on a particular date answer different questions. The higher ending balance does not travel backwards in time to pay an earlier bill. We need the sequence of receipts and payments as well as their eventual totals."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "The fifty percent deposit has only thirty pounds of headroom above the chosen reserve. An unexpected fifty-pound payment would take the lowest balance from two hundred and thirty to one hundred and eighty. If that payment is also a genuine extra cost, it reduces the eventual surplus from five hundred and forty to four hundred and ninety. Here one event affects both profitability and the timing of cash. We should not assume every cash shortfall is merely a harmless timing issue."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "A fifty-five percent deposit would bring eight hundred and ninety-one pounds before production. Add opening cash of five hundred and subtract the planned one thousand and eighty of payments, leaving three hundred and eleven. Even after the extra fifty-pound payment, two hundred and sixty-one remains. The final cash balance, once all customers pay, would be nine hundred and ninety with that extra cost. A bigger deposit changes the path; the fifty-pound cost changes the destination as well."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Whether customers will agree is a commercial question. The owner could explain that materials and an outside production slot must be committed before delivery, then offer a clearly described deposit arrangement. The calculation does not grant a right to change terms after an order is agreed. In this case the orders are still being negotiated. For existing agreements, the studio would need to work within them or reach a new agreement, rather than pretending the preferred cash schedule already exists."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Another possibility is an agreed later payment to a supplier. If some of the four hundred and twenty of production payments can genuinely fall after customer balances are collected, the trough improves without changing the customer's deposit. That option may have a price or may be unavailable. A supplier might offer thirty days at a higher total cost, or require immediate payment. The studio must compare the actual offer. Quietly paying late is not the same as negotiating credit and is not an assumption our model can make."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "A smaller order can also ease cash needs, but only if the payments shrink with it. Removing a booklet batch reduces revenue by forty-eight and variable costs by twenty-four. It does not remove the entire three hundred fixed bill. If a minimum outside order remains in place, cutting sales may leave the outsourcing premium unchanged. The owner needs to recalculate the schedule, not simply say fewer orders mean less risk. Less activity can lower the funding requirement while also leaving fewer pounds to meet unavoidable bills."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Now listen to two possible responses to the special-order customer. The first is, I cannot do that price because my costs are high. It gives the customer little to work with and says nothing about which condition could change. The second is, At that quantity and deadline, I can offer fifty-four pounds per batch with one approved proof and no later changes. If the date can move to a week with space, I can review the price. The second identifies what is being traded."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "That response does not need to expose every internal margin figure. The customer needs a usable offer, not access to the studio's entire decision model. The owner privately knows that this week's scarce hours have a valuable alternative. In the conversation, they can discuss timing, quantity, scope and approval deadlines. These are practical variables because each can alter a cost or free capacity. A vague promise of future business has not yet changed any of those quantities."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Suppose the customer says this small job will lead to much larger orders. We need to separate a possible future benefit from a committed present payment. The studio could ask what future quantity, timing and specification the customer can actually commit to. If nothing is committed, the owner may still choose to experiment, but should label the lost one hundred and thirty-four pounds as a deliberate acquisition cost in this example. It would be misleading to call the discounted job profitable merely because a future order is imaginable."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Even a committed repeat order would need its own capacity and cost check. Winning a large contract at an inadequate margin can multiply a weakness. A promise of twenty more booklet batches at the same low price is not automatically worth the first concession if it displaces better work every week. The value depends on when those orders arrive, what they contribute, how certain they are and what else must be given up. More future sales are not a substitute for that comparison."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "The owner could propose a smaller trial with a specific outcome to examine. For instance, one proof stage and a defined batch quantity could reveal whether the customer supplies files on time and whether production estimates are realistic. This has informational value, but we should not hide its cost inside optimistic sales forecasts. Set a bounded amount the studio is willing to spend learning, then record what the trial actually teaches. The point is to make uncertainty manageable, not to claim every bad offer is secretly an investment."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Scope control is especially important when our revised special quote earns only eighteen pounds more than the normal alternative. One additional payment above eighteen would wipe out that advantage. If customer revisions require another press hour and displace a normal booklet, the lost contribution of twenty-four would also exceed the improvement. That is why the quote described one approved proof and no later changes. A price can look adequate for one scope and become inadequate for another, even when the headline order value stays the same."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "The phrase no later changes cannot make an impossible production error disappear. The studio remains responsible for delivering what it agreed to make. We are distinguishing a requested change of scope from correcting its own failure to meet the specification. Those situations can have different commercial consequences. In a real agreement, responsibilities need to be settled clearly. In the cost model, either kind of extra work must be recognised when estimating the resources the job will actually consume."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "So far the press has been the only limiting production resource. To see why that assumption matters, set aside the outsourcing plan and consider a separate version of the original week. There are still twenty-four press hours, thirty potential poster batches and twenty potential booklet batches. Now finishing has only twelve available hours. A poster needs a quarter of a finishing hour, and a booklet needs a full finishing hour. We will allow only whole batches, with no outsourcing in this version."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "The original plan of thirty posters and nine booklets no longer fits. Its posters need seven and a half finishing hours, and its booklets need nine. That totals sixteen and a half, exceeding twelve. A press-only calculation would have promised four and a half finishing hours that do not exist. The revenue and contribution figures were mathematically correct for their assumptions, but the plan is physically infeasible after the new constraint is introduced. Correct arithmetic cannot rescue a missing resource."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Thirty posters leave four and a half finishing hours, enough for four whole booklet batches. Those products use fifteen plus four press hours, so the press runs for nineteen of its twenty-four available hours. Finishing uses eleven and a half of twelve. Poster contribution is five hundred and forty, and four booklets add ninety-six, giving six hundred and thirty-six before fixed costs. After the three hundred fixed bill, the surplus is three hundred and thirty-six."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Why not insist on filling the remaining press hours? Because press hours are no longer the only permission a batch needs. A fifth booklet would take finishing to twelve and a half hours, which is unavailable. Half a finishing hour remains, but a booklet requires a whole hour. We also cannot sell more than thirty poster batches under the stated demand. Idle time on one machine can coexist with a binding limit elsewhere. Keeping every machine busy is not identical to maximising the feasible result."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "We could remove two poster batches to release the extra half finishing hour needed for a fifth booklet. Twenty-eight posters and five booklets use exactly twelve finishing hours. Their contribution is five hundred and four plus one hundred and twenty, or six hundred and twenty-four. That is twelve less than the thirty-poster, four-booklet plan. We gain twenty-four from the additional booklet but lose thirty-six from two posters. The adjustment fits, but it makes the contribution smaller."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "In this particular example, posters earn seventy-two pounds per finishing hour because eighteen divided by a quarter is seventy-two. Booklets earn twenty-four. Posters also earn more per press hour. That helps explain the priority here. In a different example, one product could be better per press hour and another better per finishing hour. Then sorting by one ratio alone would not settle the schedule. We would need to compare feasible combinations across both limits, or use an appropriate optimisation tool for a larger problem."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "For a small worksheet, simply checking candidate combinations can reveal the issue. Each row would show poster quantity, booklet quantity, press hours, finishing hours and contribution. Reject rows that exceed demand or either available resource, then compare the remaining rows. We should not compare a profitable impossible row with a feasible less profitable one and choose the impossible row. The question is what the studio can actually deliver, including its commitments and quality requirements."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Return now to our earlier outsourced plan, where finishing was assumed feasible. The second-constraint example does not secretly alter its five-hundred-and-forty-pound surplus or its cash forecast. It tells us which assumption must be checked before using those figures. The owner should confirm that fifteen booklet batches can be finished and delivered, not just printed. If finishing is limited as in the separate example, the owner must rebuild the outsourcing plan and cash schedule rather than reuse the old answer."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "There is also a difference between a forecast and a measured result. Suppose the twelve outsourced posters free only five press hours because internal setup and checking consume an hour we forgot. Five extra booklets contribute one hundred and twenty, rather than one hundred and forty-four. Against the same sixty-pound premium, improvement becomes sixty. The outsourcing choice still helps under these revised assumptions, but by twenty-four less. Recording the actual time would improve the next estimate instead of leaving the original eighty-four in place indefinitely."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "A useful after-job record would separate quantity, selling price, actual variable payments, extra setup and scarce hours used. For the outsourcing decision, add the quantity moved outside, the incremental premium and the extra work the released time supported. This lets the owner explain a difference. If sales were as planned but surplus fell, the cause could be a cost increase. If press time was released but no extra orders sold, demand or scheduling may be the issue. Calling both outcomes disappointing conceals what needs to change."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Do not rewrite the original forecast to match the actual result. Keep the forecast and the outcome side by side. The original forecast shows what the decision depended on when it was made. The outcome shows which assumptions held. A good decision can encounter an unfavourable event, and a weak decision can get lucky. We can examine the quality of the initial comparison while also updating the numbers. Neither automatic self-blame nor automatic self-congratulation improves the next schedule."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "One final commercial lever is a general price discount. Suppose someone proposes reducing every price on the outsourced plan by five percent to make the offer easier to sell. Keep the quantities and costs unchanged for this comparison. Five percent of one thousand six hundred and twenty is eighty-one pounds. Revenue would fall to one thousand five hundred and thirty-nine, while the one thousand and eighty of total costs remain. Surplus falls from five hundred and forty to four hundred and fifty-nine. A small percentage of sales can remove a much larger percentage of surplus."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "The eighty-one-pound reduction is fifteen percent of the original five-hundred-and-forty-pound surplus. That does not prove discounts are always a mistake. It shows the amount that some other benefit must replace. If the discount prevents cancellations that would otherwise occur, that is a different comparison. If it creates extra demand but the press is already full, the studio must show how it will fulfil the extra work and at what additional cost. We cannot write down increased sales without the capacity needed to deliver them."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "The cash effect also needs recalculation. At a fifty percent deposit on the discounted revenue, the studio collects seven hundred and sixty-nine pounds and fifty pence before production. Add opening cash of five hundred and subtract one thousand and eighty in payments. The lowest balance becomes one hundred and eighty-nine pounds and fifty pence, below the chosen two-hundred-pound reserve. The discount has reduced both the total surplus and the upfront receipts, even though the deposit percentage stayed the same. Percentages alone can conceal a change in pounds."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "An alternative concession might cost the studio less, but it must be evaluated honestly. A later delivery slot could allow work to use otherwise idle capacity. A smaller number of design revisions could reduce avoidable work. Combining deliveries could reduce an actual delivery charge. None of those savings exists just because the owner names the option. Get a feasible revised specification, identify the costs or hours that genuinely change, and compare that offer with the original. The bargaining space comes from different valuations and different resource demands, not from an invented saving."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Now make one small application on paper, with no actual order or spending involved. Imagine you have eight work hours available. A standard job takes two hours, sells for ninety pounds and has thirty pounds of avoidable cost. There is demand for four standard jobs, exactly filling the eight hours. A new customer offers one hundred and fifty pounds for a special job taking four hours. Its avoidable production cost is seventy pounds, and it needs ten pounds of extra setup. Decide whether to accept it in the full schedule."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Write three lines before looking at the answer: contribution from one standard job, contribution from the special job after setup, and contribution displaced by the special job. The standard job contributes sixty because ninety minus thirty is sixty. The special contributes seventy because one hundred and fifty minus seventy minus ten is seventy. Four hours displace two standard jobs, contributing one hundred and twenty. The special therefore reduces the result by fifty, even though it contributes seventy on its own."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "The fifth recall question: in that paper example, what total special-job price would exactly match the contribution of the two displaced standard jobs, before any other differences? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Two hundred pounds. The special price must cover seventy of production cost, ten of setup and one hundred and twenty of displaced contribution. Those add to two hundred. At that price the choice ties financially under the stated assumptions. It does not add profit relative to the standard jobs, and it does not guarantee that the customer accepts. It gives you a boundary from which to compare a real counteroffer, a later deadline or a different scope."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "At a quoted price of two hundred and twenty, the special would contribute one hundred and forty after its eighty of combined cost. That beats the displaced one hundred and twenty by twenty. If those four hours were genuinely spare instead, with only two standard jobs available, accepting the original one-hundred-and-fifty-pound offer would add seventy. The physical job is unchanged. What changes is the alternative use of the four hours, which is why the same quoted price can be acceptable in one week and weak in another."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "Complete the paper application by changing just one assumption and recomputing the result. You could make the special job take six hours, or increase its avoidable cost to ninety, or remove the extra setup. Choose one, so you can explain the difference. If it takes six hours at the original price, it displaces three standard jobs contributing one hundred and eighty. Its seventy-pound contribution would then leave you one hundred and ten worse off. More work time can make a seemingly generous order less attractive."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "If you instead raise its avoidable production cost to ninety while leaving four hours and the ten-pound setup unchanged, the original one-hundred-and-fifty-pound offer contributes fifty. Compared with one hundred and twenty displaced, the loss is seventy. The matching price rises to two hundred and twenty. If you remove only the ten-pound setup from the original case, contribution becomes eighty and the matching price falls to one hundred and ninety. Each change has a traceable effect because the other assumptions stayed fixed."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "For your written decision, use one sentence that names the alternative and the condition. For example, I would decline the one-hundred-and-fifty-pound offer for this full week because it gives up fifty pounds compared with two available standard jobs; I would reconsider a price of at least two hundred or a genuinely empty four-hour slot. That is a completed commercial comparison. It is more useful than saying the customer is cheap, the job sounds big or the business needs more revenue."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "The print studio's final choice is similarly conditional. Under the original single-constraint assumptions, making thirty poster batches and nine booklets produces a four-hundred-and-fifty-six-pound surplus. Outsourcing twelve posters at the stated premium and making six more booklets raises it to five hundred and forty. But the owner still needs a feasible finishing schedule, an acceptable partner specification and payment timing that keeps the chosen cash reserve. Those conditions are part of the offer being evaluated, not decorative qualifications after the answer."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and conversationally. Explain each business choice and calculation. Both voices contribute developed reasoning. Preserve recall pauses; do not add sound effects or artificially slow speech.",
+      "t": "A sensible next move in the fictional case is to confirm the partner's included work and delivery slot, confirm the additional booklet orders, and negotiate the deposit before committing the cash. If any of those facts change, revise the comparison before accepting the week. You now have a worked way to see where the money is earned, what scarce time is worth and when cash must be available. The practical skill is being able to put the next actual offer beside its actual alternative and explain the difference in pounds and hours."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-09-30",
+    "spoken_words": 7108,
+    "sha256": "6ee4957a4ac7b608b537ac98cac4dd556556fbce9678cc56936c89c07c054319",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://openstax.org/books/principles-managerial-accounting/pages/10-2-evaluate-and-determine-whether-to-accept-or-reject-a-special-order",
+      "https://openstax.org/books/principles-managerial-accounting/pages/10-6-evaluate-and-determine-how-to-make-decisions-when-resources-are-constrained",
+      "https://openstax.org/books/principles-managerial-accounting/pages/10-1-identify-relevant-information-for-decision-making",
+      "https://openstax.org/books/principles-managerial-accounting/pages/3-1-explain-contribution-margin-and-calculate-contribution-margin-per-unit-contribution-margin-ratio-and-total-contribution-margin",
+      "https://openstax.org/books/principles-managerial-accounting/pages/7-3-prepare-financial-budgets"
+    ]
+  }
+}
