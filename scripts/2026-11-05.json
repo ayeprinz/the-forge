@@ -1,0 +1,454 @@
+{
+  "date": "2026-11-05",
+  "title": "[Music] How Scales Become Chords",
+  "summary": "Build major and minor scales, measure intervals, construct triads and seventh chords, distinguish inversions from spacing, trace voice leading and transpose a progression. Five recall questions and a paper arrangement with an answer. Foundations from Carl E. Gardner, Essentials of Music Theory (1912), chapters II and III with limited mathematical acoustics; historical prescriptions distinguished from universal claims. Modern cross-checks from Open Music Theory and Iowa State Comprehensive Musicianship. Sources: https://www.gutenberg.org/cache/epub/65500/pg65500-images.html https://viva.pressbooks.pub/openmusictheory/chapter/intro-to-harmony/ https://viva.pressbooks.pub/openmusictheory/chapter/inversion/ https://iastate.pressbooks.pub/comprehensivemusicianship/chapter/10-5-part-writing-seventh-chords-tutorial/",
+  "instructions": "Start with the C major to C minor alteration. No prior music reading or instrument required. Explain musical letter names clearly without singing; these are spoken constructions, not recorded musical demonstrations. Both voices teach. Present tonal conventions as conventions, not universal emotion or health effects. Five seven-second recall pauses each followed by an answer. End with one paper arrangement and optional instrument extension. Original note examples and frequency calculations independently checked.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "A pianist plays C, E and G together. Now she keeps C and G where they are and lowers E by one piano key, to E flat. Only one note has moved, but the chord has changed from C major to C minor. The root stayed C. The distance from C to G stayed the same. The change happened inside the chord. That small operation gives us a practical way into harmony: identify the notes, measure their relationships, and notice what changes when one part moves."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Suppose another player uses the same three notes, C, E and G, but puts E at the bottom. We have changed something different. This is still a C major chord, now in an inversion. Changing E to E flat changed the chord's quality. Putting E below the other notes changed its arrangement and bass. Those operations often get confused because both alter the sound. We will build enough of the system to distinguish them, construct chords ourselves, and connect several chords without moving every part a long distance."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Start with the piano keyboard as a map. You do not need a piano in front of you. Imagine twelve neighbouring keys, counting white and black together, before the pattern repeats. Moving from one key to the immediately neighbouring key is a semitone, also called a half step. Moving two such steps is a whole tone, or whole step. C to C sharp is one semitone. C to D is two. On this map, the distance counts the moves between keys, not the number of keys touched."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "The white keys have seven letter names: C, D, E, F, G, A and B, then C again. Notice two places where neighbouring white keys are already a semitone apart: E to F, and B to C. There is no black key between those pairs. Between C and D there is a black key. Between D and E there is another. This means the white keys are not seven evenly spaced pitches. Their particular mixture of whole steps and half steps creates the major scale when we begin on C."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "A sharp raises a named note by a semitone. A flat lowers it by a semitone. The black key between C and D can therefore be called C sharp or D flat. On an ordinary equal-tempered piano those names select the same key. They can still tell a musician different things about what the note is doing. Think of the name as carrying both a location and a relationship. We will see that distinction when we build a scale that needs one of every letter rather than using two versions of the same letter."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "The repeated C is an octave above the first C. In the ideal frequency relationship, an octave doubles the rate of vibration. A hypothetical tone at two hundred vibrations per second has an octave at four hundred. Doubling again gives eight hundred. This does not mean the second tone is twice as loud. Loudness and pitch are different dimensions. It means the vibration repeats twice as often. Notes an octave apart share a letter name, while remaining distinct high and low sounds that a player can choose separately."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "When we say a chord contains C, E and G, we often mean three pitch classes, leaving the exact octaves unspecified. A low C and a high C belong to the same pitch class. A keyboard performance might contain two Cs, one E and two Gs. There are five sounding notes, but only three different pitch classes. That distinction will matter when we count chord members. Adding another C does not automatically turn a triad into a different chord type. It can simply make the existing root more prominent in the arrangement."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "There is also a useful numerical distinction between equal steps on the keyboard and equal increments of frequency. In twelve-tone equal temperament, each semitone multiplies frequency by the same factor. After twelve multiplications, the result must be twice the starting frequency. The factor is therefore the twelfth root of two, about one point zero five nine five. We are dividing an octave into equal ratios, not adding the same number of vibrations every time. That is why the spacing works similarly in both low and high registers."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "For comparison, adding a fixed ten vibrations per second would mean something very different at different pitches. Going from one hundred to one hundred and ten is a ten percent increase. Going from one thousand to one thousand and ten is a one percent increase. Those cannot represent the same proportional pitch distance. You do not need the formula to build today's chords. Its purpose is to explain why twelve equal keyboard steps can cover an octave wherever you begin, without treating the frequency axis as a ruler marked in equal additions."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Now build the C major scale by naming its white keys in order: C, D, E, F, G, A, B, C. The gaps are whole, whole, half, whole, whole, whole, half. In semitones that is two, two, one, two, two, two, one. The total is twelve. We have seven different notes, followed by the first note in the next octave. The scale is a pattern of relationships that can begin on other notes. C major is convenient because its pattern happens to fit the white keys without alterations."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Try the same construction from G. We need G, A, B, C, D, E and some version of F before returning to G. The first five gaps work: G to A, A to B, B to C, C to D and D to E. But E to F is only a half step. The pattern requires a whole step there, so use F sharp. F sharp to G then supplies the final half step. G major is G, A, B, C, D, E, F sharp, G. The sharp preserves the pattern."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Calling that raised note G flat would reach the same piano key but obscure the scale's spelling. We would have both G flat and G, while losing the letter F. Standard diatonic scale spelling gives each of the seven letters its own place. F sharp is the seventh degree of G major. That name tells us something a piano key alone cannot tell us. It locates the note within the scale's letter sequence, which later helps us recognise intervals, chords and the direction of moving lines."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Here is the first recall question. What is the whole-step and half-step pattern of a major scale, and which note must be sharpened when we build that pattern from G?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "The pattern is whole, whole, half, whole, whole, whole, half. Starting on G requires F sharp. The important construction is that E to F sharp supplies a whole step and F sharp to G supplies a half step. If you remembered the sharp but not why it belongs there, those two gaps give the reason. We can now move from scales, which order a collection of pitches, to intervals, which describe the relationship between two pitches. Intervals let us inspect a chord rather than memorise its name as an isolated label."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "An interval has both a number and a quality. For the number, count letter names inclusively. C to E contains C, D and E, so it is a third. C to G contains five letters, so it is a fifth. This is different from counting semitone moves. C to E is a third but spans four semitones. C to E flat is still a third, because it still uses C and E as its endpoints, but it spans three semitones. The change in size gives us a different quality of third."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "C to E is a major third. C to E flat is a minor third. C to G is a perfect fifth, spanning seven semitones. The word perfect here is a category name, not a declaration that the interval is aesthetically superior. A minor third is not a faulty major third. These labels allow us to state which relationship we want. If a composer asks for a minor third and gets a major third, the player has changed the material, even if both versions might be useful in different passages."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "We can measure the major third from C without reading notation. Move C to C sharp, then D, then D sharp, then E. Four moves. For the minor third, stop one move earlier at E flat, the same piano key as D sharp. Why call it E flat in this case? Because C to E is the third relationship we are altering. Calling the upper note D sharp would describe an augmented second instead. Equal-tempered sound can coincide while the written interval names describe different letter relationships."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "The distinction becomes practical when a tune is transposed, meaning its relationships are moved to a new starting pitch. A melody that goes C, E, G outlines a major triad. Move everything up two semitones and it becomes D, F sharp, A. The first jump remains a major third and the outer span remains a perfect fifth. If we simply move to the next white-key letters and write D, F, A, we get a minor triad instead. Moving letter names without preserving the actual distances has changed the tune's interval structure."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "An interval can also be inverted. Begin with C below E. Move the lower C up an octave so that E is now below C. The major third has become a minor sixth. The letter counts, third and sixth, add to nine, while the semitone distances, four and eight, add to twelve. Those sums refer to different counting systems. The inclusive letter method counts an endpoint in each interval, so it does not use the same arithmetic as measuring the gaps across an octave."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "For another example, C below G makes a perfect fifth. Put that lower C above G and you obtain a perfect fourth, G to C. Seven semitones and five semitones complete the octave. A major interval becomes minor when inverted within the octave, a minor interval becomes major, and a perfect interval remains perfect. This operation gives us a useful diagnostic when a wide interval is awkward to recognise. It also prepares us to distinguish the inversion of a pair of notes from the inversion of an entire chord."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Now stack two thirds. C to E is a major third, and E to G is a minor third. Together they produce C, E, G, a major triad. The distances from the root are zero, four and seven semitones. Swap the sizes of the stacked thirds: C to E flat is minor, E flat to G is major. Now we have a minor triad, with root distances zero, three and seven. The two structures share their root and perfect fifth. Their middle member is different."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "This gives a precise explanation of our opening example. Lowering E to E flat reduced the bottom third from four semitones to three and enlarged the upper third from three semitones to four. The whole span from C to G remained seven semitones. A chord quality belongs to the arrangement of intervals above its root, rather than to the absolute height of the notes. D, F sharp, A is major for exactly the same interval reason that C, E, G is major, although every pitch is higher."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "There are two other basic triad qualities in this system. Two minor thirds stacked together produce a diminished triad. C, E flat and G flat have root distances zero, three and six. Two major thirds produce an augmented triad. C, E and G sharp have root distances zero, four and eight. Their fifths differ from the perfect fifth. Diminished means that fifth has been made smaller by a semitone; augmented means it has been made larger. The names describe construction before they describe any musical effect."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Consider the word triad carefully. In this lesson it means a three-member chord constructed from a root, a third and a fifth, with the appropriate alterations. It does not mean any random collection of three pitches. C, D and G contains three pitch classes but lacks the third-stacking structure of our triads. Musicians use other kinds of chords as well. The older textbook we are drawing on, Carl Gardner's Essentials of Music Theory, speaks very broadly about chords built in thirds. We are using that as a particular harmonic system, not a rule for every kind of music."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Here is the second recall question. C, E flat and G form which kind of triad? What single change turns it into a diminished triad while keeping C as the root?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "C, E flat and G form C minor. Lower G to G flat and the triad becomes C diminished. The minor third above C remains unchanged, while the fifth shrinks from seven semitones to six. That answer also shows why lowering the third and lowering the fifth are different operations. We are adjusting different chord members. Once the members are clear, we can construct chords from a scale rather than starting with an unrelated formula for each root. This is where the collection begins to form a connected harmonic vocabulary."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Write the C major scale as a circle of letters: C, D, E, F, G, A, B, then continue again through C. To build a triad on any degree, choose that degree, skip the next scale note, choose the following one, skip again, and choose the next. Starting on C gives C, E, G. Starting on D gives D, F, A. Starting on E gives E, G, B. We have used the same selection rule, but the resulting intervals need not be identical because the scale's gaps are unequal."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "D to F is three semitones and F to A is four, so the triad on D is minor. E to G is three and G to B is four, so the triad on E is also minor. F, A, C is major: four semitones followed by three. G, B, D is major for the same reason. A, C, E is minor. Finally B, D, F contains two minor thirds, making it diminished. Every note in these chords belongs to C major, yet their chord qualities differ."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "This is the major-key triad pattern in order: major, minor, minor, major, major, minor, diminished. It is a consequence of the scale's spacing. If you preserve the major-scale pattern in another key, the same sequence of chord qualities follows. In G major, for example, the chord on the second degree is A, C, E, which is minor. The chord on the fifth degree is D, F sharp, A, which is major. Remembering the key's F sharp is necessary when we construct that fifth-degree chord."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Roman numerals offer a way to describe these relationships without tying them to C major. One means the chord rooted on the first scale degree, two the chord on the second, and so on. In a common convention, uppercase numerals identify major triads and lowercase numerals identify minor triads. A small circle marks diminished quality. In speech we can simply say one major, two minor, three minor, four major, five major, six minor and seven diminished. The scale-degree number and the chord quality each supply different information."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "A progression of one, four, five, one in C major therefore means C major, F major, G major, C major. The same progression in G major becomes G major, C major, D major, G major. The chords have changed their absolute pitches, but their relationships to the key have stayed constant. This is why a player can accompany a singer in a different key without learning a wholly unrelated progression. The player preserves the sequence of functions and adjusts the actual notes to the new scale."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "There are two different uses of numbers to keep separate. In the C major chord, E is the third of that chord. In the C major key, E is also scale degree three, which makes the distinction easy to miss. Now consider F major within that same key. Its third is A, even though A is scale degree six of C major. Saying the third can mean a chord member or an interval, while saying the third degree refers to a scale. Naming the reference point prevents a great deal of confusion."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Likewise, the fifth-degree chord is not a chord made only from fifths. In C major, the fifth-degree chord is G, B, D. G is its root, B its third and D its fifth. The whole chord is called five because its root lies on the fifth degree of the key. Inside it, the members still have their own root-based relationships. You can think of this as two maps laid over the same notes: a map locating the chord within the key, and a map locating each member within the chord."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "What makes C the tonic rather than just the first item in a list? In tonal music, the tonic functions as a centre around which the passage is organised. Phrases return to it, bass patterns support it, and other events can establish it as a point of rest. A list of white keys does not by itself prove that C is the centre. The same pitch collection can support other organisation. The key becomes clearer through what the music actually does over time, not solely through counting which notes occur."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "A minor is an important example. Its natural minor collection is A, B, C, D, E, F, G, A, using the same white keys as C major. Starting the ordered collection on A produces a different gap pattern: whole, half, whole, whole, half, whole, whole. A and C major are called relative keys because they share the same key signature. That does not make them musically identical. If A is established as the centre and the A minor triad is treated as home, the relationships of the surrounding notes are reorganised."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Compare C major and C minor, which share a tonic instead of a key signature. These are parallel keys. C natural minor contains C, D, E flat, F, G, A flat, B flat, C. Relative compares different tonics with the same key signature. Parallel compares the same tonic with different modes. The distinction explains why changing from C major to A minor differs from changing C major to C minor. In the first case the centre changes while the basic natural collections overlap completely. In the second, the centre stays C while several scale members change."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Minor-key music commonly uses more than the natural minor collection. A natural minor has G below A, separated by a whole step. Raise G to G sharp and the distance to A becomes a semitone. The resulting harmonic minor collection is A, B, C, D, E, F, G sharp, A. This alteration also changes the chord on E. With G natural it is E minor, E, G, B. With G sharp it is E major, E, G sharp, B. A scalar change has altered a useful chord relationship."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "The raised seventh is called a leading tone when it lies a semitone below the tonic. In A harmonic minor, G sharp has that relationship to A. The name describes its conventional tendency within tonal phrases, rather than an irresistible force acting on every listener. A composer can hold it, redirect it or avoid resolving it. But when E major moves to A minor, G sharp can rise a semitone to A while another part moves toward C or E. That creates a different connection from an E minor chord containing G natural."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Harmonic minor introduces a larger gap between its sixth and seventh degrees. In A harmonic minor, F to G sharp is three semitones, spelled as an augmented second because it spans the letters F and G. One common melodic-minor pattern raises the sixth as well as the seventh when ascending: A, B, C, D, E, F sharp, G sharp, A. In the standard classical scale exercise, the descending form returns through G natural and F natural. Actual pieces do not have to follow that exercise mechanically; the forms describe available resources."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "We should resist turning these collections into emotional labels that claim too much. Major and minor name interval structures and tonal organisations. They do not guarantee happiness or sadness. A fast minor-key dance and a slow major-key lament can defeat that shortcut immediately. Tempo, register, articulation, texture and musical context all contribute to the result. For today's practical purpose, the reliable operation is to identify which third and which scale members are present. An emotional description can follow a particular performance, but it cannot substitute for the construction."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Here is the third recall question. How do relative keys differ from parallel keys? Use C major with A minor, and C major with C minor, as your examples.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "C major and A minor are relative keys: different tonics, the same key signature. C major and C minor are parallel keys: the same tonic, different modes and key signatures. Minor passages can alter notes beyond the key signature, as with G sharp in A minor, so a shared signature does not mean every note of every passage must match. That distinction matters when identifying harmony from a written part. The signature supplies a starting collection, while accidentals show local alterations that can change the chord you actually hear."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Return to C, E and G, and place C at the bottom, E above it and G above that. This is root position because the root is the lowest note. Move the bottom C up an octave and the order becomes E, G, C. This is first inversion because the third of the chord is now in the bass. Move E above the other two and we get G, C, E, second inversion, with the fifth in the bass. The chord remains C major in all three cases."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "The lowest note controls the inversion name. The top note does not. Suppose the bass stays C while the upper notes are G and E in a higher octave. That is still root position. Suppose the bass is E and the upper notes include C, G and another C. That is still first inversion. The inversion describes which chord member occupies the bass, not a fixed ordering of every upper part. This lets musicians create many different arrangements without pretending each arrangement changes the underlying chord identity."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "A chord symbol such as C slash E makes this distinction explicit. Read it as a C major chord with E in the bass. The symbol before the slash tells you the chord; the symbol after it tells you the bass note. C slash G places G in the bass. In these examples the bass belongs to the triad, so the slash describes an inversion. Other slash chords can specify a bass that is not a member of the basic chord. We are staying with chord-member basses for now."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Why bother with inversions? Consider three root-position chords: C major, F major and G major, each packed into a small shape. Moving the whole shape from root to root can make every part jump. Instead, start with C, E, G. For the F chord, use C, F, A. C stays where it is, E rises one semitone to F, and G rises a whole step to A. The new chord contains F, A and C, but C is at the bottom. That is F major in second inversion."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Continue from C, F, A to B, D, G for the G major chord. The lowest part moves down from C to B, the middle part moves down from F to D, and the highest part moves down from A to G. Now return to C, E, G. B rises to C, D rises to E, and G remains. We have linked the same chord sequence through nearby positions. This particular three-part exercise illustrates economical movement; it is not offered as a complete rulebook for classical four-part composition."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Voice leading names the motion of the individual lines from one harmony to the next. The vertical view asks which chord is sounding now. The horizontal view follows what each part does across time. In our final move, one line goes B to C, another D to E, and another holds G. Hearing or examining those separate paths can explain why two performances of the same chord symbols feel connected differently. A chord chart supplies harmonic landmarks, but it leaves many choices about the routes between them."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Common tones are notes shared by successive chords. C major and A minor share C and E. An arrangement can hold both and move G to A. Two of three parts remain stationary while the chord changes. C major and F major share C. C major and G major share G. These relationships are visible directly from the chord spellings. They give a player specific options for retaining continuity. Holding every available common tone is not compulsory, but seeing the options is more useful than moving a memorised shape automatically."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Now distinguish inversion from spacing. Put C, E and G close together and you have a compact triad. Put a low C under a much higher G and E and the same members occupy a wider space. The inversion can stay root position while the spacing changes dramatically. On an actual instrument, register and spacing affect clarity and colour. A composer may spread low parts farther apart and keep upper parts closer together. That is an arrangement choice, separate from deciding whether the chord is major, minor, diminished or augmented."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Doubling adds another instance of an existing chord member. A four-part version of a C major triad must repeat at least one of its three pitch classes if all four parts are sounding chord tones. It might contain C, G, C, E. There are two Cs, but the chord is still a triad. Different musical styles impose different preferences about which member to double and how voices should move. Today we need only the structural point: four sounding voices do not necessarily imply a seventh chord, because one member may simply be repeated."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "A seventh chord adds a new member a third above the triad's fifth. Starting from C, E, G, add B. The result is C major seventh: a major triad plus a major seventh above the root. The root distances are zero, four, seven and eleven semitones. Replace B with B flat and the upper interval becomes a minor seventh, ten semitones above C. That produces C dominant seventh, commonly written C seven. Those names distinguish two chords that share their first three members but differ in their fourth."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "The bare number seven in a common popular-music chord symbol generally means the major triad with a minor seventh, not the major seventh chord. Thus G seven contains G, B, D and F, while G major seven contains G, B, D and F sharp. One accidental matters. To build either chord correctly, identify both the triad quality and the seventh quality. Treating seven as an instruction to add whichever seventh happens to appear in a nearby scale can accidentally change the chord symbol's meaning."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "C minor seven combines C, E flat, G and B flat, a minor triad with a minor seventh. C minor major seven combines C, E flat, G and B natural, a minor triad with a major seventh. You do not have to memorise every label at once. The construction supplies the explanation: select the triad, then select the seventh above its root. Major or minor in the triad and major or minor in the seventh are separate decisions. A compound chord name keeps track of those decisions."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "The diminished family extends the same logic. B, D and F form a diminished triad. Add A and you get B half-diminished seventh, a diminished triad with a minor seventh. Add A flat instead and you get B fully diminished seventh, a diminished triad with a diminished seventh. In the fully diminished version, the successive thirds are all minor thirds. B to D is three semitones, D to F is three, and F to A flat is three. The root-to-top distance is therefore nine semitones."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "That top A flat would share a piano key with G sharp, but the spelling matters. B to A spans seven letter names, while B to G spans six. The diminished seventh is named as an altered seventh, not as a sixth, even though equal temperament can make them sound alike. This is another case where notation preserves a relationship that the key pressed cannot fully display. You can check both descriptions: the physical pitch location and the role the spelling assigns within the constructed chord."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Seventh chords have one more inversion than triads because they have one more distinct member available for the bass. Take G, B, D, F. G in the bass is root position. B in the bass is first inversion. D in the bass is second inversion. F in the bass is third inversion. The upper notes can be rearranged or doubled without changing which of these positions applies. If the bass is F, calling the chord third inversion tells us that its seventh occupies the lowest part."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Here is the fourth recall question. What notes make G seven, and what inversion is it in when F is the lowest note? Explain why four sounding notes alone would not have proved that it was a seventh chord.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "G seven contains G, B, D and F. With F lowest, it is in third inversion. Four sounding notes alone would not prove seventh-chord identity because a triad can use four voices by doubling one of its members. We have to identify the distinct members and their relationships. The answer connects our vertical and horizontal views: the chord name tells us its contents, the inversion identifies its bass, and voice leading would tell us how those notes arrive and where they go next."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "In C major, G seven is the dominant seventh because its root is the fifth scale degree. Its notes include B and F, separated by six semitones. This interval is a tritone. In a conventional resolution to C major, B can rise a semitone to C and F can fall a semitone to E. These two motions lead toward two members of the tonic triad. The description is concrete: two lines each move one keyboard step. We do not need to call every dissonance unpleasant to describe their roles in this progression."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "A four-part example makes the paths visible. Put a low G under the upper notes F, B and D. Move the bass G to C. Move F down to E, B up to C, and D down to C. The arrival has C in the bass and E, C, C above it. The fifth, G, is omitted from this particular tonic voicing, while the root is repeated. This is a conventional way to resolve a complete dominant seventh to an incomplete tonic triad in four-part writing. Each part has an explicit destination."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "There are other possible arrangements, and style determines which constraints matter. If you are writing independent classical parts, keeping lines distinct and handling tendency notes carefully becomes part of the craft. If you are playing a dense keyboard texture, you may use a different number of notes and distribute them differently. The useful habit at this stage is to spell what actually sounds and trace individual movements. Saying the chords resolve is less informative than showing B moving to C, F moving to E, and the bass establishing C underneath."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "An authentic cadence is a phrase-ending move from dominant to tonic. A half cadence ends a phrase on the dominant instead. The progression alone is not the entire ending: melodic arrival, duration, position and what follows help establish a phrase boundary. John Peterson's Open Music Theory chapter makes that contextual distinction explicit. In our C-major example, a phrase ending G to C can provide an authentic close, while stopping the phrase on G leaves a half cadence. The labels concern an organised ending, not every isolated pair of chords in a loop."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Gardner also describes a plagal close, the move from subdominant to tonic. In C major that is F major to C major. Their shared C can remain while A moves to G and F moves to E in a simple upper arrangement. This differs from the dominant-seventh example because it lacks that particular B-and-F combination. Both progressions can participate in endings, but the actual note movements differ. Learning their spellings prevents us from treating all returns to the tonic as one undifferentiated gesture."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "We can use the same chord collection to make different sequences. C, F, G, C establishes one route. C, A minor, F, G uses another. The second sequence shares two members between its first two chords, then two members between A minor and F major. That offers opportunities for smooth upper parts even when the bass changes. We are not assigning a guaranteed emotion to the sequence. We are identifying its construction and the choices it gives an arranger. Rhythm, melody and register still have room to transform the result."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "A repeating loop also differs from a passage shaped toward a final stop. If C, A minor, F and G keep cycling, the return to C may operate as a restart rather than an ending. Hold the final C longer, finish the melody and allow a rest, and the same harmonic arrival can occupy a different formal role. This is why recognising chord symbols is a beginning of analysis rather than the complete analysis. Time gives harmony its direction. The order, duration and placement of the chords matter alongside their contents."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Consider harmonic rhythm, meaning the rate at which the harmony changes. In a four-beat bar, you could hold one C major chord for all four beats. You could change from C to F halfway through. Or you could use a different chord on each beat. The melody might be identical across those versions, yet its notes meet different harmonic backgrounds. A longer held chord lets several melodic events pass over one stable collection. Faster changes make more frequent decisions about how each melodic moment relates to the accompaniment."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "For an original example, let the melody use E, G, A, G, one note per beat. Over a held C major chord, E and G are members of the triad while A adds a pitch outside that basic triad. If the third beat changes to F major, that A becomes the third of the new chord. We have not moved the melody at all. We changed its relationship to the background. The example shows why a melody note should not be classified without considering the harmony and timing underneath it."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "We can also hear an implied chord when its notes arrive successively instead of all together. Play C, E, G, E repeatedly and you outline C major as an arpeggio, a broken chord. The same collection may be spread across time rather than struck simultaneously. That means harmonic analysis does not depend on finding a single moment when every chord member is present. The surrounding pattern can establish the collection. A guitar picking pattern or a keyboard accompaniment can describe a chord through a sequence of notes while a melody moves above it."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "A bass note can change the interpretation of an upper group. Hold C, E and G above a low C and the result directly supports C major. Put a low A under those same upper notes and the complete collection becomes A, C, E, G: A minor seven. The upper three notes have not changed, but the full sonority has gained a different possible root and identity. Context still matters, yet the example shows why analysing only the top hand of a keyboard part can miss an essential component of the harmony."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Conversely, a brief bass movement does not require us to imagine a wholly new harmonic world on every instant. A passage might retain upper C-major notes while the bass travels through notes between important arrivals. Distinguishing a structural chord change from a connecting event requires attention to duration, emphasis and surrounding phrases. Our formulas tell us what collections can be named. They do not force every moment to receive an equally important chord label. Musical analysis combines local pitch facts with a judgement about the larger pattern those facts support."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Transpose our four-chord loop C, A minor, F, G up a whole step. The new chords are D, B minor, G and A. Spell them to verify the move. D major contains D, F sharp and A. B minor contains B, D and F sharp. G major contains G, B and D. A major contains A, C sharp and E. Both F sharp and C sharp belong to D major's scale. The qualities and scale-degree sequence are preserved: one major, six minor, four major, five major."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "A common error would be to move only the chord letters while forgetting quality. C major to D major is straightforward, but A minor must become B minor, not B major. Another error would be to transpose a single note by one white key rather than the same pitch distance as every other note. The calculation is consistent: each original pitch moves two semitones. C becomes D, E becomes F sharp, G becomes A, and so forth. A transposition preserves intervals because the same displacement applies throughout."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Here is the fifth recall question. Transpose C major, A minor, F major, G major up a whole step. Name the resulting chords and the two sharps in the new major scale.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "The chords become D major, B minor, G major and A major. The new key is D major, whose scale includes F sharp and C sharp. The progression keeps its one, six, four, five pattern and its original qualities. If B major appeared in your answer, its D sharp would reveal the changed interval: B to D sharp is a major third, whereas the original A to C was minor. Checking one chord member can expose a mistake that a list of chord letters might conceal."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "For one practical application, make a small paper arrangement. Draw three horizontal rows, one for each upper part, and four columns, one for each chord. We will use C major, A minor, F major and G major. This is a private construction exercise, not a performance test. An instrument is optional. Start by writing C, E and G from the lowest row to the highest in the first column. In the next columns, try keeping shared notes and moving the other parts to nearby members of the required chord."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "One possible second column is C, E, A. The lower two parts stay, and the top moves from G to A. This contains A, C and E, so it is A minor, with C in the bass of our three-part arrangement. The third column can be C, F, A. Now C and A stay while E moves to F. The collection is F major, with C lowest. For the fourth column, use B, D, G. The three lines move down to nearby members of G major, with B lowest."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Read the rows separately. The bottom line is C, C, C, B. The middle line is E, E, F, D. The top line is G, A, A, G. Then read each column as a chord again. Both descriptions should agree: every vertical group supplies the required collection, and every horizontal row has a definite path. This cross-check is the core of the exercise. You have not merely named a progression; you have made an arrangement of it with traceable parts. Other correct answers can use different octaves and movements."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "If you add separate bass roots C, A, F and G below those three rows, the full arrangement changes its bass positions. The second chord now has A lowest, so it becomes root-position A minor rather than first inversion. The upper C, E, A has not changed. The fourth chord similarly gains G in the bass and becomes root-position G major. This extension tests the rule that the lowest note of the whole texture determines inversion, not the lowest note of a selected hand or upper group."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "To check the paper version without adding anything, circle each chord's root wherever it occurs. C is the root in the first column, A in the second, F in the third and G in the fourth. Notice that three of these roots are not the lowest written note. Now label the positions: root position, first inversion, second inversion, first inversion. If you choose to play the notes, listen to the individual rows as well as the chords. The written construction is the required task; accurate singing or keyboard technique is not assumed."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "This exercise also exposes the limit of pure distance minimisation. Choosing the closest available note for every part is one useful arranging strategy, but it does not automatically produce the best melody or satisfy every style's voice-leading rules. A line might become dull through too much repetition, or a deliberate leap might serve the phrase better. We chose small movements to make continuity visible. A composer can make a different tradeoff once the choices are understood. The aim is control over the parts, not a claim that a single arrangement is uniquely correct."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "There is a related limit to the old textbook's language of dependent chords demanding resolution. It describes conventions of a particular tonal practice. A seventh chord can be held as a colour, and a piece can use harmonic patterns that do not pursue a dominant-to-tonic close. The construction still lets us identify the notes. What changes is the role assigned to them within the music. We can retain Gardner's useful interval and inversion explanations without treating every historical judgement about what must follow as a universal law of sound."
+    },
+    {
+      "v": "ash",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "The same care applies to acoustics. Simple frequency ratios can help explain relationships between tones, but they do not prescribe every composition or supply a complete account of musical meaning. We used the octave ratio and equal-tempered step calculation as explicit mathematical models. We did not infer that a major chord has a medically beneficial frequency or that minor harmony produces a fixed mental state. A chord's structure can be described precisely while its effect remains tied to performance, style and context. Those are compatible levels of explanation."
+    },
+    {
+      "v": "sage",
+      "i": "Explain conversationally and clearly. Speak note letters as musical names, and sharp or flat as words. Do not sing or simulate musical examples. Both voices teach. Preserve recall pauses and make sequences easy to follow without artificial slowing.",
+      "t": "Look back at the first change, C major becoming C minor. You can now name the altered member, measure the changed thirds, preserve the root and fifth, and distinguish that operation from inversion or transposition. More importantly, the paper arrangement has turned those distinctions into something you made. Its chord columns and melodic rows describe the same notes from two directions. When a harmony changes, ask which members moved, which remained, and what the lowest note now supports. Those questions lead directly into the actual material of a piece."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-10-01",
+    "spoken_words": 7186,
+    "sha256": "2a6d760530ea3229177a3e070c7540352e0fe57add32cb132f8e98b7307b3774",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.gutenberg.org/cache/epub/65500/pg65500-images.html",
+      "https://viva.pressbooks.pub/openmusictheory/chapter/intro-to-harmony/",
+      "https://viva.pressbooks.pub/openmusictheory/chapter/inversion/",
+      "https://iastate.pressbooks.pub/comprehensivemusicianship/chapter/10-5-part-writing-seventh-chords-tutorial/"
+    ]
+  }
+}
