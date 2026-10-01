@@ -1,0 +1,449 @@
+{
+  "date": "2026-11-04",
+  "title": "[Computing] How Algorithms Find and Sort Information",
+  "summary": "Linear and binary search, invariants, growth bounds, preparation cost, insertion sort, selection sort, merge sort, ties, representations and search boundaries. Original worked traces and arithmetic, five recall questions and one paper-card application. NIST Dictionary of Algorithms and Data Structures and Python bisection documentation consulted: https://xlinux.nist.gov/dads/HTML/linearSearch.html https://xlinux.nist.gov/dads/HTML/binarySearch.html https://xlinux.nist.gov/dads/HTML/bigOnotation.html https://xlinux.nist.gov/dads/HTML/insertionSort.html https://xlinux.nist.gov/dads/HTML/selectionSort.html https://xlinux.nist.gov/dads/HTML/merge.html https://xlinux.nist.gov/dads/HTML/mergesort.html https://xlinux.nist.gov/dads/HTML/stable.html https://docs.python.org/3/library/bisect.html",
+  "instructions": "Begin with the record-shop search. Assume no programming background. Both voices teach mechanisms and contrasting cases. Speak number sequences clearly. Distinguish key comparisons, shifts, swaps, access, memory and elapsed time; explicitly preserve stated input and workload assumptions. One-based positions used first, zero-based boundaries introduced explicitly later. Big O is an upper bound, not exact count. Five seven-second pauses followed by answers. End with the eight-card paper exercise and answer. No software installation or user data needed.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "A music shop has a thousand records and a customer asks for one particular catalogue number. If the boxes are unordered, an assistant may have to inspect every record. If the numbers are in order and the assistant can jump straight to the middle, each inspection can eliminate roughly half of what remains. The records have not become smaller. The assistant has not become a thousand times faster. The arrangement of information has changed what can be concluded from a single observation. That is the starting point for searching and sorting algorithms."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "An algorithm is a procedure precise enough to follow step by step. For our shop, the input is a collection of records and the number we want. The output might be the position of a matching record, or a definite report that there is no match. That last possibility matters. A procedure that works only when the item exists is incomplete for this task. We will build procedures for searching and ordering small collections, then count how their work grows. Our examples use invented numbers so that every decision can be checked without programming experience."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Separate the record from its key. A record might contain a catalogue number, title, artist, price and storage location. The key is the field used for a particular comparison. Searching by catalogue number and sorting by price are different tasks even when the underlying records are identical. If we move a number without moving the information attached to it, we corrupt the collection. A sorted column of prices is useless if each price now belongs to the wrong album. An algorithm must preserve the relationship between a key and its associated data."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "For the first example, imagine six catalogue numbers written on cards: twelve, five, nineteen, eight, twenty-three and fourteen. We want eight. A linear search examines one card at a time. It asks whether twelve equals eight, then whether five equals eight, then nineteen, then eight. The fourth check finds the target. There is no need to know how the other numbers compare in size. Equality is enough. This makes linear search useful when the collection is unordered or when the only available operation is checking the next item."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Search the same cards for eleven. All six checks fail. Only after the sixth can the procedure correctly declare absence, because any unchecked card might still contain eleven. Finding a match can justify stopping early; failing to find one so far cannot. That asymmetry appears in many systems. A single matching document proves that at least one exists. Establishing that none exists requires covering the entire relevant collection or using some other structure that rules the rest out. The search procedure's stopping rule carries part of its correctness."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "We should state exactly what a match means. If catalogue numbers are unique, finding one position resolves the lookup. If several records share the searched field, such as price, finding the first match does not identify every match. A request for any record priced at eight pounds differs from a request for all of them. The input may be the same, but the required output changes. Before comparing the speed of two procedures, make sure they solve the same problem. A fast answer to a weaker question is not an equivalent result."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "The linear search has a simple guarantee as it proceeds. Before checking the next card, every earlier card has been checked and found not to match. This statement remains true after each unsuccessful comparison. Such a maintained statement is often called an invariant. It connects each local step to the final answer. When no cards remain, the invariant covers the whole collection. Therefore absence has been established. This reasoning is stronger than saying that a procedure looked correct on a few examples; it explains why the steps preserve the information the answer needs."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Counting work requires choosing what to count. For now, one equality check counts as one comparison, and accessing the next card is treated as a simple operation. On six cards, the best successful search takes one comparison, the worst successful search takes six, and an unsuccessful search takes six. These are not competing descriptions of the same run. They describe different inputs or target positions. A performance claim that omits whether it concerns the best, average or worst case can hide the very difference that matters to a user."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "If the target is definitely present and equally likely to occupy any of the six positions, the average number of checks is three and a half. Add one, two, three, four, five and six to obtain twenty-one, then divide by six. No actual search makes half a comparison. An average describes a distribution of separate searches. Change the distribution and the average changes. If the first record is requested much more often, putting it first can reduce average work without changing the worst case or making the collection numerically sorted."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "The assumption of a successful search also matters. Suppose half our requests are for absent numbers, and the other half are uniformly distributed across those six present numbers. Successful requests average three and a half comparisons; unsuccessful ones take six. Half of three and a half plus half of six is four and three quarters. That is a different average from three and a half because we changed the workload. A useful algorithm analysis makes its input assumptions visible. It does not offer an average as if nature supplied a single universal pattern of requests."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Now increase the collection to a thousand items. An unsuccessful linear search performs a thousand equality checks. Double the collection and it performs two thousand. Under this simple model the work grows in direct proportion to collection size. We call that linear growth. The label is about how work changes with input size, not whether the program has one line of code. A short instruction that tells a computer to examine every record still performs work across the entire collection, even if the programming language hides the loop."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Here is the first recall question. Why can an unsuccessful linear search of an unordered collection usually stop only after checking every item?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Because an unchecked item could still be the target. The procedure knows that earlier inspected items failed, but has no ordering information that lets it rule out the uninspected ones. Once all items have been checked, the absence report follows. A successful search for any match can stop at the first match because that already satisfies the request. A request for every match would need further work. The stopping condition follows from the required output and the information available, rather than from a wish to finish quickly."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "We can gain more information per check by arranging the keys in increasing order. Our six cards become five, eight, twelve, fourteen, nineteen and twenty-three. If we inspect fourteen while looking for eight, fourteen itself is wrong, and every later card is also wrong because those values are at least fourteen. One comparison has ruled out a whole region. This conclusion depends entirely on the ordering promise. Without it, a later card might contain eight. Binary search is powerful because it repeatedly uses an existing structure, not because it can safely guess where values ought to be."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "For a longer worked case, use eight ordered values: three, seven, eleven, fifteen, nineteen, twenty-three, twenty-seven and thirty-one. Number their positions from one to eight for this spoken example. We will inspect the lower middle position whenever the remaining interval has an even number of positions. Initially the lower middle is position four, containing fifteen. We want twenty-seven. Since the target is greater than fifteen, only positions five through eight remain possible. Notice that we remove the middle position itself as well as everything below it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "The lower middle of positions five through eight is position six, containing twenty-three. Twenty-seven is greater, so the remaining interval is positions seven through eight. Its lower middle is position seven, containing twenty-seven. We have found the target in three inspected positions. Each inspection gives one of three outcomes: equal, smaller or larger. When we count one inspection as one comparison here, we mean that three-way comparison as a unit. A particular programming language might implement it using more than one elementary test, which would change exact instruction counts."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Search the same collection for twenty-five. We inspect fifteen, then twenty-three, then twenty-seven. The target is smaller than twenty-seven, so the upper boundary moves to the position before seven, which is six. But the lower boundary was already seven. There are no positions from seven through six. An empty interval establishes absence. We do not need to inspect thirty-one because the ordering has ruled it out. Binary search earns an absence report by eliminating regions, whereas the earlier linear search earned it by individually checking every card."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "The invariant is now that any possible matching item remains within the current interval. Initially that interval includes everything. If the middle key is below the target, every key through the middle is too small, so removing that region preserves the invariant. If the middle key is above the target, removing the upper region does the same. Equality ends the search successfully. An empty interval ends it unsuccessfully. The explanation links correctness to the ordering, the comparisons and the boundary updates. All three have to agree."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "A tiny implementation error can break termination. Suppose the procedure sees that the target is greater than the middle key, but sets the lower boundary to the middle itself rather than the next position. If only two positions remain, choosing the lower middle can select that same position again and again. The interval does not shrink. Correct binary search must make progress after a failed comparison. This is why testing only easy targets is inadequate. The difficult cases often involve a missing value, a last remaining position, or a boundary between two positions."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "An empty collection should produce absence immediately. A one-item collection should inspect its single item, then either succeed or become empty. A target smaller than the smallest value and one larger than the largest value should also terminate correctly. These cases are not obscure exceptions to be added after the real algorithm. They reveal whether its rules are complete. Working through them on paper is often enough to catch a mistaken boundary update before writing code. The meaning of empty must be specified as carefully as the meaning of found."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "What happens if the input is unsorted? Consider positions holding three, twenty-seven, eleven, fifteen, nineteen, twenty-three, seven and thirty-one. A search for seven begins at fifteen in position four. Because seven is smaller, it keeps positions one through three. The actual seven sits at position seven, which has been discarded. The algorithm may now report absence even though the target exists. It is not randomly unlucky. It has used a premise that is false. A procedure can be perfectly implemented and still give a wrong answer when its required input condition is violated."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "There is another less obvious prerequisite. Reaching the middle must be cheap enough for the intended benefit. In an array, items occupy indexed positions and we normally model access to any position as constant-time. In a chain where each item points only to the next, finding the middle can require walking through many links. The number of comparisons may remain small while the number of movements is large. Reducing comparisons and reducing elapsed time are related goals, but they are not identical. The data structure determines which operations the algorithm can perform cheaply."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "The record-shop analogy makes that visible. A catalogue on a screen may let an assistant jump directly to a numbered position. A single sealed queue of boxes might require opening and moving everything in front of the middle one. Both collections could be ordered. The physical access cost differs. Computer storage has its own versions of this distinction, including sequential access and the cost of moving data between storage and memory. Our comparison counts are a model. To predict real performance, we must also know which operations dominate in the actual setting."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Here is the second recall question. What two assumptions make the usual fast binary-search argument work, and what goes wrong when either is missing?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "The keys must be sorted according to the same ordering used by the search, and the model must allow suitably cheap access to the chosen middle positions. Without sorted order, a comparison can discard a region that actually contains the target. Without cheap middle access, the search may perform few comparisons but spend substantial work travelling to them. Correctness and speed have different prerequisites here. Ordering supports the elimination argument; the access model supports the performance argument. Neither is established merely by calling the procedure binary search."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Repeated halving produces logarithmic growth. Start with a range of one thousand and twenty-four positions. Halving ten times reduces that size to one. A conventional search may still inspect that final position, so do not casually equate ten halvings with an exact ten-comparison worst case. For the version we are using, a successful search can require eleven inspected positions in that collection. At two thousand and forty-eight items it can require twelve. Doubling the input adds roughly one step rather than doubling the number of checks."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "A power of two makes the relationship easy to see. Two to the tenth power is one thousand and twenty-four. The base-two logarithm of one thousand and twenty-four is therefore ten. A logarithm answers how many factors of the base are needed to produce the number. In this setting it measures the depth created by repeated halving. The symbol is not an extra operation the search must perform. We can describe the growth mathematically even though the algorithm itself simply compares a key and updates two boundaries."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "At a million items, the difference from a linear scan is substantial in the comparison model. Two to the nineteenth power is five hundred and twenty-four thousand, two hundred and eighty-eight. Two to the twentieth is one million, forty-eight thousand, five hundred and seventy-six. A million falls between them, so our binary search needs at most twenty inspected positions in its worst case. An unsuccessful linear scan needs a million. This does not promise an exact speedup of fifty thousand in a real program, because comparison counts are only one component of execution cost."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "We use growth notation to describe such patterns. Big O gives an asymptotic upper bound, ignoring fixed constant factors and considering sufficiently large inputs. Saying a cost is big O of the input size means that beyond some point it is bounded by a fixed multiple of that size. It does not mean the cost equals the size exactly. A linear cost is also bounded by a quadratic expression for sufficiently large inputs, so a technically true upper bound can still be uninformative. We usually want a bound that captures the growth closely."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "For an original numerical example, suppose one procedure costs three times the number of items plus seven operations. At ten items the count is thirty-seven. At a hundred it is three hundred and seven. For any input of at least seven items, three times the size plus seven is at most four times the size. That fixed multiple establishes a linear upper bound. The constants influence actual counts, especially on small collections, but they do not change the eventual linear pattern. This is what the notation deliberately leaves out."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Compare a second invented procedure costing the square of the input size. At ten items it uses a hundred units; at a hundred it uses ten thousand. Doubling from a hundred to two hundred multiplies the square by four. A linear cost would roughly double. A logarithmic comparison count would increase only slightly. These differences can dominate at large sizes. Buying a machine that performs each unit twice as fast does not change a quadratic growth pattern into a linear one. Better hardware and better algorithms address different parts of the total cost."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Still, the smaller growth rate does not guarantee a win on every small input. Imagine a method costing a thousand plus ten times the input size, and another costing the square of the size. At ten items, the first costs one thousand one hundred while the second costs one hundred. At a hundred, the first costs two thousand while the second costs ten thousand. The crossover is a property of the chosen constants and model. Asymptotic reasoning helps anticipate scaling; measurement tells us about a particular implementation, workload and machine."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "So far we have assumed that the collection is already sorted. If it is not, preparing it has a cost. Sorting a thousand items merely to answer one question might do more work than a single linear scan. Sorting once to answer many questions can be worthwhile. The decision depends on the number of queries, the cost of preparation, whether new items arrive, and whether the original order must be preserved. An algorithm should be evaluated as part of the full task, including the work that makes its prerequisites true."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Use fictional operation counts to compare two plans. A scan of a thousand-item collection costs at most a thousand checks per query. Suppose arranging the collection costs ten thousand units and each later search costs ten units. For one query, the prepared plan costs ten thousand and ten, versus a thousand for scanning. For twenty queries, it costs ten thousand two hundred, versus twenty thousand for scanning. These are declared teaching assumptions, not exact measurements of a real sorting method. Their purpose is to show how a preparation cost can be spread across repeated use."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "The break-even calculation follows directly. With eleven queries, scanning costs eleven thousand units. Preparing and searching costs ten thousand plus one hundred and ten, or ten thousand one hundred and ten. With ten queries, scanning costs ten thousand while preparation and searching costs ten thousand one hundred. In this simplified model the prepared plan first wins at eleven queries. If the collection changes after every query and must be prepared again, that conclusion no longer holds. Reuse is part of the reason the investment pays off."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "To understand preparation, we need a sorting procedure. Insertion sort grows an ordered part of the collection one item at a time. Think of arranging cards in your hand. The first card is already sorted by itself. Take the next card, find where it belongs among the cards already arranged, and make space for it. Continue until every card has been inserted. The key guarantee is that the processed portion is in order and contains exactly the processed items. The untouched portion may still be completely disordered."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Work through five values: nine, four, seven, two and six. Begin with nine as the sorted portion. Take four. Nine is larger, so move nine one place right and put four before it. The processed portion is now four, nine. Take seven. Nine moves right because it is larger than seven. Four is smaller, so seven belongs after four. The processed portion becomes four, seven, nine. We have not searched for the smallest item in the entire collection. We have placed the next encountered item correctly among the ones already processed."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Now take two. Nine, seven and four each move one position to the right. Two goes at the beginning, giving two, four, seven, nine. Finally take six. Nine and seven move right. Four is smaller, so six goes after four. The final order is two, four, six, seven, nine. For this particular run there were one, one, three and two rightward shifts, giving seven shifts in total. A shift is not the same thing as a comparison, because a comparison that tells us to stop shifting still does useful work."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "With the simple version that compares the held key to earlier values until it finds its place, the key-comparison counts in those four insertions are one, two, three and three. Their total is nine. We count only comparisons between keys, not checks of whether an index has reached the beginning. Being explicit avoids apparently contradictory measurements. Someone counting every condition test will report another number. Someone counting writes will report yet another. The algorithm has several kinds of operation, and each measurement needs a definition before the totals mean anything."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "The input order changes insertion sort's work. If the values already increase, each new item is compared with the end of the sorted portion and stays where it is. Five values need four key comparisons and no rightward shifts in this implementation. If the values arrive in descending order, every new item moves past everything processed so far. For five values, the shifts are one plus two plus three plus four, which is ten. An algorithm's response to existing order can matter greatly when most incoming data is nearly organised already."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "For a hundred values in descending order, the number of shifts is one plus two and so on through ninety-nine. Pair the first and last terms: one and ninety-nine make a hundred, two and ninety-eight make a hundred, and so forth. The sum is a hundred times ninety-nine divided by two, or four thousand nine hundred and fifty. This formula grows quadratically. At two hundred values, the corresponding sum is nineteen thousand nine hundred. Doubling the input almost quadruples the shifts, with the small difference explained by the subtracted linear term."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Insertion sort can benefit from a nearly sorted collection because an item only crosses the larger items before it. In the list one, two, three, five, four, six, the four crosses only the five. That does not prove that every vaguely described nearly sorted input is equally easy. It identifies the concrete source of movement: pairs that appear in the wrong order. When there are few such pairs, this shifting procedure can need little rearrangement. The phrase nearly sorted becomes useful when tied to a measurable property rather than a visual impression."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Could binary search make insertion sort fast by locating each insertion position? It can reduce comparisons, but the space still has to be opened in a conventional array. If the new item belongs at the beginning of a thousand-item array, a thousand existing items may have to move. Python's official bisection documentation makes this distinction explicitly: its sorted insertion operation is dominated by the linear insertion step despite using a logarithmic search. The faster location step does not erase the movement step. Optimising one part of a process helps only to the extent that the remaining parts permit."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "This is a general performance lesson with a concrete mechanism. Finding the right shelf position quickly does not transport a heavy stack out of the way. In a computer, moving references can be cheap, while moving large records or writing to slow storage can be expensive. One design may sort small references to records rather than relocating all the record contents. That changes what a move costs, although it introduces its own access considerations. The right representation is part of algorithm design. A count of moves needs to be interpreted in relation to what is actually being moved."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Here is the third recall question. Why does using binary search to find an insertion point not automatically make insertion into a sorted array logarithmic overall?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Because locating the position and making space are separate operations. Binary search can find the position with logarithmically many comparisons, but inserting near the beginning of a conventional array may require shifting nearly every existing item. That movement is linear in the collection size. The overall cost includes both steps and is dominated by the more expensive growth term in this setting. A different data structure changes the available operations and tradeoffs, so the conclusion belongs to the stated array model rather than every possible representation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "A second simple sort is selection sort. Instead of inserting the next encountered item, it scans the remaining collection to find the smallest and places that item next in the output order. For nine, four, seven, two and six, the smallest is two. Swap it with the first position, producing two, four, seven, nine, six. The first position is now final. Search the remaining four values for their minimum, which is four. It is already in the correct place. Continue with the remaining three, whose minimum is six."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Swap six with seven to obtain two, four, six, nine, seven. The final pair is put in order by swapping seven and nine. This implementation has made three actual swaps, while scanning for minima uses four plus three plus two plus one key comparisons, or ten. Existing order does not remove those scans from this simple version. Even on sorted input, it still checks the remaining items to establish each minimum. Compared with insertion sort, it can do fewer large movements while continuing to make many comparisons. Which cost matters depends on the setting."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "The distinction between these two sorts is easy to blur because both grow a finished-looking prefix. In insertion sort, the prefix is ordered but its elements may shift again when a later item is inserted. In selection sort, the chosen prefix contains the globally smallest items in their final positions. Each method maintains a different guarantee. If you describe an algorithm only as gradually sorting from the left, you omit the feature that explains its decisions. Precision about what is already known makes both implementation and analysis easier."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "For selection sort on a hundred values, the repeated scans make four thousand nine hundred and fifty key comparisons in the simple implementation. That is the same numerical sum as the worst-case insertion shifts, but the operations differ. Equal totals do not establish equal speed. If comparing two complex keys is costly and moving a small reference is cheap, the tradeoff may favour one method. If writes are the main concern, another choice may be appropriate. Abstract counts are useful because they separate these dimensions rather than pretending that every operation has the same physical cost."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "To improve scaling beyond repeated long scans or shifts, merge sort takes a different approach. Split the collection into smaller groups, sort the groups, then combine the sorted results. The crucial combining operation is a merge. If two sequences are already ordered, their smallest remaining item must be at the front of one of them. Compare those fronts, take the smaller, and repeat. There is no need to search every item to find the next one. The local order inside each sequence provides the information that makes this combining step efficient."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Use two sorted groups: two, seven, twelve and four, six, fifteen. Compare two with four and take two. Compare seven with four and take four. Compare seven with six and take six. Compare seven with fifteen and take seven. Compare twelve with fifteen and take twelve. The first group is now empty, so append the remaining fifteen. The result is two, four, six, seven, twelve, fifteen. We used five comparisons between group fronts. Each comparison removes one item from consideration, so the procedure cannot keep revisiting the same front indefinitely."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Why is it correct to take the smaller front? Suppose two is at the front of the first ordered group and four is at the front of the second. Every other item in the first is at least two, and every other item in the second is at least four. Therefore two is no larger than any remaining item. Once removed, the same reasoning applies to the new fronts. This is another invariant-based argument: the output is ordered, and every item already output is no greater than the items still waiting. Order gives each comparison consequences beyond the two values directly examined."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "A merge of two nonempty groups containing six items in total needs at most five front comparisons. It may need fewer. If one group is one, two, three and the other is ten, eleven, twelve, three comparisons empty the first group, and the rest can be appended. The exact count depends on interleaving. Appending still involves movement, so fewer comparisons does not mean the remaining items appear in the output for free. Again, correctness, comparisons and data movement are separate parts of the analysis, even when one convenient model focuses on only one of them."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Now sort eight values by merging: eight, three, six, one, seven, four, two, five. Split them into the first four and last four. Split each four into pairs, and each pair into single items. A one-item group needs no sorting. Merge eight and three into three, eight. Merge six and one into one, six. Merge seven and four into four, seven. Merge two and five into two, five. These four small merges have created four ordered pairs from the original eight singletons."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Merge the first two ordered pairs. Comparing three with one takes one; comparing three with six takes three; comparing eight with six takes six; then append eight. The first half becomes one, three, six, eight. Merge four, seven with two, five in the same manner to obtain two, four, five, seven. Finally merge those two four-item sequences. Their fronts successively supply one, two, three, four, five, six, seven, then the remaining eight. The full result is ordered, and every original value appears exactly once."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "For this eight-item example, the pair merges use four comparisons in total. The two merges into groups of four use three comparisons each, giving six. The final merge uses seven. Four plus six plus seven is seventeen comparisons. Do not mistake that exact count for eight times the base-two logarithm of eight, which is twenty-four. The latter describes a useful scale of work, not the exact count for every run. Precise examples and growth formulas answer different questions and should not be substituted for one another."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "The growth explanation comes from levels. At the first merging level, every item belongs to a pair. At the next, every item belongs to a group of four. At the next, groups contain eight. Across one level, the total number of items processed is proportional to the collection size. The number of levels is logarithmic because group sizes double. Linear work at each of logarithmically many levels produces the familiar size-times-logarithm pattern. This is often written as n log n, with n standing for the number of items."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "For one thousand and twenty-four items, there are ten merge levels from singletons to the full collection. Treating a full level as roughly one thousand and twenty-four item-processing units gives ten thousand two hundred and forty units. For two thousand and forty-eight items there are eleven levels, giving twenty-two thousand five hundred and twenty-eight. The total grows a little more than twice as large when the input doubles. These level totals are an explanatory model of work, not a claim that a specific program executes exactly that many processor instructions."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Ordinary array-based merge sort commonly uses extra storage for its merged output. That is a real tradeoff. A method can improve its comparison growth while requiring another array proportional to the input size. Recursive implementations also need to track unfinished calls, though a bottom-up implementation can merge adjacent groups iteratively. There are specialised variants with different memory properties, so we should not treat one implementation's storage use as the definition of merge sort itself. Our basic version trades additional working space for a straightforward, efficient combining procedure."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Here is the fourth recall question. Why does merge sort have size-times-logarithm growth in the usual comparison model, rather than quadratic growth?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Because each merge level processes a total amount proportional to the number of items, and the number of levels grows logarithmically as groups double in size. The algorithm avoids repeatedly scanning almost the entire remaining collection for each output position. It uses the order inside smaller groups to combine them efficiently. Exact comparison counts can be lower than the simple level estimate, and actual time also includes copying and access costs. The growth argument describes the structure of the work, while the implementation determines its detailed constants and memory requirements."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Equal keys introduce a further requirement. A stable sort preserves the original relative order of records whose keys compare equal. Suppose two orders have the same priority, and the earlier one should remain first. Sorting by priority alone with a stable method preserves that arrival order. Stability does not mean that the algorithm never fails or that its speed varies little. It has this specific meaning about ties. In a merge, choosing the item from the earlier input segment first when front keys are equal can preserve stability, provided the smaller segments were sorted stably too."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "For another detail, sorting numbers stored as text can give a surprising order. Compare the strings two, ten and one hundred as character sequences rather than numerical values. Using ordinary digit-by-digit text order, the string for one hundred comes before the string for two because its first digit is smaller. A numerical comparison produces a different result. The procedure cannot infer the intended meaning from our wish that the output look sensible. The key representation and comparison rule must agree with the task. Many apparent sorting failures are really specification failures."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "We can demonstrate this with digit strings without relying on language-specific punctuation rules. The text twelve begins with the character one, and text three begins with the character three, so a lexical comparison of their digit representations puts twelve before three. Numeric comparison puts three before twelve. A shop that sorts catalogue codes lexically may be behaving correctly, while the same comparison applied to quantities may be wrong. The values are not intrinsically sorted in one universal way. Sorted means ordered according to a particular relation that has been chosen for a purpose."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "A comparison rule must also be consistent. If it says that one record belongs before a second and the second before a third, a sensible ordinary sorting order must not also require the third before the first. A rock-paper-scissors preference cycle cannot be laid out in one line that satisfies all three pairwise preferences. This is an original analogy for a structural requirement, not a claim that every program reacts identically to an inconsistent comparator. The important point is that a sorting method depends on mathematical properties of the relation it is given."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Duplicate values also affect search specifications. In the ordered sequence two, five, five, five, nine, a search that stops at the first equality it encounters may return any one of the three fives. If the task asks for the first five, equality alone is not enough to stop. We can instead search for a boundary: the first position whose value is not less than five. Another boundary identifies the first position greater than five. The region between those boundaries contains all the fives. Python's bisection tools expose these two insertion-point ideas explicitly."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "In that example, count positions from zero just for the boundary calculation. The first five is at position one, and the position after the last five is four. Four minus one gives three matching records. A boundary can exist even when the searched value is absent. For six, both boundaries would lie before nine, at position four, so their difference is zero. The arithmetic reflects a range of positions rather than a claim that an item was found. Code that confuses an insertion position with proof of equality can report a false match."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "It is useful to keep the two indexing conventions straight. Earlier, we numbered cards from one because that is natural to say aloud. Here, zero-based positions let an interval ending at four exclude position four and contain positions one, two and three. The length is end minus start. Neither convention changes the underlying items, but formulas must match the convention in use. Many boundary bugs are ordinary arithmetic errors disguised by code. Writing down which endpoints are included is often more effective than repeatedly adjusting a program until one test happens to pass."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Here is the fifth recall question. In the zero-indexed sequence two, five, five, five, nine, why does an insertion boundary at position four not by itself prove that the searched value exists?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Because an insertion boundary describes where a value would fit while preserving order. For six, position four is just before nine, even though there is no six. To establish a match, we must check the relevant value or compare the left and right boundaries for the target. For five, the boundaries are one and four, giving three matches. For six, both are four, giving zero. Locating a position and proving equality are distinct tasks, and the required output determines which additional check is necessary."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "We have enough pieces to design a small catalogue system on paper. Suppose a workshop maintains a fixed list of a thousand catalogue records for a month and answers hundreds of number lookups each day. Sorting once and reusing the order is plausible because preparation can support many searches. Now suppose the list is a ten-item checklist inspected once before a meeting. A linear scan may be simpler and cheaper overall. The decision is driven by workload and representation. Choosing the most sophisticated algorithm name is not a substitute for counting the actual task."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "If new records arrive frequently, maintaining order becomes part of the cost. Adding at the end is easy only when the new key belongs there. Inserting throughout an array can require repeated movement. A batch of new records could instead be sorted and merged with the existing ordered collection. That is a direct use of the merging mechanism already taught. We are not claiming that it is always the best database design. We are identifying an option whose cost can be analysed from the size of the old collection, the batch and the frequency of updates."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "For a concrete batch example, the old ordered keys are one, four, eight, thirteen and twenty. New keys arrive as seventeen, three and ten. Sort the batch to three, ten, seventeen. Merge the two groups to get one, three, four, eight, ten, thirteen, seventeen, twenty. A person who repeatedly inserted the arrivals could obtain the same output, but would move parts of the existing array several times. A batch merge traverses the ordered groups in one direction. The benefit comes from reorganising the work, not from changing the answer that correctness requires."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Correctness itself has two parts for sorting. The result must be ordered, and it must preserve the original collection of records, including duplicates. A procedure that outputs the smallest value repeatedly creates an ordered result but loses data. A procedure that deletes duplicate catalogue entries might accidentally remove distinct records with equal keys. Checking only that each neighbouring pair is in order is insufficient. We also need assurance that no record was lost, invented or detached from its associated fields. Performance is valuable only after these output conditions are satisfied."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "Even the cost of one comparison can vary with the key. Two short integers may be compared directly in our simple model. Two long text keys with the same beginning can require examining many characters before their difference appears. Imagine codes that share a hundred-character prefix and differ only at the end. Counting a key comparison as one unit hides that internal work. If key length grows along with the number of records, a complete analysis may need both quantities rather than only collection size."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "This does not make comparison counting useless. It makes the model explicit. When keys have a fixed small maximum length, treating each comparison as bounded work can be reasonable. When records contain increasingly long strings, that assumption deserves another look. A complexity statement always describes a chosen operation model; it is not an unqualified stopwatch prediction."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "A useful practical test uses deliberately awkward inputs. Try an empty collection, one item, already sorted values, reversed values, repeated keys and a target that is absent. These are not a complete proof, but each probes a different assumption or boundary. For our small procedures, we can supplement tests with the invariants we described: checked prefixes for linear search, surviving intervals for binary search, sorted processed items for insertion sort, and ordered output from sorted fronts for merging. Tests demonstrate particular runs; the invariant explains a general reason the procedure should work."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "For one low-risk application, take eight scraps of paper and write the numbers sixteen, four, twelve, eight, two, fourteen, six and ten. Keep an untouched copy of that original sequence on another sheet. Sort the cards using insertion sort, saying which earlier values must move for each new card. Then search the sorted cards for thirteen using our lower-middle binary-search rule, numbering positions from one. Record the inspected values and the final interval. This uses no personal data, requires no software, and lets you inspect both the preparation and the unsuccessful lookup."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "The sorted result should be two, four, six, eight, ten, twelve, fourteen, sixteen. Searching for thirteen first inspects eight at position four, leaving positions five through eight. It next inspects twelve at position six, leaving positions seven through eight. It then inspects fourteen at position seven and moves the upper boundary to six. The interval is empty because the lower boundary is seven. The answer is absence after three inspected positions. Check that all eight original cards remain present; a correct order with a missing card would fail the sorting task."
+    },
+    {
+      "v": "ash",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "One final comparison ties the catalogue together. A linear scan needs little preparation and works without an ordering promise. Binary search spends that promise to rule out large regions. Insertion sort can exploit existing order but may move many items. Selection sort repeatedly establishes a global minimum, often with few swaps but many comparisons. Merge sort uses ordered subgroups to achieve better growth at the cost of work space in its straightforward array form. These are different ways of using information and paying for operations, not a ranking in which one name wins under every condition."
+    },
+    {
+      "v": "sage",
+      "i": "Teach conversationally and precisely. Give number sequences clearly without artificial slowing. Both voices develop the algorithms and examples. Distinguish comparisons, movement, growth bounds and actual time. Preserve recall pauses.",
+      "t": "The practical question is what your data already guarantees and what your task will repeat. If you can reach any position cheaply, ordered data makes halving useful. If you receive a stream once, a scan may match the access pattern. If many queries reuse a fixed catalogue, preparation can pay for itself. If updates dominate, movement and maintenance matter. Once those facts are explicit, algorithm choice becomes a concrete comparison of correctness, comparisons, access, movement and memory. The speed comes from arranging the work so that each step establishes more of what the answer needs."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-10-01",
+    "spoken_words": 7091,
+    "sha256": "0ad4081c3294071f0b5adb26ec5b1bb8f85ccdc5495ceec6a845b2bd064a911e",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://xlinux.nist.gov/dads/HTML/linearSearch.html",
+      "https://xlinux.nist.gov/dads/HTML/binarySearch.html",
+      "https://xlinux.nist.gov/dads/HTML/bigOnotation.html",
+      "https://xlinux.nist.gov/dads/HTML/insertionSort.html",
+      "https://xlinux.nist.gov/dads/HTML/selectionSort.html",
+      "https://xlinux.nist.gov/dads/HTML/merge.html",
+      "https://xlinux.nist.gov/dads/HTML/mergesort.html",
+      "https://xlinux.nist.gov/dads/HTML/stable.html",
+      "https://docs.python.org/3/library/bisect.html"
+    ]
+  }
+}
