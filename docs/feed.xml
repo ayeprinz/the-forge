@@ -9,6 +9,15 @@
     <itunes:explicit>true</itunes:explicit>
     <itunes:image href="https://ayeprinz.github.io/the-forge/forge-cover-v2.jpg"/>
     <item>
+      <title>[Technology] What Happens When You Open a Website</title>
+      <description>Follow a fictional poster shop from a browser request to the visible page. Learn how Wi-Fi, DNS, packets, routing, TCP, TLS, HTTP, browser rendering, caching, cookies and QUIC cooperate, and why a page can partly work. Includes original transfer calculations, five recall questions with answers and a paper troubleshooting exercise. No prior reading required. Source material consulted: selected sections of the IETF RFC specifications for DNS, IP, TCP, TLS, HTTP and QUIC at https://www.rfc-editor.org/ ; selected MDN web mechanics, HTTP and performance documentation at https://developer.mozilla.org/en-US/docs/Web ; and Google web.dev guidance on layout shifts at https://web.dev/articles/optimize-cls . This is an original introductory lesson, not a complete networking course or a reading of those documents.</description>
+      <pubDate>Fri, 02 Oct 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2026-10-02</guid>
+      <enclosure url="https://ayeprinz.github.io/the-forge/audio/2026-10-02.mp3" length="19045101" type="audio/mpeg"/>
+      <itunes:duration>00:52:54</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+    </item>
+    <item>
       <title>[Biology] How Cell Membranes Control What Gets In</title>
       <description>Build an imaginary cell on paper to understand lipid bilayers, diffusion, channels and carriers, electrical gradients, osmosis, ATP-powered pumps, coupled transport and vesicles. Five recall questions with answers and a paper application. Original dialogue, examples and arithmetic; no prior reading required. References consulted: selected sections of Biology 2e by Mary Ann Clark, Matthew Douglas and Jung Choi, OpenStax, and section 12.7 of College Physics for AP Courses. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction . Also selected passages of General Principles of Secondary Active Transporter Function by Oliver Beckstein and Fiona Naughton: https://arxiv.org/abs/1912.06275 .</description>
       <pubDate>Thu, 01 Oct 2026 05:00:00 +0000</pubDate>
