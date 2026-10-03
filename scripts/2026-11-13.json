@@ -1,0 +1,478 @@
+{
+  "date": "2026-11-13",
+  "title": "[Business Operations] Inventory: When to Reorder and How Much to Buy",
+  "summary": "A fictional repair shop develops inventory policy from ordering and holding costs through economic order quantity, reorder points, inventory position, safety stock, service measures and bulk discounts. Original worked arithmetic and a paper inventory-card exercise. Five recall questions with answers. Teaching adaptation informed by Chris Caplice, Logistics Systems, MIT OpenCourseWare, Fall 2006, lectures 7, 8 and 11, CC BY-NC-SA 4.0. Original dialogue and examples; no copied figures or quotations. This adaptation is shared under the same license: https://creativecommons.org/licenses/by-nc-sa/4.0/ . Sources: https://ocw.mit.edu/courses/esd-260j-logistics-systems-fall-2006/120bf3cdc3e9b1947ae2a8d0a264d901_lect7.pdf https://ocw.mit.edu/courses/esd-260j-logistics-systems-fall-2006/4851a27cb396c065d7b7c0fafa50d039_lect8.pdf https://ocw.mit.edu/courses/esd-260j-logistics-systems-fall-2006/8b53c45fd26ffff706d815131e8d177e_lect11.pdf",
+  "instructions": "Start with the full cupboard and missing essential seals. Assume no prior operations or mathematical reading. Both voices teach distinct developed examples. Explain model assumptions where needed, distinguish annual cost from immediate cash outlay and inventory position from dated availability. Do not present the illustrative safety stock as a proven service target. Preserve five seven-second recall pauses followed by answers. End with the low-risk fictional inventory-card exercise.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "A repair shop has a cupboard full of spare parts and still cannot finish today's jobs. It owns twelve expensive handles that almost nobody requests, but it has run out of the small seal needed for three appointments. The owner looks at the money tied up in the cupboard and wonders why spending more has not created reliable service. The answer begins with a distinction: having a lot of inventory is different from having the right items, in the right quantities, at the time they are needed."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Inventory is material held for future use or sale. It can be raw material, unfinished work, components or finished products. The repair shop's seals are inventory even though customers buy a repair rather than a loose seal. A bakery's flour is inventory, and so are the prepared pastries waiting for customers. Each item connects a supply process with a demand process. Holding it allows those processes to occur at different times. That separation is useful, but it has a cost."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "If a shop could obtain exactly the right part instantly, without transaction costs or uncertainty, it might need very little stock. Real suppliers take time. Orders require work. Deliveries can be late, and demand can rise unexpectedly. Inventory provides a buffer against those differences. It also occupies space, ties up money, can deteriorate and may become obsolete. The management problem is therefore a balance between availability and the consequences of holding material, rather than a contest to make the stockroom either completely full or completely empty."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "We will build a policy for a fictional repair shop, using one ordinary replacement seal. Our calculations are teaching examples, not measurements from an actual business. The shop uses twenty-four seals per week, operates for fifty weeks each year and therefore expects annual demand of twelve hundred seals. A supplier charges ten pounds per seal. Processing and receiving each order costs the shop thirty pounds, regardless of the number of seals in that order. Holding one seal for a year is estimated to cost two pounds."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "That holding cost needs interpretation. It is not necessarily a separate invoice marked storage. It can include the economic cost of money committed to stock, damage, handling and space that changes with the amount held. Some costs are fixed over a range. A cupboard's rent does not fall whenever one seal is removed. For the model, we use a two-pound annual cost per average unit held. In a real business, the estimate should reflect the decision being analysed rather than allocating every overhead indiscriminately."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Ordering cost also needs a clear boundary. The purchase price of the seals is ten pounds each. The thirty pounds is the cost associated with initiating and handling an order, such as administrative work, delivery arrangements or a fixed receiving charge. If an order contains one hundred seals, the goods cost one thousand pounds, while the model adds thirty pounds for the order itself. Confusing those two costs would make large orders look much more or much less attractive than they really are."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Before calculating a batch size, picture the movement of stock. A shipment arrives, the shelf fills, and seals are gradually used until another shipment arrives. If demand is steady, replenishment happens all at once, and there is no extra buffer, the graph resembles a repeated downward slope followed by a vertical jump. This is often called a sawtooth pattern. The stock on the shelf changes throughout the cycle, so the maximum stock level and the average stock level are different numbers."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Suppose each delivery contains two hundred seals. In the simplest continuous model, stock falls evenly from two hundred to zero. Halfway through that interval, it is one hundred. The average across the full interval is also one hundred. That average is the basis for annual holding cost. We are not saying the shop always has one hundred seals. We are saying that the time-weighted amount it holds is equivalent, for this linear cost calculation, to holding one hundred throughout the year."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "If the shop instead orders one hundred seals at a time, average cycle stock becomes fifty. The average stock is lower, but the shop must place more orders. Twelve hundred seals a year divided by one hundred per order means twelve orders. With two hundred per order, it places six. This is the central tradeoff in the economic order quantity model: larger batches reduce how often orders are placed while increasing the average inventory carried between them."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Let us compare three policies using the same annual demand. Order one hundred at a time and annual ordering cost is twelve times thirty, or three hundred and sixty pounds. Average inventory is fifty seals, costing one hundred pounds per year to hold. Together, those two relevant costs total four hundred and sixty pounds. The twelve thousand pounds spent purchasing twelve hundred seals is not included in that comparison yet, because the unit purchase price is identical under all three policies."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Order two hundred at a time and there are six orders, costing one hundred and eighty pounds per year. Average cycle inventory is one hundred, producing two hundred pounds of annual holding cost. The combined relevant cost is three hundred and eighty pounds. This is lower than the one-hundred-unit policy. The larger batch saves one hundred and eighty in ordering costs while adding one hundred in holding costs, a net saving of eighty pounds per year under our assumptions."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Order four hundred at a time and the shop needs only three orders, costing ninety pounds. But average cycle inventory rises to two hundred seals, with four hundred pounds in annual holding cost. The combined relevant cost is four hundred and ninety pounds. Ordering very infrequently has become expensive because the extra stock costs more than the saved ordering effort. Neither the smallest nor the largest batch in this comparison wins. The best balance lies somewhere between them."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "The general calculation has two parts. Annual demand divided by batch size tells us how many orders are needed. Multiply that by cost per order. Then take half the batch size and multiply by annual holding cost per unit. Add the two results. For a stable, repeating system with the assumptions we have made, this describes the annual ordering and cycle-stock holding costs. It does not include every possible business cost, and it does not promise that demand will actually remain stable."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "You can hear the shape of the tradeoff without seeing a graph. Double a batch size and the number of orders halves. At the same time, average cycle stock doubles. One part of cost falls while the other rises. At very small quantities, frequent ordering dominates. At very large quantities, carrying stock dominates. Near the best balance, a moderate change in quantity often makes surprisingly little difference to the combined cost, a property we will calculate shortly."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "First recall question. A shop uses twelve hundred units per year and orders two hundred at a time. Under steady use, immediate batch receipt and no safety stock, how many orders does it place per year, and what is its average cycle inventory?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "It places six orders per year, twelve hundred divided by two hundred. Average cycle inventory is one hundred units, half the batch size, because stock falls evenly from two hundred to zero. Those answers depend on the simple repeating model. The number physically on the shelf at a particular moment could be much higher or lower than the average. Average stock is a time-based quantity, not a promise about today's count."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "The formula for the economic order quantity gives the batch size that minimises those combined costs. In words, take twice the annual demand times the fixed cost per order, divide by annual holding cost per unit, and then take the square root. With our numbers, twice twelve hundred times thirty divided by two equals thirty-six thousand. Its square root is about one hundred and ninety. That is the model's best batch size before considering pack sizes or other constraints."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "There is a useful explanation for why the formula balances the two costs. At the optimum in this basic model, annual ordering cost equals annual cycle-stock holding cost. Setting those expressions equal gives demand times order cost divided by batch size, equal to holding cost times half the batch size. Multiply through and the square of batch size equals twice demand times order cost divided by holding cost. Taking the positive square root gives the quantity we just calculated. This equality belongs to this particular unconstrained model."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "For our shop, the exact mathematical optimum is about one hundred and eighty-nine point seven seals. A shop cannot purchase a fraction of a seal, so it would compare feasible quantities. At the optimum, each cost component is about one hundred and eighty-nine pounds and seventy-four pence, giving a combined annual cost of about three hundred and seventy-nine pounds and forty-seven pence. Ordering two hundred costs three hundred and eighty. The practical round quantity is only about fifty-three pence more per year in this model."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "That small difference is useful. If the supplier sells packs of twenty-five, both one hundred and seventy-five and two hundred are feasible candidates. With one hundred and seventy-five, annual ordering cost is about two hundred and five pounds and seventy-one pence, and holding cost is one hundred and seventy-five pounds. Combined, that is about three hundred and eighty pounds and seventy-one pence. Two hundred remains slightly cheaper. The point of the calculation is to compare workable policies, not insist that a warehouse reproduce a decimal answer."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Sensitivity can be expressed through a ratio. If the actual batch size is twice the optimum, ordering cost becomes half its optimal value and holding cost becomes twice its optimal value. Since the two components were equal at the optimum, their combined cost becomes one and a quarter times the minimum, a twenty-five percent increase. Half the optimal batch size produces the same combined percentage increase, with the roles of the two costs reversed. The symmetry concerns the simplified cost model, not every operational consequence."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "A smaller deviation is even less costly. At one and a quarter times the optimal batch size, the cost ratio is half of one point two five plus its reciprocal, zero point eight. That is one point zero two five, or two and a half percent above the minimum. This explains why an approximate batch size can work well when the cost estimates themselves are uncertain. It also tells us where to focus: a serious delivery problem or a wrong demand estimate may matter more than adjusting an almost optimal batch by one unit."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Demand affects the optimum through a square root. If annual demand rises from twelve hundred to forty-eight hundred, four times as much, the model's optimal batch doubles rather than quadruples. The business orders larger batches and orders more frequently. With the original holding and ordering costs, the approximate batch rises from one hundred and ninety to three hundred and seventy-nine. The change is shared between order frequency and stock quantity, which is why the batch does not simply track demand one for one."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Reducing order-processing cost has a different practical implication. If better receiving arrangements lower the fixed cost per order from thirty pounds to seven pounds and fifty pence, one quarter of the original, the optimal batch halves. Smaller deliveries become more economical because making an order is less costly. This is one route to carrying less stock without simply accepting more shortages. Improve the replenishment process, then reconsider the quantity. Cutting inventory while leaving every source of delay unchanged can remove protection without solving the underlying problem."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "We have so far answered how much to order. We have not answered when. Suppose the supplier takes two weeks to deliver. At twenty-four seals per week, expected demand during those two weeks is forty-eight seals. With perfectly predictable demand and delivery, the shop should place an order while forty-eight remain, so that the next batch arrives as those remaining seals are used. Waiting until the shelf is empty would create a two-week gap even if the chosen batch size were mathematically optimal."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "This trigger is called the reorder point. Under certain demand and a fixed lead time, it covers demand during the wait for replenishment. The lead time should include the whole relevant wait: approval, supplier processing, transport, receiving and inspection before the stock is usable. If delivery reaches the building on Monday but inspection makes it usable on Wednesday, Wednesday matters for the job that needs the part. A physically arrived carton and an available seal are not necessarily the same operational state."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Batch size and reorder point answer different questions. The batch might be two hundred while the trigger is forty-eight. Ordering two hundred does not mean waiting until two hundred remain, and a forty-eight-unit trigger does not mean every order contains forty-eight. The batch reflects the replenishment cost tradeoff. The trigger reflects the demand that must be covered during the lead time, plus any additional protection against uncertainty. Mixing the two can create a policy that carries too much stock and still orders too late."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Now add uncertainty. Some weeks use more than twenty-four seals, and a delivery occasionally takes longer than two weeks. The shop can hold safety stock above the expected lead-time demand. If it chooses an illustrative buffer of twelve seals, its reorder point becomes sixty: forty-eight expected during the wait, plus twelve extra. The number twelve is an assumed buffer for this example. We have not yet shown that it achieves any particular service target, so calling it a ninety-five-percent buffer would be unjustified."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "In the stable sawtooth approximation, the two-hundred-unit batch now falls from two hundred and twelve to twelve instead of from two hundred to zero. Average shelf inventory rises from one hundred to one hundred and twelve. At two pounds per unit per year, the extra twelve units add twenty-four pounds to annual holding cost. Safety stock has a measurable cost even when no invoice arrives for the decision. Its benefit is a lower risk or smaller severity of shortage, which needs to be assessed separately."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Second recall question. Demand is twenty-four units per week, delivery takes two weeks, and the chosen safety stock is twelve units. What is the reorder point, and why is it different from an order quantity of two hundred?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "The reorder point is sixty units: forty-eight expected during the two-week wait plus twelve safety units. It tells the shop when to trigger replenishment. The two hundred tells it how much to request. One is a timing threshold and the other is a batch size. Our twelve-unit buffer was an assumption, so the calculation alone does not establish a probability of avoiding a shortage."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "A shelf count is still not enough to run this policy. Suppose the shop has fifty seals available but has already ordered two hundred that will arrive soon. A worker who sees fifty below the sixty-unit trigger might place another two-hundred-unit order. Another worker could do the same the next morning. The shelf remains low while several unnecessary deliveries accumulate in the pipeline. The policy needs to remember what has already been ordered and what has already been promised."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Inventory position provides that wider view. A common definition starts with inventory on hand, adds inventory on order and subtracts backorders and other committed demand, using a consistent convention to avoid subtracting the same commitment twice. Backorders are demand that has not yet been fulfilled but remains owed. Inventory position is a planning number. It can be much larger than what is physically ready to use, and it can change when an order is placed even though nothing has arrived."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Use our shop again. It has fifty usable seals, two hundred on order and ten already owed to customers, with those ten not otherwise removed from the fifty. Inventory position is fifty plus two hundred minus ten, or two hundred and forty. That is above the sixty-unit reorder point, so the simple policy does not trigger another order. But immediately available stock after those commitments is only forty. Inventory position can prevent duplicate ordering while still revealing a near-term service problem that requires looking at arrival dates."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Receiving a shipment moves inventory from on order to on hand. If everything else stays unchanged, inventory position does not change. Before receipt, fifty on hand plus two hundred on order gives two hundred and fifty before commitments. After receipt, two hundred and fifty on hand plus zero on order gives the same total. Placing the purchase order, by contrast, increases inventory position immediately. These identities explain why the planning measure behaves differently from the physical shelf count."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Timing remains essential when several deliveries are outstanding. Two hundred units promised for next month cannot necessarily cover demand tomorrow. Inventory position combines quantities but does not display their dates. A time-phased view lists expected receipts and requirements by day or week. It can reveal that a business has enough total supply on paper but not enough before a crucial date. When lead times are long, variable or overlapping, that dated information is often necessary to interpret the simpler trigger correctly."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "For example, imagine forty units available now, a requirement for fifty this week, and a delivery of two hundred next week. The total over two weeks may look generous, yet ten units are missing before the delivery. A later surplus does not repair an earlier missed appointment. Options include expediting ten units, rescheduling with customers or obtaining a substitute that is genuinely suitable. Ordering another normal batch arriving next week would not solve this week's shortage, even though it increases the inventory position."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "A stockout can have different consequences. With a backorder, the customer waits and the business still owes the item. With a lost sale, the customer leaves and the demand is not carried forward as an obligation. With substitution, another item satisfies the need, sometimes at a different margin or quality. A planning model has to state which situation it represents. Treating every shortage as a backorder would overstate future obligations for a shop whose customers mostly go elsewhere when an item is unavailable."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Recorded sales can also conceal demand. If the shop had no seals for two days, it might record zero seal-based repairs during those days. That does not necessarily mean nobody wanted a repair. Using sales alone to estimate demand can therefore create a downward spiral: shortages suppress recorded sales, lower forecasts lead to smaller orders, and smaller orders create more shortages. A useful record distinguishes customer requests, fulfilled work, substitutions and requests lost because stock was unavailable."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Inventory accuracy matters just as much as the formula. A computer may show sixty seals while six are damaged and four were used without being recorded. The apparent buffer is already partly gone. Counting stock, recording movements and separating unusable material are not administrative decorations. They determine whether the numbers entering the policy describe what the business can actually supply. A sophisticated forecast cannot compensate for an inventory record that repeatedly counts material that is missing or unusable."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "A practical counting programme can give more attention to items that matter most. High-value items, parts essential to service and products with frequent record errors may deserve more frequent checks. An inexpensive seal can be operationally critical despite its low purchase value, while an expensive decorative handle may be easy to obtain when needed. Classifying inventory only by money spent can miss that difference. The category should support the decision: financial exposure, service impact and control effort are related but distinct concerns."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "There is also a unit-of-measure trap. A supplier sells boxes of ten, while technicians record individual seals. If someone enters a delivery of twenty boxes as twenty seals, the record understates stock by one hundred and eighty. If someone orders two hundred boxes when they meant two hundred seals, the mistake goes in the other direction. Every calculation needs a consistent unit, and every ordering interface needs an explicit conversion between purchase units, storage units and use units."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Third recall question. There are fifty usable units on hand, two hundred on order and ten unfilled committed units that have not already been deducted. What is inventory position? What happens to that position when the two hundred units arrive, assuming nothing else changes?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Inventory position is two hundred and forty, fifty plus two hundred minus ten. Receipt leaves the position unchanged because the two hundred moves from on order to on hand. Physical availability increases, but total supply net of the stated commitment stays the same. This is why inventory position helps prevent duplicate orders, while a dated view is still needed to decide whether supply will arrive soon enough."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "So far our trigger has been checked whenever a transaction changes the record. That is called continuous review, even if the system is practically updated after each transaction rather than every instant. Another approach reviews stock on a schedule, perhaps every Monday. Scheduled review can make ordering and deliveries easier to coordinate, but it creates an extra period during which demand may occur before the next ordering opportunity. The policy must cover that interval as well as the supplier's lead time."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Suppose a shop reviews every week and delivery takes two weeks. Just after Monday's review, demand could rise, but the normal policy will not place the next order until the following Monday. That order will then take two more weeks. The protection period is therefore three weeks, the review interval plus the lead time. With constant demand of twenty-four per week, expected demand over that period is seventy-two units. A buffer would be added for uncertainty over the relevant three-week period."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "In an order-up-to policy, the business chooses a target inventory position and orders enough at each review to reach it. If the illustrative target is eighty-four units and current position is thirty-four, the order is fifty. If position is sixty, the order is twenty-four. The batch changes because consumption since the previous review changes. This is different from ordering a fixed two hundred whenever position reaches sixty. Both can be sensible policies, but their parameters and calculations should not be mixed."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "The eighty-four-unit target in that example consists of seventy-two expected units plus twelve extra. We have reused twelve only to keep the arithmetic visible. A real three-week protection period would need its own uncertainty calculation. It would be a mistake to copy a two-week safety buffer into a three-week system and assume the same service performance. The expected demand changed, and the range of possible demand and delay may have changed too."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Continuous review tends to react sooner to unexpected demand, while periodic review can simplify coordination. Neither eliminates the need for accurate records. If every small supplier delivery creates a large administrative cost, coordinating weekly orders may be valuable. If a missing item stops important work, a transaction-based alert may be worth the additional control effort. The choice concerns how information, ordering and delivery interact in the particular operation, not which policy has the more impressive name."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "We can now make safety stock more concrete using a simple probability model. Imagine demand during a lead time can be forty units with probability one quarter, fifty units with probability one half, or seventy units with probability one quarter. These are invented possible outcomes, not observations. The expected demand is fifty-two and a half units: forty times one quarter, plus fifty times one half, plus seventy times one quarter. The average is between possible outcomes, which is perfectly acceptable for an expectation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "If the reorder point is fifty, it covers the forty-unit and fifty-unit outcomes but not the seventy-unit outcome. Under the simplified assumptions, the probability of getting through the lead time without a stockout is three quarters, or seventy-five percent. If the reorder point rises to sixty, it still fails in the seventy-unit outcome. The probability of a stockout stays one quarter, but the size of the shortfall in that outcome falls from twenty units to ten. The same event frequency can hide a different amount of unmet demand."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Expected shortage captures that difference. At a fifty-unit threshold, only the seventy-unit outcome creates a shortfall, twenty units multiplied by one quarter, giving five expected units short. At sixty, ten multiplied by one quarter gives two and a half expected units short. These expectations average across many hypothetical lead-time periods. They do not mean the shop will literally be short two and a half indivisible seals in a particular period. Individual outcomes and long-run averages answer different questions."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "A cycle service level describes the probability of no stockout during a replenishment cycle. A fill rate describes the proportion of demand fulfilled from available stock, under the specified definition. A business might avoid shortages in most cycles but have a very large shortage in the few bad cycles. Another business might have a tiny shortage in many cycles. The first can have a better cycle service level and a worse fill rate. Saying service is ninety-five percent is incomplete unless we know what has been counted."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Take an original observation example with ten replenishment cycles and one thousand units requested in total. There is a shortage in one cycle, and five units are not supplied immediately from stock. The observed proportion of cycles without shortage is nine out of ten, or ninety percent. The observed immediate unit fill rate is nine hundred and ninety-five out of one thousand, or ninety-nine and a half percent. Both figures describe the same record. Neither is a forecast guarantee for the next ten cycles."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "If the shortage in that single bad cycle had been one hundred units instead, the cycle measure would still be ninety percent, while the unit fill rate would fall to ninety percent. The event count did not change; the severity did. A manager deciding what protection is worth buying needs to know whether the painful consequence is each shortage event, each missing unit, each delayed customer order or the duration of delay. Different consequences can justify different choices even with the same demand data."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "In our three-outcome demand model, raising the threshold from sixty to seventy eliminates shortage within the outcomes we specified. It does not demonstrate that seventy protects against every event in the world. If a supplier closure or unusual order can create a larger demand exposure, that possibility is outside the little model. A claim of complete protection is only as broad as the scenarios included. Good inventory planning combines a routine operating policy with an explicit response to disruptions too large for ordinary buffers."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Fourth recall question. A threshold rises from fifty to sixty in the model where lead-time demand is forty, fifty or seventy. Why can expected shortage improve even though the probability of a shortage does not?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Only the seventy-unit outcome creates a shortage under either threshold, so the event probability remains one quarter. But the shortfall in that outcome falls from twenty to ten. Expected shortage therefore falls from five to two and a half units. Counting whether a shortage occurs and counting how many units are short are different measurements. That distinction also explains why cycle service level and fill rate need not match."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Lead time creates exposure even when its average seems manageable. In the repair shop, two weeks at twenty-four units per week means forty-eight units expected during the wait. If the dependable lead time falls to one week, the expected amount needed during the wait falls to twenty-four. This changes the trigger even if the batch size remains two hundred. Faster replenishment can reduce the stock needed for time coverage, while lower ordering cost can reduce the economical batch. They work through different parts of the policy."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Unreliable delivery complicates that benefit. A supplier quoting one week but regularly taking four may require more protection than a dependable two-week supplier. The relevant information includes the distribution of actual usable lead times, not just the promised average. Demand and delay can also rise together. A seasonal surge may increase customer requests while overwhelming the supplier. Treating demand and lead time as independent in that situation could understate the chance of needing unusually large amounts before replenishment arrives."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Forecast error is therefore different from ordinary variation around a historical average. If demand reliably rises every winter, a fixed annual average ignores information already available. The winter rise belongs in the forecast rather than being treated entirely as a surprise that safety stock must absorb. A buffer is meant to cover uncertainty remaining around the plan. Raising safety stock to compensate for a consistently biased forecast can make the system expensive without clarifying why it is repeatedly short in the same season."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Similarly, planned demand for a large confirmed job should not disappear inside an average. If the shop has accepted a repair programme needing one hundred seals next Friday, those requirements should be visible in its dated plan. Whether they are represented as commitments, a separate job allocation or a forecast adjustment depends on the system, but they should be counted once. Adding the job to the forecast and also subtracting it as a commitment without correcting for overlap can order too much. Omitting it from both can create a predictable shortage."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Now the supplier offers a discount. Buy at least five hundred seals in each order and the price falls from ten pounds to nine pounds and eighty pence for every seal in that order. This is an all-units discount. Our earlier comparison could ignore purchasing cost because the unit price was fixed. It cannot ignore that cost now. The cheaper price may compensate for the extra holding cost, but the word discount does not settle whether buying more is economical."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Use our original annual demand of twelve hundred and fixed order cost of thirty. Suppose annual holding cost is twenty percent of purchase value, so the original ten-pound seal carries a two-pound annual holding cost. At the discounted nine pounds and eighty pence, that becomes one pound and ninety-six pence. Compare a feasible two-hundred-unit order without the discount with a five-hundred-unit order that qualifies. To isolate the quantity decision, we temporarily leave safety stock out of both calculations and retain the other simple assumptions."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "For two hundred, purchasing twelve hundred units costs twelve thousand pounds. Ordering costs one hundred and eighty, and holding costs two hundred, giving twelve thousand three hundred and eighty pounds per year. For five hundred, purchases cost eleven thousand seven hundred and sixty. Average cycle stock is two hundred and fifty, costing four hundred and ninety to hold. Annual ordering cost is seventy-two, calculated as twelve hundred divided by five hundred times thirty. The combined cost is twelve thousand three hundred and twenty-two pounds."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "The discount policy is therefore fifty-eight pounds cheaper per year in this comparison. It saves two hundred and forty on purchases and one hundred and eight on ordering, but adds two hundred and ninety in holding cost. That small net saving comes with a much larger individual purchase: four thousand nine hundred pounds for five hundred discounted units, compared with two thousand pounds for two hundred at the regular price. A policy can minimise this model's annual cost while still being impractical because of cash or storage constraints."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "The two point four orders per year in that calculation describes a long-run rate. It does not mean cutting a purchase order into four tenths. In a real calendar year, the number of receipts and the ending stock depend on the starting stock and order dates. The repeating model spreads costs over time. If the business is closing in six months or selling a product that will soon be discontinued, that long-run assumption is a poor fit. Remaining demand and leftover stock then become central to the decision."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "A smaller discount can fail the same test. Suppose five hundred units cost nine pounds and ninety-five pence each, with the same twenty-percent annual carrying rate. Annual purchases become eleven thousand nine hundred and forty pounds. Holding cost becomes four hundred and ninety-seven pounds and fifty pence, while ordering remains seventy-two. Together that is twelve thousand five hundred and nine pounds and fifty pence, which exceeds the two-hundred-unit policy by one hundred and twenty-nine pounds and fifty pence. A lower unit price has produced a higher total modelled cost."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "All-units and incremental discounts should not be confused. Under an incremental schedule, only units beyond a threshold receive the lower price. Suppose the first two hundred units in an order cost ten pounds each and any additional units cost nine pounds and eighty pence. An order of five hundred then costs two thousand for the first two hundred, plus two thousand nine hundred and forty for the remaining three hundred, a total of four thousand nine hundred and forty. It does not receive the four-thousand-nine-hundred all-units bill."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "A full discount analysis compares feasible candidates within every relevant price tier, including the thresholds. It also includes costs changed by the offer, such as freight, handling, expiry or storage. We have compared selected quantities to teach the mechanism, not proved a universal best policy for every discount schedule. In our particular all-units example, the unconstrained batch optimum at the lower holding rate is still well below five hundred, so the qualifying threshold is the natural candidate for that tier under the stated simple model."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Physical capacity can rule out an apparently attractive quantity. If the shop can safely store only three hundred seals, a five-hundred-unit delivery is infeasible unless something else changes. Paying for extra space would add a cost; split deliveries might change the order terms. The original minimum cannot simply be declared optimal while ignoring the cupboard. Mathematical optimisation answers a question with constraints. Leaving out an important constraint changes the question, even if every arithmetic step is correct."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Age matters too. A seal might deteriorate in storage, while a printed seasonal package may lose value after an event. The longer an item waits, the greater the chance that its eventual use differs from the plan. Where items have expiry dates, the stock record needs age or batch information as well as quantity. Using the oldest suitable stock first can help in some settings, but safety, quality and actual expiry requirements still govern what may be used. Quantity alone cannot describe the condition of the inventory."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "A seasonal product exposes the limit of the repeating-batch model sharply. A stall buying programmes for one event cannot assume that unsold copies will be useful in the next replenishment cycle. It faces a one-time balance between running out and having leftovers. A refill arriving after the event has no ordinary selling opportunity. That setting requires a model of the selling period, uncertain demand and leftover value. Copying our repair-shop batch formula into it would conceal the very costs that dominate the decision."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "The same shop may need different policies for different items. Regular seals may suit a replenishment rule. A rare custom handle may be ordered only after a customer accepts the wait. A cheap part whose absence stops every repair may justify a relatively generous buffer. A high-value component with an excellent overnight supplier may justify very little shelf stock. A policy should reflect the item's demand, supply and consequences of shortage rather than imposing one number of weeks of stock across everything."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Weeks of cover can still be a useful descriptive measure. If there are one hundred and twenty seals on hand and expected use is twenty-four per week, that is five weeks of cover at the forecast rate. If demand doubles, the same stock represents two and a half weeks. Cover expresses stock relative to a demand rate; it is not a fixed property of the cupboard. It also does not tell us whether the particular units are usable, already committed or evenly suited to the jobs ahead."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Aggregate cover can hide a mix problem. Imagine a shop holds one hundred slow-moving handles and no essential seals. Combining their values into one reassuring total does not make the handles usable as seals. Even within a product family, size, compatibility and version matter. A business can reduce shortages by improving the mix without increasing the total money held. That is why the opening shop had a full cupboard and unfinished jobs: the availability problem existed at the item level, not merely at the level of total stock value."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Let us assemble a working policy for the fictional seal. Start with twenty-four expected units per week, fifty operating weeks per year, a two-week lead time, thirty pounds per order and two pounds per unit of annual holding cost. The simple batch calculation points near one hundred and ninety, and two hundred is a practical candidate. A chosen twelve-unit buffer gives a sixty-unit reorder point. The system checks inventory position after relevant transactions and orders two hundred when position reaches or falls below that point, with additional handling for unusually large demand jumps."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "The last phrase matters. If one transaction suddenly consumes far more than a normal batch, ordering two hundred once may not restore the intended position. Some systems order enough whole batches to bring position back above the trigger; others use an order-up-to rule or manual exception. The policy must specify its response rather than assuming all demand arrives one small unit at a time. A burst of demand can expose an ambiguity that remained invisible during ordinary weeks."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Our shop also records expected receipt dates, so a healthy inventory position cannot hide an imminent shortage. It marks damaged parts separately and records usage in individual seals, converting supplier boxes explicitly. It reviews lead-time performance and lost requests, not just completed sales. The safety buffer is treated as a provisional choice to be evaluated against the desired service measure. This is a complete operating description in miniature: quantity, trigger, records, timing and exception handling support one another."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Consider a disruption. The shelf has sixty usable seals and no existing order, so the rule requests two hundred. The supplier now says the delivery will take four weeks. At twenty-four per week, expected demand over that wait is ninety-six, already thirty-six more than the shelf holds. Keeping the original sixty-unit trigger does not solve the revised situation. The manager needs a dated response, such as an alternate source or changed job schedule, and must update the policy if the longer lead time is likely to persist."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Buying another large normal batch from the same delayed source could make the eventual surplus larger without making the next four weeks safer. The immediate need concerns arrival time. An emergency shipment of thirty-six units might cover the average gap, but uncertainty could still require additional consideration. This is the difference between reacting to a low number and diagnosing the flow problem. A quantity shortfall, a timing shortfall, inaccurate records and incompatible parts call for different actions."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Fifth recall question. Why can an all-units discount reduce annual modelled cost while making a policy harder to operate, and why must purchasing cost be included in the discount comparison when it was excluded from the original batch comparison?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "The larger qualifying order may require more cash at once, more storage and a longer time before the stock is used. Those can constrain the business even if annual ordering, holding and purchasing costs add to a lower total. Purchasing cost must now be included because unit price changes between policies. In the original comparison, annual quantity and unit price were the same, so purchasing cost was constant and could not change which batch size had the lower relevant cost."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "For a low-risk application, create a paper inventory card for a fictional item. Use ten units of demand per week, a three-week lead time, five units of safety stock and a batch size of forty. The reorder point is thirty-five, thirty expected during the wait plus five extra. Write columns for usable stock, stock on order, commitments not yet deducted, inventory position and expected arrival. No purchase is needed. The exercise is to follow how the numbers change as events happen."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Start with thirty-five usable units, none on order and no commitments. Position is thirty-five, so the rule places one order for forty. On-hand stock remains thirty-five, but position becomes seventy-five. After a week using ten units, on-hand is twenty-five, on order is forty and position is sixty-five. After another identical week, those become fifteen, forty and fifty-five. Placing the order changed the planning number immediately, while usage gradually reduced both the physical amount and the position."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "After the third week uses another ten, five units remain just before the shipment arrives. Position is forty-five, made of five on hand and forty on order. Receipt makes on-hand forty-five and on-order zero, leaving position at forty-five. One week later, using ten brings both on-hand and position to thirty-five, triggering the next forty-unit order. Under these deliberately predictable events, the five-unit safety buffer remains intact. It is protection that was available but not needed, rather than evidence of wasted purchasing."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Change one event on paper. In the second week, use twenty instead of ten. Just before the scheduled receipt after the third week, the system would be five units short if all demand had to be met and no alternative supply appeared. The position may trigger another normal order, but that later shipment cannot remove the shortage before the first receipt. Decide whether those five are backorders or lost demand, then record the consequence consistently. This single change shows why a mean-demand calculation and a buffer are separate ideas. A buffer that works under one path can fail under a more demanding path."
+    },
+    {
+      "v": "sage",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "The card also explains why ordering twice during the wait is often a mistake. After the first week's use, the shelf has twenty-five, below the thirty-five trigger, but position is sixty-five because the forty-unit order is already outstanding. A shelf-only rule would create a duplicate. The position-based rule remembers the intended replenishment. If that order is cancelled, the on-order amount must be removed, and the position will correctly signal a different situation. Accurate events make the rule meaningful."
+    },
+    {
+      "v": "ash",
+      "i": "Teach the inventory cases clearly and naturally. Both voices explain. Distinguish quantities, time intervals and annual costs in speech. Treat all shop figures as hypothetical. Keep the five recall pauses and their subsequent answers.",
+      "t": "Inventory management joins economics to a physical timeline. Batch size controls the balance between ordering effort and average cycle stock. The trigger covers demand while replenishment is unavailable. Safety stock addresses uncertainty according to a defined service or cost objective. Records distinguish usable material, incoming supply and obligations. A repair shop improves when those pieces describe the same operation. Then the cupboard can contain fewer unnecessary handles, enough suitable seals, and a clear explanation of when the next order should arrive."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-10-03",
+    "spoken_words": 7101,
+    "sha256": "805a8e791e4af63ce64ae1c27832cd0cbcde689d315108c23088550f757e1d0f",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://ocw.mit.edu/courses/esd-260j-logistics-systems-fall-2006/120bf3cdc3e9b1947ae2a8d0a264d901_lect7.pdf",
+      "https://ocw.mit.edu/courses/esd-260j-logistics-systems-fall-2006/4851a27cb396c065d7b7c0fafa50d039_lect8.pdf",
+      "https://ocw.mit.edu/courses/esd-260j-logistics-systems-fall-2006/8b53c45fd26ffff706d815131e8d177e_lect11.pdf"
+    ]
+  }
+}
