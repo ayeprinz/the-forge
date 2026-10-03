@@ -1,0 +1,464 @@
+{
+  "date": "2026-11-12",
+  "title": "[Psychology] Cognitive Dissonance: Why We Defend Our Decisions",
+  "summary": "How actions, effort and commitment can change evaluations. Developed fictional design, workplace, purchase and relationship cases distinguish cognitive dissonance, self-perception, impression management, sunk costs and genuine switching costs. Includes the classic paid-statement experiment, the free-choice measurement problem, five recall questions and a paper exercise. Original teaching adaptation drawing on Rajiv Jhangiani and Hammond Tarry, Principles of Social Psychology, section 4.3, CC BY-NC-SA 4.0. This lesson adaptation is shared under the same license: https://creativecommons.org/licenses/by-nc-sa/4.0/ . Additional research: Festinger and Carlsmith (1959); Izuma and Murayama (2013, CC BY); Enisman, Shpitzer and Kleiman (2021, abstract consulted). Original dialogue and fictional examples; no copied figures or quotations. Sources: https://opentextbc.ca/socialpsychology/chapter/changing-attitudes-by-changing-behavior/ https://psychclassics.yorku.ca/Festinger/ https://pmc.ncbi.nlm.nih.gov/articles/PMC3566335/ https://pubmed.ncbi.nlm.nih.gov/33411557/",
+  "instructions": "Start immediately with the unreadable logo case. Assume no prior reading. Teach mechanisms through developed examples, not a generic lesson about learning or consuming information. Both voices contribute explanations. Clearly identify original fictional cases and simplified arithmetic. Present dissonance as a theoretical mechanism rather than a diagnosis or mind-reading technique. Distinguish observed findings from explanations, and preferences from consent. No claims of universal control over attraction or belief. Preserve five seven-second pauses followed by answers.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "A designer spends three weeks defending a logo. The client finally approves it. The next morning, another designer points out that the lettering becomes unreadable on a phone. Our designer could open the file and check. Instead, she starts explaining why readability is overrated, why serious brands refuse to follow ordinary rules, and why the critic probably lacks taste. The objection concerns a small visual feature. Her response concerns who she is. That change of subject is where cognitive dissonance becomes useful to understand."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "In this invented case, two commitments have collided. She believes she makes careful design decisions. She also has evidence that a decision she defended may be flawed. Dissonance theory describes an uncomfortable inconsistency among relevant beliefs, actions or commitments, and a motivation to reduce it. One possible response improves the design. Another improves the story she tells herself about the design. Both can restore a sense of consistency, but only one necessarily fixes the lettering. The theory concerns that pressure and its possible consequences, not a diagnosis of the designer."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "A cognition, in this vocabulary, is something a person knows, believes or recognises about the world or their own behaviour. I promised to deliver a readable logo. I approved this lettering. This lettering is difficult to read. Those statements matter together because of the promise connecting them. By contrast, I approved this lettering and it rained yesterday do not ordinarily conflict. Dissonance is not the discovery that a mind contains more than one thought. The relationship between the thoughts, and their significance to the person, matters."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "We should distinguish inconsistency from an uncomfortable response to inconsistency. A researcher may find that someone's stated environmental values conflict with their travel choices. That does not establish how much discomfort the person feels, what they believe their alternatives are, or whether they have already reconciled the two. Someone might acknowledge the conflict openly. Someone else might believe their particular journey is necessary. A useful explanation has to examine those meanings rather than treating an observer's accusation of hypocrisy as a measurement of another person's mind."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Leon Festinger developed cognitive dissonance theory in the nineteen fifties. Later researchers developed different accounts of what makes the inconsistency especially motivating. Some emphasise responsibility, self-image or the consequences of action. We can use the basic mechanism without pretending every version makes identical predictions. Here, our central question is specific: after someone commits to an action, under what circumstances might they change their evaluation to make that action easier to live with? That includes purchases, public arguments, difficult work and ordinary disagreements."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Return to the logo. The designer has several possible routes. She can change the behaviour by improving the lettering. She can change a belief by deciding readability matters less. She can introduce a relevant reason, such as discovering that the logo will only appear on large signs. She can reduce the importance of the whole issue because the first version was explicitly a disposable sketch. These routes look different outside the person, even when they all reduce conflict inside the person. Some involve legitimate new information. Some involve avoiding an unwelcome conclusion."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "That last distinction matters. If the logo really is only for a large sign, the new context could justify the original choice. Calling every explanation an excuse would make the theory unfalsifiable in conversation. Imagine the designer produces the actual brief, which clearly excludes small screens. She has supplied evidence. Now imagine she invents the large-sign restriction only after the complaint, although the brief includes a mobile app. The same sentence plays a different role because its relationship to the facts has changed. The label alone cannot settle which case we have."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "We also need to separate attitude from behaviour. An attitude is an evaluation, such as liking a design or approving a policy. Behaviour is what someone does, such as signing off the design or voting for the policy. They influence one another, but they are not interchangeable. A worker may carry out a policy they dislike because their job requires it. A person may love a restaurant yet stop going because it closed. Observing an action gives clues about evaluation, but circumstances can explain much of the action."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "This is where external justification enters. An external reason is something in the situation that helps explain the action: payment, a rule, a deadline or a lack of alternatives. Internal justification refers to an explanation involving one's own attitudes or values. Suppose two people publicly praise a product they privately dislike. One was transparently hired to perform an advertisement. The other volunteered an enthusiastic personal recommendation. Their outward words match. The second may have a harder time explaining those words without revising either their opinion of the product or their view of their own honesty."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "That is a theoretical prediction, not permission to read their thoughts. The volunteer could simply admit that they exaggerated. The paid speaker could still feel troubled about misleading others. Money does not switch a conscience off, and a tiny payment does not automatically change a belief. What the comparison highlights is the explanatory work an external reason can do. When an action already has an obvious situational explanation, there may be less pressure to make a personal attitude agree with it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "A classic experiment by Festinger and James Carlsmith in nineteen fifty-nine tested this idea. Students performed repetitive tasks, then some were paid either one dollar or twenty dollars to tell another person that the tasks were enjoyable. A control group did not make that paid statement. Afterwards, the one-dollar group evaluated the tasks more favourably than the twenty-dollar group. The authors interpreted the pattern as insufficient external justification: the smaller reward gave participants less reason for their statement apart from believing it. This was a particular experiment with student participants, not a universal rule about wages or truthfulness."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "The surprising feature is the direction of the comparison. A simple story that more reward always produces more liking would predict the opposite. Dissonance theory instead asks whether the reward explains the discrepant act. A large enough explanation can let someone maintain, I said the words because of the payment, while continuing to dislike the activity. The smaller explanation leaves a harder reconciliation. That does not mean employers should pay people less to make them love their work. A contrived laboratory statement and a continuing employment relationship differ in many important ways."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Consider a fictional employee named Leila. Her manager asks her to endorse a software tool she has barely tested. She signs because the department is under deadline. Afterwards, complaints appear. Leila might think, I need to check whether my endorsement was premature. She might also begin insisting that the complaints must come from incompetent users. The second reaction makes her earlier endorsement easier to defend. It could involve dissonance reduction, but it could also involve genuine experience with user error. To distinguish them, examine what happens when a reproducible failure is demonstrated."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "If Leila reproduces the failure and revises her recommendation, her public commitment has not prevented correction. If she changes the success criterion every time a test fails, the defence becomes harder to explain as ordinary evaluation. Yesterday, the tool was valuable because it saved time. Today, when it takes longer, she says speed was never important and only prestige matters. The moving criterion is observable. We do not need to announce what is occurring inside her brain to identify the business problem: the original standard is no longer being applied consistently."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Here is the first recall question. Two people make the same positive statement about something they dislike. One has a clear external reason for doing so, and the other has little external justification. In the classic dissonance account, why might the second person be more likely to revise their attitude?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "The second person has less situational explanation for the inconsistent action. Changing the attitude can help reconcile what they said with what they believe. It is one possible route, not an inevitable outcome. They could instead acknowledge the inconsistency or correct the statement. The crucial comparison concerns the explanation available for the action, not a general claim that smaller rewards are better or that everyone privately believes whatever they say aloud."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Public statements can create another layer of commitment. Imagine a founder who announces that a new subscription feature will transform the business. Later, only a few customers use it. Changing course now means revising a product decision and explaining the change to people who heard the confident announcement. Those are separate costs. Even if the feature is easy to remove, the founder may experience the announcement as evidence about their competence. A small technical reversal can therefore feel like a much larger personal reversal."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "We can make the structure concrete. The founder's original claim was that the feature would reduce administrative work. The actual customers report that it adds another task. A useful correction would be to investigate that discrepancy. A defensive correction might redefine the feature as an exclusive experience whose difficulty proves its quality. Exclusivity could be a legitimate aim in another product. Here, it has appeared after a failed claim about convenience. The explanation should therefore be tested as a new proposal, not smuggled in as proof that the old prediction succeeded."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "There are also real reasons to continue a struggling feature. The team might have identified a small interface defect that explains the low use. A contract might require a period of support. Several customers might depend on the feature even if most do not. Dissonance theory does not say persistence is irrational. It asks whether commitment creates pressure to reinterpret the evidence. Decisions still require an account of benefits, costs and alternatives. Sometimes the person who persists is right; sometimes the person who withdraws is simply tired."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Effort adds a related problem. Suppose you spend six difficult evenings assembling a cabinet. When it is finished, its door hangs unevenly. You may value the cabinet because you built it, because you developed a skill, because it fits an unusual space, or because acknowledging poor quality makes those evenings feel wasted. These are different reasons. The first three can name real benefits. The fourth may encourage you to exaggerate the cabinet's quality. Effort justification describes the possibility that people increase the value they attach to an outcome to justify what obtaining it cost them."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "The cost can be embarrassment, inconvenience or sustained work rather than money. A demanding audition, an elaborate application or a difficult initiation can create the thought that something reached through so much effort must be worthwhile. The dissonance interpretation links the costly action with the evaluation that follows. It does not show that all demanding experiences are empty, or that a difficult training programme only feels valuable because it was difficult. Training can produce competence. Selection can identify suitability. Those effects have to be distinguished from an altered appraisal of the outcome."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Imagine two fictional photography groups. In the first, joining requires submitting photographs and receiving detailed criticism. The criticism helps members improve, and the group offers regular useful feedback. In the second, joining requires a long, unrelated ordeal, after which members receive little support. A member of either group may feel proud of joining. But the first group's difficult entry has an identifiable connection to its purpose. In the second, the difficulty itself is doing much more of the work in the explanation of value."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "One way to make that distinction precise is to ask what the effort produced. Did it create a skill, a useful object, new information or a meaningful experience? Or is the primary argument that the outcome must be good because the effort was large? This question is about causal structure. If ten hours of editing improves a film, the improvement is evidence of value. If ten hours disappear because the software crashed, the lost time does not improve the exported film. The emotional weight of the two experiences may be similar even though their practical consequences differ."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "A cabinet owner can keep the cabinet and describe it accurately. I like this because I made it, although the joinery is rough. That statement allows personal meaning and technical weakness to coexist. It does not require throwing the cabinet away to prove rationality. In fact, pretending that personal meaning has no value creates a different distortion. The important distinction is between valuing an object for a real personal reason and inventing a technical superiority to protect that reason from scrutiny."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Now connect effort justification with sunk costs, while keeping them distinct. A sunk cost is a past cost that cannot be recovered by the current choice. It is a feature of a decision, not an emotion. Dissonance reduction is one possible psychological process that can influence how the decision is evaluated. Someone may continue because of sunk costs, but other motives could explain that too, including uncertainty about future returns or a reluctance to abandon colleagues. We should not collapse all costly persistence into one psychological label."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Use a deliberately simple workshop example. A team has already spent three hundred pounds creating a display. That payment cannot be recovered. Finishing it would cost another forty pounds, and the completed display would provide benefits the team values at seventy pounds. Under these simplified assumptions, finishing adds thirty pounds of value compared with abandoning it. The past three hundred does not change that comparison. Continuing can be sensible even though the whole project has performed poorly. A bad beginning does not automatically make every possible next step bad."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Change the numbers. The display still needs forty pounds, but its remaining benefit is only twenty pounds. Finishing now adds a net loss of twenty. Saying we have already spent three hundred does not make the remaining twenty exceed the remaining forty. It may explain why abandoning the project feels painful. It does not change the arithmetic. In a real project, benefits are uncertain and not all are monetary, so the comparison needs more detail. Our fictional figures simply isolate the difference between recovering the past and choosing what happens next."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "The founder from our earlier example faces the same structure. Already announcing a feature is a historical fact. A new decision cannot make the announcement never have occurred. It can change what is built, what customers are told and what resources are used tomorrow. An honest revision might still create an awkward meeting, but continuing an unhelpful feature will not erase the original prediction either. Protecting the story and improving the next outcome are sometimes competing objectives, even when the person experiences them as one problem."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Second recall question. A project has an unrecoverable past cost of three hundred pounds. It needs forty more pounds and would provide seventy pounds of additional benefit. In this simplified example, what is the relevant net benefit of finishing, and why does the past spending not decide the answer?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Finishing adds thirty pounds of net benefit, seventy minus forty. The three hundred is the same historical loss whichever option is chosen, so it cancels from this comparison. That does not prove the original project was wise. It shows that evaluating the next step is different from evaluating the whole history. Effort justification could influence how the team estimates the seventy, but the arithmetic itself does not tell us whether anyone feels dissonance."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "A third setting is the period after a difficult choice. Suppose Mara chooses between two equally affordable apartments. One has a shorter commute; the other has more daylight. Before signing, both seem attractive. After signing for the short commute, she starts describing daylight as a trivial luxury and the other street as unbearable. The chosen option has become better in her description, while the rejected option has become worse. Researchers call this sort of divergence a spreading of alternatives."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "The theory gives a reason this might happen. Choosing the first apartment means accepting its disadvantages and giving up the advantages of the second. Those facts can conflict with confidence in the decision. Re-evaluating the features can reduce that tension. Yet Mara could also discover something genuinely new after moving, such as how much she enjoys a short journey home. Experience can change preferences. A believable story about dissonance does not establish that dissonance caused any particular change in her opinion."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "There is an especially instructive measurement problem here. Imagine someone gives two posters the same rating, chooses one, then later rates the chosen poster more highly. It seems natural to say the choice changed the preference. But the first rating was an imperfect measurement. Two posters marked seven may not have been equally liked in the person's mind. The choice might reveal a small difference that the first rating failed to capture. A later rating could reveal that same existing difference, even without the choice causing a new preference."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Keith Chen and Jane Risen drew attention to this problem in the traditional free-choice experiment. Keise Izuma and Kou Murayama later reviewed it and demonstrated how the pattern can arise in simulations. The general point is that sorting items into chosen and rejected groups uses information about preference. If measurement is noisy, those groups were not necessarily equivalent before the choice. A difference that appears after sorting is therefore not automatically evidence that choosing created the difference."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Here is an original numerical illustration. Imagine a person's stable preference for a blue poster is eight, while their preference for a green poster is six. Their first quick ratings happen to give both posters seven. They choose blue because they actually prefer it. Later, more accurate ratings give blue eight and green six. The chosen item rises by one point, and the rejected item falls by one. We have the classic-looking pattern, yet the underlying preferences in this illustration never changed. The example is invented to expose the measurement issue, not data from an experiment."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "A useful control changes the order. In one condition, people rate, choose, then rate again. In another, they rate twice before choosing. If a similar apparent spread occurs between two ratings that both happened before the choice, the later choice cannot have caused that earlier change. It can still reveal which item was preferred. Comparing these arrangements helps researchers separate the measurement artifact from a possible effect of choosing. The exact design requires care, but the logic does not depend on complicated mathematics."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "The correction does not mean that choice never affects preference. A twenty twenty-one meta-analysis by Maya Enisman, Hila Shpitzer and Tali Kleiman examined forty-three studies designed to avoid this artifact and found evidence of choice-induced preference change. That result supports an average effect across those studies. It does not establish that every preference change is caused by discomfort, or that choosing permanently rewrites every person's values. The lesson from the research is narrower and more useful: choice can influence evaluation, and the experiment must distinguish influence from the revelation of a preference that already existed."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Back with Mara, we therefore have several possibilities. She may now genuinely value commuting time more because she has experienced the benefit. Her original rating of daylight may have overstated its importance. She may be protecting her confidence by belittling the rejected flat. More than one process could occur together. A fair conversation would examine the actual changes she reports. It would not dismiss every reason she gives merely because the reason appeared after a decision."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "The same distinction matters in attraction. Someone may say they became more attracted to a partner after committing to the relationship. That might involve learning about the person, developing shared experiences, changing priorities or evaluating the choice more favourably. It is not evidence that commitment acts like a remote control over attraction. Nor does a lack of growing attraction prove that someone has failed to commit properly. A laboratory account of preference change should not become a demand that another person's feelings follow a prescribed timetable."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Regret and dissonance are also different. Regret often compares what happened with what might have happened under another choice. Dissonance concerns a relevant inconsistency, such as between an action and a belief. Mara could regret the noisy flat without feeling her identity threatened. She might also feel tension about defending a choice even before she knows whether the alternative would have been better. The experiences can overlap, but distinguishing them prevents us from treating every unpleasant feeling after a decision as the same mechanism."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "There is a constructive side to settling on a choice. Someone who has carefully compared two reasonable options does not need to relitigate the decision every morning. Concentrating on the advantages of the chosen flat can help them make a home there. The problem arises when that concentration requires denying important defects or blocking needed repairs. Appreciating a decision and accurately recognising its costs can coexist. Dissonance theory explains a possible pressure toward selective evaluation; it does not require perpetual dissatisfaction as proof of honesty."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Third recall question. A person initially rates two posters equally, chooses one, and later rates that one higher. Why is that pattern alone insufficient to prove that choosing changed their underlying preference?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "The initial ratings may have been noisy. The choice can reveal a preference difference that was already present but hidden by those ratings. Later ratings may then express the existing difference more accurately. A comparison that controls for this possibility is needed to attribute additional change to the act of choosing. The blue-and-green example produced a two-point spread without changing the fictional person's underlying preferences at all."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "There is another explanation for some cases in which attitudes follow actions: self-perception. Daryl Bem's account proposes that people can infer their attitudes by observing their own behaviour and its circumstances, rather as they interpret someone else's behaviour. The emphasis is on inference. A person notices that they repeatedly choose a certain activity when they are free to do otherwise and concludes that they must like it. This does not necessarily require a painful conflict or a threatened identity."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Imagine Nia, who has never had a strong opinion about gardening. She volunteers to help at a community garden because a friend invites her. Over several weekends, she notices that she keeps arriving early, choosing extra tasks and thinking about the plants during the week. She concludes that gardening interests her. Nothing in our example requires her to have previously despised gardening. Her behaviour gives her information about an attitude that was uncertain. That differs from our designer defending lettering that clashes with a commitment she strongly endorsed."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Circumstances still matter. If Nia attended only because a course required community service, attendance would tell us less about her interest. If she chose gardening among several equally available activities, the choice would be more informative. These are ordinary attribution questions: what else could explain the action? The self-perception account makes the same kind of reasoning relevant to one's own behaviour. It does not mean people have no direct access to their feelings or must deduce every preference from a diary."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Compare two statements. I keep choosing to draw, so perhaps I enjoy drawing. I publicly insisted that my drawing was excellent, so perhaps the criticism must be worthless. The first illustrates an inference from voluntary behaviour under uncertainty. The second could involve defending a prior commitment against conflicting information. Both might produce a more positive evaluation of one's drawing, but they propose different routes. A theory becomes more useful when it clarifies those routes instead of calling every change of attitude dissonance."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "People can also deliberately misrepresent an opinion without changing it. That is impression management. A salesperson may privately dislike a product and publicly praise it because the praise serves a commercial purpose. A friend may politely compliment a meal while knowing they disliked it. We should not automatically treat a public statement as a transparent readout of a private attitude. If an experiment only measures what someone says in front of the person they want to please, alternative explanations about presentation become especially relevant."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "In everyday life, these possibilities often sit close together. Someone can begin by managing an impression, later believe part of the story, and still recognise a contradiction in private. Or they can maintain a public position while privately revising their view. The categories are tools for analysing a process, not permanent types of person. Calling someone a dissonant person tells us less than identifying a particular commitment, the conflicting information and the response that followed."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "This distinction helps with friendship conflict. Imagine Ravi tells a friend he always gives honest feedback, then flatters a performance he found weak. Later, the friend asks for specific advice. Ravi can admit that his first response was meant to be kind. He can also convince himself the performance was excellent and give no useful feedback. Or he can continue flattering while privately retaining the original opinion. The outward compliments may look similar, but the first involves a correction, the second a possible evaluation change, and the third a continuing gap between public words and private judgement."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "An effective repair addresses what happened without demanding a total character verdict. Ravi might say, I wanted to encourage you and was not specific enough. The opening was strong, but I struggled to follow the middle. That supplies usable information and acknowledges the earlier limitation. It is an original communication example, not a tested formula guaranteed to reduce dissonance. Its practical advantage is clear from the exchange: the friend receives a concrete observation instead of having to decide whether Ravi is an entirely honest or entirely dishonest person."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "A global accusation can make that exchange harder. You are fake invites a defence of the whole self. Your first feedback said the pacing worked, but now you say you lost track in the middle identifies a discrepancy. The second statement is more precise and easier to examine. It does not make the recipient agree automatically. They may still disagree about the performance or the earlier wording. But a specific claim permits a specific answer, whereas an attack on identity can consume the conversation without clarifying the original issue."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "The self-image element is important because people care about being competent, fair and decent. Yet we should not assume that a person must think of themselves in exactly those terms for dissonance to occur. Different theoretical accounts put different weight on the self. Different situations make different commitments important. A person might experience the conflict mainly as disloyalty to a group, inconsistency with a promise or responsibility for a bad outcome. The useful habit of analysis is to locate the actual commitment in the case, not insert a universal script about ego."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Consider a manager who prides himself on fairness. He awards the best assignment to a close friend without comparing candidates. When another employee asks about the criteria, he could recognise that the process was weak and reopen the comparison. He could also start describing the excluded employee as difficult, even though that judgement played no role beforehand. The new negative description can make the original decision seem fairer. It is one plausible dissonance-based explanation, but evidence about the actual selection process remains more important than confidence in the psychological story."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "The organisation can address the observable weakness directly. Require the criteria to be recorded before selection, compare relevant work, and document why the chosen person meets the criteria. These are decision procedures, not a cure for every private bias. Their value in this example is that a later story can be compared with an earlier standard. They also protect a well-founded decision from unfair suspicion: if the friend's work was genuinely strongest on the recorded criteria, the record helps show that too."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Fourth recall question. Nia discovers an interest in gardening by noticing what she freely chooses to do. Our designer defends a flawed logo that conflicts with her professional self-image. What distinguishes the self-perception explanation in the first case from the dissonance explanation in the second?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Self-perception emphasises inferring an uncertain attitude from behaviour and circumstances. The dissonance explanation emphasises motivation to reduce a relevant inconsistency, potentially involving discomfort about an existing commitment. Neither label can be confirmed merely by observing a positive opinion afterwards. We need information about the person's prior attitude, the situation and what changed. The distinction concerns the proposed mechanism, not whether gardening is good or design work is difficult."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Commitment can also be used in persuasion. A small request may be followed by a larger request, with the first agreement presented as a reason to continue. Research on the foot-in-the-door effect examines how agreeing to an initial request can affect later compliance. Multiple explanations are possible, including self-perception and consistency. It would be inaccurate to say that every sequence of small then large requests operates through dissonance. The sequence is observable; the psychological route needs additional evidence."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Imagine a website asks you to choose a preferred delivery date before it reveals the full price of a service. Once you have pictured the delivery and spent time entering details, the final price may arrive after some psychological commitment. In our hypothetical case, the seller then says you are nearly finished, as if completion itself were a reason to pay. The relevant issue is that agreement to one stage is being used to support a different stage whose terms were not yet known. Previous effort does not make the new terms acceptable by itself."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "There is a practical difference between a helpful sequence and a pressure sequence. A service may reasonably ask questions in stages because it needs information to calculate a quote. If it then presents the full quote clearly and permits an easy refusal, the sequence can serve the customer. If it hides material terms and treats earlier clicks as an obligation, the same staged structure can create pressure. We can evaluate the design by examining disclosure, reversibility and what exactly the person agreed to, without pretending to measure their internal dissonance."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "In a relationship, a similar confusion can be more personal. Someone agrees to dinner, then is told that declining a later invitation would contradict the interest they already showed. Agreement to dinner established agreement to dinner. It did not establish every later preference. A change of mind also does not require proving that the earlier feeling was false. Applying consistency as a demand can turn ordinary social momentum into pressure. The relevant boundary is the person's present, freely given agreement to the specific next step."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "This is one reason psychological knowledge should be precise. Knowing that people sometimes seek consistency does not justify trapping them in an earlier yes. A person can be consistent at the level of a broader value while changing a specific action. Someone who values honest communication may decline the second invitation precisely because continuing would misrepresent their wishes. If we define consistency only as repeating the last behaviour, we miss the possibility that a revised action better expresses the person's actual commitment."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "The same applies to business negotiation. A buyer can be serious about buying while rejecting a revised price. A seller can value reliability while correcting an impossible delivery estimate. The earlier discussion provides context, but changed terms require a new evaluation. A useful negotiator makes that change explicit: the original agreement assumed one delivery date, and the new date changes the value of the deal. This does not erase responsibility for promises already made. It separates keeping a valid commitment from pretending that two materially different offers are the same."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Think about a team that has built a prototype together. One member notices that it violates an accessibility requirement. Other members reply that everyone already agreed on the design. Their statement is historically true, but the agreement occurred without the newly noticed problem. The team can preserve its broader commitment to a usable product by changing the prototype. If it treats revising the prototype as betrayal, it has elevated consistency with an earlier implementation above consistency with the purpose that justified the implementation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "There can be real costs to changing course, and acknowledging them makes the discussion more honest. Reworking the prototype takes time. The team may have to explain a delay. Those costs should be included in the decision. They should not be disguised as proof that the accessibility problem does not exist. A factual claim about the design and a practical claim about the cost of fixing it are different claims. Confusing them allows a difficult remedy to become an excuse for denying the underlying defect."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "The importance of a cognition also matters more than simply counting sentences. A person may have ten minor reasons for liking a job and one serious reason for questioning it. We cannot conclude that ten beats one. If the serious reason concerns a central promise, it may carry much more psychological weight. The theory directs attention to relevance and importance. It does not provide a universal calculator that turns the number of agreeable and disagreeable thoughts into a precise discomfort score."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Imagine a musician who accepts occasional background work while strongly valuing artistic independence. There may be little conflict if they see the paid work as financing their own music. The two activities fit into a coherent plan. Now imagine the contract requires them to publicly disown music they privately admire. The conflict has changed because the action bears directly on the value. An outsider could call both arrangements commercial compromise, yet the musician's understanding of the commitments determines why one may be easy to accept and the other difficult."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "An added reason can therefore do legitimate explanatory work. Funding an independent recording is a concrete purpose, especially if the money actually goes toward that recording. The same explanation becomes less convincing if it is repeated for years while no independent work ever occurs. The relevant difference is not whether the explanation sounds noble. It is whether the actions and circumstances support it. This gives us a way to assess a justification without assuming that every comforting explanation must be false."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Changing behaviour also has a time structure. Our designer cannot make the earlier approval disappear, but she can revise the file and acknowledge the version change. The correction resolves the continuing problem while leaving a truthful account of the past. Someone who demands that correction erase all embarrassment sets an impossible condition. A repair can be worthwhile even when discomfort remains. Dissonance reduction describes a motivation; it does not require that every useful correction instantly restore complete emotional ease."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "A related pattern appears when people explain their treatment of someone else. Suppose a colleague was excluded from a meeting by mistake. Admitting the error creates work and embarrassment. One possible response is to begin describing the colleague as someone who would not have contributed anyway. That description makes exclusion seem more reasonable after the fact. But another possibility is that the meeting genuinely required different expertise. The order and quality of the reasons matter. We should ask what was known when the decision was made and what evidence supports the later account."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Notice how easy it would be to misuse the theory here. If the colleague argues, we could say their anger proves dissonance. If they remain calm, we could say their calmness proves suppression. That reasoning cannot lose, so it cannot teach us much. A serious explanation has to leave room for the possibility that it is wrong. Observable evidence can show that the exclusion was accidental or justified. No theory of consistency grants privileged access to motives simply because we find the person's response convenient for our story."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "For the person who made the mistake, a specific repair can reduce the practical problem without requiring a sweeping self-condemnation. I left you off the invitation; here are the notes, and I will include you in the decision before it is final. That statement links responsibility to an action. It does not insist that the speaker is a terrible colleague forever. Again, this is a communication design, not a clinical intervention. Its value comes from making the repair possible rather than turning the whole exchange into a contest over moral identity."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "There is an important asymmetry between explaining and excusing. Dissonance might help explain why a person defends an error. It does not make the error harmless or remove responsibility for correcting it. Likewise, understanding that a customer may defend an expensive purchase does not give a seller permission to exploit that defence. A mechanism describes pressures that can influence behaviour. Ethical evaluation still asks what someone did, what consequences followed and what obligations remain."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Now put several mechanisms into one extended fictional case. A small studio buys an expensive editing system after its founder strongly recommends it. The system performs well on short clips but crashes on longer projects. Staff have already spent time learning it. A supplier offers a paid upgrade. The founder says rejecting the upgrade would mean admitting the original purchase was foolish. We can analyse this situation without reducing it to one slogan about bias."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "First, there is a technical question: what causes the crashes, and does the upgrade actually fix them? Second, there is a future-cost question: what will the upgrade cost compared with changing systems or adjusting the workflow? Third, there is an ownership and effort question: what value comes from the team's existing training and files? Fourth, there is a self-justification question: is protecting the founder's earlier recommendation distorting any of those estimates? Separating these questions prevents a genuine switching cost from being dismissed as mere stubbornness."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Suppose the existing training would save twenty hours if they stay, while moving would require those hours again. That is a future difference, even though it arose from past learning. It belongs in the comparison. By contrast, a payment already made and unrecoverable is not made recoverable by purchasing the upgrade. Past events can create present assets, obligations and switching costs. The principle is not to ignore history. It is to identify which consequences of history actually differ between the options available now."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Next, suppose the upgrade costs two hundred pounds, while a different system costs one hundred pounds plus training the studio values at sixty pounds. On those assumed costs alone, switching costs one hundred and sixty, forty less than upgrading. But costs alone do not settle the decision if performance, file compatibility or support differ. The example forces the founder to specify those differences. Saying we have always used this supplier does not quantify compatibility. Saying their upgrade reliably fixes our exact crash, supported by a test, supplies relevant information."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "The founder could also revise the emotional story. The original system was reasonable for the short clips we made then; our work has changed. If that is supported by the actual history, it is a legitimate explanation, not automatically self-deception. Alternatively, the original purchase may really have been careless. The team can acknowledge that and still choose the upgrade if it is now the best option. Good current reasoning does not require defending every past decision, and admitting a past error does not dictate which supplier wins today."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "This is why the theory should make our analysis more discriminating. If the founder changes vendors, we have not proved courage. If the founder stays, we have not proved irrationality. What matters is whether the reasoning accounts for the relevant facts and whether the stated reasons survive contact with them. Dissonance theory identifies a possible pressure to protect the earlier decision. It does not substitute for inspecting the software, calculating the costs or listening to staff who use the system."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Our fifth recall question combines the distinction. A studio has an unrecoverable purchase payment, useful staff training, and a founder's public endorsement. Which of those can create a relevant future switching cost, and which might create psychological pressure without changing the technical quality of the software?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Useful training can create a future switching cost because moving may require time to learn another system. The unrecoverable payment stays in the past unless some refund or resale option makes it recoverable. The public endorsement can create pressure to defend the decision, but it does not improve the software's technical performance. There may also be real reputational consequences to explaining a change. Those should be described honestly rather than treated as evidence that the product works better."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "For a low-risk application, use a fictional or trivial purchase on paper. Choose an object such as a desk lamp, a notebook or a kitchen timer. Give it two genuine advantages and one defect. Then imagine that you have already recommended it enthusiastically to a friend. Write one sentence that repairs the recommendation while preserving the accurate advantages. For example, the lamp has a useful adjustable arm, but I overstated its portability because the base is heavy. The aim is a specific correction, not a confession about your entire character."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Now add a second sentence that states what action follows. I would still use it on a fixed desk, but I would choose a lighter one for travel. This connects the revised evaluation to the relevant use. It also shows why changing an opinion need not erase everything previously said. The lamp can remain useful for one purpose and unsuitable for another. Keep this exercise with an ordinary object or an invented case; there is no need to provoke a personal conflict or test someone else's reactions."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "One final distinction helps prevent overreach. Feeling uneasy does not tell you which belief is true. A mistaken belief can be comfortable, and an accurate correction can be unpleasant. Equally, discomfort can arise from fatigue, uncertainty or social tension without dissonance being the main explanation. The feeling is not a truth detector. In our cases, the useful evidence was specific: unreadable lettering, a reproduced software failure, a changed criterion, a cost comparison or a corrected rating design."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "The deepest reversal in this subject is that evaluations can follow commitments as well as precede them. We choose because we like, but choosing can also affect what we later like. We work because an outcome matters, but costly work can affect how much value we assign to it. We speak because we believe, but speaking can create pressure to bring belief into line. Those relationships are tendencies to investigate, with alternative explanations and limits. They are not laws that make another person's mind predictable on command."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally, with both voices explaining. Keep the fictional cases concrete. Distinguish mechanisms without a lecturing or diagnostic tone. Preserve recall pauses and speak subsequent answers clearly.",
+      "t": "Our designer can finish the story by enlarging the lettering. She can still care about the original design, remember the effort it took and regard herself as a capable professional. What changes is the claim that this particular version needs no correction. The psychological pressure was to preserve consistency. The practical opportunity was to find a form of consistency that allowed the actual work to improve. A commitment to doing good work can survive revising the work, even when a commitment to always having been right cannot."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-10-03",
+    "spoken_words": 7142,
+    "sha256": "b2d91db63c7e22baecc409e64fd82ee0dac854b60337ac13f40b8582e7486cea",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://opentextbc.ca/socialpsychology/chapter/changing-attitudes-by-changing-behavior/",
+      "https://psychclassics.yorku.ca/Festinger/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3566335/",
+      "https://pubmed.ncbi.nlm.nih.gov/33411557/"
+    ]
+  }
+}
