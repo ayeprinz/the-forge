@@ -9,6 +9,15 @@
     <itunes:explicit>true</itunes:explicit>
     <itunes:image href="https://ayeprinz.github.io/the-forge/forge-cover-v2.jpg"/>
     <item>
+      <title>[Geography] Why Rivers Flood After the Rain Stops</title>
+      <description>Follow water through the fictional town of Bellford. Learn catchments, rainfall volume, infiltration, groundwater, discharge, river stage, hydrographs, tributary timing, finite storage and annual flood probability. Original calculations and contrasting cases explain why the same rain can produce different floods. Includes five recall pauses with answers and a paper catchment exercise. No prior reading required. Sources actually consulted: selected USGS Water Science School explanations at https://www.usgs.gov/water-science-school ; Environment Agency natural flood management summaries at https://www.gov.uk/government/publications/natural-flood-management-evidence/river-and-floodplain-management ; and US National Weather Service flood safety guidance at https://www.weather.gov/safety/flood-turn-around-dont-drown . This is an introductory geography lesson, not a local flood forecast or engineering design.</description>
+      <pubDate>Sat, 03 Oct 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2026-10-03</guid>
+      <enclosure url="https://ayeprinz.github.io/the-forge/audio/2026-10-03.mp3" length="18960573" type="audio/mpeg"/>
+      <itunes:duration>00:52:40</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+    </item>
+    <item>
       <title>[Technology] What Happens When You Open a Website</title>
       <description>Follow a fictional poster shop from a browser request to the visible page. Learn how Wi-Fi, DNS, packets, routing, TCP, TLS, HTTP, browser rendering, caching, cookies and QUIC cooperate, and why a page can partly work. Includes original transfer calculations, five recall questions with answers and a paper troubleshooting exercise. No prior reading required. Source material consulted: selected sections of the IETF RFC specifications for DNS, IP, TCP, TLS, HTTP and QUIC at https://www.rfc-editor.org/ ; selected MDN web mechanics, HTTP and performance documentation at https://developer.mozilla.org/en-US/docs/Web ; and Google web.dev guidance on layout shifts at https://web.dev/articles/optimize-cls . This is an original introductory lesson, not a complete networking course or a reading of those documents.</description>
       <pubDate>Fri, 02 Oct 2026 05:00:00 +0000</pubDate>
