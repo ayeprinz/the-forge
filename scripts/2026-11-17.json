@@ -1,0 +1,455 @@
+{
+  "date": "2026-11-17",
+  "title": "[Psychology] Why We Remember the Same Conversation Differently",
+  "summary": "How encoding, gist, retrieval cues, interference, source confusion and later information shape recollection. Original planning and envelope cases, a numerical recognition example, five recall questions and a paper-only application. Adapted teaching informed by Kathleen B. McDermott and Henry L. Roediger III, Memory (Encoding, Storage, Retrieval), and Cara Laney and Elizabeth F. Loftus, Eyewitness Testimony and Memory Biases, Noba textbook series, DEF Publishers, both CC BY-NC-SA 4.0. Also informed by OpenStax Psychology 2e, sections 8.1 and 8.3; access for free at https://openstax.org/books/psychology-2e/pages/1-introduction . This original dialogue adaptation is shared under CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/ . No copied figures or quotations. Wixted and Wells (2017) publisher abstract consulted for the narrow qualification about initial identification confidence. Sources: https://nobaproject.com/modules/memory-encoding-storage-retrieval https://nobaproject.com/modules/eyewitness-testimony-and-memory-biases https://openstax.org/books/psychology-2e/pages/8-1-how-memory-functions https://openstax.org/books/psychology-2e/pages/8-3-problems-with-memory https://www.psychologicalscience.org/journals/pspi/1529100616686966/",
+  "instructions": "Begin immediately with the fictional conditional Friday delivery. Assume no prior reading. Explain concrete memory mechanisms rather than curriculum orientation. Both voices teach. Distinguish fictional examples and invented numbers from research; no individual diagnosis or claim that disagreement proves deception. Avoid legal or clinical advice. Five recall questions each have a seven-second pause followed by an answer. End with a low-risk paper exercise separating stated, inferred and unknown details.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "At the end of a meeting, Noor remembers a promise. Ellis remembers a possibility. They both remember discussing a Friday delivery, and neither thinks they are lying. In our fictional conversation, Ellis actually said, Friday could work if the replacement part arrives on Wednesday. Noor later remembers, It will be ready on Friday. The date survived, but the condition disappeared. That small change can turn a tentative plan into an apparent broken commitment. To understand how it happens, we need to look at what memory preserves, what it leaves out and what the mind supplies later."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "The first point is that remembering a conversation does not normally mean replaying a complete internal recording. We attend to selected information, interpret it while listening, retain some aspects and later reconstruct an account. Reconstruction can be accurate. It also creates several opportunities for error. Noor may have focused on the useful Friday date, inferred that the part would probably arrive, and retained the practical meaning she wanted to act on. Ellis may remember the condition especially well because it mattered to his ability to deliver. Their different concerns can produce different memories of the same exchange."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "That explanation is a possibility within the case, not a diagnosis of real people. A disagreement could also involve unclear wording, poor hearing, deliberate deception or a later change of plan. Memory science helps us understand how sincere disagreement can arise without establishing that sincerity explains every disagreement. We will follow the actual processes: encoding, retention, retrieval, interference and source confusion. By the end, the meeting will look less like a contest between two private recordings and more like a problem whose missing details can be investigated."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Encoding is the formation of a representation from an experience. Retention concerns what persists over time. Retrieval is the process of bringing information back into use. These are useful distinctions, but they are not three sealed compartments. How an event is encoded influences which later cues help retrieve it. What happens during the delay can introduce competing information. Retrieving and retelling an event can affect what is recalled on another occasion. An explanation that considers only the final moment of remembering misses the history that made that moment possible."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Take a simpler event. Someone leaves a blue notebook on a kitchen chair while listening to a message. Later, they know they used the notebook but cannot remember putting it down. Perhaps they did not attend closely to its location, so the location was poorly encoded. Perhaps the location was encoded but is hard to access with the cues available now. From the failure to remember alone, we cannot determine which occurred. The absence of a report is evidence about current performance, not a complete inventory of everything the brain retained."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "We can distinguish several kinds of memory within that everyday scene. Knowing what a notebook is uses general knowledge, often called semantic memory. Remembering placing this notebook on this chair this morning is episodic memory, a recollection of a particular event in a context. Knowing how to write smoothly involves learned skills that do not depend on consciously recounting every movement. Holding a phone number in mind while entering it uses short-term maintenance and working memory. These abilities interact, but success in one does not guarantee success in all the others."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "A pianist illustrates the distinction. She may play a familiar passage with considerable fluency but struggle to describe each finger movement in words. She can also tell you facts about the composer and remember a particular rehearsal. The skill, the factual knowledge and the rehearsal episode are different aspects of memory. Calling someone good at remembering can hide which ability we mean. An excellent memory for routes does not establish an equally excellent memory for exact sentences, and a forgotten name does not tell us that all the person's knowledge has disappeared."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Working memory deserves a precise role here. It involves maintaining and working with information over a short period, such as retaining the beginning of a sentence while interpreting its ending. Its capacity is limited and depends on the task, the material, prior knowledge and how information is organised. There is no single magic number that describes every real situation. When Noor hears a date, a condition and several other job details, she is not processing each item in isolation. Understanding the sentence requires holding relationships together long enough to interpret them."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Meaning can help organise those relationships. Compare hearing a string of unrelated instructions with hearing a coherent route: enter through the courtyard, pass the fountain, and use the door beside the stairs. The second has a structure that links its parts. But a structure also encourages interpretation. If we expect a building to have its reception near the entrance, we may later include a reception desk in our remembered route even if nobody mentioned one. Prior knowledge supplies useful organisation, while also supplying plausible details that can be mistaken for information actually received."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Psychologists use the term schema for an organised pattern of knowledge about a class of things or events. A restaurant visit, a job interview or a birthday party each brings expectations. Schemas help us understand incomplete information quickly. If someone says the waiter brought the bill, we do not need every detail about ordering, eating and payment explained again. The cost of this efficiency is that what normally happens can become entangled with what happened on this occasion. Typicality is useful for prediction, but it is not a record of a particular event."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Imagine a fictional restaurant visit where a friend pays at the counter before the food arrives. A month later, you might describe everyone waiting at the table for the bill because that is how similar meals usually end. The central fact that you shared a meal may be correct while the payment sequence is reconstructed from a familiar script. This is a specific kind of error, not evidence that the entire evening was invented. Memories often contain a mixture of accurate elements, missing details and inferred connections. Assessing them requires enough precision to separate those components."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Now return to Noor and Ellis. Noor understands the conversation through a project-planning schema: discuss the work, identify a delivery day, make arrangements around it. Ellis understands it through a repair process: obtain the part, complete the repair, test it, then deliver. The date is connected to different priorities in their accounts. If the condition receives little attention or is treated as routine, Noor may preserve the plan's broad outline while losing the dependency. The error can begin during interpretation, before any long delay or later discussion has occurred."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "This gives us a distinction between the gist of a message and its exact wording. Gist is its broad meaning, such as a repair might be completed near the end of the week. Exact wording contains details such as could, will, unless and only if. Those small words can change a commitment. A person may remember the main subject accurately without remembering the precise level of certainty. Conversely, they may remember an unusual phrase while forgetting why it was said. Neither form of memory automatically supplies everything needed to reconstruct the agreement."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Here is the first recall question. In the fictional meeting, the phrase Friday could work if the part arrives becomes It will be ready on Friday. What two parts of the meaning changed, and why can remembering the date correctly still leave the overall recollection wrong?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "The possibility became a firm commitment, and the condition about the part disappeared. The Friday date stayed the same, but its relationship to the rest of the sentence changed. Accuracy for one detail therefore does not establish accuracy for the proposition as a whole. Remembering a conversation requires preserving who said what, how certain it was and what conditions applied, not merely retaining a few recognisable words."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Research on meaningful processing helps explain why we often retain the general point. Information connected to existing knowledge can be easier to retrieve than material processed only superficially. But meaningful processing is not the same as literal transcription. If we turn a sentence into an interpretation, that interpretation may become what we remember. Suppose a fictional message says that a parcel was left beside the office. You assume that means beside the office door. Later, the door may feel like part of the original message even though it was your addition."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "That is an inference entering a remembered account. Making inferences is necessary for ordinary comprehension. Language rarely states every detail, and conversation would become impossible if we refused to fill any gaps. The important distinction is between using an inference to understand or act and later remembering it as directly observed. If a colleague says the floor is wet, you might reasonably infer someone has just cleaned it. But remembering that you saw a cleaner would be a different claim. The explanation of the wet floor and the observation of wetness have different sources."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Source memory is memory for where information came from. Did you see something, hear it from a friend, read it in a message, imagine it or infer it? Remembering a detail and remembering its origin can come apart. A familiar statement may come to mind without a clear recollection of who said it. In everyday language, we sometimes promote that familiarity into certainty: I definitely heard it somewhere, so it must have been in the meeting. The detail's availability does not establish the source we have attached to it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "For example, a team discusses using a green backdrop for a photograph. Later, one person imagines how a blue backdrop would look. At a subsequent meeting, blue feels familiar, and they say it was the agreed colour. This invented case illustrates a possible source error: an imagined option becomes confused with an agreed decision. It does not require vivid hallucination or a total loss of contact with reality. A small mistake in attributing a familiar idea can be enough to produce a confident but inaccurate account of a decision."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "The same problem can arise between different conversations. Ellis may have discussed an unconditional Friday delivery with another customer and a conditional Friday delivery with Noor. If the jobs share features, the details can compete. He might remember the right kind of conversation but attach one customer's terms to another. This is why a description such as I remember saying it is incomplete. The relevant question is whether he remembers saying it in this particular exchange, to this person, about this job. The context helps distinguish otherwise similar events."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Similarity can also create interference. Proactive interference occurs when earlier learning hinders remembering newer information. Retroactive interference occurs when newer learning hinders remembering older information. Suppose a workshop changes its collection day from Tuesday to Thursday. Someone who keeps saying Tuesday while trying to recall the new arrangement illustrates interference from the old information. Later, when asked what the collection day used to be, someone who can think only of Thursday illustrates interference in the other direction. The labels describe the direction of the interference relative to the target memory."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "That does not mean each new fact literally erases an old one. Difficulty accessing the target can arise because related information competes or because the available cue does not sufficiently distinguish it. The cue collection day now points toward several arrangements. Adding a specific period, such as the arrangement before the workshop moved, may help. A useful cue narrows the target rather than merely making the general topic familiar. The distinction matters because failure under one cue does not prove permanent loss under every possible cue."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Retrieval cues are features that help bring information to mind. They can be words, places, sounds, other memories or questions. Their usefulness depends partly on how the original information was encoded. If you learned someone's name during a conversation about a particular painting, recalling that painting might help recover the name. Another person who met them while discussing a train journey may have a different useful cue. There is no universal cue that works equally well for every person and every encoding history."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "This relationship is often described through encoding specificity. Retrieval is helped when the cue connects appropriately with the encoded experience. A place can contribute, but the principle is broader than returning to the same room. The meaning of a word, the subject of a discussion or an association formed at the time can matter. Returning physically to a setting is not a guarantee of accurate recall, and a new setting does not make recall impossible. What matters is the relationship between the cue and the information being sought."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Distinctiveness matters alongside that relationship. The cue the person from work might connect to dozens of people. The person who explained the broken projector while wearing a cycling helmet may point more specifically to one encounter, if those details were actually part of it. A cue that connects to too many similar experiences can become less useful for identifying the target. This is called cue overload. A broad cue may activate a busy neighbourhood of memories without telling us which member belongs to the occasion we need."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Consider the difference between asking, What happened on Tuesday, and asking, What did we decide after the projector stopped working on Tuesday morning? The second question supplies context that may help identify the meeting. But a cue becomes problematic if it introduces an event that did not happen. If the projector never failed, the question contains misinformation. Helpful specificity connects with a real part of the event. Invented specificity can steer the account toward a false frame. A detailed question is not automatically a better question."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "We can now distinguish free recall, cued recall and recognition. Free recall asks you to produce information with relatively little guidance, such as describing what you remember from the meeting. Cued recall provides a prompt, such as asking what was said about the delivery date. Recognition asks you to judge whether a presented option matches what occurred, such as choosing between Friday and Monday. These tasks provide different amounts and kinds of support. A person can perform differently across them without the underlying history of the event changing."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Recognition often feels easier because the candidate answer is present. Yet it can also produce false recognition: an option feels familiar and is accepted even though it was not part of the target event. Familiarity may come from another occasion or from having recently considered the option. Recall has its own errors, including intrusions of related information. Neither task is a transparent window into storage. Each creates a particular retrieval situation, and the resulting response reflects both memory and the demands of that situation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Here is the second recall question. The workshop used to collect on Tuesday and now collects on Thursday. Someone keeps answering Tuesday when asked for the current day. What direction of interference is that? And why might adding the phrase after the move help more than repeating the broad question?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "It is proactive interference: older information is interfering with remembering the newer arrangement. After the move could help if it is a real, distinctive context associated with the new schedule. It narrows the target away from the earlier arrangement. Repeating the broad question collection day may keep activating both possibilities. The better cue does not create the correct answer; it helps identify information associated with the relevant period."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "A useful laboratory finding shows how meaning can generate a false recognition response even without a complicated life story. Researchers have presented lists of related words while omitting a strongly associated word. Later, some participants report the omitted word as having appeared. This family of tasks is associated with Deese, Roediger and McDermott. The task demonstrates that related meaning can become confused with actual presentation. It does not establish that every participant makes the error, or that all real-world memories are equally vulnerable to the same manipulation."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "We can understand the logic without copying a published word list or testing you by surprise. Imagine a hypothetical list containing several tools and workshop objects but leaving out one strongly associated item. The theme can make that missing item easy to think of. On a later test, the ease of thinking of it may be mistaken for remembering its appearance. The important comparison is between the recorded original list and the participant's report. Without that original record, a familiar word could be accepted as correct merely because it fits the theme."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Several processes can contribute to these errors, including associations activated by the material and difficulty monitoring whether an item was actually presented. A single demonstration does not settle every theoretical explanation. For this lesson, the practical distinction is clear: remembering meaning and remembering occurrence are related but different achievements. An item may belong perfectly to the topic while never having appeared in the original event. The mind's ability to connect ideas helps comprehension, but topic membership is not proof of historical presence."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "The laboratory setting offers a strong advantage: researchers know which items were shown. In ordinary life, people often lack that ground truth. Two friends may confidently dispute a detail with no recording or independent trace. It is then much harder to estimate who is accurate. Laboratory evidence establishes that certain errors can occur under specified conditions. Applying it to a particular disagreement requires additional evidence. We should not leap from humans sometimes falsely recognise words to this particular person's account must be false."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "That limit is especially important when people use psychology as a weapon in an argument. Saying memory is reconstructive does not give one speaker privileged access to what really happened. Their own memory is subject to the same processes. A fair use of the idea is to make room for uncertainty, distinguish observations from interpretations and consult available records. An unfair use is to dismiss another person's recollection while treating one's own as exempt. The scientific concept applies symmetrically, even when the social power in the conversation does not."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Later information creates another route to error. The misinformation effect refers to cases in which information encountered after an event affects the later account of that event. A question, a conversation or a description can introduce a detail that becomes confused with what was originally seen. The sequence matters: first an event, then additional information, then a memory test. Researchers can compare people who received misleading information with people who did not. That comparison helps separate the effect of the later information from ordinary mistakes that might occur anyway."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "In a classic experiment described by memory researchers Cara Laney and Elizabeth Loftus, participants saw a sequence involving a car and a pedestrian. Some later questions referred to a different traffic sign from the one shown. When participants subsequently selected which image they had seen, those exposed to the misleading detail were more likely to choose the corresponding wrong image. The important finding was not simply that people sometimes chose incorrectly. Changing the later information changed the pattern of errors. The researchers could compare the report against the image originally presented."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "A leading question can supply more than a request for information. Ask, Where was the damaged box when the courier left, and the question presupposes that the box was damaged. If that detail is uncertain, the wording can introduce an assumption. Asking what the person noticed about the box leaves more space for their own account. This does not mean every leading question implants a memory. It means the question itself can become part of the information available during reconstruction, so its content matters."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Apply that to the Friday meeting. A colleague asks Noor, Why did Ellis promise Friday when he knew the part might be late? The question contains several claims: there was a promise, Ellis knew of a likely delay, and his conduct needs explanation. Noor may begin explaining those claims rather than checking whether they were established. The colleague has moved the discussion from recalling the original wording to interpreting an already framed event. Even if everyone is trying to help, that frame can influence what becomes familiar and what gets retold."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "There is a difference between agreeing publicly with another person's account and privately remembering it. Someone might repeat a detail because they trust the other speaker, while knowing they did not personally observe it. Someone else might later confuse the borrowed detail with their own experience. A memory report alone can leave these possibilities hard to separate. Good documentation distinguishes what someone recalls directly from what they learned afterwards. The goal is not to treat second-hand information as worthless. It is to preserve its origin so that it is not counted twice as independent observation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Suppose three staff members all say a parcel was left in the rain. That sounds like three witnesses. But one saw the parcel, told the second, and the second told the third. There is only one direct observation in that chain. The other two accounts may accurately report what they were told, yet they do not independently confirm where the parcel was. If the first person was mistaken, repetition can spread the mistake. The number of people repeating a claim and the number of independent observations are different quantities."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Now give the example more detail. The first staff member saw a wet parcel indoors and inferred that it had been outside in the rain. They did not see it outside. The next person drops the word inferred, and the third says everyone saw the courier leave it in the rain. The story has gained an observer, a location and a cause that were not part of the first report. This fictional chain shows how a plausible explanation can become an apparent memory through ordinary retelling. No one needs to have planned the final distortion."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Social discussion can also correct errors. If someone says the meeting was on Thursday and another produces the calendar invitation showing Wednesday, the new information may improve the group's account. The problem is not conversation itself. It is treating agreement produced by discussion as if it necessarily came from independent recollections. When accuracy matters, it helps to preserve the original accounts before comparing them, then record which corrections came from which evidence. That procedure keeps useful collaboration while making the sources of agreement visible."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "There is a further difference between a memory trace changing and a person changing what they report. A participant may accept information from a confident source because they think it is more reliable than their own uncertain recollection. Another may genuinely experience the suggested detail as remembered. Studies need appropriate methods to distinguish response strategies, source confusion and other processes. The broad misinformation effect is a result about later memory performance; it does not require us to claim that every misleading statement permanently overwrites an original mental recording."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "That last phrase would be misleading for two reasons. First, there was no complete recording to begin with. Second, different traces and cues can coexist. Someone may recover an original detail when given a suitable prompt, or remain uncertain between competing versions. The outcome depends on the event, the later information and the test. Memory science offers explanations and patterns, not a universal procedure for editing another person's past. The useful application is to avoid contaminating an account and to retain evidence of how it developed."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Here is the third recall question. Three colleagues repeat that a courier left a parcel in the rain, but only one saw the wet parcel and none saw it outdoors. What are the two distinct mistakes in treating their agreement as three direct confirmations?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "First, the accounts are dependent: the second and third people received the claim through the first person's report. Second, the original report itself involved an inference from wetness to outdoor exposure. Nobody directly observed the parcel being left in the rain. The repetition may accurately reflect a shared story while providing no additional direct observation of the claimed event. Source and observation need to be separated before the agreement can be interpreted."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Confidence is another part of the picture. A person can experience a recollection as clear and still get a detail wrong. Vividness, familiarity and certainty describe qualities of the experience of remembering. Accuracy concerns correspondence with what occurred. These are related questions, but they are not identical. A detailed story may contain errors, and a hesitant account may contain correct details. We therefore cannot settle a factual disagreement merely by choosing the speaker who sounds most certain or describes the scene most fluently."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "We should not replace that mistake with the opposite claim that confidence contains no information. Research on eyewitness identification has found that initial confidence, collected under appropriate uncontaminated testing conditions, can help predict accuracy. That is a specific finding about specified procedures, not a guarantee for every confident recollection. Confidence expressed after repeated discussion, feedback or later exposure has a different history. The careful position is that the timing, task and conditions matter. A blanket claim that confidence always proves accuracy, or never relates to it, loses that distinction."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Emotional memories make the distinction especially noticeable. A major piece of news can leave a vivid memory of where a person was and how they heard it. These are sometimes called flashbulb memories because they can feel photographically clear. Yet studies have found that confidence and consistency can diverge over time. A person may remain certain while details change across reports. The strong emotion is part of the remembered experience, but it does not provide an independent measurement of every surrounding detail's accuracy."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Imagine someone vividly remembering receiving important news while standing beside a window. An earlier message from that day indicates they were on a train. Several explanations are possible: they may be combining two moments, remembering a later conversation, or the message may concern a different time. The vivid scene deserves examination, not automatic acceptance or dismissal. We would compare timing and sources. An emotional memory can preserve the significance of an event while its surrounding circumstances require correction."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Repetition adds familiarity. When a story is told many times, its familiar sequence can become easier to reproduce. Accurate details can benefit from that rehearsal, but an error included in the retelling can also become well practised. The ability to tell the story smoothly is therefore not independent evidence for every detail in it. In the Friday case, Noor may have told several colleagues that Ellis promised delivery. On the next retelling, she may be recalling the practised summary as well as the original meeting."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Ellis can make the same mistake in the other direction. He might repeatedly tell himself that he clearly explained every condition, even if his actual wording was rushed or ambiguous. Knowledge of what he intended to say can influence his recollection of what he did say. The distinction between intention and utterance matters. Someone may honestly remember a conversation through the plan they had in mind. A note or message from the time can help reveal the gap between the intended explanation and the words that reached the other person."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Current beliefs can also influence recollection. If a project fails, the warning signs may seem more obvious in retrospect. A person may remember having been certain it would fail, even though their earlier comments were mixed. This is related to hindsight bias. The outcome supplies an organising frame that was not available beforehand. It becomes easier to connect earlier details into a story pointing toward that result, while alternative possibilities that once seemed plausible receive less attention. The present outcome can reshape the apparent clarity of the past."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "An original example makes the difference concrete. Before an outdoor event, a planner writes that the weather looks uncertain and there is a reasonable chance of a dry afternoon. Heavy rain arrives. Afterwards, the planner remembers having said that rain was almost guaranteed. The written note does not establish that every private thought was optimistic. It does establish what was recorded before the outcome. That time boundary matters because later knowledge cannot be allowed to silently replace the earlier estimate when judging the quality of the decision."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "This is one reason dated notes can be useful, provided we understand their limits. A note can preserve what was written at a particular time. It is not automatically a complete or unbiased account of the event. Noor's note Friday delivery might omit the same condition she omitted from memory. A contemporaneous record can be closer to the event and still contain an interpretation. Its evidential value depends on what it actually records, how it was produced and whether the relevant detail was included."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Compare three possible records. An original message from Ellis states the condition explicitly. Noor's private note contains only Friday delivery. A later group summary says Friday was promised. These records are not equivalent. The original message provides direct evidence of what Ellis wrote. The private note provides evidence of what Noor recorded or understood. The later summary provides evidence of the account circulating afterwards. Each can be accurate about its own origin while supporting different conclusions about the original agreement."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "If the original message exists, the parties can resolve at least part of the disagreement. They can say that Friday was discussed conditionally, while Noor planned around it as a fixed date. That leaves a real communication problem to solve without needing to decide that one person deliberately lied. The message may not capture everything said aloud, so it need not settle every detail. But it can narrow the dispute from competing global accusations to a specific mismatch between the documented condition and the plan made from it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Now let us examine how researchers score memory, because the way a test counts success can change its apparent meaning. Imagine a fictional recognition test with twenty statements that really appeared in a short account and twenty new statements that did not. For each statement, a participant answers yes or no to whether it appeared. A yes to an old statement is a hit. A no to an old statement is a miss. A yes to a new statement is a false alarm. A no to a new statement is a correct rejection."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Suppose the participant says yes to sixteen of the twenty old statements and yes to eight of the twenty new statements. Their hit rate is sixteen divided by twenty, or eighty percent. Their false-alarm rate is eight divided by twenty, or forty percent. Looking only at eighty percent could make the performance sound very strong. But the person also accepts many statements that were never presented. Both kinds of response matter when asking how well they distinguish old information from new information."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "We can calculate the overall proportion correct as well. There are sixteen hits and twelve correct rejections, because twenty new statements minus eight false alarms leaves twelve. That gives twenty-eight correct responses out of forty, or seventy percent. The overall figure is useful, but it still hides the difference between missing real details and accepting invented ones. Depending on the purpose of the task, those errors may have different consequences. The scoring method should match the question, rather than selecting the most flattering number."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Consider a participant who says yes to everything. They achieve a perfect hit rate for the old statements, but also a perfect false-alarm rate for the new ones. With equal numbers of each, only half of all answers are correct. They are not distinguishing the two sets at all. The example shows why a willingness to endorse details can be mistaken for a powerful memory if we count only how many real details are accepted. We must also ask how often unfamiliar or incorrect alternatives are rejected."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "At the other extreme, saying no to everything avoids all false alarms but misses every old statement. Again, half the answers are correct in this balanced test. A cautious response style and a liberal response style can produce different patterns even without a simple difference in memory strength. More developed recognition models distinguish sensitivity from the decision criterion used for saying yes. We do not need the full mathematics here to understand the practical point: how a person chooses to report uncertainty affects the observed result."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Here is the fourth recall question. In the fictional test, a participant recognises sixteen of twenty old statements but also accepts eight of twenty new statements. What are the hit rate and false-alarm rate, and why is reporting only the hit rate incomplete?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "The hit rate is eighty percent and the false-alarm rate is forty percent. Reporting only the hits leaves out how often the participant accepted material that was never presented. Their overall correct score is seventy percent because sixteen hits plus twelve correct rejections gives twenty-eight out of forty. These numbers describe different aspects of performance. None should be substituted for another without saying which question it answers."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "The design of the original material matters as well. Suppose one set of new statements is obviously unrelated to the account, while another set contains plausible variations on what actually happened. Rejecting the unrelated statements may be easier. A high score on that test would not necessarily imply equally good discrimination between closely related alternatives. In the envelope story, a claim about a mountain expedition is a very different distractor from a claim that Priya used the bottom drawer. The second competes with a detail that belongs to the same scene."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "A researcher comparing groups would therefore try to keep the material and test conditions comparable. If one group receives misleading information but also waits much longer before testing, any difference could reflect more than the misinformation. If one group is tested with easy unrelated alternatives and another with closely related alternatives, the test itself changes. Random assignment can help distribute participant differences, while matching the procedure isolates the intended contrast. This is why the simple sequence of event, later information and test is only the beginning of a well-designed study."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Imagine a fictional comparison in which twenty people hear a neutral follow-up and twenty hear a misleading follow-up. Four people in the neutral group and ten in the misleading group later endorse the incorrect detail. The observed proportions are twenty percent and fifty percent, a difference of thirty percentage points. Those invented figures illustrate what a comparison would measure. They are not a result from the traffic-sign study, and one small comparison would need uncertainty analysis and appropriate replication before supporting a broad numerical claim."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "The neutral group's errors are informative too. If some people make the mistake without the misleading follow-up, the manipulation cannot be the only possible cause of every error. The comparison estimates an additional effect under the study's conditions. It does not let us identify, person by person, which particular mistake would have occurred anyway. Group-level evidence and an explanation of one individual's response are related but distinct. Keeping that distinction prevents a useful experiment from becoming an overconfident story about a specific person's mind."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "The same distinction helps us think about detailed real-world accounts without turning them into a numerical test. Someone who offers many details may provide more correct information and more incorrect information than someone who offers very little. Quantity alone does not tell us the balance. A restrained account can omit useful facts, while an elaborate one can add unsupported specifics. Assessing accuracy requires comparing particular claims with available evidence, not rewarding detail for its own sake. The fictional test makes the logical issue visible because its original material is known."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "There is also a difference between forgetting a detail and remembering a different detail. If Noor says she cannot recall whether the part's arrival was mentioned, that is an omission or uncertainty. If she says Ellis explicitly guaranteed Friday regardless of the part, she is making a positive claim that conflicts with the stipulated original sentence. The second statement needs a different correction. Treating uncertainty as failure can encourage people to fill gaps. Allowing an honest I do not remember preserves the distinction between missing information and invented certainty."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "A useful everyday conversation can therefore begin with an open request for what the person remembers, followed by specific questions that do not supply unverified answers. For a low-stakes planning dispute, one might ask what was said about timing, then what conditions they recall. This is a practical suggestion grounded in the mechanisms we have discussed, not a substitute for professional interviewing procedures. Serious investigations have their own standards. Our application is ordinary coordination, where better questions can reduce avoidable confusion about plans."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "The questioner should also keep their own knowledge separate. If they have read a later message, they can say that the message contains a particular detail rather than implying the other person must remember hearing it earlier. For example, The message sent afterwards says the part was delayed is different from You remember him saying the part would be delayed, don't you? The first identifies a source and a time. The second blends later information into the earlier event while inviting agreement. Small wording choices can preserve or blur that boundary."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "For our practical application, use a fictional account rather than a sensitive personal memory. Here is the account. On Monday afternoon, Priya placed a sealed envelope in the top drawer of the reception desk. Sam was beside the printer. Priya said the envelope was for the visiting designer. The account does not tell us whether Sam saw the envelope being placed, whether the drawer was locked or when the designer was expected. Those absences are part of the exercise. Do not supply them simply because one version would make a smoother story."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Write three headings on a piece of paper: stated, inferred and unknown. Under stated, put Monday afternoon, sealed envelope, top drawer of the reception desk, Sam beside the printer, and envelope for the visiting designer. Under inferred, you might put that the envelope probably contained paperwork, but label that as your own possibility. Under unknown, put the contents, whether Sam saw the action, whether the drawer was locked and the designer's arrival time. This is a source-separation exercise with a fixed account, not a diagnostic memory test."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Now consider a later fictional comment: Sam watched Priya lock the designer's contract away before the designer arrived. That single sentence adds several details. It turns Sam's presence into observation, a sealed envelope into a contract, a drawer into a locked drawer, and an unspecified arrival into a particular sequence. Some additions might happen to be true, but they are not established by the original account. Your task is to mark each addition rather than accepting the sentence because it sounds like an efficient summary."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "A careful summary would say that Priya put a sealed envelope for the visiting designer in the reception desk's top drawer on Monday afternoon, while Sam was beside the printer. If brevity matters, you can omit some details without adding new ones. Priya left the designer's envelope in the reception desk is less complete but stays within the account. Compression and distortion are different. A summary can be shorter while preserving the limits of what is known, provided it does not turn an assumption into a fact."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "To extend the exercise, write two questions. One should ask for missing information without implying its answer: Do we know whether the drawer was locked? The other should illustrate a leading form: Who watched Priya lock the drawer? Compare them. The first leaves the locking uncertain. The second assumes locking occurred and moves straight to selecting a witness. The difference is not politeness or grammatical elegance. It is the factual commitment built into the question before anyone has answered it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "You can also practise correcting the later comment without accusing its speaker of dishonesty. A precise correction might say that the original account mentioned an envelope and Sam's location, but did not identify the contents or say he watched it being put away. That correction names the disputed additions. It does not claim to know why the speaker made them. Perhaps they had another source; perhaps they inferred them; perhaps they misremembered. Asking for the source of the extra detail is more informative than immediately assigning a motive."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "If the speaker supplies a separate message stating that the envelope contained a contract, the account can be updated with that source identified. The contract detail is no longer merely an inference, but it still did not come from the original short account. We can say the first account described the envelope and a later message identified its contents. Preserving that distinction makes the combined account more informative. It tells us both what we now know and how we came to know it, rather than pretending every detail was present from the beginning."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Here is the fifth recall question. In the envelope account, Sam was beside the printer. A later retelling says he watched Priya lock a contract away. Which parts of that later statement go beyond the original, and what would make an added detail usable without falsely attributing it to the original account?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "The original did not establish that Sam watched, that the drawer was locked or that the envelope contained a contract. Those are additions. An added detail could become usable if a separate credible source supports it, with that source and its timing clearly identified. We should not rewrite the history of the information by saying it was in the original account. Keeping the sources separate allows correction and additional knowledge without confusing inference, later testimony and direct description."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "Noor and Ellis can now approach their Friday disagreement more precisely. They can separate the date from its condition, the spoken exchange from later summaries, and what each intended from what was communicated. If a contemporaneous message records the condition, they can use it. If no record settles the wording, they can acknowledge the remaining uncertainty and agree the next step explicitly. Understanding memory does not manufacture a missing recording, but it can prevent the dispute from growing through further unsupported additions."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the mechanisms and develop the cases. Keep fictional examples distinct from research findings. Preserve uncertainty without repetitive caution. Give the specified recall pause before each answer.",
+      "t": "The practical result is the marked envelope account and the two differently framed questions. They demonstrate the central mechanism of this lesson: remembering draws on encoded details, available cues, prior knowledge and later information. Those ingredients make memory useful and flexible, while sometimes blurring the boundaries between what occurred, what was inferred and what was heard afterwards. A reliable account becomes stronger when those boundaries are preserved, especially when a small word, a condition or the origin of a detail changes what the story means."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-10-04",
+    "spoken_words": 7102,
+    "sha256": "30b749244babbce3e4885515a89f9a5d18321c4689d5d868f1141630316be106",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://nobaproject.com/modules/memory-encoding-storage-retrieval",
+      "https://nobaproject.com/modules/eyewitness-testimony-and-memory-biases",
+      "https://openstax.org/books/psychology-2e/pages/8-1-how-memory-functions",
+      "https://openstax.org/books/psychology-2e/pages/8-3-problems-with-memory",
+      "https://www.psychologicalscience.org/journals/pspi/1529100616686966/"
+    ]
+  }
+}
