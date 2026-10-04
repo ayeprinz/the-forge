@@ -1,0 +1,466 @@
+{
+  "date": "2026-11-18",
+  "title": "[Project Management] Which Task Actually Sets the Finish Date",
+  "summary": "Critical paths, forward and backward scheduling, shared float, resource conflicts, calendars and the cost of shortening a project. Original exhibition network and probability examples, five recall questions and a paper-only planning application. Informed by Project Management, second edition, chapter 10 by Adrienne Watt, Merrie Barron and Andrew Barron (CC BY-NC-SA 4.0), and chapter 11 by Adrienne Watt, TAP-a-PM, Project Management Open Resources, Merrie Barron, Andrew Barron and David Wiley et al. (CC BY-SA 4.0, except noted material). Original dialogue and original cases; no copied figures, quotations or source examples. Also consults Microsoft Project documentation for float definitions, PMI for compression terminology, and OpenStax Foundations of Information Systems 9.2 for scope and monitoring. This original teaching dialogue is shared under CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/ . Sources: https://opentextbc.ca/projectmanagement/chapter/chapter-10-project-schedule-planning-project-management/ https://opentextbc.ca/projectmanagement/chapter/chapter-11-resource-planning-project-management/ https://support.microsoft.com/en-us/project/manage-your-project-s-critical-path https://support.microsoft.com/en-us/project/free-slack-task-field https://www.pmi.org/learning/library/managing-crashed-fastracked-shorten-interval-project-7603 https://openstax.org/books/foundations-information-systems/pages/9-2-setting-up-and-managing-projects-for-success",
+  "instructions": "Start immediately with the exhibition scheduling problem. Assume no prior reading. Teach the mechanisms with original worked cases, not curriculum orientation. Both voices teach. Keep independent-resource baseline, shared-coordinator variant and paid compression variant distinct. Explain float sharing and model limitations. Invented durations, prices and probabilities are examples, not real quotations or empirical estimates. Five recall questions each have a seven-second pause and subsequent answer. End with a low-risk paper scheduling application.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "A small exhibition needs a finished booklet and a prepared room before the team can install it. The writer offers to work faster. The printer offers an express service. Someone else says the real problem is the venue. All three sound useful, but only some changes will move the opening date. To decide, we need the order of the work, the time each activity takes, and the points where several pieces must come together. The task that looks busiest may not be the task controlling the finish."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Imagine we are planning this exhibition from scratch. This is an invented example, so we can make the assumptions explicit and change them one at a time. The exhibition is ready when installation is complete. Before installation, the printed booklet must be available and the venue arrangements must be complete. We will initially assume different people can handle independent activities at the same time. There are no weekends, holidays, delivery cutoffs or unexpected revisions in this first model. A day means one equal unit of working time."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "The first activity is agreeing the brief, which takes one day. After that, writing takes three days. A separate person spends one day gathering images, then another day preparing the layout. For this simplified job, layout means preparing the image arrangement and spaces for the text. Printing can start only when both writing and layout are finished. Printing takes two days. Meanwhile, after the brief, arranging the venue takes four days. Installation takes one day once printing and venue arrangements are both complete."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Notice what our description has already done. It has separated things that merely belong to the same project from things that actually depend on each other. Venue arrangements need the agreed brief, but they do not need the completed booklet. Gathering images does not need the writer to finish. Printing needs two inputs. Installation needs two different inputs. If we put every activity into one long list and do them in that order, we would invent delays that the project itself does not require."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Add every activity duration and you get thirteen days: one for the brief, three for writing, one for images, one for layout, two for printing, four for the venue and one for installation. Thirteen is not our earliest completion time. Several of those days can happen alongside other days. Conversely, choosing the longest single activity, the four days of venue work, does not tell us the project duration either. We need the longest connected sequence of required activities, including the work before and after it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "A dependency diagram makes that sequence visible. You could draw a box for each activity and arrows from each prerequisite to the activity it enables. From the brief, three arrows lead to writing, images and venue arrangements. Images leads to layout. Writing and layout both lead to printing. Printing and venue arrangements both lead to installation. An arrow means that a specified condition must be satisfied before the next activity can begin. It does not mean that one person is more important than another."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "We are using finish to start dependencies: one activity must finish before the next starts. Other relationships exist, but this one is enough to understand the core calculation. A genuine prerequisite might be having approved artwork before making physical copies. A preferred sequence might be choosing all the colours before discussing furniture. Both could appear as arrows, yet one might be negotiable and the other might protect an essential requirement. Asking why an arrow exists can reveal options that asking everyone to hurry will miss."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "There is also a difference between a task name and a usable completion condition. The word writing could mean a rough draft, an edited draft, or approved copy ready for print. Our three days must include whatever level of completion printing requires. If the writer finishes a draft after three days but approval needs another two days, the original activity description has hidden work. Calling the draft finished will not let the printer safely proceed. The schedule needs the condition that releases the next activity."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "The same applies at the end. Exhibition ready could mean installed, inspected, open to visitors, or accompanied by a staffed reception. We have chosen installed, with the necessary acceptance checks included in that installation activity. If the real project requires a separate inspection before opening, that inspection needs its own place in the model. Otherwise, we might correctly calculate the date of an incomplete result. A precise finish condition is part of scheduling, because it determines which activities have to be connected to the finish."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Now put a clock beside the diagram. We will measure elapsed working days from zero, so a one day activity beginning at zero ends at one. These are boundary points, not labels for calendar dates. The brief runs from zero to one. At time one, writing, images and venue arrangements can all begin. Writing runs from one to four. Images runs from one to two. Layout then runs from two to three. Venue arrangements run from one to five."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Printing must wait for both writing and layout. Layout is available at time three, but writing is available at time four, so printing starts at four. It finishes at six. Installation must wait for printing at six and venue arrangements at five. It starts at six and finishes at seven. Our earliest project finish is seven working days after the start. The thirteen days of activity durations fit into seven days of elapsed time because several activities overlap."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "This calculation is called a forward pass. At an activity with several prerequisites, take the latest of their finish times. That is the earliest possible start, under the assumptions we made. Then add the activity's duration to find its earliest finish. We used the latest prerequisite finish for printing because every required input had to be present. Adding the prerequisite finish times would make no sense: writing and layout were happening on separate branches, rather than taking turns on the same clock."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "You can hear the logic without remembering the term. A dinner can be served only when the food and the table are ready. If the food is ready at six and the table at five, serving cannot begin at five and does not have to wait until eleven. It begins at six, assuming there is no additional requirement. A project has many little meetings like that, where completed pieces come together. The forward pass tracks the latest arrival at each meeting."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "First recall question. In our exhibition, writing finishes at time four and layout finishes at time three. Printing takes two days and needs both. When can printing start and finish, and why do we not add four and three?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Printing starts at four and finishes at six. Four is the later prerequisite finish, so it is the first moment both inputs are available. We do not add four and three because they are positions on the same elapsed time scale. The activities leading to them overlapped. If a shared worker prevented that overlap, we would need to change the schedule, which we will do later. For now, the independent resource assumption is what makes these simultaneous branches feasible."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "We can also find the answer by following whole paths. Brief, writing, printing and installation takes one plus three plus two plus one, which is seven. Brief, images, layout, printing and installation takes one plus one plus one plus two plus one, which is six. Brief, venue arrangements and installation takes one plus four plus one, also six. The seven day path is the longest. It determines the earliest finish in this basic network, and we call it the critical path."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Critical has a narrow meaning here. It identifies work with no room to slip before the calculated project finish moves, assuming the other conditions stay the same. It does not rank artistic value, financial importance, difficulty or effort. The venue remains essential even though its original path takes six days. Without a venue, there is no exhibition. It simply has one day of scheduling room before it holds up installation. A task can be essential and still have some room for delay."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Suppose the writing now needs four days instead of three. It begins at one and ends at five. Printing then ends at seven, and installation ends at eight. The finish moves by one day. Now instead suppose writing stays at three days, but gathering images takes two days instead of one. Images ends at three, layout ends at four, and printing can still begin at four. The overall finish remains seven. The same one day overrun has different consequences because of where it occurs."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "That is why counting late activities can mislead. One project might have three small delays on branches with available time and still finish as planned. Another might have only one delayed activity, but it sits on the controlling path and pushes everything after it. The number of red boxes is not a reliable measure of the finish date. We need the dependencies and remaining space. This does not excuse lateness. It lets us explain its consequences instead of assuming every delay has an identical effect."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "The critical path can move. If venue arrangements increase from four days to six, that branch becomes one plus six plus one, which is eight. Installation now waits for the venue at seven, even though printing is ready at six. The venue path controls the eight day finish. Speeding up the writer would not solve that new problem. A label assigned at the start is not a permanent identity. After a duration, dependency or resource assumption changes, calculate the paths again."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "There can also be more than one controlling path. If venue arrangements take five days rather than four, the venue path becomes seven, equal to the writing path. Both now reach installation at six. Delaying either branch would move the finish. Shortening only one would leave the other controlling the same seven day result. The project does not have to choose one winner. Two required branches can be equally long, and a useful schedule must show that equality rather than hiding it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "So far we have moved forward from the start. Now we will work backward from the calculated finish of seven to discover how late each activity could occur without making that finish later. Installation takes one day, so it must start by six. Printing must finish by six, which means its two days must start by four. Venue arrangements also must finish by six, so their four days could start as late as two. That is later than their earliest start of one."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Continue backward through the booklet branch. Writing must finish by four because printing starts then. Three days of writing must therefore begin by one. Layout must also finish by four. Its one day could begin at three. Images must finish before layout starts, so its one day could begin at two and end at three. The brief must finish before writing, images and venue work can start. Their latest starts are one, two and two, so the brief must finish by one."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "At a backward junction, use the earliest of the successors' latest start times. The brief cannot borrow the later permission from the image branch if writing needs it sooner. This is the reverse of our forward rule. Forward, all prerequisites must have arrived, so choose the latest arrival. Backward, every successor must remain possible, so respect the earliest required departure. Subtract duration to move from a latest finish to a latest start. The two passes answer different questions using the same arrows."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "We can now compare earliest and latest starts. Images could start at one, or as late as two. Layout could start at two, or as late as three. Venue arrangements could start at one, or as late as two. Each has one day of total float in this model. Writing has earliest and latest start both at one, so it has zero. Total float is the amount an activity can move later without delaying the project finish, while preserving the rest of the model's requirements."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Be careful with the phrase each has one day. The image activity and layout are on the same branch. They share the branch's one day of room. If images uses that day, layout starts at three instead of two. Layout then has no extra day to spend before printing needs it at four. If images slips one day and layout also takes an extra day, layout finishes at five. Printing starts at five and the exhibition finishes at eight. Two individual float labels did not create two independent allowances."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "This is easiest to picture as a short train connecting with a longer train. The image and layout sequence reaches the printing junction one day before the writing sequence. That one day gap belongs to the timing of the branch. Moving the image activity later shifts layout along with it. The schedule has not manufactured a second gap just because there are two activities on the branch. A manager promising the same available day separately to two people has promised the same piece of time twice."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "There is a more local measure called free float. It asks how long an activity can be delayed without delaying the earliest start of any immediate successor. Images has zero free float in our earliest schedule, because layout is scheduled to start immediately when images finishes at two. Delaying images moves layout's earliest start. Layout has one day of free float because it finishes at three and printing cannot start until four anyway. Both activities have one day of total float, but their free float differs."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "That distinction helps with coordination. The image collector might say, I can be a day late without moving the exhibition. That can be true while still disrupting the layout person's planned start. Total float answers the project finish question; free float answers the immediate handoff question. Neither replaces a conversation with the person receiving the work. If they have another commitment tomorrow, moving their start could create a resource conflict that our simple timing diagram has not yet represented."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Second recall question. Images and layout each show one day of total float in the original schedule. Can the image activity take one extra day and layout take another extra day while the exhibition still finishes at seven? Explain what happens to printing.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "No. Those activities share the same one day gap on their branch. Images would finish at three, then a two day layout activity would finish at five. Writing is ready at four, but printing needs both inputs, so it waits until five. Two days of printing and one day of installation then produce a finish at eight. The available room must be tracked across the connected sequence, not added up from the labels on its individual tasks."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "We used seven as the finish for our backward pass because seven was the earliest feasible finish under the original assumptions. Suppose the exhibition's agreed deadline is eight instead. The team has a day between its calculated finish and its commitment. You can keep that day visible as a project buffer rather than quietly stretching every activity. If you run the backward calculation from eight, the latest allowable times and float values will change. Always say which finish constraint you used, or two apparently conflicting float reports may simply use different reference dates."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "A deadline of six creates the opposite situation. The original seven day plan does not fit. A backward pass from the required finish can expose negative float: some latest allowable starts fall before their earliest feasible starts. That is a signal of a conflict between the model and the deadline, not proof that people must somehow work in negative time. The team needs a real change to duration, sequence, resources or scope, or a revised commitment. Typing a preferred date into a planning tool does not supply the missing capacity."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Now question our biggest assumption: independent activities have independent resources. Imagine the same coordinator must do all three days of writing and all four days of venue arrangements. They cannot perform both at full speed during the same working day. Our seven day network calculation ignored that conflict. It was a useful dependency calculation, but it was not yet a feasible resource schedule. We must place those two blocks so they do not overlap, then see what happens to their successors."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Put writing first. The brief ends at one. Writing uses the coordinator from one to four. Venue arrangements then use them from four to eight. The separate image and layout work still finishes at three. Printing runs from four to six while the coordinator handles the venue. Installation waits for the venue at eight and finishes at nine. This resource feasible sequence takes nine days. It is longer than the seven day dependency result because the coordinator is a shared constraint."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Reverse those two assignments. Venue arrangements run from one to five. Writing then runs from five to eight. Printing cannot begin until eight, so it finishes at ten. Installation ends at eleven. Both sequences respect the coordinator's capacity, but writing first gives nine days and venue first gives eleven. Why? Writing releases an additional two day printing activity that can overlap the later venue work. Finishing venue work first releases no comparable branch that shortens the wait for the booklet."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "This is a small scheduling decision with a large practical lesson. The longest activity does not automatically deserve the first slot. Venue work takes four days and writing three, but doing the shorter writing block first enables useful downstream overlap. Nor have we proved a universal rule that shorter tasks should always go first. The result depends on this particular network and resource arrangement. For these two unsplittable coordinator activities, comparing both possible orders gives us the answer directly."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "If another qualified person can handle venue arrangements independently, our original overlap might become possible again. But that is a real staffing change, with availability, cost and handoff requirements. Writing a second name beside the task does not establish competence or free time. Sometimes the resource is a machine, a studio, an approval committee or access to a room. Two activities may have no technical dependency and still compete for one scarce resource. The dependency diagram and the resource calendar answer complementary questions."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Work and duration are also different quantities. If two people each spend four hours preparing display materials at the same time, that is eight person hours of work over four hours of elapsed duration. A single person might need eight hours if the work is freely divisible and equally efficient. But four people do not necessarily finish it in two hours. Some preparation may require one shared cutting station, or one person may have to complete an initial design before others can help. Division only works where the activity itself allows it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Consider an approval that needs twenty minutes of attention but waits three working days for a meeting. More people preparing the document may reduce the preparation effort, yet it does not automatically move the meeting. Or a physical process may require a fixed settling period after hands on work. Duration includes the time that matters to the next activity, whether or not someone is actively busy throughout it. If we estimate only labour hours, our calendar can look impressively short while every handoff still arrives late."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "We will now return to the original exhibition with separate resources and a seven day finish. Keep that reset explicit: the coordinator conflict is removed for this next calculation. The printer offers to reduce printing from two days to one for forty pounds. The writer offers to reduce writing from three days to two for sixty pounds. Venue arrangements can be reduced from four days to three for thirty pounds. These are invented, one day options with fixed prices, not market quotes or claims about what real suppliers can achieve."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Which purchase saves a project day? Printing lies on the original seven day critical path. If it takes one day, it runs from four to five. Venue work is also ready at five, so installation runs from five to six. The forty pound printing option saves one project day. Shortening writing instead would make printing run from three to five, again allowing installation from five to six. That also saves one day, but costs sixty pounds. Shortening only venue work leaves printing ready at six, so the finish remains seven."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "That last option costs thirty pounds per activity day saved but saves no project day in the original schedule. It might have another benefit, such as reducing exposure to a venue problem, but it does not buy the stated goal of an earlier finish. Comparing prices without following the dependencies would make the cheapest option look best. For this narrow objective, the forty pound printing change beats the sixty pound writing change. We must compare the cost of moving the project finish, not merely the cost of shortening a task."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "After buying the printing option, recalculate. Brief, writing, printing and installation now takes one plus three plus one plus one, which is six. Brief, venue arrangements and installation takes one plus four plus one, also six. There are now two critical paths. The image branch takes one plus one plus one plus one plus one, which is five. We have reached a new schedule. The next decision must use that schedule, not keep treating the original seven day path as the only constraint."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Suppose we now pay sixty pounds to shorten writing, but do nothing to venue work. The booklet becomes ready at four, yet the venue is ready at five. Installation still ends at six. If we instead shorten only venue work, it becomes ready at four, but the booklet still arrives at five. Again the project ends at six. To reach five using the remaining offered options, both branches must move: writing takes two days and venue work takes three. Then both are ready at four, and installation ends at five."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "The second project day therefore costs ninety pounds: sixty for writing plus thirty for the venue. Including the first forty pounds for faster printing, moving from seven days to five costs one hundred and thirty pounds. Our possible packages are small enough to check directly. We cannot simply repeat the cheapest original daily saving, because the printer offered only one day and the network changed after we used it. A real schedule may have many such steps, with limits and different costs at each step."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Third recall question. After printing has already been shortened and the project finish is six, why does shortening writing alone fail to make the finish five? What combination of the remaining offered changes does achieve five?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Venue arrangements still finish at five, so installation cannot start earlier than five even when the booklet arrives at four. Shorten both writing and venue arrangements. Writing then runs from one to three, the one day printing activity ends at four, and the shortened venue activity also ends at four. Installation finishes at five. The extra cost is ninety pounds, bringing the full compression package to one hundred and thirty pounds. Both controlling branches must release the final activity earlier."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Buying a shorter duration through added capacity, overtime or a faster service is commonly called crashing a schedule. Our example assumes the proposed shorter durations can actually be delivered at the quoted cost without changing quality. In practice, that assumption needs checking. Another designer may help produce independent assets, but joining late may require explanation and review. Overtime may create fatigue. A supplier's express promise may begin only after an approval cutoff. The schedule benefit belongs to a credible change in the activity, not to the payment by itself."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "A different option is overlapping work that had been planned sequentially, often called fast tracking. Imagine preparing a print proof while the final paragraphs are still being edited. That could make some progress earlier, but it is not the same as printing a final booklet before its content exists. We might split the old printing activity into proof preparation and final production, then specify which inputs each really needs. Changing the dependency is legitimate only if the work can proceed on those partial inputs."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Overlapping creates exposure to rework when an upstream decision changes. Suppose a proof uses a draft heading and later editing makes the heading twice as long. The prepared layout may need revision. The schedule should represent that possibility as a risk or an alternative case, rather than counting the overlap as free time. Sometimes early work is worth the risk because much of it will remain useful. Sometimes the uncertain input controls everything downstream, so waiting for it avoids making work that must be thrown away."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "We can compare two fictional options without pretending to know a universal probability. One option waits for approved text and then needs two days. Another begins a preliminary stage early and can finish a day sooner if the draft stays stable, but may lose that saving if extensive changes arrive. The first gives a simpler dependency. The second offers a conditional earlier finish. A team can choose the second while making the condition visible. Calling its best case the guaranteed delivery date would misrepresent the decision."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Scope is another possible change, but it must be named. If the exhibition does not need a printed booklet at opening, the booklet might become a later deliverable. That could remove the printing path from the opening requirement. It would also change what visitors receive, so it is not a purely technical scheduling improvement. The person responsible for the outcome needs to accept the revised result. Quietly deleting an essential item from the plan makes the schedule shorter by changing the promise without acknowledging it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Sometimes the best acceleration is neither extra money nor reduced scope. A redundant approval could be removed, or two reviewers could inspect the same completed draft concurrently instead of consecutively. But first establish what the approval protects. If the second reviewer needs the first reviewer's corrections, parallel review may produce conflicting comments or duplicate work. A dependency can be habitual, contractual, technical or chosen for convenience. The type of constraint matters because it determines which changes are available and what consequences they bring."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Now restore the original seven day plan again and add real calendars. We previously treated every day as an equal available work unit. In an actual project, the printer may work Monday to Friday, the venue may permit installation only on Saturday, and a particular reviewer may be available twice a week. The seven units do not automatically mean seven consecutive calendar days. A schedule needs to map work onto available dates and respect waits between them. Otherwise, a correct arithmetic path can still produce an impossible appointment."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "For a simple calendar example, a two working day activity starting at the beginning of Thursday finishes at the end of Friday if both days are available. Starting at the beginning of Friday finishes at the end of Monday if weekends are excluded. The amount of work has not changed, but the calendar finish has moved. If the successor can begin only on Tuesday mornings, an earlier finish on Monday afternoon may not help it begin sooner than Tuesday. Availability can turn small timing changes into much larger calendar effects."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "A cutoff is particularly easy to miss. A file delivered at four in the afternoon may miss a supplier's noon acceptance window, adding a day before production starts. Recording only the date hides that difference. We do not need minute level detail for every task, but we do need enough precision where a boundary changes what can happen next. The useful level of detail follows the decisions the schedule must support. More boxes and smaller time units are not automatically more accurate."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Waiting time should have an explanation. A two day gap could be an unavoidable external response time, a deliberate buffer, a transport interval or simply an unexplained hole. These should not all look identical in the plan. If a review needs two days, representing it as a named review activity gives it an owner and a completion condition. If a physical process requires elapsed waiting, that can be represented explicitly too. A blank gap provides little information when somebody asks whether it can be shortened."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "A milestone is a useful way to mark a condition without pretending it consumes another block of work. For example, print files accepted can be a milestone after the checking and submission activities. The work happens in those activities; the milestone records that the required state has been reached. If acceptance itself requires a reviewer to spend time, include that reviewing activity before the milestone. Otherwise, a zero duration marker could hide a real queue or decision that still has to happen."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Milestones also make a long activity easier to question without breaking it into meaningless fragments. A three day writing activity might have an internal draft checkpoint and a final approval milestone. Missing the draft checkpoint could warn the team before the final handoff is missed. But a checkpoint should correspond to something observable, such as a complete draft ready for comments. A marker labelled almost done offers little information if nobody agrees what evidence would satisfy it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "There is a related distinction between an estimate and a promise. A supplier may estimate that an activity usually takes two days, while offering a confirmed slot ending on a particular date. A team may internally forecast seven days but commit to eight to allow for uncertainty. Those are different statements. Keeping the forecast and commitment separate helps people see when the available margin is being used. Replacing the forecast with the promised date removes an early warning without improving the underlying work."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Duration estimates deserve evidence proportional to the decision. For a familiar task, compare records from similar completed work and check whether the scope, staffing and equipment are actually similar. For an unfamiliar task, break out the uncertain part or test a small sample. Asking the person doing the work can reveal an omitted approval or setup stage. None of these approaches makes the future certain. They make the assumptions available for discussion and give later updates something more concrete than optimism to compare against."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "An average duration is not a deadline that half the projects must meet, and it is not a guarantee. A few very long cases can pull an average upward, while a cluster of easy cases can make it unrepresentative of the work now planned. We also need to know what is included in the measurement. Does two days mean active processing after a slot is assigned, or the whole interval from submitting the request to receiving the result? Those measurements answer different scheduling questions."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Fourth recall question. Our dependency diagram says writing and venue arrangements can begin together, but one coordinator must do both and cannot split their attention. Why is the original seven day finish insufficient as a working schedule, and what happens if writing is done first?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "The diagram describes prerequisite relationships but does not yet satisfy the coordinator's limited availability. With writing first, the coordinator writes from one to four and handles the venue from four to eight. Printing can run independently from four to six. Installation waits for the venue and ends at nine. That is a feasible resource sequence under our stated assumptions. It shows why a dependency calculation must be checked against the people, equipment and calendars needed to carry it out."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Uncertainty also interacts with the point where branches join. Suppose, in a separate tiny example, two independent deliveries each have an equal chance of arriving at time two or time four. Assembly needs both. There are four equally likely combinations: two and two, two and four, four and two, or four and four. Assembly can begin at two in the first combination and at four in the other three. Its expected start is three and a half, even though each delivery's expected arrival is three."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "The arithmetic is two plus four plus four plus four, divided by four, which gives three and a half. If we put the average arrival of three on both branches and just take the later average, we would predict three. The difference comes from needing the slower arrival on each actual occasion. This is an invented probability model, with independence and equal chances specified for teaching. It does not tell us the delay distribution of a real supplier. It shows why joining uncertain branches can matter beyond their individual average estimates."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "If both deliveries were delayed by exactly the same shared event, our independence assumption would fail. Imagine they always arrive together, either both at two or both at four, with equal chances. Assembly's expected start would then be three. The relationship between the uncertainties changes the result. Real projects can have shared weather, shared reviewers, common suppliers or one technical problem affecting several tasks. A risk analysis that treats those events as unrelated can give a misleading picture, even when its individual activity estimates look sensible."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "For a small personal project, we may not need a simulation or a probability model at all. We can calculate a few clearly described cases: the printer takes its normal two days, it takes an extra day, or the venue confirmation takes two extra days. Follow each change through the dependencies and see which finishes move. This produces a useful conditional statement. If the venue needs six days, our original project finishes at eight. That is more informative than attaching an unexplained confidence percentage to the original seven."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Buffers can absorb some variation, but they need a location and a purpose. An extra day before the public commitment can protect the finish against a one day shift on a controlling path. It cannot solve every combination of delays. A buffer before an internal handoff might protect a booked resource, while a final buffer protects the external delivery. If the same spare day is described as protection for several different risks, ask whether those risks could happen together. Shared protection is not automatically separate protection for each risk."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Now imagine the exhibition is under way. The brief is complete and the writer has worked for two days. Someone reports writing as two thirds complete because two of the planned three days have passed. That is not enough to forecast the finish. Perhaps the difficult final section remains and needs two more days. Perhaps the entire draft is written and only an hour of checking remains. Elapsed time tells us what has been spent. The remaining work and its conditions tell us what is still required."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "A useful update asks for actual starts and finishes, remaining duration, unresolved inputs and any changed dependency. If writing now has two days remaining instead of one, we put that remaining work onto the current schedule and propagate the effect. We do not need to erase the original estimate. Keeping the baseline lets us see the change, while the current forecast tells us what is likely under the latest information. The baseline is a record of the plan, not an instruction to deny what has happened."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Completed activities also need evidence appropriate to the handoff. If the layout file exists but the printer cannot open it, the printing prerequisite may not be satisfied. If the venue is verbally promising access but a required confirmation remains outstanding, venue arrangements may not be complete as defined. The point is not to demand bureaucracy for every small action. It is to tie status to the condition the next person needs, so that a green status actually releases work rather than concealing another wait."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "A schedule update can reveal an opportunity as well as a delay. If writing finishes a day early, printing may start earlier, provided the layout and printer are available. If the printer's slot is fixed, the early finish might create useful room for checking without changing the exhibition date. That is still a benefit, but it should be described accurately. Early completion of a task creates a possibility. The successor's dependencies and availability determine whether that possibility becomes earlier project completion."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "When a change is proposed, trace both its incoming and outgoing effects. Adding a new page to the booklet might require new writing, another image, a layout adjustment and a different print arrangement. Counting only the writing hours understates the change. A small request can touch several branches, while a larger looking request might be isolated. The schedule gives the team a way to discuss that difference. It turns the question from whether the request sounds small into which activities and handoffs it actually changes."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "The person maintaining the schedule should also separate what is observed from what is assumed. Printed copies received is an observation. The supplier expects dispatch tomorrow is a forecast. Delivery will take one day is an assumption unless backed by a firm applicable arrangement. These can all be useful, but they carry different kinds of support. A status report becomes more useful when its dates retain those distinctions. Converting every forecast into a completed fact may make the report tidier while making decisions worse."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "A Gantt chart can display activities against time, which helps people see overlap and planned dates. A dependency diagram explains why those dates relate to each other. Neither picture is the project itself. A bar drawn across Tuesday does not reserve a person's Tuesday, and an arrow does not ensure that its upstream output is usable. The representation works when it stays connected to actual commitments, definitions and updates. Its value comes from the decisions it clarifies, rather than from visual complexity."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "For a small job, a sheet of paper may be enough. Suppose you want to organise a private reading evening for a few friends. You need a confirmed room, an agreed date, invitations and a prepared discussion prompt. You could list everything immediately, but first ask what truly depends on what. Invitations need a confirmed date and location. Preparing the discussion prompt may proceed while the room is being checked. Buying refreshments might need an approximate attendance count. Those relationships are more useful than an arbitrary list order."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Keep that exercise low stakes and hypothetical if you prefer. Do not send invitations or pay deposits just to practise scheduling. Choose a project with about five to seven activities, define the finish, and give each activity a rough duration with the unit stated. Draw only dependencies you can explain. Then calculate the earliest starts by waiting for the latest prerequisite. Follow the longest complete sequence to the finish. Finally, ask whether one person or one piece of equipment has been assigned to overlapping work."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Take one noncritical activity and delay it slightly on paper. Does the finish move, or does the delay use existing room? Then change one activity on the longest path. Does another branch take over? This is the practical application: produce one small dependency plan and test two changes. It does not require a productivity system, a subscription or a public commitment. The result should be a specific explanation of what determines this project's finish and what would have to change to move it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "You can test your explanation by removing the diagram from view and describing one junction aloud. Printing needs writing and layout. Writing arrives later, so it sets printing's start. If you cannot say what a junction waits for, the arrows may be decorative or an important condition may be missing. If you can say it clearly, you have a model that another person can challenge with new information. They might point out a review, a resource conflict or an unnecessary sequence, and the plan can improve."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Fifth recall question. A task looks expensive and takes a long time, but it is not on a controlling path and has spare time before its output is needed. If you shorten it by one day, must the project finish one day earlier? What should you check before paying for that change?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "No. Shortening it may simply increase the time its output waits for another required branch. Check the current dependencies, the controlling paths, the amount of room on that branch, and whether the proposed change is feasible with the actual resources and calendars. Recalculate the project finish after the change. If the finish does not move, evaluate any other benefit separately. Our cheaper venue option initially saved an activity day but no project day, which is exactly this distinction."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Return to the exhibition's original decision. The writer, printer and venue organiser all offered improvements. We did not need to judge which person sounded most urgent. We needed a defined result, credible activity durations and the conditions that released each next step. The forward pass gave seven days. The backward pass showed where one day of room existed. The resource check showed why sharing one coordinator could lengthen the plan. The compression calculation showed why a second saved day required changes on two branches."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "Those are different questions, and keeping them separate prevents common mistakes. A dependency can be satisfied while a resource remains unavailable. An activity can have total float while its immediate successor would still be disturbed. A shorter task can leave the project finish unchanged. An earliest possible finish can precede a chosen commitment, and a commitment can precede what the current plan can actually deliver. Each distinction gives you a more precise sentence to use when discussing a project instead of simply calling it on track or late."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain and develop the original worked cases. Make resets between scenarios clear. Read times as elapsed working days. Pause for the specified seven seconds after each recall question before its answer.",
+      "t": "The next time somebody proposes doing everything faster, pick one promised result and follow what must happen immediately before it. Continue backward until you reach work that can begin now. Then check where the branches join and which arrival sets the wait. That sequence identifies a concrete question for the team: what is the earliest credible moment this required input can be ready? Answering it will not remove every uncertainty, but it gives the schedule a reason for its dates and makes the consequences of a change visible."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-10-04",
+    "spoken_words": 7051,
+    "sha256": "821a05cb35b230beacc721f361f8ce57d8310a7efe72713436dd76a73d682cd1",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://opentextbc.ca/projectmanagement/chapter/chapter-10-project-schedule-planning-project-management/",
+      "https://opentextbc.ca/projectmanagement/chapter/chapter-11-resource-planning-project-management/",
+      "https://support.microsoft.com/en-us/project/manage-your-project-s-critical-path",
+      "https://support.microsoft.com/en-us/project/free-slack-task-field",
+      "https://www.pmi.org/learning/library/managing-crashed-fastracked-shorten-interval-project-7603",
+      "https://openstax.org/books/foundations-information-systems/pages/9-2-setting-up-and-managing-projects-for-success"
+    ]
+  }
+}
