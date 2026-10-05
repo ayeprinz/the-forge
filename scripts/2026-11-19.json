@@ -1,0 +1,467 @@
+{
+  "date": "2026-11-19",
+  "title": "[Geology] How Rocks Record Earth's Past",
+  "summary": "Read rock layers, intrusions, faults and missing intervals; correlate fossils and connect radiometric measurements to specific geological events. Original outcrop cases, interval and decay calculations, five recall questions and a paper cross-section exercise. Adapted teaching informed by Steven Earle, Physical Geology, second edition (2019), sections 3.1, 6.4, 8.2, 8.3, 8.4 and 12.3, CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ . Original dialogue, examples and arithmetic, no copied figures or quotations. Source simplifications about isotope systems are not adopted. Also informed by Mark Stelten, USGS Yellowstone Volcano Observatory, A beginner's guide to dating (rocks), April 8, 2024. Sources: https://opentextbc.ca/physicalgeology2ed/chapter/3-1-the-rock-cycle/ https://opentextbc.ca/physicalgeology2ed/chapter/6-4-sedimentary-structures-and-fossils/ https://opentextbc.ca/physicalgeology2ed/chapter/8-2-relative-dating-methods/ https://opentextbc.ca/physicalgeology2ed/chapter/8-3-dating-rocks-using-fossils/ https://opentextbc.ca/physicalgeology2ed/chapter/8-4-isotopic-dating-methods/ https://opentextbc.ca/physicalgeology2ed/chapter/12-3-fracturing-and-faulting/ https://www.usgs.gov/observatories/yvo/news/a-beginners-guide-dating-rocks",
+  "instructions": "Begin immediately with an imaginary cliff. Teach rock processes, relative order, correlation, fossils, numerical dating and interpretation from foundations. Both voices teach. All example sites, fossil species, ages and the ten-million-year isotope are fictional teaching models. Do not imply inherited mineral age equals sediment deposition, carbon dating applies to ancient rocks, thickness directly measures time, or all radioactive systems start daughter-free. Five recall questions each have seven seconds before answers. Practical exercise uses paper only.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "A cliff contains three tilted layers, a dark sheet of rock cutting through them, and a flat layer resting across their worn upper edges. Those shapes describe events. There has been sediment accumulation, rock formation, intrusion, deformation, erosion and renewed deposition. We may not yet know how many years separated those events, but we can work out parts of their order. Geology begins to turn a wall of stone into a history by explaining the relationships between its pieces."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Let us build an imaginary outcrop that we can return to throughout this lesson. An outcrop is a place where rock is exposed at the surface. Our example has sandstone at the bottom, mudstone above it, and another sandstone above that. All three beds now slope to the right. A narrow dark igneous sheet crosses all three. Their upper edges, including the dark sheet, have been cut off by an uneven surface. A younger horizontal gravelly bed rests across that surface. These are invented observations for a worked example, not a description of a named site."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Before interpreting it, we need to know what the materials represent. Sandstone is made largely from grains in the sand size range. Mudstone formed from much finer sediment. A gravelly rock containing rounded pebbles is called conglomerate. These names primarily describe material and texture. They do not by themselves tell us the age, continent, climate or precise environment. A sandstone can form in a river, on a beach, in a desert or in other settings. We need structures and context to narrow the interpretation."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "An igneous rock forms when molten material cools and solidifies. If magma enters a crack through existing rock and solidifies there, it can produce a sheet called a dyke when it cuts across the surrounding layering. The surrounding rock must already have been there for the intrusion to cut it. That relationship gives an order even if both rocks have unfamiliar colours. We are using the physical requirements of the process, rather than assuming dark rock is young or pale rock is old."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Sedimentary rock has a different starting point. Existing rock can break down through weathering. Water, wind, ice or gravity can move the resulting material. When transport conditions change, some of it accumulates. Burial, compaction and mineral cement can turn loose sediment into rock. The grains may be much older than their new arrangement. A grain that crystallised in an ancient granite can later be eroded into a river and incorporated into a younger sandstone. The age of the grain and the age of the sandstone are different questions."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Metamorphic rock adds another possibility. Existing rock can change its minerals and texture under altered temperature, pressure and fluid conditions without becoming a body of molten rock. Its present appearance may preserve some earlier features while modifying or erasing others. A rock can therefore carry several stages of history: an original formation, later heating and deformation, then uplift and exposure. Asking how old it is without specifying which event we mean can lead to an answer that is precise but addresses the wrong stage."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Return to our three sedimentary beds. If they were deposited in the order we see and have not been overturned, the lower sandstone was deposited before the mudstone, and the mudstone before the upper sandstone. This is the principle of superposition. New sediment accumulates on a surface that already exists. It does not ordinarily appear underneath an undisturbed older deposit. The important qualification is that we are reading the original order, which later folding and faulting can complicate."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "A pile of sediment is not a set of annual pages. One thick bed might accumulate during a short powerful event. A thin bed might represent slow accumulation over a much longer interval. Between beds there may be time during which nothing was deposited or earlier material was removed. Thickness measures preserved material, not time directly. If someone assigns the same number of years to every centimetre without evidence for the rate, they have added an assumption that the rock does not automatically provide."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Our tilted beds also raise a question about orientation. Many sediments accumulate in broadly horizontal layers because gravity and the surfaces of basins favour that arrangement. Large packages of beds tilted together can indicate later deformation. But not every sloping line was once horizontal. Sand can accumulate on the inclined face of a dune, forming internal cross bedding. The distinction is between the orientation of an entire package and smaller structures produced within it. We should not turn every diagonal mark into evidence of mountain building."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Cross bedding forms as a ripple or dune migrates and sediment builds on its sloping face. The internal layers can meet broader bed boundaries at an angle. Later erosion may truncate some of those small layers before another set forms. Their pattern can preserve information about transport and, in suitable exposures, help identify which way was originally up. It is a depositional structure with a physical origin. To recognise it, we need the boundaries around the inclined lines, not merely the fact that the lines slope."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Another structure is normal grading. Within one bed, grains may become finer upward as a sediment carrying flow loses the ability to keep the larger material moving. A clearly identified graded bed can help establish the original top and bottom. However, there are processes that produce inverse grading, with coarser material above finer material. Geologists use several indicators where possible. One convenient visual rule should not override evidence that the deposit formed through a different process or was subsequently disturbed."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Mud cracks offer a different clue. Wet muddy sediment can shrink as it dries and form a network of cracks. If later sediment fills them and the structure is preserved, it may record exposure and drying at an ancient surface. That supports an interpretation of conditions at that time, but it does not identify a particular year or prove a desert. A temporary pond margin or tidal flat can also dry. The structure narrows the set of plausible histories without supplying every detail of the environment."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "These observations let us separate two kinds of question. What happened asks about deposition, intrusion, deformation and erosion. In what order asks about relative age. How long ago asks for a numerical age, which usually needs additional evidence. A relative sequence can be well supported even before numerical dates are available. Conversely, a laboratory date without a clear relationship to the outcrop may fail to tell us when the event we care about occurred. The field relationships and measurements need to be connected."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "First recall question. A sandstone contains a mineral grain that crystallised long before it was eroded, transported and deposited with other grains. Does the crystallisation age of that one grain automatically give the deposition age of the sandstone? Explain the sequence.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "No. The grain first formed in an older source, was later released and transported, and only then became part of the sandstone's sediment. Its crystallisation predates that deposition. Dating the grain may tell us about the source rock and can help constrain how old the deposit could be, but it does not automatically date the moment the sandstone accumulated. We must identify the event that started or last changed the measured mineral system before attaching its numerical age to a geological event."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Now consider the dark sheet through our three beds. Cross cutting relationships tell us that the intrusion is younger than every bed it crosses. Magma could not intrude through an upper sandstone that did not yet exist. This gives us an additional event after deposition of all three layers. The rock inside the sheet might have cooled quickly compared with a large underground body, but we do not need that comparison to establish the relative order. The cutting relationship does the work."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "A fault is another kind of cross cutting feature. It is a surface or zone along which rock has moved. If a fault displaces several beds, the movement responsible for that displacement happened after those beds formed. It may bring older rocks beside younger rocks or repeat part of a sequence. That is why following a vertical line through an outcrop is not always enough. A structural disruption can make the apparent sequence differ from the original depositional sequence, and the displaced boundaries help reveal what happened."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Suppose a second narrow intrusion crosses our dark sheet. At their junction, the second sheet cuts across the first rather than ending against it. That would put the second intrusion later. If instead the two sheets never meet in the exposed area, we may know that both cut the sedimentary beds while remaining unable to order them against each other. Relative dating often gives a partial order. It does not always produce a complete list in which every event has a unique position."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "The same limitation matters for our original example. The dark sheet crosses all three beds, and the beds are tilted. We have not described a feature that proves whether the intrusion happened before or after tilting. A sheet can cut beds that are already tilted, or a sheet and its surroundings can later be rotated together. The fact that both lie beneath the erosion surface puts both before that surface, but it does not necessarily order them against one another. We should leave that relationship unresolved unless more evidence is supplied."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "That unresolved pair is useful. We know all three beds were deposited before the intrusion. We know the beds were tilted before their sloping edges were eroded and covered by a horizontal deposit. We know the intrusion existed before its upper end was eroded. Two histories remain compatible: intrusion before tilting, or tilting before intrusion. Both lead to the observed truncation. A geological reconstruction can contain firm relationships and an honest gap at the same time, without making the firm relationships worthless."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Inclusions provide another ordering tool. If pieces of an older rock are contained within a younger rock, the fragments had to exist before they were incorporated. Imagine our upper conglomerate contains rounded pieces of the lower sandstone and the dark intrusive rock. That supports a history in which those materials were exposed and eroded before the conglomerate accumulated. The pieces are not younger merely because they now sit high in the outcrop. Their position inside another rock preserves a recycling relationship."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "We must identify what is actually included. A mineral that grew later in a rock is not automatically an older fragment simply because it is surrounded by other material. A genuine pebble incorporated during deposition has a different origin from a crystal formed during later alteration. Texture, boundaries and mineral relationships help distinguish these cases. The inclusion principle applies to incorporated older pieces, not indiscriminately to every visible object inside a rock. The process behind the feature determines the age inference."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "The uneven boundary beneath our conglomerate records missing material or missing deposition. A surface separating older rocks from younger sedimentary deposits across a significant break is an unconformity. In our example the older beds are tilted and truncated, while the beds above are horizontal. That is an angular unconformity. Its geometry requires deposition of the older beds, their deformation, removal of material across them, and subsequent deposition above. The boundary is evidence of events even though those events did not leave a thick new layer at that exact point."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "A different exposure might show parallel beds above and below an erosional surface. The absence of an angle does not mean uninterrupted accumulation. Erosion can remove part of a horizontal sequence, and later sediment can cover it horizontally. Such a break is commonly described as a disconformity. Other gaps may be difficult to see physically and become apparent through missing fossil intervals or numerical ages. A neat stack can contain a long absence, just as a visibly dramatic boundary can represent a different amount of missing time."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "A nonconformity occurs where sedimentary rock overlies an eroded surface of older igneous or metamorphic rock. For example, sediment may accumulate across exposed granite. The granite had to form and reach an exposed surface before sediment could rest upon it. That implies a history of removal of overlying material, although the local contact alone may not quantify how much or how quickly. We do not need to memorise all the names at once. The useful task is explaining what sequence each kind of boundary requires."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "An unconformity is not necessarily one instantaneous worldwide event. Its age can vary from place to place, and erosion may proceed for a long interval. A surface may be exposed in one area while sediment continues to accumulate elsewhere. Later deposits can cover different parts at different times. Calling every break the same global catastrophe would ignore those spatial relationships. Equally, interpreting geological change does not require every process to be slow. A landscape can combine long pauses, gradual processes and brief powerful events."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Second recall question. In our imaginary outcrop, a dark sheet cuts three tilted beds, and both the sheet and beds are truncated beneath a horizontal conglomerate. What can we order confidently, and which relationship between intrusion and tilting remains unresolved from those observations alone?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "The beds were deposited before the sheet intruded through them. The beds were tilted before their edges were eroded and covered, and the sheet existed before that erosion cut off its upper end. The conglomerate was deposited afterward. But we have not established whether intrusion preceded tilting or followed it. Both are compatible with the stated geometry. Additional evidence, such as another cross cutting relationship or a clear record of shared deformation, would be needed to resolve that pair."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Let us add a fault to the example, carefully stating new observations. This fault offsets the lower three beds and the dark sheet. Its displaced surfaces end at the unconformity, and the overlying conglomerate is continuous and not offset across that location. In this simplified reconstruction, the recorded fault movement occurred after the intrusion but before deposition of the conglomerate. We infer this from what it disrupts and what seals it. The observation concerns the movement recorded there, rather than proving that the fault could never move again."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "A later reactivation would add another event. If the same fault also displaced the conglomerate, at least some movement must have happened after that deposit formed. The fault surface may be old while its most recent movement is young. This is another reason to date events rather than treat every feature as having one simple birthday. Fractures, mineral veins and intrusive bodies can preserve multiple episodes. A feature's origin and its later use by geological processes are not always the same moment."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "The outcrop we see is a two dimensional slice through a three dimensional arrangement. A dark band that appears to end at a boundary may continue into or out of the face. A fault may leave the exposed plane. Geologists trace contacts, measure orientations and compare nearby exposures to distinguish true termination from a limitation of the view. Our paper examples specify the relationships to make the logic clear. At a real site, establishing those observations can be the difficult part of the work."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Now imagine a valley separates two exposures. Both contain a sandstone, but the layers cannot be followed continuously across the gap. Are they the same bed? Similar rock type alone does not establish that. Sand has accumulated many times in Earth's history, and two nearby deposits can look alike while having different ages. Correlation means finding which units or events correspond across locations. It requires more specific evidence, such as a distinctive sequence, a traceable marker, characteristic fossils or independently constrained dates."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "A volcanic ash layer can sometimes provide a useful marker because an eruption can spread material widely over a short interval compared with much sediment accumulation. But two pale ash beds are not automatically the same eruption. Their mineral composition, chemistry, stratigraphic position and ages can help test the match. Ash may also be eroded and redeposited later. A primary ash fall and a reworked ash rich sediment can contain similar material while recording different depositional events. The distinction matters when using the ash as a time marker."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Correlation can link different rock types as well. At one time, sand may accumulate near a shore while finer mud settles farther offshore. Those contemporary deposits will later become different rocks. If the shoreline migrates, the sandy environment can move across locations, so a sandstone body may span different ages from place to place. A boundary between sandstone and mudstone can mark an environmental change that occurred at different times across the region. Rock type and time are related, but they are not interchangeable labels."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Picture a shallow basin receiving sediment from a river. Close to the river mouth, relatively coarse material may settle, while fine particles travel farther before deposition. As sediment builds outward, a location that once received mud may begin receiving sand. The vertical change at that location records a shift in conditions. At the same moment, another location can still receive mud. To reconstruct the basin, we need both the sequence through time and the pattern across space. One isolated column provides only part of that history."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Fossils help with this problem because organisms have appeared, changed and disappeared through geological time. Different assemblages recur in a recognisable order across many sedimentary sequences. The principle of faunal succession uses those patterns to establish relative ages and correlations. The name mentions animals, but plant fossils and microscopic organisms can also be useful. A fossil does not carry a printed year. Its value depends on identifying it accurately and understanding the interval and environments in which it occurred."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "An index fossil is particularly useful when the organism existed for a comparatively short interval and was distributed widely enough to connect different regions. A group that persisted for hundreds of millions of years gives a very broad age clue if we identify it only at that broad level. More precise identification may reveal a species with a much shorter range. Preservation and ease of recognition matter too. The most informative organism is of limited practical use if its identifying features are almost never preserved."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "For an original numerical example, suppose fossil species Amber is known from an interval between one hundred and twenty and one hundred and ten million years ago. Species Blue is known from one hundred and fifteen to one hundred and five million years ago. If both were deposited together during their living ranges, the overlap is one hundred and fifteen to one hundred and ten million years ago. That is a five million year window. These are fictional species and ranges, chosen to demonstrate interval overlap rather than report a real fossil discovery."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Add species Copper, with a known range from one hundred and twelve to one hundred and eight million years ago. The interval shared by all three is now one hundred and twelve to one hundred and ten million years ago, a two million year window. We have narrowed the estimate by combining constraints. We have not averaged the species' dates. Averaging their range midpoints would answer a different question and could produce a number with no proper relationship to the interval during which all three could coexist."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "The phrase deposited together during their living ranges carries an important condition. An old fossil can be eroded from an older deposit and incorporated into younger sediment. This is reworking. The fossil's age then predates the new host deposit, much like our recycled mineral grain. If fossils in one bed imply incompatible living intervals, possible explanations include reworking, mistaken identification, mixed samples or a more complicated history. We should investigate those possibilities rather than force contradictory ranges into a confident single date."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Absence is also harder to interpret than presence. A species may be missing because it had not evolved, had become extinct, did not live in that environment, was not preserved, or simply was not found in the sample. A shallow water organism need not appear in a deep water deposit of the same age. Fossil correlation therefore uses knowledge of ecology and preservation alongside the time ranges. The useful conclusion comes from a pattern of evidence, not from assuming every species was present everywhere throughout its existence."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Third recall question. Our fictional fossils Amber and Blue overlap between one hundred and fifteen and one hundred and ten million years ago. Copper overlaps both only from one hundred and twelve to one hundred and ten million years ago. What interval fits all three, and what geological process could put an older fossil into a younger bed?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "The common interval is one hundred and twelve to one hundred and ten million years ago, spanning two million years. Reworking can put an older fossil into younger sediment: erosion removes the fossil from its original deposit, transport moves it, and deposition incorporates it into a new bed. That is why the overlap calculation depends on the fossils belonging to the depositional event we are trying to date. The arithmetic cannot repair a mistaken assumption about how the sample formed."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Relative dating established a great deal of geological order before scientists could assign reliable numerical ages to it. Numerical dating adds a scale of years to that order. It does not replace the field relationships. A measurement can help date a volcanic layer, and its position above or below fossil bearing sediment then constrains the sediment's age. Conversely, a field relationship can reveal that a measured mineral age reflects an inherited grain or later change rather than the deposition event. The two approaches check and strengthen each other."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Radioactive decay provides several geological clocks. Atoms of one element have the same number of protons, while isotopes differ in their number of neutrons. Some isotopes are unstable and transform through radioactive decay. The original isotope is called the parent, and the products are called daughter isotopes. For a suitable system, the changing proportions can be related to elapsed time. Different isotope systems have different decay rates and behaviour in minerals, so choosing the system is part of choosing which event can be investigated."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "A half life is the time over which half of a large population of a particular radioactive parent isotope is expected to decay. It does not mean every atom waits for that deadline. Individual decay events are probabilistic, while the behaviour of very large populations follows a predictable pattern. After one half life, half the original parent remains. After two, a quarter remains. After three, an eighth remains. Equal time intervals remove the same fraction of what remains, not the same number of atoms each time."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Use a deliberately simplified teaching system. Its parent isotope decays into one stable daughter, its half life is ten million years, and the mineral begins with eight hundred parent atoms and no daughter atoms. Assume nothing enters or leaves. After ten million years, the expected counts are four hundred parent and four hundred daughter. After twenty million years, two hundred parent remain and six hundred daughter have accumulated. After thirty million years, one hundred parent remain and seven hundred daughter are present. Real measurements involve enormous numbers of atoms, not these small exact counts."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "The toy example explains why a ratio can tell time. If one eighth of the original parent remains, three half lives have elapsed. With our fictional ten million year half life, that is thirty million years. We are not claiming that a real isotope used by geologists has that exact half life or that every decay chain has one simple daughter. Real systems can involve branching decay and intermediate products. The simplified model isolates the relationship between repeated halving and elapsed time so we can understand the principle before adding geological complications."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "What if we do not know the original number of parent atoms? In this simple closed system with no initial daughter and one daughter produced for each parent lost, the present parent plus the accumulated daughter gives the original parent amount. One hundred plus seven hundred gives eight hundred, so the remaining fraction is one eighth. But this reasoning fails if daughter material was present initially, if atoms escaped, or if material was added. Those are not small verbal details. They are conditions required to interpret that particular calculation."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Actual dating methods address such issues through the choice of minerals, isotope measurements, correction procedures and comparisons among samples or isotope systems. They do not universally assume that every rock began with no daughter isotope. Some methods estimate an initial component rather than treating it as zero. A trustworthy geological date includes an interpretation of the system's history and uncertainty, not merely a machine displaying a number. The instrument measures properties of a sample; the geological question determines what those properties can mean."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "A mineral's isotopic history may also be affected by later heating or alteration. Some systems retain their record through conditions that disturb others. A date may therefore concern crystallisation, cooling or a later geological event, depending on the method and material. A rock that formed earlier and was subsequently changed need not yield one universal age from every mineral. Differences can reveal history, but they can also signal a problem that needs investigation. We should not automatically select whichever date best fits an expected story."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Consider a lava containing crystals that began growing while magma was still underground. The crystals can predate eruption. A method sensitive to crystal formation and another suitable for the eruption or cooling event may therefore address different times. The United States Geological Survey describes using such distinctions to investigate how long magma remained in the crust before erupting. The important point for our lesson is that a volcanic rock's material can begin its history before the moment it appears at the surface."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Sedimentary rocks make this distinction especially important. A sandstone can contain mineral grains from several older sources. Measuring their crystallisation ages can reveal where sediment came from and place limits on deposition, but those ages do not simply become the sandstone's birthday. The youngest reliable inherited grain or grain population may help establish that deposition cannot predate that material. It still may have been deposited substantially later. Determining a robust bound requires considering analytical uncertainty, alteration and whether the grains belong to the sedimentary population being studied."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Return to an imaginary fossil bearing mudstone. A primary volcanic ash below it is dated at one hundred and three million years, and a primary ash above it at ninety nine million years. Assume the dates represent the eruptions and the beds are in their original order. The mudstone was deposited after the lower ash and before the upper ash. Its age is therefore between one hundred and three and ninety nine million years. We have bracketed the event rather than directly dated every grain in the mudstone."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Remember that larger numbers of years ago are older. A hundred and three million years ago comes before ninety nine million years ago. That can make verbal inequalities confusing, so it helps to say the event order in ordinary language: lower ash first, mudstone next, upper ash last. The numerical interval spans four million years. It does not mean the mudstone took four million years to accumulate, and its midpoint of one hundred and one million years is not automatically the best measured age of deposition."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "If a reliable fossil assemblage independently places that mudstone between one hundred and two and one hundred million years ago, the combined information narrows the possible interval to those two boundaries. But the evidence must genuinely concern the same deposit and event. A recycled fossil or an inherited ash crystal can distort the connection. The most useful reconstruction shows why each constraint applies, so that another geologist can test the link between observation and age rather than only compare the final numbers."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Fourth recall question. In our fictional closed radioactive system, the half life is ten million years and one eighth of the original parent remains. How much time has elapsed? Why would adding unrelated daughter atoms make the simple parent plus daughter calculation misleading?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Three half lives have elapsed, so the model gives thirty million years. One half becomes one quarter and then one eighth. Unrelated daughter atoms would be counted as if they had formed from the original parent during decay. In our simple calculation that would make the original parent total appear too large and the remaining fraction too small, producing an age that appears too old. Real methods must account for initial components and later disturbance rather than applying the toy assumptions to every sample."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Radiocarbon dating is one radiometric technique, not the name for all geological dating. It is most useful for relatively recent carbon bearing material, generally on the scale of tens of thousands of years. It is not the routine method for dating rocks hundreds of millions of years old. Charcoal beneath a lava flow might help constrain a recent eruption if its relationship to the event is established. The charcoal and the lava are different materials, and the event represented by the charcoal still needs interpretation."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Even with a suitable recent sample, the age of organic material is not automatically the age of every event near it. A piece of old wood can survive before being buried or burned. Material can move from an earlier deposit into a later one. Contamination can add carbon from a different source. These are reasons to select and interpret samples carefully, not reasons to treat all dates as arbitrary. A method can be powerful within its conditions while being unsuitable for a particular object or question."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Other techniques measure different histories. Cosmogenic exposure dating uses isotopes produced when cosmic rays interact with material near the surface. It can help investigate how long a rock surface has been exposed, such as after retreat of ice. That exposure age is not necessarily the crystallisation age of the rock itself. Burial, erosion and earlier exposure can affect the interpretation. The distinction between when material formed and when it became exposed is the same kind of event distinction that has guided our sediment and crystal examples."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "We can see the practical importance with a boulder left by a glacier. The rock inside the boulder may have formed far earlier than the glacier moved it. A suitable exposure history can concern when the ice retreated and left the surface exposed, which is a different question from the rock's original formation. If we want to reconstruct the glacier, an ancient crystallisation age by itself is not the date we need. Selecting a method begins with the event, not with a general desire to obtain any available age."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "A numerical age should come with uncertainty. Suppose one sample gives one hundred million years with an uncertainty of one million years, and another gives one hundred and one million years with the same stated uncertainty convention. Their ranges overlap. We cannot confidently order the events merely because the central numbers differ by one. The interpretation depends on what those uncertainties mean and whether errors are shared. A field relationship might establish the order more clearly than those two measurements alone."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Uncertainty is not the same as an unconstrained guess. A measured range can exclude many possibilities while leaving others open. Improving methods can narrow a range or revise a previously assigned boundary without erasing the broader sequence of events. If two ages clearly conflict with the observed order, the response is to examine samples, methods, assumptions and field interpretation. That conflict is informative. It identifies a part of the reconstruction that cannot all be correct as currently stated."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Let us combine the tools in a second original example. At the base of an imagined section is granite. Above an uneven surface lies a conglomerate containing pebbles of that granite. Mudstone rests on the conglomerate. A primary ash bed lies within the mudstone. A narrow intrusion cuts the granite, conglomerate and mudstone. Finally, a fault offsets both the sedimentary beds and the intrusion. We will not add numerical ages until the event sequence is clear, because a date should attach to a specific relationship."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "The granite formed before its pebbles were eroded and incorporated into the conglomerate. Its surface had to be exposed before the conglomerate could be deposited upon it. Mudstone deposition followed the conglomerate, and the ash arrived during that mudstone sequence. The intrusion came later because it cuts all those rocks. Fault movement came later still because it offsets the intrusion as well as the beds. That is already a substantial history from contacts, included fragments and displacement, without knowing any numerical age."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Now suppose suitable mineral dating establishes that the granite crystallised two hundred million years ago. The primary ash represents an eruption one hundred and twenty million years ago. The intrusion crystallised one hundred and ten million years ago. The conglomerate was deposited after the granite formed and before the ash was laid down. Its age is somewhere between two hundred and one hundred and twenty million years, subject to the stated relationships and dating interpretations. The granite's age gives a broad older limit, not a claim that the conglomerate formed immediately afterward."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "The fault's movement is younger than the one hundred and ten million year intrusion it offsets. We have not supplied a younger deposit that seals the fault or another date that limits how recently it moved. Its age therefore has only one numerical side constrained in this example. Saying it moved exactly one hundred and nine million years ago would invent precision. The relative sequence is still useful, and the missing constraint tells us what additional observation could improve the reconstruction."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Imagine a horizontal lava flow later covers the faulted section and is not itself displaced. If that flow is independently dated at ninety million years, the recorded fault movement falls between one hundred and ten and ninety million years ago. This does not identify the duration of movement or exclude several movements within that interval. It gives a bracket. A single clean line in a drawing can summarise a history that was episodic, so we should distinguish the evidence for timing from assumptions about how continuous the activity was."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "The gap between granite formation and later burial can be enormous, yet the contact can be physically thin. That is one reason geological time is difficult to read by eye. A few millimetres of boundary may separate events tens of millions of years apart. Meanwhile, a thick deposit can form relatively rapidly. Rock volume and elapsed time do not have a fixed exchange rate. We need the process, the preserved record and independent constraints before translating a measured thickness into a duration."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "For a simple rate calculation, suppose a hypothetical sequence preserves twenty metres of sediment deposited over an independently constrained interval of one hundred thousand years. Dividing gives an average net accumulation of two tenths of a millimetre per year. Twenty metres is twenty thousand millimetres, divided by one hundred thousand years. This average describes the total preserved thickness over that interval. It does not tell us that exactly two tenths of a millimetre settled every year, because deposition, erosion and compaction may have varied."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "If most material arrived during brief floods separated by long quiet periods, the same long term average could result. If later compaction reduced thickness, the original deposited thickness was larger than the present preserved thickness. If erosion removed part of the record, the net accumulation understates the amount ever deposited. These distinctions matter when comparing environments or estimating rates. A correct division can still be interpreted incorrectly if we forget what the numerator and denominator actually measure."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "A fossil's position within that twenty metre sequence cannot automatically be converted into an exact age by linear interpolation. That would assume an appropriate accumulation model, often a constant rate between the dated points. A hiatus or a rapid event bed could violate it. Sometimes an age model based on multiple dated horizons and understood sedimentation is useful, but its assumptions need to be visible. Interpolation is a model connecting measurements, not another independent measurement at every depth."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "The preservation of the record also influences what we can observe. Organisms with hard parts often have a better chance of leaving recognisable remains than soft tissues, although exceptional conditions can preserve delicate structures. Environments differ in burial, decay, disturbance and erosion. A fossil assemblage therefore is not a complete census of everything alive in the region. It is a preserved sample shaped by biological and geological processes. Interpreting abundance and absence requires considering how that sample was produced."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Transport can further alter the sample. Shells can be broken, sorted, concentrated or moved away from where the organisms lived. A bed full of shells might record a living community, a storm concentration or another accumulation process. We look at preservation, orientation, sediment and surrounding structures to distinguish possibilities. The same basic principle applies to mineral grains: their current neighbours may not be their original neighbours. Sedimentary rocks often assemble materials with different earlier histories into one later deposit."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "This does not make the rock record unreadable. It makes it a record of both the source and the processes that moved and preserved material. Rounded pebbles, sorted grains, broken shells, cross beds and erosional contacts can each contribute information. They become stronger together when their interpretations agree. If a proposed environment explains the grain size but contradicts the structures or fossils, it needs revision. A reconstruction should account for the combination, rather than selecting one attractive clue and ignoring the rest."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "We can practise that combination without visiting a cliff. Imagine a drawing showing a lower set of beds cut by an intrusion, then an irregular erosion surface across both, followed by an upper horizontal bed. Add a pebble of the intrusion inside the upper bed. The cut establishes that the intrusion is younger than the lower beds. The truncation establishes that erosion came after the intrusion. The pebble supports erosion and incorporation before the upper bed formed. Three different relationships contribute to one coherent sequence."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Now add a crack that crosses every unit but shows no displacement. We can say the crack formed after the material it cuts, but we should not automatically call it a fault. A fracture without evidence of movement is often described as a joint. If minerals later fill the crack, their growth adds another event that may or may not closely follow fracture formation. The distinction illustrates how naming a feature can smuggle in a process if we are careless. Describe the evidence before adding an interpretation that requires more than was observed."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Fifth recall question. A fault offsets an intrusion dated at one hundred and ten million years, while an undisplaced lava flow dated at ninety million years seals the faulted surface. What age interval brackets the recorded movement, and does that interval prove the fault moved continuously for twenty million years?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "The recorded movement happened after the intrusion and before the sealing lava, so it is bracketed between one hundred and ten and ninety million years ago. No, the twenty million year interval does not prove continuous movement. The movement could have occurred in one episode or several episodes within that interval. The dates constrain when it could have happened, while evidence about displacement and successive deposits would be needed to investigate the history and duration of movement more closely."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "For the practical application, draw your own small imaginary cross section on paper. Use three beds, one intrusion, one erosion surface and one younger bed. Make the relationships unambiguous rather than artistically impressive. Beside the drawing, write an event list and a short reason for each order you claim. Then mark one pair of events that your drawing does not order. That unresolved pair is part of the exercise. You are practising the difference between what the geometry establishes and what you have merely imagined."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Add two fictional dates to features whose formation events you have defined. Use them to bracket an undated deposit or event. Keep the numbers simple, and say years ago so that the direction of older and younger remains clear. Do not average the dates unless you explicitly introduce a model that would justify doing so. Finally, move one feature in the drawing and ask which conclusions change. This is a low risk paper exercise, with no rock collection, cliff access, equipment or chemical testing required."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "For example, if your intrusion originally cuts only the lower beds, you can place it before the younger cover when the contact clearly truncates it. If you redraw it cutting the cover too, the intrusion must now be younger than that cover. One changed relationship can alter part of the sequence while leaving other relationships intact. The lower beds are still older than the cover if their depositional and erosional relationship remains. Geological histories are built from connected constraints, so a revision need not discard every conclusion."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "If you later look at a public photograph of an outcrop, distinguish what the image shows from what a geological caption supplies. You may be able to see tilted beds and a truncating boundary, while the numerical ages come from studies not visible in the photograph. Both forms of information can be valuable. A photograph alone is rarely enough to identify every rock, prove all contacts or reconstruct the entire region. Our paper model teaches the logic; real field interpretation adds measurement, sampling and wider context."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "Return once more to the cliff that opened the lesson. Its lower beds are not simply old scenery. They preserve deposition before intrusion, deformation before truncation, and erosion before a younger deposit covered the surface. Recycled grains and pebbles carry earlier histories into later rocks. Fossils can connect intervals across regions, while suitable numerical methods attach dates to particular events. Each tool contributes something different, and their combination can reveal a history far longer than the time represented by any one visible surface."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and directly. Both voices explain the physical processes and develop the fictional outcrops. Keep event order distinct from numerical age. State hypothetical assumptions clearly. Leave seven seconds after each recall question before the answer.",
+      "t": "The most useful question to carry away is specific: what had to exist before this feature could form? A fragment had to exist before it was included. A bed had to exist before it was cut. A tilted package had to be tilted before its edges were eroded and covered horizontally. Then ask which event a numerical date actually measures. Those questions let you read a geological sequence with both confidence and limits, preserving what the rocks establish while leaving room for the parts of their history that remain missing."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-10-05",
+    "spoken_words": 7092,
+    "sha256": "8e918dd5b1cbca07daa050e8d0fe65a8023d2cc09d5160c67d18bd97c9472880",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://opentextbc.ca/physicalgeology2ed/chapter/3-1-the-rock-cycle/",
+      "https://opentextbc.ca/physicalgeology2ed/chapter/6-4-sedimentary-structures-and-fossils/",
+      "https://opentextbc.ca/physicalgeology2ed/chapter/8-2-relative-dating-methods/",
+      "https://opentextbc.ca/physicalgeology2ed/chapter/8-3-dating-rocks-using-fossils/",
+      "https://opentextbc.ca/physicalgeology2ed/chapter/8-4-isotopic-dating-methods/",
+      "https://opentextbc.ca/physicalgeology2ed/chapter/12-3-fracturing-and-faulting/",
+      "https://www.usgs.gov/observatories/yvo/news/a-beginners-guide-dating-rocks"
+    ]
+  }
+}
