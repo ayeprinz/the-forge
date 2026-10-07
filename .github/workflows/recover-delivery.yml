@@ -1,0 +1,44 @@
+name: Recover completed delivery without speech
+on:
+  workflow_dispatch:
+    inputs:
+      episode_date:
+        description: 'Episode date in the completed artifact (YYYY-MM-DD)'
+        required: true
+      source_run_id:
+        description: 'Run with the successful forge-delivery artifact'
+        required: true
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: daily-episode
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      EPISODE_DATE: ${{ inputs.episode_date }}
+      FEED_BASE: https://ayeprinz.github.io/the-forge
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/download-artifact@v4
+        with:
+          name: forge-delivery-${{ inputs.source_run_id }}
+          run-id: ${{ inputs.source_run_id }}
+          github-token: ${{ github.token }}
+          path: delivery
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Restore verified audio without speech access
+        run: python3 restore_delivery.py
+      - name: Publish with bounded retries
+        run: |
+          git config user.name forge-bot
+          git config user.email forge-bot@users.noreply.github.com
+          git add -A docs
+          git diff --staged --quiet || git commit -m "Recover completed Forge delivery"
+          python3 publish.py
+      - name: Verify public delivery and refresh Overcast
+        run: python3 -u verify_delivery.py
