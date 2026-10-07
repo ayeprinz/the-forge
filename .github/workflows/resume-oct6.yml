@@ -1,0 +1,143 @@
+name: Recover October 6 saved recording
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: daily-episode
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    outputs:
+      episode_date: ${{ steps.date.outputs.value }}
+    steps:
+      - name: Fix episode date for the whole run
+        id: date
+        env:
+          REQUESTED_DATE: '2026-10-06'
+        run: |
+          python3 - <<'PYDATE'
+          import datetime,os
+          from zoneinfo import ZoneInfo
+          value=os.environ.get('REQUESTED_DATE') or datetime.datetime.now(ZoneInfo('Europe/London')).date().isoformat()
+          assert datetime.date.fromisoformat(value).isoformat()==value
+          with open(os.environ['GITHUB_OUTPUT'],'a') as out: out.write('value='+value+'\n')
+          PYDATE
+      - uses: actions/checkout@v4
+
+      - name: Check reviewed script before any spending
+        env:
+          EPISODE_DATE: ${{ steps.date.outputs.value }}
+        run: python3 preflight.py
+
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: forge-render-37421588046
+          run-id: 37421588046
+          github-token: ${{ github.token }}
+          path: recovery
+      - name: Claim existing reservation and reconcile rejected request
+        run: |
+          git config user.name forge-bot
+          git config user.email forge-bot@users.noreply.github.com
+          python3 - <<'PY'
+          import pathlib,json,os,hashlib,shutil,subprocess
+          root=pathlib.Path('.')
+          assert not (root/'docs/audio/2026-10-06.mp3').exists(), 'Already rendered'
+          script=root/'scripts/2026-10-06.json'
+          fingerprint=hashlib.sha256(('gpt-4o-mini-tts'+script.read_text()).encode()).hexdigest()[:20]
+          source=root/'recovery/_tmp'/fingerprint
+          usage=json.loads((source/'usage.json').read_text())
+          assert usage=={'usd':0.6567966,'calls':56,'uncertain':True}, 'Unexpected usage; reconcile manually'
+          assert sorted(x.name for x in source.glob('*.mp3'))==[f'{i:04d}.mp3' for i in range(56)], 'Unexpected clip set'
+          assert not list(source.glob('*.part')), 'Partial audio requires reconciliation'
+          ledger_path=root/'audio-ledger.json'
+          ledger=json.loads(ledger_path.read_text())
+          reservation=ledger['reservations']['2026-10-06']
+          assert reservation['run_id']=='37421588046' and reservation['attempt']=='1'
+          assert reservation['reserved_usd']==2 and reservation['month']=='2026-10'
+          assert sum(v['reserved_usd'] for v in ledger['reservations'].values() if v['month']=='2026-10')<=60
+          assert 'recovery_history' not in reservation, 'Recovery already claimed'
+          reservation['recovery_history']=[{'run_id':reservation['run_id'],'attempt':reservation['attempt'],'outcome':'HTTP 429 rejected turn 57 before audio response; 56 completed clips preserved','authorization':'User requested fixing all remaining failure on October 7; quota restored; resume only unfinished turns within existing allowance','original_usage':usage}]
+          reservation['run_id']=os.environ['GITHUB_RUN_ID']
+          reservation['attempt']=os.environ['GITHUB_RUN_ATTEMPT']
+          ledger_path.write_text(json.dumps(ledger,indent=2)+'\n')
+          subprocess.run(['git','add','audio-ledger.json'],check=True)
+          subprocess.run(['git','commit','-m','Claim existing October 7 allowance for authorised recovery'],check=True)
+          subprocess.run(['python3','publish.py'],check=True)
+          dest=root/'_tmp'/fingerprint
+          shutil.copytree(source,dest)
+          # Preserve the original uncertain record above and in the source artifact.
+          # HTTP 429 rejected the request before any audio response; explicit user
+          # recovery authority permits resuming within the same full allowance.
+          usage['uncertain']=False
+          usage['reconciled_rejected_request']='HTTP 429; quota restored; user-authorised recovery; not a billing reconciliation'
+          (dest/'usage.json').write_text(json.dumps(usage,indent=2))
+          PY
+      - name: Render episode and rebuild feed
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          FEED_BASE: https://ayeprinz.github.io/the-forge
+          EPISODE_DATE: ${{ steps.date.outputs.value }}
+        run: python3 -u build.py
+
+      - name: Preserve audio for recovery
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: forge-render-${{ github.run_id }}
+          path: |
+            _tmp/
+            docs/audio/${{ steps.date.outputs.value }}*.mp3
+            docs/*-audio-check.json
+          retention-days: 30
+          if-no-files-found: ignore
+
+      - name: Package complete episode before publication
+        env:
+          EPISODE_DATE: ${{ steps.date.outputs.value }}
+        run: python3 package_delivery.py
+
+      - name: Preserve complete delivery
+        uses: actions/upload-artifact@v4
+        with:
+          name: forge-delivery-${{ github.run_id }}
+          path: delivery/
+          retention-days: 30
+          if-no-files-found: error
+
+  publish:
+    needs: render
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: forge-delivery-${{ github.run_id }}
+          path: delivery
+      - name: Install ffmpeg for feed duration checks
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Restore verified saved audio without speech access
+        env:
+          FEED_BASE: https://ayeprinz.github.io/the-forge
+        run: python3 restore_delivery.py
+      - name: Publish with bounded retries
+        run: |
+          git config user.name forge-bot
+          git config user.email forge-bot@users.noreply.github.com
+          git add -A docs
+          git diff --staged --quiet || git commit -m "Publish verified Forge delivery"
+          python3 publish.py
+      - name: Verify public delivery and refresh Overcast
+        env:
+          EPISODE_DATE: ${{ needs.render.outputs.episode_date }}
+        run: python3 -u verify_delivery.py
