@@ -1,8 +1,9 @@
 """Restore a verified delivery artifact, with no speech API access."""
-import hashlib,json,pathlib,shutil
+import hashlib,json,pathlib,shutil,os
 root=pathlib.Path(__file__).parent
 package=root/'delivery';manifest=json.loads((package/'manifest.json').read_text())
 slug=manifest['date']
+if os.environ.get('EPISODE_DATE'): assert slug==os.environ['EPISODE_DATE'],'Artifact date mismatch'
 assert hashlib.sha256((root/'scripts'/f'{slug}.json').read_bytes()).hexdigest()==manifest['script_sha256'],'Script changed since recording'
 for name,digest in manifest['files'].items():
     path=pathlib.PurePosixPath(name)

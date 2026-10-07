@@ -10,6 +10,11 @@ def publish(delays=(0,10,30,60),run=git,sleep=time.sleep):
         pushed=run('push','origin','HEAD:main')
         if pushed.returncode==0:
             print('Publication commit pushed successfully');return
+        error = getattr(pushed, 'stderr', '').lower()
+        reason = ('remote branch advanced' if 'non-fast-forward' in error or 'fetch first' in error else
+                  'GitHub server error' if 'internal server error' in error else
+                  'permission denied' if 'permission' in error or '403' in error else 'push rejected')
+        print('::warning::Publication attempt failed: ' + reason)
         # A dropped response can hide a successful push. Check before retrying.
         fetched=run('fetch','origin','main')
         if fetched.returncode==0:
