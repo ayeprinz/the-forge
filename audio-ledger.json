@@ -179,8 +179,21 @@
       "reserved_usd": 2,
       "month": "2026-10",
       "status": "reserved",
-      "run_id": "37421588046",
-      "attempt": "1"
+      "run_id": "37658484608",
+      "attempt": "1",
+      "recovery_history": [
+        {
+          "run_id": "37421588046",
+          "attempt": "1",
+          "outcome": "HTTP 429 rejected turn 57 before audio response; 56 completed clips preserved",
+          "authorization": "User requested fixing all remaining failure on October 7; quota restored; resume only unfinished turns within existing allowance",
+          "original_usage": {
+            "usd": 0.6567966,
+            "calls": 56,
+            "uncertain": true
+          }
+        }
+      ]
     },
     "2026-10-07": {
       "reserved_usd": 2,
