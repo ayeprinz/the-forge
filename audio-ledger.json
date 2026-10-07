@@ -186,8 +186,21 @@
       "reserved_usd": 2,
       "month": "2026-10",
       "status": "reserved",
-      "run_id": "37579336726",
-      "attempt": "1"
+      "run_id": "37640351288",
+      "attempt": "1",
+      "recovery_history": [
+        {
+          "run_id": "37579336726",
+          "attempt": "1",
+          "outcome": "HTTP 429 before audio response; zero clips",
+          "authorization": "User requested repair and run on October 7 after quota exhaustion; credit balance restored",
+          "original_usage": {
+            "usd": 0.0,
+            "calls": 0,
+            "uncertain": true
+          }
+        }
+      ]
     }
   }
 }
