@@ -1,0 +1,83 @@
+name: Resume October 7 after quota repair
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: daily-episode
+  cancel-in-progress: false
+jobs:
+  resume:
+    runs-on: ubuntu-latest
+    env:
+      EPISODE_DATE: '2026-10-07'
+      FEED_BASE: https://ayeprinz.github.io/the-forge
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 preflight.py
+      - uses: actions/download-artifact@v4
+        with:
+          name: forge-render-37579336726
+          run-id: 37579336726
+          github-token: ${{ github.token }}
+          path: recovery
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Claim existing reservation and reconcile rejected request
+        run: |
+          git config user.name forge-bot
+          git config user.email forge-bot@users.noreply.github.com
+          python3 - <<'PY'
+          import pathlib,json,os,hashlib,shutil,subprocess
+          root=pathlib.Path('.')
+          assert not (root/'docs/audio/2026-10-07.mp3').exists(), 'Already rendered'
+          script=root/'scripts/2026-10-07.json'
+          fingerprint=hashlib.sha256(('gpt-4o-mini-tts'+script.read_text()).encode()).hexdigest()[:20]
+          source=root/'recovery/_tmp'/fingerprint
+          usage=json.loads((source/'usage.json').read_text())
+          assert usage=={'usd':0.0,'calls':0,'uncertain':True}, 'Unexpected usage; reconcile manually'
+          assert not list(source.glob('*.mp3')) and not list(source.glob('*.part')), 'Unexpected clips'
+          ledger_path=root/'audio-ledger.json'
+          ledger=json.loads(ledger_path.read_text())
+          reservation=ledger['reservations']['2026-10-07']
+          assert reservation['run_id']=='37579336726' and reservation['attempt']=='1'
+          assert reservation['reserved_usd']==2 and reservation['month']=='2026-10'
+          assert sum(v['reserved_usd'] for v in ledger['reservations'].values() if v['month']=='2026-10')<=60
+          assert 'recovery_history' not in reservation, 'Recovery already claimed'
+          reservation['recovery_history']=[{'run_id':reservation['run_id'],'attempt':reservation['attempt'],'outcome':'HTTP 429 before audio response; zero clips','authorization':'User requested repair and run on October 7 after quota exhaustion; credit balance restored','original_usage':usage}]
+          reservation['run_id']=os.environ['GITHUB_RUN_ID']
+          reservation['attempt']=os.environ['GITHUB_RUN_ATTEMPT']
+          ledger_path.write_text(json.dumps(ledger,indent=2)+'\n')
+          subprocess.run(['git','add','audio-ledger.json'],check=True)
+          subprocess.run(['git','commit','-m','Claim existing October 7 allowance for authorised recovery'],check=True)
+          subprocess.run(['git','push'],check=True)
+          dest=root/'_tmp'/fingerprint
+          shutil.copytree(source,dest)
+          # Preserve the original uncertain record above and in the source artifact.
+          # HTTP 429 rejected the request before any audio response; explicit user
+          # recovery authority permits resuming within the same full allowance.
+          usage['uncertain']=False
+          usage['reconciled_rejected_request']='HTTP 429; quota restored; user-authorised recovery; not a billing reconciliation'
+          (dest/'usage.json').write_text(json.dumps(usage,indent=2))
+          PY
+      - name: Render with unchanged request and episode safeguards
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python3 -u build.py
+      - name: Preserve recovery audio
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: forge-render-${{ github.run_id }}
+          path: |
+            _tmp/
+            docs/audio/*.pending.mp3
+            docs/*-audio-check.json
+          retention-days: 7
+      - name: Publish
+        run: |
+          git add -A docs
+          git diff --staged --quiet || git commit -m "Publish recovered October 7 episode"
+          git push
+      - name: Verify public delivery and refresh Overcast
+        run: python3 -u verify_delivery.py
