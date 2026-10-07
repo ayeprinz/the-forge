@@ -9,6 +9,15 @@
     <itunes:explicit>true</itunes:explicit>
     <itunes:image href="https://ayeprinz.github.io/the-forge/forge-cover-v2.jpg"/>
     <item>
+      <title>[Business &amp; Systems] Why Queues Grow Before You Run Out of Capacity</title>
+      <description>Run a fictional repair workshop through arrival bursts, variable repair durations, backlog recovery, Little's law, a clearly specified M/M/1 model, serial bottlenecks, shared labour, batching, pooled queues, priority rules and rework. Original event schedules and exact numerical comparisons distinguish waiting, service, turnaround and useful output. Five recall pauses with answers and a paper scheduling exercise. Sources actually consulted: Larson and Odoni, Urban Operations Research, section 4.3, https://web.mit.edu/urban_or_book/www/book/chapter4/4.3.html ; MIT 6.02 Lecture 17 (2009), section 17.4.1 on Little's law, https://web.mit.edu/6.02/www/s2009/handouts/L17.pdf ; MIT 1.041 queueing-model slides (2026), selected definitions, stationarity, Little's law, M/M/1 assumptions and derivation, https://web.mit.edu/1.041/www/lectures/L8-queuing-models-2026sp.pdf. No source case studies or passages are reproduced. Bench Street and all worked cases are original hypothetical illustrations; precise queue-model predictions apply only under their stated assumptions.</description>
+      <pubDate>Wed, 07 Oct 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2026-10-07</guid>
+      <enclosure url="https://ayeprinz.github.io/the-forge/audio/2026-10-07.mp3" length="19445853" type="audio/mpeg"/>
+      <itunes:duration>00:54:00</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+    </item>
+    <item>
       <title>[Chemistry] What Actually Burns in a Candle</title>
       <description>Follow wax from the solid reservoir through capillary flow, gaseous fuel and combustion. Explain where the candle mass goes, why reaction products outweigh the fuel, how bonds and activation barriers relate to energy, and how mixing creates the visible flame. Original methane, model-wax and propane inventories; worked power calculations; five recall pauses with answers and a paper-only application. Sources consulted: selected lectures in Michael Faraday, The Chemical History of a Candle, edited by William Crookes (public domain), https://www.gutenberg.org/cache/epub/14474/pg14474-images.html ; OpenStax Chemistry 2e, Paul Flowers, Klaus Theopold, Richard Langley and William R. Robinson, selected sections 4.1, 5.1, 7.5 and 12.5 (consulted for factual verification), https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations ; https://openstax.org/books/chemistry-2e/pages/5-1-energy-basics ; https://openstax.org/books/chemistry-2e/pages/7-5-strengths-of-ionic-and-covalent-bonds ; https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory ; American Chemical Society, Shining a Light on Candles, https://inchemistry.acs.org/atomic-news/shining-light-on-candles.html. Explanations and numerical cases are original. No prior reading or home combustion experiment required.</description>
       <pubDate>Mon, 05 Oct 2026 05:00:00 +0000</pubDate>

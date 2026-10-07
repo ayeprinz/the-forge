@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-07",
+  "spoken_characters": 45777,
+  "voices": {
+    "ash": {
+      "integrated_lufs": -16.48,
+      "true_peak": -1.34
+    },
+    "sage": {
+      "integrated_lufs": -16.66,
+      "true_peak": -1.29
+    }
+  },
+  "speech_minutes": 53.0,
+  "duration_seconds": 3240.94,
+  "voice_difference_lu": 0.18,
+  "usage": {
+    "usd": 0.9122418,
+    "calls": 80,
+    "uncertain": false,
+    "reconciled_rejected_request": "HTTP 429; quota restored; user-authorised recovery; not a billing reconciliation"
+  },
+  "revision": "2026-10-07"
+}
