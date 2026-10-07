@@ -63,7 +63,24 @@ def speak(text, voice, instructions, dest):
         "https://api.openai.com/v1/audio/speech", data=body,
         headers={"Authorization": f"Bearer {KEY}", "Content-Type": "application/json"})
     completed = False
-    with urllib.request.urlopen(req, timeout=300) as response, dest.open("wb") as audio:
+    try:
+        response = urllib.request.urlopen(req, timeout=300)
+    except urllib.error.HTTPError as error:
+        # Keep uncertainty and the full reservation. Never retry speech here.
+        try:
+            detail = json.loads(error.read(8192)).get("error", {})
+            code = detail.get("code")
+        except (ValueError, AttributeError):
+            code = None
+        if code == "insufficient_quota":
+            message = "API credits or quota exhausted. Restore account funding, then reconcile saved clips before recovery."
+        elif error.code == 429:
+            message = "Speech request rejected with HTTP 429. Check account quota and rate limits; no automatic speech retry."
+        else:
+            message = f"Speech request failed with HTTP {error.code}; preserve clips and reconcile before retry."
+        print("::error::" + message)
+        raise RuntimeError(message) from None
+    with response, dest.open("wb") as audio:
         for raw in response:
             line = raw.decode("utf-8").strip()
             if not line.startswith("data:"):
