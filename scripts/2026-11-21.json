@@ -1,0 +1,453 @@
+{
+  "date": "2026-11-21",
+  "title": "[Computing] How Networks Find the Shortest Route",
+  "summary": "Build a fictional town network and work through breadth-first search, Dijkstra, negative costs, modelling constraints and independent route checks. Includes five recall questions and a paper exercise. Technical reference: MIT OpenCourseWare, 6.006 Spring 2020, lectures 9, 12 and 13, Erik Demaine, Jason Ku and Justin Solomon. Original dialogue and worked examples. Reference materials: https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/ (CC BY-NC-SA; https://ocw.mit.edu/terms/).",
+  "instructions": "A substantive two-teacher lesson. Both speakers explain mechanisms and examples. Natural pace, no artificial slowing. Respect explicit recall pauses.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "A delivery rider has two ways to reach a library. One route uses two streets and takes twelve minutes. Another uses four streets and takes nine. If a computer counts streets, it recommends the slower journey. Nothing has gone wrong with the counting. The mistake is that the number being minimised does not describe what the rider wants. Finding a route begins with deciding what a connection means and what should count as its cost. Only then can an algorithm give a useful answer."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Let us build a small fictional town called Mereford and solve its routing problems ourselves. We will use places, connections and costs, with no programming assumed. A place becomes a point in a network. A permitted direct movement becomes a connection between two points. Computer scientists call the points vertices or nodes and the connections edges. The drawing might resemble a street map, but its purpose is different. It records which moves are allowed. The physical position of a dot on the page need not tell us anything about distance."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Suppose the station connects directly to the market and the park. The market connects to the library. The park connects to the bridge, and the bridge connects to the library. If we treat every connection as one step, the library is two steps from the station through the market. Going through the park and bridge requires three. We can establish that without measuring a line on the drawing. Indeed, we could rearrange all five dots and keep exactly the same network by preserving the connections between their names."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "That freedom makes networks useful beyond geography. A node could represent a page on a website, with a link representing a click. It could represent a legal position in a puzzle, with a connection representing one permitted move. It could represent a machine in a communication system. The meaning changes, but the question can remain whether some sequence of allowed transitions gets us from one state to another. We should keep the meaning explicit, because a website click and a journey down a road do not automatically have comparable costs."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Direction matters too. If a street runs only from the station to the market, we draw an arrow in that direction. Being able to travel from the station to the market does not establish that we can return along the same street. For a two-way connection we can draw a plain line or represent both directions separately. In a computer, the outgoing neighbours of a node are the destinations of moves available from that node. Incoming connections answer a different question: where could someone have arrived from?"
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Consider a building with an entrance gate that permits entry but requires a different exit. A drawing that silently treats every connection as reversible can recommend a route that cannot be followed. The arithmetic might be flawless and the result still useless. This is a modelling error, before any search begins. A useful route must be a sequence in which every consecutive move exists in the required direction. We will check that property whenever we reconstruct an answer, rather than trusting that a low total is enough."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "We also need to distinguish being reachable from having the best route. If the library can be reached somehow, that answers a yes-or-no question. It does not tell us whether the journey takes nine minutes or ninety. A search can therefore succeed at one task and fail at another. Walking down the first available branch until we find the library may demonstrate reachability. Unless we have an additional reason, it does not demonstrate that the route is shortest, fastest or cheapest. Those words each require a measure and an argument."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Imagine a small island with a lighthouse and no bridge, ferry or other connection in our model. The lighthouse exists as a node, but the station cannot reach it. We must represent that outcome distinctly from a journey of zero minutes. Zero is a perfectly meaningful cost for staying at the starting place. Unreachable means there is no permitted sequence of moves. Algorithms often write its distance as infinity. Here infinity is a marker for the absence of a finite route, not an estimate that a very patient traveller will eventually arrive."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "The first method we will use is breadth-first search. It is appropriate when we want the fewest connections, or when every connection has the same positive cost. Start at the station and give it distance zero. Find all places one step away. Then find new places that can be reached from those in one further step. Continue outward in layers. The method does not choose one promising road and ignore the others. It completes the nearer layer before exploring the next one, which is the reason its first distances can be trusted."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Let us follow the simple Mereford network. The station is layer zero. Its neighbours, the market and the park, form layer one. Exploring the market discovers the library at layer two. Exploring the park discovers the bridge at layer two. When we later explore the bridge, it also connects to the library. But the library already has a distance of two. The route through the bridge would use three steps, so it cannot improve the recorded answer. We retain the shorter route discovered through the market."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Notice what the method has established about the library. Any route with fewer than two connections would have to use zero or one. Zero reaches only the station. One reaches only its direct neighbours, and the library was not among them. Since we have found a route using two, two is minimal. This reasoning extends layer by layer. Before assigning a new place to layer four, we have already exhausted the possibilities in the previous layers. The guarantee comes from the order of exploration, not from the appearance of the drawing."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "A queue is a convenient way to maintain that order. Think of a line in which new arrivals join at the back and work is taken from the front. Put the station in the queue. Remove it, inspect its neighbours and add the newly discovered places. Then remove the market, followed by the park. Their new neighbours go behind the places already waiting. The queue preserves the rule that places discovered at one distance are processed before places discovered at the next distance. It is doing organisational work that supports the proof."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "We must mark a node as discovered when we add it to the queue, not keep rediscovering it without a record. Otherwise a two-way street lets us bounce from station to market and back to station indefinitely. More complicated loops create the same problem with more stops. A discovered set prevents repeated expansion of the same place. It also prevents two different parents in the same layer from repeatedly adding the same neighbour. We can still recognise that multiple routes exist without performing the entire search again for each arrival."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "The word parent has a specialised meaning here. When the market first discovers the library, we record market as the library's parent. It means the preceding place on the route we currently intend to return. The market's parent is the station. To reconstruct the answer, begin at the library, follow parents backwards to the station, then reverse that sequence. The distances tell us how good the route is. The parents tell us what to do. Storing only the number two would not tell the rider which intermediate place to visit."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Suppose another route also reaches the library in two steps. A search that examines the market first may retain that route, while one that examines the park first may retain the other. Both can be correct. A shortest route need not be unique. The algorithm's promise is usually to find a route with minimum cost, not to discover a single route secretly designated as the right one. If we need an additional preference, such as fewer stairs among equal-length routes, we must state and implement that preference separately."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "First recall question. Breadth-first search finds a route with two streets. Another route uses three streets but takes less time. Has breadth-first search failed at its own task, and what information would change the task?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "It has not failed if its task was to minimise the number of streets. It has found a shortest route measured in connections. To minimise time, we need travel-time costs attached to the connections and a method that handles unequal costs. Counting moves is equivalent to counting time only when the relevant moves have equal duration. The distinction is practical: the rider's dissatisfaction may come from the chosen measure, even when the search has correctly optimised that measure."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "We can now attach numbers to the streets. Each edge gets a weight, which is the cost of traversing it. In our next example the weights are minutes, and a route's cost is the sum of its edge weights. We assume these travel times are fixed for the calculation and do not depend on how we reached a junction. Those assumptions are deliberate. We will later examine what changes when arrival time, road closures or the previous turn matter. For now, adding the numbers gives a well-defined comparison."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Use five places: station, market, park, bridge and library. All the connections I am about to list are two-way. Station to market takes six minutes. Station to park takes two. Park to market takes one. Market to bridge takes two. Park to bridge takes seven. Bridge to library takes three. Market to library takes eight. This is an invented network for working through the calculation, not a map of an actual town. We can write the seven connections on paper, but the reasoning will also be explained aloud."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "The obvious station-to-market-to-library route costs six plus eight, which is fourteen minutes. Station to park, then bridge, then library costs two plus seven plus three, which is twelve. A less obvious route goes station, park, market, bridge, library. Its cost is two plus one plus two plus three, which is eight. Four connections beat two because their weights differ. Our job is to find that eight-minute route systematically, with a reason to believe that an unexamined alternative cannot do better."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Dijkstra's algorithm solves this problem when the edge weights are nonnegative. We maintain a best known cost for each place and repeatedly settle the unsettled place with the smallest known cost. Settling means that, under the assumptions, its cost is now final. At the start the station has cost zero. Every other place has an unknown finite route, represented by infinity. We have not declared those places permanently unreachable. Infinity initially says only that no route has yet been found by the search."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Process the station first. Its direct street to the market gives a candidate cost of six. Its street to the park gives a candidate of two. Record those numbers and give both places the station as parent. The bridge and library remain at infinity. The next place to settle is the park because two is smaller than six. This choice compares total cost from the starting point, not the length of the next street alone. Forgetting that distinction would turn a principled search into a different, generally unreliable rule."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "From the park, the one-minute street to the market offers a new route costing two plus one, which is three. Three improves the market's previous six, so we replace its number and change its parent from station to park. The seven-minute connection from park to bridge gives the bridge a candidate cost of nine. The return street to the station would cost four overall, which does not improve zero. We have now discovered that the cheapest way to a nearby-looking place may involve another place first."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "The unsettled choices are market at three, bridge at nine and library at infinity. Settle the market. Through it, the bridge can be reached for three plus two, which is five. Replace the bridge's nine with five and set its parent to market. The library can be reached through market for three plus eight, which is eleven. Give it that tentative cost and market as parent. The word tentative matters. Finding a route to the destination is not yet the same as proving that route optimal."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Now the bridge has the smallest unsettled cost, five, so settle it. Its three-minute street to the library offers five plus three, which is eight. That improves eleven, and the library's parent becomes bridge. At this stage the library is the remaining unsettled destination with cost eight. When we select it as the smallest unsettled entry, its distance is final. Following the parents backwards gives library, bridge, market, park, station. Reverse that order and we have the eight-minute journey we were looking for."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "The repeated comparison has a name: relaxing an edge. Take a route we already know to one end, add the cost of the edge, and see whether this improves the best route known to the other end. Relaxing does not mean approximating or lowering a standard. It means testing a concrete candidate route. Every finite tentative number should therefore correspond to an actual sequence of allowed edges. We are never inventing a hopeful cost that no route attains. That property is useful both for understanding correctness and for finding programming mistakes."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Why can we finalise the smallest tentative cost? Imagine we are about to settle the market at three minutes. Any supposedly better route must eventually enter the part of the network not yet settled. Consider the first place where it does so. The preceding settled place would already have offered a candidate cost through that crossing edge. Because subsequent edges cannot have negative cost, continuing along the route cannot make that earlier crossing more expensive than the entire route. A genuinely cheaper alternative would therefore have produced a smaller unsettled candidate already."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "That argument is the heart of the method. It does not require every edge to be strictly positive. Zero is allowed because adding zero still cannot make a route cheaper than it was before the edge. The argument does require that adding a later edge cannot reduce the accumulated cost. We will deliberately break that condition shortly. For ordinary fixed travel durations, nonnegative weights are natural. For profits, rebates or other quantities represented as costs, they may not be. The algorithm's name alone does not make it suitable for every numbered network."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Consider a tempting wrong method: at each junction, take the cheapest outgoing street. In a different fictional network, the station has a one-minute road to a dead-end yard and a three-minute road towards the library. A rule that looks only at the next edge chooses the yard. Even if it eventually turns around, it has wasted time. Dijkstra's algorithm does not instruct a traveller to walk greedily from junction to junction. It explores information about competing partial routes while retaining the alternatives. The smallest total candidate is a bookkeeping choice, not a physical move."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Another wrong stopping rule is to stop as soon as the destination receives any finite number. In Mereford, the library first received eleven minutes when the market was processed. The bridge later improved that to eight. If we had stopped on discovery, we would have missed the better route. For this version of Dijkstra, stop when the destination is selected as the minimum unsettled node and settled. That distinction is easy to overlook because, in breadth-first search, first discovery already gives the minimum number of steps. The two methods organise their evidence differently."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "We also need to keep route reconstruction consistent with the numbers. When the bridge improves from nine to five, retaining park as its parent would be wrong. The number five describes the route through market, not the direct park-to-bridge route. Updating the cost without updating the parent could produce a displayed route whose travel time does not match the promised total. A good check is to add the weights along the returned sequence and compare that sum with the reported cost. Both should describe the same answer."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Ties require care but not panic. Suppose two unsettled places both have cost five. With nonnegative weights, either may be processed first without making the final minimum costs wrong. Their parent choices can differ when equally cheap routes exist. To avoid unnecessary changes, a simple implementation updates a parent only when the new cost is strictly smaller, rather than equal. This also helps avoid creating parent loops around zero-cost connections through careless tie updates. Deterministic tie rules are useful when people need repeated runs to display the same route."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Second recall question. In our weighted Mereford example, why did the library's first known cost of eleven minutes remain provisional, and when did eight minutes become final?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Eleven described a real route through the market, but the bridge was still unsettled at a lower cost. Processing the bridge offered a better complete route of five plus three, or eight. Eight became final when the library was selected as the smallest unsettled candidate under the nonnegative-cost assumption. Discovery proved that a route existed. Settlement established that no cheaper route remained possible within the model. The returned parents then described the station-to-park-to-market-to-bridge-to-library route with that same total."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "A computer needs a way to choose the smallest candidate repeatedly. For a small network, scanning a table is perfectly understandable. Read every unsettled row, find the smallest number and process that place. If there are many nodes, repeated full scans can become expensive. A priority queue stores candidates so that the currently smallest priority can be removed efficiently. Here the priority is the tentative total cost. A normal first-in, first-out queue is sufficient for breadth-first layers; unequal weights require a different ordering discipline."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "One common priority-queue structure is a binary heap. We do not need to build one to understand the routing rule. Its purpose is to avoid sorting or scanning the whole collection after every small change. When a route improves, an implementation may lower an existing entry's priority. Another approach inserts a new entry and later ignores obsolete entries whose costs no longer match the best known table. Either approach needs careful bookkeeping. Taking an outdated larger entry as a new final answer would violate the intended search procedure."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "There are two measures of network size. The number of nodes counts places; the number of edges counts direct connections. A town with a thousand places and only a few roads from each place is very different from a network in which nearly every place connects to every other. Breadth-first search with neighbour lists examines each reachable node and its outgoing connections a bounded number of times. Its work grows with nodes plus edges. This is why counting only places can conceal the actual amount of information an algorithm must inspect."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "For Dijkstra, the running time also depends on how the priority queue is implemented. Repeated scanning gives a simple approach whose work can grow roughly with the square of the node count, plus edge inspection. With appropriate binary-heap bookkeeping, a common bound involves nodes plus edges multiplied by a logarithmic factor in the number of nodes. These are descriptions of how work scales, not promises about seconds on a particular computer. File access, memory layout and the shape of the actual network still influence observed performance."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Representation can matter as much as the named algorithm. An adjacency list gives each place a list of its outgoing neighbours and costs. It is compact when most possible connections do not exist. An adjacency matrix instead reserves a cell for each ordered pair of nodes. That makes checking a particular direct connection straightforward, but a large sparse network may waste many cells on missing edges. Neither representation is universally best. The operations we need and the density of the network help decide which one is appropriate."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Suppose we have one hundred places. A full square matrix has ten thousand cells before considering what each cell stores. If each place has only three outgoing connections, there are three hundred actual directed edges to describe. A neighbour-list representation can concentrate on those edges and the hundred place records. This example does not claim that one cell and one list entry occupy equal bytes. It shows the structural difference between reserving space for every possible pair and recording only the connections that actually exist."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Now let us deliberately introduce a negative cost. This is an abstract accounting network, not a journey with negative travel time. From start to amber the cost is two. From start to blue it is five. From blue to amber there is a cost of minus four. All three connections are directed as stated. A standard settle-once Dijkstra search selects amber at two before blue at five. Yet the route through blue costs five minus four, which is one. Amber was settled too early because the later edge could reduce the total."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "The counterexample tells us exactly which part of the earlier reasoning broke. We had argued that reaching an unsettled intermediate point could not cost more than the whole route continuing through it. A negative later edge makes that possible. The route reaches blue at five and then ends at amber at one. We should not patch the explanation by saying the graph is unusual and hoping the method usually works. The guarantee no longer applies. Some particular negative-edge graphs may happen to produce correct answers, but that does not restore a general guarantee."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Could we add the same positive number to every edge to remove the negative weights? Usually that changes the problem. Suppose one route uses two edges and another uses four. Adding five to every edge raises the first route's cost by ten and the second's by twenty. Their ordering can change because the routes contain different numbers of edges. A transformation intended to make an algorithm applicable must preserve the comparisons we care about. Merely making every displayed number positive is not enough to show that the cheapest original route remains cheapest."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "There are algorithms designed to handle negative edges. Bellman-Ford repeatedly relaxes edges, allowing improvements to propagate across routes with more edges. On a finite graph without a relevant negative cycle, a shortest simple route needs no more than the number of nodes minus one edges. That gives a reason for a bounded number of rounds. We are not implementing the method in this lesson, but its role matters: choosing a different algorithm is a normal response to different assumptions. It is not a failure to insist that the assumptions match the problem."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "A negative cycle presents a deeper issue. Suppose we can reach a loop whose edge costs add up to minus two, and from that loop we can continue to the destination. Traversing it once reduces the total by two, twice by four, and so on. If repeated traversal is permitted, there is no cheapest finite route. Every candidate can be improved by another loop. The problem is not that a sufficiently clever search has yet to find the answer. Under these rules, a minimum does not exist. We must report that fact or change the model."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "The qualification about reaching the destination matters. A negative loop in an entirely disconnected part of the graph does not affect our journey from the station to the library. Even a loop reachable from the station need not affect the library if there is no way to leave that region towards the library. For a particular destination, the loop must lie on some usable walk from start to destination to permit endlessly improving that destination's cost. This is an example of why a global warning may need to be translated into a precise claim about the requested route."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Restrictions can also eliminate the repeated-loop interpretation. Perhaps a rebate can be claimed only once, or a ticket can be used only once. In that case, representing the rebate as an endlessly repeatable negative edge is a bad model. The state must record whether the benefit has already been used. Two visits to the same location may then correspond to different states. This is more than an implementation detail. If the model forgets a rule that changes future possibilities, the algorithm may exploit a freedom that the real system never offered."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "We can see the same principle without negative numbers. Imagine a puzzle with a locked door and a key. Being in the hallway without the key differs from being in the hallway with it. If we use only physical rooms as nodes, marking hallway as already visited may prevent us from exploring the newly available exit after collecting the key. A better node is the pair consisting of room and key status. The hallway-with-key state and hallway-without-key state have different outgoing moves, even though their physical location is identical."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "This enlargement of state can make a problem much bigger. With one key, each room may have two versions. With several independent items, there can be many combinations of what has been collected. The growth is not caused by inefficient coding alone. It comes from distinctions needed to describe the rules correctly. Before blaming an algorithm for taking too long, examine how many genuinely different situations it must distinguish. A compact drawing of rooms can hide a much larger graph of possible states."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Third recall question. Why can a shortest-path program give an impossible answer for a locked-door puzzle even if its search procedure is correct?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Its nodes may omit information that changes which moves are allowed. A room reached without a key is not the same state as that room reached with the key. If the program records only the room, it can either allow a locked move too early or refuse to revisit the room when the key creates a new possibility. The search can be correct for its stored graph while the stored graph is wrong for the puzzle. We repair the state description, then choose a method appropriate to its edge costs."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Turn restrictions on roads create a related problem. Suppose a junction permits travel east or west, but a particular turn is forbidden when arriving from the north. A node that says only junction cannot express that difference unless the transition rules also retain the incoming direction. One possible model uses states that include the road by which we arrived. Outgoing moves can then exclude the prohibited turn. The route remains a sequence of valid state transitions, but the states contain more information than dots on a simple street map."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Time introduces another distinction. In our original calculation, each road always took its stated number of minutes. Suppose instead that a bridge opens only at particular times. Arriving just before an opening and just after it can produce very different waits. A single constant bridge weight cannot describe both experiences accurately. We might build a timetable network with arrival and departure events, or use an algorithm designed for time-dependent costs. What we should not do is quietly claim that the simple fixed-weight calculation has solved the more complicated problem."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Here is an original timetable comparison. A rider reaches a ferry terminal at ten past two. The crossing takes six minutes, but the next departure is twenty past two. The arrival on the other side is twenty-six past two, so that stage costs sixteen minutes including the wait. Another rider arrives at nineteen past two and still arrives across the water at twenty-six past two. Their stage costs seven minutes. The crossing itself is unchanged. The cost experienced from the terminal depends on when the rider reaches it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "A route with the smallest sum of driving times can therefore miss the earliest arrival. Suppose road route one takes eight minutes to reach a terminal but misses a departure, while road route two reaches a different connection in ten minutes and catches an immediate service. Comparing only eight and ten ignores the next transition. The right state and cost definition must include the timetable. This does not make shortest-path reasoning useless. It tells us that the graph must represent the actual opportunities and waits, rather than a convenient fragment of them."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Changing traffic presents an additional distinction between computing and predicting. If we use estimated travel times, Dijkstra can find a minimum according to those estimates. It cannot make the estimates true. A collision or a queue forming after the calculation can change the best route. A system may recalculate as new information arrives, but that is a new calculation on changed data. When a predicted nine-minute route takes fifteen, we should investigate the input estimates and timing as well as the search algorithm. Correct optimisation and accurate prediction are separate achievements."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "We can explore sensitivity with the original Mereford graph. The best route used the park-to-market connection, which cost one minute. Call its new cost an unknown amount. Going from station through park, market and bridge to library then costs two plus that amount plus two plus three, or seven plus that amount. The route from station directly to market, then bridge and library, costs six plus two plus three, or eleven. The first remains better when the changed connection costs less than four minutes. At four, the two routes tie."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "If that connection rises to five minutes, the formerly best route costs twelve, while the direct-market route stays at eleven. That comparison identifies a threshold at which the recommendation changes. We have not rerun every possible network calculation to learn something useful. We examined the affected route and a competitor. In a larger graph, changes can affect many alternatives, so a full update may be needed. But the small example illustrates why a tiny increase sometimes changes the route and sometimes merely changes the arrival estimate along the same route."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Remove the park-to-market connection entirely. The station-to-market-to-bridge-to-library route still costs eleven. Station-to-park-to-bridge-to-library costs twelve. A closure need not make the destination unreachable; it may only make the best available route more expensive. Conversely, closing the only usable connection into a destination can disconnect it completely. It is useful to distinguish these consequences. A resilience question asks what remains possible after failures, while an ordinary shortest-path query asks what is best with the present connections intact."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Now close the bridge-to-library road instead. The library can still be reached through the market's eight-minute direct road. With the original park-to-market connection restored, station to park to market to library costs two plus one plus eight, which is eleven. The route has fewer connections than the original eight-minute route but takes longer. This gives a second reason not to treat the number of turns in the displayed directions as a reliable indicator of quality. The feasible network has changed, and the cheapest remaining journey uses a different pattern."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "A backup route is not automatically independent of the primary route. Two route descriptions can share a bridge, tunnel or vulnerable junction. If that shared element fails, both disappear together. To plan resilience we may need routes that avoid shared edges or shared nodes, depending on the failure we care about. That is a different optimisation problem from asking for the second smallest numerical cost. A route only a little slower than the best may be an excellent daily alternative and a poor backup against the particular disruption we expect."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "There is another question concealed inside the word best. Suppose one route takes ten minutes and costs four pounds in tolls, while another takes fourteen minutes and has no toll. Neither route wins on both measures. We cannot ask an algorithm to discover our preference without giving it a rule. We could minimise time subject to paying no toll, minimise money subject to arriving within fifteen minutes, or combine the two quantities using a stated exchange rate. Each instruction describes a different problem and can legitimately produce a different answer."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "For a combined score, imagine that we choose to value each pound of toll as two additional minutes. The first route scores ten plus twice four, or eighteen minute equivalents. The second scores fourteen, so the second wins. If instead each pound counts as half a minute, the first scores twelve and wins against fourteen. These are invented preferences for this example, not a recommendation about the value of anyone's time. The arithmetic is objective once the rule is fixed. Choosing the rule remains a decision that arithmetic alone cannot settle."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "This calculation works especially neatly when the components add along the route. Add the travel minutes on each edge, add its toll multiplied by the chosen conversion, and use the resulting nonnegative edge weights. But some charges apply once per day, or once on entering a zone, rather than on every road. Putting that whole charge on each edge would overcount it. We return to the state problem: the search may need to remember whether the charge has already been paid. A sensible scoring rule still needs a faithful model of how costs actually arise."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "A hard limit also differs from a dislike. A vehicle that cannot fit beneath a low bridge must not use that edge at any price. Assigning the bridge a very large finite cost is a fragile way to express this. If every alternative costs even more, the algorithm could still choose it. For this simple restriction, remove the forbidden edge from that vehicle's graph. More complicated limits, such as a total fuel budget, may require additional state or a specialised method. An inaccessible route with an impressive numerical score is still inaccessible."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Here is the fourth recall question. A route is fastest but passes under a bridge too low for the vehicle. Why is simply adding a large time penalty to that road a weaker model than excluding it? Think about what happens if all the other routes have still larger scores.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "A finite penalty says the road is undesirable but allowed. Under some inputs it can still become the cheapest option. Excluding the road says it is not feasible for this vehicle. That matches the physical restriction. The distinction is between comparing acceptable options and defining which options are acceptable in the first place. Before optimising a score, the model must represent the constraints that a real journey cannot violate."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "We can also ask how to check an answer without trusting the entire history of the search. Start with a modest check: does the proposed route begin at the source, end at the destination, and use real edges in their permitted directions? Then add their weights yourself. This catches a broken parent chain or a wrong reported total. It does not yet establish optimality. A perfectly valid twelve-minute route can coexist with an eight-minute route. Validity and bestness are separate properties, and they need different evidence."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "For our small network, a stronger check uses the final distance labels. They are zero at the station, two at the park, three at the market, five at the bridge and eight at the library. For every directed move from one place to another, the label at the destination should be no greater than the label at the starting place plus the edge cost. Otherwise that edge would reveal an improvement. Because our roads are two-way, check both directions. This is exactly the condition that no edge can still relax a label."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Take the park-to-market edge as an example. The market's label, three, equals the park's two plus the road's one. Take the direct station-to-market edge. Three is less than or equal to zero plus six. There is no requirement that every edge give equality. Expensive alternatives can leave slack. Along the chosen route, however, the labels increase by exactly the road costs: zero to two, two to three, three to five and five to eight. That chain supplies an actual route costing eight, rather than merely a promising label."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Why does this certify optimality? Follow any possible route outward from the station. The edge condition says each next label cannot exceed the previous label plus the next cost. Applying that statement repeatedly shows that the library's label cannot exceed the total cost of the route you followed. This holds for every candidate route. Therefore no route can cost less than eight. The parent chain supplies a route costing exactly eight. A lower bound on every competitor and a route attaining that bound meet at the same number."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "The starting label matters in that argument. If every label were shifted upward by a hundred, the edge differences could look identical, but the claimed distance would be wrong. Fixing the source at zero anchors the calculation. We also need the chain to be genuine and to reach the source rather than loop. For unreachable nodes, an infinity label needs a reachability argument; it is not a substitute for checking the graph. Certificates work because several precise conditions cooperate, not because one table looks tidy."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Here is a practical exercise you can do on paper, with no travel or software changes involved. Draw five circles labelled station, park, market, bridge and library. Join station to park with two, station to market with six, park to market with one, park to bridge with seven, market to bridge with two, market to library with eight, and bridge to library with three. All these connections work in both directions. Keep the drawing loose enough to read. The position of a circle on the paper does not set its cost."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Beside the picture, make three columns headed place, best known cost and parent. Give the station zero and leave the other costs marked unknown. Then perform the search by hand, always choosing the unsettled place with the lowest known total. Write a parent only when you improve a cost. If you are listening while doing something else, the application can wait until you have paper available. The useful action is small: construct one complete trace and inspect why a particular update happened, rather than trying to memorise the whole discussion."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Your completed parent entries should make park point back to station, market to park, bridge to market and library to bridge. Trace those pointers backwards from the library, then reverse the order to describe the outward journey. Add two, one, two and three to obtain eight. Now check an unused edge, such as park to bridge. Its seven would give a total of nine from the station, which is worse than the bridge's five. This is why that edge exists in the map but does not belong in the best route."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "For a second pass, change only the park-to-market cost from one to five. Keep every other connection unchanged. Before recalculating, predict whether the old route must remain best merely because most of its roads are unchanged. The answer is no. The old route now costs twelve. The direct station-to-market road gives six, followed by two to the bridge and three to the library, totalling eleven. A single changed edge can alter several parent entries downstream. The exercise makes that dependency visible without requiring a large network."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "If your table gives twelve after the change, inspect the market first. Reaching it through the park now costs seven, while reaching it directly costs six. The error may be carrying forward an old parent instead of recomputing its justification. If your table gives nine, inspect whether you accidentally omitted the final bridge-to-library road or reused an old number. Debugging becomes easier when each label carries a reason: this predecessor, this edge and this addition. The final total alone gives far less help when something goes wrong."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "There is a useful extension if several depots can serve a destination. Suppose we want the cheapest journey from whichever depot is nearest, measured by the same nonnegative cost. Introduce an imaginary source connected to each depot by a directed edge of zero cost. Run the usual search from that imaginary source. Every route it finds first chooses a depot for free and then pays the real journey costs. The distance to a destination is therefore the cheapest cost from any depot. The zero edges represent a choice of starting point, not a claim that physical travel between depots is free."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "That model would be wrong if we were already standing at one particular depot and had to pay to reach the others. Then our actual starting place belongs in the graph with the real transfer costs. It would also be incomplete if depots had capacity limits and several deliveries competed for them. Finding the nearest depot separately for each delivery can assign too much work to the same depot. A shortest-path calculation can be a useful component of a larger planning system without solving all of that system's allocation decisions."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "The same boundary appears when a courier must visit every customer. Finding the cheapest route from the depot to one customer does not determine the cheapest tour through all customers. The order of visits matters, and independently best outward journeys may repeat a great deal of travel. Our algorithms answer the journey question we gave them. We should be cautious when someone presents a collection of shortest routes as proof of an optimal daily schedule. They may have solved each small question correctly while leaving the interaction between those questions unresolved."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "The fifth recall question brings the algorithm and the model together. You have a fixed network of nonnegative travel times, and you want the least total time from one source. Which method have we developed for that task, and what two checks would help distinguish a valid returned route from an optimal one?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "Dijkstra's algorithm fits those stated assumptions. First, verify that the returned route follows permitted edges and that their costs sum to its reported total. That establishes a valid journey of that cost. For a stronger optimality check on a small complete result, anchor the source label at zero, check the edge inequalities across the graph and confirm that a genuine parent path attains the destination label. The inequalities rule out a cheaper competitor, while the path shows that the bound can actually be reached."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "When looking at a route recommendation, you can now ask specific questions. Are the weights distances, predicted minutes or a combined preference score? Are the edges usable in the required direction? Does arriving at a place leave out information, such as a key, a paid charge or an incoming road, that changes the next choices? Those questions locate the assumptions underneath the result. A mathematically correct search can only compare the possibilities its graph contains. Improving the model may matter more than making the search run a little faster."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Give the reasoning and numerical comparisons room to be understood.",
+      "t": "On your paper map, the completed result is concrete: a route, a total and a reason each step belongs there. Changing one road gives you a new result that you can check rather than guess. Keep that small map if you want to test another closure or cost tomorrow. The habit worth practising is to state the allowed moves and the quantity being minimised, then require the answer to survive a simple independent check. That is how a route becomes an explained decision instead of a line whose confidence you have to take on trust."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-10-09",
+    "spoken_words": 7193,
+    "sha256": "b392c355abc5445708578b6345e2cde5604b5b35f5672b09afa40dd2794680fe",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/196a95604877d326c6586e60477b59d4_MIT6_006S20_lec9.pdf",
+      "https://www.ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/d819e7f4568aced8d5b59e03db6c7b67_MIT6_006S20_lec13.pdf",
+      "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/2430d7903a5529451d80c17f89a41fe8_MIT6_006S20_lec12.pdf"
+    ]
+  }
+}
