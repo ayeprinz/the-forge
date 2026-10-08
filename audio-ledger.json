@@ -214,6 +214,13 @@
           }
         }
       ]
+    },
+    "2026-10-08": {
+      "reserved_usd": 2,
+      "month": "2026-10",
+      "status": "reserved",
+      "run_id": "37762843506",
+      "attempt": "1"
     }
   }
 }
