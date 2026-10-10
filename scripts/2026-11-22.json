@@ -1,0 +1,448 @@
+{
+  "date": "2026-11-22",
+  "title": "[Applied Practice] Save the Print Run: Approvals, Queues and Clear Feedback",
+  "summary": "An original fictional print-studio case applies queue reasoning and specific feedback to a missed collection promise. Work through approval handoffs, two-stage schedules, small tests, measurement pitfalls and a paper exercise. No prior listening assumed.",
+  "instructions": "Both ash and sage teach substantive reasoning. All businesses, characters, numbers and conversations in the case are fictional. Preserve five seven-second recall pauses and subsequent answers.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "At nine o'clock, a customer arrives at a small print studio to collect fifty invitations. The invitations are still on a screen. The owner turns to the designer and says, you need to be more organised. The designer points to an email asking the customer to approve the final address. The customer points to a message promising collection today. Three people can each identify something real, yet none of those facts explains the whole failure. We are going to reconstruct this job and decide what should change before the next one."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Our studio is fictional. It is called Alder Print, and all its times, prices and records are invented for this exercise. Mara owns the business and handles customer enquiries. Leon prepares artwork. Priya runs the printer and finishes the orders. They are competent at different parts of the work, but competence alone cannot make a missing decision arrive or turn one machine into two. The case will combine scheduling, clear feedback and a small improvement test. You do not need to have heard any earlier lesson to follow it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Start with the promised outcome. The customer wanted fifty invitations, printed with the correct venue address and ready for collection at nine. A finished design is an intermediate output. A printed stack with the wrong address is also not the requested outcome. If the studio measures success only by how many designs Leon finishes, it can celebrate progress while customers still leave empty-handed. We need a description of completion that reaches all the way to the customer's usable result, including the checks necessary to make that result correct."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Here is the timeline they recover. On Monday at eleven, Mara accepted the order and offered Thursday morning collection. On Tuesday at two, Leon sent a proof, meaning a version for the customer to check. On Wednesday at ten, the customer requested an address change. Leon made the change at eleven and asked for confirmation. The customer answered yes at three, but replied to Mara's separate pricing email. Mara did not forward that answer. On Thursday morning, Leon still saw the artwork marked awaiting approval."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "This timeline changes the useful question. Asking why Leon did not print an unapproved address is different from asking why a valid approval never reached the person who needed it. It also leaves questions open. Was Mara expected to check that inbox during Wednesday afternoon? Did the customer know which proof the yes referred to? Did Thursday collection allow enough time after approval? We should not turn a newly discovered explanation into a complete verdict before checking those details. The timeline narrows the investigation without pretending that every uncertainty has disappeared."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Separate the things directly observed from the interpretations. There is an email timestamp at three. There is an approval field still blank on the job card. There is no printed order at nine. Calling someone careless is an interpretation about a person. Saying the approval was not entered before the end of Wednesday identifies a specific missing action. The latter can be checked and corrected. It may eventually support a discussion of repeated conduct, but it does not require us to guess what someone felt or intended while the work was waiting."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "The studio first needs to repair the customer's situation. That is distinct from preventing a repeat. Mara can acknowledge the missed promise, explain the available options honestly and check whether the invitations are still useful. A remedy cannot be selected from the studio's convenience alone. If the event has already passed, a faster print run does not solve the same problem as it would for an event next week. Our case assumes the invitations are still needed and the customer can accept collection later that morning after a clear revised agreement."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "We will not invent a legal rule or a compensation policy for that conversation. Those depend on the agreement and the relevant jurisdiction. The operational point is narrower: do not hide the delay while investigating its cause, and do not promise a new completion time before checking the remaining work. An apology and a schedule answer different needs. One acknowledges what happened. The other tells the customer what they can now rely on. Both lose value if the revised schedule is just another optimistic guess."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "What work actually remains? Priya needs five minutes to verify the approved file against the job card, twenty minutes to print the batch and ten minutes to trim and pack it. With no interruption and no earlier job occupying the equipment, that is thirty-five minutes. Starting at nine would finish at nine thirty-five. But there is already another print job in progress until nine twenty. If file verification can happen while that job prints, the invitation printing can start at nine twenty and packing can finish at nine fifty."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Notice the distinction between work content and elapsed time. The remaining tasks require thirty-five minutes of activity, but the customer waits fifty minutes from nine until nine fifty. Fifteen minutes of that interval is waiting after the five-minute file check. Calling this a fifty-minute printing task would obscure where time went. Calling it a thirty-five-minute delivery would ignore the queue. We need both descriptions, because one helps improve the task and the other helps make a promise that fits the actual system."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Mara asks whether Leon can help. That question becomes useful only when attached to a task. If Leon is trained to trim and pack, perhaps he can take that final ten-minute activity while Priya begins something else. It does not make the invitations leave the printer earlier. If Leon is not trained, assigning him the task may create damage or rework. More people on the floor do not automatically increase capacity at the occupied machine. We identify the constrained activity before assuming that extra hands can accelerate it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "For the immediate repair, Priya confirms that the current job will finish at nine twenty and that the invitation file is ready. Mara offers collection at ten, allowing ten minutes beyond the calculated nine fifty finish. That allowance is a choice within this fictional case, not a universal recommended buffer. They also agree to call if the print check fails. A promise is more credible when it identifies the conditions behind it and the point at which someone will communicate a change, rather than treating uncertainty as something the customer must discover on arrival."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Now we can examine how the order moved between people. Imagine a card travelling through four states: information needed, proof being prepared, awaiting approval and ready to produce. A fifth state, complete, is reached after the physical order has been checked and packed. These labels are useful only if their meanings are shared. If Mara uses ready to mean the customer has paid and Priya uses ready to mean the exact artwork is approved, one attractive board will display two incompatible accounts of the same job."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Define ready to produce using observable conditions. In this case, the card needs the quantity, paper choice, current file identifier, approval of that version and promised collection time. A payment condition may also matter to the business, but we do not need to invent one to solve this case. The person accepting the job into production should be able to check those conditions without searching through five conversations. A short record at the handoff can reduce that search. It should contain the information needed for the next decision, rather than everything ever said."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "First recall question. The invitations require thirty-five minutes of remaining work, but equipment is occupied until nine twenty. A five-minute file check can happen immediately at nine. Printing takes twenty minutes and packing takes ten. What is the earliest completion under those assumptions, and why is it later than nine thirty-five?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "The file check finishes at nine five. Printing must wait until nine twenty, then runs until nine forty. Packing finishes at nine fifty. The work itself still totals thirty-five minutes, but the schedule includes fifteen minutes of waiting after the check. Nine thirty-five would require the printing resource to be available when the check finishes. This answer assumes the stated durations, no interruption and no failed quality check. It is a calculation inside the case, not a guarantee about an actual shop."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Mara's first proposed fix is to tell everyone to communicate better. That phrase does not yet specify a changed action. Who should pass what information to whom, at what point, and how will the receiver know that it is the latest version? A request becomes operational when someone can perform it and someone else can recognise whether it happened. For the approval problem, a possible action is to enter the approved file identifier on the job card before changing the card to ready to produce. That is narrower than improving all communication."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Leon proposes forwarding every customer email to everyone. This might prevent one missed approval, but it also makes every person sort every message. If each job produces six messages and the studio handles twenty jobs, that is one hundred and twenty messages for each recipient to inspect. We have not proved that this workload is unbearable, but we have identified a cost. Broad visibility can be useful, yet it should not substitute for a clear owner of the decision. Otherwise everyone can assume someone else has extracted the instruction that matters."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Priya suggests that Mara own customer approvals and update the job card. Leon worries that Mara will be away from the desk. Their disagreement reveals a design requirement: an owner needs coverage. They agree that when Mara is unavailable, a named colleague takes over approval monitoring for a stated period. This is a proposed local arrangement, not a universal staffing rule. Its benefit in the case is that it removes uncertainty about whose action completes the handoff while retaining a way to operate during absence."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "The approval itself also needs enough specificity. A bare yes could approve the price, the wording or the delivery date. Mara's pricing thread makes that ambiguity especially plausible. A clearer request identifies the version and the decision: please confirm that version three contains the correct address and wording for these fifty invitations. The studio should not treat silence as approval unless that was explicitly part of an appropriate agreement. In our case, they require a positive confirmation because printing turns an easily edited file into a physical batch that costs time and material to replace."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "There is a subtle difference between documenting approval and making the customer responsible for everything. The studio still owns its production choices and any checks it promised to perform. If the approved file says fifty invitations and Priya prints fifteen, an approval record does not excuse that mismatch. Nor does a customer approving wording prove that a file will print correctly on a particular machine. A useful handoff records which decision was made, by whom, and about what. It should not become a vague attempt to transfer every possible responsibility."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Now Mara needs to discuss the missed transfer with herself and the team, rather than keeping the original accusation against Leon. A brief feedback structure from the Center for Creative Leadership separates the situation, observed behaviour and impact, then invites clarification about intent. We will use that as a conversation aid, not as a promise that a formula will remove defensiveness. The important source-based point is to anchor feedback in a specific event and observable conduct instead of claiming access to another person's motives."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Mara says, on Wednesday afternoon, the customer's approval arrived in my pricing thread and I did not put it on the job card. Priya could not see an approved file on Thursday, and the customer arrived before production began. I had assumed the approval would also reach Leon. That account identifies her own action and assumption. It does not claim that every minute of delay had one cause. It creates a factual starting point from which the team can inspect the other parts of the process, including the promise itself."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Leon can respond with information that complicates the story. He says he saw a preview notification on Mara's screen but did not know which version it concerned. He also knew the customer was collecting Thursday, yet he did not flag the approval as a risk before leaving. That does not make the missing handoff irrelevant. It adds a second opportunity to detect the problem. A process can have one primary failure and several missed chances to catch it. Understanding those chances is more useful than dividing the whole event into equal portions of blame."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Priya adds that the production list showed only a collection date, not a time. Thursday morning could mean nine or noon. Her queue plan therefore lacked a deadline precise enough to test. We now have three distinct weaknesses: approval routing, escalation before the deadline and an incomplete collection promise. One broad instruction to be careful would leave all three mechanisms unspecified. The team can choose which change to test first while recording the others, rather than assuming the first plausible explanation accounts for every aspect of the result."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "A fair conversation also gives people a way to correct the record. Suppose Mara says Leon never followed up, and Leon produces a Wednesday message asking for an answer. The claim needs revision. Keeping the accusation because the overall job was late would make the review less accurate. Accountability works better here when it follows the evidence closely: a follow-up happened, but it reached an unattended channel or lacked a clear escalation path. That revised account points to a different remedy from teaching Leon to send a message he already sent."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "We should also avoid turning a single case into a personality diagnosis. One missed handoff cannot establish that someone is generally unreliable. Repeated comparable events can justify a wider discussion, but even then we need the actual pattern and expectations. Conversely, the possibility of a system problem does not mean actions never matter. If an agreed, workable step is repeatedly skipped, that is relevant. The case asks us to distinguish a missing rule, an impractical rule and a rule that was understood but not followed, because each calls for different work."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Let us now test whether the original promise was feasible even with a perfect handoff. Suppose Wednesday's production schedule had no room for the invitations after three, and Thursday's first machine slot began at nine twenty. Recording approval immediately would still not have produced a nine o'clock collection. It would have revealed the conflict earlier. A handoff improvement can prevent surprise without creating enough production capacity to keep every existing promise. We should value that earlier warning while refusing to call it a complete solution to an impossible schedule."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "To make this concrete, build a second schedule with three jobs ready at nine. Job A needs twenty minutes on the printer, job B needs ten and job C needs thirty. Only one can print at a time. If we print A, then B, then C, they leave the printer at nine twenty, nine thirty and ten. Their times from nine until printing finishes are twenty, thirty and sixty minutes. The sum is one hundred and ten minutes, and the average is thirty-six and two-thirds minutes. We have not yet included packing."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "If the jobs have equal standing and our only aim is to reduce their average printing completion time, try B, then A, then C. They finish at nine ten, nine thirty and ten. The three elapsed times are ten, thirty and sixty minutes, totalling one hundred. The average becomes thirty-three and one-third minutes. The machine still works for sixty minutes and the final job still finishes at ten. Reordering improves one measure without increasing capacity. That distinction helps explain why a customer experience can change even when total output does not."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "But an average is not the only legitimate objective. Suppose A is due at nine twenty, B at nine forty and C at ten. In the original order, all three meet their printing deadlines. In the shorter-job-first order, A finishes at nine thirty and misses its deadline by ten minutes. If those are meaningful commitments, choosing the lower average blindly would worsen the service that was promised. We must state which outcome matters before celebrating an optimisation. Faster on average is not the same as meeting every agreed deadline."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Now add ten minutes of packing after each job, performed by a separate trained person who can pack while the machine prints the next job. In the A, B, C order, A prints until nine twenty and packs until nine thirty. B prints from nine twenty to nine thirty and packs until nine forty. C prints until ten and packs until ten ten. The customer's completion times are therefore nine thirty, nine forty and ten ten. Calling the earlier printer finish times collection times would leave every customer waiting at the final stage."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Packing can itself become a queue. Change A's packing time to twenty-five minutes while leaving B and C at ten. A now occupies the packer from nine twenty to nine forty-five. B leaves the printer at nine thirty but must wait fifteen minutes, then packs until nine fifty-five. C leaves the printer at ten and packs until ten ten. The printer schedule is unchanged, yet B's customer completion moves fifteen minutes later. Following the job through both stages exposes a delay that a printer-only report would never show."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "These schedules use fixed invented durations to make the dependencies visible. Real jobs vary, machines stop and people take breaks. MIT's queueing definitions distinguish time waiting for service from service time and total time in the system. We use that vocabulary, but we are not fitting a statistical queue model to this shop or forecasting its actual waiting time. The small schedules are exact consequences of their stated assumptions. Their value is to show which assumption changes the answer and which part of the process needs attention."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Second recall question. Reordering three print jobs reduced their average printing completion time while leaving the machine's final finish at ten. Why does that not automatically mean the new order is better for customers?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Customers may have different promised deadlines, and they need the finished packed order rather than merely the end of printing. A sequence with a lower average can make a particular promised job late. It can also hide waiting at packing. We need the relevant commitments, all required stages and a stated objective before comparing the alternatives. The arithmetic proves the average changed under our assumptions. It does not select the business's priorities or establish that the complete service improved."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Return to Alder Print's approval rule. The team wants to know whether it is helping. Counting how many cards contain an approval field would measure compliance with a step, not the customer result. Counting how many customers collect complete, correct orders at the promised time measures a result, but it can change for several reasons. A quieter week might improve it even if the new rule does nothing. We therefore want a small set of complementary observations, each answering a different question, rather than one number asked to prove everything."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "For the next ten eligible invitation orders, they propose recording whether the current file version and approval were present when production accepted the card. That tells them whether the new handoff occurred. They also record whether each order was complete and correct at the originally agreed collection time. That tells them about delivery. Finally, they note the additional time spent completing the handoff and any approval that was wrongly attached to an old version. Those observations look for a cost or a new error introduced by the change."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "The phrase eligible invitation orders matters. If the test silently excludes difficult customers or urgent jobs, its result may describe only the easiest part of the business. The team can legitimately start with a narrow category, but it should name that category before inspecting the outcome. For this first test, they choose ordinary invitation orders with one customer contact and no same-day rush promise. Later they can test more demanding conditions. A small first test becomes misleading when its limited scope disappears from the account of what succeeded."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "They write down a prediction before starting: with one named approval owner and an approved version recorded on the card, no test order should enter production with approval status unclear. This is a prediction about the immediate mechanism. They hope for fewer missed collections, but do not pretend that ten cases can settle every cause of lateness. Recording the prediction makes an unexpected result informative. If confusion persists despite completed fields, perhaps the field is ambiguous or the receiver cannot find it at the moment of use."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "The Institute for Healthcare Improvement describes small tests through planning, trying a change, studying what happened and adapting the next action. Its Model for Improvement also asks teams to define the aim and how improvement will be recognised. We are borrowing that limited practical structure. The printing example is our own, and we are not claiming healthcare results transfer automatically to a print studio. The useful discipline here is to make a prediction, observe a bounded trial and decide what the evidence supports before expanding it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "What would a first trial actually involve? Mara and Priya choose one ordinary order on Tuesday. Mara records the file identifier and approval on the card, then tells Priya it is ready. Priya checks that she can locate the same file without opening the customer email history. They time the additional handoff work and note any confusion. Nothing in this trial requires changing prices, making a risky promise or printing an unapproved file. If the card is unclear, they can correct its wording before relying on it for a larger set of jobs."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Suppose the first trial reveals that version three exists in two folders, one containing a later correction. A filled version field has not uniquely identified the file. That is a useful failure of the test, not evidence that documentation is pointless. The team needs an identifier or location that selects one actual file. They might include the file's full name and an agreed folder location. The exact tool is less important than the property: two people using the record should retrieve the same approved content without guessing between similarly named alternatives."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Now suppose the second trial takes Mara four extra minutes because she copies information already present in three places. Priya only needs two of the copied items. The team can shorten the card rather than accept every administrative burden as the price of reliability. A form should earn its fields. Removing a field requires checking that its information is available where it is needed, but keeping an unused field also has a cost. A process that is cumbersome in an easy trial may become harder to follow during a busy afternoon."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "We can compare two versions of the handoff economically without pretending to price every human consequence. Imagine the longer form takes four minutes per order and the shorter one takes one minute. Across twenty orders, that is eighty minutes versus twenty, a difference of sixty minutes. If both provide the information production actually requires, the shorter version frees an hour. If the shorter one omits an essential approval, the apparent saving may disappear in one reprint. Time saved at entry should be compared with time and errors across the whole job."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Let us add an original rework calculation. An incorrect batch uses six pounds of paper and ink and takes twenty minutes to print plus ten to finish. Two such errors use twelve pounds of material and sixty minutes of production activity. These are direct invented quantities, not the complete cost of failure. They omit customer inconvenience, staff time investigating, delivery and possible lost work. They still show why spending a small amount of time on an effective check can be rational. The check must actually prevent the relevant error, rather than merely look reassuring."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "A common trap is to calculate the cost of checking as certain and the cost of errors as imaginary, simply because errors do not occur on every order. The reverse trap is to justify unlimited checking with a frightening worst case. Our case needs a proportionate comparison. What error is the check designed to catch? How often is it observed in comparable work? How much work does the check add? What happens when it fails? Those questions can be investigated over time without inventing precise probabilities from one bad Thursday."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "The team must also decide when to stop a job. If approval is missing, moving the card to ready to keep the board looking clear conceals the condition Priya needs to know. A separate waiting state makes the blockage visible. But visible waiting should lead to an action, such as a named follow-up time, not an indefinite pile of abandoned cards. The state describes the present condition. The owner and next action describe how it may change. Combining these keeps a board from becoming a colourful record of problems that nobody has accepted."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Consider an order due Friday at noon with no approval by Thursday afternoon. The team can define an internal checkpoint while there is still time to contact the customer and discuss options. They must not pretend that a checkpoint guarantees a reply. Its purpose is to discover the risk early enough to act honestly. If the customer replies late, the shop reassesses the delivery promise against the remaining schedule. The process should not encourage staff to treat every late approval as permission to displace other customers without examining the consequences."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Here is a contrasting situation. An urgent replacement sign arrives after an established customer's mistake, and the studio wants to help. Adding it to the queue may be a reasonable choice. But it changes the plan for other jobs. Mara should check whose completion moves and whether those commitments can still be met. An exception can be authorised explicitly, with the tradeoff understood. Calling a job urgent does not create machine time. It creates a priority decision, and priority decisions need someone who can see the costs imposed elsewhere."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Third recall question. Alder Print tests a new approval card on ten ordinary invitation orders and all ten are delivered on time. What can the team reasonably learn, and what would be too strong a conclusion?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "They can learn whether the card was usable in those cases, whether the required information reached production and what difficulties or extra work they observed. Ten on-time outcomes are encouraging. They do not prove that the card caused every success or that it will work for rush orders, multiple customer contacts and every busy period. The team should compare the mechanism with its prediction, inspect any hidden exclusions and test relevant new conditions. A small trial supports a next decision; it does not establish a universal law."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "The most revealing result may be mixed. Suppose nine cards contain the correct approval and one points to an outdated file. Eight orders are on time, one is delayed by a machine fault and one by the wrong file. A simple headline saying eighty percent on time hides the distinction. The machine fault and file error require different responses. The team should keep the overall outcome visible while also retaining the short causal account of each miss. Otherwise a single percentage can flatten several problems into one vague demand to improve."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "It also matters how the denominator is defined. If twelve orders were promised and two were cancelled after the studio warned that they would be late, reporting eight on-time orders out of ten completed orders gives eighty percent. Reporting eight on-time completions out of twelve originally promised orders gives two-thirds. Neither fraction should appear without its definition. Cancellations may be legitimate and unavoidable, but removing them silently can make service look better while customers receive less. A measure should help people understand the result, not reward a convenient way of counting."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "A target can change behaviour in ways the team did not intend. If Mara is praised only for the proportion of orders delivered on time, she might offer unnecessarily distant dates. The percentage rises, but customers wait longer than necessary. If Leon is praised only for the number of proofs sent, he might send incomplete proofs that generate extra exchanges. If Priya is praised only for keeping the printer busy, she might print work before approval. Each local measure can become detached from the service the team is meant to provide."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "That does not mean measurement is futile. It means the team should ask what a person could do to make a number improve while making the real outcome worse. For collection reliability, they can also look at the promised lead time and whether customers accepted it. For proof output, they can track returns caused by missing information. For printer utilisation, they can inspect reprints and completed correct orders. We do not need a giant dashboard. We need enough context to notice the most obvious ways one favourable number could mislead us."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "There is a related fairness issue in comparing people. Suppose Leon handles the orders with complicated wording and another designer handles simple repeat jobs. Counting proofs finished per day without accounting for that difference may mostly measure job mix. The comparison might still reveal a question worth investigating, but it cannot by itself establish effort or skill. In our review, the team keeps examples attached to the numbers. A workload description such as three new layouts and two revised proofs is more informative than a bare total of five when the tasks differ substantially."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "What if the handoff fails again after the new rule is agreed? Begin with the event. Did the approved file exist? Was the owner available? Was the card accessible? Did production check the field? Suppose all the conditions were workable, but Mara knowingly skipped the entry because she expected Priya to remember a conversation. Then the review can address that choice directly. The existence of a process does not remove personal responsibility. It gives the conversation a more precise reference: an agreed action, a departure from it and the consequence that followed."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Suppose instead the system was unavailable for an hour and there was no alternative way to record approval. Calling that a failure to follow the rule would ignore whether the rule could be followed. The team needs a fallback that preserves the essential information, perhaps a dated paper note linked to the file and entered later. A fallback should be simple enough to use under the condition it is designed for. A procedure that says open the unavailable system to record that the system is unavailable has not solved the problem."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Or imagine Mara has twenty minutes to process ten approvals, and each entry takes four minutes. The assigned work requires forty minutes. Telling her to complete it all in twenty does not create the missing twenty minutes. Something must change: simplify the task, provide qualified help, move the deadline or reduce the accepted workload. This calculation does not excuse hidden errors. It makes the conflict explicit so that the person with authority can choose a feasible plan instead of leaving the worker to improvise which promise to break."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Authority matters because the person seeing a problem may not control the remedy. Priya can identify an impossible production schedule but may not be authorised to change collection dates. Her agreed action could be to flag the conflict to Mara before accepting another rush order. Mara's action is then to make the priority or customer decision. If the process assigns Priya responsibility for on-time delivery while denying her any way to influence intake or promises, it creates a mismatch. We should connect responsibility with the decisions and escalation routes actually available."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "The team also needs to recognise effective behaviour with the same precision used for errors. Suppose Leon spots an ambiguous approval and asks which version was intended before releasing the file. Mara can say that this check prevented them from choosing between two different addresses without the customer's confirmation. That is more informative than saying great attitude. It identifies an action worth repeating and the condition under which it was useful. The point is not to balance every criticism with a compliment. It is to make learning from successful work as concrete as learning from failure."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Feedback from the customer may expose a different definition of success. The invitations are correct and ready at ten, but the customer has to travel twice because the first collection failed. A completion measure captures the final job, while the extra trip captures an inconvenience the shop created. The team should not erase that history by changing the original promised time to ten in its records. It can record the revised agreement separately. Keeping the first promise allows the review to distinguish successful recovery from a job that went smoothly from the start."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "This distinction protects useful learning about recovery. If every rescued order is counted as originally on time, the business loses evidence about avoidable failures. If every rescued order is counted only as a failure, it may fail to recognise good work that reduced the damage. Two observations can coexist: the original promise was missed, and the recovery met the revised agreement. A truthful account is often more useful than forcing the event into a single success or failure label that cannot represent both stages."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Fourth recall question. Mara has twenty minutes to process ten approvals, but the current process takes four minutes per approval. What should the team make explicit before telling her to work more carefully or quickly?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "The required work totals forty minutes, twice the available time. Under those assumptions, the assignment cannot be completed as stated. The team must change the workload, method, staffing or deadline, or revise the commitment. It should still investigate whether four minutes is necessary and whether the estimate fits the tasks. But an impossible allocation is not repaired by a vague instruction about attitude. The calculation identifies a decision that someone with authority needs to make."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "We can now design a short daily conversation that serves the work instead of becoming another interruption. For this fictional studio, it might happen before new promises are made. Mara identifies jobs with near collection times. Leon identifies proofs waiting on information or approval. Priya identifies available production slots and any fault that changes capacity. They focus on differences from the current plan. Reading every card aloud would add time without necessarily exposing a decision. The conversation earns its place when it resolves an uncertainty that affects what someone should do next."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "One useful question is which job cannot meet its promise under the present plan. This invites a schedule check rather than a confidence performance. Another is what decision or information would change that result. If a job is blocked on the customer's answer, more internal discussion may not help. If two jobs need the same machine at once, a priority decision may. If the file has already been approved but the card is stale, updating the record may unblock it immediately. The same visible waiting can have several different remedies."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "However, a daily meeting should not be the only place urgent information can move. An approval arriving five minutes after the meeting should not wait until tomorrow simply because the team values its routine. The handoff rule needs to operate when the relevant event occurs. The meeting can catch unresolved risks and coordinate exceptions. It should not replace the ordinary transfer of a ready job. Otherwise a practice intended to improve communication introduces a new batch delay by holding information until the next scheduled conversation."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Let us quantify that batching effect in a simple example. Approval arrives at ten five, and the only review of approvals happens at eleven. The order waits fifty-five minutes before anyone acts on it, even if the entry itself takes one minute. If approval arrives at ten fifty-five, it waits five minutes. Those different delays come from the review schedule, not the difficulty of the order. We cannot claim an average delay without knowing how arrivals are distributed, but the two examples show why a long interval between reviews can matter."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Continuous checking has a cost too. If Mara interrupts every other task whenever any message arrives, she may struggle to complete work requiring concentration. The case does not establish that immediate checking is always best. The team can choose a review interval appropriate to its promises and a separate route for genuinely urgent decisions. The design question is how quickly the information needs to move, not whether checking more frequently is morally better. An interval that works for next-week orders may be unsuitable for a promised collection in an hour."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "For the practical application, use paper and stay inside this fictional studio. Draw four boxes: customer approval, production acceptance, printing and packing. Between each pair, write what the next person needs to know. At the first handoff, include the approved file identifier and quantity. At the next, include the accepted production slot. At the last, include what must be checked before the order is called complete. You are not being asked to change a workplace process, challenge a colleague or disclose real customer information. The exercise is to make one handoff inspectable."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Now add a miniature schedule. At nine, two jobs are ready. The blue invitation job needs fifteen minutes of printing and ten of packing. The green leaflet job needs twenty minutes of printing and five of packing. One printer and one separate packer are available at nine. Print blue first, then green, and let packing begin as soon as both the printed job and packer are available. Work out when each job is complete. This is enough structure to test whether you are tracking the whole journey rather than a single machine."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Blue prints from nine to nine fifteen and packs until nine twenty-five. Green prints from nine fifteen to nine thirty-five. The packer has been free since nine twenty-five, so green packs immediately and finishes at nine forty. The two completed orders are therefore ready at nine twenty-five and nine forty. The printer is occupied for thirty-five minutes, while the final completed order takes forty minutes from the start. The extra five minutes at the end are packing, even though packing was able to overlap earlier printing."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Now reverse the printing order while keeping all durations unchanged. Green prints from nine to nine twenty and packs until nine twenty-five. Blue prints from nine twenty to nine thirty-five and packs until nine forty-five. Green completes at nine twenty-five and blue at nine forty-five. The last completion is now five minutes later than before. In this two-stage example, sequence changes the final finish because the longer packing activity falls at the end. The result follows from these particular numbers. It is not a rule that every short print job should always go first."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Suppose blue is promised for nine thirty and green for nine forty-five. Blue-first meets both promises. Green-first leaves blue fifteen minutes late, although green is comfortably early. If a colleague argues that green should go first because its customer is more vocal, the schedule gives the team a concrete way to discuss that choice. They can still decide to change priorities for a legitimate reason, but they should see the displaced commitment and communicate it. A queue rule should not hide the effects of exceptions on quieter customers."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Add one final twist. Blue's approval is missing at nine, while green is fully ready. The blue-first schedule is no longer immediately available. If approval arrives at nine ten, the team cannot pretend printing began at nine. It could have started green while waiting, or held the printer idle in expectation of blue. Those are different policies with different risks. To compare them, we would need assumptions about the approval's arrival and the importance of the deadlines. A neat schedule based on a job being ready cannot settle a case in which it is not ready."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "This is where the original Thursday failure returns in a more precise form. Readiness is information with operational consequences. A mistaken ready label can waste material. A missing ready label can waste capacity or hide a feasible order. A correct label arriving late can force a changed sequence. Feedback improves this situation when it identifies the particular transfer that failed and helps the team create a workable action. Queue reasoning improves it when the action is tested against shared resources, complete task sequences and actual promises."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Fifth recall question. In the blue-and-green exercise, why does reversing the printing order move the final completion from nine forty to nine forty-five, even though the total printing time is unchanged? What further fact must be known before choosing either schedule?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Packing overlaps printing, but the final job still needs its own packing after leaving the printer. Blue takes ten minutes to pack, whereas green takes five. Putting blue last leaves the longer finishing activity at the end, producing nine forty-five instead of nine forty. Before choosing either schedule, we must also know that the required jobs are approved and ready, and that the sequence fits their commitments. The total workload is only part of the answer; precedence, availability and deadlines determine which plan can actually be followed."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "Mara writes the proposed change in one short operational statement. The approval owner records the exact approved file and collection time on the job card; production accepts it only after checking those fields against the file and schedule. A missing field returns the card to a visible waiting state with a named follow-up. They test the arrangement on a small defined set of orders, checking usability, on-time correct completion and extra work. This statement is specific enough to try, yet modest enough to revise if the test reveals a flaw."
+    },
+    {
+      "v": "sage",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "At the end of the review, Leon no longer carries an unsupported instruction to become a more organised person. Mara has an approval-transfer action, Priya has a clear acceptance check and all three can see when a promise conflicts with the schedule. The customer recovery is recorded separately from the original miss. None of this guarantees that the printer will never fail or a customer will always answer promptly. It gives the team a more accurate picture of the next decision, and a way to notice when their proposed fix is not doing what they expected."
+    },
+    {
+      "v": "ash",
+      "i": "Teach at a natural conversational pace. Explain the schedule arithmetic clearly without artificial slowing.",
+      "t": "The paper exercise leaves you with a practical object: a handoff description and two schedules whose consequences you can explain. If you adapt the idea later to a low-stakes task of your own, begin with one transfer of information and one observable result. Keep the scope small enough that an error is easy to correct. Ask what the receiver needs, when it must arrive and how you will know the job is actually finished. Those details turn a general wish for better coordination into something you can test."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-10-10",
+    "spoken_words": 7181,
+    "sha256": "ad1a069a4348e788db53180589df980c7aa4596c6ffbd2246c44a6e02c3be283",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "worked-arithmetic",
+      "source-support",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://web.mit.edu/urban_or_book/www/book/chapter4/4.3.html",
+      "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-vs-impact-sbii/",
+      "https://www.ihi.org/library/model-for-improvement"
+    ]
+  }
+}
