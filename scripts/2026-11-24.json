@@ -1,0 +1,454 @@
+{
+  "date": "2026-11-24",
+  "title": "[Oceanography] How Tide Predictions Work at a Real Coast",
+  "summary": "Explain local tide heights through differential gravity, basin response and harmonic prediction. Worked fictional harbour cases distinguish amplitude, range, phase, datums, model residuals and horizontal currents. Includes five recall questions and a paper-only practical exercise.",
+  "instructions": "Both voices teach developed mechanisms and contrasting cases. Assume no prior reading or listening. All Bellhaven numbers are invented educational examples, not navigation forecasts. Preserve five seven-second recall pauses and subsequent answers. Sources are NASA and NOAA public educational material.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "A tide table says the water at a harbour will reach four metres at noon. Four metres above what? And does noon mean the water stops flowing through the entrance? Those two questions expose much of what a tide prediction does and does not tell us. A tide height is a vertical measurement from a named reference level. A current is horizontal movement. The predictions concern a particular place and a particular clock. Lose any of those details and a precise number can become a misleading one."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Imagine a fictional harbour called Bellhaven. Mara maintains a small museum overlooking its basin. She wants an accurate educational display, not a boating plan. Her colleague Dev brings a prediction from another port twenty kilometres away. Its high water occurs an hour earlier. They can see the same Moon from both places, so Dev thinks one table must be wrong. Their disagreement gives us a useful problem: how can a common astronomical cause produce different local times and heights? We will build the explanation from water movement, then see how measurements become a forecast."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Start with the physical object being measured. A gauge records the elevation of the water surface at its location. A rising record means that surface has moved upward relative to the gauge's reference. It does not tell us the total depth everywhere in the harbour, because the bottom varies. Nor does a flat moment in the record tell us that every parcel of water has stopped moving. A river can maintain a nearly steady surface while a great deal of water passes through it. Height and motion are related, but one number cannot describe both."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "For Bellhaven's display, draw a vertical ruler beside the basin. Put its zero at an explicitly chosen reference elevation. If the surface is three metres above that zero, the displayed height is three metres. Now draw the seabed two metres below the same zero. At that particular point the idealised water depth is five metres. Move to a shoal whose bottom is one metre above zero and the same surface gives two metres of depth. These are fictional geometric examples. They explain why a tide height is not a universal depth measurement."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "The difference between a high water and an adjacent low water is a tidal range. Suppose Bellhaven's predicted high is five metres and its following low is one metre, using the same reference. The range is four metres. That is different from the height of either event. It is also different from an amplitude in a simple oscillation. If a perfectly symmetrical curve moves two metres above and below its middle level, its amplitude is two metres and its full range is four. Real tidal curves need not have that symmetry."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "That distinction matters when people say a place has a big tide. They might mean a large range, a high water level relative to the land, or a fast current. Those are different observations. An elevated average water level can raise both high and low water without enlarging their difference. A narrow passage can carry strong flow even when the local height range is not spectacular. At the museum, Mara separates three labels: surface elevation, range, and current speed. She can then ask a specific question instead of treating all three as interchangeable."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "First recall question. A fictional station predicts high water at five metres and low water at one metre, both above the same reference. What is the range, and does either number by itself give the depth over a nearby shoal? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "The range is four metres. Neither height alone gives depth over the shoal. We also need the shoal's elevation relative to the same reference, and real navigation requires appropriate current information and safety margins beyond this classroom subtraction. Notice how the reference requirement enters twice. We subtract comparable surface heights to find range, and compare surface with bottom to find an idealised depth. Combining numbers tied to different zero levels would create an error before we considered any physics of the tide itself."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "The astronomical starting point is differential gravity. The Moon attracts the Earth, including its oceans and solid body. Its attraction is somewhat stronger on the side nearer the Moon and weaker on the far side. What produces the tide is the variation across the Earth, not simply the existence of a strong pull. If everything accelerated identically, there would be no relative stretching from that pull. The near side accelerates more toward the Moon than the Earth's centre does; the far side accelerates less. Relative to the centre, these differences stretch the system along the Earth to Moon direction."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "The familiar drawing of two tidal bulges is a simplified way to represent this pattern. It should not become a picture of the Moon lifting one isolated heap of water while leaving the rest of the planet unaffected. The whole Earth participates in the gravitational interaction. Components of the tidal force along the surface help redistribute water. NASA's explanation stresses both the difference in attraction and the importance of this redistribution. We can use the diagram to understand the forcing while remembering that actual oceans are interrupted by continents and have finite depths."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "A thought experiment helps isolate the distinction. Imagine a row of freely moving beads in space. If each bead receives exactly the same acceleration, their spacing remains the same. If the front beads accelerate more than the rear ones, their spacing changes. The second situation contains a relative effect. The analogy does not reproduce oceans, rotation or the Earth's internal response. Its purpose is narrower: a common acceleration and a difference in acceleration do different things. Tidal reasoning asks about those differences across an extended object."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "The Sun also produces tides. It is enormously more massive than the Moon, but much farther away. The change in its attraction across the Earth's size is smaller than the corresponding lunar effect. That is why the Sun's powerful overall attraction does not make it the dominant tide raiser here. We do not need to compare only masses, or only the force at one location. We need the variation in that force across the Earth. Both lunar and solar contributions enter tidal predictions, along with several cycles associated with their changing geometry."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "As the Earth turns, a location changes its orientation relative to these forces. But the Moon also advances along its orbit. After one ordinary solar day, the Earth must turn a little farther for that location to face the Moon in roughly the same way. The mean lunar day is about twenty-four hours and fifty minutes. Half of it is about twelve hours and twenty-five minutes. This provides an important semidiurnal rhythm, meaning roughly twice per lunar day. It does not promise two identical tides at every coastline or exactly the same interval between every pair of local highs."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "The word mean is doing work there. We are describing an average astronomical rhythm, while the actual geometry contains more than one repeating motion. Lunar distance changes, the Moon's direction relative to the equator changes, and the solar contribution follows a different clock. Their effects combine. Even before we add a coastline, a prediction based on one fixed twelve-hour cycle would discard part of the forcing. It can teach the mathematics of an oscillation, but it cannot serve as a complete description of observed water level."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "The coastline then changes the response. Water cannot pass through a continent as if the ocean formed a uniform shell. Basins connect through passages. Depth varies. Friction dissipates motion, and a narrowing bay can concentrate the response. NOAA's coastal explanation describes how shoreline shape, restricted inlets and shallow areas influence the local tide. Two ports under nearly the same astronomical forcing can therefore have different heights and phases. Phase means where an oscillation has reached in its cycle at a specified time."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "For an everyday mechanical analogy, consider two containers connected to a reservoir through different openings. If the reservoir level changes, a container with a broad opening can exchange water differently from one with a narrow opening. Their internal levels need not follow the reservoir in identical ways. Real oceans are much more complicated, and the analogy cannot calculate a harbour's delay. It does show why a common external influence does not imply an identical local response. Geometry and the movement needed to redistribute water belong in the explanation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "This also corrects the idea that local high tide must occur exactly when the Moon is overhead. That would treat each patch of ocean as if it could instantly take its simple equilibrium position independently of neighbouring water. A real basin responds dynamically. Its water has momentum, it interacts with boundaries, and it exchanges water with other regions. To know Bellhaven's local timing, we need observations or a suitable physical model of that system. Knowing the Moon's position supplies part of the cause, not the entire local answer."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "The pattern of high and low waters gives another clue. A semidiurnal regime has two highs and two lows of roughly similar heights in a tidal day. A mixed regime also has two, but with a pronounced inequality between the pair. A diurnal regime has one high and one low. These names describe dominant local patterns. They do not divide every day into perfectly repeatable boxes. At a mixed station, calling both highs simply high tide can conceal a practically important difference in their elevations."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Mara adds two invented daily traces to the display. One reaches highs of four metres and four point one metres. Another reaches five metres and three metres. They both have two highs, but the second has a much stronger inequality. Dev initially wants to average each pair and display only the result. The average could be useful for a particular calculation, but it would erase which event is higher. A compact statistic should answer a stated question. It should not replace the sequence when the sequence is what the visitor needs to understand."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Second recall question. Two nearby ports experience different high-water times even though they share nearly the same view of the Moon. What important part of the explanation is missing from a Moon-only prediction? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "The missing part is the local ocean response: basin shape, depth, connections, friction and the combined tidal components. The Moon provides predictable forcing, but local water movement changes the timing and size of the response. The two tables can therefore both be correct. We would still check their dates, time zones and station identities before accepting the difference as physical. A clock mismatch can imitate a phase difference. Good explanation begins by confirming that the observations we are comparing actually describe the same kind of thing."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Now we can build a prediction curve. Begin with a deliberately simple model that repeats every twelve hours. Its middle level is three metres above our invented datum. Its amplitude is two metres. At the beginning of the cycle it reaches its maximum of five metres. Three hours later it passes the middle level at three metres while falling. After six hours it reaches one metre. After nine hours it passes three metres while rising. At twelve hours it returns to five metres and begins the next cycle."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Those five points belong to a cosine curve. Cosine is a smooth repeating function that starts at its maximum when its angle is zero. For this model, we multiply that function by two metres and add a three-metre baseline. The multiplier sets amplitude; the added baseline sets the vertical position. The conversion from time to angle sets the period. If twelve hours corresponds to one complete turn, three hours corresponds to a quarter turn. You can understand all of that without calculating a trigonometric function by hand."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "A phase shift changes the timing. Suppose another fictional station has exactly the same baseline, amplitude and period, but its maximum comes two hours later. We slide the entire curve two hours to the right. Its high water is still five metres and its low water is still one metre. The range has not changed. At any particular clock time, however, the two stations can have different levels. This is a useful separation: amplitude describes the size of an oscillation, while phase describes its position in time relative to a specified origin."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "The smooth curve also reveals a common interpolation mistake. Water level does not change at a constant rate from high to low in this model. It changes slowly near the turning points and fastest near the middle crossing. Dividing the four-metre fall by six hours gives an average of two-thirds of a metre per hour. That average is correct for the whole interval. It is not the rate in every individual hour. A table listing only high and low water therefore leaves out the shape between them."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "We can calculate a more concrete contrast from the same toy curve. One hour after high water, the height is about four point seven three metres. The fall in the first hour is about twenty-seven centimetres. Two hours after high water, the height is four metres, and three hours after it the height is three metres. The fall during that third hour is a full metre. The average over six hours cannot represent both changes. These values come from our exact twelve-hour cosine, not from a real harbour table."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "There is a second distinction hidden in the middle crossing. At three hours the surface is three metres and falling. At nine hours the surface is also three metres but rising. A height alone does not identify the direction of change. We need the time or nearby observations. On a graph, the two points have the same vertical coordinate but opposite slopes. The same level can therefore occur in two different stages of the cycle. This is why a rising or falling label adds information even when the numerical height is unchanged."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "A single cosine is a useful building block because several such curves can be added. At each moment, calculate each component's contribution and sum them with the baseline. A positive contribution raises the predicted level relative to that baseline; a negative contribution lowers it. The components are mathematical descriptions of repeating parts of the signal. We should not imagine a separate physical layer of water belonging to each one. There is one observed surface, while the model represents its periodic variation as a combination of terms."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Consider two components with the same period for a moment. Give the first an amplitude of two metres and the second an amplitude of half a metre. If their peaks occur together, their combined amplitude is two and a half metres. Around a three-metre baseline, the maximum is five and a half and the minimum is half a metre. The range is five metres. The arithmetic is simple because every stage of one curve aligns with the corresponding stage of the other. Their contributions reinforce throughout the cycle."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Now move the smaller component half a cycle out of step. When the larger contribution is positive two metres, the smaller contributes negative half a metre. Their sum is positive one and a half metres. At the opposite extreme, the sum is negative one and a half. The resulting heights are four and a half and one and a half metres, giving a three-metre range. We changed the relative timing, not either component's individual amplitude. Reinforcement and partial cancellation can change the total range without either source switching off."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Real solar and lunar semidiurnal components do not have exactly the same period. The main solar one repeats in twelve hours, while the main lunar one takes roughly twelve hours and twenty-five minutes. Their relative phase therefore drifts. Sometimes their positive contributions line up closely; later they are farther out of step. This produces a changing envelope of larger and smaller tidal ranges. The simple aligned and opposed examples explain the mechanism, although an actual harbour contains additional components and will not follow those invented heights."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Astronomically, the larger spring-tide ranges occur around new and full Moon, when the solar and lunar tidal effects reinforce in their alignment. Neap tides occur around the quarter phases, when their combination produces a smaller range. Spring here does not refer to the season. There are usually two spring and two neap periods across the lunar phase cycle. The local maximum range need not arrive at the exact instant of a lunar phase. The ocean's response and the other components still matter."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "You can understand the changing envelope by listening to two people clap at almost the same rate. Their claps gradually move from together to apart and back. The analogy is about changing relative timing, not about the ocean hearing a sound. If the rates were identical, their separation would stay fixed. If the rates differ slightly, their relative position steadily changes. For tides, the different astronomical frequencies supply that changing relationship. It is possible to predict the pattern far ahead because the underlying motions are highly regular."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Third recall question. Two same-period components have amplitudes of two metres and half a metre. What combined amplitude do they have when perfectly aligned, and what amplitude when exactly opposed? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Aligned, their amplitude is two and a half metres. Opposed, it is one and a half metres. The corresponding full ranges for these symmetrical curves are five metres and three metres. Amplitude is measured from the middle to an extreme; range runs from the low extreme to the high one. Our real lunar and solar components slowly change their alignment because their periods differ. Remembering both distinctions prevents the two most tempting mistakes here: confusing amplitude with range and treating the two clocks as identical."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "The practical method built around these components is called harmonic prediction. NOAA describes using a set of major tidal constituents, each represented by a cosine with a particular frequency, amplitude and phase. A constituent is one component of that mathematical description. The astronomical motions supply the frequencies. Local water-level observations help determine the amplitudes and phases at a station. In NOAA's standard explanation, thirty-seven major constituents form the usual set. That is a description of its method, not a rule that every possible tidal model must contain exactly thirty-seven terms."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "The main lunar semidiurnal constituent is commonly called M two. The main solar semidiurnal constituent is S two. The names are labels for particular frequencies, not grades of prediction quality. A station can have a large M two contribution and a smaller S two contribution, but other terms may strongly influence its daily inequality or longer variations. Listing only the two largest familiar clocks gives an incomplete model. The point of decomposition is to retain several distinguishable patterns rather than forcing every change into one average cycle."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Mara asks how a technician could find those components in a messy record. Imagine having a long sequence of measured heights with accurate timestamps. For a chosen astronomical frequency, fit a repeating curve to the observations, adjusting its size and timing. Do that jointly for the selected frequencies rather than treating each observed peak as an isolated event. The fitted combination should describe the repeating structure in the record. Weather and measurement noise can leave deviations, so the observed trace will not generally lie exactly on the fitted tidal curve."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "A toy comparison makes the fitting idea concrete. Suppose a record repeatedly reaches its maximum near noon and midnight, while a proposed curve peaks at three in the morning and three in the afternoon. Even with the right amplitude, that curve has the wrong timing. Sliding it can improve agreement. If the proposed oscillation spans only one metre while the repeating observed variation spans several metres, sliding alone cannot fix its size. Amplitude and phase solve different fitting problems. With multiple frequencies, the calculation estimates their contributions together so that one term does not simply steal the role of another."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "A short observation record can make nearby frequencies difficult to separate. Two clocks that begin almost together may remain close over a day, then show a clear separation over many days. If we watch only the first few hours, we might mistake them for one clock. NOAA's explanation says at least thirty days of observations are needed to observe the majority of lunar and solar cycles used in this analysis, and a year is necessary to directly observe all of the thirty-seven constituents in its account. Longer records can support the analysis further."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "That does not mean a thirty-day record contains no useful information until midnight on its final day. It means the length and quality of observation limit which patterns can be resolved reliably. Some cycles are short, others are long, and some frequencies sit close together. A fitting program will produce numbers even for a poorly informed problem. The existence of a numerical answer is not evidence that the observations uniquely determined it. A responsible interpretation asks whether the record actually distinguishes the components the model claims to estimate."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "We can see the same issue without a computer. Suppose two candidate curves both pass through three observations taken within an hour. One predicts a high point tomorrow morning, the other tomorrow afternoon. The three close observations may not decide between them. Adding many more observations across the cycle provides a stronger test. Now imagine adding an arbitrary bend just to hit every measured point. That could improve the match to this small record while making the next day's prediction worse. Astronomically specified frequencies impose useful structure on the fitting problem."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "The structure also explains how a table can be calculated well into the future. Once a station's harmonic constants are established, the known astronomical cycles tell us how to advance the components in time. NOAA's full expression includes adjustments associated with longer astronomical variations as well as the station constants and a mean level. It is more careful than repeating yesterday's graph indefinitely. We do not need every symbol to grasp the division of labour: regular celestial motion supplies predictable timing, and local observations supply the station's characteristic response."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "This is different from forecasting next week's wind. A future tide prediction can represent the astronomical component without knowing which storm will arrive that week. Its long reach is therefore compatible with uncertainty about the actual water level on the day. Dev initially treats a precise prediction time as a promise about the entire ocean state. Mara rewrites the label to say astronomical tide prediction. That wording identifies the model's target. Precision about a predictable component should not be mistaken for complete knowledge of every contribution to the observation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "We should test a fitted model on observations it was not allowed to imitate during fitting. In our museum exercise, imagine estimating constants from one stretch of data and comparing predictions with a later stretch. If the later discrepancies have a repeating pattern, the model may be missing a component or using unsuitable constants. If discrepancies cluster during unusual weather, the astronomical model may still describe its intended part well. This is general model-checking reasoning, not a claim that our invented example reproduces an operational agency's exact quality-control procedure."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "For a numerical check, suppose four later observations produce residuals of positive twenty centimetres, negative twenty centimetres, positive ten centimetres and negative ten centimetres. Their signed average is zero. That tells us the positive and negative differences balance in this tiny sample. It does not mean the predictions matched perfectly. None of the four residuals is zero. A single summary can hide the thing we care about if we choose it without thinking about what its calculation preserves and what it cancels."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "A second summary uses the size of each error regardless of sign. Add twenty, twenty, ten and ten centimetres to get sixty, then divide by four. The mean absolute error is fifteen centimetres. This statistic answers a different question from signed bias: how large were the discrepancies on average? It still does not show their order, their largest value in a longer record or whether a dangerous extreme was missed. For our four invented observations it is an exact calculation, not a performance claim about any real tide service."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Now arrange those same errors in time. Alternating positive and negative differences might suggest one kind of mismatch; a long block of positive residuals followed by a long block of negative ones could suggest another. The two summary averages would remain the same if we merely reordered the values. A graph retains information that those averages discard. In a periodic system, timing is especially important: a modest phase error can make predicted water too high during one part of the cycle and too low during another."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Mara therefore includes both a residual plot and a clearly labelled summary in the demonstration. Dev can see why a zero average error is compatible with a visibly imperfect curve. They also keep the test observations separate from the fitting observations. Otherwise a method could look excellent simply because it had already adjusted itself to the very points being used to judge it. The example teaches how to read a model comparison without claiming that a small classroom sample establishes the reliability of an operational coastal prediction."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "There is a useful diagnostic difference between a vertical offset and a time offset. If every predicted level is about half a metre below the observation, suspect the reference level or baseline among other possibilities. If the model's highs and lows look similar but consistently arrive an hour early, suspect timing conventions or phase. Neither visual pattern proves a cause by itself. It narrows the investigation. Fixing the wrong parameter can make matters worse, such as increasing amplitude to compensate for a reference error that shifted the whole curve."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Now return to the ruler's zero. Oceanographers call a reference elevation a datum. Tidal datums are defined from statistics of water-level observations over a specified period. They are tied to places and maintained through surveyed benchmarks. They are not a single visible line drawn around the entire planet. NOAA specifically cautions against extending a local tidal datum into another area without the appropriate measurements. Two stations both labelled mean lower low water do not thereby provide a universal flat physical surface between them."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Mean high water is an average of high-water heights over the defined observation framework. Mean higher high water selects the higher high water of each tidal day before averaging. Mean low water and mean lower low water make corresponding distinctions at the low end. Those names are easy to skim past, but the extra word changes which observations enter the statistic. Where the pair of daily highs is unequal, averaging all highs gives a different result from averaging only the higher one from each day."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Use a tiny invented record to see the difference. On one day the two highs are five metres and three metres. On the next they are four metres and two metres. The average of all four highs is three and a half metres: fourteen divided by four. The average of the higher daily highs is four and a half metres: five plus four, divided by two. This two-day calculation illustrates selection and averaging only. It is not enough data to establish an official tidal datum, which uses a much longer defined reference period."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "There is another easily confused pair: mean sea level and mean tide level. In NOAA's definitions, mean sea level averages observed heights through time, using equally spaced observations such as hourly heights. Mean tide level is the midpoint between mean high water and mean low water. Those operations are different. A curve can spend unequal amounts of time at different levels or have an asymmetric shape. Its time average need not equal the midpoint of its average extremes. Similar names do not make the underlying calculations identical."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Changing the zero changes all quoted heights by the same amount if nothing else changes. Suppose Bellhaven's old high is five metres and low is one metre. Move the reference zero upward by seventy centimetres. Relative to the new zero, those same surfaces are four point three and zero point three metres. The range remains four metres. We have relabelled elevations, not moved the water. This is why comparisons across documents must check datums before interpreting a numerical difference as a physical change."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "A negative predicted height is therefore not negative water. It means the surface lies below the stated zero. If a datum is based on an average of low waters, some low waters can fall below that average. The sign alone says nothing about whether a particular seabed point is exposed. We would need that point's elevation in the same system. On the museum display, Mara deliberately draws a surface just below zero while leaving the bottom much lower. Visitors can see water still present even though its reported height has a minus sign."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Fourth recall question. The same high and low surfaces were labelled five metres and one metre. We raise the reference zero by seventy centimetres. What are their new labels, and what happens to the range? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "The new labels are four point three metres and zero point three metres. The range stays four metres because both heights have shifted by the same amount. This is a change in coordinate reference. It would be wrong to announce that the sea had fallen seventy centimetres merely because the labels became smaller. To infer physical change, compare observations expressed in a consistent reference system and consider how that system was maintained. A datum is part of the measurement, not decorative text underneath the result."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "The time reference deserves equal attention. A prediction might be displayed in universal time, local standard time or a local clock convention that includes seasonal daylight changes. An hour's difference can come from the display setting rather than a different ocean. For an educational comparison, keep both records in the same stated time convention. Include the date as well as the hour, particularly when an event crosses midnight. A high at half past midnight on Tuesday is not Monday's event simply because it falls close to the end of Monday's graph."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Station identity matters for the same reason. Two nearby places can have different harmonic constants, so replacing a missing station name with the nearest familiar town is not a harmless shortcut. A table should identify the prediction location. Some published services derive predictions for secondary locations using specified relationships to reference stations. Those relationships belong to the service's method; a listener should not invent a generic distance-based correction. Twenty kilometres does not translate into a universal number of minutes or centimetres along a complicated coastline."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Imagine Dev finds two online tables for Bellhaven. One shows high water at noon and four metres. The other shows one o'clock and about thirteen feet. Before declaring disagreement, he checks whether noon universal time corresponds to one o'clock on the stated local clock, and whether the heights use the same datum. He also checks the units. Four metres is about thirteen point one feet, so rounding could explain that part. The example is a diagnostic sequence, not a claim that every pair of apparently conflicting tables will reconcile so neatly."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Once the labels match, compare like with like. A table of predicted high and low events is not the same product as a time series of measured levels. The first describes calculated extrema, while the second contains observations at sampling times. An hourly observation might miss the exact minute of the maximum. If a prediction peaks between two samples, neither sample need equal its peak height even in an otherwise excellent model. Sampling introduces its own limitation. The absence of the exact maximum in a coarse record does not automatically indicate a failed prediction."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Let us put weather back into Bellhaven. At a particular time, the astronomical prediction is three metres and the observed level is three point four metres, using matching time and datum. The observed-minus-predicted difference is positive forty centimetres. That difference is often called a residual. It is a calculation, not yet an explanation. Wind, air pressure, river discharge, model limitations or observation problems may contribute. Looking at the residual helps identify what the astronomical prediction did not capture, but it does not by itself identify a single cause."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Wind can push water toward a coast or away from it. Atmospheric pressure also affects water level, and river inflow can alter conditions in an estuary. NOAA includes these among influences on coastal tides and observed levels. Their effects depend on the setting and the weather pattern. A local breeze label on a phone does not tell us the entire regional history of water being moved. The gauge records the resulting surface at its location. Explaining a discrepancy may require information over a wider area and a longer interval."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Suppose a fictional residual stays near positive forty centimetres for several hours. Adding that amount to our toy astronomical curve would create a useful illustration: both high and low are elevated, while their difference remains unchanged if the addition is exactly constant. But an actual weather contribution need not stay constant, and the total response can involve interactions. We should not turn this classroom addition into a universal operational forecasting rule. It demonstrates the difference between raising a baseline and enlarging an oscillation, which are physically and mathematically distinct changes."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Compare two invented days. On the first, high water is five metres and low is one metre. On the second, high is five point four and low is one point four. Both ranges are four metres, although every listed surface on the second day is higher. Now compare a third day with high five point five and low half a metre. Its range is five metres while its midpoint remains three metres. The second and third days can both sound like a bigger tide in casual speech, but their patterns differ in a way the numbers make explicit."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "A prediction error can also change the apparent timing of an extreme. If a nonastronomical contribution is rising while the tidal component is approaching its maximum, the highest total level may occur later than the astronomical high. We can reason about this without assigning a real storm a numerical rule. Add a slowly rising line to a rounded peak and the maximum of the sum moves. The time of the component's maximum and the time of the total maximum need not coincide. This is another consequence of adding changing contributions rather than treating a tide table as the whole observation."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "The same caution applies to waves. Short wind waves fluctuate around a longer water-level background. A tide prediction does not specify the height of each crest arriving at a beach, and a gauge statistic is not automatically a prediction of how far water will run up a slope. Different processes and measurement conventions answer different questions. For the museum, Mara can teach these distinctions with drawings. For an actual coastal activity, the relevant official weather, wave, water-level and current information must be considered together with local guidance. Our invented numbers cannot provide that decision."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "We can now return to Dev's question about slack water. Slack refers to little or no horizontal tidal current, especially around reversal in a reversing current. High water refers to a maximum in surface elevation at a station. NOAA explains that their relationship varies with location. A standing-wave pattern can place slack near high and low water. A progressive-wave pattern can place maximum current nearer those height extrema. Real coastal locations often fall between simplified cases. Therefore high tide is not a general synonym for the moment the current stops."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "An idealised filling basin helps explain one special relationship. If a basin exchanges water only through one entrance and we focus on its total volume, its rate of filling must correspond to the net inflow. When the volume stops increasing at its maximum, that net inflow reaches zero before reversing in the simplest picture. But a gauge measures one local height, and real basins can have spatial variation, multiple passages and continuing internal motion. The simplified volume argument does not justify assuming zero current at every point whenever one gauge reaches high water."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "For a contrasting picture, imagine two bodies of water connected by a channel. Their levels may peak at different times. Flow through the channel can depend on the difference between those levels. One side reaching its own maximum does not imply that the levels on both sides are equal. A height difference can still drive flow. NOAA describes this hydraulic-current case explicitly. The relevant comparison is across the connection, not merely whether one local height curve has stopped rising. The location of the measurement changes which physical inference is available."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Give the two fictional basins simple levels at noon. Basin A is four metres and Basin B is three metres, both measured against a shared reference. The metre difference provides a reason to expect a pressure-driven tendency through their connecting channel, though these numbers alone cannot calculate the speed. If A has just reached its maximum, the difference has not vanished. At a later time both might stand at three point five metres. That removes this particular height difference in the simplified example, but inertia and other forces complicate an actual flow reversal."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "This is why current predictions are produced separately from height predictions. They describe speeds, directions and events such as maximum flood, maximum ebb and slack, for specified locations. A current station and a water-level station need not sit at the same point. Even when their names sound similar, check what quantity the product measures. Metres of height and metres per second of velocity cannot be substituted. The units themselves provide a useful error check: a vertical distance does not tell you how rapidly water travels horizontally."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Fifth recall question. A tide table predicts high water at noon. Can we conclude that the current through the harbour entrance is slack at noon, and what information would answer the current question more directly? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "We cannot make that general conclusion. The relationship between water-level extrema and current depends on the local system. A current prediction or current observation for the relevant location addresses speed and direction more directly. We should also check its date and time convention. The tide table remains useful for its own purpose. The error comes from asking it to answer a different question without the necessary local relationship. Separating the two products preserves the useful information in each instead of dismissing either one as unreliable."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Mara is ready to design the display. She starts with a fictional twelve-hour curve centred at three metres, with amplitude two metres. Underneath she prints its five landmark heights: five, three, one, three, five, separated by three-hour intervals. A second panel slides that curve two hours later. A third adds a smaller component, first aligned and then opposed. Visitors can identify which operation changed timing, which changed range and which simply changed the vertical reference. Each panel varies one feature so its effect is visible."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "That is also your practical application, and it can stay entirely on paper. Draw a horizontal line for time and a vertical line for height. Mark the five points of the toy curve and connect them smoothly. Label the zero as an invented datum and the times as an invented clock. Then redraw the curve with its zero raised by seventy centimetres, writing the new height labels beside the old ones. The physical shape should remain the same. You are testing your interpretation of coordinates, not planning a visit to the shoreline."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Add a separate box for a hypothetical observation. Choose the three-hour point, where the model predicts three metres while falling. Write an observed level of three point four metres. Calculate the residual as observed minus predicted and label it positive forty centimetres. Beside it write cause not yet determined. This small phrase prevents the subtraction from becoming a made-up weather explanation. You have measured a discrepancy within the fictional example. Explaining it would require evidence about forcing, measurements and model behaviour that the drawing has not supplied."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Finally, add a current question underneath: what is the flow through the entrance at this time? Leave its answer unknown. That blank is part of a correct result, not unfinished arithmetic. Your height drawing has no channel geometry, current observations or local current model. It cannot produce a justified speed or slack time. This exercise rewards keeping known quantities and missing quantities separate. It is low risk precisely because all the numbers are invented and no action at sea depends on them."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "Dev proposes one final shortcut for the museum: repeat today's high-water times fifty minutes later every day. The lunar-day explanation makes that sound reasonable. But the rule treats one average lunar rhythm as if it were the complete local tide. Solar components, inequalities and other cycles change the combined curve. A rough shift might resemble a short stretch of one station's pattern, yet it can accumulate errors or fail to describe the next sequence of highs. The proper prediction advances all relevant components with their own clocks."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "There is a subtle point here about deterministic models. A model can be mathematically exact given its chosen constants and still imperfect as a description of measured water level. The calculation may contain no arithmetic mistake, while its assumptions or inputs leave out part of reality. Conversely, a good physical model can be displayed wrongly if software applies the wrong time zone or datum. We should distinguish mathematical calculation, model adequacy and data presentation. Calling every mismatch an unpredictable ocean conceals errors that careful bookkeeping could prevent."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "For Bellhaven, the display now tells a coherent story. Astronomical motion creates regular tidal forcing. The ocean's geometry and dynamics shape the response at a place. Observations let us estimate local repeating components. Summing those components produces an astronomical prediction, expressed in a named datum and clock. Measured water levels can differ because additional processes and errors remain. Current is a related but separately described quantity. Each link answers a different question, so the explanation can be useful without pretending that one diagram predicts an entire coast."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural conversational pace. Keep fictional numerical models distinct from real coastal predictions.",
+      "t": "The next time you see a tide height, read its surrounding labels before admiring the decimal places. Identify the station, date, units, time convention and vertical reference. Then ask whether you are looking at a prediction, an observation or a current product. A four-metre number becomes meaningful when those details attach it to a place and a measurement. The Moon helps provide the clock, but the coast determines how that clock is expressed in moving water. Understanding the table means understanding both the regular forcing and the local response."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-10-12",
+    "spoken_words": 7139,
+    "sha256": "8f719c0bb128e2d28e10bac28536a1582d53680cd527f8334f259a953f04cf8a",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "worked-arithmetic",
+      "source-support",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://science.nasa.gov/moon/tides/",
+      "https://oceanservice.noaa.gov/education/tutorial_tides/tides05_lunarday.html",
+      "https://oceanservice.noaa.gov/education/tutorial_tides/tides06_variations.html",
+      "https://oceanservice.noaa.gov/education/tutorial_tides/tides07_cycles.html",
+      "https://oceanservice.noaa.gov/education/tutorial_tides/tides08_othereffects.html",
+      "https://tidesandcurrents.noaa.gov/about_harmonic_constituents.html",
+      "https://tidesandcurrents.noaa.gov/datum_options.html",
+      "https://tidesandcurrents.noaa.gov/faq.html",
+      "https://oceanservice.noaa.gov/facts/tidescurrents.html"
+    ]
+  }
+}
