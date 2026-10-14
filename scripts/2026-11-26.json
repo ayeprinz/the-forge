@@ -1,0 +1,421 @@
+{
+  "date": "2026-11-26",
+  "title": "[Economics] Comparative Advantage: Why the Faster Person Should Not Do Everything",
+  "summary": "Original workshop and exhibition examples explain absolute and comparative advantage, opportunity cost, feasible exchange, production boundaries and the limits imposed by demand, coordination, quality, training and distribution. Ricardo’s selected foreign-trade example supplies historical context. Five recall questions with seven-second pauses and answers, plus a paper-only allocation exercise.",
+  "instructions": "Start with Nora and Eli’s workshop. Both voices teach the ratios, mechanisms, worked cases and limits. All modern rates, characters and cases are hypothetical. Assume no prior reading or listening. Attribute Ricardo’s historical example, without presenting it as current national data or a proof that everyone benefits from trade. Preserve five seven-second recall pauses and subsequent answers. No artificial slowing.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Nora can finish six sets of invitation cards in an hour, or three sets of illustrated maps. Eli can finish two sets of cards in an hour, or two sets of maps. Nora is faster at both tasks. They each have four hours, and both need cards and maps for separate events. It seems obvious that Nora should do everything she can and Eli should merely take whatever is left. Yet that misses an important question. When Nora spends an hour making maps, what does she give up? The answer will help them produce more together without either person working longer."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "We will keep the workshop imaginary and the numbers deliberately simple. A set of cards means the same quantity and standard of work for both people. A map set also has an agreed quantity and standard. For now, there is enough paper and equipment, neither person gets tired, and switching tasks takes no time. Those assumptions let us isolate one relationship. Later we will add delivery, mistakes, changing skills and limited demand. The relationship is comparative advantage: doing a task at a lower cost in terms of the other useful work you forgo."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Nora has an absolute advantage in both tasks because she needs less time for each set. One card set takes her ten minutes and takes Eli thirty minutes. One map set takes her twenty minutes and takes Eli thirty minutes. That comparison answers who is faster at a particular job. Comparative advantage asks a different comparison within each person's possibilities. Nora's twenty minutes for a map could instead make two card sets. Eli's thirty minutes for a map could instead make one card set. Eli gives up fewer cards when he makes a map."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "That makes Eli the lower opportunity-cost map maker in this model, even though Nora can make a map faster. Opportunity cost is the best alternative forgone by making a choice. Here we measure that alternative in card sets, rather than money. Nora gives up two card sets per map set. Eli gives up one. It does not mean Eli's time matters less, or that he deserves less respect or pay. It describes the available alternatives under these stated conditions. Change the alternatives, and the comparison may change even if the task itself looks identical."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Look at the card side as well. Nora makes six card sets in the time she could make three map sets. Each card therefore costs her half a map. Eli makes two cards in the time he could make two maps. Each card costs him one map. Nora gives up less map production when making cards, so she has comparative advantage in cards. With two people, two activities and unequal ratios, the advantages point in opposite directions. One person's relative strength in one activity corresponds to the other's relative strength in the other activity."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "There is a useful way to hear those ratios without remembering an equation. Give Nora an hour and ask what disappears when she chooses maps: six card sets disappear and three map sets appear. Divide that exchange by three, and each map replaces two cards. Give Eli an hour: two cards disappear and two maps appear, so each map replaces one card. We are comparing what gets displaced, not comparing the two clocks directly. The clocks matter because they determine the alternatives available to each person over the same block of time."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Now build a baseline before reorganising anything. Suppose each person spends two of their four hours on cards and two on maps. Nora produces twelve card sets and six map sets. Eli produces four card sets and four map sets. Together they make sixteen cards and ten maps, with the word sets understood throughout. Neither person trades. Nora takes her twelve and six home, while Eli takes his four and four. This baseline is a feasible alternative, so any claimed improvement should be compared with it explicitly rather than with doing nothing."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Try a small reassignment before trying complete specialisation. Nora moves one hour from maps to cards. Her output becomes eighteen cards and three maps. Eli moves his two card-making hours to maps, giving him eight maps and no cards. Their combined output is now eighteen cards and eleven maps. The same eight person-hours produced two extra cards and one extra map. Nobody became quicker and no machine improved. We changed which alternatives were sacrificed. Eli supplied additional maps at a smaller loss of cards than Nora would incur supplying those maps herself."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "We can see the gain in the changes alone. Nora's switch adds six cards and removes three maps. Eli's switch removes four cards and adds four maps. Add those changes: six minus four leaves two extra cards, and four minus three leaves one extra map. This is an accounting demonstration under the assumptions, not a promise that any real reorganisation delivers the same percentage improvement. It establishes that faster at everything does not imply best assigned to everything. The total can improve when the slower person concentrates on the task where their relative disadvantage is smaller."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Production totals are only the first half of the problem. Eli now has no cards, and Nora has fewer maps than before. If they simply keep their own output, Eli cannot use the plan and Nora may dislike it too. They need an exchange. Suppose Nora gives Eli six card sets in return for four map sets. Nora then has twelve cards and seven maps. Eli has six cards and four maps. Compared with the original arrangement, Nora gains one map and Eli gains two cards, while neither loses any of the other item."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "That exchange rate is one and a half card sets for each map set. Why does it suit both people? Nora would give up two cards to make a map herself, so obtaining a map for one and a half cards leaves her ahead. Eli would give up one card to make a map himself, so receiving one and a half cards for a map compensates him beyond that alternative. The exchange rate sits between their two opportunity costs. It divides a possible gain, although it does not by itself explain why bargaining would settle on that particular rate."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "First recall question. Nora makes six card sets or three map sets in an hour. Eli makes two of either. Who has comparative advantage in maps, and why is that different from asking who makes maps faster? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Eli has comparative advantage in maps because each map costs him one card set, while each map costs Nora two card sets. Nora still makes a map faster in minutes. The absolute comparison uses time per map; the comparative comparison uses forgone cards per map. Those answers can coexist. If the distinction feels slippery, return to the hour that must be allocated. The decision is not just whether a person can perform the task, but what valuable alternative work their doing it would displace."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "This reasoning has a famous historical example in David Ricardo's Principles of Political Economy and Taxation. In the selected discussion of foreign trade, he considers cloth and wine in England and Portugal. His hypothetical labour requirements allow Portugal to produce both goods using less labour, while exchange can still benefit both countries. We are consulting that argument, not treating his whole nineteenth-century account of money, wages or international mobility as a description of today's economy. Our workshop numbers are original teaching examples, chosen to make the underlying comparison audible and checkable."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Ricardo's example assigns England a hundred workers for a year to produce a quantity of cloth and a hundred and twenty for a quantity of wine. Portugal needs ninety for the cloth and eighty for the wine. These are quantities in a stylised comparison, not measurements we should use to describe either country's current industries. Portugal's absolute advantage is greater in wine. Within Portugal, the wine uses eight ninths of the labour required for the cloth. Within England, the wine uses six fifths of the labour required for the cloth."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "At an exchange of one of those quantities of wine for one of cloth, England can obtain wine by producing cloth with a hundred worker-years instead of making wine with a hundred and twenty. Portugal can obtain cloth by producing wine with eighty instead of making cloth with ninety. Both save labour relative to their respective direct-production alternatives. This is a comparison of specified bundles under the example's assumptions. It is not evidence that a country as a whole is a single person, that all workers receive the savings, or that any particular contemporary trade agreement benefits everyone."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Ricardo also discusses difficulty moving capital between countries. That matters to his argument's setting. Moving workers and equipment to whichever place makes everything with the least labour is a different choice from exchanging products while production resources remain in place. Our Nora and Eli example similarly holds their available hours fixed. We cannot move Nora's ability into Eli's hands by rearranging a spreadsheet. A model's conclusion belongs to its set of feasible choices. If relocation, training or shared equipment becomes feasible, the choice set expands and deserves a fresh analysis."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Return to the workshop and look more closely at the exchange range. Eli is willing, in the simple production comparison, to supply a map for more than one card because making that map displaced one card. Nora prefers obtaining a map for fewer than two cards because making it herself displaced two. Between one and two, there is room for both to gain from the exchange at the margin. At exactly one, Eli is indifferent in this stripped-down comparison. At exactly two, Nora is indifferent. Strict gains for both require an interior rate and useful quantities."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Useful quantities are an essential qualification. If Nora needs only one more map, she will not become better off simply by buying forty maps cheaply. Comparative advantage tells us something about production trade-offs, not an unlimited appetite for the resulting goods. We deliberately gave each person a baseline bundle and showed an exchange leaving both with at least as much of each item. That is stronger than merely announcing an increase in the combined count. Where one item decreases and another increases, preferences become necessary to decide whether the change is worthwhile."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "For instance, complete specialisation gives Nora twenty-four cards and Eli eight maps. Against the original total of sixteen cards and ten maps, cards rise by eight but maps fall by two. You cannot say both people must prefer that result from the production table alone. Perhaps the extra cards are valuable enough to compensate for fewer maps. Perhaps ten maps are essential and extra cards are useless. Our partial specialisation plan produced eighteen cards and eleven maps precisely so that an exchange could make both people better off without asking them to accept less of either item."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "The production possibility boundary makes this visible. For Nora, four hours can make twenty-four cards and no maps, or twelve maps and no cards, or combinations between those endpoints. Under constant rates and divisible time, each additional map costs two cards all along that line. Eli's endpoints are eight cards or eight maps, and each additional map costs one card. These boundaries are not forecasts of what they want. They describe what they can produce using all available time under the stipulated technology, with the slope expressing the opportunity cost."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "For their combined possibilities, start with both making cards: thirty-two card sets and zero maps. To add maps while sacrificing as few cards as possible, move Eli's time first. He can supply eight maps at a cost of eight cards. The combined point becomes twenty-four cards and eight maps. Beyond eight maps, Eli has no time left to reassign. Further maps require Nora's time and cost two cards each. The combined boundary therefore bends. Comparative advantage guides the order in which resources should move, but capacity limits prevent one person's relative advantage from meeting unlimited demand."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "At eleven maps, Eli can make eight and Nora can make three. Nora spends one hour on those three maps and three hours on eighteen cards. That is our earlier production plan. If they need twelve maps, Nora spends another third of an hour on a fourth map, giving up two cards. Combined output becomes sixteen cards and twelve maps. If they insist on twenty maps, both spend all their time on maps and there are no cards. The boundary forces us to acknowledge scarcity rather than imagine that a sensible allocation removes every trade-off."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Inside the boundary, some resources may be unused or misallocated relative to the stated objective. The original sixteen-card, ten-map combination lies inside the combined boundary because the eighteen-card, eleven-map plan is feasible. But an interior point is not automatically evidence of laziness or incompetence in a real workplace. A missing constraint may explain it: training, machine availability, quality requirements or a necessary break. Calling an arrangement inefficient requires specifying which inputs and constraints are included. Our mathematical improvement works because we have declared those constraints and can exhibit a feasible alternative."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "There is also a difference between technical efficiency and personal desirability. Making the largest number of identical objects can be technically efficient and still be a poor use of a person's day if the objects are unwanted. A person may prefer varied work, learning or a less stressful schedule. Those are not errors in arithmetic. They are parts of the objective that the output table did not represent. We can use the table to reveal a trade-off without pretending that it supplies every value needed to choose between competing arrangements."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Second recall question. Complete specialisation gives twenty-four cards and eight maps, while the original arrangement gives sixteen cards and ten maps. Why does comparative advantage alone not prove that everyone prefers complete specialisation? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Because complete specialisation produces fewer maps. We need to know whether the people can accept that reduction and how they value the extra cards. Comparative advantage identifies lower opportunity-cost production, but capacities, desired quantities and exchange terms determine a useful allocation. Our partial plan gave eighteen cards and eleven maps, allowing both to retain their baseline quantities and gain something through exchange. The lesson is not that partial specialisation is always best. It is that a production recommendation must be connected to what the output is for and who receives it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Now consider a pair with identical ratios. Imagine Rowan makes six cards or three maps an hour, and Sam makes four cards or two maps. Rowan is faster at both, but each gives up two cards per map. Moving map work between them does not create the kind of gain we found for Nora and Eli. A map always costs two cards somewhere in this model. There may still be gains from a better tool, a shared setup or learning through repetition, but those would be additional mechanisms. Equal ratios remove this particular source of reallocation gain."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "This distinction helps separate division of labour from comparative advantage. Dividing a process can change how quickly people work by reducing setup or building skill. Comparative advantage can create a gain even if nobody's speed changes, simply by assigning work according to different opportunity costs. Both mechanisms may operate together in practice, but they should not be counted twice. If a proposed saving comes from Nora's better card machine, name that machine. If it comes from letting Eli take maps while Nora makes cards at unchanged rates, name the change in allocation."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Suppose Eli receives a better card template and now makes four cards an hour while still making two maps. His opportunity cost per map rises to two cards. It now equals Nora's. The earlier comparative advantage in maps has disappeared even though Eli's map-making speed has not changed. What changed was his alternative use of the same hour. This is one reason a permanent label such as the map person can become misleading. Comparative advantage is a relationship between activities and alternatives at a time, not an intrinsic ranking fixed to someone's identity."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "If the template instead lets Eli make six cards while his map rate stays two, a map costs him three cards. Nora's map still costs two cards, so Nora now has comparative advantage in maps and Eli in cards. Nora remains faster at maps, and their card speeds are equal. The allocation pattern reverses because Eli's alternative improved enough. We should not resist that reversal merely because yesterday's roles felt natural. A capability change can shift opportunity costs in a task the new tool never directly touched."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "The same reasoning applies to a task that only one person can legally or practically perform, although our ordinary workshop has no such restriction. If one person must be present to approve a final design and the other cannot approve it, the first person's time has an alternative that the second person's time lacks. That can make delegating routine preparation valuable even when the approver is quicker at preparation too. But the preparation must actually be delegable. A table cannot remove a required check, transfer responsibility by implication or create permissions that do not exist."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Let us introduce coordination costs in a measurable way. Under our original partial plan and exchange, Nora finishes with twelve cards and seven maps, Eli with six cards and four maps. The combined gain over baseline is two cards and one map. Suppose packaging the exchanged work consumes twenty minutes of Nora's card-making time. At six cards an hour, twenty minutes costs two cards. The production gain in cards disappears, leaving the same total cards as before and one extra map. There may still be a beneficial exchange, but the margin is smaller."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Show the revised bundles rather than relying on the totals. Nora's production falls from eighteen cards and three maps to sixteen cards and three maps. Eli still makes eight maps. If Nora now exchanges four cards for four maps, she ends with twelve cards and seven maps, while Eli ends with four cards and four maps. Nora gains one map and Eli exactly matches his baseline. That establishes a possible improvement for Nora with no reduction for Eli, assuming Eli accepts indifference and no further costs exist. It does not establish a strict gain for both."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Add twenty minutes of Eli's map-making time to the same packaging process. He loses two thirds of a map set at his two-per-hour rate. Fractional sets are allowed in this thought experiment as divisible equivalent work, although actual finished sets might require rounding. His output falls to seven and one third maps. Giving Nora four maps leaves him three and one third, below his original four. The earlier exchange no longer protects his baseline. We must redesign the exchange or production plan rather than quietly omit the lost time because it is inconvenient."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "This example also reveals why total extra output in unlike goods cannot simply be added as if all units were equivalent. Two extra cards plus one extra map is not automatically three units of benefit. The items serve different purposes. Similarly, losing two thirds of a map cannot be compared with saving two cards without knowing the relevant substitutions or preferences. We can compare bundles directly when one has at least as much of everything, or use an explicit valuation when it does not. Hiding that valuation inside an unlabeled total creates false precision."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "A useful alternative is to work backwards from a required bundle. Suppose the two events together require sixteen cards and ten maps, exactly the original total. Eli can make eight maps in four hours. Nora can make the remaining two maps in forty minutes and sixteen cards in two hours and forty minutes. Her total is three hours and twenty minutes. The required bundle therefore takes seven hours and twenty minutes between them, leaving forty minutes of Nora's time unused. Here the gain can be described in time while holding output fixed, rather than by assigning a value to extra objects."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "That forty-minute saving is a gross saving before coordination. If the rearrangement requires twenty extra minutes of Nora's time and ten extra minutes of Eli's time, it consumes thirty person-minutes of the gross saving. But Eli's original four hours were already fully occupied making maps. We cannot simply deduct ten from forty and declare the plan feasible under each person's four-hour limit. Eli has no spare ten minutes. Some map production must move back to Nora, whose alternative cost differs. Individual capacity constraints matter even when the combined time arithmetic looks favourable."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Recalculate it. Eli spends ten minutes coordinating and three hours fifty minutes making maps. At two maps an hour, that yields seven and two thirds maps. Nora must make two and one third maps, taking forty-six and two thirds minutes. Her sixteen cards take a hundred and sixty minutes, and her coordination takes twenty. Her total is two hundred and twenty-six and two thirds minutes, leaving thirteen and one third minutes out of her four hours. They can still meet the original bundle, but the usable time saving is smaller than a naive subtraction suggested."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "We do not need awkward fractions every time we allocate a real task. Their purpose here is to expose a mistake: treating everybody's minutes as interchangeable when their production alternatives differ. A practical planning sheet can keep each person's time budget separately and include setup, checking and handover rows. If the whole task must finish by a particular deadline, the order of work matters too. Ten minutes waiting for information may delay the final delivery even if nobody is actively working during that wait. Labour time and elapsed completion time answer different questions."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Consider a simpler deadline case. Nora makes the cards and Eli makes the maps, but the card design needs the final map illustration before Nora can start. A plan that assumes both begin independently may fail. They could first agree a small shared specification so Nora can start the card layout while Eli completes the maps. Or the dependency may be unavoidable and the extra output irrelevant before the deadline. Comparative advantage tells us how to compare alternative uses of time; it does not by itself supply a schedule that respects every information dependency."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Quality changes the denominator as well. Suppose an hour's six nominal card sets from Nora includes two sets that need substantial correction, while Eli's two are accepted immediately. We should not automatically treat the nominal rates as six and two usable sets. We need a common completion standard and the time required to reach it. If correction is done by someone else, that time belongs in the system too. An apparent production advantage can come from transferring unfinished work downstream. Comparing accepted output under the same conditions avoids rewarding a shortcut that merely moves effort out of view."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "The opposite mistake is to demand identical methods when the result is equivalent. Nora may use a template and Eli may draw by hand. If both deliver the same required quality, their different methods can legitimately produce different rates. We need equivalence of the relevant outcome, not necessarily identical movements or tools. If the hand-drawn maps have an extra artistic value that the client wants, however, they are no longer the same product for this comparison. Then we must name the quality difference and decide whether that extra feature is worth the time it takes."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Third recall question. Why can an exchange that improves the production totals still fail once handovers are included, and why is adding everybody's minutes together sometimes insufficient? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Handovers use resources that could have produced useful output, so they can consume the gain created by reassignment. A total time budget can also conceal that one person's hours are full while another person's are spare. Their minutes have different alternatives and may not substitute one for one. The answer is to include coordination and quality work explicitly, then check each person's available time and any sequencing constraints. The simple comparative advantage calculation remains informative, but it needs to sit inside a feasible plan rather than replace the rest of that plan."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "There is another complication: today's ability can be changed by today's assignment. If Eli never makes cards, he may never learn the template that would improve his card work. If Nora always handles the difficult illustration, nobody else develops that skill. Our first calculation held rates constant across the four hours and beyond. A training decision changes future rates, so its benefits cannot be represented by current output alone. It may be sensible to sacrifice some output now to create more options later. That is an investment in capability, not a refutation of opportunity cost."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Use a deliberately modest hypothetical. An hour of guided practice could let Eli make three card sets an hour rather than two on later sessions. We are stipulating that improvement for the example, not predicting a real learner's response. During the training hour, Eli gives up two maps if maps were his best alternative. Nora may also give up card production while teaching. Future benefits depend on how often Eli actually needs to make cards and whether the improvement persists. If he will never make another card, the claimed productive return on that training is absent."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Suppose Nora spends half an hour teaching, displacing three card sets, while Eli spends one hour learning, displacing two map sets. Those costs are expressed in different goods. To judge a training return, we need a future schedule or an explicit value for the displaced work. Simply saying that the lesson costs one and a half hours and saves one card per future hour is not yet a complete comparison. Whose time is saved, which alternative becomes available, and how much future card work exists? Training analysis becomes clearer when these questions are kept separate."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "We can use a fixed-output case again. Before training, Eli needs three hours to make six card sets. After training, at three per hour, he needs two hours. Each later batch of six therefore releases one hour of his time. If the only training cost were his own one hour and there were no teacher time or materials, one such batch would recover that time cost. With Nora's teaching included, the comparison is no longer captured by Eli's payback alone. The example illustrates why a training proposal should state whose resources bear the initial cost and whose resources gain later."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Learning is not the only reason to retain some work outside the narrow specialisation. Suppose Eli is the only map maker and becomes unavailable for a day. Nora can still make maps, but perhaps a design file or customer instruction sits only on Eli's machine. Keeping a shared specification and occasionally completing a map independently can protect continuity. That may reduce today's maximum output. The relevant comparison includes the value of being able to deliver under disruption. We need not invent a probability of absence to recognise the dependency and identify what would happen if it occurred."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Nor does resilience necessarily mean duplicating everything. It could mean documenting a process, agreeing a substitute supplier, keeping a small reserve of finished work or learning one critical step. Each option uses different resources and covers different failures. A spare map file helps if a computer fails, but not if the event details change. A second trained person helps with absence, but may still depend on the same printer. Specify the disruption before claiming that a backup solves it. Otherwise resilience becomes an attractive word attached to costs whose purpose has not been examined."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Preferences about the work itself also belong in the decision. Eli may enjoy cards and dislike spending all afternoon on maps. Nora may want to practise illustration for reasons unrelated to current output. We can still calculate the extra two cards and one map from reassignment, then ask whether that gain justifies the change for both people. There is no need to pretend their preferences are irrational because they are absent from the production table. A voluntary arrangement may deliberately retain variety and produce less than the technically largest feasible bundle."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "This matters when the reasoning moves from two independent people to a workplace with unequal authority. A manager may capture the benefit from higher output while a worker bears more repetition or a less desirable schedule. The fact that a gain exists in aggregate does not demonstrate that the actual arrangement distributes it fairly. Our exchange example explicitly showed each person's final bundle. That is the discipline to preserve: identify the people affected, their alternatives and what they receive. A statement about total production should not quietly become a statement about everyone's welfare."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Even in the friendly workshop, bargaining changes who gets the extra goods. At one and a half cards per map, the exchange we chose left Nora with one extra map and Eli with two extra cards. Another rate could divide the gain differently, provided quantities and constraints still fit. Comparative advantage does not select a morally correct bargaining rate. It identifies a range within which exchange can beat particular production alternatives under the model. Fairness, bargaining power, prior commitments and other options require additional reasoning. A technical range is not a complete ethical standard."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Imagine Eli has already promised four map sets to his own event. Nora offers to buy seven of his eight maps. The price may look favourable per map, but accepting would leave Eli unable to meet his promise. His available quantity for exchange is constrained by that commitment. He could reject, offer fewer maps or seek another source. A model that ignores the commitment makes the trade appear more attractive than it is. Opportunity cost includes the relevant forgone alternative, and that alternative may involve fulfilling an existing obligation rather than maximising a simple count."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Now introduce an outside option without making a recommendation to buy anything. A fictional third workshop can provide a map set in exchange for one and a quarter card sets, including delivery. Nora compares that with making a map at a cost of two cards, so the outside offer is attractive within the assumptions. Eli's opportunity cost is one card per map. He could potentially offer maps for less than one and a quarter while still gaining relative to his own production alternative. The outside option narrows the bargaining space between Nora and Eli."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "If that outside workshop requires a large minimum order, the quoted rate may not be available for Nora's small need. If delivery arrives after the event, it is not a usable alternative at all. If the map does not meet the agreed standard, it is a different good. This is why an opportunity cost must be based on a feasible alternative, not the best number found anywhere. A price displayed without quantity, timing and quality conditions can mislead just as much as a production rate without setup and correction time."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Money can express some comparisons, but it does not make the conditions disappear. Suppose a fictional designer could use an hour for a confirmed paid assignment, or spend it preparing a routine internal document. The fee is relevant only if the assignment is actually available, the hour is usable for it and the necessary costs are included. An aspirational hourly rate is not automatically the value of every spare hour. We are explaining the structure of a comparison, not recommending that a listener outsource work or make a financial commitment based on an invented rate."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "An idle hour changes the story. If Nora has no remaining demand for cards and no other valuable use for the time, the forgone-card comparison may no longer describe the relevant alternative at the margin. She may as well make maps that are useful, even if Eli has the lower card cost in the original table. The original ratio remains a technical relationship, but the value of the displaced output depends on whether that output matters. A capacity table and an order book supply different information; a sensible assignment uses both."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Similarly, Eli's comparative advantage in maps does not mean he must refuse every card task. Once enough maps are finished, his next best use of time may be cards. Or Nora may be fully occupied making a limited batch of specialised cards that only she can complete. Comparative advantage is often used badly as a permanent command to do one thing. It is more useful as a comparison for the next feasible reallocation. Demand, capacities and constraints determine how far that reallocation should go before another choice becomes better."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Fourth recall question. Eli's map speed stays at two sets an hour, but his card speed rises from two to six. Can his comparative advantage change even though he has not become any slower at maps? Explain. Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Yes. A map now uses time that could make three cards instead of one. Nora still gives up two cards per map, so she becomes the lower opportunity-cost map maker in that revised example. Eli's improved alternative changes the cost of map work. Comparative advantage is relative to other feasible activities, not a permanent characteristic of a person. The same principle explains why training, new tools, different demand and newly available assignments can change a sensible allocation even when the physical task being considered has not changed at all."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Let us test the idea with a different setting so that the card numbers do not become the definition. Two volunteers, Amira and Joel, are preparing an exhibition. In an hour Amira can check four caption sheets or assemble two display stands. Joel can check three caption sheets or assemble three stands. Assume the sheets and stands meet the same standards and the activities are independent. Amira is faster at checking captions, Joel at assembling stands. This case is less surprising because the absolute advantages already point in different directions, but we should still calculate the opportunity costs."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "For Amira, a stand costs two caption sheets, because her hour trades four sheets for two stands. For Joel, a stand costs one caption sheet, because his hour trades three sheets for three stands. Joel has comparative advantage in stands. A caption sheet costs Amira half a stand and costs Joel one stand, so Amira has comparative advantage in captions. An exchange of one and a half caption sheets per stand would lie between their production trade-offs. Whether they need to exchange personally or simply cooperate on a shared exhibition is a separate organisational detail."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Suppose they each have two hours, and the exhibition needs six stands and eight caption sheets. Joel can make the six stands in his two hours. Amira can check the eight caption sheets in hers. The requirement is met exactly. If both instead divide their time equally between activities, Amira makes four caption sheets and two stands, while Joel makes three caption sheets and three stands. That produces seven sheets and five stands, short of both requirements. Here the allocation difference determines whether the stated job fits the available time at all."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "But now suppose a stand must be assembled before its caption can be checked in place. The requirement may still fit four person-hours, yet the original parallel schedule is no longer possible. Amira cannot begin all her checking before Joel has produced anything. They may need an earlier start, staged handovers or a different definition of checking that allows preparatory work. We have changed a constraint, so the earlier conclusion must be revisited. This contrasting case prevents us from confusing an efficient allocation of total work with a feasible sequence of dependent steps."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "There is also a measurement issue in calling the caption task the same for both people. Perhaps Amira checks factual accuracy and Joel checks spelling only. Their output rates then describe different work. Before using the comparative calculation, define the completed task: which checks, what acceptance standard, what level of uncertainty and what happens to a doubtful caption. It is better to have a rough rate for a clearly defined job than a precise rate for two different jobs sharing a label. Otherwise the elegant ratios compare unlike quantities and cannot support the proposed allocation."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Our examples have straight production boundaries because rates stay constant. Real tasks can have changing marginal costs. The first map might use a ready template, while later maps require new illustrations. Nora might make the first six card sets quickly and then face a complicated custom batch. In such a case, one ratio for the whole afternoon hides the order of opportunities. Compare the next unit or batch under the actual conditions. The lowest opportunity-cost assignment for the first batch need not remain the lowest for every later batch."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "An invented three-batch example makes that concrete. A team must prepare three illustration batches. Nora would forgo two card sets for each batch. Eli would forgo one card for his first batch, two for his second and four for his third, because the later work is less familiar. Allocate the first batch to Eli. For the second, their stated card costs are equal. For the third, Nora's cost of two is lower than Eli's four. The rule operates at the margin. It does not require sending all three batches to the person with the cheapest first batch."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "If there is a setup cost for Nora to begin illustration at all, that marginal comparison needs a further step. Suppose her setup displaces three cards, in addition to two cards per batch. One batch with Nora costs five cards including setup; two batches cost seven; three cost nine. Eli's three batches together cost one plus two plus four, also seven. Splitting one batch to Eli and two to Nora costs one plus seven, or eight. In this revised example, concentrating the three batches with Eli costs fewer cards than that particular split."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "That does not invalidate the earlier marginal logic. The setup cost means the decisions are linked: assigning the first batch to Nora changes the cost of assigning another because the setup is already paid. We must compare complete feasible plans when there are such links. A greedy rule that always picks the currently cheapest isolated unit can miss a better overall arrangement. We have moved from a constant-rate model to a small scheduling problem with a fixed cost. Naming the new structure tells us why the original shortcut stopped being sufficient."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "There is a parallel danger in treating past expenditure as if it were a future alternative. If Nora has already completed an irreversible setup, those three cards cannot be recovered by refusing the next batch. For the next decision, the setup is sunk, though it still matters in evaluating whether the original plan was worthwhile. Future avoidable effort belongs in the forward comparison. This distinction does not justify pretending the setup never happened; it separates evaluating a past choice from choosing the best available action now, when the past cannot be changed."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "For an optional paper exercise, invent two people and two safe, ordinary tasks, such as sorting picture cards and folding paper labels. Do not time someone else or assign them work. Give each person an imagined hourly output for either task, and write down the same completion standard. Start with the Nora and Eli rates if inventing numbers feels distracting. Calculate what one unit of each task displaces for each person. Label the quantities explicitly, such as cards per map, so that a reversed fraction cannot pass unnoticed as a plausible number."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Next give each person a fixed amount of time and make a baseline plan. Record each person's output separately, not just the total. Move a small block of time toward the lower opportunity-cost activity and calculate what increases and decreases. If the total bundle improves, propose an exchange that leaves each person with at least their baseline quantities. If no such exchange fits, identify whether the issue is the production plan, desired quantities, available time or your chosen exchange rate. A failed example can teach the constraint more clearly than a polished slogan."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Then add one realistic complication on paper. Choose a handover taking ten minutes, a minimum batch size, an unavailable tool or a person who wants to practise the other task. Recalculate rather than merely listing the complication at the end. For a preference such as practice, you may not have a numerical value. In that case, state the output sacrificed and leave the value judgment visible. The aim is a transparent comparison with known limits. No purchase, outsourcing decision, workplace instruction or real trade is needed for this exercise."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Keep a short explanation beside the arithmetic. Say which assumption makes the result work and which change would reverse it. In our original workshop, constant rates, comparable quality and costless coordination support the gain. Improving Eli's card alternative enough reverses the comparative ranking. Large coordination costs can consume the gain, and insufficient demand can make extra output unwanted. These are different reasons, with different remedies. Better handover design addresses a coordination cost; it does not create demand or automatically improve a worker's opportunity to learn another task."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "Fifth recall question. Nora and Eli's original partial plan produces eighteen cards and eleven maps instead of sixteen cards and ten maps. What else must you show before saying both people benefit, and name one condition that could erase the gain? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain ratios in words. Distinguish Ricardo’s historical argument from the original hypothetical workshop cases.",
+      "t": "You must show a feasible allocation or exchange that improves each person's bundle relative to their alternative, or explicitly explain the preferences needed if a bundle contains less of something. Our six-cards-for-four-maps exchange leaves Nora twelve cards and seven maps, and Eli six cards and four maps, so both gain without losing either good. Handover time, correction work or an unmet dependency could erase that result. Comparative advantage makes the alternatives visible. Its practical strength comes from combining that comparison with real quantities, feasible exchange and an honest account of who receives the benefit."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-10-14",
+    "spoken_words": 7010,
+    "sha256": "3485d9f6863022296568fc5b936bc3e289dfba50770209756da6626d6070a7bd",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.gutenberg.org/files/33310/33310-h/33310-h.htm"
+    ]
+  }
+}
