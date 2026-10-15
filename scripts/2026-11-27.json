@@ -1,0 +1,421 @@
+{
+  "date": "2026-11-27",
+  "title": "[Economics] Externalities: The Costs Missing from the Invoice",
+  "summary": "A full introduction to private and social costs, marginal decisions, external benefits and alternative remedies. Original fictional workshop cases compare output reductions, charges, a sound enclosure, schedules, bargaining and standards. Develops transfer versus resource accounting, distribution, uncertainty, measurement and implementation costs. All numerical valuations are teaching assumptions. Five recall questions with seven-second pauses and answers, plus a paper-only application.",
+  "instructions": "Start with the workshop order. Assume no prior reading or mastery. Both voices teach substantive mechanisms and contrasting cases. Explain that numbers are hypothetical, monetary totals do not settle rights or fairness, and actual legal entitlements are not determined here. Preserve the five seven-second pauses and following answers. No filler or artificial slowing.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "A furniture workshop accepts an extra order for six tables. The customer gets the tables, the workshop earns money, and the people in the flat above spend another evening listening to a sander. Nobody asked them to join the transaction. Their lost quiet does not appear on the invoice. That missing entry is the starting point for externalities: effects of a decision on other people that the decision maker does not fully face through the arrangements governing that decision. We will use an imaginary workshop to see how a profitable order can still be a poor use of resources, and how changing the arrangement can change the answer."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "The noise matters even if everybody involved is ordinarily considerate. We do not need to begin with a villain. Suppose the owner knows that electricity, wood and paid labour cost money, because bills arrive for each of them. Quiet in the upstairs flat has no corresponding line in the workshop accounts. If the owner compares the customer's payment only with those bills, an important consequence disappears from the calculation. Economics calls that consequence an external cost. External means outside the decision's private accounting or contractual arrangement. It does not mean outside the building, outside the country or too distant to matter."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "There can also be external benefits. Imagine that the workshop develops a clear method for repairing a particular joint and shares the instructions freely. Other repairers may save time without paying the workshop. The original repairer receives some benefits, such as solving its own problem, while other people receive additional benefits. These two cases point in opposite directions. Ignoring costs imposed on others can encourage too much of an activity. Failing to receive rewards for benefits given to others can discourage an activity. Those are tendencies in a simplified model, not automatic verdicts on every business or every act of sharing."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "The foundation is a distinction between private and social effects. Private effects fall on the person or organisation making the choice. Social effects include those private effects and the relevant effects on others. Social does not mean that a government receives the money. It means we have widened the boundary around the calculation. The workshop's wood and labour still count after we widen it. We add the neighbours' loss rather than replacing the workshop's costs with somebody else's concerns. Otherwise we would make the opposite mistake and pretend that supplying useful furniture consumes no resources."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Arthur Cecil Pigou examined divergences between private and social returns in The Economics of Welfare. The edition consulted for this lesson is the fourth edition, published in nineteen thirty-two, specifically its discussion of those divergences. The broad insight is that incentives directed at private returns need not produce the best combined outcome when relevant effects fall elsewhere. We are not reproducing his historical examples or treating a century-old book as a current policy manual. Our workshop, numbers and proposed arrangements are invented teaching cases. Modern introductory treatments from CORE Econ, OpenStax and the International Monetary Fund support the basic distinctions we will use."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Let us make the workshop problem small enough to calculate without a graph. It can accept up to five additional production batches this week. Each batch brings a benefit to customers that we will represent in pounds. The first batch is worth one hundred pounds, the second eighty, the third sixty, the fourth forty and the fifth twenty. Making each batch uses thirty pounds of resources. Assume these figures represent the relevant opportunities forgone and that no other effects exist for now. This is an artificial world with complete information. Its purpose is to let us inspect the reasoning before we discuss what real information leaves out."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "The declining benefits have a simple interpretation. The most urgent order is filled first. The next order is somewhat less valuable, and later ones less valuable still. We are not saying that the physical fifth table is intrinsically inferior. We are ranking uses of additional production. If a shelter urgently needs one table and a store would merely like another display table, supplying the urgent use first can yield a larger benefit. In this example those rankings are known. Real businesses face prices, contracts and imperfect demand estimates rather than a perfect list of social values."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "For the first calculation, imagine buyers can pay those stated amounts and the workshop can capture them. That makes the private calculation deliberately transparent. The net returns on the five batches are seventy, fifty, thirty, ten and minus ten pounds. We obtained each number by subtracting the thirty-pound resource cost from the corresponding benefit. The workshop accepts the first four batches and rejects the fifth. Four batches produce benefits of two hundred and eighty pounds and use one hundred and twenty pounds of resources. The resulting private net gain is one hundred and sixty pounds."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Now add the missing neighbours. Every batch creates twenty-five pounds of disturbance in our hypothetical accounting. This is not a claim that an evening's quiet has a universal market price. We are stipulating a value to explore the model. The relevant social cost per batch becomes fifty-five pounds: thirty in production resources plus twenty-five in disturbance. The five net social gains are therefore forty-five, twenty-five, five, minus fifteen and minus thirty-five. The first three batches add positive net value under these assumptions. The fourth and fifth subtract it. The preferred quantity in this narrow calculation is three batches."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Notice the problem with the fourth batch. It gives a customer forty pounds of benefit and consumes thirty pounds of production resources, so the private comparison looks favourable by ten pounds. But it also imposes twenty-five pounds of disturbance. Once that is included, forty pounds of benefit is being obtained at fifty-five pounds of total cost. The loss is fifteen pounds. Nothing mysterious happened to the arithmetic. A choice that looked worthwhile from one boundary looks wasteful from a wider boundary because a real consequence was omitted from the first account."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "At three batches, total benefits are two hundred and forty pounds. Resource costs are ninety and disturbance costs are seventy-five. Subtract both and we get seventy-five pounds of net social gain. At four batches, total benefits are two hundred and eighty, resource costs one hundred and twenty, and disturbance one hundred. The net social gain is sixty pounds. Reducing output from four to three therefore increases the calculated combined gain by fifteen pounds. That is precisely the negative contribution of the fourth batch. Looking at totals and looking at the additional batch tell the same story."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "This is why the word marginal matters. Marginal means the change associated with an additional unit or a small change in activity. It does not mean trivial. The marginal social cost of one more batch includes the extra resource use and the extra disturbance it causes. An average cost divides an accumulated total by the number of batches. Those answer different questions. If you are choosing whether to accept the next order, the consequences of that next order matter. Historical spending on a machine may be relevant to whether the workshop exists, but it need not change when one more order arrives."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Try the first recall question. In our example, why does the fourth batch look worthwhile to the workshop but reduce the combined net gain when neighbours are included? Think through the benefit, the workshop's resource cost and the additional disturbance.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "The fourth batch gives forty pounds of benefit and costs thirty pounds in production resources, leaving a private gain of ten. It also causes twenty-five pounds of disturbance. Its total relevant cost is therefore fifty-five pounds, fifteen more than its benefit. The external cost changes the decision. The important step was to count the extra consequence imposed on people outside the transaction. We did not conclude that all production should stop, because the first three batches still have positive net social contributions in this particular model."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "That last qualification prevents a common misunderstanding. Identifying an external cost does not, on its own, establish the appropriate remedy or quantity. A noisy activity might be extremely valuable, easily moved, cheaply quieted, or so damaging that it should not occur in that location at all. Our invented numbers favour three batches under the current technology. Different values could favour zero or five. A diagnosis identifies something missing from the decision. Choosing a response requires a comparison among feasible alternatives, including how much each response costs and whom it affects."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "There is a second misunderstanding worth removing early. The customer paying the workshop is not automatically another social cost on top of the resources used. Within our simplified boundary, that payment moves money from buyer to seller. The wood, time and energy used are resource costs; the price is a transfer between participants. If we add the price to the resource cost and then also count the seller's revenue as a benefit, we create unnecessary bookkeeping that should cancel out. If we add the price as a cost but forget the corresponding receipt, we bias the result against trade."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "We can see that with a single batch. Suppose its benefit is one hundred pounds, its resource cost thirty, and its agreed price seventy. The buyer gains thirty relative to the value received, while the seller gains forty after resource costs. Together they gain seventy, exactly one hundred minus thirty. The seventy-pound payment divides the gain; it does not destroy seventy pounds of resources. Add twenty-five pounds of disturbance to the neighbours and the combined net gain falls to forty-five. The payment determines who receives the gains, while the external disturbance changes their total in our calculation."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Distribution still matters. A transfer may not destroy resources, but losing money can matter enormously to the person who pays it. Saying that a payment cancels in an aggregate accounting identity is not saying that the payer and recipient are equally wealthy, equally secure or equally deserving. The identity is narrow. A policy that increases the total calculated benefit can leave particular people worse off. We must distinguish the size of the combined gain from its distribution, and then ask which distribution is acceptable. Arithmetic can show the distinction; it cannot decide the ethical question for us."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Our use of pound values also needs care. Willingness to pay depends partly on ability to pay. A wealthy neighbour may offer a large amount for quiet while a poorer neighbour suffers just as much but cannot offer the same money. A calculation based only on bids can therefore reflect income differences as well as the intensity of people's experiences. We will keep pound values as explicit assumptions in the teaching example. In a real decision, identifying health, rights, access and unequal burdens can require constraints and evidence that are not adequately represented by a single monetary total."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "One possible response is to make the workshop face a charge for each noisy batch. Suppose that charge is twenty-five pounds. Its private cost for an additional batch now becomes fifty-five pounds, matching the social cost in our simplified example. The workshop's net returns become forty-five, twenty-five, five, minus fifteen and minus thirty-five. It chooses three batches. A charge aligned with the external cost can change the incentive that produced the excess batch. The textbook name for this kind of corrective charge is a Pigouvian tax, after Pigou. This is an illustration of its logic, not advice about any actual tax system."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "The tax payment itself does not remove the noise. At three batches, neighbours still experience seventy-five pounds of disturbance in our stipulated account. The government receives seventy-five pounds in revenue. Those are different entries. The revenue could be used in many ways, and it does not automatically reach the neighbours. If someone claims that the external harm has disappeared because the producer paid a charge, they have confused paying with preventing. In our example the improvement came from eliminating the fourth batch, not from magically converting the remaining noise into silence."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Likewise, we should not subtract both the tax and the same disturbance from total social value while ignoring the recipient of the tax. The workshop pays seventy-five pounds, but another institution receives it. That transfer does not by itself consume seventy-five pounds of resources. Collecting and administering a tax can consume resources, and those should be counted separately. The disturbance also remains a real cost. A clear account distinguishes the incentive payment, the administrative effort and the physical consequence. Mixing them together can make a sensible policy appear either better or worse than it is."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "A flat fee behaves differently. Suppose the workshop pays one hundred pounds per week regardless of whether it makes one batch or five. Once the fee is unavoidable for the week, accepting another batch does not increase that fee. The next-batch comparison still includes thirty pounds of production resources and excludes the twenty-five pounds of disturbance. The fee may affect whether the workshop opens at all, but it does not create the same marginal incentive as a charge per noisy batch. The timing and basis of a charge matter as much as its headline amount."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "There is another way to change the account: reduce the harm rather than reduce production. Suppose a removable sound enclosure costs forty pounds for the week and lowers disturbance from twenty-five pounds to five pounds per batch. Keep all other assumptions unchanged. With the enclosure, the total cost per additional batch becomes thirty-five pounds, plus the fixed forty-pound enclosure cost for the week. The fourth batch now gives forty pounds of benefit against thirty-five pounds of additional cost. Its marginal social contribution is positive. The fifth still gives only twenty against thirty-five and remains unattractive."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "At four batches with the enclosure, benefits are two hundred and eighty pounds. Production resources cost one hundred and twenty. Residual disturbance costs twenty, because there are four batches at five pounds each. The enclosure costs forty. Total net social gain is one hundred pounds. Compare that with seventy-five pounds from three unenclosed batches. The enclosure and fourth batch together improve the total by twenty-five pounds. A rule that fixed production permanently at three could miss this better arrangement. The available technology changes which quantity is desirable."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "But a charge on output can fail to reward that change properly. If the workshop pays twenty-five pounds for every batch regardless of its noise, fitting the enclosure does not lower its tax bill. It pays for the enclosure and still faces the old charge. A charge linked more closely to the harmful effect could reward quieter production. Measurement becomes important here. Counting tables is easy; measuring the disturbance actually reaching neighbours can be harder. A simple proxy may be administratively convenient while giving an imperfect incentive. That is a design trade-off, not a reason to assume any measurable proxy is good enough."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "The second recall question is about charges. Why can a fee paid once per week fail to discourage the fourth noisy batch, while a charge for each noisy batch can change that decision? Keep the distinction between total payments and the next decision in mind.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "The weekly fee does not increase when the workshop adds the fourth batch, so it may not enter that marginal comparison. A charge per batch does increase. In our original case, adding twenty-five pounds to the thirty-pound production cost makes the fourth batch cost fifty-five against a forty-pound benefit. The workshop then rejects it. A fixed fee can still influence opening or closing decisions, but that is a different margin. To understand an incentive, identify exactly which action changes the payment and which action leaves it unchanged."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Instead of a charge, neighbours and the workshop might agree on a schedule. Suppose sanding during an agreed afternoon causes five pounds of disturbance per batch because the affected rooms are otherwise unused, while evening sanding causes twenty-five. If the workshop can move four batches to that afternoon without losing customers or increasing other costs, the combined outcome improves substantially. We have changed the timing rather than the total quantity or the machine. This possibility was absent from the first model. Good problem definition keeps looking for the actual harmful link, because remedies work through that link."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "A schedule can also shift a burden to someone previously ignored. Perhaps another neighbour sleeps during the afternoon after night work. Moving the sanding could help one household and harm another. Calling the new time quiet hours would not establish that it is quiet for everyone. The original boundary must expand again if relevant people were omitted. This is why practical consultation involves identifying who is affected and when, not merely counting how many complaints arrived. People may have unequal opportunities to attend a meeting or make their situation visible."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Private bargaining is another possible arrangement. For a deliberately simple case, let us return to the fourth unenclosed batch. It gives the workshop and customer a combined gain of ten pounds while imposing twenty-five pounds of disturbance on neighbours. If those parties can reach an enforceable agreement at negligible cost, there is room for an arrangement that prevents the batch and makes the relevant participants better off. A payment somewhere between ten and twenty-five pounds could compensate the party giving up the ten-pound gain while leaving neighbours better off than enduring twenty-five pounds of disturbance."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "That example requires us to specify who has what entitlement before bargaining. If the workshop is allowed to proceed without paying, neighbours might offer it money to stop. If neighbours have an enforceable entitlement to quiet, the workshop would need their consent to proceed, and the ten-pound gain cannot cover their assumed twenty-five-pound loss. Both idealised routes can point toward stopping the fourth batch, but they distribute money and bargaining power differently. We are describing hypothetical entitlements. Actual property, nuisance and planning rules depend on jurisdiction and facts, and this lesson does not determine anyone's legal rights."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "The bargaining arithmetic is easy because we have supplied facts that real negotiators may not know. The workshop's gain might be private information. Neighbours may disagree about the disturbance. Each side could exaggerate its own cost to obtain a more favourable payment. An agreement might need monitoring, enforcement and a way to handle future changes. If arranging the deal consumes more than the fifteen-pound gain available from stopping the fourth batch, that particular bargain no longer produces a net improvement. A theoretically available gain does not guarantee that people can capture it cheaply."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Numbers of participants make a difference too. If one workshop affects one household, identifying and bringing together the parties may be straightforward. If hundreds of workshops affect thousands of households, negotiating a separate agreement for every relationship can become cumbersome. Some beneficiaries may wait for others to pay. Some participants may withhold agreement in hope of receiving more. People who are not yet present, including future residents, cannot easily take part. None of these problems makes cooperation impossible in every case. They explain why the conditions of a simple bargaining story should be stated rather than silently assumed."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "A cooperative building arrangement could reduce those costs. Imagine a shared workshop with a residents' committee that already meets, keeps minutes and manages access. Agreeing on a sanding schedule may require less new organisation than creating a citywide noise market. Existing institutions can make some agreements feasible. But the committee might represent only owners and exclude tenants, or favour people who attend regularly. A low transaction cost is useful, yet it is not enough to establish fair representation. We need to inspect both how easily a decision can be made and whose interests the procedure includes."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "A direct rule might instead prohibit sanding after a specified hour. Such a rule is a form of a standard: it constrains behaviour rather than putting a price on every unit of harm. It may be simple to understand and enforce. It may also be too blunt if some machines are almost silent while others are disruptive, or if a particular location has very different conditions. A performance standard could specify the outcome to achieve, while an equipment requirement could specify a device to use. These approaches leave different amounts of flexibility to the workshop."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "For a small example, suppose two workshops must each reduce one unit of disturbance. One can do so with a ten-pound adjustment, while the other needs a fifty-pound adjustment. Equal reductions cost sixty pounds. If the first workshop can reduce a second equivalent unit for twenty pounds, achieving the same total reduction entirely there costs thirty pounds. That is a possible saving from flexibility. But we slipped in a crucial word: equivalent. If the second workshop's disturbance affects a different household, shifting all reductions to the first location may leave the second household's problem untouched."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "This is especially important when a total is easier to measure than its distribution. Two units of noise avoided in one room may not substitute for two units avoided beside another person's bed. An aggregate target can conceal a local concentration of harm. Before treating reductions as tradable, we must ask what makes them comparable. The answer depends on the physical process, location, timing and people affected. A convenient unit of account does not prove that the underlying experiences are interchangeable. The model has to earn that simplification through evidence or a clearly limited purpose."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "For genuinely comparable units in a hypothetical system, tradable permits provide another way to organise reductions. An authority fixes the permitted total, and participants can trade permissions within the rules. A workshop with cheap ways to reduce its use may sell a permission to one facing higher reduction costs. The total constraint and the trading arrangement perform different jobs. The constraint determines what is permitted; trading can influence where adjustments occur. Monitoring is still necessary, and a permit is not evidence that the chosen total or initial distribution is ethically satisfactory."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Compare that with a charge. In a simple charge system, the price of the harmful action is set and participants choose how much to do. In a simple permit system, the permitted quantity is set and a trading price can emerge. Neither description means that outcomes are certain. Authorities can mismeasure activity, participants can respond unexpectedly, and enforcement can fail. The distinction is useful because uncertainty may concern the response to a price or the cost of meeting a quantity. Choosing between instruments requires understanding which uncertainty is especially consequential in the particular setting."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Here is the third recall question. Two workshops can reduce disturbance at different costs. Why does finding the cheapest combined reduction not settle whether shifting all reductions to one workshop is acceptable? Identify what the cost comparison has left unresolved.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "The comparison leaves unresolved whether the reductions are equivalent and who remains exposed. A cheap reduction at one location may do nothing for people beside the other workshop. It also leaves open the acceptable total and the distribution of rights or payments. Cost effectiveness means achieving a specified outcome with fewer resources. It does not establish that the specified outcome protects everyone adequately or distributes burdens fairly. We should keep those questions separate so that success on one measure does not masquerade as success on all of them."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Let us now reverse the direction of the spillover. A repairer could spend sixty pounds of time making a clear repair guide. Using it internally would save the repairer forty pounds. Other workshops would gain another fifty pounds if the guide were shared. Without any reward for those outside benefits, the author compares forty with sixty and declines. Across all affected parties, the stipulated benefit is ninety against a cost of sixty, leaving thirty pounds of potential net gain. The guide is underprovided in this little model because the author cannot capture enough of the benefit to cover the cost."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "A contribution from the other workshops could change that. If they collectively pay thirty pounds, the author receives forty pounds of internal benefit plus thirty in contributions, against sixty in effort. The author is ten pounds better off. The other workshops receive fifty pounds of benefit and pay thirty, leaving them twenty better off. Together the gains are thirty, matching the original ninety minus sixty. The payment divides the gain and makes the activity privately worthwhile. It does not create the fifty pounds of outside benefit; it creates a way for some of that benefit to support the author."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "But collecting the contribution may be difficult once everyone can read the guide without paying. Each workshop might prefer that others cover the cost. That is a free-rider problem: a person can benefit while avoiding a contribution, which can undermine provision. It is not a claim that everyone is selfish or that voluntary projects never work. Reputation, commitments, membership arrangements and shared purposes can support cooperation. The point is to identify a tension between the incentive of a single participant and the funding needed for the activity as a whole."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "One solution could be to sell access to the guide. That gives the author a way to charge beneficiaries, but it also changes who can use the information. If an extra reader imposes almost no additional copying cost, excluding someone who could benefit may sacrifice a useful opportunity. Charging can support creation while restricting access. Free access can support use while making creation harder to fund. A serious comparison asks how both creation and use are affected. It does not assume that either charging or giving everything away solves every part of the problem automatically."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "A grant could pay the author to produce the guide and release it openly. The grant still uses resources from somewhere, and selecting projects takes information and administration. If the guide would have been produced anyway, some of the payment may not generate additional work. If nobody uses it, the predicted benefits may not occur. A funding mechanism should therefore be examined through its actual change in behaviour and outcomes. In our invented case we know the guide would otherwise be rejected. Real programmes must investigate that counterfactual rather than simply equating expenditure with benefit."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "The counterfactual is the relevant alternative world: what would happen without the intervention? Suppose the repairer was already about to write the guide for a customer contract. A grant announced immediately beforehand may reward the same activity without causing it. That does not by itself prove the payment is unfair or useless, because the grant could change access or quality. It does show that counting every funded guide as a newly created guide would be mistaken. Evaluation needs a clear account of what changed, compared with what would probably have happened otherwise."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "We can also distinguish external benefits from an ordinary benefit to a paying customer. If someone pays the repairer to write instructions and receives them as agreed, that benefit belongs within the transaction. If another workshop learns from a freely circulating copy without being part of the arrangement, that is the potential spillover we have been discussing. The boundary is institutional, not simply physical. Two people in the same room can be outside each other's agreements, while people across continents can be parties to a contract that specifies benefits and responsibilities."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Not every disadvantage caused by somebody else's success is the same kind of externality. Suppose a better repair shop opens nearby and customers switch to it. The original shop loses sales. That loss matters to its owner, but it operates through market competition and prices rather than through unpriced noise or physical damage. Economists often distinguish these price-mediated effects from the external effects at the centre of our lesson. Otherwise every competitive improvement could be labelled a harmful spillover merely because an existing seller disliked losing business. The mechanism matters more than the fact that someone is unhappy."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Imagine the new shop also blocks a shared passage with deliveries. We now have two different effects. Winning customers through a better service is one. Making passage difficult for people who never bought the service is another. A response designed for the second problem might specify delivery times or keep the passage clear. Protecting the old shop from all competition would not be a targeted remedy for the obstruction. Separating mechanisms helps us avoid proposing an intervention that addresses a complaint's emotional force while leaving its actual cause poorly analysed."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "The same discipline applies inside an organisation. One team may save time by sending incomplete work to another team, which then spends hours repairing it. The company as a whole bears the repair cost, but the first team's performance measure may ignore it. Strictly speaking, this is not necessarily an externality outside the firm in the market model. It is a related boundary problem inside the organisation. The analogy is useful if labelled accurately: a local decision looks efficient because consequences fall outside the local scorecard, even though they remain inside the wider organisation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Suppose preparing a complete handover takes a designer fifteen minutes and saves a production team forty minutes. If the designer is measured only on how quickly files leave the desk, the incentive favours skipping the handover. Across both teams, the complete handover saves twenty-five minutes. A shared measure or a checklist could make that wider effect visible. Yet adding a checklist that takes an hour would reverse the gain. The mechanism does not tell us to add unlimited process. It tells us to compare the total consequences of a specific change, including the cost of the remedy itself."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Try the fourth recall question. A repair guide costs sixty pounds to create, gives its author forty pounds of benefit and gives other workshops fifty pounds. Why might it not be created, and how can a thirty-pound contribution from those workshops change that outcome without changing the total benefit?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "The author initially sees forty pounds of private benefit against sixty pounds of cost and rejects the project. A thirty-pound contribution raises the author's combined return to seventy, giving a ten-pound net gain. The other workshops gain fifty and pay thirty, leaving twenty. Together they gain thirty pounds, which is the ninety pounds of total benefit minus the sixty-pound creation cost. The contribution changes who pays and makes provision feasible. It does not alter the underlying total benefit or make the resources used to write the guide disappear."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "We have used exact numbers to reveal mechanisms, but real external costs often arrive as uncertain estimates. Return to the workshop's fourth batch, which has a ten-pound private gain. Suppose disturbance is plausibly between five and twenty-five pounds rather than known to equal twenty-five. At the low end, the batch creates a five-pound net social gain. At the high end, it creates a fifteen-pound loss. The decision changes across the plausible range. Reporting a single confident answer would hide a material uncertainty. A useful analysis would show the range and identify what information could narrow it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "If a modest trial could clarify the effect without exposing people to serious harm, it might be worth considering. For our fictional workshop, that could mean testing the enclosure during an agreed short daytime period and asking affected neighbours about the result. The trial would require consent and a clear stopping arrangement in the story. We are not recommending experiments with actual harmful exposure. The analytical point is that information can have value when it changes a decision, and its value must be compared with the cost and consequences of obtaining it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Suppose the enclosure test costs five pounds and can reliably tell the owner whether residual disturbance will be five or twenty pounds per batch. That information could change whether four batches with the enclosure are attractive. At five pounds per batch, we calculated a hundred pounds of net gain. At twenty pounds per batch, the same four batches produce two hundred and eighty in benefits, minus one hundred and twenty in production, forty in equipment and eighty in disturbance. The result is forty pounds. The enclosure is no longer better than the original three-batch option worth seventy-five."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "We cannot calculate the expected value of that test without additional assumptions, including the probabilities of those outcomes and what action would follow each result. Simply saying that information is useful does not tell us its maximum worthwhile price. If the result would never alter a decision, it may have little decision value in this model. If it would prevent a costly mistake, it may be valuable. This distinction encourages a precise question before collecting data: which possible result would make us choose differently, and why? Data collection should serve a decision rather than merely decorate it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Another difficulty is cumulative harm. Our original twenty-five pounds per batch assumed a constant additional disturbance cost. But the first hour of sanding might be manageable while an entire evening makes a room unusable. Alternatively, some disturbance may occur as soon as the machine starts, with little additional effect from a short extension. These patterns require different cost schedules. Averaging the total harm across all batches can conceal them. A charge or rule based on the wrong pattern can produce the wrong marginal incentive even if its estimate of last week's total harm happened to be accurate."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "To illustrate a threshold, imagine the first two batches each impose five pounds of disturbance, the third ten, and the fourth sixty because it extends work into a crucial quiet period. Keep the original benefits and thirty-pound production cost. The first three batches yield net gains of sixty-five, forty-five and twenty. The fourth yields forty minus thirty minus sixty, a loss of fifty. The threshold makes the fourth batch especially unattractive. We did not discover a universal law that harm accelerates. We changed an assumption and traced its consequences, which is the right way to use a model."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Timing also matters when effects persist. Noise may stop when a machine stops, while some other kinds of damage remain long afterward. A decision that has consequences over many years needs a time horizon long enough to include them. Leaving future effects out because they occur after this week's accounts close is another boundary error. Comparing present and future values introduces further assumptions, including how future benefits and costs are weighted. We will not hide those choices inside today's small arithmetic. The practical lesson is to state the horizon and identify effects that outlive it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Irreversibility changes what can be learned safely. If a mistake can be corrected cheaply, trying a modest reversible change can be more attractive than when a mistake cannot be undone. A temporary schedule in a fictional workshop is different from an action that permanently destroys something. This does not prescribe one universal level of caution. It explains why the same expected monetary figure can leave important decision features unresolved. The range of outcomes, their distribution, reversibility and severity can matter alongside an average estimate. A model should expose those features rather than erase them for convenience."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "We should also ask whether the apparent remedy displaces the harm. Suppose the workshop outsources sanding to a supplier across town. Its own neighbours get quiet, but another neighbourhood receives the noise. From the original building's perspective, the problem has been solved. From a wider perspective, it may merely have moved. If the supplier has better equipment and causes less disturbance, outsourcing could produce a real improvement. The address change alone does not establish that. We need to trace the physical effect and compare the whole chain, while avoiding claims beyond the evidence available."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "A similar issue arises with measurements. If a company is rewarded for reducing noise during the inspection hour, it might move noisy work to another hour. The recorded measure improves while the weekly burden does not. That is a hypothetical incentive failure, not an accusation about any particular company. To evaluate the arrangement, ask whether the measure captures the outcome we care about and whether participants can improve the measure without improving that outcome. The gap between a proxy and its purpose is often where unintended consequences enter a policy or an internal process."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Enforcement adds another layer. A well-designed rule on paper may have little effect if breaches cannot be observed or consequences are never applied. Conversely, checking compliance can consume time, equipment and money. In the workshop example, a simple agreed closing time might be easier to monitor than a continuously changing charge based on precisely measured disturbance. That practical advantage could outweigh some loss of theoretical precision. The best feasible arrangement must be compared with other feasible arrangements, not with an imaginary alternative that has perfect measurement, free administration and universal compliance."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "This is also why calling something a market failure is not a complete argument for a particular intervention. It identifies a reason the existing arrangement may perform poorly. The proposed replacement can have its own information problems, incentives and costs. A charge can be badly calibrated; a rule can be badly targeted; a bargain can exclude affected people; a subsidy can pay for work that would happen anyway. Those possibilities do not vindicate doing nothing. They require comparison. The question is which available arrangement improves the situation under the actual constraints, and what evidence supports that judgment."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "We can organise that comparison with three versions of the workshop. Version one makes four unenclosed batches and yields sixty pounds of net social gain. Version two makes three unenclosed batches and yields seventy-five. Version three makes four enclosed batches and yields one hundred. Under the original stipulated numbers, version three is best among those options. But if administering version three requires thirty pounds of additional resources while version two requires none, its gain falls to seventy. Version two then becomes better. Counting the remedy's implementation cost can reverse a ranking that initially looked decisive."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Now add distribution. Suppose the enclosure is paid for entirely by a tenant with little spare money, while the workshop keeps all the additional revenue. Even if the combined total is higher, that arrangement might be unacceptable or infeasible. A contribution arrangement could share the cost, or the owner might pay because it enables another profitable batch. The calculation identifies resources and potential gains; negotiation or policy determines who carries which obligations. We should not smuggle a distributional decision into the phrase efficient solution. Naming the payer is part of describing a real proposal."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "The fifth recall question brings the tools together. Why is identifying an external cost insufficient to choose automatically between a tax, a direct rule, private bargaining and a technical fix? Name at least two pieces of information needed before ranking those responses.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "We need to know how each response changes the harmful effect, what it costs to implement and enforce, and who bears the remaining harm and payments. We also need information about measurement, uncertainty, available technology, entitlements and whether the affected parties can coordinate. Several answers are possible because the choice is contextual. In the workshop model, an enclosure can outperform a simple output reduction, but extra administrative cost or a different residual noise level can change the ranking. The externality diagnosis starts the analysis; it does not finish it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "For a low-risk application, use a fictional shared building on paper. Place a workshop downstairs, a study room above it and a delivery entrance beside it. Choose one activity, such as an extra sanding session. Write down who decides, who directly benefits and who else is affected. Keep the imagined people distinct. The customer, workshop owner, upstairs student and delivery worker may have different interests. Do not assume that a single complaint represents everybody. This exercise is about mapping a decision, not diagnosing a real neighbour or assigning actual legal responsibility."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Next, list two feasible alternatives. You might move the session to another time or use quieter equipment. For each alternative, describe the physical change before attaching any numbers. Does the noise stop, become quieter, move to another room or merely occur later? Does somebody spend more time or use more materials? Then write small invented values beside those consequences and mark them clearly as assumptions. The aim is to make the calculation inspectable. A precise fictional number is useful for reasoning only while we remember that it is fictional."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Calculate one marginal comparison. For example, give the extra session forty pounds of benefit, thirty pounds of resource cost and twenty-five pounds of disturbance. The net combined effect is minus fifteen. Then change only the disturbance to five while leaving the other assumptions fixed. The result becomes plus five. If achieving that reduction requires a fixed enclosure cost, include that cost when comparing complete weekly plans. This separates the next-session decision from the decision to install equipment. Keeping those decisions distinct is a useful habit in many ordinary planning problems."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Finish by identifying one fact you would need before using the model outside the exercise. It might be whether the upstairs room is actually occupied, whether the enclosure works, or whether shifting the session creates a different conflict. Write a sentence explaining how the answer could change your preferred option. That sentence is more useful than pretending the invented total is a measurement. It turns the exercise into a question you could investigate responsibly. No purchase, confrontation, exposure experiment or change to a real shared arrangement is required to complete it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "There is a wider lesson here about apparently cheap choices. A price can accurately describe what a buyer pays while failing to describe all the resources and consequences involved. That does not make every price useless. It tells us to inspect what the price includes, what institutions make people face certain costs, and which effects remain outside the arrangement. Specialisation and exchange can create real gains, while missing consequences can alter which trades and production methods are worthwhile. Both statements can hold at once because they concern different parts of the same decision."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly and naturally. Treat all workshop numbers as invented assumptions. Explain calculations without rushing or artificial slowing. Keep distinctions between model results, ethical choices and real evidence.",
+      "t": "Return to the sixth table order with which we began. The invoice alone cannot tell us whether accepting it is a good idea. We need the benefit of the order, the resources required, the disturbance imposed and the feasible ways to avoid that disturbance. Sometimes the answer will be fewer batches. Sometimes it will be a quieter machine, a different time, a negotiated arrangement or a rule. The useful achievement is to make the omitted consequence visible and then compare real alternatives. A decision improves when its boundary includes the people and effects that the original account left out."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-10-15",
+    "spoken_words": 7060,
+    "sha256": "16fab63867dacd31a25af1e169fb71504acacdf75e567d709f198d71d7a2d664",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.econlib.org/library/NPDBooks/Pigou/pgEW.html?chapter_num=22",
+      "https://books.core-econ.org/the-economy-v1/book/text/12.html",
+      "https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/externalities",
+      "https://openstax.org/books/principles-economics-3e/pages/12-2-command-and-control-regulation",
+      "https://openstax.org/books/principles-economics-3e/pages/12-3-market-oriented-environmental-tools",
+      "https://openstax.org/books/principles-economics-3e/pages/13-2-how-governments-can-encourage-innovation"
+    ]
+  }
+}
