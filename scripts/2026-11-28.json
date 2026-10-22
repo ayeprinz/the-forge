@@ -1,0 +1,412 @@
+{
+  "date": "2026-11-28",
+  "title": "[Art & Geometry] Perspective: Draw Depth on a Flat Page",
+  "summary": "A full introduction to central projection, similar triangles, horizons, direction families, one-point and two-point perspective, equal spacing, eye height, circles and viewpoint changes. Selected explanations from G. A. Storey with original numerical cases and explicit limits. Five recall questions with seven-second pauses and answers, plus a private box-drawing exercise.",
+  "instructions": "Begin directly with the rectangular table. Assume no prior reading. Both voices teach. Distinguish the geometry of a fixed central projection from artistic judgments and ordinary moving binocular vision. Explain numerical assumptions clearly. Preserve five seven-second recall pauses and their following answers. No artificial slowing.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "A rectangular table can look like a trapezoid without changing its shape. Its far edge may look shorter than its near edge, although a tape measure gives the same width for both. Perspective drawing explains that difference between an object's dimensions and its appearance from a particular position. It lets a few lines on paper describe a room you could imagine entering. The starting point is a viewer, a surface to draw on, and a scene beyond that surface. Once those three things are fixed, the positions of the marks stop being arbitrary."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Imagine looking through a window at an empty room. Keep your head still and close one eye. In principle, you could mark the apparent corners of a table on the glass. Join those marks and you have a perspective drawing of the table, made directly from that viewing position. We will use an imaginary window rather than ask anyone to draw on real glass. This window is called the picture plane. The plane is simply a flat surface. The important operation is finding where a straight line from your eye to a point in the scene crosses that surface."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "That line is a geometric construction, sometimes called a visual ray. It is not a claim that your eye sends out a beam to discover the table. Light reaches your eye from the scene. For the drawing, we trace a straight connection between the eye and a visible point. The connection meets the imaginary window at the place where we should put that point on the picture. Do this for several corners and join the appropriate pairs. A complicated object begins as a collection of positions and connections, rather than a mysterious talent for making things look real."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "There is a useful distinction here between a plan and a perspective picture. A plan of a room can show its floor from above, with dimensions kept in a consistent scale. It helps a builder measure where the walls belong. A perspective view shows how those walls would appear from one position. It helps someone imagine standing in the room. Neither representation is automatically superior. They preserve different information. If you measure the back wall directly on a perspective image and compare it with the front wall, apparent size alone will generally mislead you about their actual dimensions."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Our historical guide is George Adolphus Storey's The Theory and Practice of Perspective, published in nineteen ten. We are using selected explanations of projection, viewing position, receding lines and measurement, not claiming to cover the entire book. Storey wanted students to understand why a construction works rather than copy a diagram until it looks familiar. We can follow that aim while separating his geometry from his opinions about which paintings look natural or grand. An author's preference for a particular composition is not a theorem, even when it appears next to a rigorous construction."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "The same distinction matters when we describe art more broadly. A picture can be expressive, informative or beautiful without behaving like a window from one fixed position. An artist may combine viewpoints, flatten space or exaggerate an important object deliberately. Today we are learning one coherent method, central projection, so that we can recognize its effects and use it when it suits our purpose. We are not setting a test that every painting must pass. Even within this method, knowing the geometry does not determine the colour, subject, emotional effect or meaning of a picture."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Let us build the method with a very simple scene. Put an imaginary vertical window one metre in front of your eye. Beyond it stands a vertical stick two metres high, parallel to the window. Put the stick four metres from the eye, measured straight forward, perpendicular to the window. The stick's image on the window is half a metre high. The ratio is one metre divided by four metres, multiplied by the stick's two metres. That gives one quarter of two metres, which is half a metre. We have described image size using a ratio of distances."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "The reason is similar triangles. Viewed from the side, draw a line from the eye to the stick's top and another to its bottom. The stick joins the far ends of those lines. The image on the window joins the same lines closer to the eye. Because the stick and window are parallel, the small triangle and the large triangle have matching angles. Their corresponding lengths have the same ratio. The small triangle reaches one metre forward while the large one reaches four. Its vertical span is therefore one quarter as large. We have not guessed the shrinking."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Move the same stick to eight metres from the eye, leaving the window where it is. Its image becomes one quarter of a metre high. Double the forward distance and you halve the image height in this setup. That statement needs its conditions: the object keeps the same orientation, its height stays parallel to the picture plane, and the viewer and window stay fixed. Rotate the stick or tilt the picture plane and this simple height calculation may no longer describe the whole situation. Good rules come with the setup that makes them true, rather than an invitation to apply them everywhere."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Suppose another stick is four metres high and stands eight metres away. Its image is half a metre high, the same as our two metre stick at four metres. One small picture can therefore correspond to different combinations of size and distance. That is a limitation of a single projection. It is why a photograph without context may not tell you whether an object is small and close or large and far away. Familiar objects, overlapping edges, shadows and other evidence can help you interpret the scene, but the projected height alone does not settle the question."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "We can use the same ratio horizontally. Keep the window one metre forward. Put a point two metres to the right of the eye's forward direction and four metres forward. Its mark lands half a metre to the right of the centre of the window. Move that point twice as far forward without changing its sideways position and the mark lands a quarter metre to the right. The sideways offset shrinks toward the centre as depth increases. This gives us a way to locate individual points, which is more precise than the vague instruction to make distant things smaller."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "For vertical position, measure height relative to the eye, not automatically from the floor. Suppose your eye is one and a half metres above a level floor. A point on that floor four metres forward is one and a half metres below eye level. On our window one metre away, it appears three eighths of a metre below the eye-level line. A point directly above it at eye height has no vertical offset at all. The arithmetic treats left and right, up and down, as offsets from the viewer's straight-ahead reference. The floor is another part of the scene."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "This eye-level reference leads to the horizon line. With a vertical picture plane and level ground, horizontal directions that recede into the scene have vanishing points on one horizontal line in the picture. We call it the horizon line. It can exist in the construction even when a wall, a forest or a building hides any distant skyline. A visible ridge of hills is not necessarily this geometric horizon. The word can cause confusion because ordinary landscape descriptions use it more loosely. In our drawing, it marks the height of the viewer's eye for this level setup."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "To see why, imagine points on the floor getting farther away. Their height below your eye stays one and a half metres, but their forward distance grows. Dividing that fixed height by larger distances makes the projected offset smaller and smaller. The floor points approach the eye-level line from below. Now imagine points on a high ceiling. Their height above your eye stays fixed while their distance grows. Their images approach the same line from above. The horizon is where these directions approach in the projection. It is not a wall where the floor and ceiling physically collide."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Here is our first recall question. In a central projection with a fixed viewer and a fixed vertical picture plane, why does an equally sized object appear smaller when it is moved farther straight back, keeping its face parallel to the picture plane?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "The rays to its edges meet the picture plane closer together. Similar triangles give an image-size ratio equal to the distance from the eye to the picture plane divided by the object's forward distance from the eye. Increase the second distance and the ratio decreases. This explains the result without saying that the object itself shrinks. It also explains why an image alone cannot always separate physical size from distance. A larger object farther away can occupy exactly the same projected span as a smaller object nearby, if the relevant ratios match."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Now imagine a straight corridor with equal width all the way along it. The two floor edges run away from you. Their actual separation stays constant. In the image, the left edge shifts toward the centre from the left, and the right edge shifts toward it from the right. Extend those projected edges and they meet at a vanishing point. For lines going straight forward, perpendicular to the picture plane, that point is directly opposite the eye. Storey calls this the point of sight. Other books use names such as principal point. The underlying construction is the important part."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Not every line in the picture should aim at this point. The front edge of a shelf facing you is parallel to the picture plane. It stays horizontal in our level arrangement. The shelf's vertical supports also stay vertical. Its side edges, if they run straight away from you, approach the principal point. Confusing these families produces the familiar drawing where everything seems to slide toward a hole. A vanishing point belongs to a direction in space. It does not act as a magnet for every edge, every contour or every object that happens to be in the scene."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "One-point perspective is a useful name for a common arrangement of a rectangular room or box. One family of edges recedes to a finite vanishing point, while the other two families remain parallel to the picture plane. That does not mean the entire universe in the image has only one possible vanishing point. Add a chair rotated relative to the room, and its horizontal edges may have different vanishing points. The room has not lost its perspective. The chair simply introduces new directions. The number in the label describes the main construction, not a limit on what may be pictured."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Consider a corridor whose door frames are all square to the walls. The tops and bottoms of the frames run across the corridor and remain horizontal in this view. The uprights remain vertical. The ceiling's side edges and the floor's side edges run toward the same point. Notice that the ceiling edges slope down on the page while the floor edges slope up. In the actual room both families can be level. Slope on paper is not automatically slope in the world. We must distinguish the direction of a drawn line from the direction of the edge it represents."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Let us construct a simple room without pretending we have enough information for exact dimensions yet. Draw a small rectangle for the back wall. Place a point inside that rectangle at the intended eye height. Extend lines from that point through the rectangle's four corners and outward. These lines can become the boundaries where floor, ceiling and side walls meet. The back rectangle stays upright because it is parallel to the picture plane. The converging boundaries establish a view down the room. Changing how far the boundaries extend changes the framing, but does not by itself specify the room's measured depth."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "That last qualification prevents a common mistake. A convincing-looking box is not automatically a measured cube. You can choose a near face and make its side edges converge properly while giving it almost any depth. To specify equal width, height and depth, you need additional measurement information about the viewing distance and the object. Perspective constrains appearance, but a few converging lines do not supply every missing dimension. This is the difference between a useful sketch and a fully determined construction. Both can serve a purpose, as long as we do not claim that the sketch has proved measurements it never encoded."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "We can add a doorway on the back wall easily. Its sides remain vertical and its top remains horizontal. Now put a doorway on a side wall. Its upright sides still remain vertical in this setup, but its top and bottom run along the room's depth direction and therefore converge toward the vanishing point. Copying the front-facing doorway's rectangular shape onto the side wall would flatten it against the page. The object category, doorway, has not changed. Its orientation relative to the picture plane has changed, so the projected shape must change with it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "A picture frame gives the same lesson on a smaller scale. Held directly facing you, its corners can form a rectangle in the image. Turn it around a vertical axis and the farther side occupies a smaller projected height than the nearer side, while its top and bottom head toward a vanishing point. You know that the frame is still rectangular, but you draw the appearance rather than the label in your mind. Observational drawing often requires that separation. Knowledge of what an object is can help interpretation while also tempting you to replace the observed shape with a familiar symbol."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "We have been using one fixed eye. If you move your head sideways, the rays cross the window at new places. A tracing that matched the scene from the first position will no longer match it exactly. This does not mean the tracing was wrong. It was made for a specified viewpoint. Ordinary vision involves two eyes, eye movements and head movements, so a central projection is a simplified model of one view. Its usefulness comes from those controlled assumptions. It should not be mistaken for a complete account of all the information available to a moving person in a real room."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Our second recall question is about line families. In the level, one-point view down a rectangular corridor, which edges converge to the central vanishing point, and which edges remain horizontal or vertical on the picture?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Edges running straight away from the viewer, perpendicular to the picture plane, converge to the central vanishing point. Edges across the corridor, parallel to the picture plane, remain horizontal. Upright edges remain vertical because the picture plane is vertical. The ceiling and floor edges can converge toward the same point even though some slope down on the page and others slope up. The rule follows their shared direction in the room. A rotated chair may introduce different directions and different vanishing points, so we should classify edges before choosing where to send them."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Equal spacing is the next difficulty. Suppose the corridor has floor tiles of equal depth. Drawing their crosswise divisions at equal distances on the page will make the tiles seem to grow deeper as they recede. The image needs progressively smaller intervals. We can calculate this without relying on how much shrinking feels right. Keep our eye one and a half metres above the floor and the window one metre forward. A floor division three metres ahead appears half a metre below the horizon. One four metres ahead appears three eighths of a metre below it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "A division five metres ahead appears three tenths of a metre below the horizon. At six metres it appears one quarter of a metre below. These are positions, not the gaps between positions. The first gap, from three to four metres in depth, is one eighth of a metre on the picture. The next gap, from four to five, is three fortieths of a metre. The next, from five to six, is one twentieth of a metre. All three represent one metre of actual floor. Their projected gaps are different because the denominator in the projection keeps increasing."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Let us express the same gaps in centimetres to make the comparison easier to hear. One eighth of a metre is twelve and a half centimetres. Three fortieths is seven and a half centimetres. One twentieth is five centimetres. So equal steps along the floor become gaps of twelve and a half, seven and a half, and five centimetres on our imaginary window. The window is unusually large for a sketch because our chosen numbers make the arithmetic simple. If we shrink the entire drawing uniformly, all those image distances shrink together and the relative spacing remains consistent."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "There is also a geometric way to divide a receding rectangle. Draw both diagonals of its projected outline. Where they cross is the projection of the actual rectangle's centre. This works because the real diagonals meet at the real centre, and projection preserves the meeting of lines. But the projected centre is generally not halfway between the near and far edges as measured with a ruler on the page. It lies closer to the far edge in the usual receding view. Perspective preserves that intersection, while changing the apparent distances around it. This difference is a powerful measuring tool."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Take the projected rectangle of a tabletop. Its two diagonals cross at the point where a vase placed at the tabletop's actual centre should stand, before we account for the vase's height. If you instead average the apparent distance between the near and far edges, you may place the vase too far forward in the represented space. The diagonal method uses the object's structure. It does not require us to guess the centre by visual balance. We are recovering a spatial relationship that survives projection even though ordinary equal-distance measurement on the drawing does not."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Once you have the centre, you can draw a dividing line through it in the appropriate direction. In a one-point floor rectangle, a crosswise division is horizontal on the page. A lengthwise division heads toward the depth vanishing point. This splits the rectangle into smaller rectangles whose corners and centres can be constructed in turn. Repeated subdivision produces halves and quarters in the object's plane. It is useful for windows, panels or a tiled floor. The method relies on the starting rectangle actually representing a rectangle. A randomly chosen four-sided shape does not automatically have the same interpretation."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "A different construction uses a distance point, a term Storey develops carefully. In our level setup, imagine a line on the floor that runs forward and sideways by equal amounts. Its direction makes forty-five degrees to the straight-ahead direction. Its vanishing point lies on the horizon, to one side of the principal point. The distance between those two points on the picture equals the viewing distance from the eye to the picture plane, using the same scale. A diagonal of a square aligned with the room runs in just such a direction. This lets us construct measured depth from a known width."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Here is the procedure in words. Begin with a horizontal front edge of a square on the ground. From both ends, draw lines toward the principal vanishing point. These are its receding sides. From the left end of the front edge, draw a diagonal toward the right-hand distance point. Where that diagonal crosses the right receding side gives the far right corner. Draw a horizontal line leftward from that corner until it meets the left receding side. You have completed the square in perspective. The diagonal identifies its depth because, in the square itself, the sideways and forward spans are equal."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "If you move the distance point without changing the rest of the construction, you change the implied viewing distance and therefore the apparent depth of that square. This explains why the vanishing point alone was insufficient to establish a cube. It gave the direction of recession, but not the whole relationship between the picture and the viewer. In practical sketches, artists may make judgments by eye. In a measured construction, the distance information has to come from somewhere. Naming that missing input is more useful than blaming a drawing for looking vaguely strange without being able to say why."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "The distance point may fall outside your sheet. That is ordinary geometry, not evidence that the method has failed. A broad sheet or temporary extension can help, but there are also constructions that avoid drawing every long line all the way to its distant meeting point. Storey's book explores several such methods. For our first exercise, we will keep the setup small and manageable rather than introduce those advanced procedures. The principle to retain is that the border of the paper is a compositional choice. It does not mark the limit of the geometric picture plane or of its possible vanishing points.\nRotate a box so that one vertical corner is nearest to you and two side faces are visible. Now neither horizontal family of edges runs parallel to the picture plane. One family heads toward a vanishing point on the left, the other toward one on the right. Both points lie on the same horizon if those edges are level. The vertical corner stays vertical while the picture plane remains upright. This is the familiar two-point arrangement. It describes a change in the box's orientation relative to the view, not a different law of projection."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "The two points are not necessarily equally far from the centre of the image. A box turned only slightly may have one vanishing point fairly near and the other far outside the frame. A box presented symmetrically can have a more balanced arrangement. Equal distances on either side are therefore a special case, not a requirement. If you force the points into a symmetrical arrangement whenever you draw a building corner, you impose a particular view on every scene. Looking at the actual direction families, or specifying them in your construction, gives you more control than following a decorative formula."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Nor can the two vanishing points of a right-angled box be chosen independently of the viewing setup. Once the eye position, picture plane and one horizontal direction are fixed, the direction at a right angle to it fixes the other point. For a simple level arrangement, their horizontal offsets on opposite sides of the principal point have a product equal to the square of the eye-to-picture distance. You do not need this formula for a first sketch, but it reveals that perspective contains relationships between points. A pair of convenient marks on a horizon may describe some corner without describing the right angle you intended."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "We can check that relationship with a modest example. Let the eye-to-picture distance be ten centimetres in our drawing setup. Put one vanishing point five centimetres to the left of the principal point. For perpendicular horizontal edge families, the other belongs twenty centimetres to the right. Five times twenty equals one hundred, and ten squared also equals one hundred. If instead both offsets were five centimetres, their product would be twenty-five. They would not describe those perpendicular families for the same ten-centimetre viewing distance. Changing the setup could make them meaningful, but quietly changing it would lose our original construction."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "The reason behind the product rule is available without treating it as a magic trick. In a horizontal plan, take one direction that moves forward by one unit and sideways by a certain amount. A perpendicular direction has the reciprocal magnitude of that sideways-to-forward ratio, with the opposite sign. Projection multiplies each ratio by the eye-to-picture distance to locate the vanishing point. Multiply the two magnitudes and the reciprocal ratios cancel. Two copies of the viewing distance remain. This is a compact consequence of right angles and similar triangles, not an extra rule invented to make drawing difficult."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Now place two boxes on the same level floor, one aligned with the walls and the other turned diagonally. They share a horizon because the viewer and ground plane are the same. They need not share horizontal vanishing points because their edge directions differ. By contrast, if both boxes have corresponding edges parallel in space, those corresponding edges use the same vanishing points, even when the boxes occupy different parts of the image. Position and direction play different roles. Moving a box changes its projected corners; rotating it changes the direction families that organize those corners."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "This distinction helps diagnose an imagined street scene. The windows of one straight building should agree with that building's wall directions. A neighbouring building turned at an angle may use other points. A road that bends cannot be represented by treating both kerbs as single straight lines converging forever to one point. Its changing direction must be reflected in the construction. The presence of several vanishing points is not necessarily a mistake. The question is whether edges that should be parallel have been assigned a coherent direction, and whether the scene's different orientations have been recognized."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Our third recall question concerns two boxes on a level floor. They are viewed from the same fixed position, but one is rotated relative to the other. Must they use the same horizontal vanishing points, and what must they share in our upright picture-plane setup?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "They share the horizon line, but their horizontal vanishing points can differ. The horizon gathers vanishing points for level directions under this setup. Each particular direction determines a point on that line. Rotating a box changes the directions of its edges and therefore changes their points. Moving a box without rotating it preserves its edge directions. This is why a room and a turned chair can belong to the same consistent image while using different horizontal vanishing points. The rule is about parallel directions in space, not about whether objects belong to the same room."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "What happens if you look upward at a tall building? With the picture plane tilted relative to the building's vertical edges, those edges no longer remain parallel on the image. They can converge toward a vertical-direction vanishing point. A typical view of a building corner then has three principal families of edges with three finite vanishing points. This is commonly called three-point perspective. We are changing the relation between the viewing plane and the scene, while retaining the same projection principle. The rule that verticals stay vertical was conditional on an upright plane, not a universal promise about every photograph or drawing."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Keep that separate from a roof that slopes upward. Even in an upright picture-plane view, an inclined roof edge can have a vanishing point above the horizon because its direction rises as it recedes. Its matching downward direction may be described by the same projective line, but the visible receding segment and chosen orientation need care. For a first drawing, classify the physical edge: level, upright or inclined. Sending every roof edge to the horizon flattens the roof's slope. Storey explicitly distinguishes rising and descending directions from level ones, which prevents a simple classroom rule from becoming a source of errors."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Eye height also changes what surfaces you can see. If your eye is above a horizontal tabletop, you can see its upper surface, assuming nothing blocks it. If your eye drops below that surface, the top is no longer available in the same way; the underside may become visible instead. At the exact plane of an ideal thin tabletop, the surface is seen edge-on. In a drawing, this is why a box below the horizon may show its top while a box above it may show its underside. Thickness, occlusion and orientation still matter, so use the principle with the actual object in mind."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Imagine three identical open boxes stacked at different heights, with their fronts parallel to the picture plane. The lower box can reveal its interior from above. The middle one near eye level reveals less of its horizontal opening. The upper box may hide the opening completely. If all three show the same generous top ellipse or rectangle, the image combines incompatible viewpoints unless that combination is deliberate. This is an observational test you can apply before constructing anything intricate. Ask whether the visible surfaces fit the viewer's height, rather than merely whether each individual object resembles a plausible box."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "There is a related rule for people standing on level ground. If the figures have the same height as the viewer's eye, the horizon passes through the tops of their heads at every distance. More generally, the horizon intersects every upright figure at the viewer's physical eye height above the common ground. It might cross their faces, chests or higher than their heads, depending on their heights and the viewer. This gives a way to keep a crowd grounded. It is not a claim that real people are equal in height or that every surface under their feet is level."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Use a numerical example to make that precise. Suppose the viewer's eye is one and a half metres above a level floor, and a figure is two metres tall. The figure's feet are one and a half metres below eye level; the top of the head is half a metre above it. At any fixed forward distance, projection scales both offsets by the same factor. The horizon therefore cuts the figure three quarters of the way up from the feet. Move the figure farther away and it gets smaller, but that fraction remains the same under the stated conditions."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Now put the same figure on a platform half a metre above the floor. The feet are only one metre below the viewer's eye, while the head is one metre above it. The horizon crosses halfway up the figure. If we reused the previous three-quarter rule, we would accidentally remove the platform from the geometry. The example shows how a useful shortcut can fail when its assumptions change. For a crowd on steps or a hillside, you must account for the changing ground height. The horizon remains tied to the viewer, while each person's feet have a different elevation relative to it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Overlapping is another source of depth information, but it answers a different question. If one opaque object hides part of another, we usually read the visible overlap as evidence about their order along those viewing rays. It does not supply the exact distance between them. A cup can hide a small part of a book whether the book is a centimetre behind it or much farther away, provided their positions line up. In a perspective construction, visibility comes after locating the relevant shapes: you remove hidden portions rather than allowing every edge to show through every solid object."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "An unfinished box drawing often includes all its edges so that you can check the construction. That is useful as a transparent diagram. In a finished image of an opaque box, some of those lines should disappear. Leaving the far edges visible changes the kind of representation, perhaps into a wire frame or an X-ray-like diagram. Again, that may be intentional. The important choice is whether you want to communicate the object's structure or its ordinary visible appearance. Clear drawing requires deciding what the marks mean, rather than assuming that more lines always provide more accurate information."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Curves introduce a new challenge. A circular plate facing you directly can project as a circle. Tilt it and, in ordinary views where the whole circle lies in front of the viewer, its outline is generally an ellipse. The circle has not been physically squeezed. Its points are being projected from unequal distances and directions. A common practical construction begins by enclosing the circle in a square in its own plane. Draw that square in perspective, then locate points where the circle touches the square's sides. Those points guide a curved outline that belongs to the same plane."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "There is a subtlety worth keeping rather than hiding. The projection of the circle's physical centre is not generally the geometric centre of the ellipse drawn on the page. Perspective does not preserve all midpoints. The near half of the circle and the far half do not receive exactly the same scale. If you use the diagonals of the enclosing square, their crossing gives the projected centre of the original square and circle. That is valuable construction information, but it is not automatically the midpoint between the ellipse's apparent extreme ends. A casual oval may look acceptable while concealing this distinction."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "We will not try to construct a perfect ellipse entirely by spoken instructions. The useful first check is orientation. A cup's circular rim and its circular base occupy parallel planes if the cup is a simple upright cylinder. They should not look as though one belongs to a tilted cup and the other to a standing one. Their apparent shapes and sizes also depend on their different heights and distances. Cylinders are therefore more than two identical ovals joined by lines. For a beginning exercise, a rectangular box provides a clearer test of projection before we add the complications of curved surfaces."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "The same restraint applies to shadows. A shadow is shaped by the light's position or direction, the object and the surface receiving it. The viewer then sees that shadow through another projection. A dark patch that merely leans toward the picture's vanishing point is not automatically a correct shadow. Sunlight can be approximated as parallel rays over an ordinary small scene, while a nearby lamp produces visibly diverging rays. Those are different constructions. We can acknowledge the distinction without attempting a whole lighting lesson here. Perspective tells us where the visible result lands on the image; it does not replace the geometry of illumination."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Our fourth recall question returns to eye height. A viewer's eye is one and a half metres above a level floor. A two metre figure stands on that floor. At what fraction of the figure's height does the horizon cross it, and what changes if the figure stands on a platform half a metre high?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "On the floor, the horizon crosses one and a half metres above the feet, which is three quarters of the figure's two metre height. On the platform, the feet are already half a metre above the floor, so the horizon is only one metre above them. It crosses halfway up the figure. Distance changes the apparent size, but these fractions remain consistent within each setup. Raising the figure changes its relation to the viewer's eye. This is a concrete reason to account for ground height before using a crowd-drawing shortcut."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Let us now consider a picture that looks stretched near its edges. A mathematically consistent projection can still seem strange when viewed from a position different from the one it was constructed for. A very wide view on a flat plane may require a close viewing position for the intended geometry to line up. Looking at the resulting picture from farther away can make edge shapes feel exaggerated. Storey discusses viewing distance and gives aesthetic advice about avoiding distortions. We should distinguish geometric consistency from viewing comfort. Correctly following a projection does not guarantee that every display size and viewing position will feel equally natural."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "A simple thought experiment shows why. Return to our imaginary window. From the original eye position, the marks on it line up with the scene. Step sideways or backward and they no longer do. The marks have not changed, but the angles they occupy in your view have. If someone makes a large print and hangs it high on a wall, the viewer's usual position may differ substantially from the construction's intended station point. Artists can plan for this. They can also choose an image that remains useful across many viewing positions, even though exact alignment belongs to one specified position."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Cropping is different from changing viewpoint. If you cut away the outer part of a picture while leaving the remaining image unchanged, the geometric relationships within the retained region stay the same. Enlarging that crop uniformly also preserves its internal ratios. Moving the viewer or camera before making a new image changes the projection of the scene itself. This is why a close view from one position is not generally equivalent to a crop made from another position. Objects at different depths change their relative apparent sizes when the viewing position changes, and a uniform enlargement cannot undo that difference."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Consider two equal boxes, one two metres from the viewer and one four metres away, with faces parallel to the picture plane. The nearer box's projected height is twice the farther box's height. Move back two metres along the same line. Their distances become four and six metres, so the nearer box is now one and a half times as large in the projection. Cropping and enlarging this second image can make one box match its earlier image size, but the ratio between the boxes stays one and a half. It cannot become two through a uniform crop enlargement alone."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "That example matters for practical visual communication. A room image made from a close position can give foreground furniture a large share of the frame. A more distant view can reduce that near-far size difference. Neither image necessarily lies about the objects, but each emphasizes a different spatial relationship. If you are evaluating a room from pictures, a floor plan and known dimensions answer questions that apparent spaciousness cannot. If you are making an illustration, you can choose a viewpoint deliberately rather than assume the first available position is neutral. The geometry explains the consequence of the choice."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "We should be equally careful with dramatic language about perspective revealing the truth. A consistent picture can show an invented room that has never existed. An inconsistent picture can preserve important observations while combining views for a particular purpose. Geometry checks relationships within a model; it does not certify the subject's historical reality or the artist's intention. A convincing corridor drawn from imagination is a successful construction, not documentary evidence. This separation helps us appreciate the skill without granting the image authority over questions that require other kinds of evidence."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "There is also a difference between identifying a vanishing point and explaining a composition. Strong converging lines may direct attention toward an area, but the viewer's attention also depends on contrast, faces, colour, scale and prior interest. If a figure stands near a convergence, we can describe that visible arrangement. Claiming that the artist intended a particular emotional effect requires more support. In our own drawing, we can experiment with these choices and describe our intention directly. In someone else's work, distinguish the feature you can point to from the interpretation you build around it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "For a practical application, choose a small rectangular box, a closed book or a plain tissue box. Use paper and a pencil. This is a private sketch, not a measurement for building or buying anything. Place the object on a stable surface below eye level. Sit where you can see its front and one side. First observe with one eye for a moment while keeping your head still. You do not need to strain or hold an uncomfortable pose. Notice which edges are upright, which run across a face, and which recede. Make a light drawing of the main corners."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Now extend the two families of horizontal edges lightly beyond the object. They may meet far outside your small sketch, so do not force their meeting points onto the paper. Check whether each family is tending toward a consistent location. Look at the top surface. Does its visibility fit your eye being above the box? Check the nearer and farther vertical edges. Do their apparent sizes make sense for the depths you have drawn? Correct one relationship at a time. The aim is to learn from an identifiable discrepancy, rather than repeatedly erase the whole drawing because it does not feel finished."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Next make a second small sketch from a lower, comfortable eye position. Keep the object in the same place. Predict what will happen to the visible top before you look carefully. Then compare. As your eye approaches the top's level, the visible top should become narrower in the relevant view. If your eye goes below it, the upper surface should cease to be visible. Record that change in the drawing. You now have a small test connecting a geometric prediction to an observation. The result is useful even if the lines are uneven and neither sketch looks polished."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "If you prefer an entirely constructed exercise, draw a front-facing box with one-point perspective. Choose a horizon, choose a point on it, draw a rectangle below it, and connect the rectangle's corners toward that point. Select a back boundary consistently, using horizontal and vertical edges for the back face. Treat this as a rectangular box of unspecified depth unless you also construct a distance point and measured square. That honest label matters. It lets you practice coherent directions without pretending you have built a cube. Add a single smaller box turned relative to the first only after the first construction makes sense."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "When reviewing either exercise, separate three possible problems. One is observation: you misread the direction or relative size of an edge. Another is construction: you saw the relationship but placed a line inconsistently with the chosen projection. The third is interpretation: the drawing is coherent but does not produce the effect you wanted. Each problem suggests a different response. Look again for an observation problem, reconstruct the geometry for a construction problem, or change viewpoint and composition for an interpretation problem. Labelling every difficulty as lack of talent gives you much less information about what to try next."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Our fifth recall question is about changing a view. Two equal boxes are initially two and four metres from the viewer, with their faces parallel to the picture plane. The viewer moves back two metres. Can cropping and uniformly enlarging the new image restore the original ratio between their apparent heights? Explain using the two ratios.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Initially the nearer box appears twice as tall because the distances are two and four metres. After the move, the distances are four and six metres, so the nearer box appears one and a half times as tall. Uniform enlargement multiplies both image heights by the same amount and cannot change their ratio. Cropping removes part of the image but does not alter that ratio inside the remaining picture. You can match the apparent size of one box, but you cannot simultaneously restore the original relationship between both boxes by uniform enlargement alone."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "A final distinction brings the exercise back to looking. The drawing's lines are real marks on a flat sheet. The room, box or table they suggest is an interpretation of those marks. Perspective gives us a disciplined connection between the two: a viewer, a picture plane, a scene, and straight projections between them. It helps explain why equal things can appear unequal and why parallel edges can converge in an image. When something looks wrong, you can return to those relationships and ask a specific question. Which viewpoint, which direction, which depth, and which assumption did this mark encode?"
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Explain the geometry with an audible distinction between assumptions, calculations and artistic judgments. Do not slow artificially.",
+      "t": "Keep the two small sketches if you made them. Write one concrete observation beside them, such as seeing less of the box's top from the lower position, or discovering that its side edges converge beyond the paper. That note is more useful than a general verdict that the drawing was good or bad. It records a relationship you can test again with another object. The next time a table looks trapezoidal, you need not mentally correct it into a rectangle before drawing. You can recognize the rectangle in the world and describe its projected appearance on the page."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-10-22",
+    "spoken_words": 7329,
+    "sha256": "6d4ab3d2d7ad0f138ca9782cac6527d9f67aa6a832fcce12c83a93cb55127ac3",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.gutenberg.org/ebooks/20165",
+      "https://www.gutenberg.org/files/20165/20165-h/20165-h.htm"
+    ]
+  }
+}
