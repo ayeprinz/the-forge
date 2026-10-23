@@ -21,6 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       episode_date: ${{ steps.date.outputs.value }}
+      complete: ${{ steps.delivery.outputs.complete }}
     steps:
       - name: Fix episode date for the whole run
         id: date
@@ -35,16 +36,56 @@ jobs:
           with open(os.environ['GITHUB_OUTPUT'],'a') as out: out.write('value='+value+'\n')
           PYDATE
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
-      - name: Check reviewed script before any spending
+      - name: Check latest delivery before any spending
+        id: delivery
         env:
           EPISODE_DATE: ${{ steps.date.outputs.value }}
-        run: python3 preflight.py
+        run: |
+          python3 - <<'PYDELIVERY'
+          import hashlib,json,os,pathlib,urllib.request
+          from preflight import check
+          from verify_delivery import verify
+          root=pathlib.Path.cwd()
+          date=os.environ['EPISODE_DATE']
+          state,ep=check(root,date)
+          complete=False
+          if state=='existing':
+              # Read-only verification: importing verify does not send an Overcast ping.
+              result=verify(date)
+              report_path=f'{date}-audio-check.json'
+              report=json.loads((root/'docs'/report_path).read_text())
+              if (report.get('date')!=date or report.get('revision',date)!=ep.get('revision',date)
+                  or report.get('spoken_characters')!=sum(len(t['t']) for t in ep['turns'])
+                  or report.get('usage',{}).get('uncertain') is not False):
+                  raise RuntimeError('Existing audio report does not match; recover without rerecording')
+              def fetch(url):
+                  req=urllib.request.Request(url,headers={'Cache-Control':'no-cache'})
+                  with urllib.request.urlopen(req,timeout=60) as response: return response.read()
+              if json.loads(fetch('https://ayeprinz.github.io/the-forge/'+report_path))!=report:
+                  raise RuntimeError('Public audio report differs; repair publication without rerecording')
+              local=root/'docs'/'audio'/ep.get('audio_file',f'{date}.mp3')
+              if hashlib.sha256(fetch(result['url'])).digest()!=hashlib.sha256(local.read_bytes()).digest():
+                  raise RuntimeError('Public audio differs; repair publication without rerecording')
+              complete=True
+          else:
+              ledger=json.loads((root/'audio-ledger.json').read_text())
+              if ep.get('revision',date) in ledger['reservations']:
+                  raise RuntimeError('Already reserved but delivery incomplete; recover existing artifacts, never rerecord')
+          with open(os.environ['GITHUB_OUTPUT'],'a') as out:
+              out.write('complete='+str(complete).lower()+'\n')
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as out:
+              out.write(f'{date}: '+('Already published and verified. No reservation, speech, or refresh requested.' if complete else 'Reviewed new episode. Existing spending safeguards apply.')+'\n')
+          PYDELIVERY
 
       - name: Install ffmpeg
+        if: steps.delivery.outputs.complete == 'false'
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
 
       - name: Reserve episode allowance
+        if: steps.delivery.outputs.complete == 'false'
         env:
           EPISODE_DATE: ${{ steps.date.outputs.value }}
         run: |
@@ -53,6 +94,7 @@ jobs:
           python3 reserve.py
 
       - name: Render episode and rebuild feed
+        if: steps.delivery.outputs.complete == 'false'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           FEED_BASE: https://ayeprinz.github.io/the-forge
@@ -60,7 +102,7 @@ jobs:
         run: python3 -u build.py
 
       - name: Preserve audio for recovery
-        if: always()
+        if: always() && steps.delivery.outputs.complete == 'false'
         uses: actions/upload-artifact@v4
         with:
           name: forge-render-${{ github.run_id }}
@@ -72,11 +114,13 @@ jobs:
           if-no-files-found: ignore
 
       - name: Package complete episode before publication
+        if: steps.delivery.outputs.complete == 'false'
         env:
           EPISODE_DATE: ${{ steps.date.outputs.value }}
         run: python3 package_delivery.py
 
       - name: Preserve complete delivery
+        if: steps.delivery.outputs.complete == 'false'
         uses: actions/upload-artifact@v4
         with:
           name: forge-delivery-${{ github.run_id }}
@@ -86,6 +130,7 @@ jobs:
 
   publish:
     needs: render
+    if: needs.render.outputs.complete == 'false'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
