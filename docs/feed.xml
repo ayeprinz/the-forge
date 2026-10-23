@@ -9,6 +9,15 @@
     <itunes:explicit>true</itunes:explicit>
     <itunes:image href="https://ayeprinz.github.io/the-forge/forge-cover-v2.jpg"/>
     <item>
+      <title>[Digital Technology] How Images Store Colour, Detail and Compression</title>
+      <description>Pixels, aspect ratio, RGB and bit depth, colour spaces, alpha compositing, lossless prediction, palettes, lossy quantisation, interpolation, print density, vector graphics and editable sources. Original worked examples distinguish file size from detail, with five recall questions and one private resizing experiment. Consulted sources: https://www.w3.org/TR/png-3/ https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Image_types https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Introduction https://developer.mozilla.org/en-US/docs/Glossary/Color_space https://developer.mozilla.org/en-US/docs/Glossary/Alpha https://developer.mozilla.org/en-US/docs/Glossary/Lossless_compression https://developer.mozilla.org/en-US/docs/Glossary/Lossy_compression https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/set-image-size-and-resolution.html https://developer.mozilla.org/en-US/docs/Web/API/Window/devicePixelRatio https://jpeg.org/jpeg/ https://developers.google.com/speed/webp/docs/compression https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/resample-option-in-image-size-dialog-box.html https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/printed-image-resolution.html</description>
+      <pubDate>Fri, 23 Oct 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2026-10-23</guid>
+      <enclosure url="https://ayeprinz.github.io/the-forge/audio/2026-10-23.mp3" length="20627805" type="audio/mpeg"/>
+      <itunes:duration>00:57:17</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+    </item>
+    <item>
       <title>[Spiritual Traditions] The Tao Te Ching: Action Without Forcing</title>
       <description>A close reading of selected Tao Te Ching chapters in James Legge's translation: naming and contrast, nourishing without ownership, wu wei, useful emptiness, timing, water and flexibility, desire and favour, early action and completion, leadership, political paternalism, the three treasures and metaphysical claims. Concrete original examples, five recall questions with seven-second pauses and answers, and a private ordinary-task application. Consulted sources: https://www.gutenberg.org/ebooks/216 https://www.gutenberg.org/files/216/216-h/216-h.htm https://www.gutenberg.org/ebooks/216.txt.utf-8</description>
       <pubDate>Thu, 22 Oct 2026 05:00:00 +0000</pubDate>
