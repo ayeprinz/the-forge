@@ -1,0 +1,387 @@
+{
+  "date": "2026-11-29",
+  "title": "[Applied Design] Make Instructions Someone Can Actually Follow",
+  "summary": "Rebuild a fictional workshop setup sheet through observable outcomes, quantities, action steps, diagrams, layout, accessible text, image sizing and practical testing. Original worked examples apply published drawing, image and communication topics. Five recall questions with seven-second pauses and answers, plus a private low-risk instruction-writing exercise.",
+  "instructions": "Begin with the cupboard and vague setup sheet. Assume no prior reading. Both voices teach. Treat design choices as practical judgments, WCAG as defined web standards, and tests as local observations rather than universal evidence. Keep the fictional case explicit. Preserve five seven-second recall pauses and subsequent answers.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "A volunteer opens a cupboard and finds two boxes, a stack of blank cards, a roll of tape and a sheet headed Workshop preparation. The sheet says, arrange the materials appropriately, put everything in the correct place, and check that the room is ready. Every sentence is grammatical. None tells the volunteer how many cards to put on a table, which box contains spare materials, or what ready looks like. We are going to rebuild that sheet. The subject is instructional design at the scale of an ordinary task: how to turn something you know how to do into words and pictures that another person can use."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Our example is fictional, and deliberately low stakes. Six people are attending a paper drawing session. Each needs one pencil and three blank cards. Spare pencils stay in a labelled box. Completed drawings go in a second box near the exit. Nobody is handling tools, chemicals, medicines or machinery. That lets us investigate the structure of an instruction without pretending that a homemade leaflet can replace specialist safety guidance. The principles will also help with a shared office procedure, a simple digital task or an explanation for a club. The content of those instructions still has to be checked by someone who understands the actual task."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "The first repair is to replace the vague destination, room ready, with an observable result. Each of the six seats has a pencil and a stack of three cards. The spare box is labelled Spare pencils. The return box is labelled Finished drawings. A new reader should be able to compare the room with those statements and decide what is missing. Notice that the result is not a description of the volunteer's personality. We have not asked them to be thoughtful, efficient or professional. We have described objects, quantities and locations. That is the difference between a demand for good judgment and an instruction that supplies some of the judgment."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "There is a second destination to identify: what the reader wants to achieve. The organiser may want consistent rooms, fewer questions and tidy materials. The volunteer wants to finish setting up without accidentally putting something in the wrong place. Those interests overlap, but the leaflet should speak to the immediate job. Set up six drawing places is a more useful title than Operational excellence for workshop environments. A title is a small promise about the content underneath it. If the sheet includes only table preparation, do not title it Run the drawing workshop. That larger title would imply advice about welcoming participants, teaching, breaks and closing the event."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Before writing the steps, do the task once and record what changes. Start with the actual cupboard and finish with the actual table. Write rough notes such as count seats, take pencils, count cards, put spares back, label return box. This observation catches details that fluent explanations omit. Someone who has set up the room twenty times may remember the broad sequence and overlook that two kinds of cards are stored together. A beginner has to distinguish them. The instruction might therefore say use the blank cards, leaving the printed prompt cards in the cupboard. The distinction belongs before the person has distributed the wrong stack."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Observation does not mean recording every movement of your body. Take three steps to the left is usually irrelevant if the cupboard could move. Open the cupboard marked Drawing materials describes a useful target. Hold the pencil between your thumb and forefinger is unnecessary for this setup task. Put one pencil at each seat is the meaningful action. The writer chooses a level of detail according to the decision the reader must make. We can test a detail by asking what foreseeable mistake it prevents or what necessary action it enables. If neither answer is clear, it may be background information rather than a step."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Now separate preparation from execution. Our sheet can begin with a short materials line: six pencils, eighteen blank cards, and two labelled boxes. Six seats times three cards per seat gives eighteen cards. If the cards are already in stacks of three, six stacks also gives eighteen. That arithmetic is worth checking before the sheet is printed because an error in the materials list travels into every setup. The list tells the reader whether they can begin. A step later in the procedure should not reveal that an essential item was missing all along. When something is optional, label it as optional and explain what changes if it is absent."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Suppose a decorative table sign is optional. The sheet can say, if a welcome sign is available, place it beside the return box. The drawing places still work without it. Contrast that with the pencils. If there are only five pencils, the sheet cannot silently call the setup complete. It should give a response appropriate to the real arrangement, perhaps tell the organiser before participants arrive. Do not invent a response just to make the procedure look self contained. Borrowing from another room may be forbidden, and promising that participants can share changes the activity. An exception is part of the task and needs a real decision from its owner."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "We can now write the main sequence. Count the seats. Place one pencil at each seat. Put three blank cards beside each pencil. Place the spare pencil box on the side table. Place the finished drawing box near the exit. Check each place against the picture. These steps describe actions in a workable order. The opening count matters because the room may contain extra chairs. If the instruction is for exactly six places, say which six or explain how the organiser marks them. A beautifully drawn picture of six places cannot resolve an actual room with eight unmarked chairs and no clue about which ones are intended."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "That example shows why instructions need an initial condition. For this sheet, the organiser has already arranged and marked the six seats. If arranging furniture is part of the volunteer's task, it needs instructions of its own. We should not hide it in the verb prepare. A boundary statement can be short: use the six marked seats; leave other furniture where it is. This is not defensive legal language. It tells the reader what belongs to the job. In a digital procedure the equivalent might be, begin with the document open in editing mode. Without that condition, the first button described may not even be available."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "A step should usually have one clear action, but counting verbs mechanically is not enough. Take a pencil and place it at the first seat can be one natural unit. Gather the materials, arrange the room, greet the participants and collect feedback contains several jobs with different purposes. We want units that a reader can perform and then recognise as complete. For the drawing places, putting a pencil and three cards at each seat may work as one repeating unit. For someone counting supplies in advance, distributing all the pencils and then all the cards may be easier. These are alternative procedures to test, not universal truths about how everyone thinks."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "The two procedures also create different error patterns. If you work seat by seat, an interruption may leave three places complete and the rest empty. If you distribute by material, an interruption may leave every place with a pencil but only some with cards. A useful instruction makes the unfinished state visible. One option is to start at the seat nearest the door and move around the table in the same direction. Another is simply to include a final check of every place. We should select the least complicated approach that fits the room. Adding a complicated tracking method to distribute eighteen cards would cost more effort than the problem warrants."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "First recall question. Our materials list says six drawing places with three blank cards at each place. How many cards are needed, and what should the instructions say if the required pencils are not available? Take seven seconds to answer.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "The setup needs eighteen cards. Six multiplied by three is eighteen. If the required pencils are missing, the instructions need a real exception route, such as contacting the organiser before starting. The writer should not quietly invent permission to borrow supplies or change the activity. The quantity check and the exception route do different jobs. One prevents an arithmetic error in the plan. The other tells the reader what to do when reality does not match the plan. A procedure can have perfectly correct arithmetic and still fail because it has no useful response to a missing item."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Let us make the wording more precise. Place the box over there fails because there depends on the speaker's position. Place the box on the side table beside the door identifies a location. Even that can be ambiguous if there are two doors. We can use the room's existing label, such as the door marked Exit, provided the label is genuinely present and appropriate. The aim is not to make every sentence longer. It is to replace a vague word with a reliable reference. Put it there contains three words and almost no portable information. Put finished drawings in the labelled return box is longer because it carries the decision with it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Pronouns cause a related problem. Put the cards beside the pencils, then move them to the side table. What moves, the cards or the pencils? A person who already knows the task may answer automatically, but the text has not specified it. Repeating a noun is sometimes clearer than elegant variation. Put the spare pencils on the side table leaves less room for interpretation. In instructions, calling the same object a tray, container, receptacle and holder does not show vocabulary. It makes the reader wonder whether four objects are involved. Choose one ordinary name, define it if needed, and keep using it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "We also need to distinguish a condition from an action. If a card is marked, put it in the scrap tray is a condition followed by a response. Put marked cards in the scrap tray is shorter and may be sufficient if the reader can easily identify a marked card. But if only one side must be blank, then marked is not a complete criterion. Does a printed reverse side disqualify it? That decision belongs in the actual specification. Clear language cannot rescue an unresolved rule. Before polishing a sentence, check whether the person responsible has decided what counts as acceptable material for the activity."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Consider the instruction, make sure there are no problems. It sounds reassuring because it mentions checking, yet it supplies no method. Replace it with three visible comparisons: each marked seat has one pencil, each pencil has three blank cards beside it, and both boxes carry their labels. This check can be performed without knowing the organiser's private expectations. It is still possible that a pencil is broken. If working pencils are necessary and checking them is part of setup, include that explicitly. We do not have to anticipate every imaginable failure. We do have to include the ordinary requirements that determine whether the task has actually been completed."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "A negative instruction needs special care. Do not put spare pencils in the return box tells us one wrong location. It does not identify the right one. Put spare pencils in the box labelled Spare pencils supplies a destination. Sometimes the prohibition matters and should stay, especially when a common error has consequences. Then pair it with the correct action and an understandable reason. Keep spare pencils out of the finished drawing box so participants can use that box for their work. The explanation should earn its space by helping the reader choose correctly when the exact situation varies, rather than merely repeating the command in softer words."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Now imagine that the sheet is for a person who can read it but cannot ask the organiser a question. This is a useful design scenario, not a reason to assume everybody prefers working alone. It exposes dependencies on unwritten knowledge. Where are the labels? Who marks the seats? Which cards count as blank? The procedure may need a contact name or role, but the normal steps should not depend on a live explanation. At the same time, an instruction is allowed to stop at a genuine uncertainty. Ask the organiser is appropriate when the answer changes the task. It is weak when it substitutes for explaining an ordinary, predictable step."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "The next question is what a picture should contribute. For our table, a small overhead drawing can show the relative placement of a pencil and a stack of cards. It does not need to depict the wood grain, chair upholstery or light from the window. Those details may make an attractive illustration, but they compete with the relationship the reader needs. Begin by writing the picture's purpose in one sentence: show what belongs at one drawing place. Then draw only enough to communicate that purpose. This is an editorial choice about information, rather than a claim that simple pictures are always better than detailed ones."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "A photograph can be the better choice when recognition matters. If the cupboard contains three unfamiliar boxes, a photograph of the correct box may help more than an abstract rectangle. A line drawing can be better when clutter hides the relevant feature. For the completed drawing place, an overhead photograph taken against a plain background would also work. The choice depends on what the reader must identify or do. We are not choosing between artistic styles in isolation. We are choosing which representation preserves the feature that makes a correct action possible. A beautiful photograph of the whole room may show the important pencil as a barely visible mark."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Viewpoint changes what can be seen. An overhead view shows the arrangement of objects on the table but hides how tall a stack is. A view from the side shows height but may conceal objects behind one another. An angled view can show both, at the cost of distortion and possible overlap. For three cards, we should not rely on the visible thickness of a stack to communicate the quantity. We can write three blank cards beside the drawing. The image supplies location and the label supplies the exact count. Words and pictures can divide the explanatory work instead of forcing either one to do everything."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Suppose our sketch shows three separated card outlines, slightly offset, to indicate a stack. A reader could mistake that for three cards spread across the table. A caption saying stack three cards makes the intended relationship explicit. Alternatively, draw one rectangle with a small label pointing to it. That may be more economical and less misleading. The appropriate picture is the one that communicates the action, not the one that most impressively displays the artist's skill. This is particularly important when explaining an invisible process. A drawing can show a proposed relationship clearly while still being wrong about the underlying mechanism. Clarity and truth require separate checks."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Our picture also needs a stable orientation. If every panel turns the table around, the reader has to reconstruct where the door is each time. We can keep the door at the bottom of every room plan and mark it with the same label. There is no universal requirement that a door belongs at the bottom. Consistency is what helps this particular sequence. If a change of viewpoint is needed, signal it. A caption such as view from the cupboard tells the reader why the scene looks different. Without that signal, a correct drawing may appear to contradict the previous panel simply because the observer has moved."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Arrows deserve their own vocabulary. In one panel an arrow might mean move the box in this direction. In another it might point to a label without implying movement. In a third it might indicate the order of steps. Using the same arrow style for all three meanings invites confusion. For this sheet, we can avoid most arrows by placing a short label directly beside the relevant object. Where movement matters, show a starting position and a destination. A curved arrow floating above a box is not automatically an explanation of what should move, how far it should move or where it should end."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "The scale of a drawing can create false expectations too. In an instructional sketch, a pencil may be enlarged so that its label fits. If the sketch is only showing which objects belong together, exact scale may not matter. If it is showing a measurement or whether something fits, scale matters a great deal. State dimensions directly when the task depends on them. Never ask someone to infer an exact length from an illustration whose printed size may change. A sheet that is reduced by a printer can make a formerly accurate picture inaccurate as a measuring tool. Descriptive pictures and full size templates are different kinds of document."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Here is a geometric example. We want a diagram to occupy a rectangle twelve centimetres wide and eight centimetres high on our printed sheet. Its width to height ratio is three to two. A source image that is twelve hundred pixels wide and eight hundred pixels high has the same ratio, so it can fit without stretching or cropping. If we squeeze that image into a square, the objects change shape. Circles become ellipses, and the relative distances are distorted. That distortion may be harmless for a decorative texture, but it can mislead someone who is learning to recognise the proportions of a part or an arrangement."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Cropping is different from stretching. Cropping removes the outside of an image while leaving the shapes inside unchanged. That can bring the important object closer, but it can also remove the context that identifies it. A tight crop of a box may hide the label on its lid. A wider view may include the label but make the box too small to inspect. We can use a wide context view and a separate detail view when both are needed. The detail should identify what it enlarges. A border or matching label can do that without assuming that the reader will guess which little feature has suddenly become a large picture."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Second recall question. Why might an overhead image of a drawing place still need a text label saying three blank cards? And what happens if a rectangular image is forced into a square without cropping? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "The overhead image shows position but does not reliably communicate how many cards are in a stack. The label supplies that exact quantity. Forcing the rectangle into a square changes its proportions, so objects become distorted. Cropping instead removes some of the scene while preserving the proportions of what remains. These are separate choices. We should inspect both the shape of the objects and the information lost around the edges. A perfectly proportioned crop is still a poor instruction if it removes the feature that tells the reader which object to use."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "We can now arrange the page. Think of its main regions as answers to different questions. The title answers what job this is. The materials list answers what is needed before starting. The steps answer what to do. The check answers what completion looks like. The exception note answers what to do when a required condition is missing. Those regions do not need decorative boxes around all of them. A heading and some space may be enough. The purpose of the layout is to make the next relevant piece of information findable. Adding more borders can sometimes make unrelated details look equally important."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "For this example, imagine a page twenty one centimetres wide with margins of two centimetres on each side. The usable width is seventeen centimetres. If we want two columns separated by one centimetre, the columns together have sixteen centimetres available, so each equal column is eight centimetres wide. That is subtraction followed by division, not a rule about ideal page design. It lets us discover whether our intended layout has room for the labels. If the diagram needs twelve centimetres of width, an eight centimetre column will require shrinking it or changing the layout. Calculating the space first prevents repeated cosmetic adjustments later."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "A single column may be easier for a short sequence because its reading order is explicit. Two columns can work when they contain genuinely parallel information, such as materials on one side and an overview picture on the other. Trouble begins when the reader must guess whether to read down the first column or across each row. Numbered steps can help, but numbers cannot repair every broken arrangement. If step three is visually closer to step one than step two is, the page still asks for extra effort. We can place the steps in one clear path and keep optional background outside that path."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Whitespace is the unprinted space between elements. In our sheet it can separate one action from the next, keep a label attached to its picture, and leave room for a finger or a pencil to follow the sequence. It is not automatically wasted space. However, a large blank area does not make instructions clear by itself. The relationships still have to be sensible. If a caption sits halfway between two pictures, extra space may make its attachment more ambiguous. Put each caption close enough to its own picture that the grouping is apparent, and leave a larger separation before the next independent group."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Typography gives another set of signals. We can make the title larger than the step text and use the same style for every step number. We should avoid assigning a new font to every kind of sentence. For the sample sheet, one ordinary, readable typeface with a few deliberate size or weight changes is enough. That is a practical constraint for this exercise, not a universal ban on expressive typography. A poster inviting people to an art exhibition has a different job. Instructions have to remain usable when the reader is concentrating on the task, rather than studying the design for its own sake."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "The wording of a heading should also predict what follows. Materials is useful above a list of objects. Before you begin is useful above conditions that must be true. Important information is less useful because it tells us about the writer's emphasis without identifying the content. If everything is important, the label cannot guide a reader to a specific answer. For a digital version, use actual heading structure in the document or webpage, rather than only making ordinary text look bigger. The World Wide Web Consortium explains that headings can support navigation through assistive technology as well as visual scanning. That is a functional difference hidden beneath the appearance."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "We should not turn that into a claim that choosing a heading style makes a document fully accessible. It addresses one part of the structure. Reading order, text alternatives, keyboard interaction where relevant and the content itself also matter. For our simple sheet, we can at least preserve the main instructions as selectable text rather than flattening the entire page into a picture. That helps people copy, search, enlarge or access the words through suitable software. The exact result depends on the format and the software used. Inspect the exported document rather than assuming that an accessible source automatically produces an accessible final file."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Colour can identify categories, but it should not carry a required distinction by itself. Suppose the spare box has a green label and the finished drawing box has a red label. An instruction saying use the green box depends on recognising that colour. Labels saying Spare pencils and Finished drawings give a second route. Different symbols or shapes can add another cue when appropriate, provided their meaning is explained. The relevant web accessibility principle from the World Wide Web Consortium is that colour alone should not convey necessary information. Our printed sheet is a different medium, but the same failure is easy to imagine in a monochrome photocopy."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Contrast is about whether the foreground can be distinguished from the background. Pale grey lettering on a white page may look restrained on a bright monitor and become hard to read in print. The web accessibility standard specifies a minimum contrast ratio of four and a half to one for ordinary text, with a lower threshold for qualifying large text and stated exceptions. That is a digital standard with defined measurements, not a guarantee that every printed copy will be comfortable to read. For this exercise, dark text on a plain light background is a straightforward starting choice. Test the actual output at its intended size."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Do not estimate compliance by glancing at two colours and deciding that they feel different enough. A contrast checker calculates from colour values according to the standard. Nor should we assume that a high contrast ratio makes tiny text usable. Size, type design, spacing and viewing conditions also affect the practical result. A page can pass one technical check and still be awkward to use. We are distinguishing a measurable criterion from the broader job of communication. On our sheet, the smallest essential instruction deserves attention because that is often where a designer has squeezed an exception after the main layout was already finished."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Third recall question. If two boxes are distinguished only by red and green labels, what additional information could make the instruction usable without recognising those colours? And why does a successful contrast check not settle the whole question of readability? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Give the boxes clear written names, such as Spare pencils and Finished drawings, and use those names in the instructions. Distinct, explained shapes can provide another cue. A contrast check measures one relationship between foreground and background. It does not establish that the letters are large enough, the reading order is sensible, the wording is understandable or the printed result is good. We can therefore keep the numerical check while also inspecting the page in use. Treating a standard as one useful test preserves its value without asking it to answer questions it was not designed to answer."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Let us return to the digital image. A picture twelve hundred pixels wide contains twelve hundred samples across its width. If it is displayed six hundred screen pixels wide, the software must combine information to make the smaller version. Fine details can become less distinct. If it is enlarged to twice its original width, software must create additional displayed samples without recovering detail that the source never recorded. Different resizing methods produce different results, but none can guarantee reconstruction of missing original information. For a diagram, that means a thin line or a small label can disappear or become soft after resizing even when the large original looked clear."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Print introduces a physical dimension. If a twelve hundred pixel wide image is printed four inches wide, there are three hundred image pixels per inch across that width. Printed eight inches wide, the same file supplies one hundred and fifty image pixels per inch. We divided the pixel count by the physical width. This calculation describes the source image density, not the printer's entire technical capability or a universal quality threshold. The image content and printing process matter too. For our simple instruction sheet, the useful habit is to inspect the image at the intended print size, especially its smallest label and thinnest necessary line."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "A vector drawing represents shapes through geometric descriptions rather than storing the whole picture as a fixed rectangular array of colour samples. That can make it suitable for simple diagrams and text that must be scaled. Eventually a display or printer still produces a visible output, and effects or embedded photographs may introduce raster content. The practical distinction is not that vector files are magically perfect. It is that a line described by its endpoints can be redrawn at a new size without relying on a tiny original photograph of that line. Keep an editable original so that labels and shapes can be corrected before the final export."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "File format decisions should follow the content. A photograph and a diagram made of sharp edges have different characteristics. Lossy compression can reduce file size by discarding information, and repeated exports can introduce visible changes. A lossless method preserves the encoded image information when used correctly, though it cannot restore detail already lost in an earlier version. Rather than promising that one format always wins, compare a small test export at the size people will use. Look at text edges, thin lines and any colour boundaries that carry meaning. The smallest file is not the best result if the essential distinction becomes unreadable."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Here is an original example of why repeated handoffs matter. The organiser exports the instructions as an image. Someone pastes that image into a message, takes a screenshot, and prints the screenshot. Each stage may change size, introduce margins or alter the representation. The final page can be much worse than the original even though nobody intentionally edited its content. Provide the intended print file directly when possible, and keep the editable source separately. Name them so that a reader can distinguish the version meant for use from the version meant for editing. A file called final, followed by several more files also called final, communicates very little."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Version information should be proportional to the task. Our drawing sheet might carry a small date and a simple version number. If the number of seats changes, update the title or quantity statement as well as the materials list. Six seats with three cards each needs eighteen cards. Eight seats with three cards each needs twenty four. Changing only the picture leaves the text wrong. Changing only the materials list leaves the completed state wrong. A revision needs a consistency pass across all representations of the same fact. This is a small example of how contradictions enter documents through separate edits that each look reasonable on their own."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "An accessible text alternative also has to stay consistent. For a simple informative image on a webpage, its alternative text should convey the meaning the image supplies in that context. For a more complex diagram, the essential information may need a fuller description nearby. The World Wide Web Consortium's image guidance distinguishes these uses from decorative images and functional images such as buttons. We should not mechanically describe every visible object in every image. If our diagram's job is to show one pencil next to three cards, that relationship is useful. The colour of the table is irrelevant unless the task depends on identifying that particular table."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Imagine reading our instructions aloud over a phone call. The listener cannot see the page, but they may still understand the setup if the text contains the quantities, locations and final check. That is a useful content test, although it is not a complete accessibility audit. If the instruction says copy the arrangement shown above and nothing else, the essential information is trapped in the image. We can replace that gap with a short description: place one pencil beside a stack of three blank cards at each marked seat. The picture can remain because it is helpful to many readers. The words make the core action available through another route."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "For a complex room plan, a brief phrase may not be enough. A text description can state the important locations in a sensible order, without cataloguing every visible feature. Our fictional room has the drawing table in the centre, the spare pencil box on the side table and the finished drawing box beside the exit. If there are obstacles or access requirements, those must be described accurately by the people responsible for the room. We should not infer that a route is suitable merely because it looks clear in a sketch. A visual plan can omit dimensions, door movement and real conditions that affect whether a person can use the space."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "We now have a draft, but the writer's own familiarity makes it a poor test audience. Ask someone who has not prepared this particular setup to use the sheet for the low stakes task. Explain that you are testing the instructions, not their intelligence or competence. Watch where they look, where they pause and what they actually do. If they ask what a phrase means, record the phrase. Do not immediately supply a polished explanation and then count the task as independently successful. Your explanation may be exactly the missing content. Of course, stop an activity if it becomes unsafe or uncomfortable. Our paper setup should stay ordinary and reversible."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "The observation can be very simple. Did the person identify the correct materials? Did they put the right quantity at every marked place? Did they distinguish the two boxes? Could they tell when they were finished? These questions correspond to the stated task. Asking whether they liked the design answers a different question. Someone may like the colours and still misread the sequence. Someone may dislike the illustration style and complete every action accurately. Both kinds of feedback can matter, but we should not substitute an aesthetic preference for evidence about whether the instructions support the task."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Fourth recall question. A helper completes the setup only after you explain what the phrase return area means. What does that tell you about the draft, and what should you change before another test? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "It suggests that the phrase or its context did not identify the destination clearly enough for that helper. It does not prove that the helper is careless. Replace the vague reference with the actual box name and location, and make sure the label exists in the room. Then test the revised wording without supplying the missing explanation yourself. One observation is useful evidence about a possible failure, not a statistical estimate of how every reader will behave. The appropriate immediate response is a targeted repair followed by another practical check, rather than a sweeping claim that the whole design is either excellent or useless."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "When giving feedback on the draft, describe the observable mismatch. I put the spare pencils in the finished drawing box because the arrow pointed there is more useful than this is confusing. The first statement identifies an action, an interpretation and a possible source of the error. The writer can inspect the arrow and test another arrangement. The second expresses a real experience but leaves many possible causes. We can ask a follow up question without arguing with the reader: which part did you look at when deciding where the pencils belonged? The goal is to reconstruct the interaction, not persuade the reader that they should have understood it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "A contrasting case helps us avoid overcorrection. Suppose the first reader skips the materials list and discovers too late that there are not enough cards. We could respond by repeating the full materials list in every step. That would make the sheet longer and create more places for quantities to become inconsistent. Another response is to place a brief check before the numbered sequence: confirm you have six pencils and eighteen blank cards. Or we might improve the heading and placement of the existing list. Choose a change that addresses the observed problem with the least unnecessary complexity. Then see whether the next reader notices the preparation requirement."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Testing with one person can reveal a defect without establishing its frequency. Testing with several people can reveal different defects, but a small convenience sample still does not represent every possible user. For our volunteer sheet, we do not need to pretend we are running a formal scientific trial. We need enough practical checking to catch obvious ambiguities and enough humility to revise when new ones appear. If the procedure is widely used or consequential, the review effort should increase accordingly. The low stakes exercise teaches a method of observation. It does not certify a medical instruction, an evacuation plan or a technical maintenance manual."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "There is also a distinction between an instruction problem and an environment problem. If two boxes have identical unreadable labels, rewriting the leaflet may help only a little. Relabelling the boxes could be the more direct repair. If the required cards are stored behind unrelated materials, the task may need a better storage arrangement. We should not force every difficulty into a writing solution. The page, the objects and the actual workflow operate together. In our example, matching the names on the sheet to the names on the boxes reduces a translation step. That change can be more valuable than adding another paragraph about being careful."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Now consider a digital version of the same reasoning. A guide says click the button on the right, but the application rearranges its controls on a smaller screen. Naming the control by its visible label is usually more durable than describing only its position. A screenshot can still help locate it. If the label changes in a new version, the guide needs review. Date the guide and identify the relevant application version when that information matters. Do not present screenshots as timeless evidence of how every user's screen must look. The underlying lesson is the same as our moving cupboard: choose references that remain meaningful under the variations you expect."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "A digital step also needs an expected result. After selecting Save, the reader should know whether to look for a confirmation, a changed filename or some other actual sign of completion. The writer must verify that sign in the real application instead of inventing one. If saving can fail, a useful instruction distinguishes a successful save from a merely attempted click. Our physical equivalent is checking that every drawing place has its materials. In both cases, an action and an outcome are different things. Instructions become more dependable when they help readers notice whether the intended state was reached."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Let us assemble the final workshop sheet in words. The title is Set up six drawing places. The starting condition is that the organiser has marked the six seats. The materials are six working pencils, eighteen blank cards and the two labelled boxes. The steps distribute one pencil and three cards to each marked seat, put the spare pencil box on the side table and put the finished drawing box beside the exit. The check compares each place with a small overhead picture and its quantity label. The exception note tells the volunteer to contact the organiser if a required item is missing. Every part now has a job."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "The finished sheet should not also become a history of drawing, a welcome speech, a purchasing policy and a lesson on classroom management. Those subjects can matter, but they have other places. Scope is a design choice. A reader who is setting out eighteen cards should not have to search through two pages of organisational background to find the number eighteen. If the background is necessary to make a decision, include the relevant piece at that point. If it is useful only for someone managing the programme, keep it in a separate document. A clear boundary can make both documents better without discarding either kind of knowledge."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "For your practical application, choose an ordinary task that involves paper, harmless household objects or a familiar digital document. Keep it private and reversible. You might explain how to arrange materials for a card game, label a small collection of folders or prepare a drawing place. Avoid tasks involving safety equipment, medication, electrical work, sensitive accounts or anything where a mistake could cause harm. Write a one sentence outcome, a short materials or starting conditions section, and a sequence of actions. Add one picture only if you can state what it explains. If no picture contributes useful information, leave it out."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Then write the completion check before you decorate the page. This often reveals a missing rule. If you cannot describe what a finished folder arrangement looks like, you may not yet have decided how the folders should be grouped. If the check says everything is tidy, ask what tidy means for this particular task. Perhaps each folder has a readable name and belongs to one labelled category. These are your design decisions for the exercise, not facts about a universal best filing system. Make them explicit enough that another person could follow them without having to adopt your unstated preferences."
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Inspect the page at the size it will actually be used. If it will be printed, look at a print when one is conveniently available. If it will be read on a phone, inspect the small display rather than only the large editing window. Check the smallest essential text, the attachment between labels and pictures, and any information carried only by colour. Read the words without looking at the image and see which necessary facts disappear. If you can ask a willing person to try the harmless task, observe without coaching. Otherwise, return later and follow the steps literally, while recognising that your own knowledge makes this a weaker test."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Fifth recall question. What are the four things you should be able to identify in your small instruction sheet before you spend time polishing its appearance? Take seven seconds.",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Identify the intended outcome, the starting conditions or materials, the actions, and the check that shows completion. An exception route may also be needed when a required condition is missing. The picture, wording and layout should support those parts. For our fictional workshop, the outcome is six prepared drawing places, the supplies include eighteen cards, the actions distribute and position the objects, and the check inspects each place and both labelled boxes. If a pencil is missing, the organiser resolves it. That concrete structure gives us something to test and revise instead of relying on a page that merely looks professional."
+    },
+    {
+      "v": "sage",
+      "i": "Teach in a natural conversational voice. Make quantities and contrasting examples clear. Do not slow artificially.",
+      "t": "Keep the first version and record one specific change after your check. For example, replaced green box with Spare pencils box, or moved the count beside the picture. Write what observation prompted the change. This small record helps you avoid treating every new preference as an improvement and makes later revisions easier to understand. You do not need an elaborate scoring system for a one page household guide. You need a connection between a problem, a change and its result. When the sheet works, stop adding features. Its success is that someone can complete the ordinary task accurately, with the information available when they need it."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-10-24",
+    "spoken_words": 7081,
+    "sha256": "64e5aea57f552c00819a06c363a30d573ff2af49a23da77138e12bea210e30a6",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.w3.org/WAI/tutorials/images/decision-tree/",
+      "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html",
+      "https://www.w3.org/WAI/tutorials/page-structure/headings/",
+      "https://www.w3.org/WAI/tutorials/images/complex/",
+      "https://www.w3.org/WAI/tips/writing/",
+      "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Image_types"
+    ]
+  }
+}
