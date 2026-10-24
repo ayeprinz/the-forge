@@ -9,6 +9,15 @@
     <itunes:explicit>true</itunes:explicit>
     <itunes:image href="https://ayeprinz.github.io/the-forge/forge-cover-v2.jpg"/>
     <item>
+      <title>[Music] How Rhythm Works: Beat, Metre and Syncopation</title>
+      <description>Learn beat and tempo, attack and duration, rests, note values, time signatures, dots and ties, simple and compound metre, triplets, syncopation, dynamics, layered rhythms and phrase variation. Original worked grids and a four-bar composition, five recall questions and one quiet private exercise. Sources consulted: https://www.gutenberg.org/ebooks/19499 https://www.gutenberg.org/cache/epub/19499/pg19499-images.html https://www.gutenberg.org/ebooks/19499.txt.utf-8 https://openmusictheory.github.io/meter.html https://openmusictheory.github.io/rhythmicValues.html https://openmusictheory.github.io/beams.html https://www.thenational.academy/teachers/lessons/what-is-syncopation</description>
+      <pubDate>Sat, 24 Oct 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2026-10-24</guid>
+      <enclosure url="https://ayeprinz.github.io/the-forge/audio/2026-10-24.mp3" length="18987501" type="audio/mpeg"/>
+      <itunes:duration>00:52:44</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+    </item>
+    <item>
       <title>[Digital Technology] How Images Store Colour, Detail and Compression</title>
       <description>Pixels, aspect ratio, RGB and bit depth, colour spaces, alpha compositing, lossless prediction, palettes, lossy quantisation, interpolation, print density, vector graphics and editable sources. Original worked examples distinguish file size from detail, with five recall questions and one private resizing experiment. Consulted sources: https://www.w3.org/TR/png-3/ https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Image_types https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Introduction https://developer.mozilla.org/en-US/docs/Glossary/Color_space https://developer.mozilla.org/en-US/docs/Glossary/Alpha https://developer.mozilla.org/en-US/docs/Glossary/Lossless_compression https://developer.mozilla.org/en-US/docs/Glossary/Lossy_compression https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/set-image-size-and-resolution.html https://developer.mozilla.org/en-US/docs/Web/API/Window/devicePixelRatio https://jpeg.org/jpeg/ https://developers.google.com/speed/webp/docs/compression https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/resample-option-in-image-size-dialog-box.html https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/printed-image-resolution.html</description>
       <pubDate>Fri, 23 Oct 2026 05:00:00 +0000</pubDate>
