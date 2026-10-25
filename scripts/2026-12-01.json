@@ -1,0 +1,412 @@
+{
+  "date": "2026-12-01",
+  "title": "[Mathematics] Why Remainders Find Common Factors",
+  "summary": "Derive the Euclidean algorithm and use it to build identical packs, reduce fractions, fit ideal square tiles, combine repeating schedules and understand cycle reachability. Original worked examples distinguish greatest common divisors from least common multiples, with a backward integer-combination check, five recall questions and a private paper exercise.",
+  "instructions": "Assume no prior reading. Start with the card-packing problem. Both voices teach the mechanisms and contrasting cases. All quantities are exact integers unless an ideal unit conversion is stated. Preserve five seven-second recall pauses and subsequent answers. Do not imply physical cutting, purchasing or safety-critical scheduling advice.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "You have eighty-four blue cards and thirty red cards. You want to make identical packs, use every card and leave nothing over. Each pack must contain the same number of blue cards as every other pack, and the same number of red cards as every other pack. How many packs can you make at most? This is a question about common factors. The answer is six packs, each containing fourteen blue cards and five red cards. The interesting part is how to find six reliably when the numbers are too awkward to inspect at a glance."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "There are several possible mistakes hidden in that simple problem. Adding the two supplies gives one hundred and fourteen cards, but that total forgets the colours. Dividing the total into equal piles does not guarantee identical contents. Choosing thirty packs because there are thirty red cards fails because eighty-four blue cards cannot be divided equally among thirty packs without cutting cards. We need a number that divides both supplies exactly. Then we need the largest such number. The phrase greatest common divisor names precisely that requirement, and greatest common factor is another name for the same thing."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "A positive integer divides another positive integer when the second can be made from a whole number of copies of the first. Six divides thirty because five copies of six make thirty. Four does not divide thirty because seven copies make twenty-eight and two cards remain. We are using whole counts here, not saying that ordinary division by four is impossible. Thirty divided by four is seven and a half, but half a card does not meet the packing rule. The mathematical condition comes from the practical constraint. If cutting were allowed, we would be solving a different problem."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "It helps to distinguish the size of a group from the number of groups. In our packing problem, six is the number of packs. Dividing the blue supply by six gives fourteen blue cards in each pack. Dividing the red supply by six gives five red cards in each pack. In a different problem, six might be a strip length or a square's side. The same calculation can answer different questions, so the units and interpretation must be supplied by the problem. A correct numerical answer can still be used incorrectly if we forget what was being counted."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "For small numbers, we could list all the divisors. Thirty has positive divisors one, two, three, five, six, ten, fifteen and thirty. Eighty-four has one, two, three, four, six, seven, twelve, fourteen, twenty-one, twenty-eight, forty-two and eighty-four. The shared entries are one, two, three and six. Six is the greatest. Listing is transparent because every candidate is visible, but it becomes less convenient as the numbers grow. We want a procedure that preserves exactly the shared-divisor question while replacing the original numbers with smaller numbers that are easier to handle."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "That procedure is called the Euclidean algorithm. Euclid's Elements, Book Seven, includes propositions about repeated subtraction and the greatest common measure of whole numbers. We have consulted the historical material and an English presentation of the relevant proposition. We will use modern language, original numerical examples and a remainder-based version of the procedure. You do not need to know ancient Greek or read the Elements first. The historical connection tells us where the name belongs. The mathematical justification will be developed here so that the method is something you can understand rather than a rule accepted because it is old."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Start by subtracting thirty from eighty-four. That leaves fifty-four. Subtract thirty again and eighteen remains. Instead of asking for the greatest common divisor of eighty-four and thirty, we can ask for the greatest common divisor of thirty and eighteen. Thirty minus eighteen is twelve. Eighteen minus twelve is six. Twelve is two copies of six, so six divides both members of that last pair. We have reached the answer through smaller pairs. Before trusting the result, we should explain why changing the pair did not accidentally remove a possible common divisor or introduce a new one."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Imagine that a candidate number divides both eighty-four and thirty. Call it the candidate, without yet deciding whether it is two, three, six or something else. Because it divides thirty, it also divides two copies of thirty, which is sixty. Because it divides eighty-four and sixty, it divides their difference, eighteen. You can picture complete groups being removed from complete groups: the remainder still consists of complete groups of the same size. So every common divisor of eighty-four and thirty must also be a common divisor of thirty and eighteen. That is one direction of the reasoning."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Now run the reasoning backwards. Suppose a candidate divides thirty and eighteen. It then divides sixty, which is two copies of thirty, and it divides sixty plus eighteen, which is eighty-four. Every common divisor of the smaller pair therefore divides the original pair as well. We have established both directions. The pairs have exactly the same common divisors, not merely one common divisor in common. That is why their greatest common divisors agree. When a transformation preserves the whole set of possible answers, reducing the size of the numbers is safe rather than a guess."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "The two directions matter. If we only knew that some divisors survived, we could miss the greatest one. If we only knew that the new pair shared a divisor, we might have created an answer that did not fit the original problem. Here neither error is possible. Any candidate that works before works after, and any candidate that works after works before. This is a useful pattern in mathematical reasoning: simplify the form of a problem while proving that its relevant solutions stay unchanged. The computation becomes shorter because the proof carries information that we no longer need to check candidate by candidate."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Division lets us combine repeated subtractions. Eighty-four contains two complete thirties and has remainder eighteen. We can write that relationship in words as eighty-four equals two times thirty plus eighteen. The quotient is two, and the remainder is eighteen. For the greatest common divisor calculation, we keep thirty and eighteen and discard the larger original number. We have not forgotten how it was related to them. The equation tells us exactly how to reconstruct it if needed. The remainder version is therefore the same reduction idea with several subtractions bundled into a single division step."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "The complete remainder calculation is short. Eighty-four divided by thirty gives quotient two and remainder eighteen. Thirty divided by eighteen gives quotient one and remainder twelve. Eighteen divided by twelve gives quotient one and remainder six. Twelve divided by six gives quotient two and remainder zero. The answer is the last nonzero remainder, six. Zero is the stopping signal, not the greatest common divisor. At the final step, the smaller number divides the larger exactly, so there is no leftover problem to pass on. That explains both where the procedure stops and which number should be reported."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Why can we be sure it eventually stops? Each nonzero remainder is a positive whole number strictly smaller than the divisor just used. In our example the remainders are eighteen, twelve and six. You cannot keep producing a strictly decreasing sequence of positive integers forever. Eventually the remainder must become zero. This argument depends on working with whole numbers. It is not enough to say that values are decreasing, because positive fractions can decrease indefinitely without reaching zero. Half, a quarter and an eighth already show why the domain of the problem matters to a termination argument."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "There are two separate promises in an algorithm like this. One is that if it stops, the reported answer is right. The common-divisor preservation argument provides that promise. The other is that it will stop. The decreasing positive remainders provide that promise. A method that always moves toward a correct answer but never finishes would not give us a usable procedure. A method that finishes quickly with an unjustified answer would not be reliable either. Keeping correctness and termination separate makes the explanation stronger, and the distinction will matter whenever you assess a procedure beyond this particular arithmetic problem."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "We can also verify the final result directly against the original supplies. Eighty-four divided by six is fourteen; thirty divided by six is five. Six identical packs therefore use every card. Could seven packs work? No, because thirty is not a multiple of seven. Could ten work? No, because eighty-four is not a multiple of ten. We do not have to test all larger candidates individually because the reduction proof has already ruled them out. Direct substitution checks that our answer works; the algorithm's justification tells us why no larger answer can work. These are related but different kinds of assurance."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "First recall question. When eighty-four equals two times thirty plus eighteen, why is it legitimate to replace the pair eighty-four and thirty with the pair thirty and eighteen when finding a greatest common divisor?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "A number dividing eighty-four and thirty must divide eighteen, because eighteen is what remains after subtracting two thirties. Conversely, a number dividing thirty and eighteen must divide eighty-four, because two thirties plus eighteen reconstruct eighty-four. The two pairs therefore have exactly the same common divisors. We are not assuming that a remainder resembles the answer or hoping that smaller numbers are easier in a useful way. We have proved that the property being sought survives the change in both directions. Repeating that safe change leads to a pair whose answer is immediate."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Now consider a larger fictional packing job with two hundred and fifty-two labels and one hundred and ninety-eight sleeves. Two hundred and fifty-two equals one times one hundred and ninety-eight plus fifty-four. One hundred and ninety-eight equals three times fifty-four plus thirty-six. Fifty-four equals one times thirty-six plus eighteen. Thirty-six equals two times eighteen plus zero. The greatest common divisor is eighteen. If we are making identical packs using both supplies completely, each of eighteen packs receives fourteen labels and eleven sleeves. The quantities are deliberately artificial so we can focus on the calculation rather than an unstated practical purpose."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "You may notice that the final divisions look like the earlier example. That is not an accident in the method: many different starting pairs reduce to the same smaller pair. The large numbers do not need to have their prime factors listed first. All we need at each step is a quotient and remainder. This is valuable because finding all prime factors can be a separate and more demanding task. The Euclidean algorithm answers a specific question directly. It does not claim to reveal every mathematical property of the original numbers. Knowing exactly what a procedure returns helps prevent us from expecting information it never computed."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "A check on the arithmetic makes the result easier to trust. Three times fifty-four is one hundred and sixty-two; adding thirty-six gives one hundred and ninety-eight. Fourteen times eighteen is two hundred and fifty-two. Eleven times eighteen is one hundred and ninety-eight. These checks connect the intermediate equations and the final packing interpretation. If one remainder had been copied incorrectly, a final multiplication might reveal a mismatch. For a hand calculation, write each equation on its own line and keep the order of the pair visible. Many mistakes come from losing track of which two numbers are now being compared."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "The quotient must be the whole-number count that leaves a remainder smaller than the divisor and at least zero. Suppose you divide one hundred and ninety-eight by fifty-four and choose quotient two. The leftover would be ninety, which is still larger than fifty-four. That subtraction is not false, but it has not bundled all the available complete groups. You could subtract another fifty-four and reach thirty-six. Choosing quotient four would overshoot and produce a negative remainder. For the standard algorithm we choose three, giving a remainder in the required range. The convention makes every step predictable and ensures the next pair is smaller."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "We should also handle easy boundary cases. If the numbers are equal, their greatest common divisor is that shared positive number. For forty-two and forty-two, forty-two divides both and no greater positive number can divide forty-two. If one number divides the other, the smaller is the answer immediately. For seventy-two and twenty-four, the answer is twenty-four. If one number is one, the answer is one, because one has no larger positive divisor. Recognising these cases can save effort, but they also fit the general procedure. They are not exceptions that undermine the rule."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "What if one input is zero? In modern integer arithmetic, every positive integer divides zero, because multiplying it by zero produces zero. The greatest common divisor of a positive number and zero is therefore the positive number. With thirty and zero, thirty is the answer. You must not attempt ordinary division by zero to discover that result. A program or written procedure checks for a zero second input and stops before dividing. If both inputs are zero, the elementary definition as a greatest positive common divisor has no greatest member; some software conventions return zero, so that case must be specified separately."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Negative inputs can be handled by taking their absolute values when we want a positive greatest common divisor. The divisibility relationship does not depend on the sign: six divides both thirty and negative thirty, with quotients five and negative five respectively. We will continue using positive counts because they fit our applications, but recognising the convention prevents confusion when the same algorithm appears in algebra or software. A well-described method states its input domain and output convention. Otherwise two people can use the same name, follow different edge-case rules and think they have discovered a disagreement in the mathematics."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Two numbers whose greatest common divisor is one are called relatively prime, or coprime. This does not mean that both numbers are prime. Eight and fifteen are both composite, but eight has only powers of two among its prime factors while fifteen is three times five. They share no positive divisor larger than one. In the packing interpretation, eight blue cards and fifteen red cards cannot be split into more than one identical pack while using everything. The obstacle is the relationship between the supplies. Neither supply needs to be a prime number on its own for that obstacle to arise."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Try the remainder procedure on thirty-five and twenty-two. Thirty-five equals twenty-two plus thirteen. Twenty-two equals thirteen plus nine. Thirteen equals nine plus four. Nine equals two times four plus one. Four equals four times one plus zero. The last nonzero remainder is one, so the original numbers are coprime. Once one appears, we already know the greatest common divisor is one; the final zero step simply completes the standard pattern. There is no need to continue searching for a larger common factor, because any common factor would have to divide one, which no larger positive integer can do."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Consecutive positive integers are always coprime. Their difference is one. Any common divisor would have to divide that difference, and therefore could only be one. This is a compact proof that covers every consecutive pair, rather than an observation based on several examples. Forty and forty-one work, as do one hundred and ninety-nine and two hundred. But numbers separated by two need not be coprime. Eight and ten share two, whereas nine and eleven share only one. The difference provides a restriction on possible common divisors, not necessarily the final answer without considering the numbers themselves."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "That restriction can sometimes replace a long calculation. If two positive integers differ by six, any common divisor must divide six. The only candidates are one, two, three and six. For eighty-four and ninety, six works, so it is the greatest common divisor. For eighty-five and ninety-one, none of two, three or six divides eighty-five, so the greatest common divisor is one. The same difference can therefore lead to different answers. What remains constant is the set in which the answer must lie. This is another example of narrowing a problem without pretending that narrowing and solving are the same step."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Coprime numbers matter when reducing fractions. Consider the fraction eighty-four over thirty. Dividing the numerator and denominator by six produces fourteen over five. The value has not changed because both parts were scaled by the same nonzero factor. Fourteen and five are coprime, so no further whole-number common factor can be cancelled. In mixed-number language, fourteen fifths is two and four fifths, but the reduced fraction form is already complete. Reducing does not necessarily make the fraction less than one. It removes shared factors from the numerator and denominator while preserving the number represented."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Why does dividing by the greatest common divisor guarantee that the remaining numerator and denominator are coprime? Suppose a larger-than-one factor still divided both reduced numbers. Multiplying that factor by the divisor we already removed would give a larger common divisor of the original pair. That would contradict the claim that we had removed the greatest one. This proof avoids the need to try every possible factor after reduction. It also explains why cancelling only a small shared factor may leave more work. The amount removed matters to whether the result is merely simpler or fully reduced."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "For example, reducing two hundred and fifty-two over one hundred and ninety-eight by two gives one hundred and twenty-six over ninety-nine. That is a valid first step, but both numbers still divide by nine. Dividing the original pair by their greatest common divisor, eighteen, reaches fourteen over eleven directly. Both routes preserve the value. One uses several cancellations, the other a single complete cancellation. The Euclidean algorithm does not create a different fraction; it identifies how far the shared scaling can be removed in one step. This is useful when neither number has an obvious small factor."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "There is a familiar cancellation error worth separating from this. A factor multiplies an entire numerator or denominator. A term is one part of a sum. In the fraction six plus four, all over six plus eight, you cannot simply cross out the sixes. The original value is ten over fourteen, which reduces to five over seven. Removing the sixes would give four over eight, or one half, a different number. To cancel safely, first identify a factor of the whole numerator and the whole denominator. The greatest common divisor concerns those whole integers, not matching symbols that happen to appear in an expression."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Ratios use the same reduction but need their interpretation retained. Eighty-four blue cards to thirty red cards reduces to fourteen blue cards to five red cards. That ratio does not say there are nineteen cards in the entire collection. It says that the relative quantities are equivalent to fourteen and five. The full collection contains six copies of that smallest whole-number pattern. If we wanted an identical mixture at a larger scale, twenty-eight blue and ten red would preserve the ratio, as would forty-two blue and fifteen red. Scaling changes the quantities while leaving the proportion intact."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Units can make an apparent ratio misleading. A length of two metres compared with a length of fifty centimetres should not be reduced as two to fifty. Convert to a common unit first. Two metres is two hundred centimetres, so the ratio is two hundred to fifty, which reduces to four to one. The arithmetic of the greatest common divisor works on the numbers supplied to it; it cannot notice that the numbers refer to different units unless we include that information. Preparing the quantities correctly is part of solving the problem, not an optional detail after the calculation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Second recall question. If two composite numbers have greatest common divisor one, can they be called coprime, and what does dividing a fraction's numerator and denominator by their greatest common divisor accomplish?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Yes. Coprime describes the relationship between the numbers, not whether each is individually prime. Eight and fifteen are an example. Dividing a fraction's numerator and denominator by their greatest common divisor preserves its value and leaves a pair with no shared positive factor greater than one. If a factor remained, combining it with the factor already removed would contradict the original divisor's being greatest. The result is therefore fully reduced. We must still keep units consistent and cancel factors of whole quantities rather than isolated terms inside sums."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "We can extend the method to three or more supplies. Suppose there are eighty-four blue cards, thirty red cards and forty-two green cards. First find the greatest common divisor of eighty-four and thirty, which is six. Then find the greatest common divisor of six and forty-two, which is also six. We can make six identical packs, each with fourteen blue cards, five red cards and seven green cards. The first calculation summarises the divisibility constraint from the first two supplies. The second checks whether that shared structure survives the addition of a third supply."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Now change the green supply to twenty. Six and twenty have greatest common divisor two. The largest number of identical packs is therefore two, with forty-two blue cards, fifteen red cards and ten green cards in each. It would be wrong to keep six packs merely because that worked for the first two colours. Every supply imposes a constraint. Adding another supply can leave the greatest common divisor unchanged or reduce it; it cannot increase it beyond what the first two already allowed. This gives us a useful reasonableness check before we inspect the final numerical result."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "The order in which we combine the supplies does not change the answer. Any number dividing all three must divide the greatest common divisor of the first two and also the third. Conversely, a number dividing that intermediate greatest common divisor and the third divides all three original supplies. Again we have the same set of candidates in both descriptions. We could start with thirty and twenty, obtaining ten, then combine ten with eighty-four to obtain two. A different intermediate result leads to the same final constraint because the underlying question remains common divisibility across every supply."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Pairwise coprimality is stronger than having a greatest common divisor of one across a whole collection. Consider six, ten and fifteen. Six and ten share two. Six and fifteen share three. Ten and fifteen share five. Every pair has a common factor larger than one, yet no single factor larger than one divides all three. Their combined greatest common divisor is one. This distinction is easy to miss if we replace a precise statement with the vague phrase they have factors in common. We need to say whether we mean each pair separately or one factor shared by the entire collection."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "For a packing problem with six, ten and fifteen items of three kinds, the largest number of identical complete packs is one. Combining just the first two might tempt us to propose two packs, but fifteen cannot be split evenly into two whole-number shares. Combining the second and third might suggest five packs, but six prevents that. This example shows why all constraints have to survive together. It is not enough that each small part of a proposal works with some other part. The same proposed number of packs has to satisfy every supply at once."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "A geometric version gives the greatest common divisor a different meaning. Imagine an ideal rectangle eighty-four centimetres long and thirty centimetres wide. You want to tile it with equal squares whose sides follow the rectangle's edges, with no gaps or overlaps, and with a whole number of squares along each side. The largest whole-centimetre side length that fits is six centimetres. Fourteen squares fit along the long side and five along the short side, making seventy squares in all. Here six is a length, not a number of packs. The same divisibility calculation supports a different interpretation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "This ideal model ignores grout, cutting loss, irregular boundaries and measurement error. Those details can matter in a real installation, so the mathematical answer is not a purchasing specification. We can explore the geometry safely on paper. Draw a rectangle fourteen grid spaces by five grid spaces and regard each grid space as six centimetres in the model. The area check is consistent: eighty-four times thirty is two thousand five hundred and twenty square centimetres. A square of side six has area thirty-six, and seventy times thirty-six is two thousand five hundred and twenty. The units change from length to area during that check."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "The greatest square gives the fewest equal squares under these alignment and exact-fit conditions. Smaller valid sides are possible: one, two and three centimetres also divide both dimensions. Their squares have smaller areas, so more are needed to cover the same rectangle. A three-centimetre square requires twenty-eight along the length and ten along the width, or two hundred and eighty in total. Halving the side length quadruples the number of squares because both dimensions double their counts. This is a useful reminder that a linear scale change and an area change are not the same operation."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Decimals do not automatically prevent exact common-measure reasoning, provided the quantities are intended as exact rational lengths. Suppose an ideal rectangle is eight point four centimetres by three centimetres. Expressing both lengths in millimetres gives eighty-four and thirty. Their greatest common divisor is six millimetres, so the largest aligned square has side zero point six centimetres. The calculation is the earlier one with a different physical scale. If the dimensions were only approximate measurements, however, an exact divisibility answer could be misleading. The mathematical model must match the precision and purpose of the quantities it receives."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Two measured lengths that are almost multiples of a convenient unit may not be exact multiples. A strip recorded as one hundred centimetres and another as ninety-nine centimetres have greatest common divisor one in whole centimetres, while two strips both recorded as one hundred have greatest common divisor one hundred. That dramatic change does not mean real materials suddenly become unsuitable after a tiny measurement variation. It means exact integer divisibility is a strict question. For approximate fitting, tolerances and permitted adjustments belong in the model. We should not force a precise arithmetic tool to answer a different engineering question without modification."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "The phrase common multiple describes a related problem in the opposite direction. A common divisor fits evenly into each original number. A common multiple is a number into which each original number fits evenly. For six and eight, two is their greatest common divisor. Twenty-four is their least positive common multiple. Six fits into twenty-four four times and eight fits into it three times. These answers have different jobs. A question about splitting supplies usually looks toward divisors. A question about when repeating cycles coincide often looks toward multiples. Reading the action in the problem is more reliable than reacting to familiar numbers."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Suppose two ideal reminder lights flash together at the start. One then flashes every six seconds and the other every eight seconds. The first light flashes at six, twelve, eighteen and twenty-four seconds. The second flashes at eight, sixteen and twenty-four. Their first shared positive flash time is twenty-four seconds. That is the least common multiple. The starting alignment is part of the problem. If one light begins at a different offset, the next coincidence may occur at a different time or might not occur at all under exact integer timing. A cycle length alone does not describe a schedule completely."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "There is a useful relationship between the greatest common divisor and the least common multiple of two positive integers. Multiply the original numbers, then divide by their greatest common divisor. For six and eight, forty-eight divided by two gives twenty-four. For eighty-four and thirty, two thousand five hundred and twenty divided by six gives four hundred and twenty. Both eighty-four and thirty divide four hundred and twenty, with quotients five and fourteen. The shared factor would otherwise be counted twice in the product. Dividing it out once gives the smallest positive common multiple, rather than merely some common multiple."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "We can justify that relationship without relying only on examples. Write each original number as the greatest common divisor times a reduced number. The two reduced numbers are coprime. Any common multiple must contain the shared divisor and enough whole factors to include both coprime reduced parts. Their product supplies exactly that requirement. Multiplying the original numbers includes the shared divisor twice, so dividing by it once leaves the shared divisor times the two reduced parts. This argument can also be expressed through prime factors: use the larger required exponent for each prime when constructing a least common multiple."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Take twelve and eighteen to make that prime-factor view concrete. Twelve is two times two times three. Eighteen is two times three times three. A common divisor can include only factors available in both, so the greatest common divisor contains one two and one three, giving six. A common multiple needs enough of each to accommodate either number, so it contains two twos and two threes, giving thirty-six. Multiplying twelve and eighteen gives two hundred and sixteen; dividing by six gives thirty-six. The prime-factor description and the remainder algorithm approach the same relationships from different directions."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "The product formula applies to two positive integers in that simple form. It does not extend to three by blindly multiplying all three and dividing by their combined greatest common divisor. For two, three and six, the product is thirty-six and the combined greatest common divisor is one, but the least common multiple is six, not thirty-six. To handle several numbers, combine them in pairs: find the least common multiple of the first two, then combine that result with the third. As with the greatest common divisor, the intermediate result represents the constraints already processed, but the operation must be the right one."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Return to the reminder lights and change their periods to twelve and eighteen seconds. Their greatest common divisor is six, so their least common multiple is thirty-six seconds. If both flash at the start, they next coincide at thirty-six. In that interval the first completes three periods and the second completes two. Six seconds, the greatest common divisor, is a shared time unit in which both periods can be expressed as whole counts. It is not the next coincidence time. Naming the unit and the event helps prevent the very plausible error of choosing the smaller shared number when the question asks for a later shared occurrence."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Third recall question. Two ideal lights start together and repeat every twelve and eighteen seconds. Which quantity gives their next shared flash, and why is six seconds the wrong answer even though six divides both periods?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "The least common multiple gives the next shared positive flash time, which is thirty-six seconds. Six is the greatest common divisor, a common unit that fits into both periods. A flash time must instead be a multiple of each full period. Six seconds is not a multiple of twelve or eighteen, so neither light has completed even one full period then. The calculation twelve times eighteen divided by six gives thirty-six. Always ask whether the desired number must divide the inputs or be divisible by them before choosing between the two operations."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Remainders also describe positions in repeating cycles. On a seven-position cycle, moving nine steps has the same effect on position as moving two, because seven steps complete one full circuit. We say nine has remainder two when divided by seven. This does not mean nine equals two as ordinary integers. It means they lead to the same position when complete circuits are ignored. The distinction is useful in clocks, repeating patterns and schedules. The modulus is the cycle size, here seven. Congruent numbers differ by a whole multiple of that size and therefore represent the same position within the cycle."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "For example, label the positions zero through six and begin at zero. Repeated jumps of three lead to three, six, two, five, one, four and then zero. Every position is visited before the cycle repeats. Now use a cycle of twelve positions with jumps of eight. Starting at zero, the visited positions are eight, four and then zero. Only three positions occur. The step size and cycle size determine which positions are reachable. The greatest common divisor explains the contrast: three and seven are coprime, while eight and twelve share a factor of four."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "More generally, repeated jumps of a fixed whole number around a cycle of a positive whole-number size visit the cycle size divided by the greatest common divisor of the size and the jump. In the twelve-position cycle with jumps of eight, twelve divided by four is three positions. Every visited position is a multiple of four because both the jump and a complete circuit are multiples of four. Divide everything by four and the reduced cycle has three positions with jumps of two, which are coprime. That reduced motion reaches all three of its positions before returning to the beginning."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "This gives a practical interpretation of coprimality. If the jump and cycle size are coprime, repeated jumps reach every position. If they share a factor, the motion stays within one subset of positions. Starting at a different position shifts the subset but does not change its size. With twelve positions and jumps of eight, starting at one visits nine, five and one rather than eight, four and zero. This is exact arithmetic for a deliberately simplified cycle. It can help explain patterns, but a real scheduling system may contain exceptions, delays and unequal intervals that must be handled separately."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "A related question asks whether two repeating schedules with different starting offsets can ever meet. Suppose one event occurs at times zero, six, twelve and so on, while another occurs at times one, nine, seventeen and so on. A meeting would require a multiple of six to equal one plus a multiple of eight. But every multiple of six and every multiple of eight is even, so their difference is even. It cannot equal one. They never meet under these exact rules. The difference in starting offsets must be compatible with the common divisor of the periods."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "If the second schedule instead starts at two, meeting is possible. The first schedule includes eighteen; the second includes two, ten and eighteen. The offset difference, two, is divisible by the greatest common divisor of six and eight, which is two. Once they meet, further meetings repeat every twenty-four time units, the least common multiple. We have used two related quantities for different tasks: the greatest common divisor tests whether the offset is compatible, and the least common multiple gives the interval between successive meetings once a meeting exists. This distinction adds information that the start-together example did not require."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "We can see the underlying arithmetic by writing eighteen as three times six and also as two plus two times eight. Rearranging gives three times six minus two times eight equals two. The difference between whole multiples of the periods produces the required offset. In the impossible case, we would need a difference of one instead, which even multiples cannot produce. This prepares us for another capability hidden inside the Euclidean algorithm: it can show how the greatest common divisor itself can be written as a combination of the original numbers, using integer coefficients that may be negative."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Use thirty-five and twenty-two again. Their remainder chain was thirty-five minus twenty-two equals thirteen; twenty-two minus thirteen equals nine; thirteen minus nine equals four; nine minus twice four equals one. Start with the last equation and replace four by thirteen minus nine. One becomes three times nine minus twice thirteen. Replace nine by twenty-two minus thirteen. One becomes three times twenty-two minus five times thirteen. Finally replace thirteen by thirty-five minus twenty-two. The result is eight times twenty-two minus five times thirty-five equals one. We have worked backwards through equations we already knew were true."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "The multiplication check is simple: eight times twenty-two is one hundred and seventy-six, and five times thirty-five is one hundred and seventy-five. Their difference is one. This equality is more than another proof that the greatest common divisor is one. It gives explicit coefficients showing how to construct that one-unit difference. Multiplying the entire equation by three gives a combination producing three. Multiplying it by any integer produces a combination giving that integer. When the greatest common divisor is larger, only multiples of it can be produced by integer combinations of the original pair. That is the compatibility restriction in a broader form."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Be careful about the meaning of negative coefficients. Eight copies of twenty-two minus five copies of thirty-five is a valid integer calculation. It does not mean that a packing problem allows negative packs or that a practical measuring operation can be performed with no other constraints. Algebra permits subtraction; a physical process may restrict which steps are possible and in what order. The equation proves an arithmetic relationship. To turn it into a recipe for a real task, we would have to check the additional rules. Keeping those levels separate prevents a mathematically valid construction from becoming an impractical instruction."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Fourth recall question. On a cycle of twelve positions, repeated jumps of eight visit how many positions before returning to the start, and how does the greatest common divisor explain the answer?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "The greatest common divisor of twelve and eight is four. Twelve divided by four is three, so the motion visits three distinct positions. Starting at zero, the sequence is zero, eight, four and back to zero. All reachable positions lie in the same remainder class modulo four because both a jump and a full circuit are multiples of four. Starting somewhere else shifts the set of visited positions but still gives three. The result concerns the specified exact cycle and jump, not every possible process that happens to involve twelve objects and a number eight."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "There is a useful way to check claims about the greatest common divisor by constructing a numerical certificate. For eighty-four and thirty, the remainder chain can be worked backwards to give six equals three times thirty minus eighty-four. Any common divisor of eighty-four and thirty must divide that combination and therefore divide six. At the same time, six divides both originals. Together those facts prove it is their greatest common divisor. The certificate compresses a longer explanation into a short equality plus two divisibility checks. It is especially helpful when someone supplies an answer and you want a clear reason to accept it."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "The certificate also exposes an incorrect answer. Suppose someone proposes twelve as the greatest common divisor of eighty-four and thirty. Twelve divides eighty-four, but not thirty, so it fails immediately. Suppose they propose three. Three divides both, but six is a larger common divisor, so the greatest part fails. A valid answer must satisfy both conditions. In many problems, finding a feasible solution is easier than proving it optimal. Here the algorithm gives both: a common divisor and a reason no larger one can survive the same constraints. Checking only feasibility would miss the second type of error."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "A computer implementation must preserve the old values while forming the next pair. Start with two positive integers. While the second is nonzero, calculate the remainder of the first divided by the second, then replace the pair with the old second number and that remainder. Return the first number when the second becomes zero. If you overwrite the first value too early and then calculate the remainder from the changed pair, you have implemented a different procedure. The mathematics justifies a particular update, not any sequence of assignments that mentions the same variables. Writing the remainder into a temporary place makes that dependency explicit."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "For a private application, choose two modest positive whole-number quantities on paper, such as seventy-two and forty-eight. Imagine they are supplies for identical packs, without purchasing or cutting anything. Write the first division as seventy-two equals one times forty-eight plus twenty-four. Then write forty-eight equals two times twenty-four plus zero. The greatest common divisor is twenty-four. Interpret that as twenty-four identical packs, each containing three of the first item and two of the second. Finally check the reconstruction: twenty-four times three is seventy-two, and twenty-four times two is forty-eight. The practical goal is accurate modelling and checking, not speed."
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Now change the question while keeping the numbers. Suppose the two numbers describe ideal repeating intervals that start together. The desired result becomes their least common multiple. Seventy-two times forty-eight divided by twenty-four is one hundred and forty-four. The first interval fits twice and the second fits three times. This contrast is the exercise's important second half. The same inputs can require different operations because the relationships in the question differ. Write one sentence explaining why the packing answer is a divisor and the repetition answer is a multiple. If that sentence is clear, the arithmetic has a meaning you can transfer."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "Fifth recall question. What two separate facts establish that a proposed number is the greatest common divisor, and why is checking that it divides both original numbers insufficient by itself?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "The number must divide both originals, and no larger positive number may divide them both. Dividing both establishes only that it is a common divisor. Three divides eighty-four and thirty, but six also divides them and is larger. The Euclidean algorithm preserves the complete set of common divisors while reducing the pair to a case where the greatest member is obvious. A backward integer-combination certificate can provide another check. The answer is therefore supported by a feasibility test and a maximality argument, not just by a successful division that happens to produce no remainder."
+    },
+    {
+      "v": "ash",
+      "i": "Teach naturally and clearly. Articulate whole-number arithmetic and units. Distinguish exact mathematical models from approximate physical measurements. Do not slow artificially.",
+      "t": "When a calculation becomes confusing, return to the relationship being preserved. Complete groups can be removed from complete groups without changing which group sizes fit both quantities. Repeating that observation creates a terminating algorithm. The same shared structure explains reduced fractions, equal packs, aligned square tiling, cycle reachability and compatibility between repeating schedules. Each application adds its own units and constraints. The arithmetic is exact, but choosing the right model remains part of the work. A remainder is not merely unwanted leftover material; in this method it carries precisely the information needed to make a large problem smaller."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-10-25",
+    "spoken_words": 7050,
+    "sha256": "921a13807a61d2a542be97a79aecfd7063f252f0cb0ec512a0c08dfb5c86e9b6",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://www.claymath.org/library/historical/euclid/files/elem.7.1.html",
+      "https://www.claymath.org/library/historical/euclid/files/elem.7.2.html",
+      "https://www.claymath.org/library/historical/euclid/files/elem.7.3.html",
+      "https://mathcs.clarku.edu/~djoyce/elements/bookVII/propVII2.html",
+      "https://www.math-cs.gordon.edu/ntic/ntic2023/section-gcd.html",
+      "https://math-cs.gordon.edu/ntic/ntic2021-7/section-solve-lin-cong.html",
+      "https://math.gordon.edu/ntic/ntic.pdf"
+    ]
+  }
+}
