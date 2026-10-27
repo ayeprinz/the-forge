@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-27",
+  "spoken_characters": 46163,
+  "voices": {
+    "ash": {
+      "integrated_lufs": -16.53,
+      "true_peak": -1.32
+    },
+    "sage": {
+      "integrated_lufs": -16.74,
+      "true_peak": -0.78
+    }
+  },
+  "speech_minutes": 52.84,
+  "duration_seconds": 3230.83,
+  "voice_difference_lu": 0.21,
+  "usage": {
+    "usd": 0.9077567999999998,
+    "calls": 79,
+    "uncertain": false
+  },
+  "revision": "2026-10-27"
+}
