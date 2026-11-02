@@ -382,6 +382,13 @@
       "status": "reserved",
       "run_id": "41296929781",
       "attempt": "1"
+    },
+    "2026-11-02": {
+      "reserved_usd": 2,
+      "month": "2026-11",
+      "status": "reserved",
+      "run_id": "41423857327",
+      "attempt": "1"
     }
   }
 }
