@@ -9,6 +9,15 @@
     <itunes:explicit>true</itunes:explicit>
     <itunes:image href="https://ayeprinz.github.io/the-forge/forge-cover-v2.jpg"/>
     <item>
+      <title>[Computing] How Algorithms Find and Sort Information</title>
+      <description>Linear and binary search, invariants, growth bounds, preparation cost, insertion sort, selection sort, merge sort, ties, representations and search boundaries. Original worked traces and arithmetic, five recall questions and one paper-card application. NIST Dictionary of Algorithms and Data Structures and Python bisection documentation consulted: https://xlinux.nist.gov/dads/HTML/linearSearch.html https://xlinux.nist.gov/dads/HTML/binarySearch.html https://xlinux.nist.gov/dads/HTML/bigOnotation.html https://xlinux.nist.gov/dads/HTML/insertionSort.html https://xlinux.nist.gov/dads/HTML/selectionSort.html https://xlinux.nist.gov/dads/HTML/merge.html https://xlinux.nist.gov/dads/HTML/mergesort.html https://xlinux.nist.gov/dads/HTML/stable.html https://docs.python.org/3/library/bisect.html</description>
+      <pubDate>Wed, 04 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2026-11-04</guid>
+      <enclosure url="https://ayeprinz.github.io/the-forge/audio/2026-11-04.mp3" length="18644348" type="audio/mpeg"/>
+      <itunes:duration>00:51:47</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+    </item>
+    <item>
       <title>[Political Philosophy] Mill: Freedom, Social Pressure and the Right to Interfere</title>
       <description>John Stuart Mill’s On Liberty: the harm principle, majority power, social coercion, individuality, obligations, informed choice, speech, competition and future freedom. Developed fictional cases, five recall questions and one private studio-dispute exercise. Primary source, selected passages from chapters one through five: https://www.gutenberg.org/cache/epub/34901/pg34901.txt https://www.gutenberg.org/cache/epub/34901/pg34901-images.html</description>
       <pubDate>Tue, 03 Nov 2026 05:00:00 +0000</pubDate>
