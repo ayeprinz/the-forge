@@ -9,6 +9,15 @@
     <itunes:explicit>true</itunes:explicit>
     <itunes:image href="https://ayeprinz.github.io/the-forge/forge-cover-v2.jpg"/>
     <item>
+      <title>[Music] How Scales Become Chords</title>
+      <description>Build major and minor scales, measure intervals, construct triads and seventh chords, distinguish inversions from spacing, trace voice leading and transpose a progression. Five recall questions and a paper arrangement with an answer. Foundations from Carl E. Gardner, Essentials of Music Theory (1912), chapters II and III with limited mathematical acoustics; historical prescriptions distinguished from universal claims. Modern cross-checks from Open Music Theory and Iowa State Comprehensive Musicianship. Sources: https://www.gutenberg.org/cache/epub/65500/pg65500-images.html https://viva.pressbooks.pub/openmusictheory/chapter/intro-to-harmony/ https://viva.pressbooks.pub/openmusictheory/chapter/inversion/ https://iastate.pressbooks.pub/comprehensivemusicianship/chapter/10-5-part-writing-seventh-chords-tutorial/</description>
+      <pubDate>Thu, 05 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2026-11-05</guid>
+      <enclosure url="https://ayeprinz.github.io/the-forge/audio/2026-11-05.mp3" length="18455420" type="audio/mpeg"/>
+      <itunes:duration>00:51:15</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+    </item>
+    <item>
       <title>[Computing] How Algorithms Find and Sort Information</title>
       <description>Linear and binary search, invariants, growth bounds, preparation cost, insertion sort, selection sort, merge sort, ties, representations and search boundaries. Original worked traces and arithmetic, five recall questions and one paper-card application. NIST Dictionary of Algorithms and Data Structures and Python bisection documentation consulted: https://xlinux.nist.gov/dads/HTML/linearSearch.html https://xlinux.nist.gov/dads/HTML/binarySearch.html https://xlinux.nist.gov/dads/HTML/bigOnotation.html https://xlinux.nist.gov/dads/HTML/insertionSort.html https://xlinux.nist.gov/dads/HTML/selectionSort.html https://xlinux.nist.gov/dads/HTML/merge.html https://xlinux.nist.gov/dads/HTML/mergesort.html https://xlinux.nist.gov/dads/HTML/stable.html https://docs.python.org/3/library/bisect.html</description>
       <pubDate>Wed, 04 Nov 2026 05:00:00 +0000</pubDate>
