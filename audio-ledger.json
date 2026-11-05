@@ -403,6 +403,13 @@
       "status": "reserved",
       "run_id": "41816112896",
       "attempt": "1"
+    },
+    "2026-11-05": {
+      "reserved_usd": 2,
+      "month": "2026-11",
+      "status": "reserved",
+      "run_id": "42012643420",
+      "attempt": "1"
     }
   }
 }
