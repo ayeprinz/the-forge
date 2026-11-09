@@ -1,0 +1,398 @@
+{
+  "date": "2026-12-05",
+  "title": "[Optics] How Mirrors and Lenses Make an Image",
+  "summary": "Follow light from individual object points through mirrors and lenses. Construct real and virtual images, calculate focus and magnification, and distinguish defocus, aperture effects and optical limits. Includes five recall questions and a paper ray-diagram exercise.",
+  "instructions": "A substantive two-voice lesson. Both voices teach. Speak equations and numbers clearly without artificial slowing. Treat ray diagrams as ideal models, distinguish real from virtual paths, and preserve five seven-second recall pauses.",
+  "turns": [
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "A mirror can show you a room that is behind you, while a camera lens can put an upside-down image of that room onto a sensor. Neither device needs to recognise a chair or know which way is up. It changes the directions in which light travels. To understand the resulting picture, we can begin with one point on one object and ask where several rays from that point go. If we can explain that one point, we can repeat the construction for the others. An image is a relationship between many object points and many image points, built from the paths of light."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Let our object be a small red arrow drawn on white card. Ordinary room light reaches the card and some of it travels from the card toward our eyes. The arrow does not have to produce its own light. We see it because light from its surface reaches us. Now select the very tip of the arrow. Light leaves that small region in many directions. Some directions miss our eyes entirely. Others enter a mirror or lens. We will draw a few chosen paths, not because the other light disappears, but because a few well-chosen paths can reveal the geometry of the whole arrangement."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "A ray is a line used to represent a direction of light travel. It is part of a model. In the situations we will consider, light travels in straight lines within a uniform material and changes direction at an interface. This approach is called geometric optics. It is useful when the relevant objects and openings are large compared with the wavelength of the light. It does not explain every optical effect. Interference and diffraction require a wave treatment. For now, the useful question is narrower: given a mirror or an ideal thin lens, where will the rays go and where will an image appear?"
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Keep the object, the light and the image separate. The red arrow is an object. The rays are paths along which light travels. An image is the arrangement that those rays produce or appear to come from after interacting with the optical device. Confusing these three things creates surprisingly persistent errors. Someone may imagine that a lens takes a tiny complete picture through its centre, then stretches it. Instead, light from each point spreads across the available lens, and the lens redirects that collection. We will return to this distinction when we cover half a lens and ask whether half the image disappears."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Begin with a flat mirror standing vertically on a table. Draw its surface as a straight vertical line in a view from above. At the point where a ray meets it, draw another line at a right angle to the mirror. That line is the normal. The angle between the arriving ray and the normal equals the angle between the departing ray and the normal. These are the angle of incidence and the angle of reflection. Both are measured from the normal, not from the mirror surface. Naming the reference line matters as much as naming the number."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Suppose the incoming ray makes thirty degrees with the normal. Its reflected ray makes thirty degrees on the other side of that normal. Each makes sixty degrees with the mirror itself. If another person says the incidence angle is sixty degrees because they have measured from the surface, their drawing might be physically correct while their stated angle uses the wrong convention. Before correcting the path, check the labels. In practical calculations, an unnoticed change of reference can turn a correct observation into an incorrect answer. A ray arriving along the normal has an incidence angle of zero and returns along the same line."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "We can use this rule to locate the image of our arrow tip. Put the tip twenty centimetres in front of the mirror. Draw two different rays from it to two different places on the mirror, and reflect each using equal angles. The reflected rays travel back into the space in front of the mirror. They do not meet behind it. However, if you extend their straight lines backward through the mirror on paper, those extensions meet at a point twenty centimetres behind the surface. That is where this reflected light appears to originate. It is the image point corresponding to the arrow tip."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "The backward extensions are a drawing device. They are not light passing through the mirror and assembling a second red arrow in the wall. This distinction gives us the term virtual image. The rays reaching an observer spread as though they came from that image position, but they did not actually pass through it. A flat mirror produces such an image for an ordinary object in front of it. The image has a definite geometrical location even though no physical arrow occupies that location. Calling it virtual does not mean that its position is arbitrary or that the light reaching your eye is imaginary."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "We can derive the equal-distance result without tracing dozens of rays. Reflect the object point across the mirror line on your drawing, placing a candidate image the same perpendicular distance behind the surface. Join that candidate image to any chosen point on the mirror. Continue the line into the space in front. The two triangles on opposite sides of the mirror have matching perpendicular distances, and their geometry makes the arriving and departing angles equal. Every allowed reflection from the object therefore agrees with the same candidate image point. The image location is a consequence of the reflection rule, not an extra rule that has to be memorised independently."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Now place an observer thirty centimetres in front of the mirror, looking at the arrow image. The arrow remains twenty centimetres in front of it. Along the perpendicular direction, the observer is fifty centimetres from the image position: thirty to the surface, then another twenty to the virtual point. That does not mean light travelled through fifty centimetres of space behind the mirror. It means the reflected rays have the directional relationship associated with that apparent distance. If the object and observer are offset sideways, the straight-line distance to the image also includes that sideways separation. We should not add perpendicular distances and mistake the sum for every possible viewing distance."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "A useful construction for an offset observer is to draw a straight line from the observer to the virtual image. Where that line crosses the mirror tells you where the actual reflection must occur. Connect that crossing point to the real object. You have found the two physical segments of the path: object to mirror, then mirror to eye. This construction also tells you whether the mirror is large enough. If the crossing point lies beyond its edge, that ray cannot reach the observer through the mirror. The image can have a valid geometrical position while a particular observer has no view of it through a small mirror."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Imagine a narrow mirror that shows the tip of the arrow but not its base. Moving your head can change which part becomes visible. The hidden portion of the image has not necessarily moved to a different location. The available paths into your eye have changed. This is a useful distinction between image formation and field of view. An optical arrangement can determine where an image belongs, while the size and placement of its surfaces restrict how much of the image you can see. A tiny mirror is therefore not always making a tiny complete copy. It may simply give you access to a limited set of reflected paths."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "First recall question. An object point is twenty centimetres in front of a flat mirror. Where is its image, and what makes that image virtual? Also state the reference line used when measuring the angle of reflection.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "The image point is twenty centimetres behind the mirror. Reflected rays appear to come from that point when extended backward, but the light does not actually converge there, so the image is virtual. The reflection angle is measured from the normal, the line perpendicular to the surface at the point where the ray meets it. An angle measured from the mirror surface is the complementary angle. Keeping the image location, the actual ray path and the angle convention distinct makes the construction consistent."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "The same reflection law operates locally on a rough surface. What changes is the orientation of the small surface regions. On a smooth mirror, neighbouring regions have nearly the same normal, so neighbouring incident rays leave in a coordinated arrangement. On rough paper, the local normals vary. Light leaves in many directions, allowing people at different positions to see the page. The paper is not violating the reflection law. The geometry of the surface distributes the outgoing light. This helps explain why a polished surface can show a recognisable reflection while a matte surface usually does not form a sharp mirror image."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Consider two walls painted the same colour, one glossy and one matte. Both can send light toward you, and both may look bright. The glossy wall can also produce a concentrated reflection of a lamp from a particular viewing position. Brightness alone does not tell you whether an image will be formed. Image formation requires a useful correspondence among directions from different object points. If many directions are mixed at each viewing position, you can still receive plenty of light without seeing a clear reflected scene. The distinction is between the amount of light and the directional organisation of that light."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "A flat mirror changes direction without providing the converging action we will need for projection. To get a picture on a screen, we want rays from one object point to come together at one screen point. Rays from another object point should meet at another screen point. If rays from the arrow tip arrive across a broad patch of the screen, that point is blurred. If every object point spreads broadly, neighbouring patches overlap and the arrow loses detail. A sharp image depends on controlling the spread associated with each object point, not merely delivering some light from the object to the screen."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "A lens can create this convergence through refraction. Refraction occurs when light crosses between materials with different optical properties. For the ordinary transparent materials considered here, we describe the speed through a material using its refractive index. A higher index corresponds to a lower speed than in a material with a lower index. At an oblique boundary, the direction can change. Light entering a higher-index material bends toward the normal; light entering a lower-index material bends away from it, when a transmitted ray exists. At normal incidence, the speed can change without a change in direction."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "There is a common trap in saying that light always bends toward the glass. The relevant direction is toward the local normal, and the normal depends on the surface orientation. A flat horizontal surface and a curved surface do not supply the same normal everywhere. In a lens, different parts of the surface face different directions. The material and the shape work together. A sheet of glass with parallel faces and a curved lens can be made from similar material yet produce very different outgoing ray arrangements. To explain the difference, we must follow the light through both boundaries, not stop after its first entry."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Imagine a rectangular glass block with parallel entry and exit faces, surrounded by air. A ray enters obliquely, bends toward the normal inside, then bends away from the normal as it returns to air. In the ideal arrangement, the final ray is parallel to the original incoming ray, although displaced sideways. The first bend has not vanished; it determined the path through the block and therefore the displacement. But the two parallel interfaces produce opposite directional changes overall. A lens has differently oriented surfaces, so those changes need not cancel. This is why simply saying that glass bends light does not yet explain a lens."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "For our next construction, take an ideal thin converging lens in air. Thin means that its thickness is small enough for our simplified model to treat the changes of direction as happening at one plane. Draw the lens as a vertical line and draw a horizontal line through its centre. This horizontal line is the principal axis. Rays arriving parallel to that axis converge at a point on the far side called the focal point. The distance between the lens and that point is the focal length. We will use a focal length of ten centimetres so that the later arithmetic remains easy to follow."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "The focal point is defined for the parallel incoming bundle. It is not a command that every ray from every object must pass through that point. If all object points were sent to a single point, the lens could not form a picture. Light from an object on the axis at a finite distance arrives as a spreading bundle, and it generally comes together farther from the lens than the focal point. Light from an off-axis object point comes together off the axis. The focal point helps us construct these different images, but it should not be confused with the location of every possible image."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Put the red arrow thirty centimetres to the left of our lens, with its base on the axis and its tip two centimetres above it. We can locate the image of the tip using two convenient rays. The first travels horizontally from the tip, parallel to the axis. After the lens it heads toward the focal point ten centimetres to the right. The second goes from the tip through the centre of the ideal thin lens and continues in the same direction. Where these outgoing rays intersect is the predicted image of the arrow tip. Other rays from that same tip should agree with that location within the model."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "The central ray slopes downward because it travels from a point above the axis toward the lens centre. Continuing it beyond the centre puts it below the axis. The parallel ray starts above the axis at the lens and then heads down toward the focal point. Beyond that point it also continues below the axis. Their intersection lies to the right of the lens and below the axis. That gives us two qualitative results before calculation: the image is real, because the outgoing rays actually meet, and it is inverted, because the arrow tip is mapped below the image of the base."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "A screen placed at that intersection can receive light from the tip in a small region. Repeating the construction for the arrow base and the points between gives a complete inverted arrow. The screen does not make the rays converge; the lens does that. The screen intercepts the light and scatters some toward observers, making the pattern visible from different positions. Remove the screen and the rays still travel through the image region and continue beyond it. A real image is therefore not defined by the permanent presence of a screen. The screen provides a way to display or detect it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Let us calculate where the two rays meet, using simple similar triangles. Our object distance is thirty centimetres. Suppose the image distance is fifteen centimetres. The central ray has travelled half as far beyond the lens as it travelled before it. Because it continues in a straight line, its distance below the axis is half the original tip height. It is one centimetre below. Now check the other ray. It begins two centimetres above the axis at the lens, reaches the axis after ten centimetres, then travels another five centimetres. That extra half of the focal distance takes it one further centimetre below the axis. Both constructions agree."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "The result is an image fifteen centimetres to the right, with a height of one centimetre below the axis. Its height is half the object height. We can express the signed magnification as negative one half. The magnitude, one half, says how the linear size compares. The negative sign records inversion in our convention. It does not mean negative brightness, negative usefulness or a physically impossible picture. A sign is information about orientation. If we discard it because a height seems unable to be negative, we lose precisely the distinction that the ray drawing revealed."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "The general relationship is the thin-lens equation. One divided by the focal length equals one divided by the object distance plus one divided by the image distance. We will call an ordinary object distance positive. For a converging lens the focal length is positive. An image formed by actual outgoing convergence on the opposite side has positive image distance. Under this convention, a virtual image on the incoming side has negative image distance. Other conventions exist, so the important requirement is consistency. We will keep this same convention throughout rather than switching signs when a result looks unfamiliar."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "For the thirty-centimetre object, one over ten equals one over thirty plus one over the image distance. Subtract one over thirty from one over ten. In thirtieths, that is three thirtieths minus one thirtieth, leaving two thirtieths, or one fifteenth. So the image distance is fifteen centimetres. Notice that we have subtracted reciprocals, not distances. Ten minus thirty is not the calculation. The units of the intermediate terms are inverse centimetres. Only after finding one over the image distance do we take the reciprocal to obtain the distance itself."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "A quick numerical check can catch a wrong answer. If someone proposed an image distance of twenty centimetres, the two reciprocals would be one thirtieth plus one twentieth. Their sum is five sixtieths, or one twelfth, which does not equal one tenth. That proposed image position cannot satisfy the lens equation for this object and lens. We can also check against the ray diagram. At twenty centimetres, the central ray is one and one third centimetres below the axis, while the ray through the focal point is two centimetres below. They have already crossed at fifteen and are separating again."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "This separation explains defocus. Put a screen at twenty centimetres instead of fifteen and light from the arrow tip no longer lands at one point. Different rays cross the screen at different heights. The screen receives a blur patch for that object point. Moving the screen toward the correct position reduces that spread. This gives a concrete meaning to focusing: arranging the receiving surface and optical system so that light from each relevant object point is brought into the smallest useful region. Brightening the lamp may make the blurry image easier to see, but it does not by itself put the screen at the image plane."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Second recall question. A converging thin lens has a focal length of ten centimetres, and an arrow stands thirty centimetres in front of it. Where does the image form? Is it real or virtual, and how do its size and orientation compare with the object?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "The image forms fifteen centimetres beyond the lens. The rays actually converge there, making it a real image that can be caught on a screen. Its linear size is half the object's size, and it is inverted. The signed magnification is negative fifteen divided by thirty, or negative one half. The equation checks because one thirtieth plus one fifteenth equals one tenth. These numerical and geometrical checks describe the same arrangement from different directions."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Now move the arrow to twenty centimetres from the lens, keeping the focal length at ten. One over the image distance equals one tenth minus one twentieth, which is one twentieth. The image forms twenty centimetres beyond the lens. The distance ratio is one, so the image has the same linear size as the object, with inversion. This position is twice the focal length on each side. It gives us a useful landmark. Moving the object from thirty to twenty centimetres has moved the image farther away, from fifteen to twenty, and increased its size from half-size to full-size."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Move it closer again, to fifteen centimetres. Now one over the image distance equals one tenth minus one fifteenth. In thirtieths, that is three thirtieths minus two thirtieths, leaving one thirtieth. The image forms thirty centimetres away. Its size is twice the object size and it remains inverted. We have exchanged the earlier object and image distances. That exchange reflects the reversible geometry of the ideal paths. A ray can trace the same route in the opposite direction under these conditions. The two arrangements therefore fit together rather than being unrelated examples that happen to use the same numbers."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "This is a simple model of projection. An object placed between one and two focal lengths from a converging lens can produce an enlarged real image farther away. The lens is not creating new detail merely because the picture is larger. If the original arrow has a poorly defined edge, enlargement displays that poor definition at a larger scale. Likewise, a screen can only show the detail carried through the optical system. Magnification describes size. It does not guarantee resolution, contrast or brightness. Those are separate properties, and a useful optical instrument has to manage them together."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Suppose our two-centimetre arrow produces a four-centimetre image at the fifteen-centimetre object position. If we also draw a tiny mark one millimetre from the arrow's edge, the ideal model maps that separation to two millimetres in the image. The separation doubles along with the arrow height. But whether an actual lens and screen let us distinguish that mark depends on blur and contrast. If each point spreads over several millimetres, the larger separation may still be lost. The arithmetic of magnification can be correct while the practical image fails to reveal the desired feature."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "The limit as the object approaches the focal point is especially instructive. Put the object eleven centimetres from the ten-centimetre lens. One over the image distance is one tenth minus one eleventh. That is one over one hundred and ten, so the image distance is one hundred and ten centimetres. A one-centimetre change from an object distance of eleven toward ten has a much larger effect than a one-centimetre change far from the lens. Optical relationships are not generally linear in distance. Equal movements of the object need not cause equal movements of the image."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "At exactly ten centimetres, the reciprocal image distance becomes zero. In the ideal model, the outgoing rays from one object point are parallel, so they do not meet at any finite distance. We sometimes describe the image as being at infinity. This is a statement about the geometry, not a claim that light travels instantaneously to a place called infinity. A screen a metre away does not produce a sharp finite image simply because it is quite far away. The bundle has no finite convergence point under this exact ideal condition. Real arrangements have tolerances, but the model helps explain their sensitivity near the focal setting."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "What happens if we move the arrow inside that focal distance? Put it six centimetres from the lens. A converging lens still redirects its rays inward compared with their incoming directions, but the incoming bundle is now spreading so strongly that the outgoing rays continue to spread. They do not meet on the far side. Extend them backward on paper, and their extensions meet on the object's side. The result is a virtual image. This is the geometry used by a simple magnifying glass when held close enough to its object. The same converging lens can form either a real or a virtual image depending on object position."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "The equation gives a precise location for that virtual image. One over the image distance equals one tenth minus one sixth. In thirtieths, that is three thirtieths minus five thirtieths, or negative two thirtieths. The image distance is therefore negative fifteen centimetres. Under our convention, the negative sign places it fifteen centimetres on the incoming side of the lens. The signed magnification is negative image distance divided by object distance. Negative negative fifteen divided by six gives positive two and a half. The image is upright and has two and a half times the object's linear dimensions."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "A two-centimetre arrow therefore has a virtual image five centimetres high in this model. That does not imply that a five-centimetre arrow has been projected onto the original card. The apparent image lies farther back than the card, and an observer looks through the lens at the emerging rays. A screen placed at the virtual image location cannot catch those emerging rays there, because they are travelling on the other side of the lens. The image can be visible through the optical system without being directly projectable onto a screen at its apparent location. Visibility and projectability are different tests."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Compare the flat mirror and magnifying glass. Both can produce virtual images, but their geometry differs. The flat mirror places an ordinary object's image the same perpendicular distance behind the surface, with unchanged linear size. Our converging lens with the object inside its focal length places the image on the object's side and enlarges it. The label virtual tells us about whether outgoing rays actually meet at the image point. It does not tell us the image size, its brightness or the particular device that produced it. We need the rest of the construction to answer those questions."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "We should also separate linear magnification from apparent angular size. A five-centimetre image seen from a long distance may subtend a smaller angle than a two-centimetre object held much nearer. Angular size is the spread of directions from your eye to the top and bottom. Optical instruments used for viewing are often discussed in terms of angular magnification, which involves a comparison with a specified way of viewing the object directly. Our calculation of two and a half is a linear image-to-object ratio. It is not automatically the same as every magnification number printed on a commercial magnifier."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "This distinction can be understood without any lens. Imagine two identical arrows, one close and one far away. Their physical heights are equal, but the nearby arrow occupies a larger part of your visual field. Now imagine a larger arrow far enough away that it occupies the same angle as the small nearby one. Equal angular size does not require equal physical size. When a lens changes both apparent image size and apparent image location, those two changes jointly affect the angle at the observer. That is why a careful explanation specifies which kind of magnification it is measuring."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "A diverging lens gives us another contrast. For an ordinary real object in front of a single diverging lens, the emerging rays spread, and their backward extensions form an upright, smaller virtual image. We assign the lens a negative focal length in our convention. Use a focal length of negative ten centimetres and an object distance of thirty centimetres. One over the image distance equals negative one tenth minus one thirtieth. That is negative four thirtieths, or negative two fifteenths. Taking the reciprocal gives negative seven and a half centimetres. The image lies between the lens and the object."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Its signed magnification is negative negative seven and a half divided by thirty, which is positive one quarter. Our two-centimetre arrow has a virtual image half a centimetre high. This calculation gives three mutually consistent features: negative image distance, positive magnification and a magnitude less than one. The image is virtual, upright and reduced. If our drawing instead showed a large inverted real image for this same simple arrangement, we would need to revisit the construction. Equations and ray diagrams are most useful when they check each other rather than becoming separate rituals that never have to agree."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "The word diverging describes what the lens does to a parallel incoming bundle. It should not be stretched into a claim that such a lens can never participate in a system that ultimately forms a real image. Several lenses can act in sequence. A bundle may already be converging when it reaches a diverging element, and the element may reduce that convergence without eliminating it. Our conclusion about an upright reduced virtual image applies to the stated setup: one diverging lens and an ordinary real object in front of it. Conditions belong with conclusions, especially when the same component can be used in more complicated instruments."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Third recall question. With the same ten-centimetre converging lens, what changes when the object moves from fifteen centimetres away to six centimetres away? Give the image type and orientation in both cases, and explain why a negative image distance is useful rather than an error.",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "At fifteen centimetres, the image is real, inverted and thirty centimetres beyond the lens. At six centimetres, the image is virtual, upright and fifteen centimetres on the object's side, so its signed distance is negative fifteen. That negative sign records which side contains the backward intersection of the outgoing ray lines. It tells us that the rays do not actually converge there. The lens has not changed identity. Moving the object across the focal distance changes how much the incoming bundle spreads and whether the lens produces actual convergence on the far side."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Return to our real image with object distance thirty and image distance fifteen. Suppose we cover the upper half of the lens with an opaque card. A tempting prediction is that the upper half of the arrow image will disappear. But the tip of the arrow sends light toward many parts of the lens, including the lower half. So does the base. Blocking half the lens removes some rays from each object point rather than assigning one half of the lens exclusively to one half of the object. In the simple unvignetted arrangement, the whole image remains, with less light reaching it."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "The qualification about the arrangement matters. Real systems can clip particular fields of view because of lens mounts, stops and viewing positions. We are not claiming that every possible partial obstruction leaves every part equally bright. We are correcting the underlying picture that a lens is a mosaic, with each patch permanently responsible for one patch of the scene. For an on-axis object and a simple unobstructed image plane, many regions of the lens contribute to each image point. That explains why reducing the opening can preserve the image while changing brightness and the range of ray directions involved."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "We can use the same example to reason about an aperture. An aperture is an opening that limits the light passing through the system. Consider a circular opening with a diameter of four centimetres, then reduce it to two centimetres. The diameter halves, but the area falls to one quarter because area depends on the square of the diameter. Under comparable illumination and ignoring other losses, the smaller opening admits about one quarter as much light. This is an area comparison, not a statement that every photograph becomes exactly one quarter as bright regardless of exposure settings or processing."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Why might anyone deliberately admit less light? Think about a screen slightly away from the correct focus. Rays passing through opposite edges of a wide lens reach more widely separated positions on that misplaced screen than rays confined to a narrow central opening. Restricting the bundle narrows that geometrical blur. This can make a range of object distances look acceptably sharp at a fixed receiving plane. The phrase acceptably sharp depends on the display size, viewing conditions and purpose. The points do not all magically acquire exactly the same focus. Their remaining blur has become small enough for the chosen standard."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "This helps explain depth of field. If a camera is focused on one distance, objects at other distances generally have their ideal image planes elsewhere. At the fixed sensor, their point images spread. A smaller opening can reduce that spread enough that more distances look sharp. But making the opening indefinitely smaller does not give indefinitely better detail. Diffraction becomes more important, and less light is admitted. The ray model captures the geometrical part of this tradeoff, while wave optics supplies another limit. A useful model can explain one side of a practical compromise without containing every effect that decides the best setting."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Let us distinguish three different reasons for an unclear image. Defocus means that the receiving plane is misplaced relative to where a bundle would best converge. Aberration means the real optical system does not bring the relevant rays together as perfectly as the ideal model predicts. Motion blur means the scene or camera moves during the exposure, spreading the recorded contribution over time. Moving the screen can help the first problem, but it does not generally solve the other two. Before applying a correction, identify what kind of spread is producing the blur. Similar appearances can have different causes."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Colour introduces another limitation. A material's refractive index can depend on wavelength, so different colours may be refracted differently. A simple lens can therefore bring different colours to different best-focus positions, producing colour fringes or softness. This is called chromatic aberration. More elaborate optical designs use combinations of elements and materials to reduce such errors. We do not need their full design equations to understand the problem. Our ideal construction assumed a single agreed focal behaviour. If the focal behaviour differs across the light being used, one screen position may not satisfy all those contributions equally well."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Another idealisation concerns rays far from the axis. The convenient thin-lens rules work best in the small-angle, near-axis regime for suitable lenses. Real spherical surfaces do not necessarily direct all rays from one point into one exact point, particularly across wide openings. The word ideal is doing practical work here. It identifies what the diagram is designed to predict and where deviations may arise. It does not make the diagram useless. We can first obtain the main image location and orientation, then investigate the departures that matter for a particular instrument. Starting with every complication at once would obscure the structure we need to interpret them."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Fourth recall question. In the simple lens arrangement, why does covering half the lens usually dim the whole image rather than remove half the picture? And why can reducing an aperture improve the apparent sharpness of objects away from the chosen focus while still involving a tradeoff?",
+      "pause_after": 7
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Each object point sends rays through many parts of the lens, so covering half removes some contributions from many image points. The remaining rays can still form the whole image. A smaller aperture restricts the range of ray directions, reducing geometrical blur at a receiving plane that is slightly away from ideal focus. It also admits less light, and sufficiently small openings make diffraction more important. Reduced blur from defocus therefore does not mean unlimited improvement in detail. The benefit has to be considered alongside the light loss and wave effects."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "We can now reason through a small design problem. Suppose a display uses a ten-centimetre converging lens to project a two-centimetre arrow as an eight-centimetre image. We want fourfold linear enlargement, and a real image will be inverted. The magnitude of the image-distance-to-object-distance ratio must therefore be four. In words, the image distance must be four times the object distance. We also have the lens equation. These are two conditions on the same arrangement. One sets the desired size ratio; the other ensures that rays actually meet at the chosen receiving plane."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Substitute four times the object distance for the image distance. One over ten equals one over the object distance plus one over four times that distance. Together those terms equal five over four times the object distance. Solving gives an object distance of twelve and a half centimetres, followed by an image distance of fifty centimetres. Check with ordinary reciprocals: one over twelve and a half is zero point zero eight, and one over fifty is zero point zero two. Their sum is zero point one, which is one over ten. The total object-to-screen separation is sixty-two and a half centimetres."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "This design also passes a qualitative check. The object lies between ten and twenty centimetres, which is between one and two focal lengths. We expect an enlarged inverted real image, exactly what the calculation gives. If we had accidentally obtained an object distance of five centimetres, that would put the object inside the focal length and contradict the requirement for this directly projected real image. A useful check does not repeat the same arithmetic. It asks whether the answer belongs to the physical regime we intended. The size ratio, reciprocal equation and ray geometry provide different opportunities to notice a mistake."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Now imagine the available table only allows forty centimetres between the object and the screen. Can we fit that same fourfold arrangement by sliding the ten-centimetre lens around? The solution we just derived needs sixty-two and a half centimetres. Sliding the lens cannot satisfy incompatible distance requirements. To preserve fourfold magnification within forty centimetres total, the object distance would have to be eight centimetres and the image distance thirty-two. Their reciprocals sum to five thirty-seconds, so the required focal length would be six point four centimetres. We would need a different optical design rather than more persistent adjustment of the same lens."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "This illustrates the difference between focusing and choosing a focal length. Focusing an ideal fixed lens for a chosen object distance means finding the compatible image plane, or adjusting the object-lens relationship to suit an existing receiving plane. Changing focal length changes the relationship itself. In a real camera, several lens elements may move to focus or zoom, so the mechanics can be more complicated than our single-lens picture. But the distinction remains useful: an adjustment that changes where a given object forms its sharp image is not automatically the same adjustment as one that changes the optical system's focal length."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "For a low-risk practical application, use paper, a pencil and a ruler. No bright light source or physical lens is needed. Draw a horizontal axis and mark a lens position in the middle of the page. Choose a scale in which one centimetre on paper represents five centimetres in the optical arrangement. Our ten-centimetre focal length becomes two centimetres on paper. Mark focal points two centimetres to either side of the lens. Place an object arrow six centimetres to the left on paper, representing the thirty-centimetre object distance. Make the drawn arrow one centimetre high so that its image is easy to measure."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "From the arrow tip, draw a horizontal ray to the lens, then continue it through the right-hand focal point. Draw a second ray from the same tip through the lens centre and continue it straight. They should meet three centimetres to the right of the lens and half a centimetre below the axis. Those drawn dimensions correspond to an image distance of fifteen centimetres and half-size inversion. Your chosen arrow height represents five centimetres in the model, so its corresponding image height represents two and a half. The distance scale and height scale are consistent because both use the same factor."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "On a second sheet, keep the lens and focal marks but move the drawn object to one point two centimetres left of the lens, representing six centimetres. Draw the same two selected rays. On the right, they should diverge rather than meet. Extend those outgoing straight lines backward with dotted lines. Their extensions should meet three centimetres to the left, representing the negative fifteen-centimetre image distance. The image should be upright and two and a half times the drawn object height. Dotted extensions let you distinguish the inferred location from the actual outgoing paths. That visual distinction is the main purpose of the exercise."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "If the drawing and calculation disagree, inspect the construction before blaming the model. Did the horizontal incoming ray pass through the correct far focal point after the converging lens? Did the central ray continue straight? Did you begin both rays at the same object point? Starting one ray at the tip and another at the base will locate no meaningful image of either point. Also check your ruler scale and whether you extended the outgoing rays backward rather than inventing a new bend. These are specific, testable sources of error. Correcting them teaches more than repeatedly redrawing until the picture looks familiar."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "Fifth recall question. A ten-centimetre converging lens must project an object at four times its original linear size. What object and image distances satisfy that requirement? Why would a forty-centimetre total separation be incompatible with the same lens and magnification?",
+      "pause_after": 7
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "The object must be twelve and a half centimetres from the lens, with the image fifty centimetres beyond it. The ratio is four, and the reciprocals sum to one tenth. Their total separation is sixty-two and a half centimetres. A forty-centimetre separation at the same size ratio would require distances of eight and thirty-two centimetres. Those distances require a focal length of six point four centimetres, not ten. Sliding the original lens cannot satisfy all three demands at once. The conflict is in the geometry, so a different focal length or a different target magnification is needed."
+    },
+    {
+      "v": "sage",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "One final extension turns the paper exercise into an explanation you can test. Cover the drawn upper half of the lens with a small scrap of paper and ask which actual paths would be removed. Your two convenient construction rays might now be blocked, but that does not mean the corresponding image point ceases to exist. Draw another ray from the same object tip through an uncovered lens region toward the already established real image point. The special rays were tools for locating the point, not the only rays allowed to reach it. Recognising that difference connects the diagram to the dimmer whole image predicted earlier."
+    },
+    {
+      "v": "ash",
+      "i": "Teach clearly at a natural pace. Explain geometric constructions carefully. Preserve the recall pause.",
+      "t": "The next time a reflected or projected picture surprises you, select one object point and follow its light. Ask whether outgoing rays really meet or merely appear to come from a meeting point behind them. Then separate image position, orientation, size and visibility rather than compressing them into the single word image. For a mirror, the local normal determines the reflection. For a lens, surface shape and refraction determine the redirection, while object distance determines how the incoming bundle spreads. Those concrete relationships let you explain why a picture moves, flips, enlarges or blurs, and identify which change in the arrangement could actually correct it."
+    }
+  ],
+  "editorial_review": {
+    "status": "approved",
+    "date": "2026-11-07",
+    "spoken_words": 7061,
+    "sha256": "0a395456022d9dd51ebcc51640b42a14d6a75375632a1f4babe84979c9eb3d84",
+    "checks": [
+      "subject-first",
+      "distinct-explanations",
+      "source-support",
+      "worked-arithmetic",
+      "dialogue-continuity",
+      "five-recall-answers",
+      "practical-application"
+    ],
+    "source_urls": [
+      "https://openstax.org/books/physics/pages/16-1-reflection",
+      "https://openstax.org/books/physics/pages/16-2-refraction",
+      "https://openstax.org/books/physics/pages/16-3-lenses"
+    ]
+  }
+}
