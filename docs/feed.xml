@@ -9,6 +9,15 @@
     <itunes:explicit>true</itunes:explicit>
     <itunes:image href="https://ayeprinz.github.io/the-forge/forge-cover-v2.jpg"/>
     <item>
+      <title>[Literature] Frankenstein: Creation, Responsibility and Revenge</title>
+      <description>Explore Mary Shelley through selected scenes of creation, care, education, rejection, the proposed companion, revenge and Walton’s return. Distinguish narrated events from interpretation and compare competing accounts of responsibility. Includes plot spoilers, five recall questions and a paper perspective-writing exercise. Primary source consulted: https://www.gutenberg.org/files/84/84-h/84-h.htm</description>
+      <pubDate>Fri, 20 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2026-11-20</guid>
+      <enclosure url="https://ayeprinz.github.io/the-forge/audio/2026-11-20.mp3" length="19459964" type="audio/mpeg"/>
+      <itunes:duration>00:54:03</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+    </item>
+    <item>
       <title>[Project Management] Which Task Actually Sets the Finish Date</title>
       <description>Critical paths, forward and backward scheduling, shared float, resource conflicts, calendars and the cost of shortening a project. Original exhibition network and probability examples, five recall questions and a paper-only planning application. Informed by Project Management, second edition, chapter 10 by Adrienne Watt, Merrie Barron and Andrew Barron (CC BY-NC-SA 4.0), and chapter 11 by Adrienne Watt, TAP-a-PM, Project Management Open Resources, Merrie Barron, Andrew Barron and David Wiley et al. (CC BY-SA 4.0, except noted material). Original dialogue and original cases; no copied figures, quotations or source examples. Also consults Microsoft Project documentation for float definitions, PMI for compression terminology, and OpenStax Foundations of Information Systems 9.2 for scope and monitoring. This original teaching dialogue is shared under CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/ . Sources: https://opentextbc.ca/projectmanagement/chapter/chapter-10-project-schedule-planning-project-management/ https://opentextbc.ca/projectmanagement/chapter/chapter-11-resource-planning-project-management/ https://support.microsoft.com/en-us/project/manage-your-project-s-critical-path https://support.microsoft.com/en-us/project/free-slack-task-field https://www.pmi.org/learning/library/managing-crashed-fastracked-shorten-interval-project-7603 https://openstax.org/books/foundations-information-systems/pages/9-2-setting-up-and-managing-projects-for-success</description>
       <pubDate>Wed, 18 Nov 2026 05:00:00 +0000</pubDate>
