@@ -9,6 +9,15 @@
     <itunes:explicit>true</itunes:explicit>
     <itunes:image href="https://ayeprinz.github.io/the-forge/forge-cover-v2.jpg"/>
     <item>
+      <title>[Computing] How Networks Find the Shortest Route</title>
+      <description>Build a fictional town network and work through breadth-first search, Dijkstra, negative costs, modelling constraints and independent route checks. Includes five recall questions and a paper exercise. Technical reference: MIT OpenCourseWare, 6.006 Spring 2020, lectures 9, 12 and 13, Erik Demaine, Jason Ku and Justin Solomon. Original dialogue and worked examples. Reference materials: https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/ (CC BY-NC-SA; https://ocw.mit.edu/terms/).</description>
+      <pubDate>Sat, 21 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2026-11-21</guid>
+      <enclosure url="https://ayeprinz.github.io/the-forge/audio/2026-11-21.mp3" length="18432236" type="audio/mpeg"/>
+      <itunes:duration>00:51:11</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+    </item>
+    <item>
       <title>[Literature] Frankenstein: Creation, Responsibility and Revenge</title>
       <description>Explore Mary Shelley through selected scenes of creation, care, education, rejection, the proposed companion, revenge and Walton’s return. Distinguish narrated events from interpretation and compare competing accounts of responsibility. Includes plot spoilers, five recall questions and a paper perspective-writing exercise. Primary source consulted: https://www.gutenberg.org/files/84/84-h/84-h.htm</description>
       <pubDate>Fri, 20 Nov 2026 05:00:00 +0000</pubDate>
