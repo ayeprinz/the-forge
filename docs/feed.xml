@@ -9,6 +9,15 @@
     <itunes:explicit>true</itunes:explicit>
     <itunes:image href="https://ayeprinz.github.io/the-forge/forge-cover-v2.jpg"/>
     <item>
+      <title>[Oceanography] How Tide Predictions Work at a Real Coast</title>
+      <description>Explain local tide heights through differential gravity, basin response and harmonic prediction. Worked fictional harbour cases distinguish amplitude, range, phase, datums, model residuals and horizontal currents. Includes five recall questions and a paper-only practical exercise.</description>
+      <pubDate>Tue, 24 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2026-11-24</guid>
+      <enclosure url="https://ayeprinz.github.io/the-forge/audio/2026-11-24.mp3" length="18858908" type="audio/mpeg"/>
+      <itunes:duration>00:52:23</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+    </item>
+    <item>
       <title>[Philosophy] Hume: Cause, Habit and the Limits of Proof</title>
       <description>Read Hume’s argument about experience, causal expectation and necessary connection. Distinguish facts from arithmetic, examine the circularity challenge and custom, then test the limits with original clock, lamp and probability cases. Includes five recall questions and a low-risk paper exercise.</description>
       <pubDate>Mon, 23 Nov 2026 05:00:00 +0000</pubDate>
