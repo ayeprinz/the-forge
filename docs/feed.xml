@@ -9,6 +9,15 @@
     <itunes:explicit>true</itunes:explicit>
     <itunes:image href="https://ayeprinz.github.io/the-forge/forge-cover-v2.jpg"/>
     <item>
+      <title>[Art &amp; Geometry] Perspective: Draw Depth on a Flat Page</title>
+      <description>A full introduction to central projection, similar triangles, horizons, direction families, one-point and two-point perspective, equal spacing, eye height, circles and viewpoint changes. Selected explanations from G. A. Storey with original numerical cases and explicit limits. Five recall questions with seven-second pauses and answers, plus a private box-drawing exercise.</description>
+      <pubDate>Sat, 28 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2026-11-28</guid>
+      <enclosure url="https://ayeprinz.github.io/the-forge/audio/2026-11-28.mp3" length="18492716" type="audio/mpeg"/>
+      <itunes:duration>00:51:22</itunes:duration>
+      <itunes:explicit>true</itunes:explicit>
+    </item>
+    <item>
       <title>[Economics] Externalities: The Costs Missing from the Invoice</title>
       <description>A full introduction to private and social costs, marginal decisions, external benefits and alternative remedies. Original fictional workshop cases compare output reductions, charges, a sound enclosure, schedules, bargaining and standards. Develops transfer versus resource accounting, distribution, uncertainty, measurement and implementation costs. All numerical valuations are teaching assumptions. Five recall questions with seven-second pauses and answers, plus a paper-only application.</description>
       <pubDate>Fri, 27 Nov 2026 05:00:00 +0000</pubDate>
